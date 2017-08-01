@@ -1,0 +1,1491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>雷州，欢迎您！|雷州视窗|雷海网|www.LZxv.com|雷州网|雷州信息|雷州人|</title>
+<link rel="stylesheet" type="text/css" href="http://www.lzxv.com/images/css4.0/style.css">
+<link rel="stylesheet" type="text/css" href="http://www.lzxv.com/images/default/cms.css">
+<link rel="shortcut icon" type="image/ico" href="http://www.lzxv.com/images/css4.0/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="雷州 雷州视窗 雷州网 雷州人 海康人 雷州信息港 ">
+<meta name="description" content="商家促销信息一网打尽!">
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function killErr(){
+	return true;
+}
+window.onerror=killErr;
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript" src="http://www.lzxv.com/images/default/jquery-1.2.6.min.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.lzxv.com/images/default/default.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.lzxv.com/images/default/swfobject.js"></SCRIPT>
+<script type="text/javascript" src="http://www.lzxv.com/images/css4.0/sliding.js"></script>
+<body ondblclick="">
+<div class="TopContainer">
+	<div class="userinfos">
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+document.write('<span id="top_loginer"><div class="showmsg"><img alt="内容加载中,请稍候..." src="http://www.lzxv.com/images/default/ico_loading3.gif"></div></span>');
+document.write('<div style="position:absolute; left:-9999px;"><iframe src="http://www.lzxv.com/do/hack.php?hack=login&styletype=login&iframeID=top_loginer" width=0 height=0></iframe></div>');
+//-->
+</SCRIPT>  
+    </div>
+    <div class="siteinfo">
+	<A target="_blank" HREF="http://www.lzxv.com/do/moble.htm" style="color:red;">手机客户端下载</A> | <A HREF="http://www.lzxv.com/do/sitemap.php" target="_blank">网站地图</A> | 
+		<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.lzxv.com');" href="#">设为首页</a> |
+        <a href="javascript:javascript:window.external.AddFavorite('http://www.lzxv.com','雷州视窗 雷州网');">加入收藏</a>
+    </div>
+</div>
+<ul class="Logo_Ad_Info">
+	<li class="logo"><a href="http://www.lzxv.com/">
+
+	<img src="http://www.lzxv.com/images/css4.0/logo.gif"/>
+
+	</a></li>
+    <li class="changecity">
+        <span class="city">雷州</span>
+        <span class="change">当前城市</span>      
+    </li>
+    <li class="moreinfo">
+    	<div class="weather"><iframe src="http://m.weather.com.cn/m/pn3/weather.htm " width="225" height="20" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe></div>
+        <div class="hotline">热线电话：<span>13232743123</span></div>
+        <div class="post"><a href="http://www.lzxv.com/f/post.php">免费发布信息</a></div>
+    </li>
+</ul>
+<div class="MenuCont">
+	<div class="ListMenu">
+
+		<dl class='ck'>
+        	<dt><span><a href="http://www.lzxv.com/">首页</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/f/post.php">发布信息</a></li>
+
+					<li><a href="http://www.lzxv.com/form/form.php?mid=3">投诉建议</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/news/">资讯</a></span></dt>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/f/">分类信息</a></span></dt>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/hy">黄页</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/dianping/ditu.php">地图搜店</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/hr/">求职招聘</a></span></dt>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/shop/">商城</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/shop/all.php">最新商品</a></li>
+
+					<li><a href="http://www.lzxv.com/shop/all.php?show_type=2">热门商品</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/2shou/">二手市场</a></span></dt>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/house/">房产</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/house/ditu.php">地图搜房</a></li>
+
+					<li><a href="http://www.lzxv.com/zhuangxiu/">装修</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://bbs.lzxv.com" style="color:#000000;">论坛</a></span></dt>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/coupon/">促销</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/coupon/all.php">最新促销信息</a></li>
+
+					<li><a href="http://www.lzxv.com/coupon/all.php?show_type=2">热门促销信息</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/dianping/">点评</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/dianping/all.php?show_type=2">热门点评信息</a></li>
+
+					<li><a href="http://www.lzxv.com/dianping/all.php">最新点评信息</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/tg/">活动</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/tg/all.php">最新活动</a></li>
+
+					<li><a href="http://www.lzxv.com/tg/all.php?show_type=2">热门活动</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/gift/">礼品</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/gift/all.php">最新礼品</a></li>
+
+					<li><a href="http://www.lzxv.com/gift/all.php?show_type=2">热门礼品</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+		<dl >
+        	<dt><span><a href="http://www.lzxv.com/shoptg/">团购</a></span></dt>
+
+			<dd>
+            	<span></span>
+                <ul>
+
+					<li><a href="http://www.lzxv.com/shoptg/all.php">最新团购信息</a></li>
+
+					<li><a href="http://www.lzxv.com/shoptg/all.php?show_type=2">热门团购信息</a></li>
+
+                </ul>
+            </dd>
+
+        </dl>
+
+    </div>
+    <div class="Search">
+    	<form name="MainSearch" id="MainSearch" target="_blank" method="post" action='http://www.lzxv.com/f/search.php?action=search'>
+        	<div class="SelectShow"><span>分类</span></div>
+            <ul class="ListType">
+            	<li>资讯</li>
+                <li class="ck">分类</li>
+                <li>商城</li>
+                <li>商家</li>
+                <li>活动</li>
+                <li>促销</li>
+                <li>招聘</li>
+                <li>团购</li>
+                <li>房产</li>
+                <li>点评</li>
+                <li>二手</li>
+
+				<li>百度</li>
+				<input name=ct value=0 type=hidden>
+<input name=si type=hidden value="www.qibosoft.com">
+<!--把ct值设置为2097152，把si的域名换成你的，就可以在百度收录中查找你站内的内容-->
+
+            </ul>
+            <div class="keyword">
+              <input name="keyword" type="text" value="请输入您要查找的内容" />
+            </div>
+            <div class="subbutter">
+              <input type="submit" name="Submit" value="搜索"/>
+            </div>
+        </form>
+        <span id="MySiteDomain" style="display:none">http://www.lzxv.com</span>
+    </div>
+    <div class="HotSearch">
+    	<span>热门搜索：</span> <a href="#">3G手机</a> <a href="#">平板电脑</a> <a href="#">3G手机</a> <a href="#">平板电脑</a> <a href="#">3G手机</a> <a href="#">平板电脑</a> <a href="#">3G手机</a> <a href="#">平板电脑</a> <a href="#">3G手机</a> <a href="#">平板电脑</a>
+    </div>
+</div>
+<script type="text/javascript" src="http://www.lzxv.com/images/css4.0/menu.js"></script>
+
+<div class="HearderSpac"></div>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+function checkpost(){
+	if($("#MainSearch .keyword input").val() ==""){
+		alert('关键字不能为空!');
+		return false;
+	}
+}
+//目的是为了做风格方便
+document.write('<div class="wrap" onmouseover="hiddensearchtype()">');
+//-->
+</SCRIPT>
+
+
+<!--
+-->
+<link rel="stylesheet" type="text/css" href="http://www.lzxv.com/images/css4.0/main/main.css">
+<script type="text/javascript" src="http://www.lzxv.com/images/css4.0/marquee.js"></script>
+<!--大屏广告开始,这个标签虽然不显示,但不能缺少的-->
+<div style="display:none;"></div>
+
+<!--大屏广告结束-->
+<div class="MainCont1">
+	<div class="sidcontL">
+       <div class="head">        	
+            <div onmouseover="ShowTab(1,1,4)" id="Span1">教育</div>
+            <div onmouseover="ShowTab(2,1,4)" id="Span2">出国</div>
+            <div onmouseover="ShowTab(3,1,4)" id="Span3">招生</div>
+        </div>
+        <div class="cont" id="Tab1">
+            <div class="list"><a title="高考成绩查询" href="http://www.5184.com/gk/" target="_blank" textvalue="2015年普通高考成绩查询">2015年普通高考成绩查询</a></div>
+<div class="list"><a title="普通高考成绩查询" href=" http://www.ecogd.edu.cn/kszy/login.jsp" target="_blank" textvalue="2015年高考成绩查询">15年高考志愿填报系统</a></div>
+<div class="list"><a title="湛江市2014年初中毕业生学业考试体育成绩查询" href="http://218.14.214.244/" target="_blank" textvalue="湛江14年初中毕业生成绩查询">湛江14年初中毕业生成绩查询</a></div>
+<div class="list"><a href="http://www.5184.com/gk/check_lq.html" target="_blank">2015年广东高考录取查询</a></div>
+<div class="list"><a href="http://query.5184.com/query/gk/xysp2014_b.htm" target="_blank">2015年高二会考成绩查询入口</a></div>
+<div class="list"><a href="http://bbs.lzxv.com" target="_blank">进入【海之蓝】论坛</a></div>            
+        </div>
+        <div class="cont" id="Tab2">
+            <div class="list"><a href="#" target="_blank">洋家教一对一轻松容易</a></div>
+<div class="list"><a href="#" target="_blank">找个老外英语聊天</a></div>
+<div class="list"><a href="#" target="_blank">Excel服务器做管理系统</a></div>
+<div class="list"><a href="#" target="_blank">网易移民频道全新上线！</a></div>
+<div class="list"><a href="#" target="_blank">洋家教一对一轻松容易</a></div>
+<div class="list"><a href="#" target="_blank">找个老外英语聊天</a></div>
+        </div>
+        <div class="cont" id="Tab3">
+            <div class="list"><a href="#" target="_blank">Excel服务器做管理系统</a></div>
+<div class="list"><a href="#" target="_blank">网易移民频道全新上线！</a></div>
+<div class="list"><a href="#" target="_blank">洋家教一对一轻松容易</a></div>
+<div class="list"><a href="#" target="_blank">找个老外英语聊天</a></div>
+<div class="list"><a href="#" target="_blank">大选投票羸ipad2</a></div>
+<div class="list"><a href="#" target="_blank">中小企业总裁公开课</a></div>
+        </div>
+    </div>
+<SCRIPT LANGUAGE="JavaScript">ShowTab(1,1,4);</SCRIPT>
+    <div class="sidcontC">
+    	<div class="word">
+        	<div class="list"><a href="http://www.lzxv.com/news/bencandy.php?fid=53&id=1026" target="_blank">湛江市2014年高中录取最低控制分数线</a></div>
+<div class="list"><a href="http://query.5184.com/query/gk/xysp2014_b.htm" target="_blank">2014年高二会考成绩查询入口</a></div>
+<div class="list"><a href="http://www.ecogd.edu.cn/ kszj" target="_blank">广东省普通高考征集志愿系统</a></div>
+<div class="list"><a href="http://bbs.lzxv.com" target="_blank">欢迎进入【海之蓝】论坛</a></div>
+<div class="list"><a href="http://bbs.lzxv.com" target="_blank">欢迎进入雷州彩票论坛</a></div>
+        </div>
+        <div class="img"><a href='#' target=_blank><img src='http://www.lzxv.com/upload_files/label/109_20130826230804_dbqg6.gif'  width='620'  height='80' border='0' /></a></div>
+        <div class="word">
+        	<div class="list"><a href="http://www.5184.com/gk/check_lq.html" target="_blank">15年广东高考录取查询</a></div>
+
+<div class="list"><a href=" http://www.ecogd.edu.cn/kszy/login.jsp" target="_blank">15高考填报志愿系统</a></div>
+<div class="list"><a href="http://bbs.lzxv.com/" target="_blank">进入雷州论坛</a></div>
+<div class="list"><a href="http://www.5184.com/gk/check_lq.html" target="_blank">15年广东高考录取查询</a></div>
+<div class="list"><a href="http://www.ecogd.edu.cn/kszy/login.jsp target="_blank">15年高考填报志愿系统</a></div>
+        </div>
+    </div>
+	<div class="sidcontR">
+        <div class="head">
+            <div onmouseover="ShowTab(4,4,7)" id="Span4">最新</div>
+            <div onmouseover="ShowTab(5,4,7)" id="Span5">推荐</div>
+            <div onmouseover="ShowTab(6,4,7)" id="Span6">精品</div>
+        </div>
+        <div class="cont" id="Tab4">
+            <div class="list"><a href="http://query.5184.com/query/gk/xysp2014_b.htm" target="_blank">14年高二会考成绩查询入口</a></div>
+<div class="list"><a href="http://bbs.lzxv.com/" target="_blank">论坛</a></div>
+<div class="list"><a href="http://www.ecogd.edu.cn/kszy/login.jsp" target="_blank">15年高考招生填报志愿系统</a></div>
+<div class="list"><a href="http://www.5184.com/gk/check_lq.html" target="_blank">15年广东省高考录取查询</a></div>
+<div class="list"><a href="http://bbs.lzxv.com/" target="_blank">雷州论坛</a></div>
+<div class="list"><a href="#" target="_blank">公益雷州</a></div>
+        </div>
+        <div class="cont" id="Tab5">
+            <div class="list"><a href="#" target="_blank">Excel服务器做管理系统</a></div>
+<div class="list"><a href="#" target="_blank">网易移民频道全新上线！</a></div>
+<div class="list"><a href="#" target="_blank">洋家教一对一轻松容易</a></div>
+<div class="list"><a href="#" target="_blank">找个老外英语聊天</a></div>
+<div class="list"><a href="#" target="_blank">大选投票羸ipad2</a></div>
+<div class="list"><a href="#" target="_blank">中小企业总裁公开课</a></div>
+        </div>
+        <div class="cont" id="Tab6">
+            <div class="list"><a href="#" target="_blank">洋家教一对一轻松容易</a></div>
+<div class="list"><a href="#" target="_blank">找个老外英语聊天</a></div>
+<div class="list"><a href="#" target="_blank">大选投票羸ipad2</a></div>
+<div class="list"><a href="#" target="_blank">中小企业总裁公开课</a></div>
+<div class="list"><a href="#" target="_blank">大选投票羸ipad2</a></div>
+<div class="list"><a href="#" target="_blank">中小企业总裁公开课</a></div>
+        </div>
+    </div>
+<SCRIPT LANGUAGE="JavaScript">ShowTab(4,4,7);</SCRIPT>
+</div>
+<div style="width:980px;;height:60px;background:url(http://www.lzxv.com/images/css4.0/main/marquee.png);margin-top:10px;">
+<div id="drk_colee_left0" style="overflow:hidden;width:960px;margin:5px auto 0 auto;">
+	<table>
+      <tr>
+      	<td id="drk_colee_left1">
+        	<div style="white-space:nowrap;">
+            	<a href="http://www.lzxv.com" target="_blank" style="font-size:45px;font-family:黑体;color:#FFFF00;">创业，首选雷州视窗 开启雷州人的网上生活，欢迎您互动！</a>&nbsp;
+                <a href="http://www.lzxv.com" target="_blank" style="font-size:45px;font-family:黑体;color:#FFFFFF;">雷州视窗网站助您轻松打造雷州地区最领先的互动平台！</a>
+            </div>
+        </td>
+        <td id="drk_colee_left2"></td>
+      </tr>
+    </table>
+</div>
+</div>
+<script type="text/javascript">
+var drk_colee_left2 = get_ids("drk_colee_left2");
+var drk_colee_left1 = get_ids("drk_colee_left1");
+var drk_colee_left0 = get_ids("drk_colee_left0");
+var drk_ledtd = get_ids("drk_ledtd");
+drk_colee_left2.innerHTML = drk_colee_left1.innerHTML; 
+function drk_Marquee3(){
+   if(drk_colee_left2.offsetWidth - drk_colee_left0.scrollLeft<=0)
+      drk_colee_left0.scrollLeft -= drk_colee_left1.offsetWidth
+   else{
+      drk_colee_left0.scrollLeft++
+   }
+}
+var drk_MyMar3 = setInterval(drk_Marquee3,20)
+drk_colee_left0.onmouseover = function() {clearInterval(drk_MyMar3)}
+drk_colee_left0.onmouseout  = function() {drk_MyMar3 = setInterval(drk_Marquee3,20)}
+function get_ids(id){
+	return document.getElementById(id);
+}
+</script>
+<div class="MainCont MainCont2">
+	<div class="SideL">
+    	<div class="NewCont1">
+        	<div class="head">
+            	<div onmouseover="ShowTab(30,30,32)" id="Span30">今日推荐</div>
+            	<div onmouseover="ShowTab(31,30,32)" id="Span31">热点资讯</div>
+            </div>
+            <dl class="cont">
+            	<dt id="Tab30"><div class="list1"><a href="http://www.lzxv.com/news/bencandy.php?&fid=54&id=1530" target='_blank'>美军航母战斗群进入南海 称对中国发明确..</a></div><div class="list2"><a href="http://www.lzxv.com/news/bencandy.php?&fid=54&id=1529" target='_blank'>五大战区成立</a></div><div class="list3"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1528" target='_blank'>计生法修正案通过 提倡一对夫妻生育两个..</a></div><div class="list4"><a href="http://www.lzxv.com/news/bencandy.php?&fid=69&id=1527" target='_blank'>大国军威托举民族豪情</a></div><div class="list5"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1526" target='_blank'>70周年纪念日大阅兵</a></div><div class="list6"><a href="http://www.lzxv.com/news/bencandy.php?&fid=60&id=1525" target='_blank'>雷州北和朱家村惊现清代正五品武德中军牌</a></div><div class="list7"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1524" target='_blank'>2015年广东高考录取时间</a></div></dt>
+                <dt id="Tab31"><div class="list1"><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=965" target='_blank'>法国古城第戎 红酒古堡相辉映</a></div><div class="list2"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1522" target='_blank'>广东高考录取分数线出炉：一本文科573理科</a></div><div class="list3"><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=1027" target='_blank'>蒜烧排骨:香入骨髓的夏日超级下饭菜</a></div><div class="list4"><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=956" target='_blank'>养生滋味 姜蒜排骨焖茄子</a></div><div class="list5"><a href="http://www.lzxv.com/news/bencandy.php?&fid=51&id=1111" target='_blank'>上万燕子罕见集结雷城</a></div><div class="list6"><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=957" target='_blank'>凉拌鲜鱿 爽脆鲜嫩又醒胃</a></div><div class="list7"><a href="http://www.lzxv.com/news/bencandy.php?&fid=39&id=961" target='_blank'>蚝自远方来 鲜甜美味难挡</a></div></dt>
+                <dd id="marquee1">                	
+                    <table style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                     <tbody>
+                      <tr>
+                       <td>
+                        <div class="list1"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1524" target='_blank'>2015年广东高考录取时间</a></div><div class="list2"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1523" target='_blank'>广东省2015年普通高校招生录取最低控制分</a></div><div class="list3"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1522" target='_blank'>广东高考录取分数线出炉：一本文科573理科</a></div><div class="list4"><a href="http://www.lzxv.com/news/bencandy.php?&fid=53&id=1521" target='_blank'>广东部分2B院校今年的招生计划</a></div><div class="list5"><a href="http://www.lzxv.com/news/bencandy.php?&fid=53&id=1520" target='_blank'>高考成绩出来后多久可以填志愿</a></div><div class="list6"><a href="http://www.lzxv.com/news/bencandy.php?&fid=51&id=1519" target='_blank'>乌石镇端午节热闹非凡</a></div><div class="list7"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1518" target='_blank'>广东高考成绩将于6月25日12时起公布</a></div><div class="list8"><a href="http://www.lzxv.com/news/bencandy.php?&fid=61&id=1517" target='_blank'>十四届省运会主场馆雄姿初现</a></div><div class="list9"><a href="http://www.lzxv.com/news/bencandy.php?&fid=83&id=1516" target='_blank'>南田陈故居焕发 “廉政文化”活力</a></div><div class="list10"><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1514" target='_blank'>我国将建公民信息一卡通</a></div>
+                       </td>
+                      </tr>
+                     </tbody>
+                    </table>
+                </dd>
+            </dl>
+<SCRIPT LANGUAGE="JavaScript">ShowTab(30,30,32);</SCRIPT>
+        </div>
+    </div>
+    <div class="SideC">
+    	<div class="MainSlides">
+			<table id="pictable" style="DISPLAY: none">
+ <tbody>
+<!--
+
+-->
+<tr>
+<td><img src="http://www.lzxv.com/upload_files/label/57_20131001221008_nyduj.jpg"/></td>
+<td> </td>
+<td></td>
+</tr>
+<!--
+
+-->
+<tr>
+<td><img src="http://www.lzxv.com/upload_files/label/109_20130626230621_2glzx.jpg"/></td>
+<td> 正在发展中雷州的商业街</td>
+<td></td>
+</tr>
+<!--
+
+-->
+<tr>
+<td><img src="http://www.lzxv.com/upload_files/label/109_20131005131021_fwkzd.jpg"/></td>
+<td> </td>
+<td>#</td>
+</tr>
+<!--
+
+-->
+<tr>
+<td><img src="http://www.lzxv.com/upload_files/label/109_20131031101049_i653i.jpg"/></td>
+<td> </td>
+<td></td>
+</tr>
+<!--
+
+-->
+<tr>
+<td><img src="http://www.lzxv.com/upload_files/label/1_20150624220629_gmgkr.jpg"/></td>
+<td> </td>
+<td>#</td>
+</tr>
+<!--
+
+-->
+ </tbody>
+</table>
+            <link rel="stylesheet" type="text/css" href="http://www.lzxv.com/images/css4.0/main/slide.css">
+            <script type="text/javascript" src="http://www.lzxv.com/images/css4.0/main/slide.js"></script>        
+        </div>
+		<div class="TodayNews">
+        	<div class="head"><div class="tag">今日头条</div></div>
+            <div class="cont"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="img"><div><a href="http://www.lzxv.com/news/bencandy.php?&fid=39&id=960" target="_blank"><img src="http://food.gznet.com/Admin/Upfile/Image/20101209/1291870424250.jpg" width="120"/></a></div></td>
+    <td class="word">
+       <div><a href="http://www.lzxv.com/news/bencandy.php?&fid=39&id=960" target="_blank">虫草花鸡汁焖豆腐 益肝肾</a></div>
+       <p>
+养生滋味
+秋冬时节有不同的时令小菜，笔者近日就品尝到一款“虫草花鸡汁焖煮豆腐”。虫草花作为膳食材料的宠儿，有益肝肾..</p>
+    </td>
+  </tr>
+</table>
+</div>
+        </div>
+    </div>
+    <div class="SideR">
+    	<div class="BmCont">
+        	<div class="head"><div class="tag">便民</div></div>
+            <div class="cont">
+            	<a href="http://www.lzxv.com/news/bencandy.php?&fid=45&id=950" class="a1" target="_blank">火车票查询</a> 
+<a href="http://www.lzxv.com/news/bencandy.php?&fid=45&id=951" class="a2" target="_blank">天气预报</a> 
+<a href="http://www.lzxv.com/news/bencandy.php?&fid=45&id=952" class="a3" target="_blank">机票查询</a> 
+<a href="http://www.lzxv.com/news/bencandy.php?&fid=45&id=953" class="a4" target="_blank">公交查询</a> 
+<a href="http://www.lzxv.com/f/job.php?job=ip" class="a5" target="_blank">IP查询</a> 
+<a href="http://www.lzxv.com/news/bencandy.php?fid=45&id=954" class="a6" target="_blank">交通违章</a>
+            </div>
+        </div>
+        <div class="PicNews">
+        	<div class="head"><div class="tag">图片新闻</div><div class="more"><a href="#">更多</a></div></div>
+            <dl class="cont">
+            	<dt><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td class="img"><div><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=965" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_news_/34/1_20110601170649_aW1nNw==.jpg" width="80"/></a></div></td>
+    <td class="word">
+       <div><a href="http://www.lzxv.com/news/bencandy.php?&fid=37&id=965" target="_blank">法国古城第戎 红酒古</a></div>
+       <p>
+	
+		
+			
+				
+					第戎作为法国知名的酒乡，有&ldquo;上等葡萄酒之乡&rdqu..</p>
+    </td>
+  </tr>
+</table>
+</dt>
+                <dd><div class="list1"><span>1</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=54&id=1530" target='_blank'>美军航母战斗群进入南海 称对中国发明确信</a></div><div class="list2"><span>2</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=54&id=1529" target='_blank'>五大战区成立</a></div><div class="list3"><span>3</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1528" target='_blank'>计生法修正案通过 提倡一对夫妻生育两个子</a></div><div class="list4"><span>4</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=69&id=1527" target='_blank'>大国军威托举民族豪情</a></div><div class="list5"><span>5</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=47&id=1526" target='_blank'>70周年纪念日大阅兵</a></div><div class="list6"><span>6</span><a href="http://www.lzxv.com/news/bencandy.php?&fid=60&id=1525" target='_blank'>雷州北和朱家村惊现清代正五品武德中军牌</a></div></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div class="MainCont MainCont3">
+	<div class="MainL">
+    	<div class="SideCont1">
+        	<div class="head">
+            	<div class="choose">最新信息</div>
+                <div><a href="./f/list.php?fid=1">房产</a></div>
+                <div><a href="./f/list.php?fid=2">物品交易</a></div>
+                <div><a href="./f/list.php?fid=3">企业招聘</a></div>
+                <div><a href="./f/list.php?fid=4">求职简历</a></div>
+                <div><a href="./f/list.php?fid=5">同城交友</a></div>
+                <div><a href="./f/list.php?fid=6">同城活动</a></div>
+                <div class="more"><a href="./f/post.php">免费发布信息&gt;&gt;</a></div>
+            </div>
+            <div class="Piccont"><div class="listpic"> 
+    <div class=img><a href="http://www.lzxv.com/f/bencandy.php?&fid=23&id=398871" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_fenlei_/23/55822_20170728000714_dfizp.png.gif" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/f/bencandy.php?&fid=23&id=398871" target="_blank">重庆市哪里有宠物猴买多少钱一只</a></div>
+</div><div class="listpic"> 
+    <div class=img><a href="http://www.lzxv.com/f/bencandy.php?&fid=109&id=326752" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_fenlei_/109/30328_20170527170509_ykjz9.jpg.gif" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/f/bencandy.php?&fid=109&id=326752" target="_blank">南阳家政公司怎么开</a></div>
+</div><div class="listpic"> 
+    <div class=img><a href="http://www.lzxv.com/f/bencandy.php?&fid=108&id=326751" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_fenlei_/108/30328_20170527170509_is8bf.jpg.gif" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/f/bencandy.php?&fid=108&id=326751" target="_blank">南阳注册公司需要多少钱</a></div>
+</div><div class="listpic"> 
+    <div class=img><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=326746" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_fenlei_/117/36168_20170228180251_l450i.jpg.gif" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=326746" target="_blank">大陆怎么到香港做DNA验血查胎儿性别|预约</a></div>
+</div><div class="listpic"> 
+    <div class=img><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=326745" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_fenlei_/117/36168_20170228180225_l7fym.jpg.gif" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=326745" target="_blank">香港验血检测胎儿性别准吗</a></div>
+</div></div>
+            <div id="marquee2">                	
+                <table style="border-collapse:collapse;" cellpadding="0" cellspacing="0">
+                 <tbody>
+                  <tr>
+                   <td>
+                    <div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400411" target='_blank'>贵港市代办厨师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400410" target='_blank'>赣州代办厨师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400409" target='_blank'>玉门市代办幼儿教师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400408" target='_blank'>白银代办幼儿教师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400407" target='_blank'>商洛代办幼儿教师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400406" target='_blank'>咸阳代办幼儿教师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=117&id=400405" target='_blank'>侯马代办幼儿教师证</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=43&id=400404" target='_blank'>嘉义市养发馆加盟费多少&lt;&lt;详细解读 </a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=43&id=400403" target='_blank'>新竹市博士园养发馆&lt;&lt;详细解读 新浪</a></div><div><a href="http://www.lzxv.com/f/bencandy.php?&fid=43&id=400402" target='_blank'>台中市朵语养发馆&lt;&lt;详细解读 新浪科</a></div>
+                   </td>
+                  </tr>
+                 </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+	<div class="SideR">
+    	<div class="ADconts">
+        	<div class="word"><div class="list"><span>想出国留学吗？请致电：</span><em>010-28282828</em></div>
+<div class="list">想找个好的家教吗？请致电：010-28282828</div></div>
+            <div class="img"><a href='#' target=_blank><img src='http://www.lzxv.com/upload_files/../images/css4.0/main/ad1.gif'  width='230'  height='60' border='0' /></a></div>
+            <div class="word"><div class="list"><span>想出国留学吗？请致电：</span><em>010-28282828</em></div>
+<div class="list">想找个好的家教吗？请致电：010-28282828</div></div>
+            <div class="img"><a href='#' target=_blank><img src='http://www.lzxv.com/upload_files/../images/css4.0/main/ad2.gif'  width='230'  height='60' border='0' /></a></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+new Marquee("marquee1",0,1,310,125,24,3000,500,25);
+new Marquee("marquee2",0,1,700,50,24,3000,500,25);
+</script>
+
+<div class="HotCompany zhuangxiu_demo">
+	<div class="head"><div class="tag">装修案例</div></div>
+    <div class="cont">
+    	<div class="atc_up" id="upcompanys"><span>&nbsp;</span></div>
+        <div class="ListCompanyCont">
+        	<div id="ListCompanys" class="ListCompany">
+                <ul>
+                    <li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=50" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121024_4fca3a9456d2c90ff85aquDAXw9q2EWV.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=50" target="_blank">房屋田园装修图片</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=49" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_de98bcc4e542d02398caGMf7GssbHGEc.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=49" target="_blank">欧式现代风格卧室背</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=48" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_f03f4adc1990a8ea41efqG2kHCl6XgN2.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=48" target="_blank">50平米小户型客厅沙</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=47" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_d4d2fdb9a966763224b1diSdQdjA42Ss.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=47" target="_blank">简约风格客厅沙发装</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=46" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_1df70bda985b5aceda79zWnEULUi14ku.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=46" target="_blank">2012白色卧室效果图 </a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=45" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_3522af3343f63e47b7373Efed66yXrJD.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=45" target="_blank">简约客厅图片 黑白客</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=44" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20120808_43a16b39ddd819bdb6aeDmmYrjZohsLt.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=44" target="_blank">60平小户型美式风格</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=43" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/zhuangxiu/20121025_e347471b25a9473f0544LOX3OBFqVOij.jpg" height="90"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/zhuangxiu/bencandy.php?&fid=2&id=43" target="_blank">2012客厅装修图片大</a></div>
+</li>
+                </ul>
+            </div>
+        </div>
+        <div class="atc_down" id="downcompanys"><span>&nbsp;</span></div>
+    </div>
+</div>
+<div class="MainCont MainCont4">
+	<div class="MainL">
+    	<div class="SideCont1 ListConts">
+        	<div class="head">
+            	<div onmouseover="ShowTab(32,32,35)" id="Span32">热门商品</div>
+                <div onmouseover="ShowTab(33,32,35)" id="Span33">最新商品</div>
+                <div onmouseover="ShowTab(34,32,35)" id="Span34">推荐商品</div>
+                <div class="more"><a href="./f/post.php">免费发布信息&gt;&gt;</a></div>
+            </div>
+            <div class="cont" id="Tab32">
+            	<div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=64&id=10" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1RTtGXiBDXXa0jpU__075239.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=64&id=10" target="_blank" class="title">S0NY高贵华丽之选 MP</a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=9" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1JmtAXlplXXbjcuI2_043649.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=9" target="_blank" class="title">富士S1600 富士S1770</a></div>
+<div class="p">现售价：<span>￥2000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=2" target="_blank" class="img"><img src="http://img03.taobaocdn.com/imgextra/i7/T1VwlwXaFFXXbSH0E8_100145.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=2" target="_blank" class="title">三星 N148-DP03 全新</a></div>
+<div class="p">现售价：<span>￥2000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=8" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i6/T1v.hDXbJpXXcCiQHX_115806.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=8" target="_blank" class="title">数码相机 三星ST60 1</a></div>
+<div class="p">现售价：<span>￥900元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=7" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1JVFNXg8lXXaIVbM0_034419.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=7" target="_blank" class="title">数码相机 Canon/佳能</a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=1" target="_blank" class="img"><img src="http://img03.taobaocdn.com/imgextra/i3/T1uXBuXctRXXcqqtMV_020223.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=1" target="_blank" class="title">13.3寸上网本笔记本</a></div>
+<div class="p">现售价：<span>￥1260元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=4" target="_blank" class="img"><img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1W2NuXallXXaaewYa_120947.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=4" target="_blank" class="title">才990克 军工 原装正</a></div>
+<div class="p">现售价：<span>￥3000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=6" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i7/T15QFHXnFOXXcFBFs2_042705.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=6" target="_blank" class="title">掌上电脑 旋屏手机 </a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=3" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1j3xAXeNBXXa35wg3_050109.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=3" target="_blank" class="title">宏基/acer AO532h 超</a></div>
+<div class="p">现售价：<span>￥6000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=5" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1V_VIXiJeXXXpNbzb_122917.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=5" target="_blank" class="title">高贵LG KG90/KG800 </a></div>
+<div class="p">现售价：<span>￥300元</span></div>
+</div>
+            </div>
+            <div class="cont" id="Tab33">
+            	<div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=66" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141225_dshxx.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=66" target="_blank" class="title">高频振动筛/高频筛/</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=65" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141213_xlhrk.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=65" target="_blank" class="title">金矿球磨机/矿渣球磨</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=64" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141250_ycprw.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=64" target="_blank" class="title">砂加气生产线/砂加气</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=63" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141242_dxipf.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=63" target="_blank" class="title">石英砂设备/石英砂生</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=62" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141224_emzr4.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=62" target="_blank" class="title">碎石设备/复合式碎石</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=61" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141211_qqntn.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=61" target="_blank" class="title">炉渣破碎机/矿石破碎</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=60" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141255_bmg0u.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=60" target="_blank" class="title">蒸压加气块设备/加气</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=59" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141254_3crgc.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=59" target="_blank" class="title">钢渣选矿设备/硫铁矿</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=58" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141220_tmkte.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=58" target="_blank" class="title">河沙烘干机/石料专业</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=57" target="_blank" class="img"><img src="http://www.lzxv.com/upload_files/qibosoft_shop_/7/4524_20131202141202_rdfop.jpg.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=7&id=57" target="_blank" class="title">螺旋洗石机/洗石机厂</a></div>
+<div class="p">现售价：<span>￥0元</span></div>
+</div>
+            </div>
+            <div class="cont" id="Tab34">
+            	<div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=9" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1JmtAXlplXXbjcuI2_043649.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=9" target="_blank" class="title">富士S1600 富士S1770</a></div>
+<div class="p">现售价：<span>￥2000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=64&id=10" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1RTtGXiBDXXa0jpU__075239.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=64&id=10" target="_blank" class="title">S0NY高贵华丽之选 MP</a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=1" target="_blank" class="img"><img src="http://img03.taobaocdn.com/imgextra/i3/T1uXBuXctRXXcqqtMV_020223.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=1" target="_blank" class="title">13.3寸上网本笔记本</a></div>
+<div class="p">现售价：<span>￥1260元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=2" target="_blank" class="img"><img src="http://img03.taobaocdn.com/imgextra/i7/T1VwlwXaFFXXbSH0E8_100145.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=2" target="_blank" class="title">三星 N148-DP03 全新</a></div>
+<div class="p">现售价：<span>￥2000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=3" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1j3xAXeNBXXa35wg3_050109.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=3" target="_blank" class="title">宏基/acer AO532h 超</a></div>
+<div class="p">现售价：<span>￥6000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=4" target="_blank" class="img"><img src="http://img06.taobaocdn.com/bao/uploaded/i6/T1W2NuXallXXaaewYa_120947.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=21&id=4" target="_blank" class="title">才990克 军工 原装正</a></div>
+<div class="p">现售价：<span>￥3000元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=5" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i2/T1V_VIXiJeXXXpNbzb_122917.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=5" target="_blank" class="title">高贵LG KG90/KG800 </a></div>
+<div class="p">现售价：<span>￥300元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=6" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i7/T15QFHXnFOXXcFBFs2_042705.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=22&id=6" target="_blank" class="title">掌上电脑 旋屏手机 </a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=7" target="_blank" class="img"><img src="http://img03.taobaocdn.com/bao/uploaded/i3/T1JVFNXg8lXXaIVbM0_034419.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=7" target="_blank" class="title">数码相机 Canon/佳能</a></div>
+<div class="p">现售价：<span>￥600元</span></div>
+</div><div class="listpic">
+<div class="pic"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=8" target="_blank" class="img"><img src="http://img02.taobaocdn.com/bao/uploaded/i6/T1v.hDXbJpXXcCiQHX_115806.jpg_310x310.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="75"/></a></div>
+<div class="t"><a href="http://www.lzxv.com/shop/bencandy.php?&fid=23&id=8" target="_blank" class="title">数码相机 三星ST60 1</a></div>
+<div class="p">现售价：<span>￥900元</span></div>
+</div>
+            </div>
+        </div> 
+<SCRIPT LANGUAGE="JavaScript">ShowTab(32,32,35);</SCRIPT>  
+    </div>
+    <div class="SideR">
+    	<div class="HotFenlieSort">
+        	<div class="head"><div class="tag">热门分类栏目</div></div>
+            <div class="cont"><div class="list"><a href="f/list.php?&fid=117" target="_blank">其它</a><span>324385条</span></div><div class="list"><a href="f/list.php?&fid=43" target="_blank">其他物品</a><span>69693条</span></div><div class="list"><a href="f/list.php?&fid=161" target="_blank">自助餐</a><span>5447条</span></div><div class="list"><a href="f/list.php?&fid=11" target="_blank">出租房</a><span>221条</span></div><div class="list"><a href="f/list.php?&fid=13" target="_blank">合租房</a><span>114条</span></div><div class="list"><a href="f/list.php?&fid=121" target="_blank">继续教育</a><span>90条</span></div><div class="list"><a href="f/list.php?&fid=82" target="_blank">养生保健</a><span>42条</span></div><div class="list"><a href="f/list.php?&fid=15" target="_blank">求租房</a><span>39条</span></div><div class="list"><a href="f/list.php?&fid=19" target="_blank">写字楼出租/求租</a><span>18条</span></div><div class="list"><a href="f/list.php?&fid=12" target="_blank">二手房出售</a><span>16条</span></div></div>
+        </div>
+    </div>
+</div>
+<div class="MainBanner">
+	<a href='#' target=_blank><img src='http://www.lzxv.com/upload_files/../images/green/main/ad9.gif'  width='980'  height='40' border='0' /></a>
+</div>
+<div class="MainCont MainCont5">
+	<div class="SideL">
+    	<div class="Sidecont2">
+        	<div class="head head1"><div class="tag">团购进行时</div><div class="more"><a href="./shoptg/">更多</a></div></div>
+            <div class="cont">
+            	<div class="contshoptg1">
+            		<dl class="showtging">
+<dt>
+<div class="p">
+<span>市场价格:<strike>￥79</strike></span>
+<h3>4折</h3>
+</div>
+<div class="img"><a href="http://www.lzxv.com/shoptg/" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_shoptg_/1/1_20101227211251_qeki2.jpg" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" height="90"/></a></div>
+</dt>
+<dd>
+<div class="act">
+<h3>8人</h3>
+<span><a href="shoptg/join.php?fid=1&cid=12&hownum=1" target="_blank">立即抢购</a></span>
+</div>
+<div class="word">
+	<div><a href="http://www.lzxv.com/shoptg/" target="_blank">仅售38元！原价79元赛百味“经典二人餐”</a></div>
+    <p>香热奇士（turkeyham&amp;baconmelt）食材包括：培根、火腿、火鸡胸、生菜、西红柿..</p>
+</div>
+</dd>
+</dl>
+                </div>
+            </div>
+            <div class="foot"><span></span></div>
+        </div>        
+    </div>
+    <div class="SideC">
+    	<div class="Sidecont2">
+        	<div class="head"><div class="tag">同城活动</div><div class="more"><a href="./tg/">更多</a></div></div>
+            <div class="cont"><dl class="listtg">
+<dt><a href="http://www.lzxv.com/tg/bencandy.php?&fid=4&id=39" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_tuangou_/4/1_20101227101200_jgxxd.jpg" height="90"/></a></dt>
+<dd>
+<div>活动名称:<a href="http://www.lzxv.com/tg/bencandy.php?&fid=4&id=39" target="_blank">团购,新一代Jetta正式发布,类似“大众版”</a></div>
+<div>报名截止:<span>2010-06-17</span></div>
+<div>集合时间:<span>2010-06-17</span></div>
+<div>活动地点:<span>2010-6-20</span></div>
+</dd>
+</dl><dl class="listtg">
+<dt><a href="http://www.lzxv.com/tg/bencandy.php?&fid=1&id=38" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_tuangou_/1/1_20101227101227_uoctm.jpg" height="90"/></a></dt>
+<dd>
+<div>活动名称:<a href="http://www.lzxv.com/tg/bencandy.php?&fid=1&id=38" target="_blank">团购滨海豪庭开启海口湾区豪宅新时代</a></div>
+<div>报名截止:<span>2010-06-17</span></div>
+<div>集合时间:<span>2010-06-17</span></div>
+<div>活动地点:<span>2010-6-20</span></div>
+</dd>
+</dl></div>
+            <div class="foot"><span></span></div>
+        </div>        
+    </div>
+    <div class="SideR">
+    	<div class="Sidecont2">
+        	<div class="head"><div class="tag">优惠信息</div><div class="more"><a href="./coupon/">更多</a></div></div>
+            <div class="cont"><div class="lista lista1"> 
+<div class="pic"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=48&id=22609" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_coupon_/48/771_20130801130846_ie9ba.jpg.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="85"/></a></div> 
+<div class="word">
+<div class="t"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=48&id=22609" target="_blank">彩色电视机</a></div>
+<div class="m">原价:<strike>3288元</strike></div>
+<div class="m">优惠价:<span>2288元</span></div>
+</div>
+</div><div class="lista lista2"> 
+<div class="pic"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=48&id=15369" target="_blank"><img src="http://www.lzxv.com/upload_files/qibosoft_coupon_/48/771_20130720010723_rzqdt.jpg.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="85"/></a></div> 
+<div class="word">
+<div class="t"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=48&id=15369" target="_blank">空调以旧换新</a></div>
+<div class="m">原价:<strike>3600元</strike></div>
+<div class="m">优惠价:<span>2988元</span></div>
+</div>
+</div><div class="lista lista3"> 
+<div class="pic"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=25&id=35" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_coupon_/25/1_20101103121104_xth6f.jpg.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="85"/></a></div> 
+<div class="word">
+<div class="t"><a href="http://www.lzxv.com/coupon/bencandy.php?&fid=25&id=35" target="_blank">麻里香锅朝外大街店-麻里香锅大特价3.8折！</a></div>
+<div class="m">原价:<strike>100元</strike></div>
+<div class="m">优惠价:<span>30元</span></div>
+</div>
+</div></div>
+            <div class="foot"><span></span></div>
+        </div>        
+    </div>
+</div>
+<div class="HotCompany">
+	<div class="head"><div class="tag">热门商家</div></div>
+    <div class="cont">
+    	<div class="atc_up" id="upcompany"><span>&nbsp;</span></div>
+        <div class="ListCompanyCont">
+        	<div id="ListCompany" class="ListCompany">
+                <ul>
+                    <li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=55685" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=55685" target="_blank">香港唯健健康</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38314" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38314" target="_blank">华昌集团华昌集团</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38305" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38305" target="_blank">青州安顺电气自动化设备</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38287" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38287" target="_blank">五莲县振鲁石材有限公司</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38286" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38286" target="_blank">无锡永驰精密金属有限公司</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38285" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38285" target="_blank">上海皖鸿工程机械有限公司</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38279" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38279" target="_blank">山东翔宇塑料背心袋</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38269" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38269" target="_blank">山东天丰新能源科技有限公司</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38266" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38266" target="_blank">莒县自保温砌块</a></div>
+</li><li> 
+    <div class=img><a href="http://www.lzxv.com/home/?uid=38265" target="_blank"><img src="" height="60"/></a></div>
+     <div class=title><a href="http://www.lzxv.com/home/?uid=38265" target="_blank">山东方国石材有限公司</a></div>
+</li>
+                </ul>
+            </div>
+        </div>
+        <div class="atc_down" id="downcompany"><span>&nbsp;</span></div>
+    </div>
+</div>
+<div class="MainCont MainCont6">
+	<div class="MainL">
+    	<div class="SideCont1 HouseCont">
+        	<div class="head">
+            	<div onmouseover="ShowTab(35,35,37)" id="Span35">出售房源</div>
+                <div onmouseover="ShowTab(36,35,37)" id="Span36">出租房源</div>
+            </div>
+            <ul class="UlList HulList">
+                <li class="l1">名称</li>
+                <li class="l2">来源</li>
+                <li class="l3">楼层</li>
+                <li class="l4">户型</li>
+                <li class="l5">面积</li>
+                <li class="l6">价格</li>
+                <li class="l7">发布时间</li>
+            </ul>
+            <div class="cont" id="Tab35"><!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=50" title='超源花园' target="_blank">超源花园</a></li>
+   <li class="l2">个人</li>
+   <li class="l3">2楼</li>
+   <li class="l4">三室一厅</li>
+   <li class="l5">120平米</li>
+   <li class="l6">39万元</li>
+   <li class="l7">2014-07-18</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=48" title='&#8226;新城大道（红绿灯旁)民房地皮' target="_blank">&#8226;新城大道（红绿灯旁)民房地皮</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">8楼</li>
+   <li class="l4">三室一厅</li>
+   <li class="l5">80平米</li>
+   <li class="l6">29万元</li>
+   <li class="l7">2013-07-28</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=47" title='永达广场楼层盘' target="_blank">永达广场楼层盘</a></li>
+   <li class="l2">个人</li>
+   <li class="l3">11楼</li>
+   <li class="l4">三室以上</li>
+   <li class="l5">110平米</li>
+   <li class="l6">45万元</li>
+   <li class="l7">2013-07-27</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=28" title='乐意居 中层靓景四期少有单位放盘 住家婚房首选' target="_blank">乐意居 中层靓景四期少有单位放盘 住家婚</a></li>
+   <li class="l2">中介</li>
+   <li class="l3">18楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">99平米</li>
+   <li class="l6">142万元</li>
+   <li class="l7">2011-04-08</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=27" title='金碧翡翠华庭 装修新净 厅出阳台 楼盘最低价' target="_blank">金碧翡翠华庭 装修新净 厅出阳台 楼盘最低</a></li>
+   <li class="l2">中介</li>
+   <li class="l3">18楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">79平米</li>
+   <li class="l6">160万元</li>
+   <li class="l7">2011-04-08</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=26" title='祈福新村 蝶舞轩 业主急售 有钥匙可以马上看' target="_blank">祈福新村 蝶舞轩 业主急售 有钥匙可以马上</a></li>
+   <li class="l2">个人</li>
+   <li class="l3">15楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">96平米</li>
+   <li class="l6">108万元</li>
+   <li class="l7">2011-04-08</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=2&id=25" title='旭景家园 精致三房 少有南向 132万 过五年' target="_blank">旭景家园 精致三房 少有南向 132万 过五年</a></li>
+   <li class="l2">中介</li>
+   <li class="l3">12楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">91平米</li>
+   <li class="l6">132万元</li>
+   <li class="l7">2011-04-08</li>
+</ul>
+<!--
+
+-->
+</div>
+            <div class="cont" id="Tab36"><!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=61" title='上海硕壕金融投资正规吗' target="_blank">上海硕壕金融投资正规吗</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-29</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=60" title='上海硕壕现货石油投资好不好' target="_blank">上海硕壕现货石油投资好不好</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-29</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=59" title='上海硕壕金融投资集团咋样' target="_blank">上海硕壕金融投资集团咋样</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-29</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=58" title='上海硕壕金融现货镍投资好不好' target="_blank">上海硕壕金融现货镍投资好不好</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-29</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=57" title='上海硕壕金融集团正不正规' target="_blank">上海硕壕金融集团正不正规</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-29</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=56" title='硕壕金融投资集团正规吗' target="_blank">硕壕金融投资集团正规吗</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-28</li>
+</ul>
+<!--
+
+-->
+<ul class="UlList">
+   <li class="l1"><a href="http://www.lzxv.com/house/bencandy.php?&fid=1&id=55" title='上海硕壕金融贵金属投资怎么样' target="_blank">上海硕壕金融贵金属投资怎么样</a></li>
+   <li class="l2">未知</li>
+   <li class="l3">楼</li>
+   <li class="l4">两室一厅</li>
+   <li class="l5">平米</li>
+   <li class="l6">0元</li>
+   <li class="l7">2016-09-28</li>
+</ul>
+<!--
+
+--></div>
+        </div>
+<SCRIPT LANGUAGE="JavaScript">
+$("#Tab35 ul:odd").addClass("bg");
+$("#Tab36 ul:odd").addClass("bg");
+ShowTab(35,35,37);
+</SCRIPT>     
+    </div> 
+	<div class="SideR">
+    	<div class="HotFenlieSort TzBroker">
+        	<div class="head"><div class="tag">推荐经纪人</div></div>
+            <div class="cont" id="indexpiclist">
+            	<ul>
+            	<li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=35" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150400_Mg==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=35" title='陈荣' target="_blank">陈荣</a></div>
+<div>中原地产</div>
+<div>海淀区/丰台区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=35" title='陈荣' target="_blank">点击进入</a></div>
+</div>	
+</li><li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=34" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150439_MQ==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=34" title='杨志雄' target="_blank">杨志雄</a></div>
+<div>满堂红</div>
+<div>朝阳区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=34" title='杨志雄' target="_blank">点击进入</a></div>
+</div>	
+</li><li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=36" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150414_Mw==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=36" title='陈奇峰' target="_blank">陈奇峰</a></div>
+<div>满堂红</div>
+<div>通州区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=36" title='陈奇峰' target="_blank">点击进入</a></div>
+</div>	
+</li><li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=37" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150424_NA==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=37" title='王海军' target="_blank">王海军</a></div>
+<div>满堂红</div>
+<div>海淀区/丰台区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=37" title='王海军' target="_blank">点击进入</a></div>
+</div>	
+</li><li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=38" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150442_NQ==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=38" title='凌二芳' target="_blank">凌二芳</a></div>
+<div>美之居</div>
+<div>海淀区/丰台区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=38" title='凌二芳' target="_blank">点击进入</a></div>
+</div>	
+</li><li>
+<div class="img"><div><a href="./house/bencandy.php?&fid=6&id=39" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/6/1_20110408150403_Ng==.jpg" height="80" onError="this.src='http://www.lzxv.com/images/default/noface.gif'"></a></div></div>
+<div class="word">
+<div><a href="./house/bencandy.php?&fid=6&id=39" title='肖彦娟' target="_blank">肖彦娟</a></div>
+<div>我爱我家</div>
+<div>丰台区/西城区</div>
+<div class="goto"><a href="./house/bencandy.php?&fid=6&id=39" title='肖彦娟' target="_blank">点击进入</a></div>
+</div>	
+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="HotHouses">
+	<div class="head"><div class="tag">热销楼盘</div></div>
+    <div class="cont">
+    	<dl>
+<dt><div><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=9" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/5/1_20110408110419_NA==.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'"  height="60"/></a></div></dt>
+<dd>
+<div class="t"><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=9" target="_blank">永达广场</a></div>
+<div>广东省雷州永达实业有限公司</div>
+<div class="price">3180元/平方米</div>
+</dd>	
+</dl><dl>
+<dt><div><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=20" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/5/1_20110408130406_MQ==.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'"  height="60"/></a></div></dt>
+<dd>
+<div class="t"><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=20" target="_blank">天河花园</a></div>
+<div>广东省雷州市天河花园地产集团</div>
+<div class="price">2880元/平方米</div>
+</dd>	
+</dl><dl>
+<dt><div><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=11" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/5/1_20110408110434_MQ==.jpg" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'"  height="60"/></a></div></dt>
+<dd>
+<div class="t"><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=11" target="_blank">阳光尚景</a></div>
+<div>雷州市宏源房地产有限公司</div>
+<div class="price">2880元/平方米</div>
+</dd>	
+</dl><dl>
+<dt><div><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=23" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/5/1_20110408130430_MQ==.jpg.gif" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'"  height="60"/></a></div></dt>
+<dd>
+<div class="t"><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=23" target="_blank">星河湾</a></div>
+<div>广州宏富房地产有限公司</div>
+<div class="price">16000元/平方米</div>
+</dd>	
+</dl><dl>
+<dt><div><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=12" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_house_/5/1_20110408140444_MDA=.jpg.gif" onError="this.src='http://www.lzxv.com/images/default/nopic.jpg'"  height="60"/></a></div></dt>
+<dd>
+<div class="t"><a href="http://www.lzxv.com/house/bencandy.php?&fid=5&id=12" target="_blank">麓湖御景</a></div>
+<div>广州市辉煌房地产发展有限公司</div>
+<div class="price">23000元/平方米</div>
+</dd>	
+</dl>
+    </div>
+</div>
+<div class="MainBanner">
+<a href='#' target=_blank><img src='http://www.lzxv.com/upload_files/../images/green/main/ad9.gif'  width='980'  height='40' border='0' /></a>
+</div> 
+<div class="MainCont MainCont7">
+	<div class="SideL">
+    	<div class="SideCont1 Hrcont1">
+        	<div class="head">
+            	<div class="choose">人才招聘</div><div class="more"><a href="./hr/">更多</a></div>
+            </div>
+            <div class="cont"><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=11&id=77" target="_blank">信息管理及文员</a> 
+工作地点:<span> 雷州市主城区</span>
+招聘人数:<span> 1人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=76" target="_blank">申通快递文员</a> 
+工作地点:<span> 雷州</span>
+招聘人数:<span> 5人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=75" target="_blank">申通快递员</a> 
+工作地点:<span> 雷州</span>
+招聘人数:<span> 10人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=74" target="_blank">办事处负责人</a> 
+工作地点:<span> 雷州市</span>
+招聘人数:<span> 10人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=73" target="_blank">急聘专职、兼职业务员</a> 
+工作地点:<span> 湛江，雷州</span>
+招聘人数:<span> 5人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=72" target="_blank">网络销售</a> 
+工作地点:<span> 雷城</span>
+招聘人数:<span> 5人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=10&id=71" target="_blank">霞山家居厂  暑期工  30名  </a> 
+工作地点:<span> 霞山</span>
+招聘人数:<span> 30人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=11&id=70" target="_blank">招聘业务员兼职</a> 
+工作地点:<span> 本地</span>
+招聘人数:<span> 88人</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/bencandy.php?&fid=7&id=69" target="_blank">普通工</a> 
+工作地点:<span> 雷州市</span>
+招聘人数:<span> 10人</span>
+</div></div>
+        </div>
+    </div>
+    <div class="SideC">
+    	<div class="SideCont1 Hrcont2">
+        	<div class="head">
+            	<div class="choose">推荐简历</div><div class="more"><a href="./hr/">更多</a></div>
+            </div>
+            <div class="cont"><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=7" target="_blank">何小珍</a>
+毕业院校:<span>美术学院</span>
+期望职位:<span>网页设计师</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=6" target="_blank">张春芳</a>
+毕业院校:<span>外语大学</span>
+期望职位:<span>技术主管</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=5" target="_blank">李丽</a>
+毕业院校:<span>华南大学</span>
+期望职位:<span>客服代表</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=4" target="_blank">黄斌</a>
+毕业院校:<span>中山大学</span>
+期望职位:<span>软件工程师</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=3" target="_blank">刘太锋</a>
+毕业院校:<span>华南师范大学</span>
+期望职位:<span>软件销售工程师</span>
+</div><div class="hrlist">
+<a href="http://www.lzxv.com/hr/joinshow.php?id=1" target="_blank">张三丰</a>
+毕业院校:<span>茂名学院</span>
+期望职位:<span>美术设计</span>
+</div></div>
+        </div>
+        <dl class="AtcHrs">
+        	<dt><a href="http://www.lzxv.com/member/?main=http://www.lzxv.com/hr/member/post_choose.php" target="_blank"><img src="http://www.lzxv.com/images/css4.0/main/hr1.gif"/></a></dt>
+            <dd><a href="http://www.lzxv.com/member/?main=http://www.lzxv.com/hr/member/join.php" target="_blank"><img src="http://www.lzxv.com/images/css4.0/main/hr2.gif"/></a></dd>
+        </dl>
+    </div>
+    <div class="SideR">
+    	<div class="SideCont1 Hrcont3">
+        	<div class="head">
+            	<div class="choose">图片简历</div><div class="more"><a href="./hr/">更多</a></div>
+            </div>
+            <div class="cont" id="indexpiclist1">
+            	<ul>
+            	<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=7" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/32_20101102111124_jaf0y.jpg"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=7" target="_blank">何小珍</a></div>
+<div>性别：<span>男</span></div>
+<div>学历：<span>中专</span></div>
+<div><span>网页设计师</span></div>
+</div>	
+</li>
+<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=6" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/31_20101102111115_yrnp5.jpg"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=6" target="_blank">张春芳</a></div>
+<div>性别：<span>女</span></div>
+<div>学历：<span>高中</span></div>
+<div><span>技术主管</span></div>
+</div>	
+</li>
+<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=5" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/28_20101102111115_mn7ex.jpg"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=5" target="_blank">李丽</a></div>
+<div>性别：<span>女</span></div>
+<div>学历：<span>中专</span></div>
+<div><span>客服代表</span></div>
+</div>	
+</li>
+<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=4" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/27_20101102101131_m6scp.gif"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=4" target="_blank">黄斌</a></div>
+<div>性别：<span>男</span></div>
+<div>学历：<span>小学</span></div>
+<div><span>软件工程师</span></div>
+</div>	
+</li>
+<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=3" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/29_20101102111131_caqee.jpg"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=3" target="_blank">刘太锋</a></div>
+<div>性别：<span>男</span></div>
+<div>学历：<span>中专</span></div>
+<div><span>软件销售工程师</span></div>
+</div>	
+</li>
+<!--
+
+-->
+<li>
+<div class="img"><div><a href="http://www.lzxv.com/hr/joinshow.php?id=1" target="_blank"><img src="http://down.qibosoft.com/other/testv6/upload_files/qb_hr_/0/1_20101102111157_hlxdx.jpg"  onError="this.src='http://www.lzxv.com/images/green/noface.gif'" height="90"/></a></div></div>
+<div class="word">
+<div>姓名：<a href="http://www.lzxv.com/hr/joinshow.php?id=1" target="_blank">张三丰</a></div>
+<div>性别：<span>男</span></div>
+<div>学历：<span>中专</span></div>
+<div><span>美术设计</span></div>
+</div>	
+</li>
+<!--
+
+-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://www.lzxv.com/images/css4.0/main/listhouse.js"></script>
+<div class="BmContacts">
+	<div class="head"><div class="tag">便民黄页</div><div class="more">雷州视窗网站客服热线：     <a target=blank href=http://wpa.qq.com/msgrd?V=1&Uin=690676399&Site=www.gzhtcm.com&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:690676399:4 alt="有事Q我"></a>
+         广告客服：    <a target=blank href=http://wpa.qq.com/msgrd?V=1&Uin=83360759&Site=www.gzhtcm.com&Menu=yes><img border="0" SRC=http://wpa.qq.com/pa?p=1:83360759:4 alt="有事Q我"></a>
+  QQ群号：78141766；   想让您的电话在这里显示吗？名额有限哦，<span>赶快联系客服吧！</span></div></div>
+    <div class="cont">
+    	<SCRIPT LANGUAGE="JavaScript">
+document.write('<span id="sellstelephone"><img alt="内容加载中,请稍候..." src="http://www.lzxv.com/images/default/ico_loading3.gif"></span>');
+AJAX.get("sellstelephone","do/hack.php?hack=sell_telephone&job=js",1);
+</SCRIPT>
+    </div>
+</div>
+<div class="FrendLink">
+	<div class="head">
+    	<div class="tag">友情链接</div>
+		<div class="more"><a href="./do/friendlink.php?job=apply">申请链接</a></div>   	    
+   </div>
+   <div class="cont">
+    	<div class="piclink">
+
+		
+        	<a href="http://www.lzxv.com" title="雷州视窗 " target="_blank"><img src="http://www.lzxv.com/upload_files/friendlink/1_20130626180605_t1zuw.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="88" height="31"/></a>
+
+		
+        	<a href="http://www.qibosoft.com" title="齐博CMS 国内著名的CMS建站系统提供商!!" target="_blank"><img src="http://www.lzxv.com/upload_files/../images/default/friendlink.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="88" height="31"/></a>
+
+		
+        	<a href="http://www.admin5.com/" title="站长网 站长网" target="_blank"><img src="http://www.lzxv.com/upload_files/friendlink/1_20090418160400_wqpAk.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="88" height="31"/></a>
+
+		
+        	<a href="http://www.cncms.com.cn/" title="WEB开发网 WEB开发网" target="_blank"><img src="http://www.lzxv.com/upload_files/friendlink/1_20090418160451_64IKO.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="88" height="31"/></a>
+
+		
+        	<a href="http://www.phpwind.net/" title="PHPWIND官方论坛 PHPWIND官方论坛" target="_blank"><img src="http://www.lzxv.com/upload_files/friendlink/1_20121224171239_tldms.gif" onerror="this.src='http://www.lzxv.com/images/default/nopic.jpg'" width="88" height="31"/></a>
+
+        </div>
+        <div class="wordlink">
+
+		
+        	<a href="http://www.baidu.com/" title="百度" target="_blank">百度</a>
+
+		
+        	<a href="http://www.google.cn/" title="谷歌" target="_blank">谷歌</a>
+
+		
+        	<a href="http://www.lzxv.com/" title="" target="_blank">雷州视窗</a>
+
+		
+        	<a href="http://www.24FA.com/" title="24fa" target="_blank">24FA</a>
+
+		
+        	<a href="http://www.jigow.com/" title="技校导航" target="_blank">中国技工学校网</a>
+
+		
+        	<a href="http://www.88xiaoy.com/" title="" target="_blank">88校园网</a>
+
+		
+        	<a href="http://www.cnzz.cn/" title="CNZZ" target="_blank">CNZZ</a>
+
+        </div>       
+    </div>
+</div>
+<script type="text/javascript" src="http://www.lzxv.com/images/css4.0/main/picfocus.js"></script> 
+
+
+
+
+
+<!--
+-->
+<SCRIPT LANGUAGE="JavaScript">
+function selectsearch(theA,word){
+	obj=document.getElementById("selectsearch").getElementsByTagName("a");
+	for(var i=0;i< obj.length;i++ ){
+		obj[i].className='';
+	}
+	theA.className='choose';
+	document.getElementById("searchtype").value=word;
+}
+
+$("input[type='submit']").each(function(i){
+	this.className='buttonStyle';
+});
+$("input[type='button']").each(function(i){
+	this.className='buttonStyle';
+});
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+clickEdit.init(); //生成一些快速操作按钮
+get_cache_button("0");	//生成表单中的数据恢复按钮
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--//目的是为了做风格方便
+document.write('</div>');
+//-->
+</SCRIPT>
+
+<div id="copyright">
+ 
+    Copyright@http://www.lzxv.com all rights reserved <a href="http://www.miibeian.gov.cn" target="_blank">粤ICP备12006277号</a> <br>
+       中国   雷州  Powered by <a href="http://www.LZxv.com/" target="_blank">雷州视窗 V4.0</a> 
+    Code &copy; 2009-2013 </a> 
+</div>
+<!--CNZZ站点统计-->
+<div style="display:none"><script src='http://pw.cnzz.com/c.php?id=82472732&l=2' language='JavaScript' charset='gb2312'></script></div>
+<!--CNZZ站点统计-->
+ 
+</body>
+</html>
+

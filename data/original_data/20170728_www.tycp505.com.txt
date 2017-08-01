@@ -1,0 +1,573 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>天亿彩票网</title>
+<link rel="stylesheet" href="/skin/17/core.css">
+<script type="text/javascript" src="/skin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/skin/main/onload.js?version=20160420"></script>
+<script type="text/javascript" src="/skin/main/reglogin.js"></script>
+<script type="text/javascript" src="/js/guest.js"></script>
+<script type="text/javascript" src="/yoy/js/global.js"></script>
+<link rel="stylesheet" type="text/css" href="../../skin/17/new_core.css"/>
+<script src="../../skin/17/new_core.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">browserRedirect();</script>	
+</head>
+
+<body>
+<div class="header">
+    <div class="container clearfix">
+        <div class="logo3">
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="300" height="100" id="logo" align="middle">
+                <param name="movie" value="skin/17/logo.swf">
+                <param name="quality" value="high">
+                <param name="bgcolor" value="#ffffff">
+                <param name="play" value="true">
+                <param name="loop" value="true">
+                <param name="wmode" value="transparent">
+                <param name="scale" value="showall">
+                <param name="menu" value="true">
+                <param name="devicefont" value="false">
+                <param name="salign" value="">
+                <param name="allowScriptAccess" value="sameDomain">
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="../../skin/17/logo_rg.png" width="252" height="100">
+                    <param name="movie" value="logo.swf">
+                    <param name="quality" value="high">
+                    <param name="bgcolor" value="#ffffff">
+                    <param name="play" value="true">
+                    <param name="loop" value="true">
+                    <param name="wmode" value="transparent">
+                    <param name="scale" value="showall">
+                    <param name="menu" value="true">
+                    <param name="devicefont" value="false">
+                    <param name="salign" value="">
+                    <param name="allowScriptAccess" value="sameDomain">
+                    <!--<![endif]-->
+                    <a href="http://www.adobe.com/go/getflash">
+                        <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player">
+                    </a>
+                    <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </div>
+       
+          <div class="radio1">
+						        <span>站内公告：</span>
+				<div class="nt_cont fr" id="mesg_box">
+					<ul>
+						
+															<li>
+								                     重要通知 								</li>
+															<li>
+								新会员注册首充：100送18元，200送28元，50								</li>
+															<li>
+								                          								</li>
+													
+					</ul>
+				</div>
+		</div>
+      
+    </div>
+</div>
+<div class="nav" id="nav">
+    <div class="list">
+        <ul class="clearfix">
+            <li class="on">
+                <a href="/">立即开户</a>
+            </li>
+            <li>
+                <a onclick="hzdl()">代理合作</a>
+               
+            </li>
+            <li>
+                <a  onclick="zxyh()">最新优惠</a>
+            </li>
+            <li>
+                <a onclick="cjwt()">常见问题</a>
+            </li>
+            <li>
+                <a onclick="gywm()">关于我们</a>
+            </li>
+           
+        </ul>
+    </div>
+  
+</div>
+
+
+<div id="jfcp_box">
+	<div class="cent">
+		<div class="main_lf fl">
+                <div class="focusBox">
+                    <ul class="pic" style="position: relative; width: 620px; height: 278px;">
+						<li style="position: absolute; width: 620px; left: 0px; top: 0px; display: list-item;"><img src="../../skin/17/jfc_01.png"></li>
+						<li style="position: absolute; width: 620px; left: 0px; top: 0px; display: none;"><img src="../../skin/17/jfc_02.png"></li>
+						<li style="position: absolute; width: 620px; left: 0px; top: 0px; display: none;"><img src="../../skin/17/jfc_03.png"></li>                 
+					</ul>
+				</div>
+            </div>
+		<div class="fr">
+			<form action="/user/loginedto" method="post" onajax="userBeforeLoginto" enter="true" call="userLoginto" target="ajax">
+                    <ul class="clearfix">
+                    	<li class="logo_top">
+                    		<p class="fl">用户登录</p>
+               				 <a  target="_blank" href="http://szzero.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=840543&configID=55283&jid=2491681102">在线客服</a>
+                    		
+                    	</li>
+                        <li class="l_usn">
+                            <i></i>
+                            <input type="text" placeholder="帐号" name="username" id="userName" maxlength="15" tabindex="1">
+                        </li>
+                        <li class="l_pwd">
+                            <i></i>
+                            <input type="password" placeholder="密码" name="password" id="password" maxlength="15" tabindex="2">
+                        </li>
+                        
+                        <li class="ctrl">
+                            <input class="fl" type="submit" value="立即登陆">
+                            <a href="reg.php" class="fl">注册</a>
+                            <a href="javascript:guestLogin();" class="try">游客参观</a>
+                        </li>
+                    </ul>
+                </form>
+		</div>
+	</div>
+</div>
+
+<div id="fot">
+	<div class="cent">
+		<img src="../../skin/17/foot.png"/>
+	</div>
+</div>
+
+
+
+
+
+<div class="layui-layer layui-anim layui-layer-page hzdl" id="layui-layer8" type="page" times="8" showtime="0" contype="object" style="z-index: 19891022; width: 630px; height: 85%; top: 68.5px; left:50%; margin-left: -315px;">
+		<div class="layui-layer-title" style="cursor: move;" move="ok">
+		<span class="gundong"></span>
+		代理合作
+		</div>
+		<div class="layui-layer-content" style="height: 728px;"><div id="m1" class="box layui-layer-wrap" tabindex="5001" style="display: block;">
+            <div class="soll"></div>
+            <div style="height: 40px;  display:block;">
+                <a href="" class="daili" style="float:left">代理登陆</a>
+                <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=&amp;site=qq&amp;menu=yes" target="_blank" class="daili" style="float:right;">代理加盟</a>
+            </div>
+            <strong>联盟方案：</strong>
+            <p class="STYLE6">天亿彩票网拥有多元化的产品，使用最公平、公正、公开的系统，
+                在市场上的众多博彩网站中，我们自 豪的提供会员最优惠的回馈，给予合作伙伴最优势的营利回报! 
+                无论 拥有的是网络资源，或是人脉资源，都欢迎您来加入天亿彩票网合作伙伴的行列，
+                无须负担任何费用，就可以开始无上限的收入。 选择天亿彩票网，绝对是您最聪明的选择!</p>
+            <strong>代理条件：</strong>
+            <p class="STYLE6">a.具有便利的计算机上网设备。</p>
+            <p class="STYLE6">b.有一定的人脉资源、网络资源或自己的广告网站。</p>
+            <p class="STYLE6">c.每个月至少要有5个实际有效投注满1000的会员，如达不到就累积到下期计算佣金！</p>
+            <strong>有效会员：</strong>
+            <p class="STYLE6">月结区间内进行过最少五次有效下注且投注总额不低于1000RMB的会员！
+                如联盟体系当月未达﹛月最低有效会员﹜最低门坎5人，则该月无法领取佣金回馈。联盟体系当月营利达到标准，而﹛月最低有效会员﹜人数未达相应最低门坎，则该月佣金累积到下期计算退佣。</p>
+            <!-- <strong>代理收入：</strong>
+            <p class="STYLE6">A：比如您本月的代理账号内有赢利的情况下，就可拥有以下收入:<br>
+              1.一个月内公司在您的代理账号内纯赢利达到1000元-50000元，可享受其中15%的佣金。<br>
+              2.一个月内公司在您的代理账号内纯赢利达到50001元-100000元，可享受其中20%的佣金。<br>
+              3.一个月内公司在您的代理账号内纯赢利达到100001元-200000元，可享受其中25%的佣金。<br>
+              4.一个月内公司在您的代理账号内纯赢利达到200001元-500000元，可享受其中30%的佣金。<br>
+              5.一个月内公司在您的代理账号内纯赢利达到500001元以上，可享受其中35%的佣金。</p> -->
+            <strong>请注意：</strong>
+            <p class="red_font">＊每位加入合营商的客户，如果您在第一个月的有效会员未达到公司要求，但有产生佣金，
+                您的佣金将累计到下个月。</p>
+            <p class="red_font">*注:禁止代理商私自开设会员帐号进行非法投注套利。
+                任何使用不诚实方法骗取代理佣金或下线会员与代理商同IP的我们视为代理商自己开设会员游戏，
+                将取消代理资格并永久冻结账户，佣金一律不予发放。同IP出现多个会员的话，
+                将被视为无效会员，不得计算在内。
+                敬请联系代理专员QQ 详细洽谈</p>
+            <span class="STYLE6"></span>
+            <p></p>
+        </div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"  onclick="none()"></a></span>
+</div>
+       
+       
+<div class="layui-layer layui-anim layui-layer-page zxyh" id="layui-layer8" type="page" times="8" showtime="0" contype="object" style="z-index: 19891022; width: 630px; height: 85%; top: 68.5px; left:50%; margin-left: -315px;">
+		<div class="layui-layer-title" style="cursor: move;" move="ok">
+		<span class="gundong"></span>
+		最新优惠
+		</div>
+		<div class="layui-layer-content" style="height: 729px;"><div id="youhui" class="box layui-layer-wrap" tabindex="5000" style="display: block;">
+            <div class="soll"></div>
+            <div id="promodiv"><div class="promopanel">
+	<div class="promotitle">回馈新老客户、高频彩票不计输赢、期期退水、无上限优惠活动！</div>
+	<div class="promocontents"><div style="text-align:center;">
+	<span style="line-height:1.5;"><span style="color:#E53333;"><span style="color:#E53333;"></span></span></span> 
+</div>
+<p>
+	</p><table border="1" bordercolor="#999999" cellpadding="0" cellspacing="1" width="570">
+		<tbody>
+			<tr>
+				<th style="font-size:14px;" align="center" height="38" width="150">
+					会员级别
+				</th>
+				<th style="font-size:14px;" align="center">
+					返水比例
+				</th>
+			</tr>
+			<tr>
+				<th style="font-size:14px;color:#ff0000;" align="center" height="32">
+					所有会员
+				</th>
+				<th style="font-size:14px;color:#ff0000;" align="center">
+					高频彩有效投注额X0.5%
+				</th>
+			</tr>
+			<tr>
+				<th style="font-size:14px;color:#ff0000;" align="center" height="32">
+					所有会员
+				</th>
+				<th style="font-size:14px;color:#ff0000;" align="center">
+					香港彩特A 42.25倍 13% 特B 48.9倍 0%
+				</th>
+			</tr>
+		</tbody>
+	</table>
+<p></p>
+<p>
+	<strong>活动规则：</strong> 
+</p>
+<p>
+	1.本次优惠活动于2015年01月28日生效。优惠活动适用于所有会员，无需申请系统自动派发；<br>
+2.期期退水可享有：无上限优惠，无须打码量即可取款；<br>
+3.任何滥用优惠、下注套利、非法程序下注的行为，经查实将取消优惠以及优惠产生的赢利； <br>
+4.游戏过程中，出现对冲或对打投注,将取消优惠以及优惠产生的赢利（例如在北京赛车同局投注大/小）； <br>
+5.天亿彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释。
+</p>
+<p>
+	<br>
+</p>
+<p>
+	<br>
+</p></div>
+</div>
+<div class="promopanel">
+	<div class="promotitle">邀请好友加入天亿彩票网丰厚彩金等您来拿！</div>
+	<div class="promocontents"><hr>
+<p>
+	<strong>活动对象：</strong>天亿彩票网所有注册会员
+</p>
+<p>
+	<strong>活动申明：</strong>本活动与代理无关，只限天亿彩票网全体会员，谢谢大家！
+</p>
+<p>
+	独乐乐不如众乐乐，您还在单打独斗吗？立即呼唤请朋友好友体验组队娱乐的乐趣，每推荐一位好友即可领取天亿彩票网为您贴心准备的推荐彩金！
+</p>
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td colspan="4" valign="top" width="568">
+				<p class="STYLE3" align="center">
+					<strong>礼金大回馈 </strong> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					介绍人数
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					存款次数
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					存款总额
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					彩金回馈
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					1人以上
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					3次
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					100元以上
+				</p>
+			</td>
+			<td valign="top" width="142">
+				<p class="STYLE11" align="center">
+					58元
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4" valign="top" width="568">
+				<p class="STYLE2">
+					<span style="color:#0000FF;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;font-weight:bold;line-height:24px;background-color:#F7EFDF;">即日起您每成功推荐一位会员并存款次数达到3次以上、单次存款金额100元，即获得58元彩金红利回馈，介绍的朋友越多，您获得的奖金也就越多！！</span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p align="left">
+	<strong> </strong> 
+</p>
+<p style="color:#666666;font-family:'Microsoft Yahei', 宋体, Arial, Verdana;background-color:#F7EFDF;">
+	申请步骤：<br>
+步骤一： 请联系在线客服提交您推荐的用户账号；<br>
+步骤二： 被推荐人需达到要求存款总额/次数；（被推荐人必须是没存款的新会员）<br>
+步骤三： 推荐人即可联系在线客服申请58元彩金红利，礼金无需倍数流水，即可提款。
+</p>
+<!--<p>
+	注意：申请此活动，需连续充值游戏三天才能申请.
+</p>-->
+<p>
+	<b></b> 
+</p>
+<p>
+	<b>活动规则：</b> 
+</p>
+<p>
+	1.本次优惠活动即日起生效，优惠活动适用于天亿彩票网全体会员；
+</p>
+<p>
+	2.彩金无须流水即可申请提款；
+</p>
+<p>
+	3.所有会员只能拥有一个帐号申请该优惠，同一个IP，同一存/提款卡视为同一客户。如果发现同一个人拥有两个或以上的帐号，重复的帐号将被冻结，每IP地址只能被推荐一次；
+</p>
+<p>
+	4.推荐人是不能注册成为自己的被推荐人，如有违反规则，将被没收彩金；
+</p>
+<p>
+	5.此活动可以与其他优惠同时进行享用；
+</p>
+<p>
+	6.天亿彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并不会做出任何书面解释；
+</p>
+<p>
+	<br>
+</p>
+<p>
+	<br>
+</p></div>
+</div>
+<div class="promopanel">
+	<div class="promotitle">微信群发齐分享 最高88元彩金</div>
+	<div class="promocontents"><p class="MsoNormal">
+	<span style="font-size:12px;line-height:1.5;"> </span> 
+</p>
+<hr>
+活动对象：
+<p>
+	<br>
+</p>
+<p class="MsoNormal">
+	天亿彩票网所有注册会员<span><br>
+</span>活动内容：
+</p>
+<p class="MsoNormal">
+	群发有好礼，快快跟您的好友分享一下吧！（动动您的金手指，使用您的微信群发消息，即可免费领取彩金。）
+</p>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border:none;">
+	<tbody>
+		<tr>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">好友数量</span> 
+				</p>
+			</td>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span style="font-family:宋体;">微信群发奖励</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>50</span><span style="font-family:宋体;">人</span> 
+				</p>
+			</td>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>18</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>100</span><span style="font-family:宋体;">人</span> 
+				</p>
+			</td>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>38</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>150</span><span style="font-family:宋体;">人</span> 
+				</p>
+			</td>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>58</span> 
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>300</span><span style="font-family:宋体;">人</span> 
+				</p>
+			</td>
+			<td width="172" style="border:solid windowtext 1.0pt;">
+				<p class="MsoNormal" align="center" style="text-align:center;">
+					<span>88</span> 
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p class="MsoNormal">
+	微信群发步骤：
+</p>
+<p class="MsoNormal">
+	登入微信<span> -&gt; </span>设置<span> -&gt; </span>通用<span> -&gt; </span>功能<span> -&gt; </span>群发助手<span> -&gt; </span>开始群发<span> -&gt; </span>新建群发<span> -&gt; </span>选择所有好友（全选）<span> -&gt; </span>下一步<span> -&gt; </span>输入信息【<span style="color:#E53333;">“天亿彩票网”高频彩网投平台，主营北京赛车pk10 重庆时时彩 广东快乐十分 双面盘赔率1.990 定位胆9.90赔率，期期反水0.5%，香港彩&lt;特A 42.25倍 回水13%&gt;
+&nbsp;&lt;特B 48.9倍&gt; &nbsp;免费开户www.tycp808.com 手机开户m.tycp808.com</span>】<span>-&gt; </span>点击发送即可
+</p>
+<p class="MsoNormal">
+	<span> </span> 
+</p>
+<p class="MsoNormal">
+	温馨提示：<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>1.</span>每个微信号以及会员账号只能申请一次，完成以上步骤重复申请无效<span></span> 
+</p>
+<p class="MsoNormal">
+	彩金申请：<span></span> 
+</p>
+<p class="MsoNormal">
+	达到任务后即可联系客服<span></span>申请最高达<span>88</span>元彩金红利
+</p>
+<!--<p class="MsoNormal">
+	<span>注意：申请此活动，需连续充值游戏三天才能申请.</span> 
+</p>-->
+<p class="MsoNormal">
+	<span> </span> 
+</p>
+<p class="MsoNormal">
+	活动规则：<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>1.</span>本次优惠活动即日起生效，优惠活动适用于天亿彩票网全体会员；<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>2.</span>彩金无须流水，只需盈利达到<span>100</span>即可申请提款；<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>3.</span>所有会员只能拥有一个帐号申请该优惠，同一个<span>IP</span>，同一存<span>/</span>提款卡视为同一客户。如果发现同一个人拥有两个或以上的帐号，重复的帐号将被冻结，每<span>IP</span>地址只能被推荐一次；<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>4.</span>此活动不与开户赠送彩金同时享用；<span></span> 
+</p>
+<p class="MsoNormal">
+	<span>5.</span>此活动最终解释权归天亿彩票网所有，天亿彩票网保留所有权利在任何时候可以更改、停止、取消优惠活动并且不会做出任何书面解释；
+</p></div>
+</div>
+</div>
+        </div></div><span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"  onclick="none1()"></a></span>
+</div>
+
+
+
+
+
+<div class="layui-layer layui-anim layui-layer-page cjwt" id="layui-layer8" type="page" times="8" showtime="0" contype="object" style="z-index: 19891022; width: 630px; height: 85%; top: 68.5px; left:50%; margin-left: -315px;">
+		<div class="layui-layer-title" style="cursor: move;" move="ok">
+		<span class="gundong"></span>
+		常见问题
+		</div>
+		<div class="layui-layer-content" style="height: 683px;"><div id="m2" class="box layui-layer-wrap" tabindex="5002" style="display: block;">
+            <strong style="color:#990000; font-size:14px;">◉一般常见问题</strong>
+            <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 如何加入天亿彩票网？<br>
+              A1: 您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为天亿彩票网会员。</p>
+            <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q2: 我可以直接在网络上存款提款吗？<br>
+            A2: 可以，天亿彩票网提供多种线上存款选择，详情请参照 "存款提款"</p>
+            <div class="STYLE1" style="margin-left:0px; margin-right:0px">Q3: 我在哪里可以找到游戏规则？<br>A3: 在未登入前，您可以在游戏的最外层看到"游戏规则"选项，清楚告诉您游戏的玩法、规则及派彩方式。</div><div class="STYLE1" style="margin-left:0px; margin-right:0px">&nbsp; &nbsp; &nbsp; 在游戏视窗中,也有"规则"选项，让您在享受游戏乐趣的同时，弹跳视窗随时提醒您游戏规则。</div><p class="STYLE1" style="margin-left:0px; margin-right:0px">Q4:单注投注额最低是？<br>
+            A4: 我们单注最低投注额为人民币1元.</p>
+            <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q5: 最高投注额有限制吗？<br>A5: 
+            任何一家正规博彩和网络博彩公司对客户的帐户投注都有单注和单注限额，没有限额的公司都基本属于没有任何风险控制的私人或骗子公司，今天的控制是为了明天能保证100%提款给您，这点您可以自行分析。每个项目都有不同的限额设定，详细请登陆会员都在「会员资料」页面查看。</p>
+            <div style="margin-left:0px; margin-right:0px">
+            <span style="color: #89643c">Q6:我帐户里面的帐怎麽结算？<br>   
+                A6: 请到登入会员，会员页面查看，「结算报表」按天显示每天的结算结果，
+                点击退水后的结果一栏对应的结果数字进入明细！
+            </span>
+            <strong style="color:#990000; font-size:14px;">◉游戏及投注问题</strong>
+            <p class="STYLE1" style="margin-left:0px; margin-right:0px">Q1: 请问如何加入天亿现金网？<br>A1: 
+                您可以直接点选 "立即开户"，确实填写资料后，可立即登记成为天亿现金网会员</p></div>
+            <p class="STYLE1">Q2: 我哪里可以找到游戏的规则？<br>A2:   
+                请查看"规则说明"页面，清楚告诉您游戏的玩法、规则及派彩方式。</p>
+            <p class="STYLE1">Q3:  如果忘记密码怎麽办？<br>A3:  
+                你可以在首页点击"忘记密码"系统自助取回密码，或者联系24小时线上客服人员谘询协助取回你的帐号密码。 </p>
+            <p class="STYLE1">Q4: 当忘记提款密码时怎麽办？<br>A4: 你可通过24小时线上客服人员协助处理。</p>
+        </div></div>
+		<span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"  onclick="none2()"></a></span>
+</div>
+
+
+
+
+<div class="layui-layer layui-anim layui-layer-page gywm" id="layui-layer8" type="page" times="8" showtime="0" contype="object" style="z-index: 19891022; width: 630px; height: 85%; top: 68.5px; left:50%; margin-left: -315px;">
+		<div class="layui-layer-title" style="cursor: move;" move="ok">
+		<span class="gundong"></span>
+		关于我们
+		</div>
+		<div class="layui-layer-content" style="height: 683px;"><div id="m3" class="box layui-layer-wrap" tabindex="5003" style="display: block;">
+            <strong style="color:#990000; font-size:14px;">◉关于我们</strong>
+            <p class="STYLE6" style="margin-left:0px; margin-right:0px">天亿彩票网于2011
+            年成立，专业经营各项博彩业务，现与US平台合作，推出高频彩票现金投注网，开种广东快乐十分、重庆时彩、北京快乐8、北京赛车PK10等项目，完全自助注册开户，现金开户， 现金投注
+
+            。我们拥有稳定的平台，成熟的玩法，简单的下注流程、以及优质的客户服务。天亿彩票网公司为彩票博彩爱好者提供最优惠的赔率和最优质的博彩服务。天亿彩票网一直深受会员好评，一
+
+            直以来以良好的信誉和服务得到许多会员的支持和肯定，接受业界各行业与会员的监督！如您对本公司有所疑惑，欢迎您对本公司的监督。天亿彩票网为正派且稳健经营的网站，一直以最优
+
+            惠的赔率和优质的服务深受会员好评，请放心进行投注，如您之前不了解本公司，欢迎您对本公司进行关注。</p>
+            <strong style="color:#990000; font-size:14px;">【菲律宾执照】</strong>
+            <p>
+              我們提供的所有產品和服務，是由菲律賓政府卡格揚河經濟特區 First Cagayan leisure and Resort Corporation. www.firstcagayan.com 所授權和監管。這是一家位於Cagayan特別經濟區和自由口岸 (CSEZFP) 的機構，並且是互動遊戲的授權者及管理者.</p>
+            <div class="STYLE6" style="margin-left:0px; margin-right:0px"></div>
+            <strong style="color:#990000; font-size:14px;">【安全与保密】</strong>
+                <p>我们采用了目前最好的加密技术（1024位RSA密钥交换和  
+                448位blowfish）和防火墙系统保护你的安全、私隐，并保证你享受公平的 游戏。
+                客户在本平台的所有动均严格保密，我们不会向第三方包括政府透露客户资料。所有银行交易
+                由国际金融机构在高标准的安全和机密的网络中进行。进入玩家帐户资料也必须有玩家唯一的登录ID和密码，确保客户的资 金安全有保障。 天亿彩票网拥有高素质的客户服务，无论在处理任何事情上，都以简单和快捷享誉全球。
+                如免费开户，即时存款，实时QQ,MSN回复客户的询问以及处理客户的难题等。 天亿彩票网全年24小时运营，全天候处理客户出入款等相关事宜，严格训练的客服团队，以专业、亲切的态度著称，尽速解决您对于网 站、游戏的种种疑难杂症，不但让所有客户皆有宾至如归的感觉，同时我们以业界前所未见的各种优惠方式回馈我们的客户，绝对是您最明智的选择！</p>
+        </div></div>
+		<span class="layui-layer-setwin"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"  onclick="none3()"></a></span>
+</div> 
+        
+        <div class="layui-layer-shade" id="layui-layer-shade8" times="8" style="z-index:19891021; background-color:#000; opacity:0.8; filter:alpha(opacity=80);position: fixed;height: 100%;width: 100%;top: 0;"></div>
+</div>
+<!-- Live800默认功能代码: 开始-->
+<script language="javascript" src="http://szzero.livechatvalue.com/chat/chatClient/monitor.js?jid=2491681102&companyID=840543&configID=55282&codeType=custom"></script>
+<!-- Live800默认功能代码: 结束-->

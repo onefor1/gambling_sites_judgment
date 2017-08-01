@@ -1,0 +1,128 @@
+<html ng-app="myApp">
+<base href="/"></base>
+
+<head>
+    <style type="text/css">
+    @charset "UTF-8";
+    [ng\:cloak],
+    [ng-cloak],
+    [data-ng-cloak],
+    [x-ng-cloak],
+    .ng-cloak,
+    .x-ng-cloak,
+    .ng-hide:not(.ng-hide-animate) {
+        display: none !important;
+    }
+    
+    form {
+        display: block;
+    }
+    
+    .ng-animate-shim {
+        visibility: hidden;
+    }
+    
+    .ng-anchor {
+        position: absolute;
+    }
+    </style>
+    <title>安博电竞,安心博 放肆赢</title>
+    <meta charset="utf-8">
+    <meta description="ANGGAME.COM 安博电竞 安全博彩, 从安博做起, 百万担保, 最强老虎机, 真人娱乐, 体育投注, 国际平台">
+    <meta keywords="安博电竞,anggame,电竞博彩,电竞菠菜,平博体育,188体育,Roll现金,各种劲爆电子竞技博彩优惠尽在安博">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <link rel="stylesheet" href="//anggame.b0.upaiyun.com/web/css/app-ec4ca70731.min.css"/>
+    <link rel="stylesheet" href="//anggame.b0.upaiyun.com/web/css/vendor-bee1cc174d.min.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="x-icon">
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N7GWSCV');
+    </script>
+    <!-- End Google Tag Manager -->
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-89483716-1', 'auto');
+    // ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        var path = window.location.pathname;
+
+        if (window.location.search && window.location.search.length > 0) {
+            path += window.location.search;
+        }
+         window.location.href = "//m.anggame.com" + path;
+    }
+    </script>
+</head>
+
+<body class="frontend-home page-home" ng-class="{'profile-section':state_name.indexOf('account')!=-1, 'profile-profiles-show':state_name.indexOf('account')!=-1,'feature-flash-on':state_name.indexOf('account')!=-1,'modal-open':openModal}" ng-controller="GlobalCtrl" scroll>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7GWSCV" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="preloader-wrapper" ng-show="show_preloader" duration="2000">
+        <div class="logo-wrapper">
+            <img src="//anggame.b0.upaiyun.com/web/resources/images/preloader/loader.gif" alt="">
+            <!-- <div class="main-img-wrapper">
+                <img src="//anggame.b0.upaiyun.com/web/resources/images/preloader/main-logo-christmas.png" alt="">
+            </div> -->
+        </div>
+    </div>
+    <div id="top" class="site site-zh home">
+        <header class="masthead" role="banner">
+            <ng-include src="'views/layout/header/navbar.htm'">
+            </ng-include>
+            <ng-include src="'views/layout/sidebar/help.htm'" ng-if="state_name.indexOf('account')==-1">
+            </ng-include>
+        </header>
+        <main class="full" ng-class="(state.params.path && state.params.path.toLowerCase().indexOf('about') !== -1) ? 'about_us_page' : 'full'" role="main">
+            <div ui-view ng-cloak></div>
+        </main>
+        <!--  <div ng-include="'views/layout/footer/footer_bar.htm'" ng-cloak></div> -->
+        <a class="ing-scroll-top right fade" href="javascript:void(0)" title="Back to Top">
+            <i class="ing-icon-arrow-up"></i>
+        </a>
+        <div ng-include="'views/layout/footer/footer.htm'" ng-if="state_name.indexOf('account')==-1">
+        </div>
+        <!--  <div ng-include="'views/layout/footer/casino-footer.htm'"></div> -->
+    </div>
+    <!--  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <div ng-include="'views/layout/dialog/modal.htm'"></div>
+    <script src="//anggame.b0.upaiyun.com/web/js/vendor-d7524d7ee9.min.js"></script>
+    <script src="//anggame.b0.upaiyun.com/web/js/app-53ee23316a.min.js"></script>
+    <!-- inject:js -->
+    <script src="//anggame.b0.upaiyun.com/web/js/template-bae53ca2fa.js"></script>
+    <!-- endinject -->
+    <!--     <script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script> -->
+</body>
+
+</html>

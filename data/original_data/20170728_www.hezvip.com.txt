@@ -1,0 +1,451 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="renderer" content="webkit|ie-comp|ie-stand">
+		
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="Bookmark" href="/favicon.ico">
+		
+		<title>澳维斯娱乐 - 首页</title>
+		
+		<link href="/resources/web/css/css.css" rel="stylesheet" type="text/css" />
+		<link href="/resources/web/css/starball.css" rel="stylesheet"/>
+
+		<script src="/resources/web/js/jquery-1.7.2.min.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="/resources/web/js/html5.js"></script>
+		<![endif]-->
+		
+		<script type="text/javascript" src="/resources/comm/js/my.js"></script>
+		<script type="text/javascript" src="/resources/web/js/float.js"></script>
+		
+		<script type="text/javascript" src="/resources/comm/artDialog-master/dist/dialog-min.js"></script>
+		<link type="text/css" rel="stylesheet" href="/resources/comm/artDialog-master/css/ui-dialog.css">
+		
+		
+		<meta id="aliveUrl1" content="/alive.action">
+			
+			
+	</head>
+	
+	
+	<body>
+
+		
+
+
+
+
+		<div id='menuHighSub' class="subListDiv" onmouseover="displayHigh();" onmouseout="hiddenHigh();" style="display: none; z-index:9999; position: absolute; width:120px;">
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');" class="hots">重庆时时彩</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">PK10</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">韩国1.5分彩</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">澳门五分彩</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">澳门三分彩</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">澳门分分彩</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">江苏快三</a>
+		</div>
+		
+		<div id='menuX5Sub' class="subListDiv" onmouseover="displayX5();" onmouseout="hiddenX5();" style="display: none; z-index:9999; position: absolute; width:120px;">
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">广东11选5</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">山东11选5</a> 
+		</div>
+
+		<div id='menuLowSub' class="subListDiv" onmouseover="displayLow();" onmouseout="hiddenLow();" style="display: none; z-index:9999; position: absolute; width:120px;">
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">福彩3D</a> 
+			<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">六合彩</a> 
+		</div>
+
+	
+		<div class="head">
+		
+			<div class="top" style="height:115px;">
+			        
+				<div class="logo">
+					<img src="/resources/web/images/logo.png">
+				</div>
+
+				
+				<div class="fr">
+					<div class="divSetHome">
+						<ul style="margin-top:5px;" class="ul1">
+							<li><a id="addHomePage" href="javascript:void(0);" onclick="SetHome(this,location.href);">设为首页 </a></li>
+							<li>|</li>
+							<li><a id="favorites" href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">加入收藏 </a></li>
+							<li>|</li>
+							<li><a href="javascript:void(0);">线路检测</a> </li>
+							<li>|</li>
+							<li><a href="javascript:void(0);">简体中文 </a></li>
+						</ul>
+					</div>
+					
+					
+					
+					<div>
+ 	
+						<div class="divLogin">
+<form id="loginForm" name="loginForm" class="form-inline" method="POST" action="/">
+								<ul class="ulLogin">
+									<li class="liUid">
+										<input type="text" onblur="if(this.value =='') this.value ='帐号'" onfocus="if(this.value=='帐号')this.value=''" value="帐号"
+											id="loginName" name="loginName" size="16" class="login-input" style="width: 114px;" tabindex="1">
+									</li>
+									<li class="liPwd">
+										<input type="password" id="password" name="password" size="16" class="login-input" style="width: 114px;" tabindex="2" maxlength="21">
+									</li>
+									<li class="liChe">
+										<table cellspacing="0" cellpadding="0" border="0">
+											<tbody>
+												<tr>
+													<td>
+														<input type="text" onfocus="if (value =='验证码'){value =''}" onblur="if (value ==''){value='验证码'}" value="验证码"
+															 id="validate" name="validate"class="login-input" tabindex="3" style="width: 70px;">
+													</td>
+													<td>
+														<img  id="rmdImg1" src="/servlet/authImg.jpg" onclick="refreshCode(this);" style="width:40px;height:25px;margin-top:2px;"/>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</li>
+									<li style="height:30px;">
+										<ul class="ul2">
+											<li style="margin-top:0px; height:30px;">
+												<input id="btnLoginWeb" name="btnLogin" type="button" class="login-submit" tabindex="4"/>
+											</li>
+		
+										</ul>
+									</li>
+								</ul>
+</form>
+						</div>
+
+
+	
+
+					</div>
+				</div>
+
+			</div>
+			<div class="cl"></div>
+			<div class="topMenu">
+ 
+				<ul class="topMenu">
+					<li>
+						<a href="/index.jsp" >首 页</a>
+					</li>
+					<li id="menuHigh" class="hots" onmouseover="displayHigh();" onmouseout="hiddenHigh();">
+						<a href="javascript:void(0);">
+							 高 频 彩  
+						</a>
+					</li>
+					<li id="menuX5" class="hots" onmouseover="displayX5();" onmouseout="hiddenX5();">
+						<a href="javascript:void(0);">
+							11选5
+						</a>
+					</li>
+					<li id="menuLow" class="hots" onmouseover="displayLow();" onmouseout="hiddenLow();">
+						<a href="javascript:void(0);">
+							低频彩 
+						</a>
+					</li>
+					<li class="hots">
+						<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">
+							幸运880
+						</a>
+					</li>
+					<li class="hots">
+						<a href="javascript:artAlert('对不起,你还没有登陆,请登陆后再操作.');">
+							老虎机
+						</a>
+					</li>
+
+					<li>
+						<a href="/activity/activity1006!show.action">优惠活动</a>
+					</li>
+					<li>
+						<a href="/down.jsp">下载中心</a>
+					</li>
+					<li>
+						<a href="http://tb.53kf.com/webCompany.php?arg=10158659" target="_blank"">在线客服</a>
+					</li>
+
+				</ul>
+
+
+
+			</div>
+		</div>
+
+		<div id="mainFrameDiv">
+			<div id="wrapindex">
+	
+				<div id="flashbox">
+					<div id="ad-flash">
+	
+					</div>
+				</div>
+				
+				
+
+
+
+
+			<div id="newsbox">
+				<div id="newsboxw">
+					<marquee scrollamount="5" scrolldelay="150" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor:pointer;" onclick="HotNewsHistory">
+						
+					</marquee>
+				</div>
+			</div>
+			
+	
+				<div id="gamebox">
+					<div id="f1">
+						<a href="javascript:void(0);"></a>
+					</div>
+					<div id="f2">
+						<a href="javascript:void(0);"></a>					
+					</div>
+					<div id="f3">
+						<a href="javascript:void(0);"></a>
+					</div>
+					<div id="f4">
+						<a href="javascript:void(0);"></a>
+					</div>
+					<div id="f5">
+						<a href="javascript:void(0);"></a>
+					</div>
+					<div id="f6">
+						<a href="javascript:void(0);"></a>
+					</div>
+					<div id="f7">
+						<a href="javascript:void(0);"></a>
+					</div>
+				</div>
+			</div>
+		
+			
+			<div align="center">
+		        <img usemap="#Map2" style="border:none;" src="resources/web/images/foot2.jpg"/>
+		    </div>
+			
+		</div>
+
+		
+
+
+
+
+			<div id="bottomFrameDiv">
+				<div style="width:1000px;margin:0 auto;">
+	
+					<div class="foot">
+					    <div align="center">
+					        <img src="/resources/web/images/foot1.png" width="1001" height="81" border="0" />
+						</div>
+					    <div align="center">
+					    	
+			    			<a href="/web/us-about.jsp"> 关于我们 </a>  | 
+							<a href="/web/us-advantage.jsp"> 我们优势 </a>  | 
+							<a href="/web/us-responsibility.jsp"> 责任博彩 </a>  | 
+							<a href="/web/us-contact.jsp"> 联络我们 </a>  | 
+							<a href="/web/agent-recruit.jsp"> 招募代理 </a>   | 
+							<a href="/web/help-deposit.jsp"> 存款帮助 </a>   | 
+							<a href="/web/help-withdraw.jsp"> 取款帮助 </a> | 
+							<a href="/web/common-problem.jsp"> 常见问题 </a>  | 
+							<a href="/down.jsp"> 下载专区</a><br/>
+
+					        Copyright © 澳维斯娱乐 Reserved<br/><br/><br/><br/><br/>
+					    </div>
+
+					</div>
+				</div>
+			</div>
+		
+		
+
+<!-- 浮動框(特例) -->
+<style>
+	/* float box*/
+	#float-sidebar{
+	    display: none;
+	}
+	#float_r_ight {
+	    width: 133px;
+	    height: 182px;
+	}
+	#float_right_log {
+	    display: none;
+	}
+	#float_right_main{
+	    display: block;
+	}
+	
+	#float_r_ight #float_right_main ul{
+		padding-left: 0px;
+		list-style:none;
+	}
+	
+	/*sidebar 收起*/
+	.sidebar_unfold{
+	    display: none;
+	}
+	.sidebar_unfold a{
+	    display:block;
+	    height: 41px;
+	    background: url('/resources/web/images/float/float_noopen.png') no-repeat right top;
+	}
+	.sidebar_box_close a{
+	    display:block;
+	    height: 41px;
+	    width: 133px;
+	    background: url('/resources/web/images/float/float_close.png') no-repeat right top;
+	}
+	/*sidebar 展開前*/
+	.sidebar_shrink a{
+	    display:block;
+	    height: 41px;
+	    background: url('/resources/web/images/float/float_open.png') no-repeat right top;
+	}
+	.sidebar_phone a, .sidebar_onlineservice a, .sidebar_novice a,
+	.sidebar_login a, .sidebar_welcome a, .sidebar_download a{
+	    display:block;
+	}
+	.sidebar_unfold a:hover,
+	.sidebar_shrink a:hover, .sidebar_box_close a:hover {
+		background-position: right bottom;
+	}
+	.sidebar_onlineservice:hover, .sidebar_login:hover,
+	.sidebar_novice:hover, .sidebar_download:hover,
+	#float_right_log .sidebar_onlineservice:hover {
+		background-position: center bottom;
+	}
+	.sidebar_onlineservice a{
+	    height: 47px;
+	    background: url('/resources/web/images/float/float_service.png') no-repeat center top;
+	}
+	#float_right_log .sidebar_onlineservice a{
+	    height: 67px;
+	    background: url('/resources/web/images/float/float_service02.png') no-repeat center top;
+	}
+	.sidebar_login a{
+	    height: 45px;
+	    background: url('/resources/web/images/float/float_joinus.png') no-repeat center top;
+	}
+	.sidebar_welcome a{
+	    height: 45px;
+	    background: url('/resources/web/images/float/float_welcome.png') no-repeat center top;
+	}
+	.sidebar_novice a{
+	    height: 47px;
+	    background: url('/resources/web/images/float/float_event.png') no-repeat center top;
+	}
+	.sidebar_download a{
+	    height: 45px;
+	    background: url('/resources/web/images/float/float_download.png') no-repeat center top;
+	}
+	.sidebar_qq div{
+	    height: 57px;
+	    background: url('/resources/web/images/float/float_qq.png') no-repeat center top;
+	}
+	.sidebar_qq a{
+	    display: block;
+	    width: 133px;
+	    height: 57px;
+	}
+	.sidebar_phone a{
+	    height: 50px;
+	    background: url('/resources/web/images/float/float_phone.png') no-repeat center top;
+	}
+</style>
+
+<div id="float-sidebar">
+    <div id="float_r_ight">
+        <div id="sidebar_open" class="sidebar_unfold"><a href="###"></a></div>
+        <div id="sidebar_close" class="sidebar_shrink"><a href="###"></a></div>
+        <!-- 收起div -->
+        <div id="float_right_log">
+            <ul>
+                <li class="sidebar_onlineservice">
+                	<a href="###" onclick="BBOnlineService();"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- 展開div -->
+        <div id="float_right_main">
+            <ul>
+                <li class="sidebar_onlineservice">
+                	<a href="http://tb.53kf.com/webCompany.php?arg=10158659" target="_blank"></a>
+                </li>             
+                <li class="sidebar_download">
+                	<a href="/down.jsp"></a>
+                </li>
+                <li class="sidebar_novice">
+                 	<a href="/activity/activity1006!show.action"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar_box_close"><a href="###" ></a></div>
+</div>
+<script>
+//右側浮動選單(float.js)
+$(window).load(function() {
+    $("#float-sidebar").show().Float({
+        "topSide": 200,
+        "floatRight":1,
+        "side":5
+    });
+});
+
+var float_box = document.getElementById("float_r_ight"),
+    float_box_open = $('#sidebar_open'),
+    float_box_close = $('#sidebar_close'),
+    float_box_main = $('#float_right_main'),
+    float_box_log = $("#float_right_log"), fin, fout;
+
+var flaot_box_in = function () {
+    $(float_box).stop().animate({width:133,height:182},1000);
+    float_box_open.hide();
+    float_box_close.show();
+    float_box_log.hide();
+    float_box_main.show();
+}
+var flaot_box_out = function () {
+    $(float_box).stop().animate({width:133,height:108},1000,function(){
+        float_box_main.hide();
+        float_box_log.show();
+    });
+    float_box_close.hide();
+    float_box_open.show();
+}
+
+float_box_open.click(function () {
+    flaot_box_in();
+});
+
+float_box_close.click(function () {
+    flaot_box_out();
+});
+
+$(".sidebar_box_close").click(function () {
+    $("#float-sidebar").remove();
+});
+
+</script>        
+<!-- 浮動框(End) -->
+
+	</body>
+</html>

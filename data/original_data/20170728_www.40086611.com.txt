@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html  id="ng-app" ng-app="portalApp" meidon-time="2017/07/28 07:15:57"  moment-lang="zh-CN"  ng-init="'云顶集团'">
+<head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="http://cdn.ccpt-cn.com:8888/Web.Portal/BZ008-01.Portal/Content/Views/Shared/images/favicon.ico" />
+
+    
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="/bundles/font-awesome?v=QqiES8bMVFD1YGmU_C7h6nsgr358Xu-gbi4VJ0NwJNs1" rel="stylesheet"/>
+
+    <link href="/bundles/custom?v=D_lzBHWKlyVrRuB82LzDD6BzhRovkUogKkq26qIy4e81" rel="stylesheet"/>
+
+    <link href="/bundles/site?v=5yltKbbe69SnNk5HtGhMdydBostpmK1V8Y2b4uHZviQ1" rel="stylesheet"/>
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet" />
+    
+    <link href="/bundles/home?v=SLo9GqwhoU5h20wtEMWJo_EAvwIikRkkbhPh7JFxVPk1" rel="stylesheet"/>
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet" />
+
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery/v1.10.2/jquery.min.js"></script>
+
+    <script src="/bundles/common?v=43K0U2PTo3hjXKinjDELLvolTGd1xxqmZDl99bYH0HA1"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-signalR/v2.1.2/jquery.signalR-2.1.2.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body class="layout" ng-controller="LayoutCtrl">
+    <header id="header" scrolltop-fixed>
+        <div id="header-top">
+            <div class="wrapper">
+                <div id="domain"></div>
+                <ul class="top-nav" ng-controller="LobbiesCtrl">
+                    <li toggle-color>
+                            <a href="/How/Deposit">微信/支付宝存款</a>
+                    </li>
+                    <li class="qq-deposit" toggle-color>
+                            <a href="/How/Deposit">QQ钱包扫码支付</a>
+                    </li>
+                    <li class="yellow"><a href="/Partner">代理加盟</a></li>
+                    <li class="mobile"><a href="/Mobile">手机畅玩电子</a></li>
+                    <li class="yellow"><a ng-href="{{ContactInfo.HttpVIP==''? '#': ContactInfo.HttpVIP}}" target="_blank">云尊贵宾会</a></li>
+                    <li toggle-color><a href="http://4008hd.com" target="_blank">优惠办理大厅</a></li>
+                    <li><a href="http://yd.4008zxd.com/download.php" target="_blank">资讯端下载</a></li>
+                    <li class="yellow"><a ng-href="{{ContactInfo.HttpDetection2==''? '#': ContactInfo.HttpDetection2}}" target="_blank">备用网址</a></li>
+                    <li><a></a></li>
+                    <li class="lan" select-language>
+                        <span ng-repeat="item in language" data-language="{{item.Key}}" title="{{item.Value}}" ng-cloak></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <a href="/"></a>
+            </div>
+            
+            <nav id="nav" slide-menu>
+                <ul ng-controller="LobbiesCtrl">
+                    <li>
+                        <a href="/" nav-active>
+                            网站首页<span>HOME</span>
+                        </a>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="/Lobby/Game" nav-active>
+                            电子游艺<span>SLOTS</span>
+                        </a>
+                        <ol class="subnav">
+                            <li>天天返水1.8%起</li>
+                            <li class="hot" ng-click="toMgFlash()">MG老虎机</li>
+                            <li class="hot" ng-click="toPtFlash()">PT角子机</li>
+                            <li class="hot" ng-click="toAgGame()">AG电子</li>
+                            <li ng-click="toGnsHtml()">GNS电子</li>
+                            <li ng-click="toBbGame()">BBIN电子</li>
+                            <li ng-click="toSgFlash()">SG电子</li>
+                            <li ng-click="toMwGame()">MW电子</li>
+                            <li ng-click="toPrgFlash()">PRG电子</li>
+                            <li ng-click="toGpiFlash()">GPI电子</li>
+                            <li class="hot" ng-click="toMwFish()">MW 千炮捕鱼</li>
+                            <li class="hot" ng-click="toMwGame()">MW 超级斗地主</li>
+                            <li ng-click="toAgFish()">AG捕鱼达人</li>
+                            <li ng-click="toFish()">捕鱼达人</li>
+                            <li ng-click="toHabaHtml()">HABA电子</li>
+                            <li ng-click="toJdbHtml()">JDB电子</li>
+                        </ol>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="javascript:void(0)" ng-click="toMwFish()">
+                            千炮捕鱼<span>FISH HUNTER</span>
+                        </a>
+                        <ol class="subnav">
+                            <li>天天返水1.8%起</li>
+                            <li ng-click="toMwFish()" class="hot">千炮捕鱼</li>
+                            <li ng-click="toMwGame()" class="hot">超级斗地主</li>
+                            <li ng-click="toAgFish()">AG捕鱼达人</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Live" nav-active>
+                            真人视讯<span>CASINO</span>
+                        </a>
+                        <ol class="subnav">
+                            <li>天天返水1.1%</li>
+                            <li ng-click="toBbLive()">BBIN旗舰厅</li>
+                            <li ng-click="toAgLive()">AG云尊厅</li>
+                            <li ng-click="toMgDealer()">MG欧美厅</li>
+                            <li ng-click="toPtLive()">PT视讯厅</li>
+                            <li ng-click="toGpiLive()">GPI贵宾厅</li>
+                            <li ng-click="toEvoLive()">EVO尊爵厅</li>
+                            <li ng-click="toAbLive()">欧博尊爵厅</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Sport" nav-active>
+                            体育投注<span>SPORTS</span>
+                        </a>
+                        <ol class="subnav">
+                            <li>体育返水0.8%</li>
+                            <li ng-click="toSingSport()">皇冠体育</li>
+                            <li ng-click="toBbSport()">BBIN体育</li>
+                            <li ng-click="toSabaGame()">SABA体育</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Lottery" nav-active>
+                            彩票游戏<span>LOTTERY</span>
+                        </a>
+                        <ol class="subnav">
+                            <li>彩票返水0.8%</li>
+                            <li ng-click="toBbLottery()">北京赛车</li>
+                            <li ng-click="toBbLottery()">六合彩</li>
+                            <li ng-click="toBbLottery()">重庆时时彩</li>
+                            <li ng-click="toBbLottery()">福彩3D</li>
+                            <li ng-click="toBbLottery()">排列三</li>
+                            <li ng-click="toEgLottery()">EG彩票</li>
+                            <li ng-click="toEg3MarkSix()">EG六合彩</li>
+                            <li ng-click="toIgLottery()">IG彩票</li>
+                            <li ng-click="toIgMarkSix()">IG六合彩</li>
+                        </ol>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="/Promotion" nav-active>
+                            优惠活动<span>PROMOTION</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascrpt:void(0)" ng-click="lineChatClick()">
+                            在线客服<span>SERVICE</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="header-bot" scrolltop-fixed>
+        <div class="wrapper">
+            
+            <div id="news">
+                <div class="wrapper">
+                    <div id="hot-news" class="marqueen">
+                        <a href="javascript: void(0)" ng-click="newsClick()">★【8月8号现金大回馈】夏日钜惠，嗨翻钱网！8月8号 8亿现金大回馈，愿广大会员踊跃投注，盈利多多！！
+★【反水通知】尊敬的云顶集团会员：您好！7月27日返水已经完成，返水已经自动派送到会员账号上，请会员查收，愿广大会员踊跃投注，盈利多多！！   
+★【特大喜讯】恭贺云尊贵宾( 	ld*****99）  刘先生于MG电子游戏中获得超级彩金（   $ 50,595	)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【临时维护通知】尊敬云顶集团会员：★『3Sing平台』游戏临时维护，具体时间无法确定，维护期间无法进行游戏与账户金额更新，给您带来不便请见谅，如果维护时间有异动或延长，我们将会再另行通知！谢谢！
+ ★【7月逢8 彩金派送完成】尊敬的云顶集团会员：您好！7月11号到18号彩金已经顺利派送完成，请会员登录账号查收，若有遗漏请联系24小时在线客服进行咨询，感谢会员长期以来对我们公司的大力支持及肯定！！！谢谢
+★【QQ扫码紧急通知】尊敬的会员您好：目前在线充值微信/支付宝通道进行升级调整，期间请广大会员选择QQ钱包/QQwap/网银，充值秒到账，成功率百分百。给大家带来不便请见谅，谢谢!
+★【超级特大喜讯】恭贺云尊贵宾( 	lp***086） 廖先生于MG电子游戏中获得超级彩金（$285,534元)及超级彩金（$ 118,917元），MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【晋级好运）彩金通知】尊敬的云顶集团会员：您好！本期vip晋级金及好运金已经顺利派送完成，请会员登录账号查收，若有遗漏请联系24小时在线客服进行咨询，感谢会员长期以来对我们公司的大力支持及肯定！！！谢谢
+★【超级特大喜讯】恭贺云尊贵宾( 	tiw***23） 李先生于MG电子游戏中获得超级彩金（$ 106,164)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【停用公告】目前公司因业务需要已停止使用【公司入款账户--工行-徐奕荣--工行代晓芳】 请广大用户相互告知，谢谢！请会员存款时使用公司最新的入款账号，如果入款至已过期帐号，公司无法查收，恕不负责！
+★【特大喜讯】恭贺云尊贵宾( 	yo****rui）  尤先生于MG电子游戏中获得超级彩金（$ 51,025)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	tz***16）  肖女士于CQ9电子游戏中获得超级彩金（ $ 54,270)元，CQ9电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，CQ9电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	chen*****9004） 陈先生于MG电子游戏中获得超级彩金（ $ 153,264)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	yux******0407） 余先生于MG电子游戏中以（$ 300）元获得超级彩金（$ 75,060)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【超级特大喜讯】恭贺云尊贵宾( ch****68）李先生于BBIN电子游戏中以（$ 5）元获得超级彩金（300,000.00)元，BBIN电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，BBIN电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【游戏公告】：若遇电子游戏维护或不稳定可到【云顶集团】官方战略合作伙伴【博狗集团】畅玩游戏；博狗集团官方网址：552017.com
+★【超级特大喜讯】恭贺云尊贵宾( lu**06）陆女士于MG电子游戏中以（$ 15）获得超级彩金（ $ 97,726.5  )元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com，  上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾(	zb***321）赵先生于MG电子游戏中获得超级彩金（$ 38,800	)元，，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( ff**367*）王女士于MG电子游戏中以（$ 18）元获得超级彩金（120500.5)元，，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( www2*****88）饶先生于SG电子游戏中以（$ 25）元获得超级彩金（$ 24,975)元，，SG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，SG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【神秘奖金喜讯】”云顶集团独家礼遇，长期派送神秘之彩金”恭喜云尊贵宾【xz**824】谢先生喜获【357元】 神秘奖金，已划入该贵宾绑定的银行卡内，请各位会员多多关注（40082.com）祝您成为下一个幸运儿！
+★【重要通知】近期发现一些不法份子利用本司在行业崇高声誉和信用，模仿我们的QQ客服、微信客服诱导会员存款，骗取会员钱财和会员信息，本司再次郑重声明：我们客服人员不会以任何原因和理由让会员存款，请会员谨记我们的官方网站（40081.com），收藏我们在线客服链接，务必记住我们的QQ客服号（400837）客服电话（0060-1122788888）。谢谢！！</a>
+                    </div>
+                </div>
+            </div>
+            
+                <div id="account-box">
+                    <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing">
+                        <input id="login_account" type="text" placeholder="帐号" ng-model="loginParams.account" required autofocus />
+                        <input id="login_password" type="password" placeholder="密码" ng-model="loginParams.password" required />
+                        <div id="check-code-wrapper">
+                            <input data-checkcode-retriever="checkCode" type="text" placeholder="验证码" ng-model="loginParams.checkCode" checkcode-type="Login" required />
+                            <img id="captcha" ng-show="checkCode.image" ng-src="{{checkCode.image}}" />
+                        </div>
+                        <button id="login-box" ng-disabled="isProcessing" ng-bind="isProcessing ? '登录...' : '登录'">登录</button>
+                        <button id="join-box" ng-click="RegisterClick()" type="button">注册</button>
+                        <button id="forget-box" ng-click="lineChatClick()" type="button">忘记密码</button>
+                        <button id="free-box" ng-click="FreePlayClick()" type="button">免费试玩</button>
+                        <div id="agree" ng-show="loginOver" ng-cloak>
+                            点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+    
+    <div id="banner">
+        <div id="city"></div>
+        
+        <div id="news02">
+            <div class="wrapper">
+                <div id="hot-news" class="marqueen02">
+                    <a href="javascript: void(0)" ng-click="newsClick()">★【8月8号现金大回馈】夏日钜惠，嗨翻钱网！8月8号 8亿现金大回馈，愿广大会员踊跃投注，盈利多多！！
+★【反水通知】尊敬的云顶集团会员：您好！7月27日返水已经完成，返水已经自动派送到会员账号上，请会员查收，愿广大会员踊跃投注，盈利多多！！   
+★【特大喜讯】恭贺云尊贵宾( 	ld*****99）  刘先生于MG电子游戏中获得超级彩金（   $ 50,595	)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【临时维护通知】尊敬云顶集团会员：★『3Sing平台』游戏临时维护，具体时间无法确定，维护期间无法进行游戏与账户金额更新，给您带来不便请见谅，如果维护时间有异动或延长，我们将会再另行通知！谢谢！
+ ★【7月逢8 彩金派送完成】尊敬的云顶集团会员：您好！7月11号到18号彩金已经顺利派送完成，请会员登录账号查收，若有遗漏请联系24小时在线客服进行咨询，感谢会员长期以来对我们公司的大力支持及肯定！！！谢谢
+★【QQ扫码紧急通知】尊敬的会员您好：目前在线充值微信/支付宝通道进行升级调整，期间请广大会员选择QQ钱包/QQwap/网银，充值秒到账，成功率百分百。给大家带来不便请见谅，谢谢!
+★【超级特大喜讯】恭贺云尊贵宾( 	lp***086） 廖先生于MG电子游戏中获得超级彩金（$285,534元)及超级彩金（$ 118,917元），MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【晋级好运）彩金通知】尊敬的云顶集团会员：您好！本期vip晋级金及好运金已经顺利派送完成，请会员登录账号查收，若有遗漏请联系24小时在线客服进行咨询，感谢会员长期以来对我们公司的大力支持及肯定！！！谢谢
+★【超级特大喜讯】恭贺云尊贵宾( 	tiw***23） 李先生于MG电子游戏中获得超级彩金（$ 106,164)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【停用公告】目前公司因业务需要已停止使用【公司入款账户--工行-徐奕荣--工行代晓芳】 请广大用户相互告知，谢谢！请会员存款时使用公司最新的入款账号，如果入款至已过期帐号，公司无法查收，恕不负责！
+★【特大喜讯】恭贺云尊贵宾( 	yo****rui）  尤先生于MG电子游戏中获得超级彩金（$ 51,025)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	tz***16）  肖女士于CQ9电子游戏中获得超级彩金（ $ 54,270)元，CQ9电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，CQ9电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	chen*****9004） 陈先生于MG电子游戏中获得超级彩金（ $ 153,264)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( 	yux******0407） 余先生于MG电子游戏中以（$ 300）元获得超级彩金（$ 75,060)元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【超级特大喜讯】恭贺云尊贵宾( ch****68）李先生于BBIN电子游戏中以（$ 5）元获得超级彩金（300,000.00)元，BBIN电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，BBIN电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【游戏公告】：若遇电子游戏维护或不稳定可到【云顶集团】官方战略合作伙伴【博狗集团】畅玩游戏；博狗集团官方网址：552017.com
+★【超级特大喜讯】恭贺云尊贵宾( lu**06）陆女士于MG电子游戏中以（$ 15）获得超级彩金（ $ 97,726.5  )元，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com，  上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾(	zb***321）赵先生于MG电子游戏中获得超级彩金（$ 38,800	)元，，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( ff**367*）王女士于MG电子游戏中以（$ 18）元获得超级彩金（120500.5)元，，MG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，MG电子支持手机投注啦。最新网址：4118.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【特大喜讯】恭贺云尊贵宾( www2*****88）饶先生于SG电子游戏中以（$ 25）元获得超级彩金（$ 24,975)元，，SG电子1元起独家返水3.0%无上限，同时可参与天天大返利，赢钱奖上奖，SG电子支持手机投注啦。最新网址：40083.com   上万款电子游艺精彩不间断，愿广大会员踊跃投注，盈利多多！
+★【神秘奖金喜讯】”云顶集团独家礼遇，长期派送神秘之彩金”恭喜云尊贵宾【xz**824】谢先生喜获【357元】 神秘奖金，已划入该贵宾绑定的银行卡内，请各位会员多多关注（40082.com）祝您成为下一个幸运儿！
+★【重要通知】近期发现一些不法份子利用本司在行业崇高声誉和信用，模仿我们的QQ客服、微信客服诱导会员存款，骗取会员钱财和会员信息，本司再次郑重声明：我们客服人员不会以任何原因和理由让会员存款，请会员谨记我们的官方网站（40081.com），收藏我们在线客服链接，务必记住我们的QQ客服号（400837）客服电话（0060-1122788888）。谢谢！！</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <div class="wrapper">
+            
+
+<div id="home" ng-controller="LobbiesCtrl">
+    
+    <ul class="game-tab" ng-init="show='mg'">
+        <li game-box="mg" ng-click="toMgFlash()" ng-mouseover="show='mg'" ng-class="{'active': show=='mg'}">
+            MG电子<span>MGGAMING</span>
+        </li>
+        <li game-box="pt" ng-click="toPtFlash()" ng-mouseover="show='pt'" ng-class="{'active': show=='pt'}">
+            PT电子<span>PTGAMING</span>
+        </li>
+        <li game-box="bb" ng-click="toBbGame()" ng-mouseover="show='bb'" ng-class="{'active': show=='bb'}">
+            BBIN电子<span>BBGAMING</span>
+        </li>
+        <li game-box="ag" ng-click="toAgGame()" ng-mouseover="show='ag'" ng-class="{'active': show=='ag'}">
+            AG电子<span>AGGAMING</span>
+        </li>
+        <li game-box="prg" ng-click="toPrgFlash()" ng-mouseover="show='prg'" ng-class="{'active': show=='prg'}">
+            PRG电子<span>PRGGAMING</span>
+        </li>
+        <li game-box="mw" ng-click="toMwGame()" ng-mouseover="show='mw'" ng-class="{'active': show=='mw'}">
+            千炮捕鱼<span>FISH HUNTER</span>
+        </li>
+    </ul>
+
+    
+    <div class="game-view" ng-show="show=='mg'" ng-cloak>
+        <div class="jackpot">
+            MG大奖池：<span id="mg-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="mg01" ng-click="toMgFlash()"><span>冰上曲棍球</span></li>
+            <li game-box="mg02" ng-click="toMgFlash()"><span>抢劫银行</span></li>
+            <li game-box="mg03" ng-click="toMgFlash()"><span>银行破坏家</span></li>
+            <li game-box="mg04" ng-click="toMgFlash()"><span>阿瓦隆</span></li>
+            <li game-box="mg05" ng-click="toMgFlash()"><span>猫头鹰</span></li>
+            <li game-box="mg06" ng-click="toMgFlash()"><span>星光之吻</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="game-view pt" ng-show="show=='pt'" ng-cloak>
+        <div class="jackpot">
+            PT大奖池：<span id="pt-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="pt01" ng-click="toPtFlash()"><span>古怪猴子</span></li>
+            <li game-box="pt02" ng-click="toPtFlash()"><span>大明帝国</span></li>
+            <li game-box="pt03" ng-click="toPtFlash()"><span>湛蓝深海</span></li>
+            <li game-box="pt04" ng-click="toPtFlash()"><span>诙谐财富</span></li>
+            <li game-box="pt05" ng-click="toPtFlash()"><span>熊之舞</span></li>
+            <li game-box="pt06" ng-click="toPtFlash()"><span>亚特兰蒂斯女王</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="game-view bb" ng-show="show=='bb'" ng-cloak>
+        <div class="jackpot">
+            BBIN大奖池：<span id="bb-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="bb01" ng-click="toBbGame()"><span>连环夺宝</span></li>
+            <li game-box="bb02" ng-click="toBbGame()"><span>马戏团</span></li>
+            <li game-box="bb03" ng-click="toBbGame()"><span>秘境冒险</span></li>
+            <li game-box="bb04" ng-click="toBbGame()"><span>糖果派对</span></li>
+            <li game-box="bb05" ng-click="toBbGame()"><span>外星争霸</span></li>
+            <li game-box="bb06" ng-click="toBbGame()"><span>夜市人生</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="game-view ag" ng-show="show=='ag'" ng-cloak>
+        <div class="jackpot">
+            AG大奖池：<span id="ag-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="ag01" ng-click="toAgFish()"><span>捕鱼王2</span></li>
+            <li game-box="ag02" ng-click="toAgGame()"><span>性感女仆</span></li>
+            <li game-box="ag03" ng-click="toAgGame()"><span>水果拉霸</span></li>
+            <li game-box="ag04" ng-click="toAgGame()"><span>灵猴献瑞</span></li>
+            <li game-box="ag05" ng-click="toAgGame()"><span>杰克高手</span></li>
+            <li game-box="ag06" ng-click="toAgGame()"><span>复古花园</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="game-view prg" ng-show="show=='prg'" ng-cloak>
+        <div class="jackpot">
+            PRG大奖池：<span id="prg-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="prg01" ng-click="toPrgFlash()"><span>西游记</span></li>
+            <li game-box="prg02" ng-click="toPrgFlash()"><span>贝奥武夫</span></li>
+            <li game-box="prg03" ng-click="toPrgFlash()"><span>矮人黄金2</span></li>
+            <li game-box="prg04" ng-click="toPrgFlash()"><span>野生动物园</span></li>
+            <li game-box="prg05" ng-click="toPrgFlash()"><span>女神戈帝梵</span></li>
+            <li game-box="prg06" ng-click="toPrgFlash()"><span>7只猴子</span></li>
+        </ul>
+    </div>
+
+    
+    <div class="game-view mw" ng-show="show=='mw'" ng-cloak>
+        <div class="jackpot">
+            MW大奖池：<span id="mw-jackpot"></span>
+        </div>
+        <ul class="game-list">
+            <li game-box="mw01" ng-click="toMwGame()"><span>千炮捕鱼</span></li>
+            <li game-box="mw02" ng-click="toAgFish()"><span>AG捕鱼达人</span></li>
+            <li game-box="mw03" ng-click="toUgGame()"><span>高清捕鱼</span></li>
+            <li game-box="mw04" ng-click="toMwGame()"><span>超级斗地主</span></li>
+            <li game-box="mw05" ng-click="toMwGame()"><span>森林舞会 </span></li>
+            <li game-box="mw06" ng-click="toMwGame()"><span>街机水浒传</span></li>
+        </ul>
+    </div>
+
+    
+    <div id="award">
+        <h2>电子超级赢家榜</h2>
+        <ul class="list-title">
+            <li class="user">客户ID</li>
+            <li class="money">金额</li>
+            <li class="name">游戏名称</li>
+        </ul>
+        <ul id="rich-box"
+            class="cycle-slideshow"
+            data-cycle-fx="carousel"
+            data-cycle-carousel-vertical="true"
+            data-cycle-timeout="1"
+            data-cycle-easing="linear"
+            data-cycle-slides="> li"
+            data-cycle-speed="2000"
+            data-cycle-pause-on-hover=true>
+            <li>
+                <span>ev***0</span>
+                <span>26129.39</span>
+                <span class="list-last">复仇者刮刮</span>
+            </li>
+            <li>
+                <span>fe***6</span>
+                <span>54349.67</span>
+                <span class="list-last">明星97</span>
+            </li>
+            <li>
+                <span>hq***3</span>
+                <span>54349.67</span>
+                <span class="list-last">摆脱</span>
+            </li>
+            <li>
+                <span>jv***7</span>
+                <span>94496.20</span>
+                <span class="list-last">AG捕鱼王</span>
+            </li>
+            <li>
+                <span>vn***3</span>
+                <span>6110.35</span>
+                <span class="list-last">魔法美人鱼</span>
+            </li>
+            <li>
+                <span>mu***4</span>
+                <span>75235.37</span>
+                <span class="list-last">明星97</span>
+            </li>
+            <li>
+                <span>ld***0</span>
+                <span>8478.74</span>
+                <span class="list-last">明星97</span>
+            </li>
+            <li>
+                <span>de***0</span>
+                <span>37976.08</span>
+                <span class="list-last">摆脱</span>
+            </li>
+        </ul>
+
+        <p>超级彩金等您来爆</p>
+    </div>
+
+    
+    <div id="casino" ng-init="casino='live'">
+        <ul>
+            <li class="live" ng-mouseover="casino='live'" ng-class="{'active': casino=='live'}">
+                <a href="/Lobby/Live">
+                    <h2>真人视讯<span>Live casino</span></h2>
+                    <div class="play">立即游戏</div>
+                </a>
+            </li>
+            <li class="sport" ng-mouseover="casino='sport'" ng-class="{'active': casino=='sport'}">
+                <a href="/Lobby/Sport">
+                    <h2>体育投注<span>Sports</span></h2>
+                    <div class="play">立即游戏</div>
+                </a>
+            </li>
+            <li class="lottery" ng-mouseover="casino='lottery'" ng-class="{'active': casino=='lottery'}">
+                <a href="/Lobby/Lottery">
+                    <h2>彩票游戏<span>Lottery Game</span></h2>
+                    <div class="play">立即游戏</div>
+                </a>
+            </li>
+        </ul>
+        <div class="pic live" ng-show="casino=='live'"></div>
+        <div class="pic sport" ng-show="casino=='sport'"></div>
+        <div class="pic lottery" ng-show="casino=='lottery'"></div>
+        <div class="title"></div>
+        <p>手机投注平台面向全网玩家，提供上万种电子游戏.老虎机.百家乐以及彩票游戏，体育投注，线上存款，线上取款，一键操作，运用3D即时运算创造真实场景结合立体影像，完整规划的跨系统娱乐平台，整合同步账号的资料传输，达到随时随地不间断娱乐的享受概览。</p>
+        <div class="link">
+            <a class="link-btn" href="#">ios&android移到装置访问</a>
+            <a class="link-btn" href="http://www.14008.com" target="_blank">www.14008.com</a>
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <ul id="footer-logo">
+                <li class="mg"></li>
+                <li class="pt"></li>
+                <li class="bb"></li>
+                <li class="ag"></li>
+                <li class="sg"></li>
+                <li class="wechat"></li>
+                <li class="alipay"></li>
+                <li class="visa"></li>
+                <li class="bank"></li>
+            </ul>
+            <div id="footer-left">
+                <ul id="footer-nav">
+                    <li><a href="/AboutUS">关于我们</a></li>
+                    <li><a href="/Contact">联络我们</a></li>
+                    <li><a href="/Partner">代理加盟</a></li>
+                    <li><a href="/How/Deposit">存款帮助</a></li>
+                    <li><a href="/How/Withdrawal">取款帮助</a></li>
+                    <li><a href="/FAQ">常见问题</a></li>
+                    <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+                </ul>
+
+                <p id="footer-suggest">
+                    <small>
+                        Copyright &#169; 云顶集团 Reserved
+                    </small>
+                </p>
+            </div>
+            <div id="footer-right">
+                <ul id="footer-contact" ng-init="hover = 1;">
+                    <li class="phone" ng-class="{'active': hover == 1}" ng-mouseover="hover = 1;">
+                        <div class="group">
+                            <div class="icon"></div>
+                            <div class="text">
+                                免费电话
+                                <span ng-bind="ContactInfo.TEL"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="mail" ng-class="{'active': hover == 2}" ng-mouseover="hover = 2;">
+                        <div class="group">
+                            <div class="icon"></div>
+                            <div class="text">
+                                客服邮箱
+                                <span ng-bind="ContactInfo.Email"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="qq" ng-class="{'active': hover == 3}" ng-mouseover="hover = 3;" ng-click="qqClick(ContactInfo.QQ)">
+                        <div class="group">
+                            <div class="icon"></div>
+                            <div class="text">
+                                客服QQ
+                                <span ng-bind="ContactInfo.QQ"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="chat" ng-class="{'active': hover == 4}" ng-mouseover="hover = 4;" ng-click="qqClick(ContactInfo.AgentQQ)">
+                        <div class="group">
+                            <div class="icon"></div>
+                            <div class="text">
+                                代理QQ
+                                <span ng-bind="ContactInfo.AgentQQ"></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <aside class="services left">
+        <ul class="girl" ng-controller="LobbiesCtrl">
+            <li class="prom" title="优惠专区"><a href="/Promotion"></a></li>
+            <li class="reg" title="注册">
+                    <a href="/Register"></a>
+            </li>
+            <li class="partner"><a href="/Partner" title="代理加盟"></a></li>
+            <li class="alipay" title="线上存款">
+                    <a href="/How/Deposit"></a>
+            </li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+
+    <aside class="services right">
+        <ul class="girl">
+            <li class="chat" ng-click="lineChatClick()" title="在线客服"></li>
+            <li class="contact">
+                <span class="qq" ng-click="qqClick(ContactInfo.QQ)" ng-bind="ContactInfo.QQ" title="{{ContactInfo.QQ}}"></span>
+                <span class="tel" ng-bind="ContactInfo.TEL" title="{{ContactInfo.TEL}}"></span>
+            </li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+
+    
+    <aside id="service-mobile">
+        <ul class="cycle-slideshow" data-cycle-slides="> li" ng-controller="LobbiesCtrl">
+            <li class="item01"><a href="/Mobile"></a></li>
+            <li class="item02"><a href="javascript:void(0)" ng-click="toAgFish()"></a></li>
+            <li class="item03"><a href="/Mobile"></a></li>
+            <li class="item04"><a ng-href="{{ContactInfo.HttpDeposit3==''? '#': ContactInfo.HttpDeposit3}}" target="_blank"></a></li>
+        </ul>
+        <span class="close" title="关闭" service-closed>X</span>
+    </aside>
+
+    
+    <div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+        <aside id="marquee">
+            <header>
+                <h2>最新消息</h2>
+            </header>
+            <ul id="newsBags">
+                <li ng-repeat="news in newsBags track by $index">{{news}}</li>
+            </ul>
+            <footer>
+                <span ng-click="closeMarquee()">关闭</span>
+            </footer>
+        </aside>
+    </div>
+
+    
+    <div ng-if="ContactInfo.Dialog!=='' && ContactInfo.Dialog!==undefined" id="ad-dialog" title="{{ContactInfo.DialogTitle}}">
+        <img ng-src="{{ContactInfo.Dialog}}" />
+        <div class="dialog-footer" ng-bind="ContactInfo.DialogFooter"></div>
+    </div>
+
+    
+    <div style="display:none"></div>
+
+    
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20140418"></script>
+    <script src="/Scripts/_config.js"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services?v=VogNHUBD5AdE-nejwNwPuSMaiD4rMfKYNH3PSuEvw0E1"></script>
+
+    <script src="/angular-controllers?v=8yuLQ9vUL60_LO8vFl6DzIQaLPZL5TvWncGt8eyflYA1"></script>
+
+    <script src="/angular-directives?v=q4W3N7y-s0orG00a1GtfR8g0x0Z0iKS7mvY6n8sBwcs1"></script>
+
+    <script src="/angular-filters?v=8bBCjaQ-419QVImadOi_l1dbU7abzLuyqjCJzLJvruU1"></script>
+
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Custom/common.js"></script>
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery.cycle2.js"></script>
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery.cycle2.js"></script>
+    <script src="/Scripts/each-site/jquery.cycle2.carousel.js"></script>
+    <script>
+        /* #region 首頁樣式調整相關 */
+
+        // 載入時的判斷
+        if ($(window).scrollTop() > 100) {
+            $("#header-bot").addClass("ScrollTop")
+        };
+
+        // 跑馬燈
+        $('.marqueen02').marquee({
+            //speed in milliseconds of the marquee
+            duration: 12500,
+            //gap in pixels between the tickers
+            gap: 50,
+            //time in milliseconds before the marquee will start animating
+            delayBeforeStart: 0,
+            //'left' or 'right' or 'up' or 'right'
+            direction: 'left',
+            //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: false,
+            //hover over marquee to pause
+            pauseOnHover: true
+        });
+        /* #endregion 首頁樣式調整相關 */
+
+        /* #region 電子彩金 */
+        function moneyFormat(obj, value, time) {
+            obj.timer = setInterval(function () {
+                var sjs = Math.random().toFixed(2);
+                var i1 = 750000 + parseInt(Math.random() * 1000, 10);
+                var valuez = parseInt(obj.innerHTML);
+                if (valuez > 1000000) {
+                    valuez = 900000;
+                };
+                var sjj = value + i1;
+                obj.innerHTML = sjj + sjs, 2;
+
+            }, time);
+        }
+
+        function pool_MG() {
+            var bhsz_01 = document.getElementById('mg-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 34987, 1000);
+        };
+        pool_MG();
+
+        function pool_PT() {
+            var bhsz_01 = document.getElementById('pt-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 50987, 1000);
+        };
+        pool_PT();
+
+        function pool_BB() {
+            var bhsz_01 = document.getElementById('bb-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 20587, 1000);
+        };
+        pool_BB();
+
+        function pool_AG() {
+            var bhsz_01 = document.getElementById('ag-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 45987, 1000);
+        };
+        pool_AG();
+
+        function pool_PRG() {
+            var bhsz_01 = document.getElementById('prg-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 50587, 1000);
+        };
+        pool_PRG();
+
+        function pool_GNS() {
+            var bhsz_01 = document.getElementById('mw-jackpot');
+            if (!bhsz_01) return false;
+            moneyFormat(bhsz_01, 56587, 1000);
+        };
+        pool_GNS();
+        /* #endregion 電子彩金 */
+    </script>
+
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="cTnXHZgD_j8Yjep7ikCbgErXxBsJ1b-uRWJ7fEg_qdRsHKISm1KaS06t9gi8QSfqjEEFgBy1QzQLd0AVh0HjYPE389Q1" />
+</body>
+</html>

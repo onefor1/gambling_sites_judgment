@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand" />
+	<link type="image/x-icon" href="/favicon.ico" rel="icon"/>
+	<title>金手指-点燃璀璨人生​</title>
+    <link href="/Resourse/Home/css/style.combo.css" rel="stylesheet" />
+
+	<script src="/Resourse/Home/js/lib/jquery.js" type="text/javascript"></script>
+	<script src="/Resourse/Home/js/lib/jquery.simplemodal.1.4.4.min.js"></script>
+	<script src="/Resourse/Home/js/plugins/alertify/lib/alertify.min.js" type="text/javascript"></script>
+	<script src="/Resourse/Home/js/lib/socket.io.js" type="text/javascript"></script>
+
+</head> 
+<body class="body-bg">
+    <div class="loader">
+        <div class="loader-inner ball-pulse-rise">
+          <div></div><div></div><div></div><div></div><div></div>
+        </div>
+    </div>
+    <div class="JszContent" style="display: none">
+        <!-- <>顶部区域 -->
+        <input type="hidden" name="uid" value="" />
+<input type="hidden" name="u" value="" />
+<input type="hidden" name="path" value="" />
+<div class="sec_header">
+<!-- 顶部链接 -->
+<div class="lay_topbar clearfix">
+    <div class="mid clearfix">
+        <div class="notice fl">
+            <em>公告：</em>
+            <div class="noticeCt" id="J__noticeSlider">           
+                <div id="notice__list" style="position: absolute;">
+                    <a href="/Notice"><span>1:                                玩家在微信充值过程中出现商户异常或超出当日上限，请重新刷新网页，继续充值即可，如微信一通道无法使用，可尝试使用微信二通道来进行充值，如果出现以上问题建议多尝试几次充值操作，即可成功充值。祝您游戏愉快！</span></a><a href="/Notice"><span>2:                                平台现已完善网银转账，玩家可通过网银转账充值，请注意填写附言准确，即可快速到账。祝您游戏愉快！</span></a><a href="/Notice"><span>3:                                                                                                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+为避免不必要的损失跟误会，请所有用户和代理仔细查看游戏介绍的彩票规则的奖金限额说明并给予理解，风险的把控是为了更长远稳定的运行。</span></a><a href="/Notice"><span>4:金手指娱乐平台于2017年5月14日正式上线，开业期间优惠多多，奖金多多！诚邀您登船享乐，点燃璀璨人生！</span></a>                </div>
+            </div>
+        </div>
+        <div class="rt-info fr">
+            <div class="moneyInfo">
+                            </div>
+            <a href="/paizhao"><span class="license">合法牌照</span></a>
+            <!--<span class="call ml--30">客服热线：<i class="ff-hv">400-082-6666</i></span>-->
+        </div>
+    </div>
+</div>
+
+<!-- //菜单及分类导航 -->
+<div class="lay_navbar">
+    <div class="mid clearfix">
+        <div class="logo fl">
+            <a href="/index"><img src="/Resourse/Home/images/logo.png" alt="金手指" /></a>
+        </div>
+        <div class="navigation fr" style="width:1050px">
+            <ul class="hd-menu J__navMenu hd-menu2">
+                <li class="on current" ><a href="/index">首页<i></i></a></li>
+                <li  ><a href="/chess">真人娱乐<i></i></a></li>
+                <li  ><a href="/bandit">电子游戏<i></i></a></li>
+                <!--<li ><a href="/Lotter/Ssc/Cqssc">彩票投注<i></i></a></li>-->
+                <li class="u-info nav__gameAll J__dropdown2 ml--20">
+                    <a href="javascript:;">彩票游戏<em class="arr"></em><i></i></a>
+                    <div class="dropdownMenu2" style="right: -612px; display: none; height: 483px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                        <!--<i class="arr1"></i><i class="arr2"></i>-->
+                        <div class="game__list mt--20 clearfix">
+                            <div class="item col2">
+                                    <h2 class="fs16 c--f35c19">时时彩</h2>
+                                    <ul class="clearfix">
+                                        <li><a href="/Lotter/Ssc/Cqssc">重庆时时彩 <label class="hot">热门</label></a></li>
+                                        <!--<li><a href="/Lotter/LF/lf">龙虎[重庆SSC] <label class="hot">热门</label></a></li>-->
+                                        <li><a href="/Lotter/Ssc/Xjssc">新疆时时彩</a></li>
+                                        <li><a href="/Lotter/Ssc/Tjssc">天津时时彩</a></li>
+                                        <li><a href="/Lotter/Ssc/Twssc">台湾5分彩 <label class="new">最新</label></a></li>
+                                        <li><a href="/Lotter/Ssc/Bj5f">北京5分彩 <label class="new">最新</label></a></li>
+                                        <!--<li><a href="/Lotter/Ssc/Txssc">腾讯分分彩 <label class="new">最新</label></a></li>
+                                        <li><a href="/Lotter/Ssc/Qqssc">QQ分分彩 <label class="new">最新</label></a></li>-->
+                                        <li><a href="/Lotter/Ssc/Jnd3f">加拿大3.5分 <label class="hot">热门</label></a></li>
+
+                                        <li><a href="/Lotter/Ssc/Xjpssc">新加坡2分 <label class="hot">热门</label></a></li>
+                                        <li><a href="/Lotter/Ssc/Djssc">东京1.5分 <label class="hot">热门</label></a></li>
+                                        <li><a href="/Lotter/Ssc/Xdlssc">新德里1.5 <label class="hot">热门</label></a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <h2 class="fs16 c--f35c19">11选5</h2>
+                                    <ul class="clearfix">
+                                        <li><a href="/Lotter/11x5/Gdxw">广东11选5</a></li>
+                                        <li><a href="/Lotter/11x5/Sdxw">山东11选5</a></li>
+                                        <li><a href="/Lotter/11x5/Sxxw">山西11选5</a></li>
+                                        <li><a href="/Lotter/11x5/Jxxw">江西11选5</a></li>
+                                        <!--<li><a href="/Lotter/11x5/Jsxw">江苏11选5</a></li>-->
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <h2 class="fs16 c--f35c19">3D/P3</h2>
+                                    <ul class="clearfix">
+                                        <li><a href="/Lotter/Welfare/3d">福彩3D</a></li>
+                                        <li><a href="/Lotter/Welfare/p3">排列三</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item col2">
+                                    <h2 class="fs16 c--f35c19">快乐彩</h2>
+                                    <ul class="clearfix">
+                                        <li><a href="/Lotter/Klsf/Cqklsf">重庆快乐十分</a></li>
+                                        <li><a href="/Lotter/Klsf/Gdklsf">广东快乐十分</a></li>
+                                        <li><a href="/Lotter/Klsf/Sxklsf">山西快乐十分</a></li>
+                                        <li><a href="/Lotter/K3/Jsk3">江苏快三</a></li>
+                                        <li><a href="/Lotter/K3/Jlk3">吉林快三</a></li>
+                                        <li><a href="/Lotter/K8/Bjk8">北京快乐8</a></li>
+                                        <li><a href="/Lotter/K8/Twk8">台湾宾果</a></li>
+                                        <li><a href="/Lotter/Bjpk10/Pk10">北京PK10 <label class="hot">热门</label></a></li>
+                                        <li><a href="/Lotter/Lucky/lucky28">北京幸运28 <label class="hot">热门</label></a></li>
+                                        <!--<li><a href="/Lotter/Lucky/Jndlucky28">加拿大幸运28</a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="game__pic mt--30 clearfix" style="margin-top: 15px!important">
+                                <a href="/Lotter/Ssc/Cqssc"><img src="/Resourse/Home/images/cp/placeholder/nav-game-img01.jpg" style="width: 360px" /></a>
+                                <a href="/bandit"><img src="/Resourse/Home/images/cp/placeholder/nav-game-img02.jpg" style="width: 360px" /></a>
+                                <a href="/chess"><img src="/Resourse/Home/images/cp/placeholder/nav-game-img03.jpg" style="width: 360px" /></a>
+                            </div>
+                    </div>
+                </li>
+                <!--<li ><a href="/Mylike">我的最爱<i></i></a></li>-->
+                <li  ><a href="/appdown">手机客户端<i></i></a></li>
+                <li  ><a href="/promotion">优惠活动<i></i></a></li>
+                <li  ><a href="/about">关于我们<i></i></a></li>
+                <!-- <li  ><a href="/brand">品牌历程<i></i></a></li> -->
+                
+                <!-- //已登录 -->
+                                <!-- //未登录 -->
+                                        <li class="unlg ml--20"><a href="/login">登录</a></li>
+                    <li class="unlg"><a href="/LiveRegiest" target="_blank">注册</a></li>
+                    <li class="unlg"><a href="http://gci.agapi.tech:81/forwardGame.do?params=MUUMxgGMlCrPp0Zg6nT10KME3oEQaTa8zBLrXA93jZuX43YHu37AacO4flwcw1XIlLv3uwX8/b9PYD0THnFQgvt8v+NzFGtVRYBpGolkcp7jkKCPVxr5s2WbNNIG2MaixQGc1uLDL5byb6hSoj2vymeifqRMoaqI8Dm9QheYiPLF4daI537YgteLdLg1NjJQTscRaB+etya+uac+HeSjPd5p+Rk1b70NcqvwywW7eQ86pi1+Y4lhz0Bx0tKWLdYJK4My79dE6YstEGzC2Dx+sJaD6VzSS+n5LvN0OPeG/LY=&key=275c598993bcb47387a2cf287722bde5" target="_blank">试玩</a></li>
+                                                </ul>
+        </div>
+    </div>
+</div>
+</div>	<!-- END.sec_header -->
+<script type="text/javascript">
+$(function(){
+    //顶部下拉菜单(彩票投注)
+    $(".J__dropdown2").hover(function(){
+        $(this).addClass("active").siblings().removeClass("on");
+        $(this).find(".dropdownMenu2").stop(true).slideDown(200);
+    }, function(){
+        $(this).removeClass("active");
+        $(".J__navMenu .current").addClass("on");
+        $(this).find(".dropdownMenu2").stop(true).hide();
+    });
+})
+</script>
+        
+        <!-- <>轮播图区域 -->
+        <div class="zone__idx-slider js_idxSlider">
+            <div class="slider-inner">
+                <ul class="slider-list">
+                    <li style="background-image: url(/Resourse/Home/images/placeholder/idx-slider-img02-1920x600.jpg);">
+                    <!-- <a href="/promotion/2" class="db nid" target="_blank" style="height:100%;width:100%;position:absolute;top:0;z-index:1;"></a> -->
+                    </li>
+                    <li style="background-image: url(/Resourse/Home/images/placeholder/idx-slider-img01-1920x600.jpg);">
+                    <!-- <a href="/promotion/3" class="db nid" target="_blank" style="height:100%;width:100%;position:absolute;top:0;z-index:1;"></a> -->
+                    </li>
+                    <li style="background-image: url(/Resourse/Home/images/placeholder/idx-slider-img03-1920x600.jpg);">
+                    <!-- <a href="/promotion/5" class="db nid" target="_blank" style="height:100%;width:100%;position:absolute;top:0;z-index:1;"></a> -->
+                    </li>
+                </ul>
+                <div class="slider-nav">
+                    <i></i><i></i><i></i>
+                </div>
+                <div class="slider-ctlbtn" style="cursor:pointer" id="toLocation">
+                    <a class="js-btn-prev"></a>
+                    <a class="js-btn-next"></a>
+                </div>
+            </div>
+        </div> <!-- END.zone-idx-slider -->
+        
+        <!-- <>主体容器区域 -->
+        <div class="container">
+            <div class="mid clearfix">
+                <!-- 1、信息统计 -->
+                <div class="zone__info-statistics mt--30">
+                    <ul class="clearfix">
+                        <li class="col1 ff-hv">
+                            <div class="item fl"><img src="/Resourse/Home/images/icon_uesr.png" /></div>
+                            <div class="item fl">
+                                    <p><i class="num" id="jsonline">3743</i>人</p>
+                                    <p>即时在线玩家</p>
+                            </div>
+                            <div class="item fl">
+                                <p><i class="num" id="leiji">58210</i>人</p>
+                                <p>累计注册玩家</p>
+                            </div>
+                        </li>
+                        <li class="col2 ff-hv">
+                            <div class="item fl"><img src="/Resourse/Home/images/icon_time.png" /></div>
+                            <div class="item fl">
+                                <p><i class="num">00</i>分 <i class="num">20</i>秒</p>
+                                <p>存款平均到账时间</p>
+                            </div>
+                            <div class="item fl">
+                                <p class="mt--10">支持微信、支付宝</p>
+                                <p>最低存款50元</p>
+                            </div>
+                        </li>
+                        <li class="col3 ff-hv">
+                            <div class="item fl"><img src="/Resourse/Home/images/icon_money.png" /></div>
+                            <div class="item fl">
+                                <p><i class="num">1</i>分 <i class="num">30</i>秒</p>
+                                <p>取款平均到账时间</p>
+                            </div>
+                            <div class="item fl">
+                                <dl class="mulitline">
+                                                                                                                                            </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 3、真人娱乐 -->
+                <div class="zone__live-entertainment similarHd mt--30 clearfix">
+                    <div class="mt clearfix">
+                        <h2 class="tit fl">真人娱乐</h2> <a class="arr fr" href="/bbin">更多娱乐</a>
+                    </div>
+                    <div class="mc">
+                        <!-- //火爆、热门 -->
+                        <ul class="entertainment-list mt--20 clearfix">
+                            <li>
+                                <div class="aimg" style="background: #ffa016;">
+                                    <a href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_BBIN.png" height="275" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>AG琪琪<i class="tag fire">火爆</i></h2>
+                                        <label>业界首创 先发8张</label>
+                                    </div>
+                                                                                                            <a class="btn transit fr" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                    </div>
+                            </li>
+                             <li>
+                                <div class="aimg" style="background: #993d15;">
+                                    <a data-method="ebetGame" href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_linlin.png" height="275" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>eBET果果<i class="tag hot">热门</i></h2>
+                                        <label>真人平台 历史悠久</label>
+                                    </div>
+                                                                                                           <a class="btn transit fr" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                    </div>
+                            </li>
+                            <li>
+                                <div class="aimg" style="background: #df3c3c;">
+                                    <a href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_opus.png" height="275" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>OPUS婷</h2>
+                                        <label>3D真人 高清画质</label>
+                                    </div>
+                                    <a class="btn transit fr" href="javascript:void(0)">即将上线</a>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <ul class="entertainment-list entertainment-list2 clearfix">
+                            <li>
+                                <div class="aimg">
+                                    <a href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_HG.png" height="180" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>HG芳芳</h2>
+                                        <label>美女荷官 业界权威</label>
+                                    </div>
+                                    <a class="btn transit fr" href="javascript:void(0)">即将上线</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="aimg">
+                                    <a href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_MG.png" height="180" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>MG梅梅</h2>
+                                        <label>欧美风情 playboy女郎</label>
+                                    </div>
+                                    <a class="btn transit fr" href="javascript:void(0)">即将上线</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="aimg">
+                                    <a href="javascript:void(0)"><img src="/Resourse/Home/images/uimg/pic_AG.png" height="180" /></a>
+                                </div>
+                                <div class="info clearfix">
+                                    <div class="fl">
+                                        <h2>AG杲杲</h2>
+                                        <label>实时视频 现场投注</label>
+                                    </div>
+                                    <a class="btn transit fr" href="javascript:void(0)">即将上线</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- 2、热门游戏 -->
+                <div class="zone__games-hot similarHd mt--30 clearfix">
+                    <div class="mt clearfix">
+                        <h2 class="tit fl">热门游戏</h2> <a class="arr fr" href="/bandit">更多游戏</a>
+                    </div>
+                    <div class="mc">
+                        <!-- //热门游戏 -->
+                        <div class="games__hot-grid clearfix mt--15">
+                            <!-- 大图 -->
+                            <div class="big__item fl">
+                                <a href="javascript:void(0)">
+                                    <img src="/Resourse/Home/images/placeholder/hotgame-bigimg01.jpg" height="346" width="390" />
+                                    <div class="title">
+                                        <span class="txt fl">古怪猴子</span> 
+                                        <em class="arr fr">
+                                                                                        <a href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                </em>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sm__item">
+                                <ul>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/pt/fm.png" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">古怪猴子</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>古怪猴子</p>
+                                                
+
+
+                                                
+
+                                                                                                                                                                                                <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/ag/xin/FRU.jpg" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">水果拉霸</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>水果拉霸</p>
+                                                
+
+
+                                                                                                                                                                                                <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                
+
+                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/mg/8685.png" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">冰球突破</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>冰球突破</p>
+                                                                                                                                                                                                            <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                        
+
+
+                                                
+
+                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/mg/26333.png" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">花花公子</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>花花公子</p>
+                                                                                                                                                                                                            <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                        
+
+
+                                                
+
+                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/pt/zcjb.png" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">招财进宝</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>招财进宝</p>
+                                                
+
+
+                                                
+
+                                                                                                                                                                                                <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                        <li>
+                                        <img src="/Resourse/Home/images/pt/bib.png" height="170" width="261" />
+                                        <div class="ft-tit"><em class="ellipsis">大蓝</em></div>
+                                        <div class="mask">
+                                            <div class="inner">
+                                                <p>大蓝</p>
+                                                
+
+
+                                                
+
+                                                                                                                                                                                                <a class="btn_view" href="/LiveRegiest" target="_blank">立即开户</a>
+                                                                                                                                                
+
+                                            </div>
+                                        </div>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                        <!-- //游戏彩池 -->
+                        <div class="games__hot-scroll clearfix mt--15">
+                            <div class="total-num fl">
+                                <div class="text">
+                                    <h3>电子游戏总彩池</h3>
+                                    <i class="num ff-hv" id="total-ticker"></i>
+                                </div>
+                            </div>
+                            <div class="games-roll">
+                                <ul class="mulitline_games clearfix">
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/69012.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">秘密爱慕者</em>
+                                                    <i class="ff-hv c--999">CNY 66.398.861,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/225.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">罗马财富</em>
+                                                    <i class="ff-hv c--999">CNY 76.971.378,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/28890.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">蜜蜂乐园</em>
+                                                    <i class="ff-hv c--999">CNY 70.986.362,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/27526.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">持枪王者</em>
+                                                    <i class="ff-hv c--999">CNY 86.731.125,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/42979.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">躲猫猫</em>
+                                                    <i class="ff-hv c--999">CNY 89.860.425,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/183.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">疯狂的猴子</em>
+                                                    <i class="ff-hv c--999">CNY 84.453.947,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/176.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">玛雅宾果</em>
+                                                    <i class="ff-hv c--999">CNY 95.747.888,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/27084.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">终极破坏</em>
+                                                    <i class="ff-hv c--999">CNY 62.585.492,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/28770.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">幸运生肖</em>
+                                                    <i class="ff-hv c--999">CNY 88.416.386,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                        <li>
+                                                                                                                        <a href="/LiveRegiest" target="_blank">
+                                                                                                                            <div class="box">
+                                                <img src="/Resourse/Home/images/mg/42981.png" height="60" width="60" />
+                                                <div class="dib">
+                                                    <em class="name">幸运双星</em>
+                                                    <i class="ff-hv c--999">CNY 55.052.963,00</i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <>平台优势 -->
+        <div class="platform_advantage mt--50">
+            <div class="mid clearfix">
+                <div class="hd align-c"><span class="tit"><em>平台优势</em></span></div>
+                <div class="ct">
+                    <div class="item">
+                        <i class="img img01"></i>
+                        <h2>金手指登录器</h2>
+                        <p>一键下载，简单有效</p>
+                        <p>智能匹配最佳线路助您遨游游戏世界</p>
+                    </div>
+                    <div class="item">
+                        <i onclick="window.location.href='/appdown'" class="img img02"></i>
+                        <h2>手机投注</h2>
+                        <p>一机在手，随时行乐</p>
+                        <p>支持支付宝或微信支付，让您</p>
+                        <p>随时随地的做赢家</p>
+                    </div>
+                    <div class="item">
+                        <i class="img img03"></i>
+                        <h2>存取款优势</h2>
+                        <p>超过15家银行支持小额</p>
+                        <p>存款怡情博娱</p>
+                    </div>
+                    <div class="item">
+                        <i class="img img04"></i>
+                        <h2>卓越的客服团队</h2>
+                        <p>7x24的优秀客服</p>
+                        <p>随时在线让您游戏无忧</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- …… 左侧、右侧浮动层.Start-->
+        <div class="floatBox__panel floatBox__panel-left">
+            <div class="panel__inner">
+                <div class="panel">
+                    <h3 class="fs16 pt--20">在线支付方式</h3>
+                    <div class="payway mt--15">
+                        <a href="/Finance/index/type/1/pid/3"><p class="alipay">QQ支付</p></a>
+                        <a href="/Finance/index/type/1/pid/1"><p class="wechat">微信支付</p></a>
+                         <a href="/Finance/index/type/1/pid/5"><p class="upay">QQ钱包</p></a> 
+                    </div>
+                    
+                    <a class="btn__close-floatBox" href="javascript:;">关闭</a>
+                </div>
+            </div>
+        </div>
+        <!--<div class="floatBox__panel floatBox__panel-right">
+            <div class="panel__inner">
+                <div class="panel panel01">
+                    <img src="/Resourse/Home/images/pic_sevice.png" />
+                    <p class="c--999 fs14 mt--10">7×24小时在线客服</p>
+                    <h3 class="ff-hv fs20">400-099-6288</h3>
+                    <h3 class="ff-hv fs20">400-099-6208</h3>
+                    <a class="btn_service" href="#">立即咨询</a>
+                </div>
+                <div class="panel panel02 mt--10">
+                    <ul class="clearfix">
+                        <li class="first"><a href="/appdown"><em><img src="/Resourse/Home/images/icon_login.png" /></em>登录器</a></li>
+                        <li><a href="/appdown"><em><img src="/Resourse/Home/images/icon_download.png" /></em>下载</a></li>
+                        <li><a href="javascript:void(0)"><em><img src="/Resourse/Home/images/icon_register.png" /></em>注册</a></li>
+                    </ul>
+                    
+                    <a class="btn__close-floatBox" href="javascript:;">关闭</a>
+                </div>
+            </div>
+        </div>-->
+        <!-- …… 左侧、右侧浮动层.End-->
+	<!-- <>底部区域 -->
+	 <!-- <>底部区域 -->
+<div class="sec_footer">
+    <div class="mid clearfix ff-hv">
+        <ul class="links dib">
+            <li><a href="/index">首页</a></li>
+            <li><a href="/about">关于我们</a></li>
+            <li><a href="/contact">联系我们</a></li>
+            <li><a href="/betting">博彩责任</a></li>
+            <li><a href="/privacy">隐私安全</a></li>
+            <li><a href="/disclaimer">免责声明</a></li>
+            <li><a href="/PeopleIntroduction">游戏介绍</a></li>
+            <li><a href="#">代理合作</a></li>
+            <li><a href="/Zchelp">帮助中心</a></li>
+        </ul>
+        <div class="copyright">
+            <p>Copyright © 2016-2017 金手指官方网站   www.jsz006.com Online Game. All rights reserved.</p>
+        </div>
+        <p><img src="/Resourse/Home/images/inx_footer.png" /></p>
+    </div>
+</div>
+<div id="BCTMessageDIV"></div>
+<!--[if IE]>
+    <script src="/Resourse/Home/js/effect/jquery.placeholder.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("[placeholder]").placeholder();
+        });
+    </script>
+<![endif]--> 
+<!--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="85c1e9a1-2b03-4610-af41-dfcb4e408cca";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
+<script src="/Resourse/Home/js/effect/jquery.textScroll.js"></script>
+<script src="/Resourse/Home/js/effect/simple-switch-tab.js"></script>
+<script src="/Resourse/Home/js/effect/jquery.xySlider.js?98982324"></script>
+<script src="/Resourse/Home/js/plugins/dialog/dialog.js" type="text/javascript"></script>
+<script src="/Resourse/Home/js/plugins/tpl/tpl.js" type="text/javascript"></script>
+<script src="/Resourse/Home/js/plugins/layui/layui.js" type="text/javascript"></script>
+<script src="/Resourse/Home/js/lib/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="/Resourse/Home/js/plugins/scrollbar/scrollbar.js"></script>
+<script src="/Resourse/Home/js/app/socketHandler.js?13123243545" type="text/javascript"></script>
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8871129;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11395291; 
+var sc_invisible=1; 
+var sc_security="340b5f93"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11395291/0/340b5f93/1/" alt="web
+analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+<script type="text/javascript">
+//document.getElementById("chart").src="/Resourse/Home/js/app/socketHandler.js?ver="+Math.random();
+$(function(){
+    alertify.set({
+        delay : 3000,
+        buttonReverse : false
+    });
+
+    var layer;
+    layui.use("layer",function(layer){
+        layer = layer;
+    })
+
+    function killerrors() { return true; }
+    window.onerror = killerrors;
+})
+</script> 
+    </div>
+    <script type="text/javascript">
+        var jumpurl = "http://www.jszapi.com"
+    </script>
+    <script src="/Resourse/Home/js/lib/jackpot.js" type="text/javascript"></script> 
+    <script src="/Resourse/Home/js/app/index.js?index" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(function() {
+        $("#toLocation").on("click", function(e) {
+            var i = 0;
+            $(".slider-nav").find("i").each(function(q){
+                if($(this).hasClass("on")) {
+                    i = q;
+                }
+            })
+            switch(Number(i)) {
+                case 1 : window.location.href='/promotion/3';break;
+                case 0 : window.location.href='/promotion/2';break;
+                case 2 : window.location.href='/promotion/5';break;
+            } 
+        })
+    })
+    </script>
+</body>
+</html>

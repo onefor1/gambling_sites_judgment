@@ -1,0 +1,597 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lte IE 9]> <html class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>杏彩娱乐--首页</title>
+    <meta name="description" content="">
+    
+    <meta name="robots" content="noarchive">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="/Assets/dist/themes/xingcai/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/Assets/dist/themes/xingcai/css/main.css">
+    <!--[if lte IE 9]>
+    <script src="/Assets/dist/common/js/lib/html5shiv.js"></script>
+    <script src="/Assets/dist/common/js/lib/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="page">
+        <div class="top-bar">
+            <div class="wrapper clearfix">
+                
+                    <div class="fr hd-info">
+                        <div class="info-default fltrt">
+
+                            <form id="account-form" onsubmit="return false;" class="fr">
+                                
+                                <a class="lets-join btn-reg j-joinUs">立即开户</a>
+                                
+                                    <span class="relative">
+                                            <a id="btnTryPlayMode0" class="j-tryplay" data-mode="0">免费试玩</a>
+                                        <span class="tg-mask tryPlayLoading" style="display: none;">
+                                            <img src="/Assets/dist/themes/xingcai/img/loading.gif" />
+                                        </span>
+                                    </span>
+                                <input type="text" class="width100" name="memberName" placeholder="帐号" />
+                                
+                                <input type="password" class="width100" name="pwd" placeholder="密码" />
+                                
+                                <span class="checkcode" style=display:none>
+                                    <input type="text" class="width75" maxlength="4" name="checkCode" placeholder="验证码" />
+                                    <img id="vCodeImg" src="/common/createCode" width="55" alt="" />
+                                </span>
+                                
+                                <button class="top-btn btn-login" id="loginButton" type="submit"><i class="icon button-arrow"></i>登录</button>
+                                
+                                <a href="/forgetpwd" class="top-btn forget-pwd"><i class="icon button-arrow"></i>忘记密码</a>
+                                    <span class="relative language" data-dropdown="#lang">
+                                        <span id="currentLang"><a href="#"><i class="icon  zh_cn"></i></a></span><em></em>
+                                        <div class="lang-list hide" id="lang">
+                                            <ul>
+
+                                                    <li><a class="changeLang" data-lang="zh_cn"><i class="icon zh_cn"></i></a></li>
+                                                    <li><a class="changeLang" data-lang="zh_tw"><i class="icon zh_tw"></i></a></li>
+
+                                            </ul>
+                                        </div>
+                                    </span>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="wrapper">
+            <div class="fl logo">
+                <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="262" height="83" id="playerObject" name="playerObject">
+                    <param name="movie" value="//ryimg.maya8.cc/official/2016/06/07/122437474.swf">
+                    <param name="allowfullscreen" value="true">
+                    <param name="allowscriptaccess" value="always">
+                    <param name="quality" value="high">
+                    <param name="wmode" value="transparent">
+                    <embed src="//ryimg.maya8.cc/official/2016/06/07/122437474.swf" quality="high" wmode="transparent" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="262" height="83">
+                </object>
+            </div>
+            <div class="top-nav">
+                <ul id="top-nav">
+                    
+                    <li class="current current">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                        <li class="">
+                            <a class="j-joinUs">
+                                注册帐号
+                            </a>
+                        </li>
+                    <li class="">
+                        <a href="/lottery">
+                            彩票游戏
+                        </a>
+                    </li>
+                    
+                    <li class="j-redirect" data-url="/RedirectGame?gameID=5" data-brand="/Home/BrandRedirect?id=5" data-gameid="5">
+                        <a>快乐彩</a>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/info/withdrawal">
+                            取款帮助
+                        </a>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/info/agentregister">
+                            代理合作
+                        </a>
+                    </li>
+                    
+                    <li class="">
+                        <a href="/activity">
+                            优惠活动
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/home/mobile" target="_blank">手机投注</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section ">
+        
+
+
+
+<div class="section">
+    <div id="slider" class="j-slide-panel">
+            <ul class="j-slide-content">
+                    <li style="opacity: 1; z-index: 1;">
+                        <a  style="background:url(//ryimg.maya8.cc/activity/2016/06/07/123033877.jpg) center center no-repeat"  target=""></a>
+                    </li>
+                    <li style="opacity: 0; z-index: 0;">
+                        <a  style="background:url(//ryimg.maya8.cc/activity/2017/03/12/155710706.jpg) center center no-repeat"  target=""></a>
+                    </li>
+                    <li style="opacity: 0; z-index: 0;">
+                        <a  style="background:url(//ryimg.maya8.cc/activity/2016/06/07/123147629.jpg) center center no-repeat"  target=""></a>
+                    </li>
+                    <li style="opacity: 0; z-index: 0;">
+                        <a  style="background:url(//ryimg.maya8.cc/activity/2016/06/07/123151038.jpg) center center no-repeat"  target=""></a>
+                    </li>
+            </ul>
+            <div class="wrapper relative">
+                <ul class="j-slide-nav">
+                        <li class="icon num"></li>
+                        <li class="icon num"></li>
+                        <li class="icon num"></li>
+                        <li class="icon num"></li>
+                </ul>
+                <div class="notice" id="top-news">
+                    <div class="page">
+                        <span class="control" data-action="prev"><i class="icon icon-prev"></i></span>
+                        <span class="control" data-action="next"><i class="icon icon-next"></i></span>
+                    </div>
+                    <i class="icon icon-news"></i>
+                    <span class="title">
+                        
+                        最新消息
+                    </span>
+                        <span class="time">
+                                        <span>2017-07-27</span>
+                                        <span class="hide">2017-07-23</span>
+                                        <span class="hide">2017-07-18</span>
+                                        <span class="hide">2017-07-13</span>
+                                        <span class="hide">2017-07-12</span>
+                                        <span class="hide">2017-04-29</span>
+                        </span>
+                        <div class="content">
+                            <ul>
+                                        <li class="noticeElem" data-sortid="0" data-text="紧急公告：入款卡（招商银行-耿国平）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看
+
+网站最新入款账号，如已转入已经停用的账号上，平台将概不负责，谢谢！">
+                                            <a>紧急公告：入款卡（招商银行-耿国平）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看
+
+网站最新入款账号，如已转入已经停...</a>
+                                        </li>
+                                        <li class="noticeElem" data-sortid="1" data-text="为了给您提供更好的服务质量，平台将启用全新域名xc909.com，手机登陆网址是m.xc909.com请广大玩家相互告知并牢记，谢谢！">
+                                            <a>为了给您提供更好的服务质量，平台将启用全新域名xc909.com，手机登陆网址是m.xc909.com请广大玩家相互告知并牢记，谢...</a>
+                                        </li>
+                                        <li class="noticeElem" data-sortid="2" data-text="微信充值转账已开通，如需微信充值请咨询在线客服索取微信号，谢谢！">
+                                            <a>微信充值转账已开通，如需微信充值请咨询在线客服索取微信号，谢谢！</a>
+                                        </li>
+                                        <li class="noticeElem" data-sortid="3" data-text="公司银行帐号随时更换！每次存款都要到公司入款画面确定，如汇款到已过期帐号，公司无法查收恕不负责！">
+                                            <a>公司银行帐号随时更换！每次存款都要到公司入款画面确定，如汇款到已过期帐号，公司无法查收恕不负责！</a>
+                                        </li>
+                                        <li class="noticeElem" data-sortid="4" data-text="紧急公告：入款卡（招商银行-汪金高）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看网站最新入款账号，如已转入已经停用的账号上，平台将概不负责，谢谢！">
+                                            <a>紧急公告：入款卡（招商银行-汪金高）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看网站最新入款账号，如已转入已经停用的...</a>
+                                        </li>
+                                        <li class="noticeElem" data-sortid="5" data-text="尊敬的客戶您好：如您登入杏彩彩票的网址跳转到其他平台，那么就是您本地的DNS被电信商强行劫持到黑庄，非常危险，本公司不会改名，在线客服也不会向会员索取登入密码和取款密码，更没有推出任何新平台，也不会停止服务。如发现网页被跳转，立刻联系在线客服或者QQ客服处理！">
+                                            <a>尊敬的客戶您好：如您登入杏彩彩票的网址跳转到其他平台，那么就是您本地的DNS被电信商强行劫持到黑庄，非常危险，本公司不会改名，在线...</a>
+                                        </li>
+                            </ul>
+
+                        </div>
+                </div>
+
+            </div>
+
+    </div>
+
+    <div class="menu">
+        <div class="wrapper relative">
+            <a class="menu-item menu-vgame" href="/lottery/104">
+                <div class="game-pic">
+                    <i class="icon vgame-item"></i>
+                    <p>每天从9:00-24:00，每五分钟开奖一次，</p>
+                    <p>每天共179期。游戏玩法：两面盘、</p>
+                    <p>大小、单双、冠亚和值、单选、龙虎等。</p>
+                </div>
+            </a>
+            <a class="menu-item menu-game" href="/lottery/103">
+                <div class="game-pic">
+                    <i class="icon game-item"></i>
+                    <p>时时彩全天120期，</p>
+                    <p>每天上午10:00—22:00,</p>
+                    <p>十分钟一期22:00-02:00五分钟一期。</p>
+                </div>
+            </a>
+            <a class="menu-item menu-lottery" href="/lottery/106">
+                <div class="game-pic">
+                    <i class="icon lottery-item"></i>
+                    <p>幸运飞艇(luckyairship)是一种起源于</p>
+                    <p>F1赛艇的彩票游戏，游戏由十架飞艇</p>
+                    <p>作为开奖号码，五分钟为一个开奖周期。</p>
+                </div>
+            </a>
+            <a class="menu-item menu-sport" href="/lottery/101">
+                <div class="game-pic">
+                    <i class="icon sport-item"></i>
+                    <p>主要玩法：特码、波色、生肖、五行。</p>
+                    <p>而香港六合彩因其方便快捷的投注界面，</p>
+                    <p>一上线就受到众多彩民的热烈追捧！</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="menu-news">
+        <div class="speed">
+        </div>
+        <div class="wrapper relative">
+            <div class="menu-item">
+                <h3>百万巨资</h3>
+                <span class="text text1">
+                    3分钟极速到账,入款更是秒速到达
+                    拒绝零等待！
+                </span>
+                <span class="time">
+                    <h4 id="bank_s">
+                        0
+                    </h4>
+                    分钟
+                </span>
+                <span class="loading">
+                    <span id="bank" class="loading-content1">
+                    </span>
+                </span>
+            </div>
+            <div class="menu-item">
+                <h3>优质服务</h3>
+                <span class="text text2">
+                    只需10秒，即可到账；取款多条通道
+                    极速3分钟到账！
+                </span>
+                <span class="time">
+                    <h4 id="deposit_s">
+                        0
+                    </h4>
+                    秒
+                </span>
+                <span class="loading">
+                    <span id="deposit" class="loading-content2">
+                    </span>
+                </span>
+            </div>
+            <div class="menu-item">
+                <h3>全天候</h3>
+                <span class="text text3">
+                    24小时管控，与金融机构展开合作提供
+                    银行转帐,第三方在线转账等服务令资金
+                    可以分秒必达.！
+                </span>
+                <span class="time">
+                    <h4 id="take_s">
+                        0
+                    </h4>
+                    小时
+                </span>
+                <span class="loading">
+                    <span id="take" class="loading-content3">
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="noticeContainer hide">
+    <div class="notice-list">
+        <div class="scrollbar-macosx">
+            <dl>
+                        <dd>
+                            <span class="fr">2017-07-27 14:01:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="0">
+                                紧急公告：入款卡（招商银行-耿国平）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看
+
+网站最新入款账号，如已转入已经停用的账号上，平台将概不负责，谢谢！
+                            </a>
+                        </dd>
+                        <dd>
+                            <span class="fr">2017-07-23 19:10:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="1">
+                                为了给您提供更好的服务质量，平台将启用全新域名xc909.com，手机登陆网址是m.xc909.com请广大玩家相互告知并牢记，谢谢！
+                            </a>
+                        </dd>
+                        <dd>
+                            <span class="fr">2017-07-18 12:35:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="2">
+                                微信充值转账已开通，如需微信充值请咨询在线客服索取微信号，谢谢！
+                            </a>
+                        </dd>
+                        <dd>
+                            <span class="fr">2017-07-13 18:31:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="3">
+                                公司银行帐号随时更换！每次存款都要到公司入款画面确定，如汇款到已过期帐号，公司无法查收恕不负责！
+                            </a>
+                        </dd>
+                        <dd>
+                            <span class="fr">2017-07-12 10:00:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="4">
+                                紧急公告：入款卡（招商银行-汪金高）已暂停使用，请不要在往此账号存款！玩家每次存款前都需要查看网站最新入款账号，如已转入已经停用的账号上，平台将概不负责，谢谢！
+                            </a>
+                        </dd>
+                        <dd>
+                            <span class="fr">2017-04-29 18:57:00</span>
+                            <i class="icon icon-square"></i>
+                            <a data-sortid="5">
+                                尊敬的客戶您好：如您登入杏彩彩票的网址跳转到其他平台，那么就是您本地的DNS被电信商强行劫持到黑庄，非常危险，本公司不会改名，在线客服也不会向会员索取登入密码和取款密码，更没有推出任何新平台，也不会停止服务。如发现网页被跳转，立刻联系在线客服或者QQ客服处理！
+                            </a>
+                        </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+        <div id="j-notify" style="display: none;">
+            <div class="notify-page">
+                <a class="fl" data-action="prev"><</a>
+                <a class="fr" data-action="next">></a>
+                <span class="notify-num"></span>
+            </div>
+            <div class="notify-info">
+                <div class="notify-content"></div>
+            </div>
+            <div class="arrow"></div>
+            <div>
+                <button i="close" class="button">确定</button>
+            </div>
+        </div>
+    </div>
+
+        <div class="footer">
+            <div class=" footer-nav">
+                <div class="wrapper">
+                    <ul class="mt40">
+                        
+                        <li><a href="/Info/Index">关于我们</a></li>
+                        
+                        <li><a href="/Info/Contact">联系我们</a></li>
+                        
+                        <li><a href="/Info/Rule">规则说明</a></li>
+                        
+                        <li><a href="/Info/Deposit">存款帮助</a></li>
+                        
+                        <li><a href="/Info/Withdrawal">取款帮助</a></li>
+                        
+                        <li><a href="/Info/Common">常见问题</a></li>
+                    </ul>
+                    <div class="copyright fr">
+                        COPYRIGHT &copy; 杏彩娱乐 RESERVED
+                    </div>
+                </div>
+            </div>
+            <div class="main-service">
+                <div class="wrapper clearfix">
+                    <span>
+                        <i class="icon icon-lottery"></i>
+                        <h3 class="mt14">最大博彩平台</h3>
+                        <p>全球华人凝聚，用户基数最大</p>
+                    </span>
+                    <span>
+                        <i class="icon icon-security"></i>
+                        <h3 class="mt14">资金安全</h3>
+                        <p>千万资金保障，强大的数据加密技术</p>
+                    </span>
+                    <span>
+                        <i class="icon icon-service"></i>
+                        <h3 class="mt14">优质服务</h3>
+                        <p>尊享7X24小时，365天全年无休</p>
+                    </span>
+                    <span>
+                        <i class="icon icon-bank"></i>
+                        <h3 class="mt14">银行合作</h3>
+                        <p>124家银行7X24小时全天候服务</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+    <div class="service">
+        <div class="service-icon">
+            <i class="icon icon-chat"></i>
+        </div>
+        
+        <p class="service-title">在线客服</p>
+        <div class="service-main">
+            <div class="service-top" onclick="pseAftow()">
+            </div>
+                            <div class="qq-list">
+                    <div class="service-item-title">官方QQ</div>
+                        <a href="tencent://message/?exe=qq&menu=yes&Uin= 69691122" data-qq=" 69691122">
+                            <i class="icon icon-qq-on"></i>
+                            <p> 69691122</p>
+                        </a>
+                </div>
+            <div class="service-wechat">
+                <p>
+                    微信：<span>xc88vip</span>
+                </p>
+                <img src="/Assets/dist/themes/xingcai/img/wechat.jpg" width="138" alt="" />
+            </div>
+
+        </div>
+    </div>
+
+    
+
+
+
+<div id="j-reg" class="hide">
+    <form id="quickRegister" onsubmit="return false;">
+        <div class="form-list quickreg">
+            <div class="quickreg-description">(为了您的资金安全，请使用真实资料)</div>
+            <table>
+                <tr>
+                    <td>
+                            <select class="width166  hider" name="countryNo" id="quickRegCountry" data-name="国别">
+                                    <option value="China" >中国</option>
+                            </select>
+                        <select class="width166" name="currencyNo" data-name="使用货币" id="quickRegCurrency"></select>
+                        <div class="error-msg msg-box text-red" for="currencyNo"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="relative">
+                        <span class="icon-bg"><i class="icon reg-account"></i></span>
+                        <input class="inputWidth" type="text" placeholder="请输入以字母开头的6-15位数字字母" name="memberName" maxlength="15" data-name="帐号" disable-placeholder />
+                        <div class="error-msg text-red">
+                            <span class="msg-box" id="t-memberName"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="relative">
+                        <div class="eye-bg">
+                            <i class="icon eye" id="eyes"></i>
+                        </div>
+                        <span class="icon-bg"><i class="icon reg-pwd"></i></span>
+                        <input class="inputWidth Pwd" type="password" placeholder="请输入6-20位数字字母组合" id="quickReg-pwd" name="pwd" data-name="密码" maxlength="20" disable-placeholder />
+                        <div class="error-msg text-red">
+                            <span class="msg-box" id="t-pwd"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="relative">
+                        <span class="icon-bg"><i class="icon reg-email"></i></span>
+                        <input class="inputWidth" type="text" placeholder="联系邮箱 (非必填)" name="email" maxlength="50" data-name="联系邮箱" disable-placeholder />
+                        <div class="error-msg text-red">
+                            <span class="msg-box" id="t-email"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="relative">
+                        <div class="checkcode">
+                            <span class="icon-bg"><i class="icon reg-code"></i></span>
+                            <input class="checkcode" id="q-checkcode" type="text" maxlength="4" name="checkcode" data-name="验证码" width="80" placeholder="请点击" disable-placeholder />
+                            <img src="" id="quickRegChkcode" class="" width="55" alt="" />
+
+                        </div>
+                        <div class="error-msg text-red">
+                            <span class="msg-box" id="t-checkcode"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <input type="checkbox" data-name="请勾选同意条约和协议" name="agreement" checked>
+                            本人同意<a class="quickRegAgreement" data-lang="开户协议">《开户协议》</a>
+                        </p>
+                        <button class="btn btn-primary" type="submit" id="quickRegBtn">注册</button>
+                        <button class="btn btn-default" type="reset" id="quickReset">重置</button>
+                        <input type="hidden" name="todo" value="quickregister" />
+                        <input type="hidden" name="PromoCode" value="" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ol-service">
+                        如注册遇到任何疑问，可马上联系我们的<a onclick="ps760xow(); return false;">在线客服</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>
+
+<div class="j-agreement text-left text-default hide">
+    <ul>
+        <li>1、杏彩娱乐只接受合法博彩年龄的客户申请。同时我们保留要求客户提供其年龄证明的权利。</li>
+        <li>2、在杏彩娱乐进行注册时所提供的全部信息必须在各个方面都是准确和完整的。</li>
+        <li>3、在开户后进行一次有效存款，恭喜您成为杏彩娱乐有效会员！</li>
+        <li>4、存款免手续费，开户最低入款金额100人民币，最高单次入款金额500000人民币。</li>
+        <li>5、成为杏彩娱乐有效会员后，客户有责任以在线客服、电子邮件、在杏彩娱乐网站上联系我们，随时向本公司提供最新的个人资料。</li>
+        <li>6、经杏彩娱乐发现会员有重复申请账号行为时，有权将这些账户视为一个联合账户。我们保留取消、收回会员所有优惠红利，以及优惠红利所产生的盈利之权利。每位玩家、每一住址、每一电子邮箱、每一电话号码、相同支付卡/信用卡号码，以及共享计算机环境 (例如:网吧、其他公共用计算机等)只能够拥有一个会员账号，各项优惠只适用于每位客户在杏彩娱乐唯一的账户。</li>
+        <li>7、杏彩娱乐是提供互联网投注服务的机构。请会员在注册前参考当地政府的法律，在博彩不被允许的地区，如有会员在杏彩娱乐注册、下注，为会员个人行为，杏彩娱乐不负责、承担任何相关责任。</li>
+        <li>8、无论是个人或是团体，如有任何威胁、滥用杏彩娱乐优惠的行为，杏彩娱乐保留杈利取消、收回由优惠产生的红利，并保留权利追讨最高50%手续费。</li>
+        <li>9、所有杏彩娱乐的优惠是特别为玩家而设，在玩家注册信息有争议时，为确保双方利益、杜绝身份盗用行为，杏彩娱乐保留权利要求客户向我们提供充足有效的文件， 并以各种方式辨别客户是否符合资格享有我们的任何优惠。</li>
+        <li>10、因发生不可抗拒的灾害或人为入侵破坏行为，所造成的网站故障或数据损坏等情况，以本网站最终数据为最后的处理数据，所以各会员应尽量保留或打印数据， 本网站才接受跟进投诉。为避免任何争议，各用户在参与本网站所有游戏过程中或在结束游戏前，务必检查该会员帐户的资料，如发现任何异常情况，及时与在线客服联系。否则该用户将被视为同意并且接受。其帐户之一切数据或历史数据，以本公司数据库中的数据为准，用户不得异议。并且无须事先公布，本公司保留所有规则的修改权。</li>
+        <li>11、客户一经注册开户，将被视为接受所有颁布在杏彩娱乐网站上的规则与条例。</li>
+    </ul>
+
+</div>
+    <script>
+        var memberState =0;
+        var isLogin = false;
+        var testState = 0;
+        var pageVariables={
+            currentAction: "index",
+            promoCodeCookieKey:"f",
+            fromCodeCookieKey:"fromcode"
+        };
+    </script>
+    
+<script>
+    var official_cfg = {
+        'static_url': '/Assets/dist/common/js',
+        'app_url': '/Assets/dist/themes/xingcai/js',
+        'loadImgUrl': '/Assets/dist/common/img/loading.gif',
+        'currencyImgUrl': '/Assets/dist/common/img/currency.png',
+        'clientLang': 'zh_cn'
+    };
+</script>
+<script src="/Assets/dist/common/js/main.js"></script>
+
+    
+    
+    <script>
+        require(['app/page/home/index'], function (Home) {
+            new Home();
+        })
+    </script>
+
+    <div class="hide">
+        
+        
+<!-- BEGIN ProvideSupport.com Graphics Chat Button Code -->
+<div id="cieAft" style="z-index:100;position:absolute"></div><div id="sceAft" style="display:inline"></div><div id="sdeAft" style="display:none"></div>
+<script type="text/javascript">var seeAft=document.createElement("script");seeAft.type="text/javascript";var seeAfts=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/15syywbl345cq067w2p0ctqjfv/safe-standard.js?ps_h=eAft&ps_t="+new Date().getTime();setTimeout("seeAft.src=seeAfts;document.getElementById('sdeAft').appendChild(seeAft)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?messenger=15syywbl345cq067w2p0ctqjfv">聊天聊天帮助</a></div></noscript>
+<script language="javascript" src="http://api1.pop800.com/800.js?n=243733&s=01&p=l&l=cn"></script><div style="display:none;"><a href="http://www.pop800.com">在线客服</a></div>
+<!-- END ProvideSupport.com Graphics Chat Button Code -->
+    </div>
+</body>

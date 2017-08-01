@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>澳-门-新-葡-京 幸运大转盘-100%中奖,幸运“转”不停</title>
+<link href="/template/default/css/style.css" rel="stylesheet">
+<script src="/template/default/js/jquery-1.9.0.min.js"></script>
+<script src="/template/default/js/artDialog.js?skin=default" type="text/javascript"></script>
+<script type="text/javascript" src="/template/default/js/jquery.min.js"></script>
+<script type="text/javascript" src="/template/default/js/jquery.rotate.min.js"></script>
+<script type="text/javascript" src="/template/default/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="/template/default/js/lottery_new.js"></script>
+<script src="/template/default/js/zebra_pin.js" type="text/javascript"></script>
+<script type="text/javascript" src="/template/default/js/Xslider.js"></script>
+</head>
+<body style='overflow:scroll;overflow-x:hidden'>
+<span id="dzp_model" style=" position:absolute; top:700px"></span>
+<span id="dzp_rules" style=" position:absolute; top:1200px"></span>
+<div class="wrap">
+<div class="main">
+<div class="header-link"><a href="http://www.p35a.com/" target="_blank">澳门新葡京官网</a>|<a href="https://messenger.providesupport.net/messenger/03jjj1fn5nq060y6srb11ns0w5.html" target="_blank">7X24H在线客服</a></div>
+<a href="http://www.p35aa.com/"  target="_blank" class="logo"></a>
+<div class="turntable">
+<div class="cj_condition"></div>
+<div class="ly-plate">
+  <div id="dzp_img" class="rotate-bg"></div>
+  <div class="lottery-star">
+	 <div id="lottery_img" style="z-index:1;position:absolute;left:17px;top:43px;display:none">
+		<img id="lotteryLine" src="/template/default/images/line.png" style="width:120px;height:120px;cursor: pointer;">
+	</div>
+	<img src="/template/default/images/pointer.png"  id="lotteryBtn" />
+  
+  </div>  
+</div>
+<div class="winners">
+<div class="win-box">
+<div id="dem" class="win-cent">
+                    <div id="dem1">
+                        <table id="lottery_winners_data" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                               
+						</table>
+                    </div>
+                    <div id="dem2" ></div>
+                </div>
+</div>
+<script>
+//以下方法是滚动各种钥匙的中奖信息
+var MyMar;
+                
+function show_tzj(){
+    var speed=60;
+    dem2.innerHTML=dem1.innerHTML;
+    function Marquee(){
+        if(dem2.scrollHeight - dem.scrollTop <= 0){
+            dem.scrollTop = 0;  
+        }else{
+            dem.scrollTop++;
+            if(dem.scrollTop>80){
+                // scrollHeight
+            }
+        }                        
+    }
+    MyMar=setInterval(Marquee,speed);
+    dem.onmouseover=function() {clearInterval(MyMar)}
+    dem.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+}
+
+</script>
+<div class="btn_a"><a href="javascript:querylist();" target="_blank" class="zj_btn"></a><a href="http://www.p35aa.com/" target="_blank" class="zc_btn"></a></div>
+<script>
+//以下方法是滚动各种钥匙的中奖信息
+var MyMar;
+                
+function show_tzj(){
+    var speed=60;
+    dem2.innerHTML=dem1.innerHTML;
+    function Marquee(){
+        if(dem2.scrollHeight - dem.scrollTop <= 0){
+            dem.scrollTop = 0;  
+        }else{
+            dem.scrollTop++;
+            if(dem.scrollTop>80){
+                // scrollHeight
+            }
+        }                        
+    }
+    MyMar=setInterval(Marquee,speed);
+    dem.onmouseover=function() {clearInterval(MyMar)}
+    dem.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+}
+
+</script>
+</div>
+</div>
+
+<div class="event-1">
+				<h2 class="title"></h2>
+					<div class="show-box">
+						<ul class="show clearfix" id="rollbox">
+							<li>
+								<img src="/template/default/images/show_jp2.png" />
+							</li>
+							<li>
+								<img src="/template/default/images/show_jp3.png" />
+							</li>
+							<li class="on">
+								<img src="/template/default/images/show_jp1.png" />
+								<p><span id="pNmae">Iphone7 (128G)</span></p>
+							</li>
+							<li>
+								<img src="/template/default/images/show_jp4.png" />
+							</li>
+							<li>
+								<img src="/template/default/images/show_jp5.png" />
+							</li>
+						</ul>
+					</div>
+                    <a href="javascript:;" class="arrow prev pa ht" id="prev" title="上一个">上一个</a>
+                    <a href="javascript:;" class="arrow next pa ht" id="next" title="下一个">下一个</a>
+			</div>
+<div class="event-2">
+<h2 class="title"></h2>
+<div class="c_text">
+<p>1、<span>会员当日有效存款额达到500或以上可抽奖1次，当日有效存款额达到3,000或以上可以抽奖2次，当日有效存款额10,000或以上可以抽奖3次，当日有效存款额30,000或以上可以抽奖4次，当日有效存款额50,000或以上可以抽奖5次，当日有效存款额100,000或以上可以抽奖6次；</span><br/>
+2、会员当日有效投注额计算周期采用美东时间进行计算，即北京时间每天中午12点至次日中午12点为一个计算周期；<br/>
+3、会员当日有效投注额达到抽奖条件后，即可在次日北京时间下午17:00后开始抽奖，且需在当天完成抽奖，否则视为自动放弃活动资格；<br/>
+4、如会员投注于体育赛事当天未进行结算，有效投注额将在隔天进行计算，对此如有异议将以系统数据为准；<br/>
+5、除现金筹码以外奖品，从中奖之日起，一个星期未进行申请，将视为自动放弃中奖资格；<br/>
+6、每位会员每个IP地址当日累计抽奖次数最多为6次，如发现会员同一个IP下注册多个账号进行投注抽奖，澳门新葡京有权拒绝赠送其彩金并冻结此相关账号，以保证正常会员玩家的利益；<br/>
+7、此转盘活动为【澳门新葡京】系统程序自动运行，获奖的概率完全遵循力学及自然概率，不涉及任何人工操作，抽奖结果以系统判定为准，不得争议。</p></div>
+</div>
+<div class="event-3">
+<h2 class="title"></h2>
+<div class="c_text">
+<p>1、获得iPhone7（128G）的会员，请获奖后第一时间联系官网24小时在线客服，并提供个人相关信息，为确保奖品准确无误赠送给中奖者，在线客服会进行相关信息的核对，届时请获奖人员配合，否则澳门新葡京有权拒绝赠予该奖品；<br/>
+2、实物奖品可以折现，折现的会员可联系24小时在线客服进行申请，1倍流水即可申请提款；<br/>
+3、获得“存送优惠卷”的会员，需（本金+彩金）的3倍流水即可申请提款；<br/>
+4、获得“现金筹码”的会员无需申请，系统将在30分钟内自动添加到中奖会员游戏账号内，1倍流水即可申请提款。
+</p>
+</div>
+</div>
+<div class="event-4">
+<h2 class="title"></h2>
+<div class="c_text">
+<p>1、此活动可与【澳门新葡京】官网所有活动，同时共享；<br/>
+2、所有红利为随机派发，如系统发生某些不可预测超出本站控制之外的技术错误，或人为不可控制的因素，则澳门新葡京保留最终处理权；<br/>
+3、玩家不可使用多账户参与本次活动，每一位玩家，每一住址、每一个电子邮箱、每一个电话号码、相同银行卡/信用卡号码，以及共享电脑环境（例如：网吧、其它公共电脑等）只能获得一次红利。这项优惠只适用于每位客户在澳门新葡京唯一申领本优惠的账户；<br/>
+4、无论是个人或团体，如有任何威胁、滥用澳门新葡京优惠行为，澳门新葡京保留权力取消，收回优惠以及产生的红利；澳门新葡京有权取消任何已结算之彩金，澳门新葡京保留向客户追讨、收取手续费的权利，手续费上限是存款金额的50%，以支付行政管理费用；<br/>
+5、本活动最终解释权归属【澳门新葡京】所有，并保留修改以上条款的最终权利。</p></div>
+</div>
+</div>
+<div class="bottom">
+<div class="copyright">Copyright ® 澳门新葡京 Reserved</div>
+</div>
+</div>
+
+         
+<div class="actGotop"><a href="javascript:;" title="返回顶部"></a></div>
+
+<div class="alert alert-info" role="alert" style="display:none">
+  <span id="progressbar_value">20</span>
+</div>
+
+<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+<div style="display:none">
+<img src="/template/default/images/pointer_load.png"  />
+<img src="/template/default/images/pointer_load_on.png"  />
+<img src="/template/default/images/pointer_load_static.png"  />
+</div>
+
+<script>
+	var txt = {
+		'name':['Iphone7 (128G)','现金筹码8元','现金筹码28元','现金筹码58元','现金筹码88元','现金筹码188元','现金筹码388元','现金筹码588元','存200送100','存500送200'],
+	},
+	pNmae = $('#pNmae')
+	/*,pText = $('#pText')*/;
+	function show(id,prev,next,auto,time){		
+		var showBox = $(id),
+			showCon = showBox.children(),
+			showL = 10,
+			prev = $(prev),
+			next = $(next),
+			times = time*1000,
+			index = 1,
+			timer = null;
+
+		function play(num,index){
+			var s_index;
+			switch(num){
+				case 0:
+				if(index == 1){
+					s_index = showL - 1;
+				}else if(index == 2){
+					s_index = showL;
+				}else{
+					s_index = index - 2;
+				}
+				showCon.eq(num).find('img').attr('src','/template/default/images/show_jp'+ s_index +'-1.png');
+				break;
+
+				case 1:
+				if(index == 1){
+					s_index = showL;
+				}else{
+					s_index = index - 1;
+				}
+				showCon.eq(num).find('img').attr('src','/template/default/images/show_jp'+ s_index +'-1.png');
+				break;
+
+				case 2:
+				s_index = index;
+				showCon.eq(num).find('img').attr('src','/template/default/images/show_jp'+ s_index +'.png');
+				break;
+
+				case 3:
+				if(index == showL){
+					s_index = 1;
+				}else{
+					s_index = index + 1;
+				}
+				showCon.eq(num).find('img').attr('src','/template/default/images/show_jp'+ s_index +'-1.png');
+				break;
+
+				case 4:
+				if(index == showL){
+					s_index = 2;
+				}else if(index == showL - 1){
+					s_index = 1;
+				}else{
+					s_index = index + 2;
+				}
+				showCon.eq(num).find('img').attr('src','/template/default/images/show_jp'+ s_index +'-1.png');
+				break;
+			}
+		}
+		function allShow(index){
+			play(0,index);
+			play(1,index);
+			play(2,index);
+			play(3,index);
+			play(4,index);
+			pNmae.html(txt.name[index - 1]);
+			//pText.html(txt.text[index - 1]);
+		}
+		function prevPlay(){
+			if(index == 1){
+				index = showL + 1;
+			}
+			index --;
+			allShow(index)
+		}
+		function nextPlay(){
+			if(index == showL){
+				index = 0;
+			}
+			index ++;
+			allShow(index)
+		}
+		prev.click(function(){
+			clearInterval(timer);
+			prevPlay();
+			autoPlay();
+		});
+		next.click(function(){
+			clearInterval(timer);
+			nextPlay();
+			autoPlay();
+		});
+		function autoPlay(){
+			if (auto == true) {
+				timer = setInterval(function(){
+					nextPlay();
+				},times)
+			}
+		}
+		autoPlay();
+	}
+
+	show('#rollbox','#prev','#next',true,5)
+</script>
+<div class="side">
+	<ul>
+		<li><a target="_blank" href="https://messenger.providesupport.net/messenger/03jjj1fn5nq060y6srb11ns0w5.html/"><div class="sidebox"><img src="/template/default/images/side_icon01.png">在线客服</div></a></li>
+		<li><a href="http://p35aa.com/cn/register"><div class="sidebox"><img src="/template/default/images/side_icon02.png">注册开户</div></a></li>
+		<li><a href="http://www.payp35.com" target="_blank"><div class="sidebox"><img src="/template/default/images/side_icon03.png">快速充值</div></a></li>
+		
+		<li style="border:none;"><a href="javascript:goTop();" class="sidetop"><img src="/template/default/images/side_icon05.png"></a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".side ul li").hover(function(){
+		$(this).find(".sidebox").stop().animate({"width":"125px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#c79c31"})	
+	},function(){
+		$(this).find(".sidebox").stop().animate({"width":"54px"},200).css({"opacity":"1.0","filter":"Alpha(opacity=100)","background":"#c79c31"})	
+	});	
+});
+//回到顶部
+function goTop(){
+	$('html,body').animate({'scrollTop':0},600);
+}
+</script>
+<script language="javascript" type="text/javascript" src="//js.users.51.la/19237657.js"></script>
+<noscript><a href="//www.51.la/?19237657" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="//img.users.51.la/19237657.asp" style="border:none" /></a></noscript>
+</body>
+</html>

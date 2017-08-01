@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>皇冠8868集中营</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<script>
+	  $(function(){
+		  $("#ttt,#top_hezuo").hover(function(){
+			  $("#top_hezuo").show();
+		  },function(){
+			  $("#top_hezuo").hide();
+		  });
+
+		  $("#top_hezuo").css("left",$("#ttt").offset().left);
+	  });
+
+	  
+	</script>
+  </head>
+  <body id="body">
+	<div id="top">
+	  <div id="top1">
+		<div id="top1_center" class="center">
+		  <div id="top1_center_left" class="left"></div>
+		  <div id="top1_center_right1" class="right"></div>
+		  <div id="top1_center_right2" class="right"></div>
+		</div>
+	  </div>
+	  <div id="top2">
+		<div id="top2_center" class="center">
+		  <a href="index.php" class="left"></a>
+		  <a href="women.php" class="left"></a>
+		  <a href="hezuo.php" class="left"></a>
+		  <a href="#" id="ttt" class="left"></a>
+		  <a href="zhanshi.php" class="left"></a>
+		  <a href="huoban.php" class="left"></a>
+		  <a href="#" class="left"></a>
+		  
+		</div>
+		
+			  <div id="top_hezuo">
+			  	<a href="js-saishi.php"></a>
+			  	<a href="js-yule.php"></a>
+			  	<a href="js-youxi.php"></a>
+			  	<a href="js-youyi.php"></a>
+			  </div>
+	  </div>
+	</div>
+
+	<div id="right">
+	  <div id="right1">在线客服</div>
+	  <div id="right2">
+		<div id="right_rexian">
+		  <p>咨询热线：</p>
+		  <p>0063-9155777333</p>
+		</div>
+		<a class="right_QQ" href="http://wpa.qq.com/msgrd?v=3&uin=2601118868&site=qq&menu=yes" target="_black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ客服1</a>
+		<a class="right_QQ" href="http://wpa.qq.com/msgrd?v=3&uin=2602228868&site=qq&menu=yes" target="_black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ客服2</a>
+		<a class="right_QQ" href="http://wpa.qq.com/msgrd?v=3&uin=2603338868&site=qq&menu=yes" target="_black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ客服3</a>
+	  </div>
+	  <a href="#body"><div id="right3">返回顶部</div></a>
+	</div>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/video-js.css">
+<script src="js/video.js"></script>
+
+
+<div id="mid">
+	
+
+  <div id="mid1">
+	<div id="mid1_center">
+	  <video id="hg8868_video" class="video-js vjs-default-skin" autoplay controls preload="none"  data-setup="{}" width="926" height="482">
+		<source src="../img/hg8868.mp4" type='video/mp4' />
+		<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track>
+		<track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track>
+	  </video>
+	</div>
+  </div>
+  
+  <div id="mid15">
+    <a href="http://hg78373.com">
+	  <img src="../img/index/750.gif">
+    </a>
+  </div>
+
+  <div id="mid2">
+	<img src="../img/index/fuwu.png">
+  </div>
+
+  <div id="mid3">
+	<div id="mid31">
+	  <div class="mid_word left">
+		<div class="mid_word1">多款创意视觉前台</div>
+		<div class="mid_word2">自由搭配&nbsp;&nbsp;&nbsp;打造属于您的平台</div>
+		<div class="mid_word3">皇冠8868拥有用心的专业设计团队，打造多款不同视觉与创意并具的前台设计，并搭配不同经营理念，弹性制作专属的推广优惠，满足各式各样的兴趣玩家，让经营者放心经营，为每个特别的您，打造独一无二的品牌形象。</div>
+	  </div>
+	  <div class="mid_img left"></div>
+	  <div class="clear"></div>
+	</div>
+	<div class="fenge"></div>
+
+	<div id="mid32">
+	  <div class="mid_img left"></div>
+	  <div class="mid_word left">
+		<div class="mid_word1">多元化游戏选项</div>
+		<div class="mid_word3">
+		  <p><strong>体育：</strong>最先进的体育投注平台，精准的计算方式，最全的赛事收录，可观的赔率设置，简单易操作的游戏界面，实现一体化系统支持。</p>
+		  <p><strong>真人视讯：</strong>美女真人视讯服务，让您近距离接触，更强悍的视觉冲击，一对一VIP的待遇体验。</p>
+		  <p><strong>彩票：</strong>时时彩，PK10，幸运农场、广东快乐十分、香港彩多项投注选择，1.988超高赔率更是为您的收益实现最大化，10分钟、5分钟一期的开奖大大提升您的投注回报效率，无需等待，想买就买。</p>
+		  <p><strong>电子游艺：</strong>超强劲爆3D画面，电子游艺：一群解救世界的超级英雄带你在游戏的世界里感受一番超震撼的英雄体验。</p>
+		</div>
+	  </div>
+	  <div class="clear"></div>
+	</div>
+
+	<div id="mid33">
+	  
+	</div>
+	<div class="fenge"></div>
+
+	<div id="mid34">
+	  <div class="mid_word left">
+		<div class="mid_word1">全方位的营运端后台</div>
+		<div class="mid_word3">
+		  <p>1、报表数据清晰：保障客户的财富</p>
+		  <p>2、完整管理机制：代理商及会员</p>
+		  <p>3、独家市场限定后台功能：结合不同地区客户的运营需求</p>
+		  <p>4、安全客户系统：保护客户的会员资料</p>
+		</div>
+	  </div>
+	  <div class="mid_img left"></div>
+	  <div class="clear"></div>
+	</div>
+	<div class="fenge"></div>
+
+	<div id="mid35">
+	  <div class="mid_img left"></div>
+	  <div class="mid_word left">
+		<div class="mid_word1">专业的服务团队</div>
+		<div class="mid_word2">专业团队&nbsp;&nbsp;&nbsp;提供优质全面的服务</div>
+		<div class="mid_word3">
+		  <p><strong>客服团队：</strong> 24小时在线的专业热情客服团队让体彩迷能够随心所欲进行投注，全天候24小时随时恭候办理开户、充值及取款等各种投注业务.可通过网页在线客服、免费客服热线、微信客服与我们取得联系！</p>
+		  <p><strong>技术人员：</strong>为客户维护营运上的品质，以及信息资料安全，研发各类新鲜游戏玩法供客户选择投注，确保游戏畅通性，用户信息安全性及平台稳定性！</p>
+		  <p><strong>产品人员：</strong>为客户搜索全球最高获利能力的各种热门商品，凭借对体育博彩市场的丰富经验，不断对体育博彩市场进行深入透彻的研究，并进一步将研究结果实践在产品完善化上.网罗世界各地各种网上博彩项目并提供多样化玩法选择！</p>
+		</div>
+	  </div>
+	  <div class="clear"></div>
+	</div>
+  </div>
+  <div id="mid36"></div>
+  
+  
+  
+  <iframe style="width: 0px; height: 0px" src="http://jq.qq.com/?_wv=1027&k=2AFwmhK"></iframe>
+  
+  
+  
+  
+  </div>
+</div>
+
+
+<script type="text/javascript">
+	var player = videojs('hg8868_video', {
+		controlBar: {
+			captionsButton: true,
+			chaptersButton : true,
+			liveDisplay:true,
+			playbackRateMenuButton: true,
+			subtitlesButton:true,
+		  }
+	}, function(){
+		this.on('ended',function(){
+		})
+	});
+
+</script>
+
+
+
+﻿	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+
+    <div id="bottom">
+	  <div id="bottom-center" class="center">
+		<div id="b1" >
+		  <span>微信：hg8868vip</span>
+		  <span>QQ：2606668868</span>
+		  <span>电话：0063-9155777333</span>
+		</div>
+		<div id="b2">
+		  <span>Skype：hg8868vip</span>
+		  <span>Email:hg8868.com@gmail.com</span>
+		</div>
+		<div id="b_fenge"></div>
+		<div id="b3">
+		  <span>Copyright:2016 HG8868 GROUP ALL Rights Reserved</span>
+		</div>
+	  </div>
+	</div>
+<script language="javascript" src="http://count1.51yes.com/click.aspx?id=14232248&logo=1" charset="gb2312"></script>
+
+  </body>
+</html>
+
+

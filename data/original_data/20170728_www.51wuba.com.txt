@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/rest.css" type="text/css" rel="stylesheet"/>
+<link href="css/layout.css" type="text/css" rel="stylesheet" id="cssfile" />
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
+<script>
+function IsPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = false;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = true;
+            break;
+        }
+    }
+    return flag;
+}
+if(IsPC())
+{
+ window.location.href="index_m.html";
+}
+</script>
+<title>CC国际网投官网 - 专业彩票平台,CC彩球网会员登录</title>
+</head>
+
+<body>
+
+<div class="header w100" >
+   <div class="w1000 clearfix" >
+       <a href="/" class="logo fl" id="index"><img src="images/logo.png" alt="首页" />首页</a>       <div class="fr" >
+	   <span class="kf_box"><a href="cbank_pc.php" class="kf" >绑定银行</a>
+         </span>
+	
+		
+	    <a href="history_pc.html" class="toushu" target="_blank">帐号查询</a>
+		  
+          <span class="jilu_box"><a href="javascript:void()" class="jilu" >设置</a>
+             <div class="fast_ul" >
+                <ul>                   <li><a href="txpasswd_pc.html" target="_blank">修改提款密码</a></li>
+                   <li><a href="cbank_pc.php" target="_blank">修改提款银行</a></li>
+                   <li><a href="history_pc.html" target="_blank">查看充提记录</a></li>
+                   <li><a href="ticket_pc.html" target="_blank">留言</a></li>
+                </ul>
+             </div>
+          </span>
+       </div>
+   </div>
+</div>
+
+<div class="blue w100" ></div>
+
+<div class=" w1000 fast_rukou clearfix" >
+     <dl>
+       <dt><a href="#" onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><img src="images/ic2.png"  /></a></dt>
+       <dd><a href="#" onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'"><strong>登入平台</strong></a></dd>
+       <dd class="english_font"><a href="#" onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Login</a></dd> 
+     </dl>
+     
+     <dl>
+       <dt><a href="cz_pc.html" target="_blank"><img src="images/ic3.png"  /></a></dt>
+       <dd><a href="cz_pc.html" target="_blank"><strong>在线充值</strong></a></dd>
+       <dd class="english_font"><a href="cz_pc.html" target="_blank">Recharge</a></dd> 
+     </dl>
+     
+     <dl>
+       <dt><a href="tx_pc.html" target="_blank"><img src="images/ic4.png"  /></a></dt>
+       <dd><a href="tx_pc.html" target="_blank"><strong>在线提款</strong></a></dd>
+       <dd class="english_font"><a href="tx_pc.html" target="_blank">Drawing</a></dd> 
+     </dl>
+     
+     <dl>
+       <dt><a href="zuce_pc.html" target="_blank"><img src="images/ic1.png"  /></a></dt>
+       <dd><a href="zuce_pc.html" target="_blank"><strong>注册开户</strong></a></dd>
+       <dd class="english_font"><a href="zuce_pc.html" target="_blank">Registered</a></dd> 
+     </dl>
+     
+</div>
+
+<div id="links">
+    <a href="https://cc97.com" target="_blank">CC彩球网会员登录</a>
+    │ <a href="https://cc830.com" target="_blank">CC彩球网</a>
+    │ <a href="https://cc620.com" target="_blank">CC彩球网会员登录</a>
+    │ <a href="https://cc177.com" target="_blank">CC国际网投官网</a>
+    │ <a href="https://cc777.com" target="_blank">cc彩球网官网</a>
+    │ <a href="https://m.cc97.com" target="_blank">cc彩球网手机版</a>
+    │ <a href="https://m.cc830.com" target="_blank">cc竞速飞车</a>
+    │ <a href="https://m.cc620.com" target="_blank">cc网投平台</a>
+    │ <a href="https://m.cc177.com" target="_blank">cc彩球网</a>
+    │ <a href="https://m.cc777.com" target="_blank">cc国际网投</a>
+</div>
+
+<div class="footer">
+   <div class="foot w1000 te_align" >2016 © CC Online Entertainment</div>
+</div>
+
+
+
+<div id="light" class="w100 white_content" >
+      <div class="chongzhi_box ceng_dingwei" >
+         <h1 class="h1_bg h1_style h_s">登入平台 <em class="cha fr"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src="images/cha_03.png"  /></a></em></h1>
+         <div class="sec_com ml87mt15 ml150" ><a href="https://wr25.ccdior.com/PortalUSR/" target="_blank" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><input type="button" value="常用网址" class="btn_com right_btn" /></a></div>
+         <div class="sec_com ml87mt15 ml150" ><a href="http://ez8.in" target="_blank" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><input type="button" value="备用网址" class="btn_com right_btn" /></a></div>
+      </div> 
+</div>
+
+<div id="fade" class="black_overlay" style="display:none;"></div>
+<script type="text/javascript">
+//       $.ajax({
+//            dataType: "json",
+ //           type: "get",
+  //          url: "/get_qq.php",
+  //          success: function (data, textStatus, request) {
+ //               document.cookie = "qq = " + data.qq + "; ; path = /";
+ //               if (data.result === true && typeof data.qq !== "undefined") {
+  //                  $("#qq_chat_link").attr("href", "http://wpa.qq.com/msgrd?v=3&uin="+data.qq+"&site=qq&menu=yes");
+ //                  $("#qqnumber").text(data.qq);
+ //               } else {
+ //                   $("#qq_chat_link").hide();
+ //               }
+ //           }
+ //       });
+    if (window.location.search.match("paid=1"))
+            alert("充值成功");
+
+$("#index").attr("href", "/");
+$("#links").text("");
+</script>
+<script type="text/javascript" src="analyse.js"></script>
+<script type="text/javascript" src="kf.js"></script>
+<script>// alert("通知\n\n近期支付宝、微信在线支付暂停。将尽快恢复，感谢您的支持！"); </script>
+</body>
+</html>

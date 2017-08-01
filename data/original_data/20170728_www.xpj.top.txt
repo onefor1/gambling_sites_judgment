@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新葡京贵宾厅</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="Keywords" content="新葡京贵宾厅" />
+    <meta name="Description" content="新葡京贵宾厅" />
+    <link rel="stylesheet" href="/Public/Home/xpj/css/bootstrap.min.css"><link rel="stylesheet" href="/Public/Home/xpj/css/jquery-ui.css"><link rel="stylesheet" href="/Public/Home/xpj/css/style.css"><link rel="stylesheet" href="/Public/Home/xpj/css/media_screen.css"><link rel="stylesheet" href="/Public/Home/xpj/css/app/animate.min.css"><link rel="stylesheet" href="/Public/Home/xpj/css/app/sweetalert.css"><link rel="stylesheet" href="/Public/Home/xpj/css/app/daterangepicker-bs3.css"><link rel="stylesheet" href="/Public/Home/xpj/css/font-awesome.min.css"><link rel="stylesheet" href="/Public/Home/xpj/css/app/jquery.mCustomScrollbar.css"><link rel="stylesheet" href="/Public/Home/xpj/css/core/common.css">
+
+    <script src="/Public/Home/xpj/js/jquery-1.12.4.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/jquery-ui.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/jquery.jcarousellite.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/app/sweetalert.min.js"></script>
+<script src="/Public/Home/xpj/js/app/jquery.mousewheel.js"></script>
+<script src="/Public/Home/xpj/js/app/moment.js"></script>
+<script src="/Public/Home/xpj/js/app/daterangepicker.js"></script>
+<script src="/Public/Home/xpj/js/app/jquery.mCustomScrollbar.concat.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/common.js" charset="utf-8"></script>
+
+<div style="display: none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260506633'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260506633%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</head>
+<body data-page="0" in-page="0" style="overflow: hidden">
+
+  <header>
+
+    <div class="header_holder">
+
+        <div class="htop">
+
+            <div class="col-md-12 unpadding">
+
+                <div class="col-md-3 unpadding"></div>
+
+                <div class="col-md-5 unpadding">
+
+                    <div class="navigation_holder float_left">
+
+                        <nav class="navbar">
+
+                            <div class="container-fluid">
+
+                                <ul class="nav navbar-nav">
+
+                                    <li><a href="/home/article/lists/category/HotelLounge.html" target="_self">酒店贵宾厅</a></li><li><a href="/home/article/lists/category/VIPReservationService.html" target="_self"> 贵宾预订服务</a></li><li><a href="/home/article/lists/category/Luxury.html" target="_self"> 奢侈品</a></li><li><a href="/home/article/lists/category/EventsPromotions.html" target="_self"> 活动与促销</a></li>
+                                    <li>
+                                          <a href="#" data-toggle="modal" data-target="#reserveDialog_login"><img src="/Public/Home/xpj/img/mob/ico5.png" alt=""> 登录</a>
+                                      </li>
+                                        <li>
+                                          <a href="https://m.xpj000888.com/regist.html?a=A001492" target="_blank"><img src="/Public/Home/xpj/img/mob/ico6.png" alt=""> 注册</a>
+                                      </li>
+
+                                                                      </ul>
+
+                            </div>
+
+                        </nav>
+
+                        <div class="navimgBot">
+                            <img src="/Public/Home/xpj/img/mob/close.png" alt="" class="closeNav" onclick="toggleNav();">
+                            <div class="qrWechat"><img src="/Public/Home/xpj/img/qr_wechat.jpg" alt="" class="img-responsive "></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-4 unpadding LanguageDom">
+
+                    <div class="right_side_menu float_right">
+
+                        <ul class="right_menu float_left"><li class="float_left"><a href="#" data-toggle="modal" data-target="#reserveDialog_login">登陆</a></li><li class="float_left"><a href="http://www.xpj000888.com/user/regist.html?a=A001492" target="_blank">注册</a></li><li class="float_left"><a href="http://help.x000111.com/contactus.html" target="_blank">联系我们</a></li> <li class="float_left"><a href="http://help.x000111.com/agent/" target="_blank">事业伙伴</a></li> </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+
+
+            <div class="clearfix"></div>
+
+        </div>
+
+
+
+        <!-- header bottom -->
+
+        <div class="hbottom">
+
+            <div class="col-md-12 unpadding">
+
+                <div class="col-md-3 unpadding"></div>
+
+                <div class="col-md-5 twoColumns">
+
+                    
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="col-md-4 unpadding">
+
+                    <div class="customer_serv_holder float_right">
+
+                        <a href="javascript:Util.windowOpen('http://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=456789&configID=49743&jid=3506560087');"><div class="connum float_left"><img src="/Public/Home/xpj/img/headset_icon.png" alt="" class="float_left"> 24小时在线客服</div></a>
+
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="xpj_logo"><a href="/"><img src="/Public/Home/xpj/img/xpj_logo.png" alt="" class="img-responsive"></a></div>
+
+    <div class="sidebrright">
+
+        <div class="qrcode_holder">
+
+            <img src="/Public/Home/xpj/img/qr_wechat.jpg" alt="" class="img-responsive float">
+            微信
+        </div>
+
+        <div class="mobile_menu">
+          <a href="javascript:Util.windowOpen('http://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=456789&configID=49743&jid=3506560087');"><img src="/Public/Home/xpj/img/mob/cs_ico.png" alt=""></a>
+          <a href="#!;" onclick="toggleNav();"><img src="/Public/Home/xpj/img/mob/menuico.png" alt=""></a>
+        </div>
+
+    </div>
+
+</header>
+
+
+        
+
+    <div class="main_content">
+            <div class="main_content">
+        <div class="homecon">
+          <div class="videoSec">
+                    <div class="indexbgVideo">
+                        <a href="javascript:;" id="play_Video"><img src="/Public/Home/xpj/img/play.png" title="播放"></a>
+                        <img src="/Public/Home/xpj/img/main_bg.jpg" >
+                    </div>
+                    <!--video 1-->
+                    <video class="index_video" id="index_video_1" preload="auto" >
+                        <source src="/Public/Home/xpj/video/video.mp4" type="video/mp4">
+                        <source src="/Public/Home/xpj/video/video.ogg" type="video/ogg">
+                        <source src="/Public/Home/xpj/video/video.webm" type="video/webm">
+                        <object data="/Public/Home/xpj/video/video.mp4">
+                            <embed src="/Public/Home/xpj/video/video.swf">
+                        </object>
+                        您的浏览器不支持 video 标签。
+                    </video>
+        </div>
+        <img src="/Public/Home/xpj/img/mob/mainimg.jpg" alt="" class="mainImg">
+
+    <!--site content-->
+    <div class="lounge">
+        <div class="ltitle">划时代的顶级娱乐飨宴</div>
+        <div class="lcontent">
+            在新葡京贵宾服务的精心安​​排下,体验世界级博弈游戏的快感<br/>
+            米其林星级餐饮,豪华住宿,一对一服务,和在世界各地最新独<br/>
+            特的娱乐综合度假村及赌场。
+        </div>
+    </div>    
+</div>
+
+
+
+<script>
+    Util.indexInit();
+</script>
+   </div>
+
+    </div>
+
+  <!--site inco-->
+  <div class="bottonInco">
+      <b></b>
+      <b></b>
+      <b></b>
+  </div>
+
+    <!--<div class="down_btn">
+      <img src="/Public/Home/xpj/img/down_btn.jpg" alt="">
+    </div>-->
+  <div class="fast_booking">
+    <div class="reserv_holder">
+        <img src="/Public/Home/xpj/img/reserv_now.png" alt="" class="img-responsive">
+    </div>
+    <div class="fast_booking_nav">
+        <a href="javascript:;" class="active">酒  店</a>
+        <a href="javascript:;">一对一专人服务 </a>
+        <a href="javascript:;">奢侈品</a>
+        <a href="javascript:;">活动行程</a>
+        <a href="javascript:;">货币兑换</a>
+        <div class="clearfix"></div>
+    </div>
+    <div class="fast_booking_content fast_booking_content_hover">
+        <div class="fast_booking_tag_0">
+            <form action="" method="post" onsubmit="return Util.fastBooking('.fast_booking_tag_0');">
+                <input type="hidden" name="typeName" value="0">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <p>选择你预定的酒店</p>
+                        <select name="hotels">
+                            <option value="">选择一间酒店</option>
+                            <option value="威尼斯人酒店">威尼斯人酒店</option><option value="新葡京酒店">新葡京酒店</option><option value="新濠天地酒店">新濠天地酒店</option><option value="银河酒店">银河酒店</option><option value="索菲特酒店">索菲特酒店</option><option value="半岛酒店">半岛酒店</option><option value="索莱尔酒店">索莱尔酒店</option><option value="钻石大酒店">钻石大酒店</option><option value="皇冠假日酒店">皇冠假日酒店</option>                        </select>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>入住日期</p>
+                        <input name="checkin" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>离开日期</p>
+                        <input name="departureDate" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>房间数</p>
+                        <select name="numberRooms"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>成人</p>
+                        <select name="adult"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>儿童</p>
+                        <select name="child"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <button type="submit"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="fast_booking_tag_1 none">
+            <form action="" method="post" onsubmit="return Util.fastBooking('.fast_booking_tag_1');">
+                <input type="hidden" name="typeName" value="1">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <p>预定服务项</p>
+                        <select name="serviceTitle">
+                            <option value="">选择一项服务</option>
+                            <option value="货币兑换">货币兑换</option><option value="24小时专车接送">24小时专车接送</option><option value="代订酒店">代订酒店</option><option value="代订娱乐门票">代订娱乐门票</option><option value="代购船票机票">代购船票机票</option><option value="代办旅游签证">代办旅游签证</option>                        </select>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>服务开始时间</p>
+                        <input name="startTime" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>服务结束时间</p>
+                        <input name="endTime" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <p>专员需求</p>
+                        <textarea name="DemandSpecialist" placeholder="请重点描述您的需求"></textarea>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <button type="submit"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="fast_booking_tag_2 none">
+            <form action="" method="post" onsubmit="return Util.fastBooking('.fast_booking_tag_2');">
+                <input type="hidden" name="typeName" value="2">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <p>选择您要预约的奢侈品种类</p>
+                        <select name="classify">
+                            <option value="">选择奢侈品种类</option>
+                            <option value="钻石">钻石</option><option value="珠宝">珠宝</option><option value="皮件">皮件</option><option value="时计">时计</option><option value="配饰">配饰</option>                        </select>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>方便联络日期</p>
+                        <input name="contactdate" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>方便联络时间</p>
+                        <select name="contacttime">
+                            <option>AM 01:00</option>
+                            <option>AM 02:00</option>
+                            <option>AM 03:00</option>
+                            <option>AM 04:00</option>
+                            <option>AM 05:00</option>
+                            <option>AM 06:00</option>
+                            <option>AM 07:00</option>
+                            <option>AM 08:00</option>
+                            <option>AM 09:00</option>
+                            <option>AM 10:00</option>
+                            <option>AM 11:00</option>
+                            <option>AM 12:00</option>
+                            <option>PM 01:00</option>
+                            <option>PM 02:00</option>
+                            <option>PM 03:00</option>
+                            <option>PM 04:00</option>
+                            <option>PM 05:00</option>
+                            <option>PM 06:00</option>
+                            <option>PM 07:00</option>
+                            <option>PM 08:00</option>
+                            <option>PM 09:00</option>
+                            <option>PM 10:00</option>
+                            <option>PM 11:00</option>
+                            <option>PM 12:00</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <button type="submit"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="fast_booking_tag_3 none">
+            <form action="" method="post" onsubmit="return Util.fastBooking('.fast_booking_tag_3');">
+                <input type="hidden" name="typeName" value="3">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <p>选择您要参与的活动行程</p>
+                        <select name="eventsItineraries"><option value="">选择您要参与的活动行程</option>
+                            <option value="长滩岛奢华之旅">长滩岛奢华之旅</option><option value="澳门奢华之旅">澳门奢华之旅</option>                        </select>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <p>选择出发日期</p>
+                        <input name="depart" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>房间数</p>
+                        <select name="numberrooms"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>成人</p>
+                        <select name="adult"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <p>儿童</p>
+                        <select name="child"><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option></select>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <button type="submit"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="fast_booking_tag_4 none">
+            <form action="" method="post" onsubmit="return Util.fastBooking('.fast_booking_tag_4');">
+                <input type="hidden" name="typeName" value="4">
+                <div class="row">
+                    <div class="col-xs-6 col-md-6">
+                        <p>选择原始货币</p>
+                        <select name="originalcurrency"><option value="">选择您要兑换的原始货币</option>
+                            <option value="比索（PHP)">比索（PHP)</option><option value="新加坡元（S )">新加坡元（S )</option><option value="越南盾（VND)">越南盾（VND)</option><option value="韩元（KRW)">韩元（KRW)</option><option value="泰铢 (THB）">泰铢 (THB）</option><option value="马来西亚令吉 (MYR)">马来西亚令吉 (MYR)</option><option value="日元 (JPY)">日元 (JPY)</option><option value="印度卢比 (INR)">印度卢比 (INR)</option><option value="欧元 (EUR)">欧元 (EUR)</option><option value="美金 (USD)">美金 (USD)</option><option value="人民币（RMB)">人民币（RMB)</option>                        </select>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <p>选择兑换的货币</p>
+                        <select name="changecrrency"><option value="">选择您要兑换的货币</option>
+                            <option value="比索（PHP)">比索（PHP)</option><option value="新加坡元（S )">新加坡元（S )</option><option value="越南盾（VND)">越南盾（VND)</option><option value="韩元（KRW)">韩元（KRW)</option><option value="泰铢 (THB）">泰铢 (THB）</option><option value="马来西亚令吉 (MYR)">马来西亚令吉 (MYR)</option><option value="日元 (JPY)">日元 (JPY)</option><option value="印度卢比 (INR)">印度卢比 (INR)</option><option value="欧元 (EUR)">欧元 (EUR)</option><option value="美金 (USD)">美金 (USD)</option><option value="人民币（RMB)">人民币（RMB)</option>                        </select>
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <p>兑换金额</p>
+                        <input name="age" type="text" placeholder="请输入需要兑换的金额">
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <p>兑换时间</p>
+                        <input name="datetime" type="text" class="date_time_init" readonly="" value="2017/07/28">
+                    </div>
+                    <div class="col-xs-12 col-md-12">
+                        <button type="submit"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- 行程预约 -->
+<div id="reserveDialog_login" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content custom_modal_content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><img src="/Public/Home/xpj/img/xdialog.png" alt="" class=""></button>
+                <h4 class="modal-title">用户登陆</h4>
+            </div>
+            <div class="modal-body fast_booking_content">
+                <form action="" method="post" onsubmit="return Util.login();">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-12">
+                            <p>用户名</p>
+                            <input type="text" name="login_username" placeholder="请输入用户名">
+                        </div>
+                        <div class="col-xs-12 col-md-12">
+                            <p>密码</p>
+                            <input type="password" name="login_password" placeholder="请输入密码">
+                        </div>
+                        <div class="col-xs-12 col-md-12">
+                            <button type="submit" class="loginBtn">登陆</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+  <script src="/Public/Home/xpj/js/jquery-1.12.4.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/jquery-ui.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/jquery.jcarousellite.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/app/sweetalert.min.js"></script>
+<script src="/Public/Home/xpj/js/app/jquery.mousewheel.js"></script>
+<script src="/Public/Home/xpj/js/app/moment.js"></script>
+<script src="/Public/Home/xpj/js/app/daterangepicker.js"></script>
+<script src="/Public/Home/xpj/js/app/jquery.mCustomScrollbar.concat.min.js" charset="utf-8"></script>
+<script src="/Public/Home/xpj/js/common.js" charset="utf-8"></script>
+
+<div style="display: none;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260506633'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260506633%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</body>
+</html>

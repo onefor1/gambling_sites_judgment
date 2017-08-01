@@ -1,0 +1,506 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>多乐娱乐城</title>
+
+
+
+
+<meta charset="UTF-8">
+<link rel="apple-touch-icon-precomposed" href="/assets/images/logo.jpg" />
+<link type="text/css" rel="icon" href="/assets/images/logo.jpg" />
+<link type="text/css" rel="stylesheet" href="/assets/css/main.css" />
+<script type="text/javascript" src="/assets/js/jquery-3.2.1.min.js"></script> 
+<script type="text/javascript" src="/assets/js/jquery-migrate-1.4.1.min.js"></script> 
+<script type="text/javascript" src="/assets/js/jBox.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.validate.unobtrusive.min.js"></script>
+<script type="text/javascript" src="/assets/js/md5.js"></script>
+<script>
+var p = ((new Date()).getHours() < 18 && (new Date()).getHours() > 21) ? {range: 4000, min:2001} :{range: 4000, min:6001};
+</script>
+<link href="/assets/css/home.css" rel="stylesheet" />
+</head>
+<body class="fixed_on">
+<div class="leftvideo" id="leftvideoclose">
+	<span style="font-size: 16px; color: #093c29;">微信客服</span>
+	<img src="/assets/images/wechat.png" width="140" height="140"><br>
+</div>
+
+
+
+
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if(window.location.hostname.indexOf('duole27') != -1) {
+    window.location = window.location.origin.replace(window.location.protocol+'//www.','http://m');
+  }else if(window.location.hostname.indexOf('duole') != -1) {
+    window.location = window.location.origin.replace(window.location.protocol+'//www.','http://m.');
+  }
+}
+</script>
+<div class="topfix">
+	<div class="topbar">
+		<div class="topbar_m">
+			
+			
+			<form onsubmit="return false;">
+				<div class="unlogin">
+					<span id='time' class="sys_time"></span>
+					<ul>
+						<li>
+							<label class="label_input">
+							<span class="icon ic_man_gray"></span>
+							<span class="webPrefix">DL8</span>
+							<input id="loginname" placeholder="请输入用户名" type="text">
+							<span class="wrong_tip">登录名不能为空</span>
+							</label>
+						</li>
+						<li>
+							<label class="label_input">
+							<span class="icon ic_key_gray"></span>
+							<input id="password" placeholder="请输入密码" type="password">
+							<span class="wrong_tip">密码不能为空</span>
+							</label>
+						</li>
+						<li>
+							<button id="login-btn" class="btn btn_login" type="submit">登录</button>
+						</li>
+						<li>
+							<a class="btn btn_register" href="/register">立即注册</a>
+						</li>
+						<li>
+							<a class="forget_pw" href="/forgotpassword">找回密码</a>
+						</li>
+					</ul>
+				</div>
+			</form>
+			
+			
+			
+		</div>
+	</div>
+	<div class="mainmenu">
+		<div class="mainmenu_m">
+			<a class="logo" href="/"></a>
+			<ul id="liactive">
+				<li>
+					<a href="/">首页</a>
+					<div class="subwrap">
+						<div class="subwidth">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="/aboutus">了解多乐</a>
+									</li>
+									<li>
+										<a href="http://www.dldaili.com/" class="affiliate_link">代理合营</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="/games">老虎机</a>
+					<div class="subwrap">
+						<div class="subwidth">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="/games?game=28">MG</a>
+									</li>
+									<li>
+										<a href="/games?game=37">TTG</a>
+									</li>
+									<li>
+										<a href="/games?game=20">PT</a>
+									</li>
+									<li>
+										<a href="/games?game=32">DT</a>
+									</li>
+									<li>
+										<a href="/games?game=38">BS</a>
+									</li>
+									<li>
+										<a href="/games?game=34">BBIN</a>
+									</li>
+									<li>
+										<a href="/games?game=27">AG</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="/reality">真人视讯</a>
+					<div class="subwrap">
+						<div class="subwidth">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="/reality">AG</a>
+									</li>
+									<li>
+										<a href="/reality">BBIN</a>
+									</li>
+									<li>
+										<a href="/reality">PT</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="/sports">体育</a>
+					<div class="subwrap">
+						<div class="subwidth">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="/sports">沙巴体育</a>
+									</li>
+									<li>
+										<a href="/sports">BBIN体育</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="#" onclick="playGame(42,42,1,'lot');return false;">彩票</a>
+				</li>
+				<li>
+					<a href="/fish">捕鱼</a>
+					<div class="subwrap">
+						<div class="subwidth">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="/fish">AG捕鱼王</a>
+									</li>
+									<li>
+										<a href="/fish">MT捕鱼</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>				
+				<li>
+					<a href="/promotions">优惠</a>
+				</li>
+				<li>
+					<a href="/vip">VIP</a>
+				</li>
+				<li>
+					<a href="/client">下载中心</a>
+				</li>
+			</ul>
+			<div class="faqchat">
+				<a class="chat_a" href="#" onclick="openLiveChat(); return false;">在线客服</a>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+var getPathName = location.pathname;
+if(getPathName == '/index') {
+	$('.mainmenu #liactive > li').first().addClass('active');
+}
+else {
+	$('.mainmenu #liactive > li').each(function(){
+		var getHref = $(this).find('a').first().attr('href').replace(/&?e=([^&]$|[^&]*)/i, "");
+		if(getHref == getPathName) {
+			$(this).addClass('active');
+		}
+	});
+}
+function positionSubMenu() {
+	var getMenuLeft = $('.mainmenu_m #liactive').offset().left;
+	$('.mainmenu #liactive > li').each(function(){
+		if($(this).find('.subwrap').length > 0) {
+			var getSubLeft = $(this).find('.subwrap ul').offset().left;
+			if(getSubLeft < getMenuLeft) {
+				$(this).find('.subwrap ul').css('margin-left', (getMenuLeft - getSubLeft)+'px');
+			}
+		}
+	});
+}
+$('.mainmenu_m > ul > li').hover(function(){
+	if($(this).find('.subwrap').length == 0) {
+		$(".mainmenu_m").addClass('nochild');
+	}
+});
+$('.mainmenu_m > ul > li').mouseout(function(){
+	$(".mainmenu_m").removeClass('nochild');
+});
+$(document).ready(function(){
+	positionSubMenu();
+});
+</script>
+<input type="hidden" value="" id="loggedUser" />
+<div class="announce-main">
+	<div class="announcement">
+		<marquee onMouseOut=this.start() onMouseOver=this.stop() behavior="scroll"><ul id="announcement"></ul></marquee>
+	</div>
+</div>
+<script type="text/javascript">
+function annoucenmentContent() {
+	$.getJSON( "/getOneNotice", function( data ) {
+		var items = [];
+		$.each( data, function( key, val ) {
+			items.push("<li><strong>"+val.title+":</strong> "+val.content+"</li>");
+		});
+		$("#announcement").html(items.join(""));
+	});
+}
+annoucenmentContent();
+</script>
+<div class="banner">
+	<div class="banner_m">
+		<div class="banner_link" id="bannerLink">
+			<ul class="link_list">
+				<li>
+					<a href="/promotions#event25"><img src="/assets/images/home/banners/11.jpg"/></a>
+				</li>
+				<li>
+					<a href="/promotions#event26"><img src="/assets/images/home/banners/12.jpg"/></a>
+				</li>
+				<li>
+					<a href="/promotions#event20"><img src="/assets/images/home/banners/1.jpg"/></a>
+				</li>
+				<li>
+					<a href="/promotions#event15"><img src="/assets/images/home/banners/8.jpg"/></a>
+				</li>
+			</ul>
+			<ol class="link_num"></ol>
+			<span class="prev"></span>
+			<span class="next"></span>
+		</div>
+	</div>
+</div>
+<div class="cmain">
+	<div class="cmain_m">
+		<div class="home_slogan">
+			<div class="clover"></div>
+			<p>
+				</span>精品游戏</p>
+		</div>
+		<div class="pic_menu">
+			<a class="margin" href="/games">
+				<img src="/assets/images/home/link1.jpg" width="235" height="268">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/reality">
+				<img src="/assets/images/home/link4.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/reality">
+				<img src="/assets/images/home/link2.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link3951a.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link5.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link6.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link8.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link7951a.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+			<a href="/games">
+				<img src="/assets/images/home/link9951a.jpg" width="175" height="130">
+				<div class="blackMask">&nbsp;</div>
+			</a>
+		</div>
+		<div class="home_slogan">
+			<div class="clover"></div>
+			<p>选择多乐</p>
+		</div>
+		<div class="advantages">
+			<dl>
+				<dt><span class="icon_1"></span></dt>
+				<dd>10万会员共同的选择值得信赖<br>&nbsp;</dd>
+			</dl>
+			<dl>
+				<dt><span class="icon_2"></span></dt>
+				<dd>安全快速稳定，<br>公正透明无污点</dd>
+			</dl>
+			<dl>
+				<dt><span class="icon_3"></span></dt>
+				<dd>业内领先游戏平台的深度合<br>作伙伴，想玩的游戏全都有</dd>
+			</dl>
+			<dl>
+				<dt><span class="icon_4"></span></dt>
+				<dd>支持超过40家银行存提款<br>资金安全，秒速充提</dd>
+			</dl>
+			<dl>
+				<dt><span class="icon_5"></span></dt>
+				<dd>全面支持支付宝、微信支付<br>存款简易更便捷</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+<script src="/assets/js/home.js"></script>
+
+
+
+
+
+
+
+
+
+<div class="about">
+	<div class="about_top">
+		<div class="footer_m">
+			<p class="link_quick">
+				<a href="http://www.dldaili.com/" class="affiliate_link" target="_blank">代理加盟</a>
+				<a href="/aboutus">关于我们</a>
+				<a href="/aboutus?duty">博彩责任</a>
+				<a href="/aboutus?rule">规定条款</a>
+				<a href="/aboutus?clause">隐私策略</a>
+				<a href="/aboutus?contact">联系我们</a>
+				<a href="/aboutus?faq">常见问题</a>
+			</p>
+		</div>
+	</div>
+	<div class="about_m">
+		<div class="about_left ">
+			<h3 class="about_title ">合作伙伴</h3>
+			<div class="partner ">
+				<a class="a_1">asiagaming</a>
+				<a class="a_2">betsoft</a>
+				<a class="a_3">betsoft</a>
+				<a class="a_4">gamesos</a>
+				<a class="a_5">microgaming</a>
+				<a class="a_6">toptrendgaming</a>
+				<a class="a_7">nyxgaminggroup</a>
+				<a class="a_8">playngo</a>
+				<a class="a_9">playtech</a>
+			</div>
+		</div>
+		<div class="about_right ">
+			<h3 class="about_title ">银行支付</h3>
+			<div class="partner ">
+				<a class="a_11">asiagaming</a>
+				<a class="a_12">betsoft</a>
+				<a class="a_13">betsoft</a>
+				<a class="a_14">gamesos</a>
+				<a class="a_15">microgaming</a>
+				<a class="a_16">toptrendgaming</a>
+			</div>
+		</div>
+		<div class="about_bottom ">
+			<div class="certificate ">
+				<p><img src="/assets/images/logobtm.png" style="filter: saturate(0); "></p>
+			</div>
+			<p style="float: right; color:#696969; text-align:right; ">
+				多乐娱乐城持有菲律宾政府PAGCOR 博彩牌照且受其监管<br>
+				<font color="white ">客户服务 | 电话: 0063-906-2667-666 | QQ: 9257868</font><br> Copyright © 2016 多乐娱乐国际控股<br>
+			</p>
+		</div>
+	</div>
+</div>
+<div class="backToTop"><a>返回顶部</a></div>
+<div class="service">
+	<a class="customer" href="#" onclick="openLiveChat();">咨询在线客服</a>
+	<a class="phone" href="tel:0063-906-2667-666" style="font-size:12px;">63-906-2667-666</a>
+	<a class="tencent" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=9257868&amp;site=qq&amp;menu=yes">QQ:9257868</a>
+</div>
+<script src="/assets/js/common.js"></script>
+
+
+<input id="indexloginName" name="loginName" type="hidden" value=""/>
+<script>
+function playGame(gamecode,pfId,type, genre) {
+	if(type == 1) {
+		var result1 = $("#indexloginName").val();
+		if(result1 == ''){
+			checkLogin();
+		}else {
+			if(genre == 'slot') {
+				//if(pfId == 20 && type == 1){
+					//iapiSetCallout('Login', calloutLogin);
+					//login();
+					//window.open("http://cache.download.banner.greenjade88.com/casinoclient.html?game=" + gamecode + "&language=ZH-CN","_blank","depended=1,width=950, height=750, fullscreen=1, location=0, toolbar=0, menubar=0");
+					
+				//}else if(type == 1){
+					window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+				//}
+			}else if(genre == 'live') {
+				//if(pfId == 29 && type == 1){
+	 			//	iapiSetCallout('Login', calloutLogin);
+	  			//	login();
+				//	window.open("http://cache.download.banner.greenjade88.com/casinoclient.html?game=nc_7bal&language=ZH-CN","_blank","depended=1,width=950, height=750, fullscreen=1, location=0, toolbar=0, menubar=0");						
+				//}else {
+					window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+				//
+			}else if(genre == 'sports') {
+				window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+			}else if(genre == 'fish') {
+				window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+			
+			}else if(genre == 'lot'){
+				window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+			}
+		}
+	} else if(type == 2){
+		if(genre == 'slot') { 
+			if(pfId == 20 && type == 2) {
+				window.open("http://cache.download.banner.greatfortune88.com/casinoclient.html?language=zh-cn&mode=offline&game=" + gamecode,"_blank","depended=1,width=950, height=750, fullscreen=1, location=0, toolbar=0, menubar=0")
+			}else{
+				window.open('/Play/playGame?gameCode=' + gamecode + '&pfId='+ pfId +'&type=' + type,'Games','menubar=no,scrollbars=no,toolbar=no,location=no,directories=no,resizable=no');
+			}
+		}
+	}
+}
+
+function login() {
+	var loginname = $("#indexloginName").val();
+	var loginnameup = loginname.toUpperCase();
+	iapiLogin('DL8' + loginnameup ,'',"1",'zh-cn');
+}
+function calloutLogin(response) {
+	if (response.errorCode) {
+		alert("PT错误消息:" + response.playerMessage + "错误码:" + response.errorCode);
+	}else {
+		console.log("pt成功执行login");
+	}
+}
+</script>
+<script>
+if(window.location.origin.indexOf('8.duole27.com') != -1) {
+	$('.affiliate_link').remove();
+}
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-101187279-1', 'auto');
+ga('send', 'pageview');
+</script>
+</body>
+</html>

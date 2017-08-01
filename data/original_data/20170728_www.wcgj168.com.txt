@@ -1,0 +1,843 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="first zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>万城国际-，官方直营，顾客至上，信誉第一</title>
+    <link rel="shortcut icon" href="/content/customer/wc30520/images/favicon.ico" type="image/x-icon" />
+    <script src="/Scripts/js/jquery-1.8.0.min.js"></script>
+
+    <script src="/Scripts/js/float.js"></script>
+
+    <script src="/Scripts/js/site.js"></script>
+
+
+    <link href="/content/customer/wc30520/css/standard.css?v=ver520.83" rel="stylesheet">
+    <link href="/content/customer/wc30520/css/bmw555.css?v=ver520.83" rel="stylesheet">
+    <!-- <link href="style/font-awesome.css?v=ver520.83" rel="stylesheet"> -->
+    <style>
+        /*banner-wrap*/
+        .banner-wrap {
+            background: url('/content/customer/wc30520/images/title_welcome.png') no-repeat 80px 145px;
+        }
+
+        .live .banner-wrap,
+        .livetop .banner-wrap {
+            background: url('/content/customer/wc30520/images/title_live.png') no-repeat 170px 40px;
+        }
+
+        .memberexclusiveii .banner-wrap {
+            background: url('/content/customer/wc30520/images/title_memberexclusiveii.png') no-repeat 65px 110px;
+        }
+
+        .lottery .banner-wrap,
+        .ltlottery .banner-wrap {
+            background: url('/content/customer/wc30520/images/title_lottery.png') no-repeat 150px 30px;
+        }
+        .ball .banner-wrap {
+             background: url('/content/customer/wc30520/images/title_sport.png') no-repeat 150px 30px;
+        }
+        ::-webkit-input-placeholder { /* WebKit browsers */
+        color:#D1B37A;
+        }
+        :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:#D1B37A;
+        }
+        ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:#D1B37A;
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:#D1B37A;
+        }
+    .mainnav ul a{width:116px}#memCash_body span{color:#333!important}</style>
+    <script src="/content/customer/wc30520/js/jquery-1.7.2.min.js?v=ver520.83"></script>
+    <script src="/content/customer/wc30520/js/float.js?v=ver520.83"></script>
+    <script src="/content/customer/wc30520/js/swfobject.js?v=ver520.83"></script>
+
+</head>
+
+<body>
+    <div id="mainBody">
+         <div id="page-header">
+                <div class="header clearfix">
+                    <div class="header-top clearfix">
+                        <div class="header-left-wrap">
+                            <!-- 登入 -->
+                            <div class="login-wrap">
+                                    <p class="login-unit login-unit-user">
+                                        <input name="Account" type="text" placeholder="账号" size="20" id="Account" title="请填写 4-15 位大小写英数字" maxlength="20" class="login-input login-acc" />
+                                    </p>
+                                    <p class="login-unit login-unit-pwd">
+                                        <input name="Password" type="password" placeholder="密码" autocomplete="off" size="13" id="Password" title="请填写 6-12 位大小写英数字" maxlength="13" class="login-input" tabindex="2" />
+                                    </p>
+                                    <div class="clear"></div>
+                                    <p class="login-unit login-unit-chk">
+                                        <input name="BETVALIDATECODEL" type="text" id="BETVALIDATECODEL" placeholder="验证码" size="7" maxlength="5" title="( 点选此处产生新验证码 )" class="login-input" tabindex="5" />
+                                        <img src="/ValidateCode/GetValidateCode" id='vPic' alt="( 点选此处产生新验证码 )" title="( 点选此处产生新验证码 )" width="40" height="18" style="visibility: visible;" />
+                                    </p>
+                                    <input class="login-btn login-submit" type="submit" value="登入" onclick="BetLogin()" />
+                                    <a class="login-btn login-pwd" href="javascript:;" onclick="alert('「请联系在线客服找回密码！」');">忘记密码</a>
+                            </div>
+                        </div>
+                        <div class="header-right-wrap">
+                            <!-- est -->
+                            <div class="est-wrap">
+                            </div>
+                            <!-- lang -->
+                            <span class="lang-wrap">
+
+                                <span class="ele-lang-wrap">
+                                    <a href="javascript:;" target="mem_index" class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a>
+                                    <a href="javascript:;" target="mem_index" class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a>
+                                    <a href="javascript:;" target="mem_index" class="ele-lang-option ele-lang-en" title="English"></a>
+                                </span>
+                            </span>
+                            <div class="clear"></div>
+                            <!-- 自訂連結 -->
+                            <div class="top-link-wrap">
+                                <a href="http://wpa.qq.com/msgrd?V=3&uin=5887706&Site=QQ%E5%AE%A2%E6%9C%8D&Menu=yes" target="_blank" data-color="#9e684d" class="js-article-color top-custom-link top-at2-icon" style="color: #9e684d">
+                                    腾讯客服
+                                </a>
+                                <a href="javascript:;" onclick="showNewWin('http://messenger.providesupport.net/messenger/19s7l0n9it4px1wv8g2hydanw1.html', 800, 500);" data-color="#9e684d" class="js-article-color top-custom-link top-service-icon" style="color: #9e684d">
+                                    线上客服
+                                </a>
+                                <a href="javascript:;" onclick="alert('「您使用的浏览器不支援此功能，请按“Ctrl+D”键手动加入收藏。」');" data-color="#9e684d" class="js-article-color top-custom-link top-favorite-icon" style="color: #9e684d">
+                                    加入收藏
+                                </a>
+                            </div>
+                        </div>
+                        <!-- LOGO -->
+                        <div class="header-logo" style="width: 220px; height: 100px; margin-left: -110px;">
+                            <div id="" style="background:none">
+                                <a href="/" target="mem_index" style="background:none;display:block;" title="万城国际 首页">
+                                    <img src="/content/customer/wc30520/images//logo.png" />
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- 主選單 -->
+                    <div id="navfixed" class="mainnav-placeholder">
+                        <div class="mainnav-wrap clear" style="position:relative">
+                            <div class="mainnav" style="width:1170px">
+                                <ul class="clearfix">
+                                            <li> <a href="/home/index" target="" class=""> 首页 </a> </li>
+                                            <li> <a href="/Home/PE?QU=" target="_self" class="menuPE "> 体育赛事 </a> </li>
+                                            <li> <a href="/Vedio/index" target="_self" class="menuVedio "> 视讯直播 </a> </li>
+                                            <li> <a href="/Games/BBINGames" target="" class="menuGames "> 电子游艺 </a> </li>
+                                            <li> <a href="/Home/BET?QU=" target="_self" class="menuCP "> 彩票游戏 </a> </li>
+                                            <li> <a href="/Activity/Index" target="_self"  class=""> 优惠活动 </a> </li>
+                                            <li ><a href="javascript:;" onclick="showNewWin('http://messenger.providesupport.net/messenger/19s7l0n9it4px1wv8g2hydanw1.html', 800, 500);">在线客服</a></li>
+                                    
+                                    <li><a href="https://www.30520.com/down/index.htm" target="_blank">客户端下载</a></li>
+                                </ul>
+                                <div style="width:1000px; margin:0px auto; height:0px;">
+                                    <div style="z-index: 1000; margin: 0px 0px 0px 0px; position: absolute; display: none; padding-top: 10px;" id="zr2menu">
+                                        <table cellpadding="5" cellspacing="0" border="0">
+                                            
+<tr>
+ 
+    <td><a href="javascript:;" onclick="ToGame('DS')"><img src="/Content/images/1ds.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('GD')"><img src="/Content/images/1gd.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN','live')"><img src="/Content/images/1bbin.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('AGIN',0)"><img src="/Content/images/1ag.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('LBS')"><img src="/Content/images/1kk.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('AGIN', 6)"><img src="/Content/images/nav-buyu.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('CT')"><img src="/Content/images/1ct.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('MG')"><img src="/Content/images/1mg.png" /></a>&nbsp;</td>
+</tr>
+
+                                        </table>
+                                    </div>
+                                    <div style="z-index: 1000; margin: 0px 0px 0px 315px; position: absolute; display: none; padding-top: 10px; " id="dz2menu">
+                                        <table cellpadding="5" cellspacing="0" border="0">
+                                            
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameMG.png" /></a>&nbsp;</td>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameAG.png" /></a>&nbsp;</td>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameBBIN.png" /></a>&nbsp;</td>
+</tr>
+                                        </table>
+                                    </div>
+                                    <div style="z-index: 1000; margin: 0px 0px 0px 415px; position: absolute; display: none; padding-top: 10px; " id="cp2menu">
+                                        <table cellpadding="5" cellspacing="0" border="0">
+                                            
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);" ><img src="/Content/images/cp.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToFFC('DSFFC')" ><img src="/Content/images/dsffc.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN', 'Ltlottery')"><img src="/Content/images/bbcp.png" /></a>&nbsp;</td>
+</tr>
+                                        </table>
+                                    </div>
+                                    <div style="z-index: 1000; margin: 0px 0px 0px 96px; position: absolute; display: none; padding-top: 10px; " id="ty2menu">
+                                        <table cellpadding="5" cellspacing="0" border="0">
+                                            
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/nsp.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN','ball')"><img src="/Content/images/nsb.png" /></a></td>
+</tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mainnav-other clearfix" style="position: absolute;right: 0;top: 6px;">
+                                <div class="mainnav-other-r"></div>
+                                <div class="mainnav-other-m clearfix">
+                                    <!-- <span class="login-btn login-submit">
+                <span class="login-icon"></span>
+                <input id="login-wrap" name="Submit" type="submit" value="登入" tabindex="4" />
+            </span> -->
+                                    <span class="login-btn login-join">
+                                        <span class="login-icon"></span>
+                                        <a href="/MemberCenter/Member/Register">注册</a>
+                                    </span>
+                                </div>
+                                <div class="mainnav-other-l"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+<div class="ad-flash-bg">
+
+    <div class="ad-flash">
+
+        <div id="js-ele-slideshow1" class="ele-slideshow-wrap" onselectstart="return false;">
+            <div class="js-ele-slideshow-scroll ele-slideshow-scroll">
+                <img src="/content/customer/wc30520/images/149734133301.jpg" id="structure" style="width:inherit;max-width:100%;display:block">
+                <ul>
+                    <li data-index="1" data-autoplaytime="4000">
+                          <img src="/content/customer/wc30520/images/149734133301.jpg?560870" style="width:inherit;max-width:100%;height:auto;">
+                       
+                    </li>
+                    <li data-index="2" data-autoplaytime="4000">
+                        <img src="/content/customer/wc30520/images/149734167878.jpg" style="width:inherit;max-width:100%;height:auto;">
+
+                    </li>
+                    <li data-index="3" data-autoplaytime="4000">
+                          <img src="/content/customer/wc30520/images/145049086291.jpg" style="width:inherit;max-width:100%;height:auto;">
+                        
+                    </li>
+                </ul>
+            </div>
+            <div class="ele-slideshow-control-outwrap">
+                <div class="js-ele-slideshow-control-wrap ele-slideshow-control-wrap"></div>
+            </div>
+        </div>
+        <script src="/content/customer/wc30520/js/TweenMax.min.js?v=ver520.83"></script>
+        <script src="/content/customer/wc30520/js/tween.slideshow.js?v=ver520.83"></script>
+        <script src="/content/customer/wc30520/js/plugin_slideshow.js?v=ver32.80"></script>
+        <script>
+            $(function () {
+                $('.ele-slideshow-wrap img').each(function () {
+                    var img = $(this).prop('src');
+                    if (img.indexOf('.png') != -1 && navigator.userAgent.indexOf("MSIE") != -1) {
+                        $(this).attr('style', 'filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="' + img + '",sizingMethod="scale")');
+                    }
+                });
+
+                $('#js-ele-slideshow' + 1).slideshow({
+                    uni: 1,
+                    animationType: 'slideshow',
+                    animationTime: 1.5,
+                    animationOption: {
+                        row: 10,
+                        col: 6
+                    },
+                    isNav: !!1,
+                    isControl: !!1,
+                    navPosition: 'center',
+                    isNumber: !!0,
+                    isArrow: !!1,
+                    isText: !!0,
+                    textX: 50,
+                    textY: 10,
+                    textTime: 2,
+                    random: !!1,
+                    //自動撥放
+                    isAutoPlay: !!1,
+                    hoverPause: !!1,
+                    isLink: !!1,
+                    isRunLine: !!0,
+                    runLinePos: 'bottom',
+                    fullScreen: 1,
+                    fullScreenIEType: 'slideh'
+                });
+            })
+        </script>
+    </div>
+    <!-- 最新消息 -->
+    <div class="news-wrap clearfix">
+        <div class="news-title"></div>
+        <div class="news-item">
+            <script>
+                var news_scroll_conf = {
+                    line: 1,
+                    speed: 500,
+                    timer: 5000,
+                    autoplay: true,
+                    up_text: " ",
+                    down_text: " "
+                };
+            </script>
+            <div  class="ele-news-wrap">
+                <ul class="ele-news-scroll" > <li>
+                     <marquee scrollamount="3" direction="left" onmouseover="stop()" onmouseout="start()" id="ele-msgNews" style="width: 100%; height: 30px;"></marquee>
+                 </li></ul>  
+                        
+                <!--控制按鈕開關 -->
+                <div class="ele-scroll-wrap">
+                    <span id="ele-msg-scrollUp" class="ele-scroll-arrow"></span>
+                    <span id="ele-msg-scrollDown" class="ele-scroll-arrow"></span>
+                </div>
+            </div>
+            <script>
+                $(function () {
+                    // 最新消息跑馬燈
+                    $.ajax({
+                        type: "GET",
+                        url: "/Home/Active?Way=2&Type=1&SubType=1&" + Math.random(),
+                        dataType: "json",
+                        error: function () { return false; },
+                        success: function (json) {
+                            var msg_dir = $('#ele-msgNews').attr('direction');
+                            if (/up|top|down|bottom/.test(msg_dir)) {
+                                //$('#ele-msgNews').html(json.data);
+                                $('#ele-msgNews').html(json.data.replace(/\&lt;br[^(\&gt;)]*\&gt;/igm, "<br>"));
+                            } else {
+                                //$('#ele-msgNews').html(json.data.replace(/<br\s*\/*>/igm, "&nbsp;&nbsp;"));
+                                $('#ele-msgNews').html(json.data.replace(/\&lt;br[^(\&gt;)]*\&gt;/igm, "&nbsp;&nbsp;"));
+                            }
+                        }
+                    });
+                });
+            </script>
+            <script>
+                (function ($) {
+                    $.fn.extend({
+                        Scroll: function (opt, callback) {
+                            //参数初始化
+                            opt = opt || {};
+
+                            var _btnUp = $(opt.up), //向上按钮
+                                _btnDown = $(opt.down), //向下按钮
+                                _txtUp = opt.up_text, //向下按钮
+                                _txtDown = opt.down_text, //向下按钮
+                                timerID,
+                                _this = this.find('ul'),
+                                lineH = _this.find('li').eq(0).height(), //获取行高
+                                line = opt.line ? parseInt(opt.line, 10) : parseInt(this.height() / lineH, 10), //每次滚动的行数，默认为一屏，即父容器高度
+                                speed = opt.speed ? parseInt(opt.speed, 10) : 500, //卷动速度，数值越大，速度越慢（毫秒）
+                                timer = opt.timer, // ? parseInt(opt.timer, 10): 3000; //滚动的时间间隔（毫秒）
+                                autoplay = opt.autoplay, // 自動滾動開關
+                                dir = (opt.scroll_dir == 'up') ? true : false,
+                                upHeight;
+
+                            if (line == 0) line = 1;
+
+                            upHeight = 0 - line * lineH; //滾動高度
+                            //滚动函数
+                            var scrollUp = function () {
+                                dir = true;
+                                _this.stop().animate({
+                                    marginTop: upHeight
+                                }, speed, function () {
+                                    $(this).find('li:first').appendTo(_this).end().end()
+                                        .css('marginTop', 0);
+                                });
+                            },
+                                //向下翻页函数
+                                scrollDown = function () {
+                                    dir = false;
+                                    _this.find("li:last").show().prependTo(_this).end().end()
+                                        .css('marginTop', upHeight)
+                                        .stop().animate({
+                                            marginTop: 0
+                                        }, speed);
+                                },
+                                f_dir = function () {
+                                    if (dir) {
+                                        scrollUp();
+                                    } else {
+                                        scrollDown();
+                                    }
+                                },
+                                //自动播放
+                                autoPlay = function () {
+                                    if (timer && autoplay == true) timerID = window.setInterval(f_dir, timer);
+                                },
+                                autoStop = function () {
+                                    if (timer) window.clearInterval(timerID);
+                                };
+                            //鼠标事件绑定
+                            _this.hover(autoStop, autoPlay).mouseout();
+                            _btnUp.html(_txtUp).click(scrollUp).hover(autoStop, autoPlay); //向上向下鼠标事件绑定
+                            _btnDown.html(_txtDown).click(scrollDown).hover(autoStop, autoPlay);
+                        }
+                    });
+                })(jQuery);
+            </script>
+
+        </div>
+    </div>
+</div>
+<div id="page-container">
+    <div id="page-body">
+        <div class="first-game-wrap">
+
+            <div class="ele-firstgame-wrap" onselectstart="return false">
+                <div class="clearfix ele-firstgame" id="js-firstgame-slider">
+                    <a href="/Vedio/index" target="mem_index" class="ele-firstgame-1 js-ele-firstgame-fade">
+                        <span></span>
+                    </a>
+                    <a href="/Home/PE?QU=" target="mem_index" class="ele-firstgame-2 js-ele-firstgame-fade">
+                        <span></span>
+                    </a>
+                    <a href="/Games/BBINGames" target="mem_index" class="ele-firstgame-3 js-ele-firstgame-fade">
+                        <span></span>
+                    </a>
+                    <a href="/Home/BET?QU=" target="mem_index" class="ele-firstgame-4 js-ele-firstgame-fade">
+                        <span></span>
+                    </a>
+                    <a href="http://www.30520.com/down/index.htm" target="mem_index" class="ele-firstgame-5 js-ele-firstgame-fade">
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+            <script>
+                $('.js-ele-firstgame-fade > span').hover(
+                    function () {
+                        $(this).css("background-position-x", "-236px")
+                            .parent()
+                            .css("background-position-x", "0");
+                    },
+                    function () {
+                        $(this).css("background-position-x", "0")
+                            .parent()
+                            .css("background-position-x", "-236px");
+                    }
+                );
+            </script>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/content/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/content/css/jquery-ui.theme.min.css" />
+<style type="text/css">
+    /*首页弹框*/
+    #index-Bomb-box {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #413d3d;
+        z-index: 1000;
+        -moz-opacity: 0.7;
+        opacity: .70;
+        filter: alpha(opacity=70);
+    }
+
+    .index-dialog-wrap {
+        display: none;
+        /*width: 600px;*/
+        z-index: 1001;
+        position: fixed;
+        top: 15%;
+        left: 27%;
+        background: rgba(255,255,255,0.75);
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding: 6px 6px 6px 6px;
+    }
+
+        .index-dialog-wrap p {
+            font-size: 18px;
+            color: #2e2e2e;
+        }
+
+        .index-dialog-wrap .index-dialog-icon {
+            height: 28px;
+            width: 26px;
+            background: url(/Content/images/icon-gg.jpg) no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .index-dialog-wrap .index-dialog-header {
+            border-bottom: 1px #684509 solid;
+        }
+
+        .index-dialog-wrap .index-dialog-contain {
+            padding-top: 10px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+            .index-dialog-wrap .index-dialog-contain .index-dialog-close {
+                width: 80px;
+                height: 30px;
+                line-height: 30px;
+                color: white;
+                display: inline-block;
+                border: 1px #684509 solid;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                font-size: 14px;
+                background: #684509;
+                text-align: center;
+                margin-top: 10px;
+                text-decoration: none;
+                float: right;
+            }
+
+    .btn-submit, .btn-cancel {
+        overflow: hidden;
+        padding: 0px 28px;
+        height: 34px;
+        line-height: 34px;
+        background: url(/content/images/sideBar.png) no-repeat center -40px;
+        color: #fff;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+        font-size: 14px;
+        border: #6A4809 solid 1px;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: #6A4809 2px 0px 3px;
+    }
+
+    .index-dialog-wrap .dialog-footer {
+        height: 20px;
+        margin: 3px 0;
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: bold;
+        border-top: 1px solid #000;
+    }
+
+    .closeBtn {
+        float:right;
+        margin-right: 6px;
+        padding:0 13px;
+        background:#e6e6e6;
+        border-radius:4px;
+
+    }
+
+    .dialog-footer .red {
+        color: red;
+    }
+
+    #box {
+        max-width: 750px;
+        width: expression_r(document.body.clientWidth > 750 ? "750px": "auto" );
+    }
+</style>
+<div id="index-Bomb-box">
+</div>
+<div id="box" class="index-dialog-wrap ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable ui-resizable" style="position:absolute;z-index:1001;width:640px;margin:0 auto;top:130px;">
+    
+    <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle">
+        <span id="ui-id-1" class="ui-dialog-title">万城国际</span>
+        <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close" onclick="hideBomb();">
+            <span class="ui-button-icon-primary ui-icon ui-icon-closethick" style="background-image: url('/content/images/ui-icons_888888_256x240.png')"></span><span class="ui-button-text">Close</span>
+        </button>
+    </div>
+    <div class="index-dialog-contain">
+        <span id="ActiveBomb" style="display:inline-block;width:640px;word-wrap:break-word;">
+
+        </span>
+        
+    </div>
+    
+    <div class="dialog-footer">
+        官方网址：<span class="red">www.30520.com</span>&nbsp;&nbsp;&nbsp;手机网址：<span class="red">m.wcgj168.com</span>
+        
+        <a class="index-dialog-close closeBtn" onclick="hideBomb();" href="javascript:;">关闭</a>
+    
+    </div>
+</div>
+<script type="text/javascript">
+    function hideBomb() {
+        $("#index-Bomb-box").css({ display: "none" });
+        $(".index-dialog-wrap").css({ display: "none" });
+    }
+
+    function showBomb() {
+        document.getElementById("index-Bomb-box").style.display = "block";
+        $(".index-dialog-wrap").css({ display: "block" });
+        //box();
+    }
+
+    $(function () {
+        // 最新弹框消息
+        $.ajax({
+            type: "GET",
+            url: "/Home/Active?Way=1&Type=1&SubType=1&" + Math.random(),
+            dataType: "json",
+            error: function () { return false; },
+            success: function (json) {
+                if (json.data != null && json.data != "") {
+                    $("#ActiveBomb").html(json.data);
+                    showBomb();
+                    box();
+                }
+            }
+        });
+
+    });
+    function box() {
+        var oBox = document.getElementById('box');
+        var L1 = oBox.offsetWidth;
+        //var H1 = oBox.offsetHeight;
+        var Left = (document.documentElement.clientWidth - L1) / 2;
+        //var top = (document.documentElement.clientHeight - H1) / 2;
+        oBox.style.left = Left + 'px';
+        //oBox.style.top = top + 'px';
+    }
+    //window.onload = function () {
+    //    box();
+    //    window.onresize = function () {
+    //        box();
+    //    }
+    //}
+</script>        <div id="page-footer">
+            <div class="first-bottom-wrap clearfix">
+                <a class="first-btn fb-free" href="/Games/AGTEST" target="_blank"></a>
+                <span class="first-btn-line"></span>
+                <a class="first-btn fb-guide" href="/home/Article/9" target="_blank"></a>
+                <span class="first-btn-line"></span>
+                <a class="first-btn fb-index" href="http://www.30520.com" target="_blank"></a>
+            </div>
+            <div class="footer clearfix">
+                <img class="footer-logo" src="/content/customer/wc30520/images/footer_logo.png" width="164" height="62" alt="footer-logo">
+                <div class="article-menu">
+                    <a href='/home/contact' target='mem_index' data-color="" class="js-article-color">
+                        关于我们
+                    </a> ｜ <a href='/home/Article/45' target='mem_index' data-color="" class="js-article-color">
+                        联络我们
+                    </a> ｜ <a href='/home/partners' target='mem_index' data-color="" class="js-article-color">
+                        合作伙伴
+                    </a> ｜ <a href="/luck" target="_blank" data-color="#C3C3C3" class="js-article-color">
+                        幸运赚不停
+                    </a> ｜ <a href="https://www.30520.com/down/index.htm" target="_blank" data-color="#C3C3C3" class="js-article-color">
+    客户端下载
+</a> ｜ <a href="/Activity/Index" data-color="#C3C3C3" class="js-article-color">
+    优惠活动
+</a>
+                </div>
+                <div class="footer-contact-wrap clearfix">
+                    <div class="footer-contact-l">
+                        <span class="fc-item fc-mail"><span class="fc-title">邮箱:</span>wcgj168@hotmail.com</span>
+                        
+                    </div>
+                    <div class="footer-contact-r">
+                        
+                        <span class="fc-item fc-qq"><span class="fc-title">Q Q:</span>5887706</span>
+                    </div>
+                </div>
+                <div class="footer-info"></div>
+                <div class="copyright">Copyright &copy; 万城国际 Reserved</div>
+            </div>
+            <div class="footer-icons-wrap clearfix">
+                <a id="bblogo" href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <ul id="TplFloatPic_0" class="TplFloatSet" style="position:absolute;cursor:pointer;display:block;" picfloat="left" class="png_fix">
+        <li>
+            <a href="/luck" target="_blank">
+                <img src="/content/customer/wc30520/images/145093206576.png?560870" align="center" alt="" class="png_fix" />
+                <img src="/content/customer/wc30520/images/145093206576.png?560870" align="center" style="display:none;" alt="" class="png_fix" />
+            </a>
+        </li>
+        <li>
+            <a href="###" onclick="FloatClose(this);">
+                <img src="/content/customer/wc30520/images/145093189769.png?560870" align="center" alt="" class="png_fix" />
+                <img src="/content/customer/wc30520/images/145093189769.png?560870" align="center" style="display:none;" alt="" class="png_fix" />
+            </a>
+        </li>
+    </ul>
+    <style>
+        .TplFloatSet a {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .TplFloatSet img {
+            vertical-align: bottom;
+        }
+
+        .TplFloatSet li {
+            list-style: none;
+            font-size: 0px;
+        }
+    </style>
+    <script>
+        //關閉效果
+        function FloatClose(t) {
+            event.cancelBubble = true;
+            $(t).parents('.TplFloatSet').hide();
+        }
+        var left_top = 150,
+            right_top = 150,
+            float_list = [],
+            float_side = 5;
+        $(window).load(function () {
+            // 廳主自改 - 浮動圖V2 -2013.7.19
+            float_list['0'] = $('#TplFloatPic_0');
+            for (var i in float_list) {
+                if (float_list[i].attr == undefined) {
+                    continue;
+                }
+                var self = float_list[i],
+                    picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+                self.show().Float({
+                    'floatRight': picfloat,
+                    'topSide': ((picfloat == 1) ? right_top : left_top),
+                    side: float_side
+                });
+                var w = 0;
+                $.each(self.find('img'), function () {
+                    var width = $(this).width();
+                    w = (width > w) ? width : w; //取圖片最大寬度
+                    $(this).attr({
+                        'width': width,
+                        'height': $(this).height()
+                    });
+                });
+                self.css('width', w);
+                if (picfloat) {
+                    right_top = right_top + 10 + (self.height() || 250);
+                } else {
+                    left_top = left_top + 10 + (self.height() || 250);
+                }
+
+                $('a', self).each(function () {
+                    $(this).css({
+                        'width': $(this).find('img:first').width(),
+                        'height': $(this).find('img:first').height()
+                    });
+                    $(this).hover(function () {
+                        $(this).find('img:first').hide();
+                        $(this).find('img:last').show();
+                    }, function () {
+                        $(this).find('img:last').hide();
+                        $(this).find('img:first').show();
+                    });
+                });
+            }
+        });
+    </script>
+
+    <div id="ele-float-top-wrap">
+        <div id="ele-float-top">
+            <div id="ele-float-top-up" class="ele-float-top-btn"></div>
+        </div>
+    </div>
+    <!-- 廣宣 -->
+    <!-- 舊版廣宣 html - start -->
+    <!--bbin資訊站-->
+    <!-- 舊版廣宣 html - end -->
+    <script src="/content/customer/wc30520/js/jquery.easing.1.3.min.js?v=ver520.83"></script>
+    <script type="text/javascript">
+        if ('undefined' != typeof ($)) {
+            $(function () {
+                var btnNum = $('#ele-float-top').children().length,
+                    wrap = $('#ele-float-top-wrap'),
+                    wrapHeight = (btnNum - 1) * (40 + 2),
+                    gotop = $('#ele-float-top-up'),
+                    speedSet = 300,
+                    thebox = $('.ele-float-box-wrap'),
+                    boxwrap = '',
+                    goTopSwitch = "N";
+
+                /*if(navigator.userAgent.indexOf("MSIE") != -1) {}*/
+                wrap.height(wrapHeight);
+                if (wrap.height() == wrapHeight && goTopSwitch !== 'Y') {
+                    $('#ele-float-top').show();
+                }
+
+                $('.ele-float-top-code').hover(function () {
+                    $(this).children(thebox).stop(true, true).fadeIn(speedSet);
+                }, function () {
+                    $(this).children(thebox).stop(true, true).fadeOut(speedSet);
+                });
+
+                $('.float-top-qq').hover(function () {
+                    $(this).children(thebox).stop(true, true).fadeIn(speedSet);
+                }, function () {
+                    $(this).children(thebox).stop(true, true).fadeOut(speedSet);
+                });
+
+                $("#ele-float-top-up").click(function () {
+                    $('html,body').animate({
+                        scrollTop: 0
+                    }, 1000, 'easeOutExpo');
+                });
+                $(window).scroll(function () {
+                    if (navigator.userAgent.indexOf("MSIE") != -1) {
+                        var fadeSec = 200;
+                    } else {
+                        var fadeSec = 300;
+                    }
+                    if ($(this).scrollTop() > 300) {
+                        $('#ele-float-top-up').fadeIn(fadeSec);
+                    } else {
+                        $('#ele-float-top-up').stop().fadeOut(fadeSec);
+                    }
+                });
+
+
+            });
+        }
+    </script>
+    <script>
+        $(function () {
+            //固定主選單
+            $("#navfixed").navFixed();
+        });
+        $.fn.navFixed = function (setting) {
+            var _o = this,
+                conf = {
+                    fixedClass: 'fixed',
+                    fixedTop: 0
+                };
+
+            $.extend(conf, setting);
+
+            return this.each(function () {
+                var $target = $(_o),
+                    targetTop = $target[0].offsetTop,
+                    fixedTop = parseInt(conf.fixedTop, 10) || 0,
+                    criticalTop = targetTop - fixedTop;
+                $(window).scroll(function () {
+                    var scrollTop = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop,
+                        scrollLeft = (document.documentElement && document.documentElement.scrollLeft) || document.body.scrollLeft;
+                    if (scrollTop > criticalTop) {
+                        if (!$target.hasClass(conf.fixedClass)) {
+                            $target.addClass(conf.fixedClass);
+                        }
+                        $target.children().css({ left: -scrollLeft });
+                    } else if ($target.hasClass(conf.fixedClass)) {
+                        $target.removeClass(conf.fixedClass);
+                    }
+                });
+            });
+        }
+    </script>
+    
+
+</body>
+</html>

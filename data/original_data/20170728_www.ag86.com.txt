@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <title>AG亚游电游--AG亚游集团旗下专业电游网站</title>
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://static-e.agg044.com/static/favicon.ico">
+    
+    <link type="text/css" rel="stylesheet" href="https://static-e.agg044.com/static/css/common.min_9686944b91.css"/>
+    <script>
+        var pn = {};
+        var _static_url = "https://static-e.agg044.com/";
+        pn.pcMainDomain = "https://www.ag8.com/";
+        var _static_game_prefix = "static/__static/electronicgames/";
+        pn.userid = "";
+        pn.loginname = "";
+        pn.userlevel = "";
+        pn.customerType = "";
+    </script>
+    <!--[if lt IE 9]>
+    <script src="https://static-e.agg044.com/static/js/lib/html5shiv.min_40bd440d29.js"></script>
+    <script src="https://static-e.agg044.com/static/js/lib/respond.min_43f8e67af3.js"></script>
+    <link href="https://static-e.agg044.com/static/html/respond/respond-proxy.html" id="respond-proxy" rel="respond-proxy"/>
+    <link href="/respond/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+    <script src="/respond/respond.proxy.js"></script>
+    <![endif]-->
+
+</head>
+
+<link rel="stylesheet" href="https://static-e.agg044.com/static/css/pages/home_aaf6a85a49.css"/>
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="masthead-wrap">
+
+    <div class="mid-navbar">
+        <div class="header-overlay"></div>
+        <div class="container-wrap clearfix">
+            <div class="navbar-left">
+                <div class="logo pull-left">
+                    <a href="/"><img src="https://static-e.agg044.com/static/images/others/global/logo_fbd87f7e47.png" alt="亚游电游" title="Home page"></a>
+                </div>
+
+            </div>
+            
+            
+                <div class="navbar-nav navbar-right navbar-before">
+    <div class="btn-wrap">
+        <div class="btn-group login-wrap">
+            <button id="header-login-dropdown" type="button" class="btn btn-login dropdown-toggle" data-backdrop=""
+                    data-toggle="modal" data-target="#loginModal" title="快速登录">
+                <i class="icon-user-circle-o"></i> 快速登录
+            </button>
+            <div class="modal" id="loginModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content sign-in-wrap">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#password-login" data-toggle="tab"><span>快速登录</span></a></li>
+            <li><a href="#dynamic-password-login" data-toggle="tab"><span>动态密码登录</span></a></li>
+        </ul>
+    </div>
+    <div class="modal-body">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active fade in password-login" id="password-login">
+                <form action="/passwordLogin" method="POST">
+                    <input type="hidden" name="redirect" value="">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-user-o"></i></span>
+
+                            <input name="loginName" type="text" class="form-control" maxlength="20"
+                                   placeholder="游戏账号（ag开头）/手机号码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                            <input name="pwd" type="password" class="form-control" maxlength="10" placeholder="游戏密码">
+                        </div>
+                    </div>
+                    <div class="form-group password-login-captcha" style="display: none;">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-th-large"></i></span>
+                            <input name="captcha" type="text" class="form-control input-captcha"
+                                   placeholder="验证码">
+                            <span class="input-group-addon captcha no-padding">
+                                <img class="captcha" data-src="/captcha" alt="captcha"/>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="error-msg text-center"></p>
+                    <div class="form-group">
+                        <button class="btn btn-default btn-submit form-control">
+                            登 录
+                        </button>
+                    </div>
+                    <div class="form-group clearfix text-right">
+                        <a class="btn btn-link btn-forget-password pull-left">忘记密码？</a>
+                        <span>没有账号？<a class="btn-link btn-sign-up">在此注册</a></span>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade dynamic-password-login" id="dynamic-password-login">
+                <form onsubmit="return false;" class="login-phone"
+                      action="/smsLogin" method="POST">
+                    <input type="hidden" name="redirect" value="">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-user-o"></i></span>
+
+                            <input name="loginName" type="text" class="form-control" maxlength="20"
+                                   placeholder="游戏账号（ag开头）/手机号码">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                            <input name="captcha" type="text" class="form-control" maxlength="6" placeholder="手机动态码">
+                            <span class="input-group-btn">
+                              <button type="button" class="btn btn-resend" id="btn-resend">发送手机动态码</button>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="error-msg text-center"></p>
+                    <div class="form-group">
+                        <button class="btn btn-default btn-submit form-control">
+                            登 录
+                        </button>
+                    </div>
+                    <div class="form-group clearfix text-right">
+                        <a class="btn btn-link btn-forget-password pull-left">忘记密码？</a>
+                        <span>没有账号？<a class="btn-link btn-sign-up">在此注册</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+                    <div class="modal-content forget-pass-wrap">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <h4>找回密码</h4>
+    </div>
+    <div class="modal-body" id="self-reset">
+        <form id="forget-pass-form" class="form-horizontal" onsubmit="return false;"
+              method="post" action="/forgot/password/checkMessageCode">
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon input-icon"><i class="icon-mobile-xs"></i></span>
+                    <input name="loginName" type="text" class="form-control" maxlength="20"
+                           placeholder="游戏账号（ag开头）/手机号码">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon-lock-o"></i></span>
+                    <input name="captcha" type="text" class="form-control" maxlength="6" placeholder="动态码">
+                    <span class="input-group-btn">
+                        <button class="btn btn-resend">发送手机动态码</button>
+                    </span>
+                </div>
+            </div>
+            <p class="error-msg text-center"></p>
+            <div class="form-group">
+                <button class="btn btn-default btn-submit form-control">
+                    下一步
+                </button>
+            </div>
+            <div class="form-group clearfix text-right">
+                <div class="form-group clearfix text-right">
+                    <a class="btn-link btn-sign-in pull-left">去登录</a>
+                    <span>没有账号？<a class="btn-link btn-sign-up">在此注册</a></span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+                    <div class="modal-content change-pwd-wrap" style="display:none;">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <h4>设置新密码</h4>
+    </div>
+    <div class="modal-body">
+        <form id="change-pwd-form" class="form-horizontal" onsubmit="return false;"
+              method="post" action="/forgot/password/resetPassword">
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                    <input id="pwd" name="pwd" type="password" class="form-control" maxlength="10" placeholder="新密码">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                    <input name="confirmPwd" type="password" class="form-control" maxlength="10" placeholder="确认密码">
+                </div>
+            </div>
+            <p class="error-msg text-center"></p>
+            <div class="form-group">
+                <button class="btn btn-default btn-submit form-control">
+                    下一步
+                </button>
+            </div>
+            <div class="form-group clearfix text-right">
+                <span>没有账号？<a class="btn-link btn-sign-up">在此注册</a></span>
+            </div>
+        </form>
+    </div>
+</div>
+                    <div class="modal-content confirmed-password">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+        <h4>修改密码完成</h4>
+    </div>
+    <div class="modal-body">
+        <h4 class="text-center">新密码设置成功</h4>
+        <br>
+        <a class="btn-submit btn-block"> 去登录 </a>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-group register-wrap">
+            <button id="header-register-dropdown" type="button" class="btn btn-free-reg dropdown-toggle"
+                    data-toggle="modal" data-target="#regModal" data-backdrop=""
+                    title="快速注册">
+                <img src="https://static-e.agg044.com/static/images/others/header/treasure-fig_6ece83230f.png"
+                     alt="" class="treasure-fig"> 快速注册
+            </button>
+            <div class="modal" id="regModal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content sign-up-wrap">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#mobile-registration" data-toggle="tab"><span>快速注册</span></a></li>
+            <li><a href="#registration" data-toggle="tab"><span>普通注册</span></a></li>
+        </ul>
+    </div>
+    <div class="modal-body">
+        <div class="tab-content">
+
+            <div role="tabpanel" class="tab-pane active fade in mobile-registration" id="mobile-registration">
+                <div class="enter-number">
+                    <form class="mobile-registration-form" method="post" action="/register/smsRegister"
+                          onsubmit="return false;">
+                        <div class="form-group">
+                            <div class="input-group input-mn">
+                                <span class="input-group-addon"><i class="icon-mobile-xs"></i></span>
+                                <input name="phone" type="text" maxlength="11" class="form-control"
+                                       placeholder="请输入手机号码">
+                            </div>
+                        </div>
+                        <div class="form-isnot">
+                            <p class="no-margin">
+                                <label>
+                                    <input type="radio" value="false" name="autoLoginName" checked="checked">
+                                    随机账号
+                                </label>
+                                &nbsp;&nbsp;
+                                <label>
+                                    <input type="radio" value="true" name="autoLoginName">
+                                    自定义账号
+                                </label>
+                            </p>
+                        </div>
+                        <div class="form-group mobile-reg-login-name-div" style="display: none;">
+                            <div class="input-group">
+                                <span class="input-group-addon input-icon">
+                                    <i class="icon-user-o"></i>
+                                </span>
+                                <span class="input-group-addon iconlabel" id="readonly4">
+                                    <img width="26" height="16"
+                                         data-src="https://static-e.agg044.com/static/images/others/header/ag_icon_29d3a8542a.png">
+                                </span>
+                                <input name="loginName" type="text" class="form-control" maxlength="10"
+                                       style="text-transform: lowercase;" placeholder="登录账号">
+                            </div>
+                        </div>
+                        <div class="form-group register-captcha" style="display: none;">
+                            <div class="input-group required">
+                                <span class="input-group-addon input-icon"><i class="icon-th-large"></i></span>
+                                <input name="captcha" type="text" class="form-control input-captcha" maxlength="4"
+                                       placeholder="验证码">
+                                <span class="input-group-addon captcha no-padding">
+                                                    <img class="captcha"
+                                                         data-src="/register/captcha"
+                                                         alt="captcha">
+                                                </span>
+                            </div>
+                        </div>
+                        <p class="error-msg text-center"></p>
+                        <div class="form-group">
+                            <button class="btn btn-default btn-submit form-control">
+                                注 册
+                            </button>
+                        </div>
+                    </form>
+                    <br>
+                    <div class="form-group clearfix text-right">
+                        <span>已有账号？<a class="btn-link go-sign-in">在此登录</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade registration" id="registration">
+                <form class="ordinary-register-form" onsubmit="return false;" method="post" action="/register">
+                    <div class="form-group sm-margin">注：带" <span class="orange-red-color">*</span> " 号为必填项</div>
+                    <div class="form-group required">
+                        <div class="input-group required">
+                            <span class="input-group-addon input-icon"><i class="icon-user-o"></i></span>
+                            <span class="input-group-addon iconlabel" id="readonly5">
+                                <img width="26" height="16"
+                                     data-src="https://static-e.agg044.com/static/images/others/header/ag_icon_29d3a8542a.png">
+                            </span>
+                            <input name="loginName" type="text" class="form-control" maxlength="10"
+                                   style="text-transform: lowercase;" placeholder="6-10位字母或数字组成">
+                        </div>
+                    </div>
+                    <div class="form-group input-password required input-password">
+                        <div class="input-group required">
+                            <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                            <input name="pwd" type="password" class="show-pass form-control" maxlength="10"
+                                   placeholder="密码由8~10位字母和数字组成" id="pass">
+                            <span class="input-group-btn last">
+                                <button class="btn btn-default btn-show show-pwd" type="button">
+                                    <i class="fa fa-eye-slash"></i>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group required">
+                        <div class="input-group required">
+                            <span class="input-group-addon input-icon"><i class="icon-landline"></i></span>
+                            <input name="phone" type="text" class="form-control" placeholder="手机号码" maxlength="11">
+                        </div>
+                    </div>
+                    <div class="form-group sm-margin">手机号码是验证信息的重要途径，请正确填写</div>
+                    <div class="form-group sm-margin"><a class="pointer-link btn-recommended">什么是推荐码？</a>
+                        <div class="alert alert-info alert-dismissible fade in" role="alert">
+                            <button type="button" class="close" data-hide="alert" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            推荐码用于参与“推荐好友”优惠活动，您将获取丰厚免费奖金，详情请点击“<a class="as-cs">在线客服</a>”
+                        </div>
+                    </div>
+                    <div class="form-group whoRecommendMe">
+                        <div class="input-group">
+                            <span class="input-group-addon input-icon"><i class="icon-th"></i></span>
+                            <input name="whoRecommendMe" type="text" class="form-control" maxlength="6"
+                                   placeholder="请输入推荐码，若无可不填写">
+                        </div>
+                    </div>
+                    <div class="form-group register-captcha" style="display: none;">
+                        <div class="input-group required">
+                            <span class="input-group-addon input-icon"><i class="icon-th-large"></i></span>
+                            <input name="captcha" type="text" class="form-control input-captcha" maxlength="4"
+                                   placeholder="验证码">
+                            <span class="input-group-addon captcha no-padding">
+                                <img class="captcha" data-src="/register/captcha" alt="captcha">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group required checkbox">
+                            <input type="checkbox" name="agree" checked="" style="margin-left: 0px;">
+                            <span style="margin-left: 15px;">
+                                我确定我已年满18岁，并接受
+                                <a href="/about.html" target="_blank">AG亚游</a>
+                                的
+                                <a href="/about.html" target="_blank">条款及细则</a>
+                                、及
+                                <a href="/about.html" target="_blank">隐私权政策</a>
+                            </span>
+                        </div>
+                    </div>
+                    <p class="error-msg text-center"></p>
+                    <div class="form-group">
+                        <button class="btn btn-default btn-submit form-control">
+                            注 册
+                        </button>
+                    </div>
+                </form>
+                <br>
+                <div class="form-group clearfix text-right">
+                    <span>已有账号？<a class="btn-link go-sign-in">在此登录</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+            <div id="mobile-registration-modal" class="modal fade mobile-registration-modal modal-template"
+                 tabindex="-1" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h2 class="modal-title">手机快速注册成功</h2>
+                        </div>
+                        <div class="modal-body text-center yellow-text">
+                            <h3><i class="icon-ok-md"></i> 恭喜您！
+                                <small>成为AG亚游电游会员</small>
+                            </h3>
+                            <br>
+                            <form action="" method="post" class="form-horizontal" style="width: inherit">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon input-icon"><i class="icon-user-o"></i></span>
+                                        <input id="register-success-loginname" readonly="readonly" type="text"
+                                               class="form-control"
+                                               placeholder="游戏账号/手机号码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon input-icon"><i class="icon-lock-o"></i></span>
+                                        <input id="modifyPassword" name="newPassword" type="text" value=""
+                                               data-toggle="tooltip" data-placement="bottom" title=""
+                                               data-original-title="＊建议您及时修改密码"
+                                               class="form-control" placeholder="游戏密码">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="text-center"><a class="btn-submit pointer-link">
+                                <i class="fa fa-pencil-square-o"></i> 确 定</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+            <button class="btn btn-free-demo" data-toggle="modal" data-target="#free-trial-modal" data-backdrop=""
+                    title="免费试玩">
+                <img src="https://static-e.agg044.com/static/images/others/header/clown-fish-fig_3dee26852d.png"
+                     alt=""
+                     class="clown-fish-fig">
+                免费试玩
+            </button>
+            <div class="modal" tabindex="-1" role="dialog" id="free-trial-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">免费试玩</h4>
+                        </div>
+                        <div class="modal-body text-center">
+                            <form action="/register/trial">
+                                <div class="form-group" style="height: 62px">
+                                    <div class="input-group is-success">
+                                        <span class="input-group-addon input-icon"><i class="icon-th-large"></i></span>
+                                        <input type="text" name="captcha" class="form-control input-captcha"
+                                               placeholder="验证码">
+                                        <input type="hidden" name="redirect" value="">
+                                        <span class="input-group-addon captcha no-padding"><img
+                                                class="captcha"
+                                                data-src="/captcha"
+                                                alt="captcha"></span>
+                                    </div>
+                                    <em class="error-red"></em>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default btn-submit form-control"
+                                            style="margin-top: 15px;">开始试玩
+                                    </button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+            
+            
+        </div>
+
+    </div>
+    <div class="main-navbar">
+        <nav class="navbar navbar-default">
+            <div class="container-wrap">
+                <div class="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/index"><i class="icon-home"></i> 首页</a></li>
+                        <li class="dropdown">
+                            <a href="/game"><i class="icon-lucky-seven"></i> 电子游戏 <i
+                                    class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="/ag" class="img-wrap"><span>AG</span>
+                                        <img
+                                                width="234" height="150"
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                                data-src="https://static-e.agg044.com/static/images/others/header/egame_ag_edcd11cf77.png"
+                                                alt=""></a>
+
+                                    <a href="/ag#trial" class="btn">免费试玩<i
+                                            class="fa fa-caret-right"
+                                            aria-hidden="true"></i></a>
+
+                                    <a href="/ag" class="btn">进入游戏<i class="fa fa-caret-right"
+                                                                           aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="/pt" class="img-wrap"><span>PT</span><img
+                                            width="234" height="150"
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                            data-src="https://static-e.agg044.com/static/images/others/header/egame_pt_214afd6d80.png"
+                                            alt=""></a>
+                                    <a href="/pt#trial" class="btn">免费试玩<i
+                                            class="fa fa-caret-right"
+                                            aria-hidden="true"></i></a>
+                                    <a href="/pt" class="btn">进入游戏<i class="fa fa-caret-right"
+                                                                             aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="/mg" class="img-wrap"><span>MG</span>
+                                        <img width="234" height="150"
+                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                             data-src="https://static-e.agg044.com/static/images/others/header/egame_mg_a6708f06ee.png" alt=""></a>
+                                    <a href="/mg#trial" class="btn">免费试玩<i
+                                            class="fa fa-caret-right"
+                                            aria-hidden="true"></i></a>
+                                    <a href="/mg" class="btn">进入游戏<i class="fa fa-caret-right"
+                                                                             aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="/ttg" class="img-wrap"><span>TTG</span><img
+                                            width="234" height="150"
+                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                            data-src="https://static-e.agg044.com/static/images/others/header/egame_ttg_af74964af7.png"
+                                            alt=""></a>
+                                    <a href="/ttg#trial" class="btn">免费试玩<i
+                                            class="fa fa-caret-right"
+                                            aria-hidden="true"></i></a>
+                                    <a href="/ttg" class="btn">进入游戏<i class="fa fa-caret-right"
+                                                                              aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/fishing"><i class="icon-fish"></i> 捕鱼王</a></li>
+                        <li class="dropdown">
+                            <a target="_blank" href="https://www.ag8.com/game/play/agin"><i
+                                    class="icon-cards"></i> 真人视讯 <i
+                                    class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="w-lg">
+                                    <a href="https://www.ag8.com/game/play/agin"
+                                       class="img-wrap"
+                                       target="_blank"><span>AG<em>国际厅</em></span>
+                                        <img
+                                                width="300" height="150"
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                                data-src="https://static-e.agg044.com/static/images/others/header/live_aggj_7da3c2a452.png"
+                                                alt=""></a>
+                                    <a href="https://www.ag8.com/game/play/agin" class="btn"
+                                       target="_blank">进入游戏<i
+                                            class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                </li>
+                                <li class="w-lg">
+                                    <a href="https://www.ag8.com/game/play/agq"
+                                       class="img-wrap"
+                                       target="_blank"><span>AG<em>旗舰厅</em></span>
+                                        <img
+                                                width="300" height="150"
+                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUbIirLAP69AAAAAXRSTlOArV5bRgAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                                data-src="https://static-e.agg044.com/static/images/others/header/live_agqj_f727ee0ade.png"
+                                                alt=""></a>
+                                    <a href="https://www.ag8.com/game/play/agq" class="btn"
+                                       target="_blank">进入游戏<i
+                                            class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="/promotion"><i class="icon-gift"></i> 优惠活动</a></li>
+                        <li><a target="_blank" href="https://www.ag8.com/publicity/download"><i
+                                class="icon-phone"></i> 手机投注</a></li>
+
+                        <li><a href="https://www.ag8.com/publicity/agstar" target="_blank"><i
+                                class="icon-trophy"></i> 亚游风采</a></li>
+                        <li><a href="/bbs" target="_blank" class="coming-soon"><i class="icon-bubble"></i>
+                            亚游论坛</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right navbar-form">
+                        <li>
+                            <div class="input-group">
+                                <input type="text" class="form-control search-game-name-js" placeholder="侏罗纪，捕鱼王">
+                                <span class="input-group-btn">
+               <a class="btn btn-default search-game-button-js" type="button"><i class="fa fa-search"></i></a>
+              </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+    </div>
+    <div class="aside sidebar">
+        <div class="sidebar-wrap">
+    <ul class="sidebar-container">
+        <li class="sidebar-unit online-service">
+            <a href="#"><i class="fa fa-icon fa-weixin"></i> 在线客服 </a>
+            <div class="sidebar-content">
+                <div class="padding-xs title">
+                    <img data-src="https://static-e.agg044.com/static/images/others/sidebar/agent_c96858c3c0.png" alt="Agent fig"
+                         class="pull-left">
+                    <span> 7×24小时 <br> 在线客服 </span>
+                </div>
+                <div class="padding-xs">
+                    <button class="btn btn-orange as-cs">立即咨询</button>
+                </div>
+                <div class="padding-xs title"> 客服热线</div>
+                <div class="padding-xs"><p>+63-2-949-8222<br>（菲律宾）</p></div>
+                <!--<div class="padding-xs title"> 在线QQ</div>
+                <div class="padding-xs"><p> 4006999668 </p></div>-->
+            </div>
+
+        </li>
+        <li class="sidebar-unit deposit-withdrawals">
+            <a href="#"> <i class="fa fa-icon fa-cny"></i> 充值提现 </a>
+            <div class="sidebar-content">
+                <div class="padding-xs"><a href="/pay/qr"
+                                           data-src="https://static-e.agg044.com/static/images/others/sidebar/btn-shipments_4920c96733.png"
+                                           class="btn-shipping1"></a></div>
+                <div class="padding-xs"><a href="/personal/withdraw"
+                                           data-src="https://static-e.agg044.com/static/images/others/sidebar/btn-shipments_4920c96733.png"
+                                           class="btn-shipping2"></a></div>
+            </div>
+        </li>
+
+        <li class="sidebar-unit free-hotline">
+            <a href="#"> <i class="fa fa-icon fa-phone-square"></i> 免费热线 </a>
+            <div class="sidebar-content call-phone">
+                <span class="title">免费热线</span>
+                <div class="padding-xs">
+                    <p> AG亚游电游24小时免费<br> 电话服务，欢迎体验 </p>
+                    <input type="text" class="form-control call-phone-number" placeholder="请输入您的联系电话">
+                    <div class="form-group">
+                        <div class="input-group is-success sidebar-captcha">
+                            <input type="text" class="form-control input-captcha" placeholder="验证码">
+                            <span class="input-group-addon captcha no-padding">
+                                <img data-src="/captcha" alt="captcha" class="captcha"></span>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-orange call-phone-submit">马上回拨</button>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="sidebar-unit back-top"><a href="#"> <i class="fa fa-icon fa-arrow-circle-up"></i> 返回顶部 </a></li>
+    </ul>
+</div>
+    </div>
+    <div class="home-wrap">
+
+    <div class="carousel-home-wrap margin-xs">
+        <div id="carousel-home" class="carousel slide carousel-home" data-ride="carousel" data-interval="7000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-home" data-slide-to="1"></li>
+                <li data-target="#carousel-home" data-slide-to="2"></li>
+                <li data-target="#carousel-home" data-slide-to="3"></li>
+                <li data-target="#carousel-home" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <a class="item-img" href="/promotion/redenvelope" target="_blank"
+                       style="background-image: url(https://static-e.agg044.com/static/images/home/carousel/banner_hongbao_1_6e7fad9ebf.jpg)">
+                    </a>
+                </div>
+
+
+
+                <div class="item">
+                    <a class="item-img" href="/bbs?mod=viewthread&amp;tid=3115&amp;fromuid=34" target="_blank"
+                       data-src="https://static-e.agg044.com/static/images/home/carousel/banner6_c79893b79e.jpg"></a>
+                </div>
+                <div class="item">
+                    <a class="item-img" href="/promotion/rebate" target="_blank"
+                       data-src="https://static-e.agg044.com/static/images/home/carousel/banner_5_807a48eea4.jpg"></a>
+                </div>
+                <div class="item">
+                    <a class="item-img" href="/promotion/registergift" target="_blank"
+                       data-src="https://static-e.agg044.com/static/images/home/carousel/register-gift-banner_ec8765fa90.jpg"></a>
+                </div>
+                <div class="item">
+                    <a class="item-img" href="/promotion/breakthrough" target="_blank"
+                       data-src="https://static-e.agg044.com/static/images/home/carousel/gift-banner_a25646082e.jpg"></a>
+                </div>
+
+                <!-- <div class="item">
+                    <a class="item-img"
+                       th:data-src="${static}+'static/images/home/carousel/open_4a1dfe0bbc.jpg'"></a>
+                </div> -->
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div class="container-wrap">
+        <div class="row home-promo margin-xs">
+            <div class="col-xs-3 left-home-promo">
+                <div class="latest-offers-wrap">
+
+                    <h4 class="title"><i class="icon-gift"></i> 最新优惠 <a href="/promotion"
+                                                                        class="pull-right">更多</a></h4>
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>优惠名称</th>
+                            <th>优惠类型</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="">【正在进行】电游洗码升级全民1%</td>
+                            <td>洗码优惠</td>
+                            <td>
+                                <a href="/promotion/rebate"
+                                   target="_blank" class="btn btn-view">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>【正在进行】新会员投注礼金</td>
+                            <td>开户优惠</td>
+                            <td>
+                                <a target="_blank" href="/promotion/registergift" class="btn btn-view">查看</a>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>【正在进行】投注闯关勇夺1888</td>
+                            <td>投注优惠</td>
+                            <td>
+                                <a target="_blank" href="/promotion/breakthrough"
+                                   class="btn btn-view  pointer-link">查看</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end latest-offers-wrap -->
+
+                <div class="discount-today-wrap">
+                    <h4 class="title is-hot">
+                        <span><i class="icon-clock"></i> 爆机游戏</span>
+                        <a href="/game" class="pull-right">更多</a>
+                    </h4>
+                    <div class="row">
+                        <div class="col-xs-6 overlay-wrap text-center discount-unit">
+                            <div class="margin-xs discount-container">
+                                <div class="overlay-wrap">
+                                    <div class="discount-trigger">
+                                        <img id="promotionGames_img_0" alt="特惠游戏">
+                                        <div class="overlay">
+                                            <div class="overlay-container">
+                                                <div class="overlay-content">
+                                                    <p id="promotionGames_cnName_0"></p>
+                                                    <a href="#" class="btn-try play-game-js"
+                                                       id="promotionGames_link_0"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discount-date"><p> 上次爆机时间：<span id="promotionGames_date_0"></span> <br>
+                                上次爆机金额：<span id="promotionGames_amount_0"></span>
+                            </p></div>
+                        </div>
+
+                        <div class="col-xs-6 overlay-wrap text-center discount-unit">
+                            <div class="margin-xs discount-container">
+                                <div class="overlay-wrap">
+                                    <div class="discount-trigger">
+                                        <img id="promotionGames_img_1"
+                                             alt="特惠游戏">
+                                        <div class="overlay">
+                                            <div class="overlay-container">
+                                                <div class="overlay-content">
+                                                    <p id="promotionGames_cnName_1"></p>
+                                                    <a href="#" class="btn-try play-game-js"
+                                                       id="promotionGames_link_1"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discount-date"><p> 上次爆机时间：<span id="promotionGames_date_1"></span> <br>
+                                上次爆机金额：<span id="promotionGames_amount_1"></span>
+                            </p></div>
+                        </div>
+                    </div>
+                </div><!-- end discount-today-wrap -->
+
+                <div class="withdrawal-wrap">
+                    <h4 class="title"><i class="icon-diamond"></i> 中奖瞬间</h4>
+                    <div class="list-wrap">
+                        <div class="list-header">
+                            <div class="list-row">
+                                <ul class="list-inline">
+                                    <li class="list-data">账号</li>
+                                    <li class="list-data">金额</li>
+                                    <li class="list-data">游戏名称</li>
+                                    <li class="list-data last">投注时间</li>
+                                </ul>
+                            </div><!-- end list-row -->
+                        </div><!-- end list-header -->
+                        <div class="list-body">
+                            <div class="list-container">
+
+                            </div><!-- end list-container -->
+                        </div><!-- end list-body -->
+                    </div><!-- end list-wrap -->
+                </div>
+            </div>
+
+            <div class="col-xs-8 right-home-promo">
+                <div class="promo-carousel-wrap">
+                    <div id="promo-carousel" class="promo-carousel carousel slide" data-ride="carousel"
+                         data-interval="8000">
+                        <!--<ol class="carousel-indicators">
+                            <li data-target="#promo-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#promo-carousel" data-slide-to="1" class=""></li>
+                        </ol>--><!-- end carousel-indicators -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="https://static-e.agg044.com/static/images/home/promo/recruit-promo-05_3b8f2617cb.jpg" alt="Recruit promo">
+                                <div class="carousel-caption">
+                                    <a class="play-game-js"
+                                       data-url="/game/play/agstar?platForm=AGSTAR"
+                                       data-trial="true" target="_blank">立即游戏</a>
+                                    
+                                    
+                                </div>
+                            </div>
+                            <!-- <div class="item active">
+                                 <a class="play-game-js" data-trial="true"
+                                    data-url="/game/play/mg?gameCode=70313&gameName=Candy%20Dreams&platForm=MG"
+                                    data-gameid="70313" data-provider="MG" target="_playGame">
+                                     <img src="../static/images/home/promo/recruit-promo_b863365b3b.jpg"
+                                          th:src="@{${static}+'static/images/home/promo/recruit-promo-01_9081d7c580.jpg'}"
+                                          alt="Recruit promo">
+                                 </a>
+                             </div>--><!-- end item -->
+                            <!--<div class="item">
+                                <a class="play-game-js" data-trial="true"
+                                   data-url="/game/play/ttg?gameCode=1000&gameName=FortunePays&platForm=TTG"
+                                   data-gameid="1000" data-provider="TTG" target="_playGame">
+                                    <img th:data-src="${static}+'static/images/home/promo/recruit-promo-02_d1ca53c986.jpg'"
+                                         alt="Recruit promo">
+                                </a>
+                            </div>--><!-- end item -->
+                        </div><!-- end carousel-inner -->
+                    </div>
+                </div><!-- end promo-carousel-wrap -->
+                <div class="row game-wrap">
+                    <div class="col-xs-6">
+                        <a data-trial="true" data-url="/game/play/ag?gameCode=6&gameName=Fish&platForm=AG"
+                           data-gameid="6" data-provider="AG" target="_playGame" class="play-game-js game-container">
+                            <img class="lazy-js" width="385" height="236"
+                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUQEBN1IM0lAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                 data-original="https://static-e.agg044.com/static/images/home/game/1_f34743046d.jpg"
+                                 alt="AG International Office">
+                            <div class="game-overlay text-right alter">
+                                <div class="center-wrap">
+                                    <div class="center-content">
+                                        <div class="margin-xs">
+                                            <h2 class="title alter">AG捕鱼游戏</h2>
+                                            <small class="sub-title alter">全民热游 百万奖池 一触即发</small>
+                                        </div>
+                                        <span class="icon icon-arrow-circle-right"></span>
+                                    </div>
+                                </div>
+                            </div><!-- end game-overlay -->
+                        </a>
+                    </div>
+
+                    <div class="col-xs-6">
+                        <a href="/ag" class="game-container">
+                            <img class="lazy-js" width="385" height="236"
+                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUQEBN1IM0lAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                 data-original="https://static-e.agg044.com/static/images/home/game/2_8b5a61e834.jpg" alt="AG Flagship">
+                            <div class="game-overlay text-right">
+                                <div class="center-wrap">
+                                    <div class="center-content">
+                                        <div class="margin-xs">
+                                            <h2 class="title">AG电子游戏</h2>
+                                            <small class="sub-title">性感女仆 水果拉霸 复古花园</small>
+                                        </div>
+                                        <span class="icon icon-arrow-circle-right-o"></span>
+                                    </div>
+                                </div>
+                            </div><!-- end game-overlay -->
+                        </a>
+                    </div>
+                </div>
+
+                <div class="row game-wrap">
+                    <div class="col-xs-6 ">
+                        <a href="/pt" class="game-container">
+                            <img class="lazy-js" width="385" height="236"
+                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUQEBN1IM0lAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                 data-original="https://static-e.agg044.com/static/images/home/game/3_8a9a741137.jpg" alt="PT">
+                            <div class="game-overlay text-right">
+                                <div class="center-wrap">
+                                    <div class="center-content">
+                                        <div class="margin-xs">
+                                            <h2 class="title">PT电子游戏</h2>
+                                            <small class="sub-title">奖金熊 金钱蛙 古怪猴</small>
+                                        </div>
+                                        <span class="icon icon-arrow-circle-right-o"></span>
+                                    </div>
+                                </div>
+                            </div><!-- end game-overlay -->
+                        </a>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="game-container">
+                            <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-slides="> a"
+                                 data-cycle-pause-on-hover="true" data-cycle-pager="#game-indicators"
+                                 data-cycle-pager-template="" data-cycle-pager-event="mouseover"
+                                 style="position: relative; overflow: hidden;">
+                                <a href="/ttg" class="game-container">
+                                    <img class="lazy-js" width="385" height="236"
+                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUQEBN1IM0lAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                         data-original="https://static-e.agg044.com/static/images/home/game/4_413f5e57bd.jpg" alt="TTG电子游戏">
+                                    <div class="game-overlay text-right alter">
+                                        <div class="center-wrap">
+                                            <div class="center-content">
+                                                <div class="margin-xs">
+                                                    <h2 class="title alter">TTG电子游戏</h2>
+                                                    <small class="sub-title alter">银狮奖 捕蝇大赛 疯狂的猴子</small>
+                                                </div>
+                                                <span class="icon icon-arrow-circle-right"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="/mg" class="game-container">
+                                    <img class="lazy-js" width="385" height="236"
+                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACAQMAAACjTyRkAAAAA1BMVEUQEBN1IM0lAAAAAXRSTlPM0jRW/QAAAApJREFUCNdjAAIAAAQAASDSLW8AAAAASUVORK5CYII="
+                                         data-original="https://static-e.agg044.com/static/images/home/game/5_64a8dfca55.jpg" alt="MG电子游戏">
+                                    <div class="game-overlay text-right alter">
+                                        <div class="center-wrap">
+                                            <div class="center-content">
+                                                <div class="margin-xs">
+                                                    <h2 class="title alter">MG电子游戏</h2>
+                                                    <small class="sub-title alter">卷筒宝石 篮球巨星 疯狂曲棍球</small>
+                                                </div>
+                                                <span class="icon icon-arrow-circle-right"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="game-indicators" class="btn-wrap">
+                                    <button>TTG</button>
+                                    <button>MG</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end col-xs-8 -->
+        </div>
+        <div class="egame-wrap margin-xs">
+            <div role="tabpanel">
+                <div class="egame-nav-tabs">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#top-games" aria-controls="top-games" role="tab" data-toggle="tab"><i
+                                    class="icon glyphicon glyphicon-fire"></i> 热门游戏</a>
+                        </li>
+                    </ul>
+                    <a href="/game" class="pull-right more">更多</a>
+                </div>
+                <div class="tab-content egame-tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="top-games">
+                    </div>
+                </div>
+                <!--<div class="egame-footer-wrap padding-xs">
+                    <button class="btn btn-block btn-load-more" title="Load more">加载更多</button>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+    <div class="footer">
+    <div class="logoes">
+        <a target="_blank" href="https://www.ag8.com/"><img
+                class="lazy-js" width="170" height="56"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_2_4b2eaec243.png" alt="AG"></a>
+        <em>旗下品牌:</em>
+        <a target="_blank" href="https://www.ag8.com/"><img
+                class="lazy-js" width="105" height="39"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_1_344a675d94.png" alt="AG"></a>|
+        <a href="#"><img
+                class="lazy-js" width="111" height="41"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_6_6b104c4d92.png" alt="AG"></a>|
+        <!--Asia Gaming-->
+        <a target="_blank" href="https://asia-gaming.com/"><img
+                class="lazy-js" width="99" height="32"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_3_246d2f37a6.png" alt="AG"></a>|
+        <!--广东贵宾会-->
+        <a target="_blank" href="http://www.ag888.com"><img
+                class="lazy-js" width="127" height="35"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_4_83533f5357.png" alt="AG"></a>|
+        <!--AG新视界酒店-->
+        <a target="_blank" href="https://manilabay.newworldhotels.com/sc/"><img
+                class="lazy-js" width="105" height="60"
+                data-original="https://static-e.agg044.com/static/images/others/footer/logo_5_9ab4fd80be.png" alt="AG"></a>
+        <em>官方媒体:</em>
+        <a target="_blank" href="https://www.youtube.com/channel/UCnanc2COQ5_ql1BIjrGh-iw" class="p5"><img
+                class="lazy-js" width="67" height="26"
+                data-original="https://static-e.agg044.com/static/images/others/footer/youtube_d71f243a53.png" alt="youtube"></a>
+        <a target="_blank" href="http://weibo.com/5574468338/profile?topnav=1&wvr=6&is_all=1" class="p5"><img
+                class="lazy-js" width="28" height="23"
+                data-original="https://static-e.agg044.com/static/images/others/footer/sina_d592c4e3e9.png" alt="sina"></a>
+        <a target="_blank" href="https://www.facebook.com/AsiaGaming.Official/" class="p5"><img
+                class="lazy-js" width="26" height="26"
+                data-original="https://static-e.agg044.com/static/images/others/footer/facebook_2fc52c1877.png" alt="facebook"></a>
+    </div>
+    <a href="/about">关于我们</a>|
+    <!--<a href="game_rules.html">游戏规则</a>|-->
+    <a target="_blank" href="https://www.ag8.com/publicity/aboutus/license">博彩牌照</a>|
+    <a href="/about#tools-dl">工具下载</a>
+    <span>AG平台接入洽谈: cs@asia-gaming.com</span>
+    <span>©2017 AG8.com 版权所有</span>
+
+</div>
+</div>
+
+
+
+<script src="https://static-e.agg044.com/static/js/common.min_728420f921.js"></script><script src="https://static-e.agg044.com/static/__js/electronicgames/games.js?v=2b82af35b1b7d60cf062ee89222a450a"></script><script src="https://static-e.agg044.com/static/js/main_ca533714d3.js"></script><script src="https://static-e.agg044.com/static/js/login_reg_c046bfde0c.js"></script><script>
+        var _hmt = _hmt || [];
+        (function () {
+                var hm = document.createElement("script");
+                hm.src = "//hm.baidu.com/hm.js?452136c8900570104b1742296327ee25";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+    </script>
+<!--[if lt IE 9]>
+<script src="https://static-e.agg044.com/static/js/lib/jquery.placeholder.min_ee60835ea8.js"></script>
+<script> if (jQuery().placeholder) {
+    $("input[placeholder][type='text']").placeholder();
+    setTimeout(function () {
+        $("input[placeholder][type='password']").placeholder();
+    }, 1000);
+}</script>
+<![endif]-->
+
+    <script>
+        var playCountList = {"MG_28456":3,"PT_bib_963945":1,"PT_qbd":4,"MG_120":12,"PT_fnfrj":21,"MG_18":100,"MG_27790":36,"MG_2917":36,"TTG_14600":5,"PT_bjuk":4,"TTG_1021":18,"TTG_16__20":2,"TTG_483":12,"MG_10":96,"MG_278":12,"TTG_1073":237,"AG_510":21,"PT_pnp":14,"PT_ms":1,"TTG_3":2,"MG_96":4,"PT_gtsswk":282,"PT_wlcsh":64,"TTG_1017":79,"PT_bib_908145":1,"PT_bt":19,"MG_45401":14,"TTG_3__3":5,"MG_27084":39,"AG_546":1662,"PT_bib":2118,"MG_214":273,"PT_ro":23,"MG_229":3,"TTG_14400":12,"PT_slion":35,"TTG_1014":53,"PT_gs":5,"PT_bib_984572":1,"MG_223":9,"PT_qnw":65,"PT_pg":3,"AG_512":44,"TTG_452":5,"MG_26333":1977,"PT_cnpr":593,"PT_ssl":1,"MG_232":30,"AG_504":2236,"MG_26734":2,"MG_171":6,"PT_ct":912,"MG_66084":14,"MG_88":22,"PT_gtssmdm":3,"PT_s21":3,"TTG_14637":4,"MG_69984":24,"PT_hk":355,"PT_af4":7,"MG_193":2,"PT_bl":17,"TTG_14633":4,"MG_26714":24,"PT_sfh":24,"PT_glr":21,"TTG_516":23,"TTG_1025":29,"MG_231":8,"PT_bib_962274":1,"TTG_14607":9,"MG_70309":25,"TTG_14446":49,"MG_126":15,"PT_lvb":2,"TTG_540":68,"PT_bld":41,"AG_547":78,"PT_jp":237,"TTG_14417":4,"MG_8685":3110,"MG_27":2,"MG_218":64,"PT_ah2":6,"PT_photk":37,"AG_536":179,"MG_296":8,"TTG_14605":3,"PT_kfp":1,"MG_250":9,"AG_TA0N":24,"MG_161":17,"MG_252":1,"MG_86":17,"MG_207":24,"PT_gtsflzt":97,"PT_bj21d":21,"AG_505":109,"MG_42979":4,"PT_cheaa":19,"PT_frtln":50,"MG_50":31,"TTG_14620":11,"MG_70654":28,"PT_arc":13,"TTG_14609":10,"PT_aogs":189,"MG_248":3,"TTG_1003":231,"MG_26545":46,"MG_66914":15,"PT_haocs":64,"PT_rps":1,"AG_544":127,"PT_af":4,"TTG_1040":94,"PT_lwh":7,"MG_26563":36,"PT_dnr":168,"PT_gtsdgk":4,"MG_106":9,"TTG_14475":43,"TTG_1061":50,"AG_TA0O":51,"TTG_14434":16,"PT_ftg":6,"MG_69":19,"MG_225":10,"PT_bob":866,"MG_156":17,"AG_526":90,"MG_44":47,"MG_85":20,"PT_fow":11,"TTG_14267":12,"TTG_475":3,"MG_244":4,"AG_TA0L":53,"MG_61495":24,"TTG_14630":5,"PT_lndg":20,"TTG_14631":6,"PT_gtsir":14,"PT_gtslgms":5,"TTG_14455":9,"TTG_14632":10,"PT_gts52":14,"TTG_64":1,"TTG_14414":2,"AG_524":99,"MG_213":11,"PT_ftsis":62,"MG_11":78,"TTG_14439":2,"MG_154":9,"PT_ges":15,"TTG_14611":16,"TTG_14635":17,"TTG_14478":22,"TTG_1027":45,"PT_chl":1,"PT_wvm":4,"MG_1067":69,"TTG_57__10":7,"PT_zcjb":177,"TTG_14443":4,"MG_62":8,"MG_90":19,"MG_211":4,"MG_159":63,"PT_donq":17,"PT_irm3sc":3,"PT_tp":9,"MG_36":3,"PT_fbr":32,"MG_91":16,"MG_143":6,"MG_26377":239,"MG_26411":18,"TTG_40":4,"PT_ashamw":1,"MG_105":34,"TTG_446":3,"MG_68501":105,"MG_46494":236,"MG_197":27,"TTG_14444":2,"MG_45399":5,"PT_evj":117,"MG_111":13,"AG_519":45,"PT_ctp2":53,"MG_267":108,"MG_57":12,"TTG_2__2":3,"MG_42981":282,"TTG_14450":1,"TTG_477":9,"MG_26635":11,"MG_176":23,"PT_er":34,"MG_52":2,"PT_pso":2,"PT_ro3d":1,"AG_TA0M":59,"PT_cashfi":338,"PT_gc":5,"MG_27526":31,"MG_26629":10,"PT_jpgt":54,"AG_516":81,"TTG_462":4,"AG_543":820,"PT_fkmj":188,"MG_26671":40,"TTG_14604":6,"MG_26493":3,"MG_139":5,"TTG_14610":9,"PT_glrj":29,"MG_59067":40,"MG_123":12,"MG_69656":17,"PT_kgdb":8,"MG_71":11,"MG_69012":25,"AG_507":95,"MG_26745":4,"MG_100":12,"PT_ghlj":10,"MG_178":52,"PT_dw":7,"PT_sx":42,"MG_44751":2065,"AG_503":714,"PT_gts51":15,"PT_fbm":3,"MG_172":2,"MG_237":29,"MG_26515":20,"MG_3007":62,"PT_gos":357,"PT_longlong":57,"AG_513":198,"MG_63":20,"MG_185":11,"AG_545":197,"AG_520":184,"MG_246":136,"MG_124":2,"TTG_14462":4,"MG_153":10,"TTG_1000":395,"TTG_14613":3,"TTG_488":207,"PT_rcd":1,"TTG_4__4":2,"MG_26503":8,"MG_26399":1,"TTG_13":3,"MG_234":12,"AG_TA0U":21,"PT_fff":17,"PT_gtshwkp":31,"MG_22":42,"PT_hh":18,"AG_529":76,"MG_26419":23,"PT_jb":8,"TTG_1036":24,"MG_35":50,"MG_295":10,"MG_226":7,"PT_gtsirl":12,"MG_78":3,"TTG_14415":1,"TTG_14454":16,"MG_217":59,"AG_548":94,"PT_hotktv":24,"PT_ash3brg":32,"TTG_1018":33,"MG_28216":17,"MG_26712":77,"MG_187":7,"PT_gtsstg":1,"TTG_14476":32,"AG_TA0R":1,"TTG_15":16,"PT_pop":5,"MG_39":46,"MG_196":4,"AG_511":20,"MG_3065":6,"MG_70379":8,"MG_70141":14,"MG_26744":49,"MG_41":117,"TTG_486":24,"TTG_14477":22,"PT_wlg":67,"PT_ashbob":61,"MG_26743":11,"MG_69658":139,"PT_bj":2,"PT_hrcls":73,"TTG_480":9,"MG_68994":17,"PT_ririshc":119,"MG_8686":28,"PT_frr":5,"PT_fxf":13,"TTG_14638":6,"MG_26519":10,"MG_26455":2,"TTG_1015":62,"MG_26698":22,"MG_107":122,"MG_157":398,"MG_140":11,"TTG_1031":7,"MG_26601":2,"TTG_478":9,"MG_40":66,"MG_118":2,"TTG_14612":10,"PT_gtsmrln":1,"TTG_439":6,"TTG_14425":2,"PT_zcjbjp":539,"MG_70623":74,"MG_66":11,"PT_cr":3,"TTG_1037":57,"AG_539":1277,"MG_122":14,"MG_77":15,"MG_98":5,"PT_ttwfs":1,"PT_art":1,"PT_samz":22,"MG_9":78,"TTG_416":2,"MG_12":234,"MG_117":9,"MG_102":16,"MG_26521":3,"TTG_1078":42,"MG_26593":10,"PT_mgstk":21,"PT_ashvrtd":1,"PT_hb":8,"AG_550":35,"TTG_484":124,"PT_bja":91,"MG_26697":114,"MG_255":7,"MG_150":10,"PT_jqw":206,"MG_26507":6,"TTG_1006":45,"MG_13":8,"PT_sf":4,"TTG_1075":54,"MG_236":18,"MG_177":15,"TTG_14409":2,"PT_sis":20,"TTG_1001":157,"PT_ririjc":8,"PT_hlf2":17,"TTG_1044":43,"MG_15":4,"PT_fday":17,"MG_285":14,"PT_fcgz":93,"MG_5":61,"PT_rky":49,"MG_21":145,"TTG_14261":12,"MG_268":18,"MG_198":14,"PT_aogro":2,"MG_138":1635,"MG_201":44,"PT_ashvrth":20,"AG_605":4,"MG_43":2,"PT_gtsaod":3,"AG_531":179,"PT_dt2":8,"PT_bs":410,"MG_56":14,"AG_TA0P":8,"MG_275":12,"PT_8bs":8,"MG_66080":104,"MG_67413":149,"TTG_14412":3,"MG_227":3,"AG_TA0T":17,"PT_drd":7,"MG_49":9,"AG_501":4618,"MG_26409":3,"MG_26371":1,"MG_47":6,"AG_525":54,"TTG_14625":8,"TTG_14405":13,"PT_fdtjg":1,"PT_gesjp":10,"MG_6":5,"MG_133":16,"PT_dt":14,"TTG_401":5,"TTG_14602":24,"PT_hlf":82,"PT_mmy":3,"MG_27092":20,"TTG_474":20,"AG_517":134,"MG_249":5,"PT_thtk":46,"MG_26339":28,"PT_grel":2,"PT_frr_g":3,"PT_gtsfj":3,"PT_topg":26,"PT_xmn":4,"AG_TA0V":62,"TTG_428":9,"PT_zctz":3,"PT_tr":4,"PT_zeus":28,"PT_ba":121,"TTG_14263":25,"TTG_14419":3,"TTG_1026":23,"TTG_515":26,"TTG_1039":25,"TTG_14480":17,"PT_eas":14,"PT_gtsro3d":4,"AG_600":1,"TTG_14268":5,"PT_foy":6,"TTG_1004":26,"MG_28342":2,"TTG_14473":20,"PT_gtswng":3,"TTG_530":73,"TTG_14618":5,"MG_26569":16,"TTG_410":1,"TTG_14266":34,"TTG_11__16":1,"PT_kn":5,"MG_70145":37,"PT_ashsbd":78,"TTG_533":96,"MG_297":4,"MG_31":66,"AG_530":134,"PT_dv2":5,"MG_216":9,"PT_athn":170,"AG_6":18668,"MG_163":22,"PT_gtsjzc":2,"PT_rom":1,"AG_528":146,"TTG_447":10,"PT_gtsgme":53,"AG_549":1385,"TTG_1060":21,"MG_19":10,"MG_24":7,"TTG_14406":17,"TTG_1011":12,"PT_bib_914464":1,"MG_65":2,"TTG_525":70,"TTG_14626":6,"TTG_14474":1,"TTG_440":6,"PT_kkgsc":3,"TTG_421":4,"PT_ctiv":1,"MG_116":38,"TTG_65":2,"PT_pl":13,"PT_sib":7,"PT_tps":7,"TTG_14402":26,"PT_ashfmf":9,"TTG_14413":3,"TTG_18":3,"TTG_1002":79,"PT_gtsje":46,"TTG_14262":27,"PT_pst":1,"MG_66481":8,"TTG_1033":13,"PT_nian_k":1,"MG_27096":158,"TTG_14615":8,"AG_523":143,"MG_70321":33,"MG_290":7,"TTG_438":2,"TTG_407":3,"MG_202":14,"MG_274":17,"PT_tst":3,"TTG_1022":9,"AG_TA0Y":40,"PT_dlm":5,"PT_ashlob":12,"MG_70305":9,"MG_61149":8,"MG_127":44,"MG_53":32,"TTG_1008":36,"MG_26728":14,"MG_27524":4,"MG_27528":53,"TTG_14452":1,"MG_60":19,"MG_238":5,"MG_48":4,"MG_280":25,"MG_50194":134,"MG_26359":12,"PT_gtsfpc":1,"MG_184":3,"TTG_14457":1,"TTG_444":3,"PT_gtsrng":13,"MG_195":3,"PT_wlgjp":63,"TTG_424":1,"PT_savcas":46,"MG_55":34,"MG_50193":13,"PT_heavru":90,"PT_gtscbl":13,"MG_186":16,"MG_145":6,"PT_pyrrk":3,"TTG_449":2,"PT_fm":987,"MG_61147":38,"AG_509":4495,"PT_spud":241,"PT_bbn":1,"MG_265":111,"MG_27522":7,"MG_114":37,"PT_gemq":29,"AG_534":471,"PT_gtsdrdv":1,"MG_254":2,"PT_hljb":2,"PT_pfbj_mh5":99,"PT_nk":10,"MG_26573":8,"PT_gtsjxb":76,"TTG_391__21":3,"AG_537":2182,"MG_168":25,"MG_144":10,"PT_furf":42,"PT_tglalcs":1,"MG_128":25,"MG_26351":11,"TTG_14407":10,"PT_essc":6,"PT_ttc":1,"MG_113":33,"AG_518":19,"PT_whk":61,"MG_26627":9,"MG_2909":25,"TTG_408":14,"TTG_1013":129,"PT_mwr":2,"PT_af25":2,"AG_TA0X":18,"MG_160":11,"MG_2899":9,"MG_26337":8,"TTG_14466":29,"MG_26746":5,"MG_26547":8,"MG_46497":64,"AG_TA0Q":112,"PT_gtssmbr":11,"TTG_14448":278,"MG_239":6,"PT_sling":34,"MG_130":31,"PT_ta":10,"MG_101":33,"PT_rd":2,"TTG_14623":5,"AG_502":174,"TTG_14464":6,"PT_pgv":31,"TTG_14420":4,"PT_lom":1,"MG_152":117,"PT_atw":3,"PT_dctw":3,"MG_87":3,"PT_gtspor":25,"PT_gtscirsj":4,"TTG_14411":407,"PT_bjs":1,"TTG_14269":4,"TTG_423":7,"TTG_1034":34,"PT_ub":9,"PT_ashfta":35,"MG_264":5,"TTG_414":7,"MG_266":97,"PT_ashadv":78,"PT_fth":2,"PT_bowl":1,"PT_fdt":26,"AG_TA0W":20,"TTG_14472":40,"MG_70311":21,"AG_522":20,"TTG_14265":42,"MG_221":6,"MG_27788":34,"MG_27508":77,"MG_288":7,"MG_28450":12,"PT_bib_940592":1,"MG_182":2,"AG_602":2,"MG_194":9,"TTG_14608":2,"TTG_473":12,"MG_112":5,"MG_28514":11,"MG_26341":4,"MG_89":27,"MG_68":14,"PT_op":3,"PT_ts":2,"MG_30":12,"PT_gtsgoc":1,"MG_109":3,"TTG_14416":298,"TTG_1007":221,"MG_26641":32,"TTG_14442":177,"MG_68527":79,"TTG_1016":121,"MG_26589":23,"TTG_1029":48,"TTG_14628":36,"TTG_14636":6,"AG_515":1067,"PT_sol":14,"PT_pyrr":2,"PT_pks":1,"MG_212":86,"AG_542":51,"TTG_9__17":2,"PT_hsd":237,"TTG_1049":16,"TTG_1024":9,"MG_27514":48,"PT_psdbj":34,"TTG_1038":333,"MG_300":4,"PT_mfrt":23,"PT_glg":13,"TTG_14481":20,"MG_27506":7,"TTG_10":2,"TTG_1__1":2,"MG_271":10,"MG_70313":413,"PT_ashcpl":51,"PT_head":1,"PT_scs":22,"PT_kkg":83,"MG_45":1,"MG_67812":31,"MG_215":4,"AG_527":39,"TTG_14410":3,"MG_262":7,"MG_26465":6,"MG_8687":15,"MG_65978":53,"TTG_1072":12,"MG_69184":27,"TTG_411":17,"PT_irmn3sc":1,"MG_224":6,"MG_59065":103,"MG_26349":9,"MG_299":5,"TTG_17__11":12,"MG_61497":7,"AG_604":12,"MG_99":22,"TTG_14440":2,"PT_jb10p":1,"AG_532":99,"MG_251":1,"PT_ssp":19,"PT_tqp":1,"PT_tclsc":3,"MG_27510":27,"TTG_57":4,"PT_gtsatq":1,"PT_trpmnk":75,"PT_fmn":13,"MG_125":22,"TTG_437":5,"TTG_14470":8,"MG_292":35,"AG_508":1925,"PT_ght_a":133,"MG_72":9,"MG_70143":2,"PT_sb":1,"AG_521":240,"AG_533":97,"PT_sisjp":97,"TTG_14634":15,"MG_294":19,"MG_58":39,"TTG_2":5,"MG_136":6,"PT_trl":11,"MG_263":8,"PT_c7":13,"TTG_526":495,"MG_26754":60,"PT_bfb":569,"TTG_1035":21,"AG_535":371,"TTG_14433":1,"MG_46":372,"PT_cm":43,"AG_TA0S":17,"MG_27512":9,"PT_bib_907578":1,"TTG_1042":166,"MG_286":12,"MG_289":8,"MG_70307":17,"TTG_14441":1,"MG_134":18,"TTG_14471":37,"PT_qop":5,"PT_wis":8,"MG_183":284,"TTG_14404":12,"AG_514":228,"MG_26615":6,"PT_hlk50":18,"MG_121":1,"MG_29":79,"TTG_453":2,"MG_269":9,"MG_129":11,"TTG_4":8,"TTG_413":3,"PT_mcb":3,"MG_26553":30,"MG_167":14,"TTG_14430":1,"TTG_63":4,"MG_199":12,"MG_277":15,"TTG_1030":7,"MG_42":70,"TTG_468":1};
+        var __message = "";
+    </script>
+    <script src="https://static-e.agg044.com/static/__js/electronicgames/topprize.js?v=b8feb6da9fef230140c6be34fad97fe3"></script>
+    <script src="https://static-e.agg044.com/static/js/index_1d606ae75c.js"></script>
+
+</body>
+</html>

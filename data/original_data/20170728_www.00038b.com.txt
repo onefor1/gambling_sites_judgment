@@ -1,0 +1,664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class=" first zh-cn  ">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <title>澳门威尼斯人-官方直营-老品牌值得信赖！</title>
+    <link href="/Content/css/global.css" rel="stylesheet"/>
+<link href="/Content/css/main.css" rel="stylesheet"/>
+
+    <link href="/Content/themes/base/jquery.ui.core.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.resizable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.selectable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.accordion.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.autocomplete.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.button.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.dialog.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.slider.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.tabs.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.datepicker.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.progressbar.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.theme.css" rel="stylesheet"/>
+
+    <script src="/Scripts/jquery-1.8.2.js"></script>
+<script src="/Scripts/jquery-1.8.3.js"></script>
+<script src="/Scripts/Commen.js"></script>
+<script src="/Scripts/frontSiteBegin.js"></script>
+
+    <script src="/Scripts/jquery-ui-1.8.24.js"></script>
+
+    <script src="/Scripts/Json2/json2.js"></script>
+    <script src="/Scripts/javascriptlinq.js"></script>
+    
+    <link rel="icon" href="/favicon1.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon1.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <link href="/skin/images/fckeditor.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #footer_ck{position: relative;width: 1008px;margin: 0 auto;color: #989898;line-height:20px;text-align: center; }
+        #footer_img{display:none;}
+        #article-title{display:none;}
+        #container{width: 1000px;}
+        /* GameIcon */
+        .GameIcon-First {
+            background-image:url('/skin/images/First_zh-cn.png');
+        }
+        /*banner-wrap*/
+        .banner-wrap{ background:url('/skin/images/title_welcome.png') no-repeat left top;}
+        .game .banner-wrap { background:url('/skin/images/title_game.png') no-repeat left top;}
+
+        .livetop .banner-wrap { background:url('/skin/images/title_live.png') no-repeat left top;}
+        .ltlottery .banner-wrap { background:url('/skin/images/title_lottery.png') no-repeat left top;}
+        .game3dfight .banner-wrap { background:url('/skin/images/title_game3dfight.png') no-repeat left top;}
+        .memberexclusiveii .banner-wrap { background:url('/skin/images/title_memberexclusiveii.png') no-repeat left top;}
+        /*header*/
+        .header {
+            background:url('/skin/images/h_wordbg.png') no-repeat -47px 9px;
+        }
+        .btn-joinus {
+            background:url('/skin/images/btn_joinus.png') no-repeat left top;
+        }
+        .btn-network {
+            background:url('/skin/images/btn_network.png') no-repeat left top;
+        }
+        .login-submit {
+            background:url('/skin/images/btn_login.png') center top no-repeat;
+        }
+        /*first container*/
+        .news-wrap  {
+            background:url('/skin/images/newsbg.png') center top no-repeat;
+        }
+        .pic-joinus {
+            background:url('/skin/images/btn_joinus02.png') center top no-repeat;
+        }
+        .pic-welcome {
+            background:url('/skin/images/welcome_img.png') center top no-repeat;
+        }
+        .pic-promotions {
+            background:url('/skin/images/btn_promotions.png') center top no-repeat;
+        }
+        .pic-download {
+            background:url('/skin/images/btn_download.png') center top no-repeat;
+        }
+        .pic-vip-promotion {
+            background:url('/skin/images/c_btn_vip.png') center top no-repeat;
+        }
+        .first-jp-wrap {
+            background:url('/skin/images/prize_bg.png') center top no-repeat;
+        }
+        .when-jp-closed {
+            background:url('/skin/images/jp_link.png') center top no-repeat;
+        }
+        .game-box-live {
+            background:url('/skin/images/game01.png') center top no-repeat;
+        }
+        .game-box-ball {
+            background:url('/skin/images/game02.png') center top no-repeat;
+        }
+        .game-box-loto {
+            background:url('/skin/images/game03.png') center top no-repeat;
+        }
+        /*footer*/
+        .footer {
+            background:url('/skin/images/footer_img01.png') left top no-repeat;
+        }
+        .footer-img {
+            background:url('/skin/images/footer_img02.png') 110px bottom no-repeat;
+        }
+        /*
+        ** 各站 遊戲彩金 Game Jackpot
+        */
+        .ele-gamejp-wrap {
+            background: url('/skin/images/gamejp_bg.png') 0 0 no-repeat;
+        }
+
+    </style>
+    <script type="text/javascript" src="/skin/images/common.js"></script>
+    <script type="text/javascript" src="/skin/images/upup.js"></script>
+    <script type="text/javascript" src="/skin/images/float.js"></script>
+    <script type="text/javascript" src="/skin/images/swfobject.js"></script>
+    <script type="text/javascript" src="/skin/images/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/skin/images/jingcheng.js"></script>
+    <script type="text/javascript" src="/skin/images/jquery.jBox-2.3.min.js"></script>
+    <script type="text/javascript" src="/skin/images/jquery.jBox-zh-CN.js"></script>
+    <script src="/skin/images/taurus.js"></script>
+<link href="/skin/images/colorbox.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/skin/images/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="/skin/images/csPopup.js"></script>
+    <script>
+        //<![CDATA[
+
+        //Global variable for calculating page generation time
+        var PageInitTime = new Date();
+        var GameType = '';
+
+        //]]>
+    </script>
+    <link href="/skin/images/standard(1).css" rel="stylesheet" type="text/css">
+    <link href="/skin/images/hongli.css" rel="stylesheet" type="text/css">
+    <link href="/skin/images/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/skin/images/game.css" rel="stylesheet" type="text/css">
+
+</head>
+<body marginwidth="0" marginheight="0">
+<div id="mainBody">
+        <div id="page-header">
+            <div class="header clearfix">
+                <!-- LOGO -->
+                <div class="header-logo">
+                    <object type="application/x-shockwave-flash" data="/skin/images/160604034306.swf" width="320" height="80"  id="logo-flash">
+                        <param name="movie" value="/skin/images/160604034306.swf" />
+                        <param name="wmode" value="transparent" />
+                    </object>
+                </div>
+                <div class="header-right clearfix">
+                    <div class="header-top clearfix">
+                        <!-- est -->
+                        <!-- lang -->
+                        <span class="lang-wrap">
+                            <style type="text/css">
+                                .ele-lang-wrap {height: 20px;vertical-align: middle; display: inline-block; *display: inline; *zoom: 1;  }
+                                .ele-lang-option{width: 22px;height: 16px;vertical-align: top;*margin-left: 4px;
+                                    background: url(/skin/images/lang_rect.png) no-repeat;display: inline-block; *display: inline; *zoom: 1;  }
+                                .ele-lang-zh-cn { background-position: 0 -40px; }
+                                .ele-lang-en    { background-position: 0 -80px; }
+                                .ele-lang-ja    { background-position: 0 -120px; }
+                                .ele-lang-ko    { background-position: 0 -160px; }
+                                .ele-lang-vi    { background-position: 0 -200px; }
+                                .ele-lang-th    { background-position: 0 -240px; }
+                            </style>
+                            <span class="ele-lang-wrap">
+                                <a href="#" class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a>
+                                <a href="#" class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a>
+                                <a href="#" class="ele-lang-option ele-lang-en" title="English"></a>
+                            </span>
+                        </span>
+                        <div class="top-link-wrap">
+                            <a href="/CommPart/CommHtmlPart1">手机下注</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="/User/RejectAgent">代理合作</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="http://ag.00038b.com" target="_blank">代理登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <a href="/Help/LineCheck">线路检测</a>
+                        </div>
+                        <div class="est-wrap"></div>
+                    </div>
+                    <!-- 登入 -->
+                    <div class="login-wrap">
+                        <div id="loginbox">
+				      
+				       <div id="loginarea">		  
+				            <div class="logintxt">
+							<input name="name_" tabindex="1" type="text" class="za_text" id="username" maxlength="20" value="帐号" onFocus="if(this.value=='帐号')this.value=''" onBlur="if(this.value =='') this.value ='帐号'"   />
+							</div>
+				            <div class="logintxt" style="margin-top:8px;">
+							<input id="txtFacade" type="text" value="密码" readonly class="za_text" tabindex="2" onFocus="$('#passwd').val('');$('#txtFacade').css('display', 'none');$('#passwd').css('display', '');$('#passwd').focus();" style="">
+							<input id="passwd" name="pwd_" tabindex="3" type="password" class="za_text" onBlur="if ($('#passwd').val() === ''){$('#txtFacade').css('display', '');$('#passwd').css('display', 'none');}" value="" style="display: none; " /></div>
+				            <div class="clear"></div>
+						</div>
+				        <div class="logintxt1">
+						   <input name="Submit" type="submit" value="" title="登入" class="Loginbtn" tabindex="4" onclick="Login()" >
+                           <div id="Loginbtnpwd"><a href="#" onclick="alert(&#39;找回密码请与我们的在线客服人员联系！&#39;)"   title="忘记密码">忘记密码</a></div>
+				        </div>	
+						<div style="width:106px; height:auto; float:left; margin-left:5px;">
+							<div class="header-red-btn clearfix"><a href="/Help/LineCheck" title="线路检测" class="btn-network"></a>
+							</div>
+                            <div id="Loginbtnreg"><a  href="/user/regist"></a></div>
+                            
+                        </div>	
+				
+				  </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!-- 主選單 -->
+            <style type="text/css">
+                .mainnav li a{font-size:15px;}
+            </style>
+            <div class="mainnav-wrap clear">
+                <div class="mainnav">
+                    <ul class="clearfix">
+                        <li class="LS-home"><a href="/home/index" class="current">首页</a></li>
+                        <li class="LS-zstk"><a href="/ballHome/index">体育赛事</a></li>
+                        <li class="LS-zscz"><i class="icon-hot"></i><a href="/VideoGame/Index" >真人娱乐</a></li>
+                        <li class="LS-agent"><a href="/EleGame/Index">电子游艺</a></li>
+                        <li class="LS-gzsm"><i class="icon-hot2"></i><a href="/LotteryHome/Index">彩票游戏</a></li>
+                        <li class="LS-youhui"><a href="/Event/Index" class="textGlitter" style="color: rgb(255, 0, 0);">优惠活动</a></li>
+                        <li class="LS-kefu"><a href="/CommPart/CommHtmlPart1">手机投注</a></li>
+                        <li class="LS-lxwm"><a href="/LHC/index2?ty=六合彩">六合投注</a></li>
+                    </ul>
+                    <div id="L-Sub">
+                        <div class="LS-ball" style="left: 21px; display: none;">
+                            <span class="subbg-left"></span>
+                            <a href="/hg_sports" class="nsp">皇冠体育</a><a href="/ts" class="nts">三昇体育</a><a href="/visual/sp-sport" class="nsb" target="_blank">沙巴体育</a><a href="/ug" class="nug" target="_blank">新皇冠</a>					 <span class="subbg-right"></span>
+                        </div>
+                        <div class="LS-live" style="left: 0px; display: none;">
+                            <span class="subbg-left"></span>
+                            <a href="/visual/ag/info" class="nag">AG国际厅</a><a href="/visual/bbin/info" class="nbbin">BBIN波音厅</a><a href="/visual/ab/info" class="nab">AB亚洲厅</a><a href="/visual/ho/info" class="nhg">HG名人厅</a><a href="/ds/info" class="nds">DS贵宾厅</a><a href="/visual/og/info" class="nog">OG东方厅</a><a href="/gc/info" class="ngc">GC黄金厅</a>					<span class="subbg-right"></span>
+                        </div>
+                        <div class="LS-game" style="left: 202.5px; display: none;">
+                            <span class="subbg-left"></span>
+                            <a href="/mg/index" class="dzmg">MG电子</a><a href="/pt" class="dzpt">PT电子</a><a href="/game/new-slots" class="dztbk">TBK电子</a><a href="/hb" class="dzhb">HB电子</a><a href="/visual/bbin-game" class="dzbbin">BBIN电子</a>					<span class="subbg-right"></span>
+                        </div>
+                        <div class="LS-lottery" style="left: 502.5px; display: none;">
+                            <span class="subbg-left"></span>
+                            <a href="/jl" class="njl">吉利彩票</a>
+                            <span class="subbg-right"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!-- head end  -->
+        <div class="clear"></div>
+        <div class="cp_style" style="">
+
+
+
+
+
+ <!--------首页弹出广告 开始--------> 
+
+    <!--------首页弹出广告 结束-------->
+	
+
+
+ <div id="page-container" class="clearfix">
+ <div id="wrapindex">
+  <div id="flashbox">
+ <div id="ad-flash"><object id="home" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="350" height="150">
+			<param name="movie" value="/skin/images/160920025137.swf">
+			<param name="quality" value="high">
+			<param name="wmode" value="transparent">
+			<param name="FlashVars" value="xml_url=/skin/images/loadxml.xml">
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="/skin/images/160920025137.swf" wmode="transparent" width="350" height="150">
+				<param name="FlashVars" value="xml_url=/skin/images/loadxml.xml">
+				<!--<![endif]-->
+				<div>
+					<h1>Alternative content</h1>
+				</div>
+				<!--[if !IE]>-->
+			</object>
+			<!--<![endif]-->
+		</object>
+	</div>
+    <div id="flashboxmid">
+	
+	  <div id="flashbn">
+	     
+                <object width="1000" height="435" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+				 <param value="/skin/images/bn.swf" name="movie" />
+				 <param value="transparent" name="wmode"/>
+				 <param value="high" name="quality"/>
+				 <embed width="1000" height="435"  wmode="transparent"  type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/skin/images/bn.swf">
+				 </object>
+	  </div>
+      
+	</div>  
+  </div>
+
+    <div id="page-body">
+        <!-- 最新消息 -->
+        <div class="news-wrap clearfix">
+            <div class="news-item ele-msg-cp">
+                                     <marquee scrollamount="2" scrolldelay="10" direction="left" nowarp="" onmouseover="this.stop();" onmouseout="this.start();">
+				 <nobr>        <a href="javascript:showmess('8532')" class="daymessage_a">重要通知：近期发生【在线客服】被劫持现象，不法分子提供假入款帐号给会员；以及通过各种手段套取会员资料，造成会员不必要的损失！请广大会员不要随意泄露自己的会员信息，澳门威尼斯人娱乐城郑重声明：公司所有的入款帐号姓名可在公司入款页面查看，如有疑问请添加公司客服QQ：50390999 进行核实咨询，谢谢！</a>
+        <a href="javascript:showmess('8531')" class="daymessage_a">尊敬的会员您好：我司并未被收购或者转让。此类信息纯属虚假诈骗，不符合我公司诚信服务的经营理念。请广大会员谨防上当受骗。如有发现及时联系24小时客服核实确认，避免损失！官方网址：www.00038.com 备用网址：www.00038a.com	www.00038b.com</a>
+
+<div id="dialog3" title="公告列表" style="z-index:2002">
+</div>
+<div id="dialog4" title="公告详情" style="z-index:2002">
+</div>
+
+    <script type="text/javascript">
+        function showmess(id) {
+            jQuery.post("/Message/Detil/" + id, {}, function (data) {
+                jQuery("#dialog4").html(data);
+                $("#dialog4").dialog({
+                    zIndex: 3001,
+                    resizable: false,
+                    width: 850,
+                    height: "auto",
+                    modal: false,
+                    buttons: {
+                        '关闭': function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+            });
+        }
+        function ShowMessList() {
+            window.open("/Message/List");
+        }
+        function ShowMessList2() {
+            jQuery.post("/Message/List", {}, function (data) {
+                jQuery("#dialog3").html(data);
+                $("#dialog3").dialog({
+                    zIndex: 3000,
+                    resizable: false,
+                    width: 800,
+                    height: "auto",
+                    modal: false,
+                    buttons: {
+                        '关闭': function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+    <style>
+        .daymessage_a{
+            color:#FFF;
+        }
+    </style></nobr>
+				   </marquee>
+           
+<style>
+.ele-msg-cp{cursor: pointer;}
+</style>
+
+
+            </div>
+        </div>
+        <div class="first-left-link">
+                        <a href="/user/regist" title="加入会员" class="pic-joinus pic-link"></a>
+                        <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=794379&configID=5170&jid=9962914239&s=1" target="_blank" class="pic-promotions pic-link"></a>
+            <a href="/Help/LineCheck" class="pic-download pic-link"></a>
+        </div>
+        <div class="first-center-jp">
+            <a href="/Event/Index" class="pic-vip-promotion"></a>
+                        <div class="first-jp-wrap">
+                                                                <style>
+/*超級彩金*/
+.ele-jackpot-wrap{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ele-jackpot span{
+    letter-spacing: 2px;
+}
+#js-ele-jpRemote{
+    float: left;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+</style>
+<div class="ele-jackpot-wrap">
+        <!-- BB彩金 -->
+                    <div class="ele-jackpot" id="prizeshow">
+               
+            </div>
+        
+        
+        
+            </div>            </div>
+                    </div>
+        <div class="first-game-wrap">
+            <div class="game-box-live game-box">
+                                <a href="/VideoGame/Index"  title="百家乐">百家乐</a>
+                <a href="/VideoGame/Index"  title="龙虎斗">龙虎斗</a>
+                <a href="/VideoGame/Index"  title="轮盘">轮盘</a>
+                <a href="/VideoGame/Index"  title="二八杠">二八杠</a>
+                <a href="/VideoGame/Index"  title="温州牌九">温州牌九</a>
+                <a href="/VideoGame/Index"  title="德州扑克">德州扑克</a>
+                <a href="/VideoGame/Index"  title="骰宝">骰宝</a>
+                <a href="/VideoGame/Index"  title="旗舰厅">旗舰厅</a>
+                <a href="/VideoGame/Index"  title="金臂厅">金臂厅</a>
+                            </div>
+            <div class="game-box-ball game-box">
+                                <a href="/ballHome/index"  title="足球赛事">足球赛事</a>
+                <a href="/ballHome/index"  title="时时滚球">时时滚球</a>
+                <a href="/ballHome/index"  title="NBA职篮">NBA职篮</a>
+                <a href="/ballHome/index"  title="美式足球">美式足球</a>
+                <a href="/ballHome/index"  title="冰球">冰球</a>
+                <a href="/ballHome/index"  title="各式冠军赛事">各式冠军赛事</a>
+                            </div>
+            <div class="game-box-loto game-box">
+                                <a href="/LotteryHome/Index" onclick="menu_url(3);return false;" title="六合彩">六合彩</a>
+                <a href="/LotteryHome/Index"  title="3D彩">3D彩</a>
+                <a href="/LotteryHome/Index" onclick="menu_url(8);return false;" title="上海时时乐">上海时时乐</a>
+                <a href="/LotteryHome/Index" onclick="menu_url(4);return false;" title="重庆时时彩">重庆时时彩</a>
+                            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+Math.random()*19999999
+var num = Math.random()*19999999 + 880000000;
+num = parseInt(num, 10);
+ $("#prizeshow").html(num);
+</script>
+
+</div>
+        <div id="line"></div>
+        <div style="clear:both;"></div>
+        <div id="page-footer">
+        <div class="footer">
+            <a id="browser-logo" href="#" target="_blank"><img src="/skin/images/ublogo.png" border="0" width="146"></a>
+            <div class="footer-right ">
+                <div class="article-menu">
+                    <a href="/Help/AboutUs">关于我们</a> |
+                    <a href="/Help/ContractUs">联系我们</a> |
+                    <a href="/User/RejectAgent">代理合作</a> |
+                    <a href="/Help/Deposit">如何存款</a> |
+                    <a href="/Help/WithDrawal">如何取款</a> |
+                    <a href="/Help/CommonQuestions">常见问题</a>  |
+                    <a href="/Rules/Sports" target="_blank">玩法规则</a>
+                </div>
+                <div class="footer-info">客服QQ：50390999  客服邮箱：wnsr00038@gmail.com  投诉邮箱：wnsr00038@gmail.com</div>
+                <div class="copyright">Copyright © 澳门威尼斯人 Reserved</div>
+            </div>
+            <div class="clear"></div>
+            <div class="footer-img">
+                <a href="#" target="_blank" id="bblogo" class="bblogo"></a>
+            </div>
+        </div>
+    </div>
+        <div style="background:#221504;">
+        <center>
+            <img src="/skin/images/footer3.jpg" border="0" usemap="#Map_foot">
+            <map name="Map_foot">
+                <area shape="rect" coords="667,363,743,385" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+                <area shape="rect" coords="753,363,828,385" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+                <area shape="rect" coords="837,363,911,385" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+                <area shape="rect" coords="668,387,742,407" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+                <area shape="rect" coords="752,387,828,407" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+                <area shape="rect" coords="837,387,911,407" href="javascript:void(0);" onclick="javascript:menu_url(64);return false">
+            </map>
+        </center>
+        </div>
+    <!--文案-->
+        <div id="TplFloatPic_0" style="position: absolute; cursor: pointer; z-index: 1000; top: 501.95px; right: 5px;"
+             picfloat="right" class="pngFix">
+            <div id="floatkf"><a href="javascript:void(0);" onclick="OpenService('https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=794379&configID=5170&jid=9962914239&s=1')" class="popupkefu" target="_blank"></a></div>
+            <div id="floatreg"><a href="/user/regist"></a></div>
+            <div id="floatnew"><a href="/Help/CommonQuestions" target="_blank"></a></div>
+            <div id="floatmobile"><a href="/CommPart/CommHtmlPart1"></a></div>
+            <div id="floatqq"><a href="tencent://message/?uin=50390999&Menu=yes" target="_blank"></a></div>
+            <div id="floatclose" onclick="closePic('TplFloatPic_0')"></div>
+        </div>
+        <div id="TplFloatPic_1" style="position: absolute; cursor: pointer; z-index: 1000; top: 501.95px; left: 5px;"
+         picfloat="left" class="pngFix">
+		 <div id="floatkf"><a href="javascript:void(0);" onclick="OpenService('https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=794379&configID=5170&jid=9962914239&s=1')" class="popupkefu" target="_blank"></a></div>
+        <div id="floater" onclick="closePic('TplFloatPic_1')"><a href="javascript:void(0);" onclick="OpenService('https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=794379&configID=5170&jid=9962914239&s=1')" class="popupkefu" target="_blank"></a></div>
+        <div id="floatclose" onclick="closePic('TplFloatPic_1')"></div>
+    </div>
+</div>
+    <script type="text/javascript" src="/skin/images/subTab.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            // 表單 label 字暫留效果
+            $('#LoginForm').find('label').InputLabels();
+        });
+        $("li.LS-ball, li.LS-live, li.LS-game, li.LS-lottery").subTabs();
+        new toggleColor('.textGlitter', ['#FFFFFF', '#FF0000'], 600);
+        new toggleColor('.textGlitter1', ['#ff0000', '#0000ff'], 600);
+        new toggleColor('.textGlitter2', ['#0000ff', '#00ff00'], 600);
+        var left_top = 120, right_top = 120, float_list = [];
+        $(window).load(function() {
+            // 廳主自改 - 浮動圖
+            float_list['0'] = $('#TplFloatPic_0');
+            float_list['1'] = $('#TplFloatPic_1');
+
+            for (var i in float_list) {
+                var self = float_list[i], picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+
+                self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top)});
+
+                // ie6 png bug
+                if (navigator.userAgent.toLowerCase().indexOf('msie 6') != -1) {
+                    $.each(self.find('img'), function(){
+                        $(this).css({'width':$(this).width(),'height' : $(this).height()});
+                    });
+                }
+
+                if (picfloat) {
+                    right_top = right_top + 10 + (self.height() || 150);
+                } else {
+                    left_top = left_top + 10 + (self.height() || 150);
+                }
+
+				/*
+                self.hover(function() {
+                    $(this).find('a > img:first').css('display', 'none');
+                    $(this).find('a > img:last').css('display', 'block');
+                }, function() {
+                    $(this).find('a > img:last').css('display', 'none');
+                    $(this).find('a > img:first').css('display', 'block');
+                }).find('div').click(function() {
+                    event.cancelBubble = true;
+                    $(this).parent('div').hide();
+                });
+				*/
+				self.show();
+            }
+        });
+		
+		function closePic(i) {
+				document.getElementById(i).style.display = 'none';
+			}
+        //文字闪烁
+        setInterval(function(){
+            try
+            {
+                blinkff.color=blinkff.color=='#00ff00'?'#ff0000':'#00ff00';
+            }catch(e){}
+        },100)
+        //文字闪烁
+        setInterval(function(){
+            try
+            {
+                blinkff.color=blinkff.color=='#00ff00'?'#ff0000':'#00ff00';
+            }catch(e){}
+        },100)
+        //刷新验证码
+        function reLoadCode() {
+            jQuery("#code2").attr("src", "/IdentifyingCode/index?t=" + unixtime());
+            //alert(jQuery("#code2").attr("src"));
+        }
+        function Login() {
+            var name = jQuery("input[name=name_]").val();
+            var pwd = jQuery("input[name=pwd_]").val();
+            var code = jQuery("input[name=code_]").val();
+            jQuery.jsonPost("user", "Login", {
+                name: name, pwd: pwd, code: code
+            }, function (data) {
+                window.location = "/usercentre/index";
+            }, {});
+        }
+        jQuery(function () {
+            reLoadCode();
+            loaduserinfo();
+        });
+        var userInfo=null;
+        var loaduserinfo = function () {
+            jQuery.jsonPost("Commpart", "GetLoginUser", { m: "ref" }, function (d) {
+                if (d == null) {
+                } else {
+                    jQuery("#yuee").html("￥" + (d.balance - 0 + 0.0));
+
+                    if(jQuery("#bbin_money")!=null){
+                        jQuery("#bbin_money").html(d.BBIN_Money);
+                    }
+                    if(jQuery("#pt_money")!=null){
+                        jQuery("#pt_money").html(d.PT_Money);
+                    }
+                    if(jQuery("#dj_money")!=null){
+                        jQuery("#dj_money").html(d.DJ_Money);
+                    }
+                    if(jQuery("#allbet_money")!=null){
+                        jQuery("#allbet_money").html(d.ALLBET_Money);
+                    }
+                    if(jQuery("#hg_money")!=null){
+                        jQuery("#hg_money").html(d.HG_Money);
+                    }
+                    if(jQuery("#ag_money")!=null){
+                        jQuery("#ag_money").html(d.AG_Money);
+                    }
+                    if(jQuery("#og_money")!=null){
+                        jQuery("#og_money").html(d.OG_Money);
+                    }
+                    if(jQuery("#newCount")!=null){
+                        jQuery("#newCount").html(d.Msg);
+                    }
+
+                    userInfo=d;
+                }
+            }, {});
+        };
+
+        //刷新用户信息
+        setInterval(loaduserinfo, 10000);
+
+        function checkMobile(str) {
+            str = jQuery(str).val();
+            var re = /^1\d{10}$/
+            if (re.test(str)) {
+            } else {
+                alert("请输入正确的手机号码");
+                jQuery("input[name='phone']").focus();
+            }
+        }
+
+        function go_next(event, step){
+            event = event || window.event;
+            var keyCode = event.keyCode;
+            if(keyCode == 13){
+                if(step=="1"){
+                    jQuery('#password').focus();
+                }
+                if(step=="2"){
+                    var code2=jQuery('#txt_code');
+                    if(code2!=null){
+                        code2.focus();
+                    }else{
+                        Login();
+                    }
+                }
+                if(step=="3"){
+                    Login();
+                }
+            }
+        }
+	function OpenService(url) {
+            window.open (url,'客服','height=500,width=600,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no') ;
+        }
+    </script>
+</body>
+</html>

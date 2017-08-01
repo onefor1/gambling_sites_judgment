@@ -1,0 +1,1381 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>凤凰彩票</title>
+		     
+	  <link href="/images/bitbug_favicon.ico" rel="shortcut icon">
+      <link type="text/css" href="/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+      <link type="text/css" href="/css/lightbox.css" rel="stylesheet">
+      <link type="text/css" href="/css/jquery-ui-1.10.4.custom.min.css" rel="stylesheet">
+      <link type="text/css" href="/css/black.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/css/validationEngine.jquery.css">
+      <link type="text/css" rel="stylesheet" href="/css/member.css">
+      <link type="text/css" rel="stylesheet" href="/css/layout.css">
+      <link rel="stylesheet" type="text/css" href="/css/common.css">
+      <script src="/common/jquery/jquery-1.12.3.min.js"></script>
+      <script type="text/javascript" src="/js/jquery.kxbdMarquee.js"></script>
+
+      <script type="text/javascript" src="/js/other-wuBaiCP.js"></script>
+      
+      <!--  
+      <script type="text/javascript" src="/js/jquery.validationEngine-zh_CN.js"></script>
+      <script type="text/javascript" src="/js/jquery.ui.datepicker-zh-CN.js"></script>
+      <script type="text/javascript" src="/js/jquery.validationEngine.js"></script>
+      <script type="text/javascript" src="/js/showMessageArtDialog.js"></script>
+      <script type="text/javascript" src="/js/artDialog.js"></script>
+      <script type="text/javascript" src="/js/artDialog.source.js"></script>
+      <script type="text/javascript" src="/js/jquery.lightbox.js"></script>
+      <script type="text/javascript" src="/js/jquery.json-2.3.min.js"></script>
+      <script type="text/javascript" src="/js/autoNumeric.js"></script>
+      <script type="text/javascript" src="/js/main.js"></script>
+      <script type="text/javascript" src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+      <script type="text/javascript" src="/js/jquery-1.10.1.min.js"></script>
+      <script type="text/javascript" src="/js/jquery-ui-1.10.4.custom.min.js"></script>
+      <script type="text/javascript" src="/js/float.js"></script>
+      <script type="text/javascript" src="/js/login.js"></script>
+      <script type="text/javascript" src="/js/patrn.js"></script>
+      <script type="text/javascript" src="/js/util.js"></script>
+      <script type="text/javascript" src="/js/register.js"></script>
+      <script type="text/javascript" src="/js/conversion.js"></script>
+      <script type="text/javascript" src="/js/report.js"></script>
+      <script type="text/javascript" src="/js/personalMsg.js"></script>
+      <script type="text/javascript" src="/js/soltsPage.js"></script>
+      <script src="/js/jquery.flexsliderNumberLang-min.js"></script>
+      -->  
+        <script type="text/javascript">
+            $(document).ready(function() {
+            	
+                $("#home").addClass("active");
+                
+            });
+        </script>
+        <style type="text/css">
+            .aui_content {word-break: break-all;word-wrap: break-word;} #dialog_show_announce{word-break:
+            break-all;word-wrap: break-word;}
+        </style>
+    </head>
+    
+    <body>
+        <style type="text/css">
+            .aui_content {word-break: break-all;word-wrap: break-word;}
+        </style>
+        
+        
+
+
+<script>
+function memberInfo(){
+ 	var accountno = $("#accountno").val();
+	var password = $("#password").val();
+	var captcha = $("#code").val();
+
+	if(!accountno){
+		alert("用户名不能为空");
+		return false;
+	} else if(!password){
+		alert("密码不能为空");
+		return false;
+	} else if(!captcha){
+		alert("验证码不能为空");
+		return false;
+	} else if(password.length<6){
+		alert("密码不能小于6位!");
+		return false;
+	}
+		var data = {};
+		data["password"] = password;
+		data["account"] = accountno;
+		data["verifyCode"] = captcha;
+		$.ajax({
+			url : "/login.do",
+			type : "post",
+			data : data,
+			success : function(result, textStatus, xhr) {
+				var ceipstate = xhr.getResponseHeader("ceipstate")
+				if (!ceipstate || ceipstate == 1) {// 正常响应
+					var showIndex = $('#showIndex').val();//是否跳转首页
+					if(showIndex){
+						parent.location.href = '/lottery/index.do';
+					}else{
+						parent.location.href = '/index.do';
+					}
+				} else if (ceipstate == 2) {// 后台异常
+					alert("后台异常，请联系管理员!");
+					reloadImg();
+				} else if (ceipstate == 3) { // 业务异常
+					alert(result.msg);
+					reloadImg();
+				}
+			}
+		});
+}
+
+function reloadImg(){
+		var url = "/verifycode.do?timestamp=" + (new Date().getTime());
+		$("#reg-validCode").attr("src", url);
+}
+
+$(function(){
+	$('#reg-validCode').click(function(){
+		reloadImg();
+	});
+});
+
+</script>
+
+<script language="JavaScript">
+	var estObj = {
+		pre0 : function(num) {
+			if (num < 10) {
+				num = '0' + num;
+			}
+			return num;
+		},
+		/* 即時時間顯示 */
+		dispTime : function() {
+			//     var nowNew = (estObj.now += 1000),
+			var dateObj = new Date(), p0 = estObj.pre0, Y = dateObj
+					.getFullYear(), Mh = dateObj.getMonth() + 1, D = p0(dateObj
+					.getDate()), H = p0(dateObj.getHours()), M = p0(dateObj
+					.getMinutes()), S = p0(dateObj.getSeconds());
+
+			if (Mh > 12) {
+				Mh = 01;
+			} else if (Mh < 10) {
+				Mh = '0' + Mh;
+			}
+
+			document.getElementById('showtime').innerHTML = '北京时间：' + Y + '年' + Mh
+					+ '月' + D + '日 ' + H + '时' + M + '分' + S + '秒';
+		}
+	};
+	(function() {
+		setInterval(estObj.dispTime, 1000);
+	}());
+</script>
+<div class="header">
+	<div class="header-top">
+		<div class="wrapper">
+			<div class="top-left">
+				<ul>
+					<li><a class="Language"> </a></li>
+					<li id="showtime">北京时间:2017年3月3日22时36分50秒</li>
+				</ul>
+			</div>
+			<div class="top-right">
+				<ul>
+					<li><a href="javascript:void(0);"> 资讯端下载 </a></li>
+					<li>|</li>
+					<li><a href="javascript:void(0);" onclick="showmask();">
+							手机投注 </a></li>
+<!-- 					<li>|</li> -->
+
+<!-- 					</a></li> -->
+					<li>|</li>
+					<li><a class="box resd" href="/agtregpage.do">
+							代理加盟 </a></li>
+					<li>|</li>
+					<li><a onclick="AddFavorite(window.location,document.title)"
+						href="javascript:void(0)"> 加入收藏 </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="header-center">
+		<div class="wrapper">
+			<div class="logo" style="cursor: pointer;"></div>
+			
+				<div class="login">
+					<ul>
+						<li><input type="text" class="username" placeholder="用户名"
+							name="txtLoginUsername" id="accountno" maxlength="16"
+							tabindex="1"> <span class="username1"></span></li>
+						<li><input type="password" class="password" placeholder="密码"
+							name="txtLoginPasswordText" id="password" maxlength="20"
+							tabindex="2"> <span class="password1"> </span></li>
+						<li><input type="text" class="code" placeholder="验证码"
+							id="code" onfocus="reloadImg();" name="txtLoginCode"
+							maxlength="4" tabindex="3"> <span class="code1"> </span>
+							<img src="/verifycode.do" id="reg-validCode"
+							onclick="reloadImg();"
+							style="width: 60px; height: 35px; margin-left: 10px; top: 0px;"
+							class="checkLoginCodeImage"></li>
+						<li><a class="btn-login" id="btn-login"
+							onclick="memberInfo()"> 登录 </a> <a class="btn-registered"
+							href="/regpage.do"> 注册 </a></li>
+					</ul>
+				</div>
+				<script type="text/javascript">
+					//                     $(function(){
+					//                     	$("#btn-login").keyup(function(){
+					//                             if(event.keyCode == 13){
+					//                             	memberInfo();
+					//                             }
+					//                         });
+					//                     })
+					$(document).keydown(function(event) {
+						if (event.keyCode == 13) { //绑定回车 
+							$('#btn-login').click();
+						}
+					});
+				</script>
+			
+			
+		</div>
+	</div>
+
+	<div class="mainnav-placeholder">
+		<div class="nav wrapper">
+			<ul class="navigator">
+				<li id="home" class="nav-bg active"><a href="/index.do">
+						首页 </a></li>
+				<li id="lottery" class="nav-bg"><a
+					href="/index/games.do?lotCode=BJSC"> 北京PK拾 </a></li>
+				<li id="lottoFfc" class="nav-bg"><a class="box resd"
+					data-item="lot_hall" href="/index/games.do?lotCode=CQSSC">
+						重庆时时彩 </a></li>
+				<li id="lotto" class="nav-bg"><a
+					href="/index/games.do?lotCode=LHC"> 六合彩 </a></li>
+				<li id="game" class="nav-bg"><a
+					href="/index/games.do?lotCode=EFC"> 二分彩 </a></li>
+				<li id="byw" class="nav-bg"><a class="box resd"
+					href="http://www.66cp.cc/zhibo/"> 视频开奖 </a></li>
+				<li id="lives" class="nav-bg"><a
+					href="/lotteryV2/resultList.do" target="_blank"> 开奖公告 </a>
+				</li>
+				<li id="sport" class="nav-bg"><a href="javascript:void(0);"
+					onclick="showmask();"> 手机投注 </a></li>
+				<li id="pro" class="nav-bg"><a style="cursor: pointer;"
+					href="/index/active.do"> 优惠活动 </a></li>
+				<li class="online"><a class="nav_service" href="https://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=798523&configID=145312&jid=2937987877&s=1"
+					target="_blank"></a></li>
+			</ul>
+		</div>
+	</div>
+</div>  
+        
+<div class="banner-img">
+            <div class="wrapper">
+                <div class="news">
+                    <div class="news-title">
+                        <p style="padding-top:2px; font-size:20px;">
+                            最新中奖榜
+                        </p>
+                        <p>
+                            WIN
+                        </p>
+                    </div>
+                    <div class="news-content">
+                        <div id="marquee">
+                            <ul style="height: 1350px;">
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        17
+                                    </span>
+                                    <span class="marName">
+                                        lei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中675元
+                                    </span>
+                                    <span class="martopspan">
+                                        江苏快三
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        18
+                                    </span>
+                                    <span class="marName">
+                                        jing***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中663元
+                                    </span>
+                                    <span class="martopspan">
+                                        体育投注
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        19
+                                    </span>
+                                    <span class="marName">
+                                        qyx***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中581元
+                                    </span>
+                                    <span class="martopspan">
+                                        广西快十
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        20
+                                    </span>
+                                    <span class="marName">
+                                        boge***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中555元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        1
+                                    </span>
+                                    <span class="marName">
+                                        321***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中3223元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        2
+                                    </span>
+                                    <span class="marName">
+                                        nin***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2431元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        3
+                                    </span>
+                                    <span class="marName">
+                                        tom***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2365元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        4
+                                    </span>
+                                    <span class="marName">
+                                        pen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2054元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        5
+                                    </span>
+                                    <span class="marName">
+                                        zer***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1862元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        6
+                                    </span>
+                                    <span class="marName">
+                                        lov***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1677元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        7
+                                    </span>
+                                    <span class="marName">
+                                        onl***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1666元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        8
+                                    </span>
+                                    <span class="marName">
+                                        win***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1588元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        9
+                                    </span>
+                                    <span class="marName">
+                                        dad***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1543元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩</span></li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        10
+                                    </span>
+                                    <span class="marName">
+                                        wha***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1354元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        11
+                                    </span>
+                                    <span class="marName">
+                                        chen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1323元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        12
+                                    </span>
+                                    <span class="marName">
+                                        wei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1223元
+                                    </span>
+                                    <span class="martopspan">
+                                        江苏快三</span></li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        13
+                                    </span>
+                                    <span class="marName">
+                                        shuai***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1054元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        14
+                                    </span>
+                                    <span class="marName">
+                                        lian***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中967元
+                                    </span>
+                                    <span class="martopspan">
+                                        江苏快三
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        15
+                                    </span>
+                                    <span class="marName">
+                                        quan***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中954元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        16
+                                    </span>
+                                    <span class="marName">
+                                        pony***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中875元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        17
+                                    </span>
+                                    <span class="marName">
+                                        lei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中675元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        18
+                                    </span>
+                                    <span class="marName">
+                                        jing***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中663元
+                                    </span><span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        19
+                                    </span>
+                                    <span class="marName">
+                                        qyx***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中581元
+                                    </span>
+                                    <span class="martopspan">
+                                        广西快十
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        20
+                                    </span>
+                                    <span class="marName">
+                                        boge***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中555元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        1
+                                    </span>
+                                    <span class="marName">
+                                        321***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中3223元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        2
+                                    </span>
+                                    <span class="marName">
+                                        nin***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2431元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        3
+                                    </span>
+                                    <span class="marName">
+                                        tom***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2365元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        4
+                                    </span>
+                                    <span class="marName">
+                                        pen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2054元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        5
+                                    </span>
+                                    <span class="marName">
+                                        zer***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1862元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        6
+                                    </span>
+                                    <span class="marName">
+                                        lov***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1677元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        7
+                                    </span>
+                                    <span class="marName">
+                                        onl***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1666元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        8
+                                    </span>
+                                    <span class="marName">
+                                        win***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1588元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        9
+                                    </span>
+                                    <span class="marName">
+                                        dad***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1543元
+                                    </span><span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        10
+                                    </span>
+                                    <span class="marName">
+                                        wha***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1354元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        11
+                                    </span>
+                                    <span class="marName">
+                                        chen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1323元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        12
+                                    </span>
+                                    <span class="marName">
+                                        wei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1223元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        13
+                                    </span>
+                                    <span class="marName">
+                                        shuai***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1054元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        14
+                                    </span>
+                                    <span class="marName">
+                                        lian***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中967元
+                                    </span>
+                                    <span class="martopspan">
+                                        江苏快三
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        15
+                                    </span>
+                                    <span class="marName">
+                                        qgan***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中964元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        16
+                                    </span>
+                                    <span class="marName">
+                                        sny***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中875元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        17
+                                    </span>
+                                    <span class="marName">
+                                        lei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中675元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        18
+                                    </span>
+                                    <span class="marName">
+                                        jing***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中563元
+                                    </span><span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        19
+                                    </span>
+                                    <span class="marName">
+                                        qyx***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中581元
+                                    </span>
+                                    <span class="martopspan">
+                                        广西快十
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        20
+                                    </span>
+                                    <span class="marName">
+                                        b2ge***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中555元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        1
+                                    </span>
+                                    <span class="marName">
+                                        321***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中3223元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        2
+                                    </span>
+                                    <span class="marName">ain*** </span>
+                                    <span class="winMoney">
+                                        喜中2441元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        3
+                                    </span>
+                                    <span class="marName">
+                                        t3m***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2665元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        4
+                                    </span>
+                                    <span class="marName">
+                                        pen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中2054元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List WinningColor">
+                                        5
+                                    </span>
+                                    <span class="marName">
+                                        zer***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1832元
+                                    </span>
+                                    <span class="martopspan">
+                                        重庆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        6
+                                    </span>
+                                    <span class="marName">
+                                        lov***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1677元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        7
+                                    </span>
+                                    <span class="marName">
+                                        onl***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1666元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        8
+                                    </span>
+                                    <span class="marName">
+                                        w2n***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1588元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List">
+                                        9
+                                    </span>
+                                    <span class="marName">
+                                        dsd***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1543元
+                                    </span><span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        10
+                                    </span>
+                                    <span class="marName">
+                                        whga***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1354元
+                                    </span>
+                                    <span class="martopspan">
+                                        幸运飞艇
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        11
+                                    </span>
+                                    <span class="marName">
+                                        cgen***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1323元
+                                    </span>
+                                    <span class="martopspan">
+                                        北京赛车
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        12
+                                    </span>
+                                    <span class="marName">
+                                        wei***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1223元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        13
+                                    </span>
+                                    <span class="marName">
+                                        s2uai***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中1054元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        14
+                                    </span>
+                                    <span class="marName">
+                                        lisn***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中967元
+                                    </span>
+                                    <span class="martopspan">
+                                        江苏快三
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        15
+                                    </span>
+                                    <span class="marName">
+                                        quan***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中954元
+                                    </span>
+                                    <span class="martopspan">
+                                        新疆时时彩
+                                    </span>
+                                </li>
+                                <li class="Winning_li">
+                                    <span class="the_Winning_List1">
+                                        16
+                                    </span>
+                                    <span class="marName">
+                                        pfny***
+                                    </span>
+                                    <span class="winMoney">
+                                        喜中875元
+                                    </span>
+                                    <span class="martopspan">
+                                        天津时时彩
+                                    </span>
+                                </li>
+                            	<li class="Winning_li">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="javascript:void(0);">
+                        <div class="news-bottom">
+                            资讯端下载
+                        </div>
+                    </a>
+                </div>
+                <div class="banner">
+                    <div class="banner-plus-right">
+                        <div class="sbanner">
+                    <div id="slideBox" class="slideBox"></div>
+                   <script type="text/javascript">
+                    $(function() {
+                    	lunbo();
+                    })
+                    
+                    function lunbo(){
+          		    	$.ajax({
+        		    		url:"/getConfig/getLunBo.do",
+        		    		type:"post",
+        		    		dataType:"json",
+        		    		success:function(j){
+        		    			var col='<div class="bd"><ul>';
+        		    			var point='<div class="hd"><ul>';
+        		    			imgsize=j.length;
+        		    			for(var i=0;i<imgsize;i++){
+        		    				col += '<li style="display: none;"><a href="javascript:void(0);" onclick="geturl(\''+j[i].titleUrl+'\');">';
+        		    				col += '<img src="'+j[i].titleImg+'">';
+        		    				col += '</a></li>';
+        		    				point += '<li>'+(i+1)+'</li>';
+        		    			}
+        		    			col += '</ul></div>';
+        		    			point += '</ul></div>';
+        		    			col = point + col;
+        		    			$('#slideBox').html(col);
+                                jQuery(".slideBox").slide({
+                                    mainCell: ".bd ul",
+                                    autoPlay: true
+                                });
+        		    		  }
+        		    		});
+                    }
+                    
+                    function geturl(p){
+                    	if(p){
+                    		if(p.indexOf('http') == -1 && p.indexOf('https') == -1){
+                    			p = 'http://' + p;
+                    		}
+                    	}
+                    	window.open(p);
+                    }
+                </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <!--main-->
+        <div id="main">
+            <div class="main" style="min-height:338px;">
+                <div class="wrapper">
+                    <div class="lottery-img">
+                        <div class="lottery1">
+                            <ul>
+                                <li>
+                                    <a class="lott1" href="/index/games.do?lotCode=PCEGG">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="lott2" href="/index/games.do?lotCode=GDKLSF">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="lottery2">
+                            <dl>
+                                <dd class="lottery_01" onclick="window.location.href='/index/games.do?lotCode=CQSSC'">
+                                </dd>
+                                <dd class="lottery_02" onclick="window.location.href='/index/games.do?lotCode=BJSC'">
+                                </dd>
+                                <dd class="lottery_03" onclick="window.location.href='/index/games.do?lotCode=LHC'">
+                                </dd>
+                                <dd class="lottery_04" onclick="window.location.href='/index/games.do?lotCode=PL3'">
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="lottery3">
+                            <p>
+                                最新公告
+                            </p>
+                            <div class="recording">
+                                <marquee align="middle" style="padding:10px;" direction="up" loop="-1"
+                                scrollamount="2" onmouseout="this.start()" onmouseover="this.stop()">
+                                    <span style="color: rgb(227, 108, 9); font-family: 楷体, 楷体_GB2312, SimKai; font-size: 20px;">欢迎光临凤凰公司。夜间新增分分彩、二分彩、五分彩，全天24小时不间断开奖，让您随时享受投注的快感。下载手机APP投注方便快捷，24小时在线QQ客服：79952777 。微信和支付宝有充值不了问题均可联系微信客服；bet1012365</span>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-plus">
+                <div class="wrapper">
+                    <div class="arc fore1">
+                        <div class="mt">
+                            <h3>
+                                关于我们
+                            </h3>
+                            &nbsp;&nbsp;
+                            <em>
+                                ABOUT US
+                            </em>
+                        </div>
+                        <div class="mc">
+                            <p>
+                                凤凰彩票成立于2010年，主营北京赛车PK10、重庆时时彩、广东快乐十分、幸运农场、江西时时彩、香港彩项目，自主开户，现金开户现金投注。平台稳定，玩法成熟，下注简单，服务优质。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arc fore2">
+                        <div class="mt">
+                            <h3>
+                                合作伙伴
+                            </h3>
+                            &nbsp;&nbsp;
+                            <em>
+                                PARTERN
+                            </em>
+                        </div>
+                        <div class="mc">
+                            <p>
+                                <img src="/images/hz-img.png">
+                            </p>
+                        </div>
+                    </div>
+                    <div class="arc fore3">
+                        <div class="mt">
+                            <h3>
+                                彩票责任
+                            </h3>
+                            &nbsp;&nbsp;
+                            <em>
+                                RESPONSIBILITY
+                            </em>
+                        </div>
+                        <div class="mc">
+                            <p>
+                                <img src="/images/zr-img.png">
+                            </p>
+                        </div>
+                    </div>
+                    <span class="h">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--foot-->
+        <script type="text/javascript">
+            $("#marquee").kxbdMarquee({
+                isEqual: true,
+                //所有滚动的元素长宽是否相等,true,false 
+                loop: 0,
+                //循环滚动次数，0时无限         
+                direction: "up",
+                //滚动方向，"left","right","","down"         
+                scrollAmount: 1,
+                //步长         
+                scrollDelay: 50 //时长
+            });
+            var isLogin = 'false';
+            if(!isLogin){
+    		 	document.onkeydown = function(event_e){  
+    		 	    if(window.event) {  
+    		 	        event_e = window.event;  
+    		 	    }  
+    		
+    		 	    var int_keycode = event_e.charCode||event_e.keyCode;  
+    		 	    if( int_keycode == '13' ) {  
+    			     	memberInfo(); 
+    		 	        return false;  
+    		 	    }  
+    		 	}
+            }
+        </script>
+       
+       
+        
+ <!--关于我们-->
+        <div class="footer-plus">
+            <div class=" wrapper">
+                <p>
+ 					<a href="/index/rookieHelp.do?code=1">关于我们</a> 
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=6">联系我们</a> 
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=4">联盟方案</a> 
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=3">存款帮助</a> 
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=2">取款帮助</a> 
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=5">联盟协议</a>
+                    &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
+                    <a href="/index/rookieHelp.do?code=7" class="br0">常见问题</a>
+                </p>
+                <p>
+                    未满18周岁禁止购买，
+                </p>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <a>
+                            <img src="/images/foot01.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot02.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot03.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot04.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot05.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot06.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot07.jpg">
+                        </a>
+                    </li>
+                    <li class="list-l">
+                        <a>
+                            <img src="/images/foot08.jpg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <div id="maskDiv" class="loadingMask2" style="display: none; z-index: 10000;">
+            <div>
+                <img src="/images/loadingCenter.gif" width="160" height="20" alt="loading">
+                <h3>
+                    请稍后...
+                </h3>
+            </div>
+        </div>
+        <div class="x0p default" style="padding-left: 10px;padding-right: 10px;padding-bottom:20px;padding-top:25px;position: fixed!important;z-index:999l">
+            <span class="close" onclick="hidemask()">
+            </span>
+            <table id="result_table" width="100%" border="0" class="m-table-s1" style="padding: 20px 0px 20px 20px;margin-top: 10px;">
+                <tbody>
+                	<tr><td><img alt="" src="https://yb8.me/img/SASD/SYAhKOMVp.png"></td></tr>
+                	<tr><td>扫一扫下载APP，安卓/ios版</td></tr>
+                </tbody>
+            </table>
+        </div>  
+    </body>
+</html>

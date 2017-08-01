@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="熊猫彩票3致力于打造彩票第一品牌，与您共同打造高品质的游戏平台，彩票游戏，我们更专业！" />
+<meta name="keywords" content="熊猫彩票3" />
+<title>熊猫彩票3</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link media="all" href="xmIndex/css/xmstyle.css" type="text/css" rel="stylesheet">
+<link media="all" href="xmIndex/css/kefu.css" type="text/css" rel="stylesheet">
+<!--JS分割-->
+<script type="text/javascript" src="/skin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/skin/main/onload.js?version=20160420"></script>
+<script type="text/javascript" src="/skin/main/reglogin.js"></script>
+<script type="text/javascript" src="/js/guest.js"></script>
+<script type="text/javascript" src="xmIndex/js/lunbo.js"></script>
+<script type="text/javascript">browserRedirect();</script></head>
+<script>
+   /*---------返回顶部----------*/
+   $(function() {
+	    $(".btn_top").hide();
+		$(".btn_top").live("click",function(){
+			$('html, body').animate({scrollTop: 0},300);return false;
+		})
+		$(window).bind('scroll resize',function(){
+			if($(window).scrollTop()<=300){
+				$(".btn_top").hide();
+			}else{
+				$(".btn_top").show();
+			}
+		})
+   })
+	
+   /*---------返回顶部 end----------*/
+</script>
+<body id="bodyid">
+<div class="topmenu">
+	<div class="g_w1" style="width: 1050px;">
+		<div class="logo">
+			<a href="/index.php"><img src="xmIndex/img/logo.png" alt="" height="59"></a>
+		</div>
+		<div class="menulinks clearfix">
+			<a href="/index.php" class="sublinks">网站首页</a>
+			<a href="/reg.php" class="sublinks">开户注册</a>
+			<a href="/active.php" class="sublinks" target="_top" style="position: relative;">优惠活动
+				<img src="xmIndex/img/hot.gif" style="position:absolute;top:-10px;">
+			</a>
+			<a href="/rookiehelp.php" class="trade sublinks">存款取款</a>
+			<a href="/rookiehelp_001.php" class="sublinks">常见问题</a>
+			<a href="tencent://message/?uin=42099877&Menu=yes" target="_top" class="sublinks">在线客服</a>
+			<a href="" class="sublinks">APP下载</a>
+			<a href="/rookiehelp_002.php" class="sublinks">代理联盟</a>
+		</div>
+	</div>
+	<!--客服代码部分begin-->	
+	<div class="socialnavi">
+		<div class="downloadqr" style="display: none;"><img src="xmIndex/img/wechat_qr1.png" alt=""></div>
+		<div class="wechatqr" style="display: none;"><img src="xmIndex/img/wechat_qr1.png" alt=""></div>
+		<div class="phonebackqr" style="display: none;"><p></p></div>
+		<div class="qq" onclick="javascript:window.open('tencent://message/?uin=42099877&Menu=yes','_blank')"></div>
+		<div class="wechat" onclick="javascript:window.open('tencent://message/?uin=42099877&Menu=yes','_blank')"></div>
+		<div class="livechat" onclick="javascript:window.open('tencent://message/?uin=42099877&Menu=yes','_blank')"></div>
+		<div class="download" onclick=""></div>
+		<div>
+			<a href="javascript:;" onclick="scrolltop();" class="scrolltop btn_top" style="display: none;"><img src="xmIndex/img/support_top.png" alt="" width="50" height="50"></a>
+		</div>
+	</div>
+	<script>
+		$(".download").hover(function(){
+			$(".wechatqr").fadeIn(500);
+			$(".wechatqr").css("display","block");
+		},function(){
+			$(".wechatqr").fadeOut(0);
+			$(".wechatqr").css("display","none");
+		});
+	</script>
+	<!--客服代码部分end-->
+</div><div style="clear: both;"></div>
+<div style="position: fixed; z-index: 99999999; bottom: 0px;"></div>
+    <input id="showIndex" value="true" type="hidden">
+    <input id="base" value="" type="hidden">
+    <div class="main">
+        <div class="notice">
+            <div class="txtMarquee-right">
+                <div class="icon"></div>
+                <div class="text">
+                    <marquee style="color: red;"><span style="font-family: 微软雅黑,&quot;Microsoft YaHei&quot;;"><strong>
+					尊敬的会员！由于近期支付宝微信风控，造成部分会员扫码支付充值提示限额，我们正在维护紧急处理中。请大家使用其它的入款方式【网银在线支付】充值秒到账，对此带来的不变敬请谅解，祝大家游戏愉快！</strong></span><p></p></marquee>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="main-info-ad fullSlide">
+			<!--图片轮播-->
+                <div class="hd"></div>
+                <div class="bd">
+                    <div class="tempWrap" style="overflow:hidden; position:relative; width:700px">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:700px">
+                        <ul class="bd" id="lbtupian" ></ul>
+                        <!--
+                        <ul style="width: 2800px; left: -700px; position: relative; overflow: hidden; padding: 0px; margin: 0px;">
+                            <li style="float: left; width: 700px;"><img src="/images/b01.png" alt=""></li>
+                            <li style="float: left; width: 700px;"><img src="/images/b02.png" alt=""></li>
+                            <li style="float: left; width: 700px;"><img src="/images/b03.png" alt=""></li>
+                            <li style="float: left; width: 700px;"><img src="/images/b04.png" alt=""></li>
+                        </ul>
+                        -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!--图片轮播 end-->
+            <div class="login">
+                <a target="_top" href="tencent://message/?uin=42099877&Menu=yes" class="support"></a>
+                <form action="/user/loginedto" method="post" onajax="userBeforeLoginto" enter="true" call="userLoginto" target="ajax">
+                    <div class="info username change">
+                        <label>账号</label>
+                        <input name="username" id="username" placeholder="请输入账号" class="tip" autocomplete="off" value="" type="text">
+                    </div>
+                    <div class="info password change">
+                        <label>密码</label>
+                        <input name="password" id="password" placeholder="请输入密码" class="tip" autocomplete="off" type="password">
+                    </div>
+                    <div class="validate change">
+                        <div class="validatecode">
+                            <label>验证码</label><input name="vcode" id="vcode" maxlength="4" placeholder="验证码" alt="验证码" title="看不清楚，点我换图" class="tip" autocomplete="off" value="" type="text">
+                        </div>
+                        <div class="imgCode">
+                            <img src="/user/vcode/1501240654" onclick="this.src='/user/vcode/'+(new Date()).getTime()" id="reg-validCode"
+							style="position:absolute;width:76px;height:38px;right:208px;top:319px;cursor:pointer;">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="login_bu">
+                        <input class="enter" name="Submit" value="登录" type="Submit">
+                        <input class="reg" value="注册" onclick="javascript:window.open('/reg.php','_top')" type="button">
+                        <input class="test" href="javascript:void(0);" onclick="guestLogin();" type="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="gamelist">
+        <div class="gameitms g_w1">
+            <a href="javascript:unLogin();" class="bjpk10"></a>
+            <a href="javascript:unLogin();" class="cqssc"></a>
+            <a href="javascript:unLogin();" class="hk6"></a>
+            <a href="javascript:unLogin();" class="bjpk10bjl"></a>
+            <a href="javascript:unLogin();" class="pcegg"></a>
+            <a href="javascript:unLogin();" class="f3d"></a>
+            <a href="javascript:unLogin();" class="more"></a>
+        </div>
+    </div>
+
+    <div class="prodcontainer">
+        <div class="g_w1">
+            <div class="col1">
+                <div class="spechd clearfix">
+                    <div class="specicon"><img src="xmIndex/img/icon_service.jpg" alt="" width="46" height="51"> </div>
+                    <div class="spectxt">
+                        <h1>服务优势</h1>
+                        <p>Service advantages</p>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <div class="cci_title">存款到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count1">25</div>
+                        <div class="number1txt">秒</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar1" style="right: 100px;"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <div class="cci_title">取款到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count2">2‘00</div>
+                        <div class="number1txt">分</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar2" style="right: -60px;"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft2">
+                        <div class="cci_title">便捷的银行服务</div>
+                        <p><img src="xmIndex/img/creditcard.jpg" alt="" width="118" height="26"></p>
+                        <p class="card_count">目前我们支付机构有：</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1 bank_number" id="count3">34</div>
+                        <div class="number1txt bank_numbertxt">家</div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col2">
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="xmIndex/img/icon_advantage.jpg" alt="" width="49" height="49"> </div>
+                    <div class="spectxt">
+                        <h1>产品优势</h1>
+                        <p>Product advantages</p>
+                    </div>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">手机客户端</div>
+                    <p>独家提供苹果/安卓客户端，您可以通过手机客户端畅玩所有彩票游戏。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">手机触屏版</div>
+                    <p>专注彩票，独家提供手机触屏网页版，无需下载，打开网页即可下注畅玩，兼容完美。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">彩票百家乐平台</div>
+                    <p>独家开发北京赛车百家乐，业界最公平的百家乐游戏，5分钟一期、先开奖开牌再对牌。</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col3">
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="xmIndex/img/icon_lion.jpg" alt="" width="49" height="49"> </div>
+                    <div class="spectxt">
+                        <img src="xmIndex/img/lionimg.jpg">
+                        <h2>会员大额提现均可在<br>澳门<span class="orange">威尼斯人酒店</span>提现。</h2>
+                        <p>单日可提款<span class="orange textbig">1000</span>万港币。</p>
+                    </div>
+                </div>
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="xmIndex/img/icon_licience.jpg" alt="" width="49" height="49"> </div>
+                    <div class="spectxt">
+                        <h1>牌照</h1>
+                        <p>License</p>
+                    </div>
+                </div>
+                <div class="specdetail2">
+                    <p style="margin: 0px;">熊猫彩票3是由菲律宾政府卡格扬河经济特区所授权和监管，拥有菲律宾政府自2005年颁发、最具历史的牌照。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blueline">
+    </div>
+    <div class="prodcontainer prodcontainer2">
+        <div class="g_w1">
+            <div class="col1">
+                <div class="spechd clearfix">
+                    <div class="specicon">
+                        <img src="xmIndex/img/icon_innovative.jpg" alt="" width="46" height="51"> </div>
+                    <div class="spectxt">
+                        <h1>颠覆性创新设计</h1>
+                        <p>Innovative Design</p>
+                    </div>
+                </div>
+                <div class="specfull">
+                    <div class="bx-wrapper">
+                        <div class="bx-viewport">
+                            <div class="bx-wrapper">
+                                <div class="bx-viewport">
+                                    <div class="bx-wrapper" style="max-width: 100%;">
+                                        <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 266px;">
+                                            <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 266px;"><ul class="bxslider4" style="width: auto; position: relative;">
+                                                <li style="float: none; list-style: outside none none; position: absolute; width: 320px; z-index: 50; display: block;"><img src="xmIndex/img/innovative1.jpg" alt="" width="330" height="118">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">极速赛车, 极速时时彩, 上线啦！</div>
+                                                        <p>极速赛车和极速时时彩是引进欧洲博彩公司开奖设备，由菲律宾博彩执照公司审核监控，联合开发的彩票游戏，保证公平公正。</p>
+                                                    </div>
+                                                </li>
+                                                <li style="float: none; list-style: outside none none; position: absolute; width: 320px; z-index: 0; display: none;"><img src="xmIndex/img/innovative2.jpg" alt="" width="330" height="118">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">接地气本土服务</div>
+                                                        <p>青春洋溢的熊猫彩票3团队在最贴近生活的方式下设计出一款款高端大气的产品，为各国用户带来最为接地气的个性化本土定制服务。</p>
+                                                    </div>
+                                                </li>
+                                                <li style="float: none; list-style: outside none none; position: absolute; width: 320px; z-index: 0; display: none;"><img src="xmIndex/img/innovative3.jpg" alt="" width="330" height="118">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">颠覆性产品</div>
+                                                        <p>每款全新上线的熊猫彩票3产品都是经过大量测试后证实最符合亚洲人的产品，这是一个对既定现状做出强势挑战的创新团队。</p>
+                                                    </div>
+                                                </li>
+                                            </ul></div><div class="bx-controls bx-has-pager"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="index.html" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="index.html" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="index.html" data-slide-index="2" class="bx-pager-link">3</a></div></div></div></div>
+                                        </div>
+                                        <div class="bx-controls bx-has-pager">
+                                            <div class="bx-pager bx-default-pager">
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col2">
+            <div class="spechd clearfix">
+                <div class="specicon2">
+                    <img src="xmIndex/img/icon_partner.jpg" alt="" width="49" height="49"> </div>
+                <div class="spectxt">
+                    <h1>合作伙伴</h1>
+                    <p>Artners</p>
+                </div>
+            </div>
+            <div class="specdetail2">
+                <img src="xmIndex/img/payment.jpg" alt="" width="190" height="192"> </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col3">
+            <div class="spechd clearfix">
+                <div class="clearfix">
+                    <div class="specicon2">
+                        <img src="xmIndex/img/icon_guide.jpg" alt="" width="49" height="49"> </div>
+                    <div class="spectxt clearfix">
+                        <h1>使用帮助</h1>
+                        <p>Guide</p>
+                    </div>
+                </div>
+                <div class="specdetail2 mt10">
+                    <div class="col1">
+                        <p><a href="/rookiehelp.php" target="_top">如何存款</a>
+                            <br><a href="/rookiehelp_003.php" target="_top">如何提款</a></p>
+                    </div>
+                    <div class="col2">
+                        <p><a href="/rookiehelp_004.php" target="_top">关于我们</a></p>
+                    </div>
+                    <div class="col3">
+                        <p><a href="/rookiehelp_005.php" target="_top">联系我们</a>
+                            <br><a href="/rookiehelp_001.php" target="_top">常见问题</a></p>
+                    </div>
+                </div>
+                <div class="greyline"></div>
+                <div class="specdetail2">
+                    <div class="cci_title">推荐浏览器</div>
+                    <p><a href="http://www.firefox.com.cn/" target="_top">火狐浏览器</a>
+                        <br><a href="http://rj.baidu.com/soft/detail/14744.html?ald" target="_top">谷歌浏览器</a>
+                        <br><a href="http://rj.baidu.com/soft/detail/23356.html?ald" target="_top">IE 9 以上浏览器</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    ﻿<div class="footerindex2">Copyright © 熊猫彩票3 Reserved</div>
+    
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px;" tabindex="-1">
+  <div>
+    <p id="modal1Desc" style="color: rgb(0, 0, 0);"></p>
+  </div>
+</div></div>
+
+<script>
+function unLogin(){
+	alert('请先登录!');
+}
+	
+var float_box = document.getElementById("float_r_ight"),
+float_box_list = $('#float_right_l'),
+float_box_log = $("#float_right_log"), fin, fout, fstatus = 'close';
+var flaot_box_in = function () {
+fstatus = 'open';
+float_box_list.stop().animate({right:0},300);
+$(float_box).stop().animate({width:246},300);
+float_box_log.css('backgroundPosition' , '100% 0');
+}
+var flaot_box_out = function () {
+fstatus = 'close';
+float_box_list.stop().animate({right:-171},300);
+$(float_box).stop().animate({width:41},300);
+float_box_log.css('backgroundPosition' , '0 100%');
+}
+
+window.onload = window.onresize = window.onscroll = function () {
+var iScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+setTimeout(function () {
+clearInterval(float_box.timer);
+var iTop = parseInt((document.documentElement.clientHeight - float_box.offsetHeight)/2) + iScrollTop;
+
+float_box.timer = setInterval(function () {
+var iSpeed = (iTop - float_box.offsetTop) / 8;
+iSpeed = iSpeed > 0 ? Math.ceil(iSpeed) : Math.floor(iSpeed);
+float_box.offsetTop == iTop ? clearInterval(float_box.timer) : (float_box.style.top = float_box.offsetTop + iSpeed + "px");
+}, 30);
+}, 50);
+float_box.style.display="block";
+};
+float_box_list.hover(
+function () {
+clearTimeout(fin);
+fout = setTimeout(flaot_box_in, 100);
+}, function () {
+clearTimeout(fout);
+fin = setTimeout(flaot_box_out, 100);
+}
+);
+float_box_list.click(function () {
+if (fstatus == 'close') {
+flaot_box_in();
+} else {
+flaot_box_out();
+}
+});
+</script></body>
+</html>

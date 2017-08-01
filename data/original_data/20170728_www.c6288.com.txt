@@ -1,0 +1,1746 @@
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+
+    <title>亚洲最大彩票网投品牌！</title>
+
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/lib/jquery.min.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/lib/icheck/icheck.js?v=1.0.2" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/iconfont.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/main.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/user.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/lib/jquery.modal.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/layer/layer.js"></script>
+
+<script type="text/javascript" src="https://cpweb.kosunmobile.com/cp336/Public/static/js/dateTime_20161202.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cpweb.kosunmobile.com/cp336/Public/static/css/dateTime_20161202.css">
+
+<link rel="stylesheet" href="https://cpweb.kosunmobile.com/cp336/Public/static/css/main.css"/>
+
+
+<script>
+	var index = false;
+</script>
+</head>
+<body>
+<!-- start -->
+<!-- mini top tool start -->
+<div class="tool_bar">
+    <div class="main">
+        <div class="left welcome">
+			欢迎光临336彩票        </div>
+        <div class="right top_bar_nav">
+            <ul>
+                <!-- <li class="tel"><em class="tel_icon"></em> 11122222222</li>
+                <li>|</li> -->
+                
+                <li class="top_bar_nav free_play"><a onclick="javascript:try_play();" >免费试玩</a></li>
+                <li>|</li>
+                										
+					<li class="top_bar_nav "><a href="/Base/agentApply.html">加入代理</a></li>
+					<li>|</li>
+				
+				<li class="top_bar_nav "><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+                <li>|</li>
+                <li class="top_bar_nav "><a href="/Help/index.html">帮助中心</a></li>
+                <li>|</li>
+                <li class="top_bar_nav "><a href="/Rule/index.html">玩法</a></li>
+                <li>|</li>
+                <li class="top_bar_nav "><a href="/Information/index.html">资讯</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Special agent login -->
+<div class="special_agent_login_win">
+  <div class="login_area">
+    <div class="title">
+      <span>特殊代理登录</span>
+      <i class="iconfont icon-guanbi" onclick="javascript: specialAgentLoginWin()"></i>
+    </div>
+    <div class="login_form">
+      <div class="row">
+        <div class="left">
+          <span>用户名</span>
+        </div>
+        <div class="right">
+          <input placeholder="请输入用户名" id="specialAgentName"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left">
+          <span>登录密码</span>
+        </div>
+        <div class="right">
+          <input type="password" placeholder="请输入登录密码" id="specialAgentPwd"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="left">
+          <span>验证码</span>
+        </div>
+        <div class="right">
+          <input placeholder="请输入验证码" class="verify_code_input" id="specialAgentVerifyCode"/>
+          <div class="verify_code" id="specialAgentVerifyCodeImg"></div>
+        </div>
+      </div>
+      <div class="login_btn">
+        <button id="specialAgentLoginBtn" onclick="javasript: specialAgentLogin()">立即登录</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- mini top tool end -->
+
+<!-- header start  -->
+<div class="header">
+    <div class="main">
+        <div class="left logo">
+            <a href="/" class="logo-link"><img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5923038292f3b.png" width="227px" height="68px" alt=""></a>
+        </div>
+        <div class="right login_and_userinfo">
+            <!-- no login -->
+                        <div class="login">
+            	<form method="POST" action="/Base/login.html" id="login_form">
+
+	                <div class="username left">
+	                    <i class="iconfont icon-mail"></i>
+	                    <input type="text" placeholder="用户名" name="user_name" id="username">
+	                </div>
+	                <div class="password left">
+	                    <i class="iconfont icon-mima"></i>
+	                    <input type="password" placeholder="密码" name="password" id="password" autocomplete="new-password">
+	                </div>
+	                <div class="code left">
+	                    <input type="text" size="4" name="verify_code" placeholder="验证码" id="login_code_input"
+	                    style="padding-left:74px;padding-right:10px;width:42px;">
+	                    <div class="login_code" id="login_code">
+
+	                    </div>
+	                </div>
+
+	                <button type="button" class="left btn-default login-btn btn" name="login" id="login_button">登录</button>
+				</form>
+
+                <button type="button" class="left d-btn reg-btn btn" name="register" id="register">注册</button>
+            </div>
+            <!-- no login end -->
+                        <!-- logined end -->
+        </div>
+    </div>
+
+</div>
+
+<div class="nav">
+    <!--导航 Start-->
+    <div class="menu">
+         <div class="all-sort">
+    <h2><a href="">选择彩种（23种）</a>
+        <i id="more-sort" class="iconfont icon-gengduo"></i>
+    </h2>
+</div>
+<div class="sideNavB" id="wrap-sort-all" style="display: none">
+
+ <div class="hotMain">
+   <div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/upload/58e4ac3c00138.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/23")' >三分时时彩</a></div>
+
+            <div class="desc"> <i class="iconfont red">&#xe643;</i>&nbsp;</div>
+
+                    </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/uploads/images/20161223/585cf5a8ae2ac.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/19")' >北京PK拾</a></div>
+
+                            <div class="desc">   北京赛车</div>        </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/upload/58e4a37d4e27e.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/22")' >幸运28</a></div>
+
+                            <div class="desc"></div>        </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/uploads/images/20161227/586222193e53d.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/20")' >香港⑥合彩</a></div>
+
+                            <div class="desc">   每周开奖三期</div>        </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/uploads/images/20161227/58622205abe95.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/17")' >福彩3D</a></div>
+
+                            <div class="desc"></div>        </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/uploads/images/20170113/5878a932233e8.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/1")' >重庆时时彩</a></div>
+
+                            <div class="desc">最火爆的彩票</div>        </div><div class="oneLi">
+            <div class="imgL"><img src="https://cpweb.kosunmobile.com/cp77.kosungames.com/uploads/images/20170113/5878a946ddd95.png" alt=""> </div>
+            <div class="title"><a onclick= 'openLotteryWin("/Lottery/index/bet/3")' >北京时时彩</a></div>
+
+                            <div class="desc"></div>        </div> </div>
+    <div class="clear"></div>
+
+ <div class="sortMain">
+    <div class="sortDiv" i="0" id="sortDiv0">
+         <div class="sLeft">
+            <div class="sTitle red">高频彩</div>
+        </div>
+        <div class="sRight">
+            <ul>
+                <li><a onclick= 'openLotteryWin("/Lottery/index/bet/23")' >三分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/19")' >北京PK拾</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/21")' >北京28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/22")' >幸运28</a></li>            </ul>
+        </div>
+        <div class="clear"></div>
+        <i class="iconfont sortArrow">&#xe602;</i>
+   </div>
+     <div class="secondNav">
+         <div class="title">
+             高频彩
+         </div>
+         <div class="ulDiv">
+             <ul>
+                 <li><a onclick= 'openLotteryWin("/Lottery/index/bet/23")' >三分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/19")' >北京PK拾</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/21")' >北京28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/22")' >幸运28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/1")' >重庆时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/2")' >新疆时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/3")' >北京时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/4")' >天津时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/6")' >安徽快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/7")' >吉林快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/8")' >广西快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/9")' >江苏快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/10")' >湖北快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/11")' >山东11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/12")' >上海11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/13")' >江西11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/14")' >广东11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/15")' >安徽11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/24")' >分分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/25")' >极速PK拾</a></li>             </ul>
+         </div>
+     </div>
+ </div>
+
+
+
+    <div class="clear"></div>
+
+    <div class="sortMain">
+    <div class="sortDiv" i="1" id="sortDiv1">
+        <div class="sLeft">
+            <div class="sTitle blue">低频彩</div>
+        </div>
+        <div class="sRight">
+            <ul>
+                <li><a onclick= 'openLotteryWin("/Lottery/index/bet/20")' >香港⑥合彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/17")' >福彩3D</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/16")' >排列三</a></li>            </ul>
+        </div>
+
+        <div class="clear"></div>
+
+    </div>
+        <div class="secondNav">
+            <div class="title">
+                低频彩
+            </div>
+            <div class="ulDiv">
+                <ul>
+                    <li><a onclick= 'openLotteryWin("/Lottery/index/bet/20")' >香港⑥合彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/17")' >福彩3D</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/16")' >排列三</a></li>                </ul>
+            </div>
+        </div>
+</div>
+
+    <div class="sortMain">
+    <div class="sortDiv" i="2" style="border-bottom: medium none;" id="sortDiv2">
+        <div class="sLeft">
+            <div class="sTitle green">全部</div>
+        </div>
+        <div class="sRight">
+            <ul>
+                <li><a onclick= 'openLotteryWin("/Lottery/index/bet/23")'>三分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/19")'>北京PK拾</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/21")'>北京28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/22")'>幸运28</a></li>            </ul>
+        </div>
+
+        <div class="clear"></div>
+        <i class="iconfont sortArrow">&#xe602;</i>
+    </div>
+
+        <div class="secondNav">
+            <div class="title">
+                全部
+            </div>
+            <div class="ulDiv">
+                <ul>
+                    <li><a onclick= 'openLotteryWin("/Lottery/index/bet/23")' >三分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/19")' >北京PK拾</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/21")' >北京28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/22")' >幸运28</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/20")' >香港⑥合彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/17")' >福彩3D</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/1")' >重庆时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/2")' >新疆时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/3")' >北京时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/4")' >天津时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/6")' >安徽快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/7")' >吉林快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/8")' >广西快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/9")' >江苏快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/10")' >湖北快3</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/11")' >山东11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/12")' >上海11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/13")' >江西11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/14")' >广东11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/15")' >安徽11选5</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/16")' >排列三</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/24")' >分分时时彩</a></li><li><a onclick= 'openLotteryWin("/Lottery/index/bet/25")' >极速PK拾</a></li>                </ul>
+            </div>
+        </div>
+        </div>
+
+</div>
+<script>
+    $(".sortMain").mouseout(
+            function(){
+                $(this).siblings().find(".sortDiv").removeClass("hover");
+                $(this).find(".sortDiv").removeClass("hover");
+                $(this).find(".secondNav").hide();
+                $(this).find(".sortArrow").show();
+
+                $(".sortDiv").css( "border-top", "1px dashed #e6d3cf" );
+            }
+    );
+    $(".sortMain").mouseover(
+            function(){
+                var catTop = $(this).find(".sortDiv").attr("i");
+
+                if(catTop ==2){
+
+                    catTop = - 140;
+                    $(this).find(".sortDiv").css( "border-top", "none" );
+
+                }
+                if(catTop ==1){
+                    catTop = - 71;
+                    return false;
+                    $("#sortDiv2").css( "border-top","none");
+                }
+                if(catTop ==0){
+                      catTop = 0
+                    $("#sortDiv1").css( "border-top","none");
+                }
+                $(this).find(".sortArrow").hide();
+                $(this).siblings().find(".sortDiv").removeClass("hover");
+                $(this).siblings().find(".secondNav").hide();
+                $(this).find(".sortDiv").addClass("hover");
+             //   $(this).siblings().next().find(".sortDiv").css( "border-bottom","none");
+
+                $(this).find(".secondNav").show().css( "top", catTop );;
+              }
+    );
+
+	var w = _w = w_lottery = window;
+	var style = 'width=1270px, height=950px, scrollbars=yes';
+    function getWin()
+    {
+        if( w != w.parent )
+        {
+           w = w.parent == w.parent.parent ? w.parent : w.parent.parent;
+        }
+    }
+    
+  	function openWin(url){
+        getWin();
+        _w = w.open(url, 'new_window', style);
+        _w.focus();
+    }
+    
+  	function openLotteryWin(url)
+  	{
+
+  		getWin();
+        w_lottery = w.open(url, 'lottery_window', style);
+  		w_lottery.focus();
+  	}
+  	
+  	function closeWin(url){
+        if(_w.name == 'new_window')
+        {
+       		_w.alert('您已经退出登录');
+       		_w.close();
+        }
+        if(w_lottery.name == 'lottery_window')
+        {
+        	w_lottery.alert('您已经退出登录');
+        	w.open("/Lottery/index/lobby", 'lottery_window', style);
+        }
+        
+        location.href = url;
+    }
+</script>  <!--导航 End-->
+        <style>
+            #wrap-sort-all{
+                top:45px;left: 0px;;
+
+            }
+            .all-sort-list{
+                clear: both;
+                position: inherit !important;
+                height: 560px !important;
+            }
+            .menu   .nav{
+                position: absolute;
+            }
+            .menu{
+             //  position: static !important;
+            }
+        </style>
+        <div class="nav">
+            <ul class="clearfix" id="headNav">
+                <li><a href="/" class="index">首页</a></li>
+                <li><a onclick= 'openLotteryWin("/Lottery/index/lobby")' >购彩大厅</a></li>
+                <li class="tit"><i class="icon_nav_new"></i><a href="/Information/phone.html"><i class="icon_nav_mobile"></i>手机购彩</a></li>
+                <li><a href="/Activity/index.html">优惠活动</a></li>
+                <li><a href="/Message/numbers.html">开奖公告</a></li>
+                <li><a href="/charts/index.html">走势图表</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+	<div class="header_error" style="display:none;">
+		<i class="iconfont">&#xe62f;</i>
+		<span id="header_error_msg"></span>
+	</div>
+</div>
+<div id="model_2" class="model_2" style="display:none;">
+
+       <div class="model_header">
+
+           <h1>温馨提醒</h1>
+
+       </div>
+
+       <div class="model_body">
+          <span id="model_content"></span>
+       </div>
+
+       <div class="foot_succ">
+
+          <a onclick="javascript:jQuery.modal.close();" class="btn btn-default btn-radius">确定</a>
+
+       </div>
+	
+</div>
+
+<script>
+	function try_play(){
+
+					location.href = "/Base/tryPlay.html";
+			}
+
+  function specialAgentLoginWin() {
+    $('#specialAgentName').val('')
+    $('#specialAgentPwd').val('')
+    $('#specialAgentVerifyCode').val('')
+    $('.special_agent_login_win').toggle()
+  }
+
+  function replaceSpecialAgentCode() {
+    var url =  "/Base/verify/index?a="+Math.random() ;
+    $('#specialAgentVerifyCodeImg').empty().html("<img src='"+url+"' />");
+  }
+
+  function specialAgentLogin() {
+    var loginData = {
+    	"user_name": $('#specialAgentName').val(),
+    	"password": $('#specialAgentPwd').val(),
+    	"verify_code": $('#specialAgentVerifyCode').val(),
+    	"is_special_agent": 1
+    }
+    $.ajax({
+      type: "POST",
+      url: "/Base/login.html",
+      data: loginData,
+      cache:false,
+      dataType:"json",
+      async:false,
+      beforeSend: function () {
+          // 禁用按钮防止重复提交，发送前响应
+        $('#specialAgentLoginBtn').attr({ disabled: "disabled" });
+      },
+      success: function(data){
+        console.log('data', data);
+        if(data.status == ajax_success) {
+          if(data.url) {
+            location.href = data.url;
+          }
+        } else {
+          $("#header_error_msg").html(data.info);
+          $(".header_error").fadeIn();
+          $(".header_error").fadeOut(1000);
+          replaceSpecialAgentCode();
+        }
+      },
+      complete: function () {
+        //完成响应
+        $('#specialAgentLoginBtn').removeAttr("disabled");
+      }
+    });
+  }
+
+	$(function(){
+		window.name = 'home';
+
+		function replaceCode(){
+			var url =  "/Base/verify/index?a="+Math.random() ;
+      		$('#login_code').empty().html("<img src='"+url+"' />");
+		}
+    replaceCode();
+
+    $('#specialAgentVerifyCodeImg').click(function () {
+         replaceSpecialAgentCode();
+    });
+    
+    $('#speciaLogin').bind('click',function(){
+    	replaceSpecialAgentCode();
+    	specialAgentLoginWin();
+    });
+
+		$(".header_error").hide();
+
+        $('#login_code').click(function () {
+             replaceCode();
+        });
+
+        $('#login_button').click(function(){
+            var _this = $(this);
+        	$.ajax({
+				type: "POST",
+				url: "/Base/login.html",
+				data: $('#login_form').serialize(),
+				cache:false,
+				dataType:"json",
+				async:false,
+				beforeSend: function () {
+				    // 禁用按钮防止重复提交，发送前响应
+                    _this.attr({disabled:"disabled"});
+                    _this.css({background:'#ccc'});
+				},
+				success: function(data){
+					if(data.status == ajax_success)
+					{
+						if(data.url)
+						{
+							location.href = data.url;
+						}
+					}
+					else
+					{
+						$("#header_error_msg").html(data.info);
+						$(".header_error").fadeIn();
+						$(".header_error").fadeOut(1000);
+						replaceCode();
+					}
+				},
+				complete: function () {
+					//完成响应
+                    _this.removeAttr("disabled");
+                    _this.css({background:'#FF7F00'});
+				}
+     	 	});
+		});
+
+		$('#register').click(function(){
+			location.href="/Base/reg.html";
+		});
+
+		$("#login_form").keydown(function(e){
+	   		var e = e || event,
+	   		keycode = e.which || e.keyCode;
+	   		if (keycode==13) {
+	   			$("#login_button").trigger("click");
+	   		}
+   		});
+
+	});
+</script>
+
+
+<!-- 中心内容 -->
+
+    <script>
+        var index = true;
+    </script>
+    <!-- main start  -->
+    <div class="main">
+        <!--所有分类 Start-->
+
+        <!--所有分类 End-->
+        <style>
+            #wrap-sort-all {
+                display: block !important;
+            }
+        </style>
+    </div>
+
+    <div class="main index">
+
+        <div class="index_main">
+
+
+            <div class="slide">
+
+                <div class="v_out v_out_p">
+
+                    <div class="v_show">
+                        <div class="v_cont">
+                            <ul>
+                                <li index="0">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5964b9032a4b6.jpg" width="740" height="230" alt="">
+                                    </li><li index="1">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/595f3f8d13ed6.png" width="740" height="230" alt="">
+                                    </li><li index="2">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5939610749023.jpg" width="740" height="230" alt="">
+                                    </li><li index="3">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/592d7c9c06483.jpg" width="740" height="230" alt="">
+                                    </li><li index="4">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/59368c3e5903d.png" width="740" height="230" alt="">
+                                    </li><li index="5">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/592d71dfd3b81.png" width="740" height="230" alt="">
+                                    </li><li index="6">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5934dceb10801.png" width="740" height="230" alt="">
+                                    </li><li index="7">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5975fd468a208.png" width="740" height="230" alt="">
+                                    </li><li index="8">
+                                        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/59609728ba1dd.png" width="740" height="230" alt="">
+                                    </li>                            </ul>
+
+                        </div>
+                    </div>
+
+
+                    <ul class="circle">
+                                                <li class="circle-cur">1</li>
+                                                                                                        <li>2</li>                                                                            <li>3</li>                                                                            <li>4</li>                                                                            <li>5</li>                                                                            <li>6</li>                                                                            <li>7</li>                                                                            <li>8</li>                                                                            <li>9</li>                                            </ul>
+                </div>
+
+
+            </div>
+
+            <div class="notice">
+
+                <i class="iconfont"></i>
+
+                <marquee onMouseOut="this.start()" onMouseOver="this.stop()"> <p><span style="font-size: 18px;">好消息、好消息、好消息！重要的事情说三遍，只需动动您的手指，微信群发我们指定的内容，即可获得336彩赠送的超值礼金！好彩~从336彩票开始~您还在等什么！！！</span></p><p><br/></p>  &nbsp; &nbsp; &nbsp; &nbsp; </marquee>
+
+            </div>
+
+
+            <div class="index_box_tz">
+
+
+                <div class="left tz_box">
+
+                    <div class="tz_box_main" id="tz_box_main">
+                        <ul class="tz_box_tab" id="tz_box_tab">
+                            <h1><i class="jinbi"></i>快速投注</h1>
+                            <div class="tz_tab">
+
+                                <li class="current">重庆时时彩</li><li >安徽快3</li><li >山东11选5</li><li >排列三</li>                            </div>
+                        </ul>
+
+
+                        <div class="show_box_main" id="show_box_main">
+                            <div class="tz_item" style="display:block;">
+                                    <div class="t">
+                                        <div class="left view_qi">
+                                            第<span class="issure">20170728081</span>期截止：<span lottertid="1" class="red restTime1" nowtime="1501240902" endtime="1501241340"></span>
+                                        </div>
+                                        <div class="right cho">
+                                            <a href="#" onclick='openLotteryWin("/Lottery/index/bet/1")'>手动选号</a> <a href="/charts/lottery/id/1.html"
+                                                target="_blank">走势图</a>
+                                        </div>
+                                    </div>
+                                  <!--  <div class="qiu_box">
+                                        <i class="ab q1 num_2" number="2"></i><i class="ab q1 num_3" number="3"></i><i class="ab q1 num_5" number="5"></i><i class="ab q1 num_6" number="6"></i><i class="ab q1 num_8" number="8"></i>                                    </div>-->
+                                    <div class="list qiu_box">
+                                        <div class="ball-wrap">
+                                            <div class="ball" number="2">
+                                                2                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="3">
+                                                3                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="5">
+                                                5                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="6">
+                                                6                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="8">
+                                                8                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <div class="left add">
+                                            <span class="plus" onclick="addNumber(this)">+</span>
+                                            <input value="1" type="text" class="plus_value">
+                                            <span class="sub" onclick="reduceNumber(this)">-</span>
+                                        </div>
+                                        <div class="left">
+                                            倍，共 <span class="red bet_money">2</span> 元
+                                        </div>
+                                        <div class="right">
+                                            <a class="rf" onClick="changeNumber(this)" countNumber="5"
+                                               data_number="0,1,2,3,4,5,6,7,8,9">
+                                                <i class="iconfont">&#xe600;</i>
+                                                换一注
+                                            </a>
+                                            <a   class="btn btn-default" onclick="postSubmit(this,'1','重庆时时彩','1')">立即投注</a>
+                                        </div>
+                                    </div>
+
+                                </div><div class="tz_item" style="display:block;">
+                                    <div class="t">
+                                        <div class="left view_qi">
+                                            第<span class="issure">20170728065</span>期截止：<span lottertid="6" class="red restTime2" nowtime="1501240902" endtime="1501241340"></span>
+                                        </div>
+                                        <div class="right cho">
+                                            <a href="#" onclick='openLotteryWin("/Lottery/index/bet/6")'>手动选号</a> <a href="/charts/lottery/id/6.html"
+                                                target="_blank">走势图</a>
+                                        </div>
+                                    </div>
+                                  <!--  <div class="qiu_box">
+                                        <i class="ab q1 num_2" number="2"></i><i class="ab q1 num_5" number="5"></i>                                    </div>-->
+                                    <div class="list qiu_box">
+                                        <div class="ball-wrap">
+                                            <div class="ball" number="2">
+                                                2                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="5">
+                                                5                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <div class="left add">
+                                            <span class="plus" onclick="addNumber(this)">+</span>
+                                            <input value="1" type="text" class="plus_value">
+                                            <span class="sub" onclick="reduceNumber(this)">-</span>
+                                        </div>
+                                        <div class="left">
+                                            倍，共 <span class="red bet_money">2</span> 元
+                                        </div>
+                                        <div class="right">
+                                            <a class="rf" onClick="changeNumber(this)" countNumber="2"
+                                               data_number="1,2,3,4,5,6">
+                                                <i class="iconfont">&#xe600;</i>
+                                                换一注
+                                            </a>
+                                            <a   class="btn btn-default" onclick="postSubmit(this,'6','安徽快3','2')">立即投注</a>
+                                        </div>
+                                    </div>
+
+                                </div><div class="tz_item" style="display:block;">
+                                    <div class="t">
+                                        <div class="left view_qi">
+                                            第<span class="issure">20170728066</span>期截止：<span lottertid="11" class="red restTime3" nowtime="1501240902" endtime="1501241040"></span>
+                                        </div>
+                                        <div class="right cho">
+                                            <a href="#" onclick='openLotteryWin("/Lottery/index/bet/11")'>手动选号</a> <a href="/charts/lottery/id/11.html"
+                                                target="_blank">走势图</a>
+                                        </div>
+                                    </div>
+                                  <!--  <div class="qiu_box">
+                                        <i class="ab q1 num_06" number="06"></i><i class="ab q1 num_10" number="10"></i><i class="ab q1 num_11" number="11"></i>                                    </div>-->
+                                    <div class="list qiu_box">
+                                        <div class="ball-wrap">
+                                            <div class="ball" number="06">
+                                                06                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="10">
+                                                10                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="11">
+                                                11                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <div class="left add">
+                                            <span class="plus" onclick="addNumber(this)">+</span>
+                                            <input value="1" type="text" class="plus_value">
+                                            <span class="sub" onclick="reduceNumber(this)">-</span>
+                                        </div>
+                                        <div class="left">
+                                            倍，共 <span class="red bet_money">2</span> 元
+                                        </div>
+                                        <div class="right">
+                                            <a class="rf" onClick="changeNumber(this)" countNumber="3"
+                                               data_number="01,02,03,04,05,06,07,08,09,10,11">
+                                                <i class="iconfont">&#xe600;</i>
+                                                换一注
+                                            </a>
+                                            <a   class="btn btn-default" onclick="postSubmit(this,'11','山东11选5','3')">立即投注</a>
+                                        </div>
+                                    </div>
+
+                                </div><div class="tz_item" style="display:block;">
+                                    <div class="t">
+                                        <div class="left view_qi">
+                                            第<span class="issure">2017202</span>期截止：<span lottertid="16" class="red restTime4" nowtime="1501240902" endtime="1501244700"></span>
+                                        </div>
+                                        <div class="right cho">
+                                            <a href="#" onclick='openLotteryWin("/Lottery/index/bet/16")'>手动选号</a> <a href="/charts/lottery/id/16.html"
+                                                target="_blank">走势图</a>
+                                        </div>
+                                    </div>
+                                  <!--  <div class="qiu_box">
+                                        <i class="ab q1 num_5" number="5"></i><i class="ab q1 num_6" number="6"></i><i class="ab q1 num_9" number="9"></i>                                    </div>-->
+                                    <div class="list qiu_box">
+                                        <div class="ball-wrap">
+                                            <div class="ball" number="5">
+                                                5                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="6">
+                                                6                                            </div>
+                                        </div><div class="ball-wrap">
+                                            <div class="ball" number="9">
+                                                9                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="foot">
+                                        <div class="left add">
+                                            <span class="plus" onclick="addNumber(this)">+</span>
+                                            <input value="1" type="text" class="plus_value">
+                                            <span class="sub" onclick="reduceNumber(this)">-</span>
+                                        </div>
+                                        <div class="left">
+                                            倍，共 <span class="red bet_money">2</span> 元
+                                        </div>
+                                        <div class="right">
+                                            <a class="rf" onClick="changeNumber(this)" countNumber="3"
+                                               data_number="0,1,2,3,4,5,6,7,8,9">
+                                                <i class="iconfont">&#xe600;</i>
+                                                换一注
+                                            </a>
+                                            <a   class="btn btn-default" onclick="postSubmit(this,'16','排列三','4')">立即投注</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="right down_mobile_app">
+
+                    <div class="head">
+
+                        <i class="iconfont">&#xe605;</i>
+
+                        手机客户端下载
+
+                    </div>
+
+
+                    <div class="down_app">
+
+                        <div class="left app-l" id="IphoneA">
+                              <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5975858ea1db9.png" width="100" height="100" alt="">
+                         </div>
+
+                        <div class="left app-l" id="AndroidA" style="display: none">
+                            <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/597585ad87306.png" width="100" height="100" alt="">
+                        </div>
+
+                        <div class="right app-r">
+
+                            <li>
+                                <i class="iconfont">&#xe603;</i>
+                                <a href="" class="IphoneA">Iphone 版</a>
+                            </li>
+
+                            <li>
+                                <i class="iconfont">&#xe601;</i>
+                                <a href=""  class="AndroidA">Android 版</a>
+                            </li>
+
+                            <li>
+                                <a href="/Information/phone.html" class="more">更多方式</a>
+                            </li>
+
+                        </div>
+                        <script>
+
+                            $(".IphoneA").click(function(){
+                                $("#IphoneA").show();
+                                $("#AndroidA").hide();
+                                return false;
+                            });
+
+                            $(".AndroidA").click(function(){
+                                $("#IphoneA").hide();
+                                $("#AndroidA").show();
+                                return false;
+                            });
+
+                        </script>
+
+                    </div>
+
+
+                    <div class="tab down_box_notice">
+
+
+                        <div class="down_box_notice" id="down_box_notice">
+                            <ul class="down_box_notice_tab" id="down_box_notice_tab">
+                                <li class="current">网站公告</li>
+                                <li>新手指导</li>
+                            </ul>
+                            <div class="down_box_notice_content" id="down_box_notice_content">
+                                <ul style="display:block;">
+
+                                    <li>
+                                            <a href="/Information/noticeDetail/id/15.html">微信群发礼包</a>
+                                        </li><li>
+                                            <a href="/Information/noticeDetail/id/13.html">安全信息升级</a>
+                                        </li><li>
+                                            <a href="/Information/noticeDetail/id/7.html">336彩票规则</a>
+                                        </li>
+                                </ul>
+                                <ul style="display: none">
+                                    <li>
+                                            <a href="/Help/detail/help_id/58.html#help_58">如何查询追号记录？</a>
+                                        </li><li>
+                                            <a href="/Help/detail/help_id/57.html#help_57">为什么号码导入不成功？</a>
+                                        </li><li>
+                                            <a href="/Help/detail/help_id/56.html#help_56">什么是胆拖投注？</a>
+                                        </li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="index">
+
+        <div class="index_box_main main">
+
+            <div class="left kj">
+
+                <div class="head">
+
+                    <i class="iconfont">&#xe608;</i>
+
+                    开奖公告
+
+                </div>
+
+
+                <div class="kjmain">
+
+                    <div class="item">
+                            <div class="top">
+                                <em>重庆时时彩</em>
+                                <span>20170728080期</span>
+                            </div>
+                            <div class="med">
+                                <span class="red">&nbsp;7 </span><span class="red">&nbsp;7 </span><span class="red">&nbsp;8 </span><span class="red">&nbsp;0 </span><span class="red">&nbsp;5 </span>                            </div>
+                            <div class="bott">
+
+                                <div class="left">2017-07-28</div>
+                                <div class="right">
+                                    <a href="/Message/detailNumbers/id/1.html">详细</a>
+                                    <a href="/charts/lottery/lid/1.html" target="_blank">走势</a>
+                                    <a onclick= 'openLotteryWin("/Lottery/index/bet/1")'  >投注</a>
+                                </div>
+                            </div>
+                        </div><div class="item">
+                            <div class="top">
+                                <em>北京时时彩</em>
+                                <span>836672期</span>
+                            </div>
+                            <div class="med">
+                                <span class="red">&nbsp;4 </span><span class="red">&nbsp;7 </span><span class="red">&nbsp;8 </span><span class="red">&nbsp;8 </span><span class="red">&nbsp;7 </span>                            </div>
+                            <div class="bott">
+
+                                <div class="left">2017-07-28</div>
+                                <div class="right">
+                                    <a href="/Message/detailNumbers/id/3.html">详细</a>
+                                    <a href="/charts/lottery/lid/3.html" target="_blank">走势</a>
+                                    <a onclick= 'openLotteryWin("/Lottery/index/bet/3")'  >投注</a>
+                                </div>
+                            </div>
+                        </div><div class="item">
+                            <div class="top">
+                                <em>天津时时彩</em>
+                                <span>20170728062期</span>
+                            </div>
+                            <div class="med">
+                                <span class="red">&nbsp;8 </span><span class="red">&nbsp;6 </span><span class="red">&nbsp;8 </span><span class="red">&nbsp;1 </span><span class="red">&nbsp;2 </span>                            </div>
+                            <div class="bott">
+
+                                <div class="left">2017-07-28</div>
+                                <div class="right">
+                                    <a href="/Message/detailNumbers/id/4.html">详细</a>
+                                    <a href="/charts/lottery/lid/4.html" target="_blank">走势</a>
+                                    <a onclick= 'openLotteryWin("/Lottery/index/bet/4")'  >投注</a>
+                                </div>
+                            </div>
+                        </div><div class="item">
+                            <div class="top">
+                                <em>安徽快3</em>
+                                <span>20170728064期</span>
+                            </div>
+                            <div class="med">
+                                <span class="red">&nbsp;2 </span><span class="red">&nbsp;4 </span><span class="red">&nbsp;5 </span>                            </div>
+                            <div class="bott">
+
+                                <div class="left">2017-07-28</div>
+                                <div class="right">
+                                    <a href="/Message/detailNumbers/id/6.html">详细</a>
+                                    <a href="/charts/lottery/lid/6.html" target="_blank">走势</a>
+                                    <a onclick= 'openLotteryWin("/Lottery/index/bet/6")'  >投注</a>
+                                </div>
+                            </div>
+                        </div><div class="item">
+                            <div class="top">
+                                <em>山东11选5</em>
+                                <span>20170728065期</span>
+                            </div>
+                            <div class="med">
+                                <span class="red">&nbsp;09 </span><span class="red">&nbsp;03 </span><span class="red">&nbsp;08 </span><span class="red">&nbsp;06 </span><span class="red">&nbsp;07 </span>                            </div>
+                            <div class="bott">
+
+                                <div class="left">2017-07-28</div>
+                                <div class="right">
+                                    <a href="/Message/detailNumbers/id/11.html">详细</a>
+                                    <a href="/charts/lottery/lid/11.html" target="_blank">走势</a>
+                                    <a onclick= 'openLotteryWin("/Lottery/index/bet/11")'  >投注</a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="left news">
+
+                <div class="head">
+
+                    <i class="iconfont">&#xe607;</i>
+                    资讯信息
+                </div>
+
+
+                <div class="news_list">
+
+                    <!-- <div class="hot">
+
+                         <span>今日热点</span>
+
+                         <a href="" class="red">暂时无标题..</a>
+
+                     </div>-->
+
+                    <ul>
+                        <li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/7.html" target="_blank">90后妹子刚结婚 第一次购彩就中大乐透1469万</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/8.html" target="_blank">快三最全玩法技巧汇总！快三就要这么玩！！</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/9.html" target="_blank">体彩高频11选5投注技巧:四种捕捉前一号码攻略</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/10.html" target="_blank">【3D技巧】靠谱的选号技巧 概率周期很重要</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/11.html" target="_blank">轮胎工婚礼上承诺中奖 买彩20年终揽1.3亿</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/12.html" target="_blank">精准倍投擒获福彩3D大奖 技术型彩民分享心得</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/13.html" target="_blank">如何在单场固定奖投注中使奖金收益最大化？</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/14.html" target="_blank">时时彩投注技巧：如何精确估和值</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/15.html" target="_blank">福彩双色球17048期开机号红球连续出号2枚</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/16.html" target="_blank">11选5投注技巧:巧用复式以利润最大</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/17.html" target="_blank">一周星座彩票运势:射手多听意见 摩羯四方来财</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/18.html" target="_blank">3D 排列三通用：三码定胆法</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/19.html" target="_blank">福彩3D中奖需要专业知识和技巧</a>
+                                </li><li><em>【 技巧 】</em> <a
+                                        href="/Information/detail/id/20.html" target="_blank">11选5投注技巧攻略：可巧妙应用重号投注法</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/21.html" target="_blank">豪爽！投"时时彩"全天96期幸运收获大奖</a>
+                                </li><li><em>【 新闻 】</em> <a
+                                        href="/Information/detail/id/22.html" target="_blank">90后小伙半年只买了两回彩票 第二回就中574万</a>
+                                </li>                            
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="left phb">
+
+                <div class="head">
+
+                    <i class="iconfont">&#xe606;</i>
+
+                   中奖排行榜
+
+                </div>
+
+                <div class="sub_head">
+
+                    <em>用户名</em>
+
+                    <em>奖金</em>
+
+                </div>
+
+
+                <div class="list">
+
+                    <ul>
+                                                <li>
+
+                                <span class="number">1</span>
+                        <span class="username">
+                       lzh5****                    </span>
+
+                                <em class="red">
+                                    3880.800元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">2</span>
+                        <span class="username">
+                       asx2****                    </span>
+
+                                <em class="red">
+                                    990.000元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">3</span>
+                        <span class="username">
+                       8467****                    </span>
+
+                                <em class="red">
+                                    396.000元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">4</span>
+                        <span class="username">
+                       he13****                    </span>
+
+                                <em class="red">
+                                    392.000元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">5</span>
+                        <span class="username">
+                       ghtl****                    </span>
+
+                                <em class="red">
+                                    352.800元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">6</span>
+                        <span class="username">
+                       q165****                    </span>
+
+                                <em class="red">
+                                    156.800元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">7</span>
+                        <span class="username">
+                       liul****                    </span>
+
+                                <em class="red">
+                                    137.200元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">8</span>
+                        <span class="username">
+                       tygr****                    </span>
+
+                                <em class="red">
+                                    115.640元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">9</span>
+                        <span class="username">
+                       a201****                    </span>
+
+                                <em class="red">
+                                    98.000元
+                                </em>
+
+                            </li>
+                            <li>
+
+                                <span class="number">10</span>
+                        <span class="username">
+                       fyh7****                    </span>
+
+                                <em class="red">
+                                    98.000元
+                                </em>
+
+                            </li>
+                            
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- main end  -->
+
+
+<!-- footer start  -->
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/main.js" charset="utf-8"></script>
+<script src="https://cpweb.kosunmobile.com/cp336/Public/static/js/user.js" charset="utf-8"></script>
+<div class="footer">
+    <div class="main footer-main">
+        <div class="left footer-qr">
+            <div class="footer-qr-head">
+                <a href="" class="/">
+                    <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5923056e1ba41.png" alt="">
+                </a>
+            </div>
+            <div class="footer-qr-img">
+                <img width="120" height="120" src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/5975862ca366f.png" alt="">
+            </div>
+            <div class="footer-qr-foot">
+                扫一扫 手机购彩更方便
+            </div>
+        </div>
+        <div class="right footer-nav">
+            <div class="footer-nav-item left">
+                <div class="nav_head">
+                    <h2><i class="iconfont">&#xe643;</i> 平台优势</h2>
+                </div>
+                <div class="nav_list nav_first">
+                    <ul class="nav_first_ul">
+                        <li><i class="iconfont">&#xe62a;</i>账户安全</li>
+                        <li><i class="iconfont">&#xe63f;</i>购彩简单</li>
+                        <li><i class="iconfont">&#xe627;</i>领奖方便</li>
+                        <li><i class="iconfont">&#xe62b;</i>提款快速</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-nav-item left">
+                <div class="nav_head">
+                    <h2><i class="iconfont">&#xe640;</i> 账户相关</h2>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="/Help/detail/help_id/1.html#help_1">如何注册帐号</a></li>
+                        <li><a href="/Help/detail/help_id/3.html#help_3">怎么找回登录密码</a></li>
+                        <li><a href="/Help/detail/help_id/37.html#help_37">如何修改手机号码</a></li>
+                        <li><a href="/Help/detail/help_id/26.html#help_26">如何修改真实姓名</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-nav-item left">
+                <div class="nav_head">
+                    <h2><i class="iconfont">&#xe625;</i> 充值购彩</h2>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="/Help/detail/help_id/6.html#help_6">如何进行充值</a></li>
+                        <li><a href="/Help/detail/help_id/46.html#help_46">如何购买彩票</a></li>
+                        <li><a href="/Help/detail/help_id/9.html#help_9">如何查询购彩记录</a></li>
+                        <li><a href="/Help/detail/help_id/20.html#help_20">在本站购彩安全吗</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-nav-item left">
+                <div class="nav_head">
+                    <h2><i class="iconfont">&#xe6a9;</i> 兑奖提款</h2>
+                </div>
+                <div class="nav_list">
+                    <ul>
+                        <li><a href="/Help/detail/help_id/10.html#help_10">怎样进行兑奖</a></li>
+                        <li><a href="/Help/detail/help_id/12.html#help_12">如何进行提款</a></li>
+                        <li><a href="/Help/detail/help_id/13.html#help_13">提款是否收手续费</a></li>
+                        <li><a href="/Help/detail/help_id/16.html#help_16">提款不成功怎么办</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer_sec_icon">
+    <ul>
+        <li>
+            <a href=""><img width="120" height="45" src="https://cpweb.kosunmobile.com/cp336/Public/static/images/sec_icon_1.png" alt=""></a>
+        </li>
+        <li>
+            <a href=""><img width="120" height="45" src="https://cpweb.kosunmobile.com/cp336/Public/static/images/sec_icon_2.png" alt=""></a>
+        </li>
+        <li>
+            <a href=""><img width="120" height="45" src="https://cpweb.kosunmobile.com/cp336/Public/static/images/sec_icon_3.png" alt=""></a>
+        </li>
+        <li>
+            <a href=""><img width="120" height="45" src="https://cpweb.kosunmobile.com/cp336/Public/static/images/sec_icon_4.png" alt=""></a>
+        </li>
+        <li>
+            <a href=""><img width="120" height="45" src="https://cpweb.kosunmobile.com/cp336/Public/static/images/sec_icon_5.png" alt=""></a>
+        </li>
+    </ul>
+</div>
+<div class="footer_copyright">
+
+    <p>
+        2009-2017©336彩票 公司版权所有 <br />
+        336彩票 郑重提示：彩票有风险，投注需谨慎。不向未满18周岁的青少年出售彩票！
+    </p>
+</div>
+<script>
+    var is_index = 2;
+    if(url == undefined){
+        var url ='';
+    }
+    $("#headNav a").each(
+            function(){
+                var heardUrl = $(this).attr("href");
+                $(this).removeClass("index");
+               if(heardUrl == url){
+                    $(this).addClass("index");
+                    is_index = false;
+                }
+            }
+      );
+    if(is_index ==2){
+          $("#headNav a").first().addClass("index");
+    }
+
+    function AddFavorite(sURL, sTitle)
+    {
+        try
+        {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e)
+        {
+            try
+            {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e)
+            {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+
+</script>
+<!-- footer end  -->
+
+<!-- 浮动内容 -->
+<div class="zs_box zs_left">
+
+    <a class="zs_close" onclick="close_lr(1)" href="javascript:;">关闭</a>
+
+    <li class="free_play">
+        <i class="iconfont">&#xe60a;</i>
+        <a href="/Base/tryPlay.html">免费试玩</a>
+    </li>
+	
+    <li class="help_center">
+        <i class="iconfont">&#xe60d;</i>
+        <a href="/help/index.html">帮助中心</a>
+	</li>
+	
+    <a class="qr" href="">
+        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/597585cccf8c9.png" alt="">
+    </a>
+
+    <span class="foot">
+        <em class="b">扫一扫</em>
+        <em class="s">安卓 APP下载</em>
+    </span>
+
+    <a class="zs_top" href="javascript:;"> <i class="go_top"></i> 返回顶部</a>
+</div>
+
+
+<div class="zs_box zs_right">
+
+    <a class="zs_close" onclick="close_lr(1)" href="javascript:;">关闭</a>
+
+    <li class="online_sup">
+        <i class="iconfont">&#xe60c;</i>
+        <a onclick="javascript:OnlineService('https://vp9.live800.com/live800/chatClient/chatbox.jsp?companyID=80000047&configID=2088&k=1');">在线客服</a>
+    </li>
+
+    <li class="line_exa">
+        <i class="iconfont">&#xe60e;</i>
+        <a href="tencent://message/?uin=2376336&Site=web&Menu=yes">QQ客服</a>
+    </li>
+
+    <a class="qr" href="">
+        <img src="https://cpweb.kosunmobile.com/cp336.kosungames.com/upload/597585e316ca8.png" alt="">
+    </a>
+
+    <span class="foot">
+        <em class="b">扫一扫</em>
+        <em class="s">苹果 APP下载</em>
+    </span>
+
+    <a class="zs_top" href="javascript:;"> <i class="go_top"></i> 返回顶部</a>
+
+</div>
+<style>
+    .zs_box{
+        z-index: 100;
+    }
+</style>
+<!-- <script src="http://182.16.31.122:8945/ppcom/assets/pp-library.min.js" type="text/javascript"></script> -->
+<script>
+
+function OnlineService(url)
+{
+	window.open(url);
+
+}
+
+</script>
+<!-- end -->
+
+
+    <script>
+
+        function addNumber(this2) {
+            var value = $(this2).parent().find(".plus_value").val();
+            value = parseInt(value);
+            value = value + 1;
+            $(this2).parent().find(".plus_value").val(value);
+            $(this2).parent().parent().find(".bet_money").html(value * 2);
+        }
+
+        function reduceNumber(this2) {
+            var value = $(this2).parent().find(".plus_value").val();
+            value = parseInt(value);
+            value = value - 1;
+            if (value < 1) {
+                value = 1;
+                alert("最小投注1倍");
+            }
+            $(this2).parent().find(".plus_value").val(value);
+            $(this2).parent().parent().find(".bet_money").html(value * 2);
+        }
+        $(".plus_value").keyup(function () {
+            var value = $(this).val();
+
+
+            if(value){
+                value = parseInt(value);
+            var reg = new RegExp("^[0-9]*$");
+            if(!reg.test(value)){
+                value = 1;
+              }
+            value = value*1;
+            if(value>999){
+                value =999;
+               }
+            $(this).val(value);
+            $(this).parent().parent().find(".bet_money").html(value * 2);
+            }
+        });
+
+        function changeNumber(this2) {
+            var data_number = $(this2).attr("data_number").split(",");
+            var countNumber = $(this2).attr("countNumber");
+            var newNumber = getRandomArrayElements(data_number, parseInt(countNumber));
+            var html = "";
+             $.each(newNumber, function (key, value) {
+                //    html = html + "<i number='"+value+"'class=\"ab q1 num_" + value + "\"></i>";
+               //  html = html + "<i class=\"qiu_box_number\">" + value + "</i>"
+                 html = html +" <div class=\"ball-wrap\"> <div class=\"ball\"  number='"+value+"' >"+value+"</div></div>";
+                });
+            $(this2).parent().parent().parent().find(".qiu_box").html(html);
+        }
+
+
+        function timeToStr(current, restTime_obj) {
+            var date3 = parseInt(current);
+            var days = Math.floor(date3 / (24 * 3600 * 1000));
+            var leave1 = date3 % (24 * 3600 * 1000);
+            var hours = Math.floor(leave1 / (3600 * 1000));
+            var leave2 = leave1 % (3600 * 1000);
+            var minutes = Math.floor(leave2 / (60 * 1000));
+            var leave3 = leave2 % (60 * 1000);
+            var seconds = Math.round(leave3 / 1000);
+            var html2 = days + "天" + hours + "时" + minutes + "分" + seconds + "秒";
+            restTime_obj.html(html2);
+        }
+
+
+        function postSubmit(this2,lotteryId,lotteryName,categoryId){
+            var   number_str ="";
+            $(this2).parent().parent().parent().find(".ball").each(function(){
+                number_str = number_str +  $(this).attr("number")+"," ;
+            });
+            var bet_money =    $(this2).parent().parent().find(".bet_money").text();
+            var bei_number =    $(this2).parent().parent().find(".plus_value").val();
+            bei_number =     parseInt(bei_number) ;
+
+            if(!bei_number){
+                alert("清填写倍数");
+                return false;
+            }
+            bet_money  = parseInt(bet_money) ;
+            number_str = number_str.replace(/(,*$)/g,"");
+
+            var play_id = 0;
+            switch (lotteryId) {
+                case "1":
+                    play_id = 1;
+                    break;
+                case "6":
+                    play_id = 90;
+                    break;
+                case "11":
+                    play_id = 102;
+                    break;
+                case "16":
+                    play_id = 130;
+                    break;
+                default:
+
+            }
+
+            var url = "/Lottery/index/bet/"+lotteryId+"/"+play_id+"/"+bei_number+"/"+bet_money+"/"+ number_str;
+            openLotteryWin(url);
+            return false;
+
+        }
+
+
+        var  restTime_obj1 =  $(".restTime1");
+        var nowTime = restTime_obj1.attr("nowtime");
+        var endTime = restTime_obj1.attr("endtime");
+        var current1 = ( parseInt(endTime) - parseInt(nowTime)-3 ) * 1000;
+        var lottertid1 = restTime_obj1.attr("lottertid");
+        var begin_number1 = 0;
+        function restTime1() {
+            timeToStr(current1, restTime_obj1);
+            current1 = current1 - 1000;
+            if (current1 < 1) {
+                current1 = 0;
+            }
+            if (current1 < 1) {
+            	if(begin_number1 > 1){
+       				return false;
+       			}
+            	begin_number1 ++;
+                var timestamp = new Date().getTime();
+                var lottert_id = restTime_obj1.attr("lottertid");
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Index/getNextPhase.html",
+                    data: "lottertId="+lottert_id+"&m="+Math.random(),
+                    success: function(msg){
+                    	begin_number1 = 0;
+                        if(msg.lottery_issue_end_time){
+                            var  remaining =  parseInt(msg.remaining);
+
+                            var timestamp2 = new Date().getTime();
+                            var cha =    (timestamp2- timestamp)/2;
+                            cha =  parseInt(cha);
+                            remaining = remaining*1000-cha;
+
+                           remaining = remaining>0?remaining:0;
+                           current1 = remaining;
+                        }else{
+                            current1  =0;
+                        }
+                        var  html_number = parseInt(msg.lottery_issue_no);
+                        $(".restTime1").parent().find(".issure").html(html_number);
+                    }
+                });
+            }
+        }
+        setInterval("restTime1()", 1000);
+
+
+
+        var restTime_obj2 =  $(".restTime2");
+        var nowTime2 = restTime_obj2.attr("nowtime");
+        var endTime2 = restTime_obj2.attr("endtime");
+        var current2 = ( parseInt(endTime2) - parseInt(nowTime2)-3 ) * 1000;
+        var lottertid2 = restTime_obj2.attr("lottertid");
+        var begin_number2 = 0;
+        function restTime2() {
+            timeToStr(current2, restTime_obj2);
+            current2 = current2 - 1000;
+            if (current2 < 1) {
+                current2 = 0;
+            }
+
+            if (current2 < 1) {
+            	if(begin_number2 > 1){
+       				return false;
+       			}
+            	begin_number2 ++;
+            	
+                is_post2 = false;
+                var timestamp = new Date().getTime();
+                var lottert_id = restTime_obj2.attr("lottertid");
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Index/getNextPhase.html",
+                    data: "lottertId="+lottert_id+"&m="+Math.random(),
+                    success: function(msg){
+                    	begin_number2 = 0;
+                        if(msg.lottery_issue_end_time){
+                            var  remaining =  parseInt(msg.remaining);
+
+                            var timestamp2 = new Date().getTime();
+                            var cha =    (timestamp2- timestamp)/2;
+                            cha =  parseInt(cha);
+                            remaining = remaining*1000-cha;
+                            remaining = remaining>0?remaining:0;
+
+                            current2 = remaining;
+                        }else{
+                            current2  =0;
+                        }
+                        var  html_number = parseInt(msg.lottery_issue_no);
+                        $(".restTime2").parent().find(".issure").html(html_number);
+                    }
+                });
+            }
+        }
+        setInterval("restTime2()", 1000);
+
+
+        var  restTime_obj3 =  $(".restTime3");
+        var nowTime3 = restTime_obj3.attr("nowtime");
+        var endTime3 = restTime_obj3.attr("endtime");
+        var current3 = ( parseInt(endTime3) - parseInt(nowTime3)-3 ) * 1000;
+        var lottertid3 = restTime_obj3.attr("lottertid");
+        var begin_number3 = 0;
+        function restTime3() {
+            timeToStr(current3, restTime_obj3);
+            current3 = current3 - 1000;
+            if (current3 < 1) {
+                current3 = 0;
+            }
+
+            if (current3<1) {
+            	if(begin_number3 > 1){
+       				return false;
+       			}
+            	begin_number3 ++;
+                var lottert_id = restTime_obj3.attr("lottertid");
+                var timestamp = new Date().getTime();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Index/getNextPhase.html",
+                    data: "lottertId="+lottert_id+"&m="+Math.random(),
+                    success: function(msg){
+                    	begin_number3= 0;
+                        if(msg.lottery_issue_end_time){
+                            var  remaining =  parseInt(msg.remaining);
+
+                            var timestamp2 = new Date().getTime();
+                            var cha =    (timestamp2- timestamp)/2;
+                            cha =  parseInt(cha);
+                            remaining = remaining*1000-cha;
+
+                            remaining = remaining>0?remaining:0;
+
+                            current3 = remaining;
+                        }else{
+                            current3  =0;
+                        }
+                        var  html_number = parseInt(msg.lottery_issue_no);
+                        $(".restTime3").parent().find(".issure").html(html_number);
+                    }
+                });
+            }
+        }
+        setInterval("restTime3()", 1000);
+
+
+        var  restTime_obj4 =  $(".restTime4");
+        var nowTime4 = restTime_obj4.attr("nowtime");
+        var endTime4 = restTime_obj4.attr("endtime");
+        var current4 = ( parseInt(endTime4) - parseInt(nowTime4)-3 ) * 1000;
+        var lottertid4 = restTime_obj4.attr("lottertid");
+        var begin_number4 = 0;
+        function restTime4() {
+            timeToStr(current4, restTime_obj4);
+            current4 = current4 - 1000;
+            if (current4 < 1) {
+                current4 = 0;
+            }
+     
+            if (current4 < 1) {
+            	
+            	if(begin_number4 > 1){
+       				return false;
+       			}
+            	begin_number4 ++;
+                is_post4 = false;
+
+                var lottert_id = restTime_obj4.attr("lottertid");
+                var timestamp = new Date().getTime();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Index/getNextPhase.html",
+                    data: "lottertId="+lottert_id+"&m="+Math.random(),
+                    success: function(msg){
+                    	begin_number4 = 0;
+                        if(msg.lottery_issue_end_time){
+                            var  remaining =  parseInt(msg.remaining);
+
+                            var timestamp2 = new Date().getTime();
+                            var cha =    (timestamp2- timestamp)/2;
+                            cha =  parseInt(cha);
+                            remaining = remaining*1000-cha;
+
+                            remaining = remaining>0?remaining:0;
+
+                            current4 = remaining;
+                        }else{
+                            current4  =0;
+                        }
+                        var  html_number = parseInt(msg.lottery_issue_no);
+                        $(".restTime4").parent().find(".issure").html(html_number);
+                    }
+                });
+            }
+        }
+        setInterval("restTime4()", 1000);
+
+
+
+        function getRandomArrayElements(arr, count) {
+            var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
+            while (i-- > min) {
+                index = Math.floor((i + 1) * Math.random());
+                temp = shuffled[index];
+                shuffled[index] = shuffled[i];
+                shuffled[i] = temp;
+            }
+            return shuffled.slice(min);
+        }
+
+    </script>
+
+</body>
+</html>

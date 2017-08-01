@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html  id="ng-app" ng-app="portalApp" meidon-time="2017/07/28 07:15:54"  moment-lang="zh-CN"  ng-init="'吉祥坊'">
+<head>
+    <title>吉祥坊 - 吉祥坊官方网站</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="http://cdn.ccpt-cn.com:8888/Web.Portal/BB001-01.Portal/Content/Views/Shared/images/favicon.ico" />
+
+    
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="/bundles/font-awesome?v=QqiES8bMVFD1YGmU_C7h6nsgr358Xu-gbi4VJ0NwJNs1" rel="stylesheet"/>
+
+    <link href="/bundles/custom?v=D_lzBHWKlyVrRuB82LzDD6BzhRovkUogKkq26qIy4e81" rel="stylesheet"/>
+
+    <link href="/bundles/site?v=sCAPrSiBcj5H2tbQpUs0PN8749f3mGPqKqBcjQDlrd41" rel="stylesheet"/>
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet" />
+    
+    <link href="/bundles/home?v=moGm_1Zk0ATO9Dd1CH89A6pkGoe_Wrdgrxp1dN66wgQ1" rel="stylesheet"/>
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet" />
+
+
+    
+    
+    
+    <script src="/Scripts/each-site/jquery-1.7.1.min.js"></script>
+    <script src="/bundles/common?v=43K0U2PTo3hjXKinjDELLvolTGd1xxqmZDl99bYH0HA1"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-signalR/v2.1.2/jquery.signalR-2.1.2.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body class="layout" ng-controller="LayoutCtrl">
+    <header id="header">
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <a href="/"></a>
+            </div>
+            <div id="header-bot">
+                <div class="top clearfix">
+                    
+                    <div id="div-meiDonNow">
+                        <span ng-bind="meiDonNow|MeidonTime"></span>
+                    </div>
+                    
+                        <div id="account-box">
+                            <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing" class="clearfix">
+                                <input id="login_account" type="text" placeholder="帐号" ng-model="loginParams.account" required autofocus />
+                                <input id="login_password" type="password" placeholder="密码" ng-model="loginParams.password" required />
+
+                                <div id="check-code-wrapper">
+                                    <input data-checkcode-retriever="checkCode" checkcode-type="Login" type="text" placeholder="验证码" ng-model="loginParams.checkCode" required />
+                                    <img id="captcha" ng-show="checkCode.image" ng-src="{{checkCode.image}}" />
+                                </div>
+                                <button id="login-box" class="login-btn" ng-disabled="isProcessing" ng-bind="isProcessing ? '登入...' : '登入'">登入</button>
+                                <button class="forget-btn" ng-click="lineChatClick()" type="button">忘记密码</button>
+                                <button class="join-btn" ng-click="RegisterClick()" type="button"><i class="fa fa-user"></i> 免费开户</button>
+                                <div id="agree" ng-show="loginOver">
+                                    点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                                </div>
+                            </form>
+                        </div>
+                                                        </div>
+                
+                <nav>
+                    <ul id="nav" ng-controller="LobbiesCtrl">
+                        <li><a href="/" title="吉祥坊"><i class="fa fa-home"></i></a></li>
+                        <li>
+                            <a href="/Lobby/Sport">吉祥体育</a>
+                            <ul class="subnav">
+                                <li>易记域名：2012.com</li>
+                                <li>
+                                    <div class="nav-title">游戏指南：</div>
+                                    <ol class="guide">
+                                        <li class="line">在线客服<br /><a href="javascript:void(0)" ng-click="lineChatClick()">随时为您服务</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <div class="nav-title">三大场馆供您竞猜：</div>
+                                    <ol class="play live">
+                                        <li>吉祥体育<span class="hand-ptr" ng-click="toSingSport()">进入</span></li>
+                                        <li>SABA/精彩厅<span class="hand-ptr" ng-click="toSabaGame()">进入</span></li>
+                                        <li>BBIN/冠军厅<span class="hand-ptr" ng-click="toBbSport()">进入</span></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Lobby/Live">真人娱乐城</a>
+                            <ul class="subnav">
+                                <li>易记域名：2012.com</li>
+                                <li>
+                                    <div class="nav-title">游戏指南：</div>
+                                    <ol class="guide">
+                                        <li class="line">在线客服<br /><a href="javascript:void(0)" ng-click="lineChatClick()">随时为您服务</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <div class="nav-title">七大场馆供您娱乐：</div>
+                                    <ol class="play live">
+                                        <li>BBIN/旗舰厅<span class="hand-ptr" ng-click="toBbLive()">进入</span></li>
+                                        <li>AG/锦绣厅<span class="hand-ptr" ng-click="toAgLive()">进入</span></li>
+                                        <li>MG/如意厅 <span class="hand-ptr" ng-click="toMgDealer()">进入</span></li>
+                                        <li>PT/福临厅<span class="hand-ptr" ng-click="toPtLive()">进入</span></li>
+                                        <li>GPI/富贵厅<span class="hand-ptr" ng-click="toGpiLive()">进入</span></li>
+                                        <li>AB/鸿运厅<span class="hand-ptr" ng-click="toAbLive()">进入</span></li>
+                                        <li>EVO/吉祥厅<span class="hand-ptr" ng-click="toEvoLive()">进入</span></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <div class="nav-title">首存红利</div>
+                                    <div class="pic-live pic-pro"><a href="/Promotion"></a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Lobby/Lottery">快乐彩</a>
+                            <ul class="subnav">
+                                <li>易记域名：2012.com</li>
+                                <li>
+                                    <div class="nav-title">游戏指南：</div>
+                                    <ol class="guide">
+                                        <li class="line">在线客服<br /><a href="javascript:void(0)" ng-click="lineChatClick()">随时为您服务</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <ol class="play lottery">
+                                        <li id="lot-bb" ng-click="toBbLottery()"></li>
+                                        <li id="lot-eg" ng-click="toEgLottery()"></li>
+                                        <li id="lot-eg3" ng-click="toEg3MarkSix()"></li>
+                                        <li id="lot-ig" ng-click="toIgLottery()"></li>
+                                        <li id="lot-ig6" ng-click="toIgMarkSix()"></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <div class="nav-title">富贵彩手机客户端-重磅推出</div>
+                                    <div class="pic-lottery pic-pro "><a href="/Promotion"></a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/Lobby/Game">小游戏</a>
+                            <ul class="subnav">
+                                <li>易记域名：2012.com</li>
+                                <li>
+                                    <div class="nav-title">游戏指南：</div>
+                                    <ol class="guide">
+                                        <li class="line">在线客服<br /><a href="javascript:void(0)" ng-click="lineChatClick()">随时为您服务</a></li>
+                                    </ol>
+                                </li>
+                                <li>
+                                    <div class="nav-title">十三大场馆供您娱乐：</div>
+                                    <ol class="play live">
+                                        <li>SG/娱乐厅<span class="hand-ptr" ng-click="toSgFlash()">进入</span></li>
+                                        <li>捕鱼达人/娱乐厅<span class="hand-ptr" ng-click="toFish()">进入</span></li>
+                                        <li>MG/国际厅<span class="hand-ptr" ng-click="toMgFlash()">进入</span></li>
+                                        <li>AG/寰亚厅<span class="hand-ptr" ng-click="toAgGame()">进入</span></li>
+                                        <li>PRG/貴賓厅<span class="hand-ptr" ng-click="toPrgFlash()">进入</span></li>
+                                        <li>PT/游艺厅<span class="hand-ptr" ng-click="toPtFlash()">进入</span></li>
+                                        <li>AG/捕鱼王<span class="hand-ptr" ng-click="toAgFish()">进入</span></li>
+                                        <li>GPI/娱乐厅<span class="hand-ptr" ng-click="toGpiFlash()">进入</span></li>
+                                        <li>GNS/娱乐厅<span class="hand-ptr" ng-click="toGnsHtml()">进入</span></li>
+                                        <li>MW/电子厅<span class="hand-ptr" ng-click="toMwGame()">进入</span></li>
+                                        <li>BBIN/旗舰厅<span class="hand-ptr" ng-click="toBbGame()">进入</span></li>
+                                        <li>HB/电子厅<span class="hand-ptr" ng-click="toHabaHtml()">进入</span></li>
+                                        <li>JDB/电子厅<span class="hand-ptr" ng-click="toJdbHtml()">进入</span></li>
+                                    </ol>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="/Promotion">优惠</a></li>
+                    </ul>
+                </nav>
+                <div class="bottom">
+                    <ul class="sub">
+                        <li class="activity"><a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" target="_blank"><i class="fa fa-gift" aria-hidden="true"></i>优惠办理大厅</a></li>
+                        <li><a href="/Partner">代理加盟</a></li>
+                            <li id="free"><a href="/Trial/Apply" target="_blank"><i class="fa fa-gamepad"></i> 免费试玩</a></li>
+                        <li id="mob"><a href="/Mobile"><i class="fa fa-mobile"></i> 手机投注</a></li>
+                        <li id="chat"><a href="javascript:void(0)" ng-click="lineChatClick()"><i class="fa fa-comments"></i> 在线客服</a></li>
+                        <li id="language">
+                            <select id="select-language" select-language>
+                                <option ng-repeat="item in language | filter:{ Key: currentLanguage }" data-language="{{item.Key}}" value="{{item.Key}}" ng-bind="item.Value" selected></option>
+                                <option ng-repeat="item in language" ng-if="item.Key != currentLanguage" data-language="{{item.Key}}" value="{{item.Key}}" ng-bind="item.Value"></option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        
+<div id="home" ng-controller="HomeCtrl">
+    <div id="banner">
+        <!--[if !IE | gte IE 9]><!-->
+        <iframe src="http://cdn.ccpt-cn.com:8888/Web.Portal/BB001-01.Portal/Content/Views/Home/images/Banner/banner.html" scrolling="no"></iframe>
+        <!--<![endif]-->
+        <!--[if lt IE 9]>
+        <object type="application/x-shockwave-flash" data="http://cdn.ccpt-cn.com:8888/Web.Portal/BB001-01.Portal/Content/Views/Shared/images/Banner/banner.swf" width="980" height="280">
+            <param name="wmode" value="transparent">
+            <param name="quality" value="high">
+            <param name="autoPlay" value="true">
+            <param name="movie" value="http://cdn.ccpt-cn.com:8888/Web.Portal/BB001-01.Portal/Content/Views/Home/images/Banner/banner.swf" />
+        </object>
+        <![endif]-->
+    </div>
+    <div class="wrapper">
+        <ul id="game">
+            <li>
+                <a id="h-dep" href="/How/Deposit"></a>
+                <a id="h-pro" href="/Promotion"></a>
+                <a id="h-mob" href="/Mobile"></a>
+            </li>
+            <li>
+                <div id="news" class="marqueen" ng-click="newsClick()">
+                    ★☆★尊敬的会员：您好，由于受到第三方上游风控影响，导致（线上存款）【方法C：微信支付】与【方法D：支付宝支付】出现不稳定的现象，要是提示（商户异常、商户限额、等无法支付的提示）请您关闭当前页面， 重新填写金额进行充值，由此给您带来不便敬请谅解，恢复后会第一时间通知，感谢您长期以来的大力支持，谢谢~
+★★★近期，360浏览器对博彩网址的拦截方式升级，出现访问延迟、502错误提示等问题，为了让广大会员顺利访问我司的网站，建议大家使用【谷歌】或是【火狐浏览器】，希望访问会有所改观！
+★通知：最近有会员反映打开吉祥坊域名会跳转到别的网站请会员注意了这是您本地网络被人劫持的原因,请会员修改本地DNS或者换别的网络登录,吉祥坊域名从来不会改变也不会更改网站名称,给您带来的不便敬请谅解！ 感谢您长期以来对本公司的支持与关注，祝您生活愉快！
+★★★尊敬的会员：您好!吉祥坊官方网址为 www.jixiangfang.com 易记网址为www.2012.com 为确保您的账户及资金安全，请勿登陆非吉祥坊官网外的其他网址参与游戏！如您遇到任何问题或者不确定的信息，请第一时间联系在线客户或拨打官方唯一电话：0063-916-3799888 !
+                </div>
+                <a id="h-sport" href="/Lobby/Sport"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+    <aside id="marquee">
+        <header>
+            <h2>最新消息</h2>
+        </header>
+        <ul id="newsBags">
+            <li ng-repeat="news in newsBags track by $index">{{news}}</li>
+        </ul>
+        <footer>
+            <span ng-click="closeMarquee()">关闭</span>
+        </footer>
+    </aside>
+</div>
+
+    </div>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div id="footer-copy">
+                <span>Copyright &#169; 吉祥坊 2012.com Reserved</span>
+            </div>
+            <ul id="footer-nav">
+                <li><a href="/Partner">代理加盟</a></li>
+                <li><a href="/How/Deposit">如何存款</a></li>
+                <li><a href="/How/Withdrawal">如何取款</a></li>
+                <li><a href="/Mobile">手机投注</a></li>
+                <li><a href="/AboutUS">关于我们</a></li>
+                <li><a href="/Contact">联络我们</a></li>
+                <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+            </ul>
+            <div id="footer-suggest">
+                <ul>
+                    <li id="flash">
+                        <a href="http://aihdownload.adobe.com/bin/install_flashplayer11x64ax_gtba_aih.exe"></a>
+                    </li>
+                    <li>
+                        系统要求:本站浏览最佳分辨率为1024x768 建议您使用IE10浏览器或GOOGLE浏览器进行游戏<br />
+                        用户必须安装Flash 10 viewer或以上
+                    </li>
+                </ul>
+            </div>
+            <div id="footer-text">
+                <ul class="sitemap">
+                    <li>
+                        <p class="sitemap-title">
+                            信息<br>
+                        </p>
+                        <p class="sitemap-title2 ">免费注册</p>
+                        <p class="sitemap-content">
+
+                            免费注册吉祥坊账户即可享受我们高品质、高服务，高安保的娱乐游戏及所有优惠。我们致力于提供给全球客户最有价值的游戏体验及各类优惠服务。
+                        </p>
+                        <p class="sitemap-title2 ">合作伙伴</p>
+                        <p class="sitemap-content">今天开始加入吉祥坊的合作伙伴计划。通过介绍新客户加入吉祥坊，每月您将获得高额的佣金回报。 </p>
+                        <p class="sitemap-title2 ">责任博彩</p>
+                        <p class="sitemap-content">吉祥坊致力于为客户提供优质的游戏平台，并设置和升级多项安全设施，以确保游戏的公平、公正性。</p>
+                        <p class="sitemap-title2 ">安保</p>
+                        <p class="sitemap-content">由于您的个人信息保密度至关重要。我们将坚决实行严格保密制度以确保您的个人隐私。因此，我们采用坚实、稳定与安全的安保系统。</p>
+                    </li>
+                    <li>
+                        <p class="sitemap-title">
+                            全线产品<br>
+                        </p>
+                        <p class="sitemap-title2 ">体育</p>
+                        <p class="sitemap-content">我们提供您喜爱的体育赛事。如足球五大联 赛、世界杯、欧洲冠军杯、NBA、以及四大网球公开赛、排球、F1赛车等。除了体育以外，我们也提供其它一系列产品。</p>
+                        <p class="sitemap-title2 ">真人游乐场</p>
+                        <p class="sitemap-content">我们的真人游乐场玩法众多如真人白家乐，骰宝，龙虎及轮盘。通过现场视频，让您亲临其境感受到前所未有的真实体验。</p>
+                        <p class="sitemap-title2 ">小游戏</p>
+                        <p class="sitemap-content">我们的游戏包括轮盘、21点、电子扑克、等在线游乐场游戏，除此之外您更有机会赢得吉祥坊的各类高额累积奖池。</p>
+                    </li>
+                    <li>
+                        <p class="sitemap-title">
+                            信息中心<br>
+                        </p>
+                        <p class="sitemap-title2 ">优惠活动</p>
+                        <p class="sitemap-content">新用户享有首次存款红利及开户礼品。老客户同样享有多种优惠服务。</p>
+                        <p class="sitemap-title2 ">帮助中心</p>
+                        <p class="sitemap-content">您可以通过常见问题栏目获得有关开户、充值、提款及其他问题的解答和帮助。</p>
+
+                        <p class="sitemap-title2 ">支付方式</p>
+                        <p class="sitemap-content">吉祥坊为客户提供众多的存取款方式并保障您存取过程顺利及时，使资金安全快捷到达。一旦成功存款，您即可享有吉祥坊提供的所有游戏项目。 </p>
+                        <p class="sitemap-title2 ">联络我们</p>
+                        <p class="sitemap-content">如果您有任何关于体育及游乐场的疑问，可通过@Resources.Shared.Online_Chat、电话及电邮与我们取得联系。吉祥坊提供7x24小时不间断的贴心客户服务。</p>
+                    </li>
+                    <li>
+                        <p class="sitemap-title">
+                            投注信息<br>
+                        </p>
+                        <p class="sitemap-title2 ">赛果</p>
+                        <p class="sitemap-content">您可查阅吉祥坊网站内进一个星期的所有体育赛事的赛果。</p>
+                        <p class="sitemap-title2 ">体育规则</p>
+                        <p class="sitemap-content">所有在吉祥坊的投注都需要遵从本公司一般规则中的条款。</p>
+                        <p class="sitemap-title2 ">娱乐城博彩</p>
+                        <p class="sitemap-content">我们的真人游乐场提供限额查询、结果查询等。您所需的所有信息将显示在荧幕上，以便您进行游戏。您亦可选择显示或隐藏个别的信息。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <aside id="services-l" scrollfollow>
+        <ul class="girl">
+            <li data-girl="01"></li>
+            <li data-girl="02">
+                <a href="http://www.2012cj.com" target="_blank"></a>
+            </li>
+            <li class="activity"><a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" target="_blank"></a></li>
+            <li data-girl="04">
+                <a href="http://www.google.cn/chrome/browser/desktop/index.html" target="_blank"></a>
+            </li>
+            <li data-girl="03" service-closed></li>
+        </ul>
+    </aside>
+
+    <aside id="services-r" class="service" scrollfollow>
+        <ul class="girl">
+            <li data-girl="trigger" service-ninja></li>
+            <li data-girl="chat" ng-click="lineChatClick()" title="在线客服"></li>
+                <li data-girl="reg" ng-click="RegisterClick()"></li>
+                            <li data-girl="freeplay" ng-click="FreePlayClick()" ninja></li>
+            <li data-girl="mobile" ninja><a href="/Mobile"></a></li>
+            <li data-girl="qq" ng-click="qqClick(ContactInfo.QQ)" title="{{ContactInfo.QQ}}"></li>
+            <li data-girl="tel" title="国际热线" ninja></li>
+            <li data-girl="close" service-closed></li>
+        </ul>
+    </aside>
+    
+    <aside id="services-tl">
+        <a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" tar target="_blank"></a>
+    </aside>
+    
+    <div ng-if="ContactInfo.Dialog!=='' && ContactInfo.Dialog!==undefined" id="ad-dialog" title="{{ContactInfo.DialogTitle}}">
+        <a href="/Promotion"><img ng-src="{{ContactInfo.Dialog}}" /></a>
+        <div class="dialog-footer" ng-bind="ContactInfo.DialogFooter"></div>
+    </div>
+
+    
+    <div style="display:none">
+        <!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+        <div id="cinUUQ" style="z-index:100;position:absolute"></div><div id="sdnUUQ" style="display:none"></div>
+        <script type="text/javascript">var senUUQ = document.createElement("script"); senUUQ.type = "text/javascript"; var senUUQs = (location.protocol.indexOf("https") == 0 ? "https" : "http") + "://image.providesupport.com/js/04jzfiyv16xqi1f1cma9w8t5kw/safe-monitor.js?ps_h=nUUQ&ps_t=" + new Date().getTime(); setTimeout("senUUQ.src=senUUQs;document.getElementById('sdnUUQ').appendChild(senUUQ)", 1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=04jzfiyv16xqi1f1cma9w8t5kw"><img src="http://image.providesupport.com/image/04jzfiyv16xqi1f1cma9w8t5kw.gif" style="border:0px" alt="" /></a></div></noscript>
+        <!-- END ProvideSupport.com Visitor Monitoring Code -->
+    </div>
+
+    
+    <div style="display:none;">
+        <script language="javascript" type="text/javascript" src="http://js.users.51.la/18892853.js"></script>
+    </div>
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20140418"></script>
+    <script src="/Scripts/_config.js"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services?v=VogNHUBD5AdE-nejwNwPuSMaiD4rMfKYNH3PSuEvw0E1"></script>
+
+    <script src="/angular-controllers?v=TMfCGXrKfgrVkZRSSXIK4OfarU41a3TT7uIKT4qxCyE1"></script>
+
+    <script src="/angular-directives?v=q4W3N7y-s0orG00a1GtfR8g0x0Z0iKS7mvY6n8sBwcs1"></script>
+
+    <script src="/angular-filters?v=8bBCjaQ-419QVImadOi_l1dbU7abzLuyqjCJzLJvruU1"></script>
+
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Custom/common.js"></script>
+
+    
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="ZQnMaRG-c0qBuJ2AhM0iVEA6dMqTIY6hapHwroD0frVL0CNR4pXXYEg2gZ9q0JImvoEKL5sLMq7zl-Tix1i3fc8US7Q1" />
+</body>
+</html>

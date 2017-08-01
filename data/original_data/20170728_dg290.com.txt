@@ -1,0 +1,587 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>帝国娱乐</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!-- Le styles -->
+<link href="/css/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/css/css.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<!-- Scripts -->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/js/tab.js"></script>
+<script type="text/javascript" src="/js/jquery.superslide.2.1.1.js"></script>
+<script src="/js/jquery-ui-1.8.21.custom.min.js"></script>
+<link href="/css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
+<script src="/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/js/movefloat.js"></script>
+<script type="text/javascript" src="/js/jquery.cookies.min.js"></script>
+<script src="/js/jquery.cookies.min.js" type="text/javascript"></script>
+  </head>
+  
+  <body>
+  		<!-- 头部开始 -->
+ 	 	
+
+
+<script>
+function memberInfo(){
+ 	var accountno = $("#accountno").val();
+	var password = $("#password").val();
+	var captcha = $("#code").val();
+
+	if(!accountno){
+		alert("用户名不能为空");
+		return false;
+	} else if(!password){
+		alert("密码不能为空");
+		return false;
+	} else if(!captcha){
+		alert("验证码不能为空");
+		return false;
+	} else if(password.length<6){
+		alert("密码不能小于6位!");
+		return false;
+	}
+		var data = {};
+		data["password"] = password;
+		data["account"] = accountno;
+		data["verifyCode"] = captcha;
+		$.ajax({
+			url : "/login.do",
+			type : "post",
+			data : data,
+			success : function(result, textStatus, xhr) {
+				var ceipstate = xhr.getResponseHeader("ceipstate")
+				if (!ceipstate || ceipstate == 1) {// 正常响应
+					var showIndex = $('#showIndex').val();//是否跳转彩票首页
+					if(showIndex){
+						parent.location.href = '/lottery/index.do';
+					}else{
+						parent.location.href = '/index.do';
+					}
+				} else if (ceipstate == 2) {// 后台异常
+					alert("后台异常，请联系管理员!");
+					reloadImg();
+				} else if (ceipstate == 3) { // 业务异常
+					alert(result.msg);
+					reloadImg();
+				}
+			}
+		});
+}
+
+function reloadImg(){
+		var url = "/verifycode.do?timestamp=" + (new Date().getTime());
+		$("#reg-validCode").attr("src", url);
+}
+
+$(function(){
+	$('#reg-validCode').click(function(){
+		reloadImg();
+	});
+});
+
+</script>
+    <div id="mainall">
+      <div id="mainBody">
+        <div id="header">
+          <div id="headtop">
+            <div id="headline"></div>
+            <div class="topleft" id="hktime">美东时间：2017-02-21 - 09:07:20</div>
+            <div id="hdselect">
+              <a href="/index/rookieHelp.do?code=4" style="color:#E1B262;">招募代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/daili" target="_blank" style=" color:#00FFFF; ">代理登入</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/index/xljc.do" target="_blank" style="color:#4CFF00;">备用网址</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="javascript:void(0)" style="color:#FFFFFF;" onclick="SetHomePage(&#39;http://&#39;+window.location.host)">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="javascript:void(0)" style="color:#FFFFFF;" onclick="AddFavorite(&#39;http://&#39;+window.location.host,document.title)">加入收藏</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="/index/phone.do" target="_blank" style=" color:#00FFFF; ">手机投注</a></div>
+          </div>
+          <div id="headmiddle">
+            <div id="headflash"></div>
+            <div id="header-logo">
+              <a href="/index.do">
+
+         	    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="380" height="100">
+                    <param name="movie" value="/images/logo.swf">
+                    <param name="wmode" value="transparent">
+                    <param name="quality" value="high">
+                    <embed src="/images/logo.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" width="380" height="100">
+                </object>
+                </a>
+            </div>
+            
+            
+            <div id="headright">
+              <div id="loginbox">
+                  <div id="loginarea">
+                    <div class="logintxt">
+                      <input name="username" tabindex="1" type="text" class="za_text" placeholder="用户名" id="accountno" maxlength="20"></div>
+                    <div class="logintxt">
+                      <input name="password" tabindex="2" type="password" class="za_text" id="password" maxlength="20" placeholder="密码"></div>
+                      <div> <input type="text" tabindex="3" class="za_text" id="code" placeholder="验证码" onfocus="reloadImg();" style="width: 100px;">
+                        <img src="/verifycode.do" id="reg-validCode" title="(点选此处产生新验证码)"
+                        style="height:30px; width:60px;" onclick="reloadImg();">
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="logintxt1">
+                    <input class="Loginbtn" onclick="memberInfo()" name="Submit" type="button" value="登入">
+                    <div id="Loginbtnreg">
+                      <a href="/regpage.do">注册</a></div>
+                    <div id="Loginbtnpwd">
+                      <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank" title="忘记密码">忘记密码?</a></div>
+                  </div>
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="clear"></div>
+          <div id="L-Menual" class="nav">
+            <ul id="main-Menual">
+              <li class="move" id="topmove" style="left: -1px;"></li>
+              <li class="LS-home current" id="n1">
+                <a href="/index.do">首页</a></li>
+              <li class="LS-ball" id="n2">
+                <a href="/index/sport.do">体育赛事</a></li>
+              <li class="LS-youhui" id="n3">
+                <a href="/index/real.do" class="textGlitter" style="color: rgb(255, 0, 0);">视讯直播<span></span></a></li>
+              <li class="LS-youhui" id="n4">
+                <a href="/index/egame.do">电子游艺
+                  </a>
+              </li>
+              <li class="LS-youhui" id="n5">
+                <a href="/index/games.do" class="textGlitter" style="color: rgb(255, 0, 0);">彩票游戏<span></span></a></li>
+              <li class="LS-youhui" id="n10">
+                <a href="/index/rookieHelp.do?code=0">对战游戏<span></span></a></li>
+              <li class="LS-youhui" id="n6">
+                <a href="/index/active.do" class="textGlitter" style="color: rgb(255, 0, 0);">优惠活动
+                  <span></span></a>
+              </li>
+              <li class="LS-reg" id="n8">
+                <a href="/index/rookieHelp.do?code=4">代理合作</a></li>
+              <li class="LS-reg" id="n9">
+                <a href="/index/phone.do" target="_blank" style=" color:#00FFFF; ">手机投注</a></li>
+              <li class="LS-kefu">
+                <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank">
+                  <span></span>在线客服</a>
+              </li>
+            </ul>
+            <div id="L-Sub">
+              <div class="LS-ball" style="left: 68.5px; display: none;">
+                <span class="subbg-left"></span>
+                <a href="/index/sport.do">系统体育</a>
+                <a href="/index/sport.do" target="_blank">三昇体育</a>
+                <span class="subbg-right"></span>
+              </div>
+              <div class="LS-live" style="left: 40px; display: none;">
+                <span class="subbg-left"></span>
+                <a href="javascript: go('/game/forwardBbin.do?type=live', '2');">BBIN馆</a>
+                <a href="javascript: go('/game/forwardAg.do', '1');">AG国际馆</a>
+                <a href="javascript: go('/game/forwardMg.do?gameType=1', '3');">MG</a>
+                <span class="subbg-right"></span>
+              </div>
+              <div class="LS-game" style="left: 156.5px; display: none;">
+                <span class="subbg-left"></span>
+                <a href="/index/egame.do">MG电子</a>
+                <a href="/index/egame.do?param=abc">AG电子</a>
+                <span class="subbg-right"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <script language="javascript">$(function() {
+
+            var $el, leftPos, $move = $("#header .nav .move");
+            //$move.css("left", $(".nav .on").position().left - 4).data("origLeft", $(".nav .on").position().left);   
+            if (!$("#header .nav .current")[0]) {
+              $move.css("left", '0px').data("origLeft", 0);
+            } else {
+              $move.css("left", $("#header .nav .current").position().left - 4).data("origLeft", $("#header .nav .current").position().left);
+            }
+            $("#header .nav li a").hover(function() {
+              $el = $(this);
+              leftPos = $el.parent().position().left;
+              $move.stop(true, false).animate({
+                left: leftPos - 4
+              },
+              {
+                duration: "200"
+              });
+            },
+            function() {
+              $move.stop(true, false).animate({
+                left: $move.data("origLeft") - 4
+              },
+              {
+                duration: "200"
+              });
+            });
+
+          });
+          /**
+* 即時時間顯示
+**/
+          function dispTime() {
+            var dateObj = new Date();
+            var Y = dateObj.getFullYear();
+            var Mh = dateObj.getMonth() + 1;
+            if (Mh > 12) Mh = 01;
+            if (Mh < 10) Mh = '0' + Mh;
+            var D = dateObj.getDate() < 10 ? '0' + dateObj.getDate() : dateObj.getDate();
+            var H = dateObj.getHours() < 10 ? '0' + dateObj.getHours() : dateObj.getHours();
+            var M = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+            var S = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
+            document.getElementById('hktime').innerHTML = "美东时间：" + Y + '-' + Mh + '-' + D + ' - ' + H + ':' + M + ':' + S;
+          }
+          var timerID = setInterval("dispTime()", 1000);</script>
+        <script language="javascript">$("li.LS-ball, li.LS-live, li.LS-game, li.LS-lottery").subTabs();
+          new toggleColor('.textGlitter', ['#ffde97', '#FF0000'], 600);
+          new toggleColor('.textGlitter1', ['#00ffff', '#FF0000'], 600);</script>
+        <!-- head end -->
+ 	 	 <script type="text/javascript">
+		 	document.onkeydown = function(event_e){  
+		 	    if(window.event) {  
+		 	        event_e = window.event;  
+		 	    }  
+		
+		 	    var int_keycode = event_e.charCode||event_e.keyCode;  
+		 	    if( int_keycode == '13' ) {  
+		 	    	var isLogin = 'false';
+		 	    	if(!isLogin || isLogin=='false'){
+		 	    		memberInfo(); 
+		 	    	}
+		 	        return false;  
+		 	    }  
+		 	}
+ 		</script>
+ 	 	<!-- 头部结束 -->
+        <style type="text/css">body { background: url(/images/bg02.jpg) no-repeat center -15px #182035; } #page-footer { background:none; } .footer { padding-top:10px; }</style>
+        <div id="wrapindex">
+          <div id="indexbox">
+            <div id="news">
+              <div id="hot-news">
+                <marquee scrollamount="2" scrolldelay="150" direction="up" height="64" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer; height: 64px;"><span></span><span>尊敬的帝国娱乐会员，公司已经更换支付宝入款账户，请广大会员入款前先行咨询在线客服人员索取账户！</span><div>尊重的帝国会员，公司微信在线扫码充值已经恢复，入款请优先使用扫码功能。&nbsp;</div></marquee>
+              </div>
+            </div>
+            <div id="gamebox">
+              <a href="/index/real.do" class="f1"></a>
+              <a href="/index/egame.do" class="f2"></a>
+              <a href="/index/sport.do" class="f3"></a>
+              <a href="/index/games.do" class="f4"></a>
+            </div>
+          </div>
+        </div>
+        <div style=" display:none;">
+          <img src="/images/01on.png">
+          <img src="/images/02on.png">
+          <img src="/images/03on.png">
+          <img src="/images/04on.png"></div>
+        <style type="text/css">#elv-adv { width: 280px; height: 280px; position: absolute; display: none;bottom: 5px; left: 5px; z-index: 9999;} #mboxui { margin:0; height:280px; position:relative; } #mboxui a { display:block; width:280px; height:280px; background:url() no-repeat left bottom;} #mboxui a:hover { background:url() no-repeat left bottom;} #dv-colse {background: url(/images/icon01.png) no-repeat; height: 26px; width: 26px; position: absolute; top: 8px;left: 5px;cursor: pointer;display: none;z-index: 1100;}</style>
+        <script language="javascript">
+        $("#mboxui").hover(function() {
+            $("#dv-colse").show();
+          },
+          function() {
+            $("#dv-colse").hide();
+          });
+          window.onscroll = function(event) {
+            var src = event || window.event;
+            var obj = document.getElementById("elv-adv");
+            var stop = document.documentElement.scrollTop || document.body.scrollTop;
+            var rdtop = stop + document.documentElement.clientHeight - 286;
+            obj.style.top = rdtop + "px";
+          }
+          function showRdAd() {
+            var isClose = $.cookie("elv-adv");
+            if (isClose == "hide11") {
+              $("#elv-adv").hide();
+            } else {
+              $("#elv-adv").show();
+            }
+          }
+          function bindRdAd() {
+            $("#elv-adv").hide();
+            $.cookie("elv-adv", "hide11", {
+              expires: 7200
+            });
+          }
+          showRdAd();
+        </script>
+        <!-- foot -->
+        <div style="clear:both;"></div>
+        
+	<div id="page-footer">
+          <div class="footer">
+            <ul id="footer-top">
+              <li class="nav01" style="cursor: pointer;" onclick="window.open('https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1');">
+                <span></span>客服中心 SERVICE CENTE</li>
+              <li class="nav02">
+                <span></span>邮箱: 13962916@qq.com</li>
+              <li class="nav03">
+                <span></span>
+                <a href="tencent://message/?uin=13962916&amp;Menu=yes">客服QQ: 13962916</a></li>
+              <li class="nav04" style="margin-right:0px; width:250px;">
+                <span></span>
+                <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank" style="padding-left:3px;">客服中心 SERVICE CENTER</a></li>
+            </ul>
+            <div id="footermiddle">
+              <div id="main-title"></div>
+              <div id="column-a">
+                <div id="speed">
+                  <span id="second">23</span>
+                  <div class="load" id="load01">
+                    <div class="loading1" style="width: 60px;"></div>
+                  </div>
+                  <span id="minute">2'36</span>
+                  <div class="load" id="load02">
+                    <div class="loading2" style="width: 132px;"></div>
+                  </div>
+                </div>
+                <ul>
+                  <li>游戏种类,全网最多</li>
+                  <li>帝国娱乐场官方直营</li>
+                  <li>取款1000万3分锺火速到账</li>
+                  <li>资金安全,客户十年零投诉</li>
+                  <li>保障隐私,资料信息多重加密</li></ul>
+              </div>
+              <div id="column-b">
+                <ul>
+                  <li>
+                    <h3>真人娱乐</h3>提供真人百家乐、轮盘、股宝、龙虎斗、二八杠等,美女荷官在线发牌，画面真实高清,在网上体验如同亲临赌场的刺激!</li>
+                  <li>
+                    <h3>体育赛事</h3>每月提供上万场的体育赛事，有足球、篮球、网球、排球等。五彩缤纷的体育赛事，精心设计的投注界面，带给您轻松、怡静的体育投注乐趣！</li>
+                  <li>
+                    <h3>电子游艺</h3>100多种电子游戏,包含老虎机、电动扑克、大型电玩、3D游戏等，顶级的视觉、声光效果，业界最高的赔率和返水,带给您最优越的体验！</li>
+                  <li>
+                    <h3>彩票游戏</h3>彩票游戏、快乐彩、六合彩、3D彩等，彩票游戏丰富，所有赛果依据官方开奖结果，带给您一夜致富的机会及空前的游戏体验！</li></ul>
+              </div>
+              <div id="column-c">
+                <span id="right-menu01">
+                  <script>document.write(parseInt(Math.random() * 180000 + 180000, 10));</script>225996人</span>
+                <span id="right-menu02">17863760注</span>
+                <span id="right-menu03">84094笔/9分34秒每笔</span>
+                <span id="right-menu04">￥4806144512元</span></div>
+            </div>
+            <div id="footerbottom">
+              <div id="ArticleList">
+					<a href="/index.do">首页</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=1">关于我们</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=2">取款帮助</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=3">存款帮助</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=4">联盟方案</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=5">联盟协议</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=6">联系我们</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+					<a href="/index/rookieHelp.do?code=7" class="br0">常见问题</a>
+			  </div>
+              <div class="clear"></div>
+              <div id="footermsg"></div>
+            </div>
+          </div>
+        </div>
+
+<script type="text/javascript" src="/common/template/member/core.js" path=""></script>
+<script type="text/javascript">
+	function go(url, type) {
+		var userid = '';
+		var bbinOnOff = 'on';
+		var agOnOff = 'on';
+		var mgOnOff = 'on';
+		var abOnOff = '';
+		
+		if (userid == null || userid == '') {
+			alert("请先登录系统");
+			return;
+		}
+		
+		if(type==1 & agOnOff == 'off'){
+			alert('ag系统维护');
+			return;
+		}else if(type==2 & bbinOnOff == 'off'){
+			alert('bbin系统维护');
+			return;
+		}else if(type==3 & mgOnOff == 'off'){
+			alert('mg系统维护');
+			return;
+		}else if(type==5 & abOnOff == 'off'){
+			alert('ab系统维护');
+			return;
+		}
+		
+		var sw = '';
+		csw = '';
+		sh = '';
+		csh = '';
+		ctop = '';
+		cleft = '';
+
+		sw = $(window.parent).width();
+		sh = $(window.parent).height();
+		csw = $(window.parent).width();
+		csh = $(window.parent).height();
+		ctop = 0;
+		cleft = 0;
+		var tempUrl = url;
+		/* if(type=='3'||type==3){ */
+		var windowOpen = window.open("" ,'_blank', 'width=' + csw
+			+ ',height=' + csh + ',left=' + cleft + ',top=' + ctop
+			+ ',scrollbars=no,location=1,resizable=yes');	
+			
+		var result = null;
+		var ajaxFn = $ajax ? $ajax : $.ajax;//原生态ajax
+		ajaxFn({
+			url : url,
+			dataType:"json",
+			type :"post",
+			async : false,
+			success : function(json) {
+				result = json;
+			}
+		});
+		
+		if(!result.success){
+			//alert(result.msg);
+			var new_doc = windowOpen.document.open("text/html","replace");
+		    new_doc.write("<script>alert('" + result.msg + "');window.close();<\/script>");
+		    new_doc.close();
+			return;
+		}
+		if (type === '2') {
+			var new_doc = windowOpen.document.open("text/html","replace");
+		    new_doc.write(result.html);
+		    new_doc.close();
+		} else {
+			windowOpen.location.href = result.url;
+		}
+	}
+	
+</script>
+</body>
+</html>
+      </div>
+    </div>
+	
+	<script src="/js/float.js"></script>
+    <ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 186px; left: 5px; width: 110px;" picfloat="left">
+      <li>
+        <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank" style="width: 120px; height: 183px;">
+          <img src="/images/fl1.png" align="center" alt="" class="png_fix" width="120" height="183">
+          <img src="/images/fl1.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="183"></a>
+      </li>
+      <li>
+        <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank" style="width: 120px; height: 158px;">
+          <img src="/images/fl2.png" align="center" alt="" class="png_fix" width="120" height="158">
+          <img src="/images/fl2.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="158"></a>
+      </li>
+      <!--  
+      <li>
+        <a href="/index/xljc.do" target="_blank" style="width: 110px; height: 34px;">
+          <img src="/images/fl3.png" align="center" alt="" class="png_fix" width="120" height="34">
+          <img src="/images/fl3.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="34"></a>
+      </li>
+      <li>
+        <a href="tencent://message/?uin=13962916&Menu=yes" target="_blank" style="width: 120px; height: 90px;">
+          <img src="/images/fl4.png" align="center" alt="" class="png_fix" width="120" height="90">
+          <img src="/images/fl4.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="90"></a>
+      </li>
+      -->
+      <li>
+        <a href="javascript:void(0);" onclick="FloatClose(this);" style="width: 120px; height: 26px;">
+          <img src="/images/close.png" align="center" alt="" class="png_fix" width="120" height="26">
+          <img src="/images/close.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="26"></a>
+      </li>
+      
+    </ul>
+    <ul id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 186px; right: 5px; width: 110px;" picfloat="right">
+      <li>
+        <a href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=11828&configID=5462&jid=&s=1" target="_blank" style="width: 120px; height: 208px;">
+          <img src="/images/fr1.png" align="center" alt="" class="png_fix" width="120" height="208" style="display: inline;">
+          <img src="/images/fr1.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="208"></a>
+      </li>
+      <li>
+        <a href="tencent://message/?uin=13962916&Menu=yes" style="width: 120px; height: 120px;">
+          <img src="/images/fr2.png" align="center" alt="" class="png_fix" width="120" height="120" style="display: inline;">
+          <img src="/images/fr2.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="120"></a>
+      </li>
+      <!--  
+      <li>
+        <a href="javascript:void(0);" style="width: 120px; height: 81px;" target="_blank">
+          <img src="/images/fr3.png" align="center" alt="" class="png_fix" width="120" height="81">
+          <img src="/images/fr3.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="81"></a>
+      </li>
+       -->
+      <li>
+        <a href="javascript:void(0);" onclick="FloatClose(this);" style="width: 120px; height: 26px;">
+          <img src="/images/close.png" align="center" alt="" class="png_fix" width="120" height="26">
+          <img src="/images/close.png" align="center" style="display: none;" alt="" class="png_fix" width="120" height="26"></a>
+      </li>
+     
+    </ul>
+    <style>.TplFloatSet a{display:block;margin:0 auto;text-align:center;} .TplFloatSet img{vertical-align:bottom;} .TplFloatSet li{list-style: none;font-size:0px;}</style>
+    <script>//關閉效果
+      function FloatClose(t) {
+        event.cancelBubble = true;
+        $(t).parents('.TplFloatSet').hide();
+      }
+      var left_top = 150,
+      right_top = 150,
+      float_list = [],
+      float_side = 5;
+      $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+        float_list['0'] = $('#TplFloatPic_0');
+        float_list['1'] = $('#TplFloatPic_1');
+        for (var i in float_list) {
+          if (float_list[i].attr == undefined) {
+            continue;
+          }
+          var self = float_list[i],
+          picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+          self.show().Float({
+            'floatRight': picfloat,
+            'topSide': ((picfloat == 1) ? right_top: left_top),
+            side: float_side
+          });
+          var w = 0;
+          $.each(self.find('img'),
+          function() {
+            var width = $(this).width();
+            w = (width > w) ? width: w; //取圖片最大寬度
+            $(this).attr({
+              'width': width,
+              'height': $(this).height()
+            });
+          });
+          self.css('width', w);
+          if (picfloat) {
+            right_top = right_top + 10 + (self.height() || 250);
+          } else {
+            left_top = left_top + 10 + (self.height() || 250);
+          }
+
+          $('a', self).each(function() {
+            $(this).css({
+              'width': $(this).find('img:first').width(),
+              'height': $(this).find('img:first').height()
+            });
+            $(this).hover(function() {
+              $(this).find('img:first').hide();
+              $(this).find('img:last').show();
+            },
+            function() {
+              $(this).find('img:last').hide();
+              $(this).find('img:first').show();
+            });
+          });
+        }
+      });</script>
+   </body>
+</html>

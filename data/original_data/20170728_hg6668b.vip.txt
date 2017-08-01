@@ -1,0 +1,591 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link type="text/css" rel="stylesheet" href="css/default.css" />
+<title>Welcome to hg6668</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<!--banner-开始-->
+<script type="text/javascript" src="js/banner.js"></script>
+<!--banner-结束-->
+</head>
+<body onload="yanzheng(this)">
+<!-- 左浮动-最新消息-开始 -->
+<div class="box_small"></div>
+<div id="box">
+    <span id="closeButton"><img src="image/sy_05.png" /></span>
+    <div class="bd" id="bottomPart">
+        <div class="sy_news">
+            <div class="sy_newss"></div>
+            <div class="sy_newsx" style="text-align: center;">
+                <div>
+                    <img src="images/other_image/ggwz.PNG" alt="" style="height: 185px;width: 245px;" />
+                </div>
+<!--         <p>本公司官网被大陆多个不法之徒冒用，敬请客户留意，谨防上当。</p>-->
+<!--                <p>认准正网品牌：www.hg6668.vip </p>-->
+<!--                <p>皇冠易记网址：www.555.tt</p>-->
+<!--                <p> 菲律宾专线:0063-9279668666</p>-->
+<!--                <p>-->
+<!--                    如无菲律宾电话者，均为大陆私庄，信誉资金不受保障，若被骗者，一律与本公司无关！谢谢！</p>-->
+<!--                <span>-->
+<!--皇冠菲律宾总代理：<a href="http://wwwhg6668.vip/" style="color: #FCFF00">www.hg6668.vip</a><br />-->
+<!--24小时客服热线：0063-9279668666<br />-->
+<!--24小时投诉热线：0063-9055166668<br />-->
+<!--                </span>-->
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+// 悬浮窗口
+	$("#closeButton").click(function() {
+		$("#closeButton").css("width", '0');
+		$("#box").css('height', '0');
+		$(".box_small").show();
+	})
+
+	$(".box_small").hover(function() {
+		$("#closeButton").css("width", '17px');
+		$("#box").css('height', '241px');
+	})
+   function getKey1(){
+    document.getElementById("rmNum1").src = "yzm.php?"+Math.random();
+    return false;
+}
+
+
+
+</script>
+<!-- 左浮动-最新消息-结束 -->
+
+<!-- top  -->
+﻿<!-- 左浮动-快速选单-开始 -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+
+	$("#divQQbox").hover(function(){
+		$(this).stop(true,false);
+		$(this).animate({left:0},300);
+	},function(){
+		$(this).animate({left:-124},300);
+	});
+
+});
+</script>
+<!-- 左浮动-快速选单-结束 -->
+
+<!-- 右侧-二维码-开始 -->
+<script type="text/javascript">
+$(function(){
+	$(".keifu_close").click(function() {
+			$(".keifu").animate({width:0},300);
+			$(".ewm_small").show();
+		})
+
+		$(".ewm_small").hover(function() {
+			$(".keifu").animate({width:'138px'},300);
+			$(".ewm_small").hide();
+		})
+
+});
+</script>
+
+<!--右侧-二维码-结束-->
+
+<!-- 左浮动-快速选单-开始 -->
+<div id="divQQbox" class="QQbox">
+	<div id="divOnline" class="Qlist">
+		<div class="OnlineLeft sy_zfd">
+
+            <div class="sy_zfdz">
+                <a href="member_add.php" class="sy_zfd1">会员注册</a>
+
+				<a href="http://www.hg6668b.com" target='_bank' class="sy_zfd1">会员登陆</a>
+<!--                <a href="http://--><!--" target='_bank' class="sy_zfd1">会员登陆</a>-->
+                <a href="agent_add.php" class="sy_zfd1">代理注册</a>
+				<a href="http://ag.hg6668b.com" target='_bank' class="sy_zfd1">代理登陆</a>
+<!--                <a href="http://--><!--" target='_bank' class="sy_zfd1">代理登陆</a>-->
+                <a href="promotions.php" class="sy_zfd1">最新优惠</a>
+<!--                <a href="--><!--" target='_bank' class="sy_zfd1">在线客服</a>-->
+				<a href="https://static.meiqia.com/dist/standalone.html?_=t&eid=61033" target='_bank' class="sy_zfd1">在线客服</a>
+            </div>
+            <a href="#" class="sy_zfdy"></a>
+
+		</div>
+		<div class="OnlineBtn"></div>
+	</div>
+</div>
+<!-- 左浮动-快速选单-结束 -->
+
+
+
+<!-- 右浮动-开始 -->
+<div class="ewm_small"></div>
+<a href="https://static.meiqia.com/dist/standalone.html?_=t&eid=61033" target='_bank'>
+<!--<a href="--><!--" target='_bank'>-->
+	<div class="keifu" >
+		<div class="keifu_box" onclick="window.open('https://static.meiqia.com/dist/standalone.html?_=t&eid=61033')">
+			<div class="sy_ewm">
+				<span class="sy_ewm1"><img src="image/sy_67.png" /></span>
+				<a href="#" class="keifu_close sy_ewm2"></a>
+<!--			   <a href="--><!--" class="keifu_close sy_ewm2"></a>-->
+			</div>
+		</div>
+	</div>
+</a>
+<!-- 右浮动-结束 -->
+
+<!-- top-开始 -->
+<script language="javascript">
+function changeColor()
+{
+	var color="yellow|green|blue|gray|pink"; //在内存变量color里定义5种颜色
+	color=color.split("|"); //定义数组5个元素分别放置5种颜色
+	//下面这一行是把名★叫blink的对象★的color属性随机改成5种颜色的一种
+	document.getElementById("blink1").style.color=color[parseInt(Math.random() * color.length)];
+	document.getElementById("blink2").style.color=color[parseInt(Math.random() * color.length)];
+}
+setInterval("changeColor()",200); //●设置一个定时器，每200毫秒调用一次变色函数
+</script>
+<div class="sy_top">
+	<div class="sy_topn">
+    	<a href="#" class="sy_logo"><img src="image/sy_03.png" /></a>
+        <div class="sy_topny">
+        	<div class="sy_topnys">
+            	<a href="#" class="sy_topnys1"><img src="image/sy_18.png" /></a>
+            	<a href="#" class="sy_topnys1"><img src="image/sy_16.png" /></a>
+            	<a href="#" class="sy_topnys1"><img src="image/sy_14.png" /></a>
+            	<a href="#" class="sy_topnys2">收藏本站</a>
+            	<span class="sy_topnys3">|</span>
+            	<a href="#" class="sy_topnys2">设为首页</a>
+				<span class="sy_topnys3">|</span>
+				<a href="http://www.796668.com/" target='_bank' class="sy_topnys2" id='blink1'>网站被跳转？预防及解决教程！</a>
+				<span class="sy_topnys3">|</span>
+				<a href="http://www.796668.com/DNS一键优化.exe" target='_bank' class="sy_topnys2" id='blink2'>一键修改DNS</a>
+            </div>
+            <div class="sy_topnyx">
+            	<a href="#" class="sy_topnyx1"><img src="image/sy_06.png" /></a>
+<!--            	<a href="http://--><!--" target="_blank" class="sy_topnyx2"><img src="image/sy_09.png" /></a>-->
+				<a href="http://www.hg6668a.com" target="_blank" class="sy_topnyx2"><img src="image/sy_09.png" /></a>
+            	<a href="member_add.php" class="sy_topnyx3"><img src="image/sy_11.png" /></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- top-结束 -->
+<!-- main -开始 -->
+<div class="sy_m">
+
+	<!-- 导航 -->
+	﻿		<!-- 导航 -开始 -->
+	<div class="sy_nav">
+    	<div class="sy_navn"> 
+        	<div class="sy_navnr">                                                                                             
+        	<a href="index.php" class="sy_navn1 ">
+            	<span class="sy_navn11">网站首页</span>
+            	<span class="sy_navn12">HOME</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="sports.php" class="sy_navn1 ">
+            	<span class="sy_navn11">体育博弈</span>
+            	<span class="sy_navn12">SPORTS</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="live.php" class="sy_navn1 ">
+            	<span class="sy_navn11">真人视讯</span>
+            	<span class="sy_navn12">LIVE CASINO</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="pt.php" class="sy_navn1 ">
+            	<span class="sy_navn11">电子游艺</span>
+            	<span class="sy_navn12">SPORTS</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="cp.php" class="sy_navn1 ">
+            	<span class="sy_navn11">彩票游戏</span>
+            	<span class="sy_navn12">LOTTERY</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="promotions.php" class="sy_navn1 ">
+            	<span class="sy_navn11">优惠活动</span>
+            	<span class="sy_navn12">PROMOTIONS</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="mobile.php" class="sy_navn1 ">
+            	<span class="sy_navn11">手机APP</span>
+            	<span class="sy_navn12">MOBILE</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+            
+        	<a href="agent.php" class="sy_navn1  sy_navn1_h">
+            	<span class="sy_navn11">代理加盟</span>
+            	<span class="sy_navn12">AGENT</span>
+            </a>
+            <span class="sy_navn2"><img src="image/sy_35.png" /></span>
+
+				<a href="https://static.meiqia.com/dist/standalone.html?_=t&eid=61033"  target="_blank"  class="sy_navn1">
+					<span class="sy_navn11">在线客服</span>
+					<span class="sy_navn12">SERVICE</span>
+				</a>
+            </div>
+        </div>
+    </div>   
+	<!-- 导航 -结束 -->
+	<!-- banner -开始 -->
+    <div class="sy_ban">
+    	<div class="sy_bann">
+        	<div class="sy_bannz">
+
+                <div id="show" class="d1">
+                    <div class="loading"><img src="images/1.png"width="711" height="425"/></div>
+                    <ul>
+                        <li><a href="promotions.php"><img src="images/home_page/1.png" width="711" height="425"/></a></li>
+                        <li><a href="promotions.php"><img src="images/home_page/2.png" width="711" height="425"/></a></li>
+                        <li><a href="promotions.php"><img src="images/home_page/3.png" width="711" height="425"/></a></li>
+                        <li><a href="promotions.php"><img src="images/home_page/4.png" width="711" height="425"/></a></li>
+                        <li><a href="promotions.php"><img src="images/home_page/5.png" width="711" height="425"/></a></li>
+                        <li><a href="promotions.php"><img src="images/home_page/6.png" width="711" height="425"/></a></li>
+                    </ul>
+                </div>
+
+            </div>
+			<FORM method="post" name="LoginForm" action="http://www.hg6668a.com/app/member/login.php" target="_blank" id='LoginForm'>
+				<input type='hidden' name="Website" value="hg6668b.vip">
+				<input type='hidden' name="uid" value="">
+				<input type='hidden' name="langx" value="zh-cn">
+				<input type='hidden' name="mac" value="">
+				<input type='hidden' name="ver" value="">
+				<input type='hidden' name="radio" value="web_new">
+				<input type='hidden' name="JE" value="1" />
+
+				<div class="sy_banny">
+					<span class="sy_bannys">皇冠会员登陆</span>
+					<div class="sy_bannyc">
+						<div class="sy_bannyc1">
+							<img class="sy_bannyc11" src="image/sy_52.png" />
+							<input type="text" name="username" class="sy_bannyc12" id="ausername" placeholder="账号" />
+						</div>
+						<div class="sy_bannyc1">
+							<img class="sy_bannyc11" src="image/sy_60.png" />
+							<input type="password" name="password" class="sy_bannyc13" id="apassword" placeholder="密码" />
+							<a href="http://www.hg6668a.com/app/member/account/forget_psw.php" target='_bank' class="sy_bannyc14">忘记密码</a>
+						</div>
+						<div class="sy_bannyc2">
+							<span class="sy_bannyc21" style="border-bottom: none;width: 205px;">
+								<img class="sy_bannyc11" src="image/sy_52.png" />
+                                      <input style="width: 50px;height: auto;margin-top: 15px;background-color: #291800;border: none;color: white" type="text" id="number" onblur="check_number()"  onfocus="yanzheng();if(this.value=='验证码'){this.value='';}" onBlur="if(this.value==''){this.value='验证码';}"   placeholder="验证码">
+							</span>
+                            <span id="sp10"></span>
+                            <span id="sp9"></span>
+						</div>
+					</div>
+					<div class="sy_bannyx">
+                        <a href="javascript:void(0)" onclick="do_login()" class="sy_bannyx1">用户登入</a>
+<!--						<a onclick="javascript:getElementById('LoginForm').submit()" class="sy_bannyx1">用户登入</a>-->
+						<a href="member_add.php" class="sy_bannyx2">免费注册</a>
+					</div>
+					<div class="sy_bannyb"><img src="image/sy_63.png" />公告</div>
+					<div id="demo" style="height: 100px;">
+						<div id="demo1">
+							<p class="sy_bannybx">皇冠现金网www.hg6668.vip亚洲最大体育投注平台，手机登陆网址：wap.hg6668.vip 皇冠创新服务引领品牌提升，以&#34信誉&#34为基础铸就国际第一网</p>
+						</div>
+						<div id="demo2"></div>
+					</div>
+				</div>
+			</FORM>
+        </div>
+    </div>
+	<!-- banner -结束 -->
+    <script type="text/javascript">
+
+        //生成验证码
+        function yanzheng(){
+            var sp9=document.getElementById('sp9');
+            var str1="";
+            for(var i=1;i<=4;i++){
+                str1=str1+parseInt(Math.random()*10);
+                sp9.innerHTML=str1;
+            }
+        }
+        //验证验证码
+        function check_number(){
+            var number=document.getElementById('number').value
+            var sp10=document.getElementById('sp10')
+            var sp9=document.getElementById('sp9');
+            if(number==""){
+                var $title = '验证码不能为空！';
+                alert($title);
+                return true;
+            }else{
+                if(number!=sp9.innerHTML){
+                    var $title = '验证码和你写的不一致！';
+                    alert($title);
+                    return true;
+                } else{
+                    return true;}
+                return true;
+            }
+        }
+
+
+
+
+        //登陆账号密码错误弹窗  xw 2017-03-01
+        function do_login(){
+//            var ck_code = $('#check_code').val();
+            var vcode = $('#vcode').val();
+            var number = $('#number').val();
+            var username=$("#ausername").val();
+            var passwd=$("#apassword").val();
+            var langx=$("#langx").val();
+            if (number == "" ) {
+                var $title = '请输入验证码！';
+                alert($title);
+                return false;
+            }
+
+            if (username == "" ) {
+                var $title = '账号不能为空！';
+                alert($title);
+                return false;
+            } else if ( passwd == "") {
+                var $title = '密码不能为空！';
+                alert($title);
+                return false;
+            }
+            document.getElementById("LoginForm").submit();
+        }
+    </script>
+
+
+	<!-- 滚动图 -开始 -->
+    <div class="sy_gdt">
+        <div class="sy_gdtn">
+
+            <div class="sy_gdtc">
+                <div class="cont" id="ISL_Cont_1">
+                  <ul class="box" id="boxid">
+                    <li><a href="sports.php"><img src="images/sy1.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy2.png" /></a></li>
+                    <li><a href="live.php"  ><img src="images/sy3.png" /></a></li>
+                    <li><a href="cp.php"    ><img src="images/sy4.png" /></a></li>
+                    <li><a href="pt.php"    ><img src="images/sy5.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy6.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy7.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy8.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy9.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy10.png" /></a></li>
+                    <li><a href="sports.php"><img src="images/sy11.png" /></a></li>
+                </ul>
+            </div>
+            <div>
+                <div><a href="javascript:;" id='LeftArr' class="sy_gdtz"><img src="image/sy_55.png" /></a></div>
+                <div><a href="javascript:;" id='RightArr' class="sy_gdty"><img src="image/sy_49.png" /></a></div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+	<!-- 滚动图 -结束 -->
+    <!--点击滚动图-开始-->
+<SCRIPT src="js/ScrollPic.js" type=text/javascript></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	if($('#boxid > li').length > 4){
+
+		var scrollPic_02 = new ScrollPic();
+		scrollPic_02.scrollContId   = "ISL_Cont_1"; //内容容器ID
+		scrollPic_02.arrLeftId      = "LeftArr";//左箭头ID
+		scrollPic_02.arrRightId     = "RightArr"; //右箭头ID
+
+		scrollPic_02.frameWidth     = 1016;//显示框宽度
+		scrollPic_02.pageWidth      = 254; //翻页宽度
+
+		scrollPic_02.speed          = 10; //移动速度(单位毫秒，越小越快)
+		scrollPic_02.space          = 10; //每次移动像素(单位px，越大越快)
+		scrollPic_02.autoPlay       = true; //自动播放
+		scrollPic_02.autoPlayTime   = 5; //自动播放间隔时间(秒)
+
+		scrollPic_02.initialize(); //初始化
+
+	}
+})
+</script>
+<!--点击滚动图-结束-->
+
+
+
+</div>
+<!-- main -结束 -->
+
+<!-- foot -->
+﻿<!-- foot -开始 -->
+<div class="sy_foot">
+	<div class="sy_footn">
+    	<div class="sy_footns">
+        	<span class="sy_footns1"><img src="image/sy_86.png" />在线电话：<span>0063-9279668666</span></span>
+        	<span class="sy_footns1"><img src="image/sy_92.png" />投诉电话：<span>0063-9055166668</span></span>
+        	<span class="sy_footns1"><img src="image/sy_89.png" />联系邮箱：<span>hg6668.com@gmail.com</span></span>
+        </div>
+        <div class="sy_footnc">
+        	<div class="sy_footncn">
+            	<img src="image/sy_107.png" />
+                <div class="sy_footncny">
+                	<span class="sy_footncny1">金牌信誉</span>
+                	<span class="sy_footncny2">政府颁发执照/安全有保障</span>
+                </div>
+            </div>
+        	<div class="sy_footncn">
+            	<img src="image/sy_101.png" />
+                <div class="sy_footncny">
+                	<span class="sy_footncny1">银行服务</span>
+                	<span class="sy_footncny2">24小时存取款/3分钟到账</span>
+                </div>
+            </div>
+        	<div class="sy_footncn">
+            	<img src="image/sy_98.png" />
+                <div class="sy_footncny">
+                	<span class="sy_footncny1">支付方式</span>
+                	<span class="sy_footncny2">如何提彩？ 如何充值？</span>
+                </div>
+            </div>
+        	<div class="sy_footncn sy_footncn4">
+            	<img src="image/sy_104.png" />
+                <div class="sy_footncny">
+                	<span class="sy_footncny1">皇冠网址</span>
+                	<span class="sy_footncny2">最新线路：www.hg6668.vip</span>
+                </div>
+            </div>
+        	<div class="sy_footncn sy_footncn5">
+            	<img src="image/sy_105.png" />
+                <div class="sy_footncny">
+                	<span class="sy_footncny1">代理加盟</span>
+<!--                	<span class="sy_footncny2"><a href="agent_add.php" style='color:#f3a537'>代理注册</a> <a href="http://--><!--" target='_bank' style='color:#f3a537'>代理登陆</a></span>-->
+                    <span class="sy_footncny2"><a href="agent_add.php" style='color:#f3a537'>代理注册</a> <a href="http://ag.6668a.vip" target='_bank' style='color:#f3a537'>代理登陆</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="sy_footnx">
+        	<div class="sy_footnxs">
+                <a href="aboutus.php" class="sy_footnx1">关于我们</a><span>|</span>
+                <a href="rule.php" class="sy_footnx1">规则说明</a><span>|</span>
+                <a href="save.php" class="sy_footnx1">存款帮助</a><span>|</span>
+                <a href="withdrawals.php" class="sy_footnx1">取款帮助</a><span>|</span>
+                <a href="problem.php" class="sy_footnx1">常见问题</a><span>|</span>
+                <a href="terms.php" class="sy_footnx1">使用条款</a><span>|</span>
+                <a href="agent.php" class="sy_footnx1">代理加盟</a><span>|</span>
+                <a href="responsibility.php" class="sy_footnx1">负责任博彩</a>
+            </div>
+        	<div class="sy_footnxx">
+            	&nbsp;© 版权所有 2011-2017 属于皇冠6668所有
+            </div>
+        </div>
+    </div>
+</div>
+<!-- foot -结束 --></script>
+<script language="javascript">
+var speed=60;
+var FGDemo=document.getElementById('demo');
+var FGDemo1=document.getElementById('demo1');
+var FGDemo2=document.getElementById('demo2');
+FGDemo2.innerHTML=FGDemo1.innerHTML
+function Marquee1(){
+if(FGDemo2.offsetHeight-FGDemo.scrollTop<=0)
+FGDemo.scrollTop-=FGDemo1.offsetHeight
+else{
+FGDemo.scrollTop++
+}
+}
+var MyMar1=setInterval(Marquee1,speed)
+FGDemo.onmouseover=function() {clearInterval(MyMar1)}
+FGDemo.onmouseout=function() {MyMar1=setInterval(Marquee1,speed)}
+</script>
+<script>
+
+
+    $('document').ready(function () {
+        $(".sy_top").css("float","none")
+        setTimeout(function () {
+            $(".sy_top").css("float","left")
+        },0)
+
+    })
+
+</script>
+
+<!--公告窗口开始-->
+<div id="si_alert" style="width: 100vw;height: 100vh;background-color: rgba(0,0,0,0.6);display: block;position: fixed;top: 0px;z-index: 9999;-webkit-font-smoothing: antialiased;">
+    <div style="overflow-y: auto;background-color: #553200;width: 700px;height: 400px;border-radius: 5px;position: relative;margin: 0 auto;margin-top: calc(50vh - 200px);padding: 10px">
+        <h2 style="text-align: center; height: 30px;line-height: 30px;margin-bottom: 10px;color: #ececec">公告</h2>
+        <div style="color: #ffbe63;margin-bottom: 10px">皇冠6668以下网址将停止访问，请更换其它网址进行访:</div>
+        <p style="padding-bottom: 10px">
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668hg.com </span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668hg.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668vip.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.2345hg.com</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.hg6668.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.hg66668.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.h66668.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.h6668.net</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668hg.vip</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">皇冠6668.com</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668hg.com</span>  已停止访问</span>
+            <span style="display: inline-block;width: 45%;padding: 5px 0px 5px 10px;color:#c5c5c5;font-size: 14px"><span style="display: inline-block;width: 150px">www.6668hg.com</span>  已停止访问</span>
+
+        </p>
+        <div style="color: #ffbe63;margin-bottom: 10px">注：</div>
+        <p style="padding-bottom: 10px;padding-left: 10px;color: #c5c5c5;font-size: 14px">
+
+            以上公布网址将不是我公司使用的网址,请勿进行访问。请玩家各自收藏最新公布网址，以免造成您的正常访问及资金安全影响。<br>
+
+
+            认准正网品牌: <a href="http://www.hg6668.vip" target="_blank" style="color: #ffffff;font-weight: 900">www.hg6668.vip</a>   最新网址导航:<a  target="_blank" href="http://www.h6668.com" style="color: #ffffff;font-weight: 900">www.h6668.com</a>
+            <br>
+            线路测速导航: <a href="http://www.676668.com"  target="_blank" style="color: #ffffff;font-weight: 900">www.676668.com</a>   最新网址导航:<a  target="_blank" href="http://www.555.tt" style="color: #ffffff;font-weight: 900">www.555.tt</a>
+
+        </p>
+
+        <button id="si_button_close" style="border: 0px;border-radius: 1px;color: #553200;width: 55px;height: 30px;right: 10px;bottom: 10px;position: absolute;outline: none">关闭</button>
+    </div>
+
+</div>
+<script>
+
+
+
+        function si_show() {
+
+            var si_alert_a=document.getElementById('si_alert')
+            var si_utton_close=document.getElementById('si_button_close')
+
+            si_alert_a.style.display='block';
+            si_utton_close.onclick=function () {
+                si_alert_a.style.display='none';
+            }
+            setTimeout('si_close()',5000);
+        }
+//        如果需要显示请直接调用si_guang_gao（）
+        si_show();
+
+        function si_close(){
+            var si_alert_a=document.getElementById('si_alert')
+            si_alert.style.display='none';
+        }
+
+
+</script>
+
+<!--公告窗口结束-->
+
+</body>
+</html>

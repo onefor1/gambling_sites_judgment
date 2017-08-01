@@ -1,0 +1,741 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AG亚游集团官网（Asia Gaming）---只為非同凡享 Powered By AG8.COM</title>
+    <link href="https://static-v3.agg044.com/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://static-v3.agg044.com/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://static-v3.agg044.com/static/css/main.css" rel="stylesheet">
+    <link href="https://static-v3.agg044.com/static/css/custom/main.css" rel="stylesheet">
+    <link href="https://static-v3.agg044.com/static/css/custom/jquery.loading.css" rel="stylesheet">
+    
+    <meta charset="utf-8">
+    <link href="https://static-v3.agg044.com/static/css/pages/home.css" rel="stylesheet">
+
+
+    <!--[if lte IE 8]>
+    <script src="https://static-v3.agg044.com/static/js/html5shiv.min.js"></script>
+    <script src="https://static-v3.agg044.com/static/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        
+
+
+
+
+
+
+
+
+<div class="header-wrap">
+    <div class="header-overlay"></div>
+    <nav class="navbar navbar-default">
+        <div class="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/publicity/agstar"><i class="icon-cup"></i>亚游风采</a></li>
+                <li>
+                    
+                        <a href="http://bbs.ag8.com/forum.php" target="_bbs"><i class="icon-bbs"></i>亚游论坛</a>
+                    
+                    
+
+                </li>
+                <li><a href="/publicity/recommend"><i class="icon-users"></i>推荐好友</a></li>
+            </ul>
+            
+                <div class="nav navbar-nav navbar-right navbar-before">
+                    <div class="btn-group">
+                        <button id="quick-login-btn" type="button" class="btn dropdown-toggle btn-custom" data-backdrop=""
+                                data-toggle="modal"
+                                data-target="#loginModal"><i class="icon-user"></i>快速登录
+                        </button>
+                        <div class="modal" id="loginModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content sign-in-wrap">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Close"><span
+                                                aria-hidden="true">&times;</span></button>
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#quick-login" id="tabs-tab1"
+                                                                  data-toggle="tab">快速登录</a>
+                                            </li>
+                                            <li><a href="#phone-login" id="tabs-tab2" data-toggle="tab">动态密码登录</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade active in" id="quick-login">
+                                                <form id="passwordLoginForm" action="/login/password" method="POST">
+                                                    <input type="hidden" name="redirect" value="">
+
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                                <span class="input-group-addon input-icon"><i
+                                                                        class="icon-user-o"></i></span>
+                                                            <input type="text" maxlength="20" name="loginName"
+                                                                   class="form-control" 
+                                                                   placeholder="游戏账号（ag开头）/手机号码">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                                <span class="input-group-addon input-icon"><i
+                                                                        class="icon-lock-o"></i></span>
+                                                            <input type="password" maxlength="10" name="pwd"
+                                                                   class="form-control"
+                                                                   placeholder="游戏密码">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group" id="quickLoginCaptchaDiv">
+                                                        <div class="input-group">
+                                                            <input type="text" name="captcha" maxlength="4"
+                                                                   class="form-control"
+                                                                   placeholder="请输入验证码">
+                                                            <span class="input-group-addon captcha"><img
+                                                                    alt="captcha"></span>
+                                                        </div>
+                                                    </div>
+                                                    <p class="error-msg"></p>
+                                                    <div class="form-group">
+                                                        <input type="submit" class="btn-submit btn-block" value="登录">
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="form-group clearfix text-right">
+                                                    <a
+                                                       class="btn-link btn-forget-password pull-left">忘记密码？</a>
+                                                    <span>没有账号？<a
+                                                                  class="btn-link btn-sign-up">在此注册</a></span>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="phone-login">
+                                                <form action="/login/sms" method="POST">
+                                                    <input type="hidden" name="redirect" value="">
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                                <span class="input-group-addon input-icon"><i
+                                                                        class="icon-user-o"></i></span>
+                                                            <input type="text" name="loginName" maxlength="20"
+                                                                   class="form-control"
+                                                                   placeholder="游戏账号（ag开头）/手机号码">
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                                <span class="input-group-addon"><i
+                                                                        class="icon-lock-o"></i></span>
+                                                            <input type="text" name="captcha" maxlength="6"
+                                                                   class="form-control"
+                                                                   placeholder="手机动态码">
+                                                            <span class="input-group-btn">
+                                                                <button type="button"
+                                                                        class="btn btn-resend">发送手机动态码</button>
+                                                            </span>
+                                                        </div>
+
+                                                    </div>
+                                                    <p class="error-msg"></p>
+                                                    <div class="form-group"><input type="submit"
+                                                                                   class="btn-submit btn-block"
+                                                                                   value="登录">
+                                                    </div>
+                                                </form>
+                                                <br>
+                                                <div class="form-group clearfix text-right">
+                                                    <a
+                                                       class="btn-link btn-forget-password pull-left">忘记密码？</a>
+                                                    <span>没有账号？<a
+                                                                  class="btn-link btn-sign-up">在此注册</a></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-content forget-password-wrap" >
+                                    <div class="modal-header" >
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4>找回密码</h4>
+                                    </div>
+                                    <div class="modal-body" id="forgot-pwd">
+                                        <form action="/forgot/password/checkMessageCode" method="POST">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon input-icon"><i
+                                                            class="icon-cp"></i></span>
+                                                    <input type="text" name="loginName" maxlength="20" class="form-control"
+                                                           placeholder="游戏账号（ag开头）/手机号码">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="icon-lock-o"></i></span>
+                                                    <input type="text" name="captcha" maxlength="6" class="form-control"
+                                                           placeholder="验证码">
+                                                    <span class="input-group-btn">
+                                                      <button type="button" class="btn btn-resend">发送手机验证码</button>
+                                                   </span>
+                                                </div>
+                                            </div>
+                                            <p class="error-msg"></p>
+                                            <div class="form-group">
+                                                <input type="submit"
+                                                       class="btn-submit btn-block"
+                                                       value="下一步">
+                                            </div>
+                                        </form>
+                                        <br>
+                                        <div class="form-group clearfix text-right">
+                                            <a  class="btn-link btn-sign-in pull-left">去登录</a>
+                                            <span>没有账号？<a  class="btn-link btn-sign-up">在此注册</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-content new-password" >
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4>设置新密码</h4>
+                                    </div>
+                                    <br>
+                                    <div class="modal-body" id="change-pwd">
+                                        <form action="/forgot/password" method="POST">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                        <span class="input-group-addon input-icon"><i
+                                                                class="icon-lock-o"></i></span>
+                                                    <input type="password" name="pwd" maxlength="10" id="pwd"
+                                                           class="form-control"
+                                                           placeholder="新密码">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                        <span class="input-group-addon input-icon"><i
+                                                                class="icon-lock-o"></i></span>
+                                                    <input type="password" name="pwde" maxlength="10" class="form-control"
+                                                           placeholder="确认密码">
+                                                </div>
+
+                                            </div>
+                                            <p class="error-msg"></p>
+                                            <div class="form-group"><input type="submit" class="btn-submit btn-block"
+                                                                           value="提交"></div>
+                                        </form>
+                                        <br>
+                                        <div class="form-group clearfix text-right">
+                                            <a class="btn-link btn-sign-in pull-left">去登录</a>
+                                            <span>没有账号？<a class="btn-link btn-sign-up">在此注册</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-content confirmed-password">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4>修改密码完成</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="text-center">新密码设置成功</h4>
+                                    <br>
+                                    <br>
+                                    <a class="btn-submit btn-block"> 去登录 </a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button id="fast-reg-but"  type="button" class="btn dropdown-toggle btn-custom" data-backdrop="" data-toggle="modal" data-target="#regModal"><i class="icon-reg"></i> 快速注册</button>
+                        <div class="modal" id="regModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#fast-reg" data-toggle="tab">快速注册</a></li>
+                                            <li><a href="#basic-reg" data-toggle="tab">普通注册</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane fade active in" id="fast-reg">
+                                            <form action="/register/real/fast" method="POST">
+                                                <div class="form-group">
+                                                    <div class="input-group">
+                                                                <span class="input-group-addon"><i
+                                                                        class="icon-cp"></i></span>
+                                                        <input name="phone" type="text" maxlength="11" class="form-control"
+                                                               placeholder="请输入手机号码">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="autoLoginName"
+                                                               value="false" checked> 随机账号
+                                                    </label>
+                                                    <label class="radio-inline">
+                                                        <input type="radio" name="autoLoginName"
+                                                               value="true"> 自定义账号
+                                                    </label>
+                                                </div>
+                                                <div class="form-group hide">
+                                                    <div class="input-group">
+                                                            <span class="input-group-addon"><i
+                                                                    class="icon-user-o"></i></span>
+                                                        <span class="input-group-addon"><i
+                                                                class="ag-icon"></i></span>
+                                                        <input type="text" name="loginName" maxlength="10"
+                                                               class="form-control"
+                                                               placeholder="账号6~10位字母或数字">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group register-captcha" style="display: none;">
+                                                    <div class="input-group">
+                                                        <input type="text" name="captcha" maxlength="4" class="form-control"
+                                                               placeholder="请输入验证码">
+                                                        <span class="input-group-addon captcha"><img alt="captcha"></span>
+                                                    </div>
+                                                </div>
+                                                <p class="error-msg"></p>
+                                                <div class="form-group"><input type="submit"
+                                                                               class="btn-submit btn-block"
+                                                                               value="注册">
+                                                </div>
+                                            </form>
+                                            <br>
+                                            <div class="form-group clearfix text-right">
+                                                <span>已有账号？<a class="btn-link go-sign-in">在此登录</a></span>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="basic-reg">
+                                            <form action="/register/real/basic" method="POST">
+                                                <div class="form-group sm-margin">注： 带" <span class="text-red">*</span> "
+                                                    号为必填项
+                                                </div>
+                                                <div class="form-group required">
+                                                    <div class="input-group">
+                                                            <span class="input-group-addon"><i
+                                                                    class="icon-user-o"></i></span>
+                                                        <span class="input-group-addon" id="readonly"><i
+                                                                class="ag-icon"></i></span>
+                                                        <input type="text" name="loginName" maxlength="10"
+                                                               class="form-control"
+                                                               placeholder="账号6~10位字母或数字">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group required input-password">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="icon-lock-o"></i></span>
+                                                        <input type="password" id="password" name="pwd" maxlength="10"
+                                                               class="show-pass form-control" placeholder="密码8~10位字母和数字">
+                                                        <span class="input-group-btn last">
+                                                          <button class="btn btn-default btn-show" type="button"><i
+                                                                  class="fa fa-eye-slash"></i></button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-group required">
+                                                    <div class="input-group">
+                                                                <span class="input-group-addon"><i
+                                                                        class="icon-cp"></i></span>
+                                                        <input type="text" name="phone" maxlength="11" class="form-control"
+                                                               placeholder="手机号码">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group ">手机号码是验证信息的重要途径，请正确填写</div>
+                                                <div class="form-group sm-margin">
+                                                    <a data-toggle="tooltip" data-placement="right"
+                                                       title="推荐码用于参与“推荐好友”优惠活动，您将获取丰厚免费奖金 ">什么是推荐码？</a>
+                                                </div>
+                                                <div class="form-group recommend-group">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon input-icon"><i class="fa fa-barcode" aria-hidden="true"></i></span>
+                                                        <input type="text" name="whoRecommendMe"
+                                                               class="form-control" maxlength="6" placeholder="请输入推荐码，若无可不填写">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group register-captcha" style="display: none;"
+                                                     id="basicRegisterCaptchaDiv">
+                                                    <div class="input-group">
+                                                        <input type="text" name="captcha" maxlength="4" class="form-control"
+                                                               placeholder="请输入验证码">
+                                                        <span class="input-group-addon captcha"><img alt="captcha"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox" name="agree" value="true" checked>我确定我已年满18岁，并接受<a
+                                                                href="/publicity/aboutus" target="_blank">AG亚游</a>的<a
+                                                                href="/publicity/aboutus/contract" target="_blank">条款及细则</a>、及<a
+                                                                href="/publicity/aboutus/privacy" target="_blank">隐私权政策</a>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <p class="error-msg"></p>
+                                                <div class="form-group">
+                                                    <input type="submit" class="btn-submit btn-block" value="注册">
+                                                </div>
+                                            </form>
+                                            <br>
+                                            <div class="form-group clearfix text-right">
+                                                <span>已有账号？<a class="btn-link go-sign-in">在此登录</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button id="try-reg-but" type="button" class="btn dropdown-toggle btn-custom btn-tryplay" data-backdrop="" data-toggle="modal" data-target="#tryplayModal"><i class="icon-try"></i> 免费试玩</button>
+                        <div class="modal fade" id="tryplayModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4>免费试玩</h4>
+                                    </div>
+                                    <div class="modal-body" id="free_pay">
+                                        <form action="/register/trial/basic" method="POST">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" maxlength="4" name="captcha"
+                                                           placeholder="请输入验证码">
+                                                    <span class="input-group-addon captcha"><img alt="captcha"></span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group"> 如果看不清验证码，请点击图片刷新.</div>
+                                            <p class="error-msg"></p>
+                                            <div class="form-group">
+                                                <input type="submit" class="btn-submit btn-block" value="开始试玩">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+
+        </div>
+    </nav>
+</div>
+<script src="https://static-v3.agg044.com/static/js/personal/toolCommon.js"></script>
+    </div>
+
+    <div class="sidebar">
+        
+
+
+
+
+
+
+
+
+<a href="/" class="logo"></a>
+<ul>
+    <li data-sidebar="home_index"><a href="/" class="home active">首 页</a></li>
+    <li data-sidebar="home_agin"><a href="/game/show/agin" class="international">AG国际厅</a></li>
+    <li data-sidebar="home_agq"><a href="/game/show/agq" class="flagship">AG旗舰厅</a></li>
+    <li data-sidebar="home_egame"><a href="https://www.ag86.com" target="_playEgame" class="casino">亚游电游</a></li>
+    <li data-sidebar="home_aglive"><a href="/game/show/aglive" class="liveroom">AG直播厅<img
+            src="https://static-v3.agg044.com/static/images/others/sidebar/hot.png" class="hot"></a></li>
+    <li data-sidebar="home_agstar"><a href="/game/show/agstar" class="gamecity">AS电玩城</a></li>
+    <li data-sidebar="home_agtel"><a href="/game/show/agtel" class="tel">AG电投厅</a></li>
+    
+    <li data-sidebar="home_sport">
+        
+            <a href="/game/try/sport" class="sports">体育投注</a>
+        
+        
+        
+    </li>
+    <li data-sidebar="home_promotion"><a href="/promotion" class="promotions">最新优惠</a></li>
+    <li data-sidebar="home_mobile"><a href="/publicity/download" class="mobile">手机投注</a></li>
+
+</ul>
+<div class="qr-wrap">
+    <div class="qr-image">
+        <!-- <img src="https://static-v3.agg044.com/static/images/others/sidebar/qr-code.png">
+                <div class="scanner"> <img src="https://static-v3.agg044.com/static/images/others/sidebar/yellowlight.png"> </div> -->
+    </div>
+    <!-- <p>扫描二维码进入AG亚游手机网</p> -->
+</div>
+
+    </div>
+    <div class="sticky">
+        
+
+
+
+
+
+
+
+
+<div class="sticky-wrap">
+    
+    <div class="pop-up-left0">
+        <a href="javascript:;" onclick="myFunctionTutorials()"><img
+                src="https://static-v3.agg044.com/static/images/others/sticky/q-btn.png"></a>
+    </div>
+    
+    <div class="pop-up-left1">
+        <div class="a-img-sticky" id="add">
+        </div>
+        <div class="ag-sticky-left">
+            <img src="https://static-v3.agg044.com/static/images/others/sticky/live_chat.png" class="live-chat">
+            <div class="chat_btn"><a href="javascript:_cs();">在线咨询</a></div>
+            <div class="chat_btn icon-inside4">
+                <a class="icon-inside" style="cursor: pointer;">电话回拨</a>
+            </div>
+            <!-- <p class="qq-p">客服QQ<span>4006999668</span></p> -->
+            <div class="contact_title">
+                <p class="home_custom">服务热线</p>
+                <img src="https://static-v3.agg044.com/static/images/others/sticky/down_icon.png" class="down_icon">
+                <!-- <p class="qq-p">中国大陆</p>
+                <p class="p-num">400-6999-668</p>
+                <p class="p-num">400-0586-668</p> -->
+                <p class="qq-p">菲律宾热线</p>
+                <p class="p-num">+63-2-949-8222</p>
+            </div>
+        </div>
+        <div class="login-pop-up4">
+            <img src="https://static-v3.agg044.com/static/images/others/sticky/3mins_add.png "
+                 style="float: left; padding: 4px 0px 0px;">
+            <form id="phoneCallBackForm" class="form-inline">
+                <p style="width: 490px;">
+                    AG亚游为您提供24小时全天候的电话回<br>拨服务，
+                    <red><strong>完全免费</strong></red>
+                    ，欢迎体验！
+                </p>
+                <p>
+                </p>
+                <div class="form-group">
+                    <input type="text" id="callBackPhoneNo" name="callBackPhoneNo" maxlength="11" class="form-control"
+                           placeholder="请输入您的联系电话">
+                </div>
+                <a class="btn btn-add-contact-tab2">马上回拨</a>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" id="callBackCapthca" name="callBackCapthca" maxlength="4"
+                               class="form-control" placeholder="请输入验证码">
+                        <span class="input-group-addon captcha"><img
+                                src="https://static-v3.agg044.com/static/images/others/sticky/code-index.png"
+                                alt="captcha"></span>
+                    </div>
+                </div>
+                <p></p>
+                <p>
+                    <span> 温馨提示：
+                        <br>
+                        请输入11位数字手机号码即可，例如：138XXXX0000
+                    </span>
+                </p>
+            </form>
+            <img src="https://static-v3.agg044.com/static/images/others/sticky/fubao-close.png"
+                 class="login4-close-popup close-btn">
+        </div>
+        <div class="login-pop-up4">
+            <img src="https://static-v3.agg044.com/static/images/others/sticky/success_add_con.png"
+                 style="float: left; padding: 4px 0px 0px;">
+            <form class=" form-inline">
+                <p><strong>号码发送成功！</strong></p>
+            </form>
+            <p>我们的客服人员将立即与您联系，请保持电话畅通。</p>
+            <img src="https://static-v3.agg044.com/static/images/others/sticky/fubao-close.png" class="login4-close-popup">
+        </div>
+    </div>
+</div>
+<footerStatic>
+    <script src="https://static-v3.agg044.com/static/js/publicity/sticky.js"></script>
+</footerStatic>
+
+
+    </div><!-- end wrapper -->
+
+    
+<div class="main-container home-wrap">
+    <div class="container-wrap">
+        <div id="home-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="/activity/redenvelope">
+                        <img src="https://static-v3.agg044.com/static/images/home/hongbao_finish.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="/bbs?mod=viewthread&tid=3115" target="_playGame">
+                        <img data-src="https://static-v3.agg044.com/static/images/home/banner_mobile.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.ag86.com/promotion/rebate" target="_playGame">
+                        <img data-src="https://static-v3.agg044.com/static/images/home/banner5.jpg">
+                    </a>
+                </div>
+                <div class="item">
+                    
+                        <a href="#" class="login-gobut">
+                            <img data-src="https://static-v3.agg044.com/static/images/home/as_game.jpg"/>
+                        </a>
+                    
+                    
+                </div>
+
+                <div class="item">
+                    <img data-src="https://static-v3.agg044.com/static/images/home/banner1.jpg">
+                    <div class="carousel-caption">
+                        
+                            <a class="btn caption-btn1 trial-gobut">免费试玩</a>
+                            <a class="btn caption-btn2 register-gobut">免费开户</a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <a class="left carousel-control" href="#home-carousel" data-slide="prev">
+                <img src="https://static-v3.agg044.com/static/images/others/footer/arrow-left.png">
+            </a>
+            <a class="right carousel-control" href="#home-carousel" data-slide="next">
+                <img src="https://static-v3.agg044.com/static/images/others/footer/arrow-right.png">
+            </a>
+            <ol class="carousel-indicators">
+                <li data-target="#home-carousel" data-slide-to="0" class="active">
+                    <img src="https://static-v3.agg044.com/static/images/home/hongbao_thumb_finish.jpg">
+                </li>
+                <li data-target="#home-carousel" data-slide-to="1">
+                    <img src="https://static-v3.agg044.com/static/images/home/banner_mobile_thumb.jpg">
+                </li>
+                <li data-target="#home-carousel" data-slide-to="2">
+                    <img src="https://static-v3.agg044.com/static/images/home/banner5_thumb.jpg">
+                </li>
+                <li data-target="#home-carousel" data-slide-to="3">
+                    <img src="https://static-v3.agg044.com/static/images/home/as_game_thumb.jpg">
+                </li>
+                <li data-target="#home-carousel" data-slide-to="4">
+	                 <img src="https://static-v3.agg044.com/static/images/home/banner1_thumb.jpg">
+	             </li>
+            </ol>
+        </div>
+    </div>
+</div><!-- end home-wrap -->
+
+
+
+
+
+    <div class="footer">
+        
+
+
+
+
+
+
+
+
+<div class="logoes">
+    <a href=""><img src="https://static-v3.agg044.com/static/images/others/footer/logo_2.png" alt=""></a>
+    <em>旗下品牌:</em>
+    <a href="https://www.ag8.com" target="_playEgame"><img src="https://static-v3.agg044.com/static/images/others/footer/logo_1.png" alt=""></a>|
+    <a href="https://www.ag86.com" target="_playEgame"><img src="https://static-v3.agg044.com/static/images/others/footer/logo_6.png" alt=""></a>|
+    <a href="https://asia-gaming.com/" target="_playEgame"><img src="https://static-v3.agg044.com/static/images/others/footer/logo_3.png" alt=""></a>|
+    <a href="http://www.ag888.com" target="_playEgame"><img src="https://static-v3.agg044.com/static/images/others/footer/logo_4.png" alt=""></a>|
+    <a href="https://manilabay.newworldhotels.com/sc/" target="_playEgame"><img src="https://static-v3.agg044.com/static/images/others/footer/logo_5.png" alt=""></a>
+    <em>官方媒体:</em>
+    <a href="https://www.youtube.com/channel/UCnanc2COQ5_ql1BIjrGh-iw" target="_playEgame" class="p5"><img src="https://static-v3.agg044.com/static/images/others/footer/youtube.png" alt=""></a>
+    <a href="http://weibo.com/5574468338/profile?topnav=1&wvr=6&is_all=1" target="_playEgame" class="p5"><img src="https://static-v3.agg044.com/static/images/others/footer/sina.png" alt=""></a>
+    <a href="https://www.facebook.com/AsiaGaming.Official/" target="_playEgame" class="p5"><img src="https://static-v3.agg044.com/static/images/others/footer/facebook.png" alt=""></a>
+</div>
+<a href="/publicity/aboutus">关于我们</a>|
+<a href="/publicity/gamerule">游戏规则</a>|
+<a href="/publicity/aboutus/license">博彩牌照</a>|
+<a href="/publicity/aboutus/tool">工具下载</a>
+<span>AG平台接入洽谈: cs@asia-gaming.com</span>
+<span>©2017 AG8.com 版权所有</span>
+    </div>
+
+</div>
+
+
+<script>
+    //全局js
+    pn = window.pn || {};
+    //
+    pn.staticurl = 'https://static-v3.agg044.com';
+    pn.egameurl = 'https://www.ag86.com';
+    pn.servername = 'agsun.net';
+    pn.loginname = '';
+    pn.userlevel = '';
+    pn.userid = '';
+    pn.customerType = '';
+</script>
+<script src="https://static-v3.agg044.com/static/js/jquery-1.11.3.min.js"></script>
+<script src="https://static-v3.agg044.com/static/js/bootstrap.min.js"></script>
+<script src="https://static-v3.agg044.com/static/js/plugins/loading/jquery.loading.js"></script>
+<script src="https://static-v3.agg044.com/static/js/carousel.js"></script>
+<script src="https://static-v3.agg044.com/static/js/jquery.marquee.min.js"></script>
+<script src="https://static-v3.agg044.com/static/js/plugins/validate/jquery.validate.min.js"></script>
+<script src="https://static-v3.agg044.com/static/js/plugins/cookie/jquery.cookie.js"></script>
+<script src="https://static-v3.agg044.com/static/js/plugins/safety/jquery.md5.js"></script>
+<script src="https://static-v3.agg044.com/static/js/plugins/layer/layer.js"></script>
+
+<script src="https://static-v3.agg044.com/static/js/base/constants.js"></script>
+
+<script src="https://static-v3.agg044.com/static/js/main.js"></script>
+<script src="https://static-v3.agg044.com/static/js/sticky.js"></script>
+<script src="https://static-v3.agg044.com/static/js/lib/lib.js"></script>
+
+<script src="https://static-v3.agg044.com/static/js/base/agcs.js"></script>
+
+
+<script src="https://static-v3.agg044.com/static/js/login/login.js"></script>
+<script src="https://static-v3.agg044.com/static/js/register/register.js"></script>
+<script src="https://static-v3.agg044.com/static/js/ucenter/ucenterCommon.js"></script>
+<script src="https://static-v3.agg044.com/static/js/game/gameCommon.js"></script>
+
+    <script src="https://static-v3.agg044.com/static/js/home/index.js"></script>
+
+<a href="/ucenter/sms/subscribe/index"></a>
+<!--[if lt IE 9]>
+<script src="https://static-v3.agg044.com/static/js/plugins/jquery.placeholder.min.js"></script>
+<script>
+    function initPlaceholder(){
+        if (jQuery().placeholder) {
+            $("input[placeholder][type='text']").placeholder();
+            setTimeout(function () {
+                $("input[placeholder][type='password']").placeholder();
+            }, 1000);
+        }
+    }
+    initPlaceholder();
+</script>
+<![endif]-->
+</body>
+</html>

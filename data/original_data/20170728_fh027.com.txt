@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="referrer" content="always">
+    <meta name="referrer" content="unsafe-url">
+    <meta name="renderer" content="webkit">
+    <title>fh186.com凤凰彩票网</title>
+    <link type="image/x-icon" rel="shortcut icon" href="https://fh027.com/views/assets/img/favicon.ico" media="screen">
+    <link type="text/css" rel="stylesheet" href="https://fh027.com/views/assets/css/home.css">
+    <link type="text/css" rel="stylesheet" href="https://fh027.com/views/assets/css/tip.css">
+    <link type="text/css" rel="stylesheet" href="https://fh027.com/views/assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="https://fh027.com/views/assets/css/index.css">
+    <link type="text/css" rel="stylesheet" href="https://fh027.com/views/assets/css/layer.css">
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/user.js"></script>
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/layer.js"></script>
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/home_menu.js"></script>
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript" src="https://fh027.com/views/assets/js/home.js"></script>
+    <style>
+        .liansai-wrap {
+            background: url(https://fh027.com/views/assets/img/common/wrap_bg.jpg) top no-repeat;
+        }
+    </style>
+</head>
+<body>
+<div class="header-plus" id="header_plus">
+    <div class="header-toptray-plus" style="">
+    <div class="quick-tpis"> <i class="icon-volume"></i>
+       <marquee behavior="scroll" onmouseover="stop()" onMouseOut="this.start()" onclick="window.open('https://fh027.com/lottery/notice', 'newwindow', 'height=600, width=900, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no')">
+       <!--  -->
+             
+      </marquee>
+    </div>
+</div>
+    <div class="liansai-wrap" id="liansai-wrap">
+        <div class="liansai">
+            <!-- no delete -->
+        </div>
+        <script src="https://fh027.com/views/assets/js/userCenter.js"></script>
+<link href="https://fh027.com/views/assets/css/layer.css" rel="stylesheet">
+<script src="https://fh027.com/views/assets/js/layer.js"></script>
+<div class="header-navbar-plus">
+    <div class="wrapper clearfix" id="header_box">
+        <div class="lottery-plus" id="lotterys">
+            <h2 class="">选择彩种
+                            </h2>
+            <div class="lotterys-list-hd" id="lotterysList" style="display:block;">
+                <ul class="lottery-list-box" id="lottery-list-box">
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/ssc-cq" class="mainA">
+                            <i class="icon nav40-9">
+                                <img src="https://fh027.com/views/assets/img/home/5.png">
+                            </i>
+                            <span class="color333">重庆时时彩</span>
+                        </a><a href="https://fh027.com/lottery/buy/ssc-cq" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/pk10-bj" class="mainA">
+                            <i class="icon nav40-9">
+                                <img src="https://fh027.com/views/assets/img/home/9.png">
+                            </i>
+                            <span class="color333">北京PK拾</span>
+                        </a>
+                        <a href="https://fh027.com/lottery/buy/pk10-bj" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/fc3d" class="mainA">
+                            <i class="icon nav40-9">
+                                <img src="https://fh027.com/views/assets/img/home/18.png">
+                            </i>
+                            <span class="color333">福彩3D</span>
+                        </a>
+                        <a href="https://fh027.com/lottery/buy/fc3d" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/k3-js" class="mainA">
+                            <i class="icon nav40-9">
+                                <img  width="24" height="24" src="https://fh027.com/views/assets/img/lottery/25.png">
+                            </i>
+                            <span class="color333">江苏快三</span>
+                        </a>
+                        <a href="https://fh027.com/lottery/buy/k3-js" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/k3-ah" class="mainA">
+                        <i class="icon nav40-9">
+                            <img width="24" height="24" src="https://fh027.com/views/assets/img/lottery/13.png">
+                        </i>
+                            <span class="color333">安徽快3</span>
+                        </a>
+                        <a href="https://fh027.com/lottery/buy/k3-ah" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="mainGame">
+                        <a href="https://fh027.com/lottery/buy/syxw-js" class="mainA">
+                            <i class="icon nav40-9">
+                                <img width="24" height="24" src="https://fh027.com/views/assets/img/lottery/30.png">
+                            </i>
+                            <span class="color333">江苏11选5</span>
+                        </a>
+                        <a href="https://fh027.com/lottery/buy/syxw-js" class="normal-desc">立即投注</a>
+                    </li>
+                    <li class="allGames clearfix" data-type="1">
+                        <h3><span>高频彩</span></h3>
+                        <ul class="clearfix game-list">
+                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/ssc-cq">重庆时时彩</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/ssc-lfc">两分彩</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/ssc-ffc">分分彩</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/syxw-gd">广东11选5</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/syxw-sh">上海11选5</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/k3-gxs">广西快3</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/ssc-xj">新疆时时彩</a>
+                                    </li>
+                                                                                                                                <li>
+                                        <a href="https://fh027.com/lottery/buy/k3-ah">安徽快3</a>
+                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                        <i class="icon" id="open-btn-1" style="display: block;"></i>
+                        <div class="line-fff" style="display: none;"></div>
+                        <div class="moreGames clearfix" style="display: none;" id="moreGames_1">
+                            <div class="moreGames-box fl">
+                                <div class="otherGames num-games">
+                                    <h3>高频彩</h3>
+                                    <ol>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-cq">重庆时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-lfc">两分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-ffc">分分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-gd">广东11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-sh">上海11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-gxs">广西快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-xj">新疆时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-ah">安徽快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-wfc">五分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-jx">江西多乐彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/pk10-bj">北京PK拾</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-sd">山东11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-hb">河北快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-hub">湖北快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-bj">北京快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-ah">安徽11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-js">江苏快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-gx">广西11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-jl">吉林11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-hb">湖北11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-js">江苏11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-nmg">内蒙古11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-tj">天津时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-nmg">内蒙古快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-fj">福建快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-jl">吉林快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-sfc">三分彩</a></li>
+                                                                            </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="allGames" data-type="2">
+                        <h3><span>低频彩</span></h3>
+                        <ul class="clearfix game-list">
+                                                            <li><a href="https://fh027.com/lottery/buy/fc3d">福彩3D</a></li>
+                                                            <li><a href="https://fh027.com/lottery/buy/pl3">排列三</a></li>
+                                                            <li><a href="https://fh027.com/lottery/buy/pl5">排列五</a></li>
+                                                    </ul>
+                    </li>
+                    <li class="allGames clearfix" data-type="3">
+                        <h3><span>全部</span></h3>
+                        <ul class="clearfix game-list">
+                                                                                                <li><a href="https://fh027.com/lottery/buy/ssc-cq">重庆时时彩</a></li>
+                                                                                                                                <li><a href="https://fh027.com/lottery/buy/syxw-gd">广东11选5</a></li>
+                                                                                                                                <li><a href="https://fh027.com/lottery/buy/fc3d">福彩3D</a></li>
+                                                                                                                                <li><a href="https://fh027.com/lottery/buy/pl3">排列三</a></li>
+                                                                                                                                <li><a href="https://fh027.com/lottery/buy/ssc-xj">新疆时时彩</a></li>
+                                                                                                                                <li><a href="https://fh027.com/lottery/buy/ssc-wfc">五分彩</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                        <i class="icon" id="open-btn-1" style="display: block;"></i>
+                        <div class="line-fff" style="display: none;"></div>
+                        <div class="moreGames clearfix" style="display: none;" id="moreGames_3">
+                            <div class="moreGames-box fl">
+                                <div class="otherGames num-games">
+                                    <h3>全部</h3>
+                                    <ol>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-cq">重庆时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-gd">广东11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/fc3d">福彩3D</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/pl3">排列三</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-xj">新疆时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-wfc">五分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-jx">江西多乐彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/pk10-bj">北京PK拾</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-js">江苏快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-lfc">两分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-ffc">分分彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-sh">上海11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-fj">福建快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-tj">天津时时彩</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-gxs">广西快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-ah">安徽快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-sd">山东11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-hb">河北快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-hub">湖北快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-bj">北京快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-ah">安徽11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-gx">广西11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-jl">吉林11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-hb">湖北11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-js">江苏11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/syxw-nmg">内蒙古11选5</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-nmg">内蒙古快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/k3-jl">吉林快3</a></li>
+                                                                                    <li><a href="https://fh027.com/lottery/buy/ssc-sfc">三分彩</a></li>
+                                                                            </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul class="nav-plus clearfix">
+            <li class="on"><a href="https://fh027.com">首页</a></li>
+            <li><a href="https://fh027.com/lottery/lobby">购彩大厅</a></li>
+            <!-- <li><a href="https://fh027.com/lottery/mobile">手机购彩</a><em class="hot-icon"></em></li> -->
+                        <li><a href="https://fh027.com/Hot/lottery">优惠活动</a></li>
+            <li><a href="https://fh027.com/lottery/draw" class="dropdown-desc">开奖公告</a></li>
+            <li><a href="https://fh027.com/lottery/trendList">走势图表</a></li>            
+            <li><a href="https://fh027.com/News/lottery">资讯</a></li>
+        </ul>
+        <div class="quick-list">
+            <a href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes" title="客服" target="_blank">客服</a> <a href="https://fh027.com/Help/lottery/6">帮助</a>
+            <a href="https://fh027.com/Help/lottery/2">玩法</a>
+            <a id="agent_reg_url" target="_bank" href="https://fh027.com/agents/agentlogin" title="代理登录">代理</a>
+        </div>
+    </div>
+</div>
+<!-- 消息弹出框 --> 
+<style>
+    *{ margin:0; padding:0; }
+    .message_wrap{ width:250px; height:161px; background:url(https://fh027.com/views/assets/img/common/white_bg.png) no-repeat; margin:auto; position:fixed; right:5px; bottom:5px; z-index:99999; display:none;}
+    .message_wrap .message_content{ width:180px; height:32px; line-height:32px; text-align:center; position:absolute; top:65px; left:42px; color:#666; font-size:16px; }
+    .message_wrap .message_content span{ color:#ff2929; font-weight:bold; font-size:18px; }
+    .message_wrap .message_br a{ position:absolute; display:block; width:120px; height:35px; background:url(https://fh027.com/views/assets/img/common/white_right_btn.png) no-repeat; top:116px; left:127px; cursor:pointer;}
+    .message_wrap .message_br a:hover{ background:url(https://fh027.com/views/assets/img/common/white_right_btn_h.png) no-repeat; }
+    .message_wrap .message_bl a{ position:absolute; display:block; width:120px; height:35px; background:url(https://fh027.com/views/assets/img/common/white_left_btn.png) no-repeat; top:116px; left:20px; cursor:pointer; }
+    .message_wrap .message_bl a:hover{ background:url(https://fh027.com/views/assets/img/common/white_left_btn_h.png) no-repeat; }
+
+</style>
+<script>
+window.onload=function(){
+    $('.message_br').on('click',function(){
+        $('.message_wrap').hide();
+        showTime(1800);
+    });
+    $('.message_bl').on('click',function(){
+        $('.message_wrap').hide();
+        showTime(300);
+    });
+    var username=$('a[name="user_name"]').text();
+    if(username!=""){
+        if (getCookie("msg")>0) {
+            $("#messagemsg").text('('+getCookie("msg")+')');
+        } else {
+            $("#messagemsg").text('');
+        }
+        $('#noread').text(getCookie("msg"));
+        showMessage();
+        newMessage();
+        noShow();
+    }
+};
+</script>
+<div class="message_wrap">
+    <p class="message_content">您有 <span id="noread"></span> 条未读消息！</p>
+    <div class="message_bl"><a onclick="__openWin(&#39;user_center&#39;,&#39;https://fh027.com/user/privateMsg&#39;);"></a></div>
+    <div class="message_br"><a href="javascript:;"></a></div>
+    <div class="music"></div>
+</div>  
+<!-- 消息弹出框结束 -->
+<!-- 升级浏览器 -->
+<script type="text/javascript">
+    $(function(){
+        var browser=navigator.appName;
+        var b_version=navigator.appVersion ;
+        var version=b_version.split(";");
+        if(version[1]){
+            var trim_Version=version[1].replace(/[ ]/g,"");
+        }
+        if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0")  {   remind('浏览器版本过低，请使用高版本浏览器。');  }
+        else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0")  {   remind('浏览器版本过低，请使用高版本浏览器。');   }
+        else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0")  {   remind('浏览器版本过低，请使用高版本浏览器。');   }
+        else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0")  {   remind('浏览器版本过低，请使用高版本浏览器。');   }
+        else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE10.0")  {   remind('浏览器版本过低，请使用高版本浏览器。');   }
+    });
+</script>
+
+        <div class="wrap-bg">
+            <div class="clearfix wrapper" style="height:486px;">
+                <!-- 轮播图 -->
+                <div class="TB-focus">
+                    <div class="hd">
+                        <ul>
+                            <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                        <li></li>
+                                                    </ul>
+                    </div>
+                    <div class="bd">
+                        <ul style="position: relative; width:100%; height: 225px; margin:auto;">
+                            <li style="position: absolute; width:100%; left: 0px; top: 0px; display: none;">
+                                <a href="https://fh027.com/stamps/index">
+                                    <img src="https://fh027.com/views/assets/img/home/cjq.png" width='490' height='225' ;>
+                                </a>
+                            </li>
+                                                        <li style="position: absolute; width:100%; left: 0px; top: 0px; display: none;">
+                                <a href="https://fh027.com/Hot/lottery?30">
+                                    <img src="http://fhcpimg.zqtuyk.cn/gwyl/20170727/20170727105753_39834.tmp" width='490' height='225' ;>
+                                </a>
+                            </li>
+                                                        <li style="position: absolute; width:100%; left: 0px; top: 0px; display: none;">
+                                <a href="https://fh027.com/Hot/lottery?42">
+                                    <img src="http://fhcpimg.zqtuyk.cn/gwyl/20170727/20170727103726_95674.tmp" width='490' height='225' ;>
+                                </a>
+                            </li>
+                                                        <li style="position: absolute; width:100%; left: 0px; top: 0px; display: none;">
+                                <a href="https://fh027.com/Hot/lottery?43">
+                                    <img src="http://fhcpimg.zqtuyk.cn/gwyl/20170727/20170727110405_50140.tmp" width='490' height='225' ;>
+                                </a>
+                            </li>
+                                                        <li style="position: absolute; width:100%; left: 0px; top: 0px; display: none;">
+                                <a href="https://fh027.com/Hot/lottery?38">
+                                    <img src="http://fhcpimg.zqtuyk.cn/gwyl/20170727/20170727104914_24146.tmp" width='490' height='225' ;>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    jQuery(".TB-focus").slide({
+                        mainCell: ".bd ul",
+                        effect: "fold",
+                        autoPlay: true,
+                        delayTime: 200
+                    });
+                </script>
+                <!-- 轮播图结束 -->
+                <div class="submain">
+                    <div>
+                        <div id="_index_countdownIssue">
+                            <div class="quick-buy-box mt15">
+                                <div class="quick-buy">
+                                    <ul name="quick_tab_list" class="quick-tab-list">
+                                        <li class="tab-sel-open on" data-gameid="1" toTime="171"><a>重庆时时彩</a></li>
+                                        <li class="tab-sel-open" data-gameid="9" toTime="7071"><a>福彩3D</a></li>
+                                        <li class="tab-sel-open" data-gameid="18" toTime="291"><a>北京PK拾</a></li>
+                                        <li class="tab-sel-open" data-gameid="10" toTime="4371"><a>排列三</a></li>
+                                        <li class="tab-sel-open" data-gameid="25" toTime="111"><a>江苏快三</a></li>
+                                    </ul>
+                                    <!--彩种倒计时(重庆时时彩)-->
+                                    <div name="content" class="qb qb-box-list">
+                                        <ul class="qb-info clearfix">
+                                            <li> 第&nbsp;<span name="issue" style="color:#f13131">20170728080</span>&nbsp;期 <span class="c-gray">截止：</span> <span class="sale_end_timer"> <span> <span name="day" class="orange">0</span>天 <span name="h" class="orange">6</span>小时 <span name="m" class="orange">57</span>分 <span name="s" class="orange">51</span>秒 </span></span>
+                                            </li>
+                                            <li class="bztz"><a name="btn_game_play" href="https://fh027.com/lottery/buy/ssc-cq">手动选号</a> | <a name="btn_trend" href="https://fh027.com/lottery/trendList?type=1">走势图</a>
+                                            </li>
+                                        </ul>
+                                        <div class="qb-selectnumber"><i class="sprite sprite-sscd" style="float:left;"></i>
+                                            <ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="0" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="7" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="2" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="6" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="5" readonly>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div style="display: block;" class="qb-tz-box clearfix"> <span class="fl bei-box clearfix"> <a class="tz_bei_sub">−</a>
+                                            <input name="times_nums" type="text" maxlength="5" class="multiple" value="1">
+                                                <a class="tz_bei_add">+</a> <span class="mr10">倍</span> 共<strong name="bet_amount" class="money orange">1</strong>元&nbsp; </span>
+                                            <span class="dg-btn-box"> <a name="change_gameNum" class="change-btn" onclick="changeNum($(this))"><i class="icon-repeat"></i> 换一注</a> <a name="doBet" class="dg-tz-btn" href="https://fh027.com/lottery/buy/ssc-cq" onclick="quickBet($(this))">立即投注</a> </span>
+                                        </div>
+                                    </div>
+                                    <!--彩种倒计时(福彩3D)-->
+                                    <div name="content" class="qb qb-box-list" style="display:none;">
+                                        <ul class="qb-info clearfix">
+                                            <li> 第&nbsp;<span name="issue" style="color:#f13131">2017202</span>&nbsp;期 <span
+                                                    class="c-gray">截止：</span> <span class="sale_end_timer"> <span> <span name="day" class="orange">0</span>天 <span name="h" class="orange">6</span>小时 <span name="m" class="orange">57</span>分 <span name="s" class="orange">51</span>秒 </span></span>
+                                            </li>
+                                            <li class="bztz"><a name="btn_game_play" href="https://fh027.com/lottery/buy/fc3d">手动选号</a> | <a name="btn_trend" href="https://fh027.com/lottery/trendList?type=9">走势图</a></li>
+                                        </ul>
+                                        <div class="qb-selectnumber"><i class="sprite sprite-sscd" style="float:left;"></i>
+                                            <ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="6" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="2" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="3" readonly>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div style="display: block;" class="qb-tz-box clearfix"> <span class="fl bei-box clearfix"> <a class="tz_bei_sub">−</a>
+                                            <input name="times_nums" type="text" maxlength="5" class="multiple" value="1">
+                                            <a class="tz_bei_add">+</a> <span class="mr10">倍</span> 共<strong name="bet_amount" class="money orange">1</strong>元&nbsp; </span>
+                                            <span class="dg-btn-box"> <a name="change_gameNum" class="change-btn" onclick="changeNum($(this))"><i class="icon-repeat"></i> 换一注</a> <a name="doBet" class="dg-tz-btn" href="https://fh027.com/lottery/buy/fc3d" onclick="quickBet($(this))">立即投注</a> </span>
+                                        </div>
+                                    </div>
+                                    <!--彩种倒计时(pk10)-->
+                                    <div name="content" class="qb qb-box-list" style="display:none;">
+                                        <ul class="qb-info clearfix">
+                                            <li> 第&nbsp;<span name="issue" style="color:#f13131">631244</span>&nbsp;期 <span class="c-gray">截止：</span> <span class="sale_end_timer"> <span> <span name="day" class="orange">0</span>天 <span name="h" class="orange">6</span>小时 <span name="m" class="orange">57</span>分 <span name="s" class="orange">51</span>秒 </span></span>
+                                            </li>
+                                            <li class="bztz"><a name="btn_game_play" href="https://fh027.com/lottery/buy/pk10-bj">手动选号</a> | <a name="btn_trend" href="https://fh027.com/lottery/trendList?type=18">走势图</a></li>
+                                        </ul>
+                                        <div class="qb-selectnumber"><i class="sprite sprite-sscd" style="float:left;"></i>
+                                            <ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="04" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="08" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="06" readonly>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div style="display: block;" class="qb-tz-box clearfix"> <span class="fl bei-box clearfix"> <a class="tz_bei_sub">−</a>
+                                            <input name="times_nums" type="text" maxlength="5" class="multiple" value="1">
+                                            <a class="tz_bei_add">+</a> <span class="mr10">倍</span> 共<strong name="bet_amount" class="money orange">1</strong>元&nbsp; </span>
+                                            <span class="dg-btn-box"> <a name="change_gameNum" class="change-btn double" onclick="changeNum($(this))"><i class="icon-repeat"></i> 换一注</a> <a name="doBet" class="dg-tz-btn" href="https://fh027.com/lottery/buy/pk10-bj" onclick="quickBet($(this))">立即投注</a> </span>
+                                        </div>
+                                    </div>
+                                    <!--排列三-->
+                                    <div name="content" class="qb qb-box-list" style="display:none;">
+                                        <ul class="qb-info clearfix">
+                                            <li> 第&nbsp;<span name="issue" style="color:#f13131">2017202</span>&nbsp;期 <span class="c-gray">截止：</span> <span class="sale_end_timer"> <span> <span name="day" class="orange">0</span>天 <span name="h" class="orange">6</span>小时 <span name="m" class="orange">57</span>分 <span name="s" class="orange">51</span>秒 </span></span>
+                                            </li>
+                                            <li class="bztz"><a name="btn_game_play" href="https://fh027.com/lottery/buy/pl3">手动选号</a> | <a name="btn_trend" href="https://fh027.com/lottery/trendList?type=10">走势图</a></li>
+                                        </ul>
+                                        <div class="qb-selectnumber"><i class="sprite sprite-sscd" style="float:left;"></i>
+                                            <ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="4" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="9" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="1" readonly>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div style="display: block;" class="qb-tz-box clearfix"> <span class="fl bei-box clearfix"> <a class="tz_bei_sub">−</a>
+                                            <input name="times_nums" type="text" maxlength="5" class="multiple" value="1">
+                                            <a class="tz_bei_add">+</a> <span class="mr10">倍</span> 共<strong name="bet_amount" class="money orange">1</strong>元&nbsp; </span>
+                                            <span class="dg-btn-box"> <a name="change_gameNum" class="change-btn" onclick="changeNum($(this))"><i class="icon-repeat"></i> 换一注</a> <a name="doBet" class="dg-tz-btn" href="https://fh027.com/lottery/buy/pl3" onclick="quickBet($(this))">立即投注</a> </span>
+                                        </div>
+                                    </div>
+                                    <!--江苏快3-->
+                                    <div name="content" class="qb qb-box-list" style="display:none;">
+                                        <ul class="qb-info clearfix">
+                                            <li> 第&nbsp;<span name="issue" style="color:#f13131">20170728065</span>&nbsp;期 <span class="c-gray">截止：</span> <span class="sale_end_timer"> <span> <span name="day" class="orange">0</span>天 <span name="h" class="orange">6</span>小时 <span name="m" class="orange">57</span>分 <span name="s" class="orange">51</span>秒 </span></span>
+                                            </li>
+                                            <li class="bztz"><a name="btn_game_play" href="https://fh027.com/lottery/buy/k3-js">手动选号</a> | <a name="btn_trend" href="https://fh027.com/lottery/trendList?type=25">走势图</a>
+                                            </li>
+                                        </ul>
+                                        <div class="qb-selectnumber"><i class="sprite sprite-sscd" style="float:left;"></i>
+                                            <ul name="num_list" class="qb-selectnum clearfix qb_dlt_select">
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="3" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="5" readonly>
+                                                </li>
+                                                <li class="qb-red lot_sn_red">
+                                                    <input value="6" readonly>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div style="display: block;" class="qb-tz-box clearfix"> <span class="fl bei-box clearfix"> <a class="tz_bei_sub">−</a>
+                                            <input name="times_nums" type="text" maxlength="5" class="multiple" value="1">
+                                            <a class="tz_bei_add">+</a> <span class="mr10">倍</span> 共<strong name="bet_amount" class="money orange">1</strong>元&nbsp; </span>
+                                            <span class="dg-btn-box"> <a name="change_gameNum" class="change-btn" onclick="changeNum($(this))"><i class="icon-repeat"></i> 换一注</a> <a name="doBet" class="dg-tz-btn" href="https://fh027.com/lottery/buy/k3-js" onclick="quickBet($(this))">立即投注</a> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 登录 或 用户身份 -->
+                <script type="text/javascript">
+                    
+                                       //更新消息
+                        $(function(){
+                            var title=$("#te").text();
+                                if(!title){
+                                    $("#header_user_login").css("display","");
+                                }else{
+                                    $("#header_user").css("display","");
+                                    setInterval(function(){
+                                        var msg=$.ajax({
+                                               type: "POST",
+                                               url: "https://fh027.com/user/checkMsg",
+                                               /*data: "",*/
+                                               async: false
+                                            }).responseText;
+                                        /*alert(msg);*/
+                                        if(!msg){
+                                            location.reload();
+                                        }else{
+                                            setCookie("msg",parseInt(msg));
+                                            if(msg>getCookie("newMessage")){
+                                                $('#noread').text(msg);
+                                                showMessage();
+                                            }
+                                            if(msg>0){
+                                                $("#messagemsg").text('('+msg+')');
+                                                $('#noread').text(msg);
+                                            }else{
+                                                $('.message_wrap').hide();
+                                                $('.music').html('');
+                                                $("#messagemsg").text('');
+                                            }
+                                        }
+                                    },120000)
+                                }
+                        });
+                </script>
+                <div class="part-1-cont-right index_login">
+                    <!-- 未登录 -->
+                    <div id="header_user_login" class="wrap-login" style="">
+                        <div class="logxinxi" id="logxinxi">
+                            <div class="top_login">
+                                <form id="log-form" method="post">
+                                    <div>
+                                        <div class="freeplay" align="right"><a href="https://fh027.com/user/login" style="padding-right:20px;">试玩登陆</a><a href="https://fh027.com/user/regPlay" style="padding-right:20px;" id="play_free">免费试玩</a><!--a href="https://fh027.com/user/login" style="margin-right:20px;">登陆</a--><a href="https://fh027.com/user/reg">免费注册</a></div>
+                                        <div class="top-login-bg">
+                                            <label for="label_01">用户名:</label>
+                                            <input class="top_loginip" name="username" type="text" id="label_01" placeholder="" maxlength="16">
+                                        </div>
+                                        <div class="top-login-bg">
+                                            <label for="label_02">密&nbsp;&nbsp;&nbsp;码:</label>
+                                            <input class="top_loginip" name="password" type="password" id="label_02" placeholder="" maxlength="12">
+                                        </div>
+
+                                        <div class="top-login-bg" style="position: relative;">
+                                            <label for="label_01">验证码:</label>
+                                            <input id="yzm" class="top_loginip" name="authnum" type="text" maxlength="4">
+                                            <span style="position:absolute;right:0;top:1px;"> <img id="vcodeimg" align="absmiddle" onClick="this.src='https://fh027.com/user/vcode/'+(new Date()).getTime()" title="看不清楚，换一张图片" src="https://fh027.com/user/vcode/1501240629" width="70" height="28"/> </span>
+                                        </div>
+                                        <button id="btn-sub" type="button" class="dr_anniu">登陆</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        //登陆验证
+                        $(function () {
+                            $('#btn-sub').click(function () {
+                                var uname=$('#label_01').val(), pwd=$('#label_02').val(), yzm=$('#yzm').val();
+                                if (!uname||!pwd||!yzm) {
+                                    alert('请填写完整');
+                                    return false;
+                                }
+                                $.post('https://fh027.com/user/dologin', $('#log-form').serialize(), function(r){
+                                	
+                                    if (r.msg != 'SUCCESS') {
+                                        alert(r.msg);
+                                        $("#vcodeimg").click();
+                                    }else{
+                                        $('#uname').text(r.uname);
+                                        $('#header_user_login').hide();
+                                        $('#log-form input').each(function(){
+                                            $(this).val('');
+                                        });
+                                        $('#header_user').show();
+                                        refsCoin();
+                                        // setTimeout('getCoin()', 60000);
+                                        getCoin();
+                                    }
+                                }, "json");
+                            });
+                            $('#logout').click(function(){
+                                $.get("https://fh027.com/user/logout/1",function(r){
+                                    window.location=r;
+                                    /*$('#vcodeimg').click();
+                                    $('#header_user_login').show();
+                                    $('#header_user').hide();
+                                    clearTimeout(window.gCTime);
+                                    clearTimeout(window.refsTime);*/
+                                },'json');
+                            });
+                        });
+
+                        function getCoin() {
+                            $.post("https://fh027.com/user/getCoin",function(r){
+                                if(r=='err') $('#logout').click();
+                            });
+                            window.gCTime=setTimeout('getCoin()', 60000);
+
+                        }
+                        function refsCoin() {
+                            $('#balance').text('￥'+getCookie('coin'));
+                            window.refsTime=setTimeout('refsCoin()', 1000);
+                        };
+                                            </script>
+                    <!-- 已登录 -->
+                    <div id="header_user" class="logxinxi" style="display: none;">
+                        <table class="logintable" style="min-width: 240px; font-size: 12px;">
+                            <tbody>
+                            <tr>
+                                <td style="color:black;padding:14px;">您好，
+                                    <a style="color:#006fe4"
+                                       onclick="__openWin(&#39;user_center&#39;,&#39;user/userCenter&#39;)"
+                                       rel="nofollow" class="play-jl" id="uname" name="user_name"></a><a
+                                            id="te" style="display: none;"></a>
+                                </td>
+                                <td><span class="logoutlink"><a id="logout" href="javascript:void(0);">退出</a></span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" style="padding:3px 0px 10px 13px">
+                                                                    余额：<a class="balance colorRed" id="a_show_money" rel="nofollow"><span id="balance" class="orange">￥0</span></a>
+                                    <a id="header_money_refresh"><i class="icon-refresh"></i></a>
+                                    <a href="javascript:void(0);" id="sx" ><img src="https://fh027.com/views/assets/img/shuaxin.png" id="sxye" /></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a name="doBet" class="userpaybtn" onclick="__openWin(&#39;user_center&#39;,&#39;user/deposit&#39;);">充值</a>
+                                </td>
+                                <td>
+                                    <a name="doBet" class="userpaybtn" onclick="__openWin(&#39;user_center&#39;,&#39;user/binkBank&#39;);">提现</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span class="userlink"><a onclick="__openWin(&#39;user_center&#39;,&#39;user/userCenter&#39;);">用户中心</a></span>
+                                </td>
+                                <td><span class="userlink"><a onclick="__openWin(&#39;user_center&#39;,&#39;https://fh027.com/user/privateMsg&#39;);">个人消息<span id="messagemsg" style="color: red"></span></a></span></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td><span class="userlink"><a onclick="__openWin(&#39;user_center&#39;,&#39;user/accountDetail&#39;);">交易记录</a></span>
+                                </td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="right-info">
+                        <div class="help-tab-box">
+                            <ul class="help-tab">
+                                <li id="help_tab_hot" class="on"><a class="web-notice">网站公告</a></li>
+                                <li id="help_tab_newer" class=""><a class="user-help">新手指导</a></li>
+                            </ul>
+                            <ul class="web-notice-box help-ul" id="cont_help_hot" style="">
+                                                                    <li>
+                                        <a onclick="window.open('https://fh027.com/lottery/notice/101', 'newwindow', 'height=600, width=900, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no')">公司入款会员，请点击在线存款</a>
+                                    </li>
+                                                                <!-- <li>
+                                    <a onclick="window.open('https://fh027.com/lottery/notice', 'newwindow', 'height=600, width=900, top=0,left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no')"></a>
+                                </li> -->
+                            </ul>
+                            <ul class="user-help-box help-ul" id="cont_help_newer" style="display: none;">
+                                                             <li>
+                                    <a href="https://fh027.com/help/lottery/7?134">如何注册成为会员</a>
+                                </li>
+                                                              <li>
+                                    <a href="https://fh027.com/help/lottery/7?133">如何保证彩民利益</a>
+                                </li>
+                                                              <li>
+                                    <a href="https://fh027.com/help/lottery/7?132">凤凰彩票投注优势</a>
+                                </li>
+                                                              <li>
+                                    <a href="https://fh027.com/help/lottery/7?131">凤凰彩票服务约定</a>
+                                </li>
+                                                              <li>
+                                    <a href="https://fh027.com/help/lottery/7?130">凤凰彩票购彩安全</a>
+                                </li>
+                                                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-box clearfix wrapper" id="main">
+                <div class="part-2 clearfix js-lazy">
+                    <div class="part-2-cont-left part-left">
+                        <div id="draw_box" class="draw-notice">
+                            <div class="draw-box">
+                                <div class="title-top">
+                                    <h2 class="notice-tit"><i class="icon"></i><strong>开奖公告</strong></h2>
+                                    <ul class="notice-tab">
+                                        <li class="tab-sel on" data-type="high"><a>高频</a></li>
+                                        <li class="tab-sel" data-type="low"><a>低频</a></li>
+                                        <li class="tab-sel1"><a href="https://fh027.com/lottery/draw" class="color333 f12">更多</a></li>
+                                    </ul>
+                                </div>
+                                <div class="notice-main">
+                                    <!-- 高频彩 -->
+                                    <div class="draw-contents" name="high" id="tab-cont-1" style="">
+                                        <ul class="notice-list" id="lastOpenSsc">
+                                                                                                                                                                                <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/ssc-cq">重庆时时彩&nbsp;</a>20170728079期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">5,6,1,9,2
+                                                    </div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trendList?type=1">走势</a>　|　<a href="https://fh027.com/lottery/buy/ssc-cq">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                             </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/pk10-bj">北京PK拾&nbsp;</a>631242期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">01,08,03,04,05,09,02,07,10,06
+                                                    </div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trendList?type=18">走势</a>　|　<a href="https://fh027.com/lottery/buy/pk10-bj">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                             </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/k3-js">江苏快3&nbsp;</a>20170728064期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">1,4,4
+                                                    </div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trendList?type=25">走势</a>　|　<a href="https://fh027.com/lottery/buy/k3-js">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                             </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/syxw-js">江苏11选5&nbsp;</a>20170728064期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">07,08,02,04,03
+                                                    </div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trendList?type=30">走势</a>　|　<a href="https://fh027.com/lottery/buy/syxw-js">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                             </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                </ul>
+                                    </div>
+                                    <!-- 低频彩 -->
+                                    <div class="draw-contents" name="low" id="tab-cont-2" style="display: none;">
+                                        <ul class="notice-list" id="lastOpenQt">
+                                                                                                                                                                                                                            <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/fc3d">福彩3D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>2017201期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">3,5,8</div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trend/fc3d">走势</a>　|　<a href="https://fh027.com/lottery/buy/fc3d">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </li>
+                                                                                                                                                                                <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/pl3">排列三&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>2017187期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">8,3,1</div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trend/pl3">走势</a>　|　<a href="https://fh027.com/lottery/buy/pl3">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </li>
+                                                                                                                                                                                <li class="li-line icon"></li>
+                                            <li>
+                                                <div><span class="lot-name"><a href="https://fh027.com/lottery/buy/pl5">排列五&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>2017187期</span><span class="term"></span><span class="clear"></span>
+                                                    <div class="clear"></div>
+                                                    <div class="redball">8,3,1,1,0</div>
+                                                    <br>
+                                                    <div class="fr"><a href="https://fh027.com/lottery/trend/pl5">走势</a>　|　<a href="https://fh027.com/lottery/buy/pl5">投注</a></div>
+                                                    <div class="clear"></div>
+                                                </div>
+                                            </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 新闻资讯 -->
+                    <div class="part-2-cont-right part-right">
+                        <div class="lottery-news-box">
+                            <div class="clearfix"><span class="news-tit fl"><strong>彩票资讯</strong></span> <span class="hot-news fr"><a href="https://fh027.com/News/lottery">更多&gt;&gt;</a></span></div>
+                            <div class="news-title clearfix">
+                                <a target="_self" id="newsTitle_1"> </a>
+                            </div>
+                            <div class="news-bar">
+                                <div class="news-bar-content" id="news-bar-content1">
+                                    <ul class="news-bar-list news-bar-left clearfix">
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1008" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>随意机选中641万大奖 第一件事去相亲</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1009" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>守复式票迎来惊喜 80后彩民中635万</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1010" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>“超多钱”彩票背后有故事 竟击中639万</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1007" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>坚持购彩终获大奖 是彩民的最长情告白</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1004" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>阿姨彩民中奖也疯狂 玩“技术”中大奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1005" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>连中三期？惠州高手斩获足彩头奖539万元</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1006" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>功夫不负有心人 陕西女彩民中得足彩569万</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1011" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>看浙江省建筑工人如何花2元中641万大奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1012" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>如此淡定！1100万得主时隔近两月才领大奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1013" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>金华阿姨机选擒大乐透989万 卸下生活重担</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1014" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>深夜买福彩“百发百中” 结果喜中20万头奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1015" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>彩民排列5中百万大奖 奖金留给儿子娶媳妇</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1016" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>幸运彩民2元中641万 终于能结束半生漂泊</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1017" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>散步路上随意机选大乐透 女子意外中奖25万</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1018" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>上海彩民中七星彩1500万元 奖金孝敬母亲</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1019" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>烟台636万元双色球大奖得主 购彩不超5次</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1020" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>泰州中学老师中双色球703万元 曾中三等奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1021" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>无锡商人用“168”吉祥号擒大乐透1761万</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1022" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>彩民不经意间购彩 斩获7位数500万元大奖</a></li>
+                                            
+                                                                                    <li class="lotNews"><a href="https://fh027.com/news/news_detail/1023" class="c-grey">[新闻]&nbsp;<span class="pad c-grey"></span>90后打工仔刷朋友圈才知中双色球732万元</a></li>
+                                            
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jc-footer">
+    <div class="footer-cn js-lazy">
+        <div class="cnRight">
+            <div class="cnTop">
+                <!--div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/1">关于我们</a></h3>
+                    <ul>
+                                            </ul>
+                </div>
+                <div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/2">玩法介绍</a></h3>
+                    <ul>
+                                                                                                <li><a href="https://fh027.com/help/lottery/2?120">福彩3D</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/2?117">排列三</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/2?116">重庆时时彩</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/2?115">天津时时彩</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/2?114">新疆时时彩</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </ul>
+                </div-->
+                <div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/3">充值购彩</a></h3>
+                    <ul>
+                                                                                                <li><a href="https://fh027.com/help/lottery/3?148">如何进行充值</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/3?129">如何购买彩票</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/3?57">充值是否收手续费</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/3?55">如何开通网上支付</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/3?47">银行卡就可以充值</a></li>
+                                                                                            </ul>
+                </div>
+                <div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/5">兑奖提款</a></h3>
+                    <ul>
+                                                                                                <li><a href="https://fh027.com/help/lottery/5?147">如何进行兑奖</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/5?146">如何进行提款</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/5?145">如何才能提款</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/5?139">为何提款会不成功</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/5?138">提款是否收手续费</a></li>
+                                                                                                                                            </ul>
+                </div>
+                
+                <div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/7">新手指导</a></h3>
+                    <ul>
+                                                                                                <li><a href="https://fh027.com/help/lottery/7?134">如何注册成为会员</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/7?133">如何保证彩民利益</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/7?132">凤凰彩票投注优势</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/7?131">凤凰彩票服务约定</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/7?130">凤凰彩票购彩安全</a></li>
+                                                                                            </ul>
+                </div>
+                <div class="cn-list">
+                    <h3><a href="https://fh027.com/help/lottery/6">常见问题</a></h3>
+                    <ul>
+                                                                                                <li><a href="https://fh027.com/help/lottery/6?144">什么是随机投注</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/6?143">什么是复式投注</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/6?142">什么是单式投注</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/6?141">什么是标准投注</a></li>
+                                                                                                <li><a href="https://fh027.com/help/lottery/6?140">凤凰彩票服务协议</a></li>
+                                                                                            </ul>
+                </div>
+                <div class="cn-list service">
+                    <h3>在线客服</h3>
+                    <ul>
+                        <li>
+                            <div class="qq"><i></i><a href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes">客服1</a></div>
+                            <div class="qq"><i></i><a href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes">客服2</a></div>
+                            <div class="qq"><i></i><a href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes">客服3</a></div>
+                        </li>
+                        <li>在线咨询时间：7*24小时</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cnBtn">
+                <p><span class="explain01 icon"></span>账户安全</p>
+                <p><span class="explain02 icon"></span>购彩便捷</p>
+                <p><span class="explain03 icon"></span>兑奖简单</p>
+                <p><span class="explain04 icon"></span>提款快速</p>
+            </div>
+        </div>
+    </div>
+    <div class="clear nospace"></div>
+    <!-- 网站公告 -->
+    <div class="webGG" p="1" style="display: none">
+        <div class="title">网站公告
+            <p class="btn1"></p>
+        </div>
+        <div class="content"><img src="http://fhcpimg.zqtuyk.cn/gwyl/20170727/20170727083633_75255.tmp"></div>
+        <div class="sure">
+        <p class="btn2">关闭</p>
+        </div>
+    </div>
+    <div class="webGG_bg" style="display: none"></div>
+</div>
+<div id="_foot_home">
+  <div class="foot_box">
+    <div class="about_box">
+ <p>2009-2017©凤凰彩票 | 客服邮箱：1767566808@qq.com | 客服QQ：1767566808 <!-- | 客服邮箱：<a href="mailto:5akf@gmail.com"><span class="eng">5akf@gmail.com </span></a> |
+      客服QQ：<a href="#"><span class="eng">917500500</span></a> | --> <br>
+      <span class="">郑重提示：理性购彩，量力而行！</span> 不向未满18周岁的青少年出售彩票</p>
+
+      <ul class="foot_info">
+        <li class="foot_wljc"></li>
+        <li class="foot_wangan"></li>
+        <li class="foot_wsjy"></li>
+        <li class="foot_xylh"></li>
+        <li class="foot_kxwz"></li>
+      </ul>
+           <div class="clear"></div>
+    </div>
+  </div>
+</div>
+
+<!-- start :  浮动图标  -->
+<!-- 左边（免费注册） -->
+<div class="_float_AD l_AD"> <img src="https://fh027.com/views/assets/img/common/float_left2.png">
+	<div name="close_btn"></div>
+	<div class="top3_btn" onclick="__openWin('reg','/user/reg')"></div>
+	<div class="two_img"><img src="https://fh027.com/views/assets/img/qrcode.png"></div>
+</div>
+<!-- 左边（免费注册、免费试玩）-->
+<div class="_float_AD l_AD" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_left.png">
+	<div name="close_btn"></div>
+	<a class="top1_btn" onclick="__openWin('reg','/user/reg')"></a>
+	<div class="top2_btn" onclick="__openWin('reg','/user/regPlay')"></div>
+	<div class="two_img"><img src="https://fh027.com/views/assets/img/qrcode.png"></div>
+</div>
+<!-- 右边（在线、QQ、微信） -->
+<div class="_float_AD r_AD" id="right_1" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right1.png">
+	<div name="close_btn"></div>
+	<div class="top1_btn" onclick="__openWin('other','https://messenger.providesupport.com/messenger/13aikklkpknka0q0epyhkq776p.html')"></div>
+	<a   class="top2_btn" href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes"></a>
+	<div class="two_img"><img src="http://fhcpimg.zqtuyk.cn/gwyl/20170621/20170621153618_51934.tmp"></div>
+</div>
+<!-- 右边（在线、微信） -->
+<div class="_float_AD r_AD" id="right_2" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right2.png">
+	<div name="close_btn"></div>
+	<div class="top3_btn" onclick="__openWin('other','https://messenger.providesupport.com/messenger/13aikklkpknka0q0epyhkq776p.html')"></div>
+	<div class="two_img"><img src="http://fhcpimg.zqtuyk.cn/gwyl/20170621/20170621153618_51934.tmp"></div>
+</div>
+<!-- 右边（QQ、微信） -->
+<div class="_float_AD r_AD" id="right_3" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right3.png" >
+	<div name="close_btn"></div>
+	<a   class="top3_btn" href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes"></a>
+	<div class="two_img"><img src="http://fhcpimg.zqtuyk.cn/gwyl/20170621/20170621153618_51934.tmp"></div>
+</div>
+<!-- 右边（QQ） -->
+<div class="_float_AD r_AD" id="right_7" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right4.png">
+	<div name="close_btn"></div>
+	<a   class="top6_btn" href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes"></a>
+</div>
+<!-- 右边（在线） -->
+<div class="_float_AD r_AD" id="right_6" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right5.png" >
+	<div name="close_btn"></div>
+	<div class="top6_btn" onclick="__openWin('other','https://messenger.providesupport.com/messenger/13aikklkpknka0q0epyhkq776p.html')"></div>
+</div>
+<!-- 右边（在线、QQ） -->
+<div class="_float_AD r_AD" id="right_5" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right6.png">
+	<div name="close_btn"></div>
+	<div class="top4_btn" onclick="__openWin('other','https://messenger.providesupport.com/messenger/13aikklkpknka0q0epyhkq776p.html')"></div>
+	<a   class="top5_btn" href="tencent://message/?uin=1767566808&Site=fh186.com&Menu=yes"></a>
+</div>
+<!-- 右边（微信） -->
+<div class="_float_AD r_AD" id="right_4" style="display:none;"> 
+	<img src="https://fh027.com/views/assets/img/common/float_right7.png" >
+	<div name="close_btn"></div>
+	<div class="two_img"><img src="http://fhcpimg.zqtuyk.cn/gwyl/20170621/20170621153618_51934.tmp"></div>
+</div>
+<input type="hidden" id="right_judge" value="5" />
+<script type="text/javascript">
+$(function(){
+	var type = $('#right_judge').val();
+	$('#right_'+type).show();
+	$("div[name=close_btn]").click(function(){
+		$(this).parent().hide();
+		$('.top1_btn,.top2_btn,.top3_btn,.top4_btn,.top5_btn,.top6_btn').hide();
+	});
+});
+</script>
+<!-- end :  浮动图标  -->
+<script>
+    $(function(){
+        alert[0];
+
+        var webGgStatus = $('.webGG').attr('p');
+        if(webGgStatus==1&&!getCookie('gonggao')){
+            $('.webGG').show();
+            $('.webGG_bg').show();
+        }else{
+            $('.webGG').hide();
+            $('.webGG_bg').hide();
+        }
+    })
+    $(".top_loginip").bind("keydown",function(e){
+        var theEvent = e || window.event;
+        var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if (code == 13) {
+            $('#btn-sub').click();
+        }
+    });
+    /*刷新余额*/
+    $("#sx").click(function(){
+        //remind('刷新余额成功');
+        $('#balance').text('￥ ---- ');
+        $.post("https://fh027.com/user/getCoin/1",function(r){
+            if(r=='err') $('#logout').click();
+            refsCoin();
+        });
+    })
+</script>
+</body>
+</html>

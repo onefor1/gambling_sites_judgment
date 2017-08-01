@@ -1,0 +1,826 @@
+
+
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="no-js iem7 oldie linen"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie linen" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie linen" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9 linen" lang="en"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)]><!--><html><!--<![endif]-->
+<head>
+<!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+<![endif]-->
+<meta charset="UTF-8">
+<title>VS娱乐_欢迎您！</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="VS娱乐_欢迎您！"/>
+    <meta name="keywords" content="VS娱乐_欢迎您！"/>
+    <link rel="shortcut icon" href="images/favicon.png?v1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css?v1">
+    <link rel="stylesheet" href="css/header.css?v4">
+    <link rel="stylesheet" href="css/input_ui.css">
+    <link rel="stylesheet" href="css/footer.css?v5">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <script src="js/jquery.min.js"></script><!-- 2.2.0 -->
+    <script src="js/jquery-ui.min.js"></script><!-- 1.11.4 -->
+    <script src="js/jquery.lazyload.min.js"></script>
+    <script src="js/time.js.php"></script>
+
+    <link rel="stylesheet" href="css/animate.min.css"/> <!-- 滚轮动画 3.2.6 -->
+    <script type="text/javascript" src="js/wow.min.js"></script> <!-- 滚轮动画 1.1.2 -->
+    <script type="text/javascript">
+    new WOW().init();
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+
+        $(function(){
+            var decline = "";
+            switch (decline){
+                case '99':
+                    show_pop('该帐号已停用<br>请洽客服人员');
+                    break;
+                case '88':
+                    show_pop('您已被登出<br>请重新登录');
+                    break;
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                    show_pop('无效的帐号或密码');
+                    break;
+            }
+            if(decline){
+              setTimeout(function() {$("#msg").trigger('click');}, 1000);
+            }
+            var now_page='main_';
+            if(now_page=='main_')
+            {
+              now_page='main_main';
+            }
+            $('.menu li a').each(function(index, el) {
+
+              if(now_page==$(this).attr('href'))
+              {
+                $(this).addClass('enabled');
+              }
+            });
+        });
+
+        function checkLoginField(){
+            $("#fr_username").attr("class","login_input");
+            $("#fr_password").attr("class","login_input");
+            if ($("#fr_username").val()=="" || $("#fr_password").val()==""){
+                if($("#fr_username").val()=="")
+                  $("#fr_username").attr("class","error_ipt");
+                if($("#fr_password").val()=="")
+                  $("#fr_password").attr("class","error_ipt");
+
+                return false;
+            }else{
+                document.getElementById('fr_login').submit();
+                return true;
+            }
+        }
+
+        function show_pop(mesg){
+            $("#hint").html(mesg);
+            $("#msg").trigger('click');
+        }
+
+        function cs(){
+            var csurl= "https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=706517&configID=59994&jid=9190531551&s=1";
+            window.open(csurl,'blank','width=500,height=600');
+        }
+
+        function is_mobile() {
+         if( navigator.userAgent.match(/Android/i)
+         || navigator.userAgent.match(/webOS/i)
+         || navigator.userAgent.match(/iPhone/i)
+         || navigator.userAgent.match(/iPad/i)
+         || navigator.userAgent.match(/iPod/i)
+         || navigator.userAgent.match(/BlackBerry/i)
+         || navigator.userAgent.match(/Windows Phone/i)
+         ){
+            return true;
+          }
+         else {
+            return false;
+          }
+        }
+
+        function setCookie(cname, cvalue, sec) {
+            var d = new Date();
+            d.setTime(d.getTime() + (sec*1000));
+            var expires = "expires="+d.toUTCString();
+            document.cookie = cname + "=" + cvalue + "; " + expires;
+        }
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+            }
+            return "";
+        }
+
+        function opengame(game){
+            var screenWd = $(window).width();
+            var windowWd = 1024 ;
+            var left = ($(window).width() - 1024) / 2;
+            var style1 = 'width=1024, height=600, top=50, left='+ left +', toolbar=no, menubar=no, scrollbars=yes, resizable=yes,location=no, status=no';
+            var style2 = 'width=1024, height=800, top=50, left='+ left +', toolbar=no, menubar=no, scrollbars=no, resizable=yes,location=no, status=no';
+            $("#hint").html("请先登录游戏帐号");
+            $("#msg").trigger('click');
+        }
+          
+        var k = is_mobile();
+          if (k == true) {
+            document.location.href="http://gm510888.com/mobile/login.php?upline=";          }
+    </script>
+
+<header>
+  <div class="top">
+    <div class="top_box">
+      <div class="top_left">
+        <a href="main_egame_mg"><button class="hover_sld">免费试玩</button></a>
+        <div id="date"></div>
+      </div>
+      <a href="main_main"><div class="logo" title="VS娱乐" alt="VS娱乐"></div></a>
+      <ul class="top_right">
+        <li class="litop">
+          <!-- <a href="javascript:void(0);" onclick="cs();"><i class="fa fa-comments" aria-hidden="true"></i>在线客服</a> -->
+          <a href="main_download_new"><i class="fa fa-cloud-download"></i>下载区</a>
+          <a href="/agent" target="_blank"><i class="fa fa-handshake-o"></i>代理加盟</a>
+          <a href="javascript:void(0);"><i class="fa fa-wifi"></i>线路检测</a>
+        </li>
+        <li>
+          <form action="u_login_action" method="post" name="fr_login" id="fr_login" onSubmit="return checkLoginField();">
+            <div class="allipt"><input name="fr_username" id="fr_username" placeholder="帐号" value=""></div>
+            <div class="allipt"><input name="fr_password" id="fr_password" placeholder="密码" type="password"></div>
+            <input name="fr_language" id="fr_language" type="hidden" value="simplified" />
+            <input type="hidden" id="fr_autoin" name="fr_autoin"/>
+            <input type="hidden" id="fr_submit" name="fr_submit"/>
+            <button class="hover_sld" onclick="checkLoginField();">登录</button>
+          </form>
+          <button class="hover_sld" id="reg">注册</button>
+          <!-- <div id="login" class="btn">登录</div> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <nav class="nav_box">
+    <ul class="menu">
+      <li class="btn_2"><a href="main_main" title="首页" alt="首页">首页</a></li>
+      <li>
+        <span>老虎机</span><div class="hot_ico"></div>
+        <ul class="menu_hov" style="margin: 0 -10px 0 -32px;">
+          <a href="main_egame_pteurope"><li>PT老虎机</li></a>
+          <a href="main_egame_mg"><li>MG老虎机</li></a>
+          <a href="main_egame_qt"><li>QT老虎机</li></a>
+          <a href="main_egame_hb"><li>HB老虎机</li></a>
+          <a href="javascript:void(0);" onclick="opengame('bbin_egame');"><li>BBIN老虎机</li></a>
+          <a href="main_egame_ag"><li>AG老虎机</li></a>
+          <a href="main_egame_nt"><li>NT老虎机</li></a>
+          <a href="main_egame_inteplay"><li>WG老虎机</li></a>
+          <a href="main_egame_ttg"><li>TTG老虎机</li></a>
+        </ul>
+      </li>
+      <li>
+        真人娱乐
+        <ul class="menu_hov">
+          <a href="javascript:void(0);"onclick="opengame('rag')"><li>AG厅</li></a>
+          <a href="javascript:void(0);"onclick="opengame('allbet')"><li>欧博厅</li></a>
+          <a href="javascript:void(0);"onclick="opengame('bbin')"><li>BBIN厅</li></a>
+          <a href="javascript:void(0);"onclick="opengame('og')"><li>OG厅</li></a>
+          <a href="javascript:void(0);"onclick="opengame('microgaming')"><li>MG厅</li></a>
+        </ul>
+      </li>
+      <li>
+        <span>体育投注</span><div class="hot_ico"></div>
+        <ul class="menu_hov">
+          <a href="javascript:void(0);" onclick="opengame('ibc')"><li>沙巴体育</li></a>
+          <a href="javascript:void(0);" onclick="opengame('bbin_ft')"><li>BBIN体育</li></a>
+          <a href="javascript:void(0);" onclick="opengame('sing')"><li>皇冠体育</li></a>
+        </ul>
+      </li>
+      <li>
+        捕鱼游戏
+        <ul class="menu_hov">
+          <a href="javascript:void(0);" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');"><li>捕鱼王二代</li></a>
+          <a href="javascript:void(0);" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');"><li>捕鱼天下</li></a>
+        </ul>
+      </li>
+      <li class="btn_2"><a href="javascript:void(0);" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');" title="彩票游戏" alt="彩票游戏">彩票游戏</a></li>
+      <li class="btn_2"><a href="javascript:void(0);" title="抢红包" alt="抢红包" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');">抢红包</a></li>
+      <li class="btn_2"><a href="main_download_new" title="下载区" alt="下载区">下载区</a></li>
+      <li class="btn_2"><a href="main_promo" title="优惠活动" alt="优惠活动">优惠活动</a></li>
+      <!-- <li class="btn_2"><a href="javascript:void(0);" onclick="cs();" title="在线客服" alt="在线客服">在线客服</a></li> -->
+    </ul>
+  </nav>
+  <div class="marquee_bg">
+    <div class="marquee_box">
+      <div class="marquee_title"><i class="fa fa-volume-down"></i>最新公告</div>
+      <marquee onMouseOver="this.stop();" width="1096" onMouseOut="this.start();" scrolldelay="100">NT平台
+系统维护中
+
+造成的不便，深感抱歉，敬请您的谅解&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WG游戏平台将于2017年7月28日(本周五)进行维护
+日期：2017年7月28日
+时间：9:30 - 11:30 (2小时) GMT +8.
+维护期间，所有游戏将无法启用
+造成不便请见谅&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;亲爱的贵宾您好,为了让您更快速更方便,请多利用快速入款及出款,出款金额500以下请用快速出款,谢谢您&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎来访VS娱乐城【优惠提醒】		
+若有任何透过不诚实手法，双边投注或对打等情况，获取官网优惠或返水优惠，本公司有权在查获后，立即扣除所有透过不诚实行为获得的额度，而不另行告知。</marquee>
+    </div>
+  </div>
+
+</header>
+<!-- 共用遮罩背景 -->
+<div class="pop_bg"></div>
+<!-- 讯息的提示窗 -->
+<div id="msg"></div>
+
+    <!-- 登入 -->
+    <!-- <div id="login_view" class="Pop-up login_main pop_close">
+      <form action="u_login_action" align="right" method="post" name="fr_login" id="fr_login"
+                        onSubmit="return checkLoginField();" style="padding:0;margin:0;">
+        <div class="btn_close pop_cls close_event"><i class="fa fa-times"></i></div>
+        <div class="login_box">
+          <div class="marge_ph sml_logo" style="margin: 0 0 16px 50px;"></div>
+          <div class="enter">
+            <input name="fr_username" id="fr_username" class="login_input" placeholder="请输入用户名">
+          </div>
+          <div class="enter">
+            <input name="fr_password" id="fr_password" class="login_input" placeholder="请输入密码" type="password">
+          </div>
+          <input name="fr_language" id="fr_language" type="hidden" value="simplified" />
+          <input type="hidden" id="fr_autoin" name="fr_autoin"/>
+          <input type="hidden" id="fr_submit" name="fr_submit"/>
+          <a href="javascript:void(0);" onclick="checkLoginField();"><div class="btn login_btn">登录</div></a>
+          <a id="go_fgt" href="javascript:void(0);"><b>忘记密码?</b></a>
+          <div id="forget" style="display: none;"></div>
+        </div>
+      </form>
+    </div> -->
+
+<!-- 隱藏式選單 -->
+<div class="menu2" id="egame"><!-- 老虎机 -->
+  <ul>
+    <i class="fa fa-times"></i>
+    <li><a href="main_egame_pteurope"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_pt.png">PT老虎机</div></a></li>
+    <li><a href="main_egame_mg"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_mg.png">MG老虎机</div></a></li>
+    <li><a href="main_egame_qt"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_qt.png">QT老虎机</div></a></li>
+    <li><a href="main_egame_hb"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_hb.png">HB老虎机</div></a></li>
+    <li><a href="javascript:void(0);" onclick="opengame('bbin_egame');"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_bb.png">BBIN老虎机</div></a></li>
+    <li><a href="main_egame_ag"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_ag.png">AG老虎机</div></a></li>
+    <li><a href="main_egame_nt"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_nt.png">NT老虎机</div></a></li>
+    <li><a href="main_egame_inteplay"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_wg.png">WG老虎机</div></a></li>
+    <li><a href="main_egame_ttg"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_ttg.png">TTG老虎机</div></a></li>
+  </ul>
+</div>
+
+<div class="menu2" id="casino"><!-- 真人娱乐 -->
+  <ul>
+    <i class="fa fa-times"></i>
+    <li><a href="javascript:void(0);"onclick="opengame('rag')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_ag.png">AG厅</div></a></li>
+    <li><a href="javascript:void(0);"onclick="opengame('allbet')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_allbet.png">欧博厅</div></a></li>
+    <li><a href="javascript:void(0);"onclick="opengame('bbin')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_bb.png">BBIN厅</div></a></li>
+    <li><a href="javascript:void(0);"onclick="opengame('og')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_og.png">OG厅</div></a></li>
+    <li><a href="javascript:void(0);"onclick="opengame('microgaming')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_mg.png">MG厅</div></a></li>
+  </ul>
+</div>
+
+<div class="menu2" id="sports"><!-- 体育投注 -->
+  <ul>
+    <i class="fa fa-times"></i>
+    <li><a href="javascript:void(0);" onclick="opengame('ibc')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_ibc.png">沙巴体育</div></a></li>
+    <li><a href="javascript:void(0);" onclick="opengame('bbin_ft')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_bb.png">BBIN体育</div></a></li>
+    <li><a href="javascript:void(0);" onclick="opengame('sing')"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_3sCrown.png">皇冠体育</div></a></li>
+  </ul>
+</div>
+
+<div class="menu2" id="fishing"><!-- 捕鱼游戏 -->
+  <ul>
+    <i class="fa fa-times"></i>
+    <li><a href="javascript:void(0);" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_ag.png">捕鱼王二代</div></a></li>
+    <li><a href="javascript:void(0);" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');"><div class="btn_2"><img class="menu2_ico_logo" src="images/header/menu2_ico_gg.png">捕鱼天下</div></a></li>
+  </ul>
+</div>
+<!-- 隱藏式選單 -->
+<script src="js/menu_check_in.js"></script><!-- 进入二级选单 -->
+
+<script>
+  $(function(){
+    $("#fr_password").on("keydown", function(e){
+      if(e.keyCode==13){
+        checkLoginField();
+      }
+    });
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76820106-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script>
+//转到https
+//if (location.protocol != 'https:'){
+//    if(window.location.hostname=="www.gm510888.com"||window.location.hostname=="gm510888.com"){
+//        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+//    }
+//}
+//if (location.protocol != 'https:'){
+//    if(window.location.hostname=="www.gm510168.com"||window.location.hostname=="gm510168.com"){
+//        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+//    }
+//}
+//if (location.protocol != 'https:'){
+//    if(window.location.hostname=="www.gm510178.com"||window.location.hostname=="gm510178.com"){
+//        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+//    }
+//}
+
+//if (location.protocol != 'https:'){
+//    if(window.location.hostname=="www.ty7776.com"||window.location.hostname=="ty7776.com"){
+//        location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+//    }
+//}
+</script>
+
+<link rel="stylesheet" href="css/main.css?v2">
+
+<!--首页横幅论播-->
+<div class="banner" id="banner">
+  <a href='##' target='_blank' class='ban_img' style='background: url(images/banner/265.png) center center no-repeat;display: block; z-index: 1;'></a><a href='##' target='_blank' class='ban_img' style='background: url(images/banner/270.png) center center no-repeat;display: block; z-index: 2;'></a><a href='##' class='ban_img' style='background: url(images/banner/279.png) center center no-repeat;display: block; z-index: 3;'></a><a href='##' target='_blank' class='ban_img' style='background: url(images/banner/267.png) center center no-repeat;display: block; z-index: 4;'></a><a href='##' target='_blank' class='ban_img' style='background: url(images/banner/253.png) center center no-repeat;display: block; z-index: 5;'></a>  <div class="select" id="ban_select">
+    <ul><li></li><li></li><li></li><li></li><li></li></ul>
+  </div>
+</div>
+
+<div class="point_bg"></div>
+<div class="video">
+  <video autoplay="autoplay" loop="loop">
+    <source src="images/index/index_video.mp4"/>
+  </video>
+</div>
+
+<div class="idx_bg">
+
+  <div class="nav_idx1">
+    <ul>
+      <li>
+        <figure>
+          <div class="idx1_box check_in_egame">
+            <button class=" hover_sld idx1_btn">
+              <h1>老虎机台丰富多元</h1><h2>虎</h2><h3>电子游戏</h3><h4>PT MG QT HB BBIN AG NT WG</h4>
+            </button>
+          </div>
+          <img src="images/index/nav_idx1_egame2.jpg?V1">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="idx1_box check_in_casino">
+            <button class=" hover_sld idx1_btn">
+              <h1>真人娱乐身历其境</h1><h2>真</h2><h3>真人视讯</h3><h4>AG 欧博 BBIN OG MG </h4>
+            </button>
+          </div>
+          <img src="images/index/nav_idx1_casino.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="idx1_box check_in_sports">
+            <button class=" hover_sld idx1_btn">
+              <h1>体育赛事一手掌握</h1><h2>体</h2><h3>体育投注</h3><h4>IBC BBIN 皇冠</h4>
+            </button>
+          </div>
+          <img src="images/index/nav_idx1_sports.jpg">
+        </figure>
+      </li>
+      <li>
+        <figure>
+          <div class="idx1_box" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');">
+            <button class=" hover_sld idx1_btn">
+              <h1>彩票游戏天天中奖</h1><h2>彩</h2><h3>彩票游戏</h3><h4>BBIN</h4>
+            </button>
+          </div>
+          <img src="images/index/nav_idx1_lottery.jpg">
+        </figure>
+      </li>
+    </ul>
+  </div>
+
+  <div class="nav_idx2">
+    <ul>
+        <li>
+          <a href="javascript:void(0);" title="抢红包" alt="抢红包" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');"><figure><p>抢红包</p><img src="images/index/nav_idx2_hongbao.jpg"></figure></a>
+        </li>
+      </a>
+      <li class="nav_idx2_jkpo">
+        <div class="jkpo_sloid"></div>
+        <div class="jkpo">
+          <h3>超级彩金</h3>
+          <div class="spgl_number">00<p>,</p>000<p>,</p>000.00</div>
+        </div>
+        <img src="images/index/nav_idx2_center.jpg">
+      </li>
+      <a href="javascript:void(0);" title="影城" alt="影城" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');">
+        <li>
+          <figure><p>影城</p><img src="images/index/nav_idx2_vdo.jpg"></figure>
+        </li>
+      </a>
+    </ul>
+  </div>
+
+</div>
+
+
+
+<!-- 首頁活動彈窗 -->
+<div id="in_display" style="display: block; margin:-240px 0 0 -370px; padding: 0px;" class="Pop-up pop_main pop_close">
+  <div class="btn_close pop_cls close_event"><i class="fa fa-times"></i></div>
+   <a href="main_promo"><img src="images/activity/pop01.jpg?v1"></a>
+</div>
+<!-- 首頁活動彈窗 -->
+
+<script src="js/banner.js?1"></script><!-- 輪播圖 -->
+
+<!-- 弹出视窗 -->
+<script type="text/javascript">
+    $(function(){
+        $(".pop_bg").fadeIn('350');//进入直接弹出
+        $("#in_display").fadeIn('350');//进入直接弹出
+        setTimeout(function(){ $("#in_display .close_event").trigger('click');}, 10000);//首頁活動彈窗關閉
+    });
+</script>
+
+<script type="text/javascript">
+$(function(){
+    $(".spgl_number").load("../hongbao/jackpot_kd.html");
+});
+  function OpenDemoMG(gid){
+    window.open('https://launch88.gameassists.co.uk/aurora/?gameid='+gid+'&theme=158poker&sext1=demo&sext2=demo&csid=2302&ul=zh','demowindow','width=805,height=605,top=50,left=250,resizable=yes,titlebar=no');
+  }
+  function ad(promo){//直接打開優惠
+                            location.assign("main_promo?promo="+promo);
+    }
+</script>
+
+<footer>
+    <div class="ft_box">
+        <ul>
+            <a index="0" class="go_about" href="javascript:void(0);"><li>关于我们</li></a><span>|</span>
+            <a index="1" class="go_about" href="javascript:void(0);"><li>牌照展示</li></a><span>|</span>
+            <a index="2" class="go_about" href="javascript:void(0);"><li>充值帮助</li></a><span>|</span>
+            <a index="3" class="go_about" href="javascript:void(0);"><li>提现帮助</li></a><span>|</span>
+            <a index="4" class="go_about" href="javascript:void(0);"><li>联系我们</li></a>
+        </ul>
+        <img src="images/footer/footer_ico3.png">
+
+        <ul class="ftex">
+            <li>
+                <h3>优惠活动</h3>
+                <p>VS娱乐会员均可以享有各投注产品定期推出的存款红利优惠及返水。</p>
+                <h3>常见问题</h3>
+                <p>通过常见问题可即时解答玩家建立VS娱乐账户﹑存款及提款,有关于投注游戏玩法等等问题。</p>
+                <h3>联系我们</h3>
+                <p>玩家可以通过VS娱乐24/7小时在线客服及电邮方式联系我们。每个玩家的资讯保密性对我们来说是最重要的，我们承诺将继续不为余力地坚持严格保密和私隐制度。</p>
+                <h3>合作伙伴</h3>
+                <p>加入VS娱乐合作伙伴，玩家或代理可以利用拥有的人际网络，每月简单赚取高额佣金，轻松实现成功与财富的梦想</p>
+            </li>
+            <li>
+                <h3>真人娱乐场</h3>
+                <p>糅合最高的科技与火辣的美女真人荷官，VS娱乐提供多个最受欢迎的真人娱乐场游戏，包括真人娱乐百家乐﹑廿一点﹑骰宝﹑龙虎及轮盘等等游戏。通过现场视频，让玩家彷如身在其中现场实况下注的精彩体验。</p>
+                <h3>滚球</h3>
+                <p>全新体育博弈滚球页面每月选择多达10,000多场，是全行之冠。当然少不了英超、意甲、西甲、德甲、冠军联赛等国际联赛赛事。</p>
+                <h3>老虎机及电子游戏</h3>
+                <p>拥有多款富有主题色彩的老虎机及电子游戏，打造一个精彩刺激及极受欢迎的新热点。</p>
+            </li>
+            <li>
+                <h3>赛事结果</h3>
+                <p>玩家可即时了解VS娱乐所有体育赛事的即时及完场赛果。</p>
+                <h3>真人娱乐场规则</h3>
+                <p>所有在VS娱乐进行的一切真人娱乐场博彩投注都需要遵从我们真人娱乐场博彩以及颁发牌照所在地的监管与规则条款</p>
+                <h3>扑克游戏规则</h3>
+                <p>所有在VS娱乐进行的一切扑克游戏投注都需要遵从扑克游戏以及颁发牌照所在地的监管与规则条款。</p>
+                <h3>投注纪录</h3>
+                <p>透过VS娱乐提供的游戏系统或用户中心，玩家可以随时随地查询一切投注和交易记录。</p>
+            </li>
+            <li>
+                <h3>有节制博彩</h3>
+                <p>我们积极推行有节制博彩，并极力拒绝未成年玩家使用我们的软体进行网上娱乐。同时，我们更透过专业人员及各种有效方法，以防止问题博彩的发生。</p>
+                <h3>注册</h3>
+                <p>玩家只需在我们的网页上方点击 “注册”，花数分钟时间填写账户登记表，便可以成功建立VS娱乐个人账户。</p>
+                <h3>存款及提款</h3>
+                <p>玩家可以通过我们建议的方法进行存款及提款到玩家的账户中。</p>
+            </li>
+        </ul>
+        <div class="ft_bottom" style="border-right: 2px solid #646464;">
+            <div class="ftb_lbx">
+                <img src="images/footer/fico2.png">
+                <p style="margin: 8px 0 0 0;">菲律宾合法网投（PAGCOR牌照编号：OGL16-0032）赌博委员会监管</p>
+            </div>
+        </div>
+        <div class="ft_bottom" style="padding: 16px 0 0 20px;">
+            <img src="images/footer/fico3.png">
+            <p style="width: 320px; margin: 0 0 0 16px;">
+                负责任的博彩 Copyright ©2012-2017 VS娱乐<br />
+                我们积极推行负责任博彩，并极力拒绝未成年玩家使用我们的软<br />
+                体进行网上娱乐。同时，我们更透过专业人员及各种有效方法，<br />
+                以防止问题博彩的发生：点选左方手形图示寻求帮助
+            </p>
+        </div>
+        <!-- <div class="copyright">Copyright © 2012-2017 www.gm510888.com Corporation, All Rights Reserved.</div> -->
+    </div>
+</footer>
+
+
+
+<!-- 浮动窗口 -->
+
+<div class="hungbau_btn"><i class="fa fa-times"></i></div>
+<a href="javascript:void(0);" title="抢红包" alt="抢红包" onclick="$('#hint').html('请先登录游戏帐号');$('#msg').trigger('click');">
+    <div class="hungbau_flat"></div>
+</a>
+
+
+<!-- <div id="go_about">進入</div> -->
+<div id="go_about_bg"></div>
+<div class="scroll" id="goabout_main_bg">
+  <div class="scrollbox">
+
+    <div class="btn_close pop_cls go_about"><i class="fa fa-times"></i></div>
+          <div class="tab" id="tab">
+        <div class="tab-nav j-tab-nav tab_btn6">
+          <a class="current" href="javascript:void(0);">关于我们</a>
+          <a href="javascript:void(0);">牌照展示</a>
+          <a href="javascript:void(0);">充值帮助</a>
+          <a href="javascript:void(0);">提现帮助</a>
+          <a href="javascript:void(0);">联系我们</a>
+        </div>
+        <div class="tab-con">
+          <div class="j-tab-con">
+
+            <!-- 关于我们 -->
+            <div class="tab-con-item" style="display:block;">
+              <div class="word_box_about">
+                <h2>关于我们</h2>
+                <p>VS娱乐为菲律宾注册成立之博彩公司，并持有卡加延经济特区管理局Cagayan Special Economic Zone and Free Port (CSEZFP) 通过北卡加延博彩监督委员会North Cagayan Gaming and Amusement Corporation (NCGAC)颁布许可的合法博彩执照。 从2005年开始致力于网络博彩娱乐服务，共同打造高品质游戏平台，追求完美，着眼于产品和服务的每个细节，公司拥有多样化的游戏项目（体育赛事、视讯直播、电子游艺、彩票游戏）和丰富经验的服务团队，无须耗时下载，操作接口简单明了、功能齐全、画面精致，为每一位客户提供实时、刺激、体贴的娱乐产品与高质量服务为首要宗旨。</p>
+                <h2>我们承诺</h2>
+                <h3>公平诚信</h3>
+                <p>VS娱乐作为国际知名的线上博彩营运商，获得GEOTRUST国际认证，确保网站公平公正，对接入的所有平台均经过严格的筛选，只选用国际知名线上博彩平台。保证让每位玩家在一个公平、公正的环境下进行游戏。同时菲律宾政府First Cagayan leisure and Resort Corporation会对游戏平台的数据进行监控最终确保游戏的公平性和真实性。</p>
+                <h3>信息安全隐私</h3>
+                <p>在日渐热络、成熟的网络博彩市场中，除了多样化的游戏外，网络安全最为客户注重，VS娱乐针对现阶段网络安全问题，成立了网络安全维护中心，彻底解决了网络安全的后顾之忧，诺顿分级评级核VS娱乐为最安全网站之一；会员网上支付和银行交易由国际金融机构在高标准的安全和机密的网络中进行。所有会员数据均经过加密，保障玩家隐私。我们不会向任何第三方包括政府透露客户任何的个人信息及资料。</p>
+                <h3>高效存提现</h3>
+                <p>VS娱乐全天候不打烊，不断注重用户体验，高效快速的存提现业务是用户最实在的体验，VS娱乐一直致力于开发最新的收支业务和人员培训，高效的存提现，保证5分钟存提款到账，全天候处理客户出入款相关事宜。</p>
+                <h3>精英客服团队</h3>
+                <p>VS娱乐严格训练的客服团队，以专业、亲切的态度，尽速解决您于网站、游戏中遇到的种种问题，全天候24小时为您提供专业、贴心的VIP服务，努力让客户皆有宾至如归的感觉。VS娱乐以业界前所未见的各种优惠方式回馈客户，绝对是您明智的选择！</p>
+                <h3>菲律宾执照</h3>
+                <p>我们提供的所有产品和服务，是由菲律宾政府卡格扬河经济特区 First Cagayan leisure and Resort Corporation. www.firstcagayan.com 所授权和监管。这是一家位于Cagayan特别经济区和自由口岸 (CSEZFP) 的机构，并且是互动游戏的授权者及管理者。</p>
+                <h2>诚信打造品牌，实力铸就VS娱乐，十大放心理由：</h2>
+                <h3>一、平台足够权威</h3>
+                <p>VS娱乐与BBIN,AG,MG,OG,ALLBET,3S,PT,HB进行技术合作，并获得GEOTRUST国际认证，确保网站公平、公正、公开。</p>
+                <h3>二、排名足够靠前</h3>
+                <p>VS娱乐为亚洲最具公信力品牌之一，信誉领先排名，在海量娱乐城信息中独占前茅。</p>
+                <h3>三、资金足够安全</h3>
+                <p>VS娱乐雄厚的资金链信誉良好，大额充值无忧，资金安全有保障，免去您一切后顾之忧。</p>
+                <h3>四、提现足够自由</h3>
+                <p>VS娱乐24小时自由提现，提现3-5分钟火速到帐。</p>
+                <h3>五、活动足够给力</h3>
+                <p>VS娱乐时时推出各项给力活动，优惠送不停，让您真正赚翻天。</p>
+                <h3>六、安全足够保障</h3>
+                <p>VS娱乐采用128位SSL加密技术和严格的安全管理体系，确保客户资料安全得到最完善的保障。</p>
+                <h3>七、服务足够贴心</h3>
+                <p>VS娱乐7X24小时客服贴心的服务，温馨的呵护每一位玩家。</p>
+                <h3>八、VIP足够至尊</h3>
+                <p>VS娱乐VIP尊享贵宾级的专属服务让您享有宾至如归般的帝王享受。</p>
+                <h3>九、操作足够简单</h3>
+                <p>VS娱乐秉承以客户为中心的宗旨，在开发之初就设计了诸多人性化的功能和特性，省去繁琐的麻烦，让您轻松操作。</p>
+                <h3>十、营业足够合法</h3>
+                <p>VS娱乐是菲律宾政府认证的大型合法互联网博彩公司。选择VS娱乐，等于选择一份信誉的保障。</p>
+              </div>
+            </div>
+
+            <!-- 牌照展示 -->
+            <div class="tab-con-item">
+              <div class="word_box_about">
+                <img style="margin: 30px 0 0 0;" src="images/footer/firstcagayan.jpg?v1">
+                <div class="license">
+                    <h2>营业执照</h2>
+                    <p>VS娱乐隶属于 GALAXY WORLDWIDE  COMPANY LTD.，拥有菲律宾卡格杨（Cagayan）颁发的执照并受其监督，经正式授权后为您提供安全、合法的线上博彩服务。从娱乐场、扑克、体育投注到桌面游戏，您可以尽情选择各种精彩刺激的游戏产品。</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 充值帮助 -->
+            <div class="tab-con-item">
+              <div class="word_box_about">
+                <h2>您现在可以透过以下方式充值给VS娱乐：</h2>
+                <h3>一、银行充值（银行转帐/ATM/临柜）</h3>
+                <p>● 请于完成填写申请单后与在线客服索取划款信息，汇款成功后立即与在线客服联系，财务确认到帐后立刻存入点数至您的游戏帐户中。</p>
+                <p>您可以通过网银转账，银行柜台或者ATM柜员机转账至VS娱乐所指定的银行账号，我们公司有提供中国工商银行、中国民生银行、交通银行、3间银行可选择，同行互转充值时时到帐，跨行划款需依据银行划款作业时间为基准。</p>
+                <h3>二、在线支付（第三方支付）</h3>
+                <p>● 完成填写申请单并完成网上支付后，系统即自动确认款项并存入点数至您的游戏帐户中。</p>
+                <p>支援借记卡：中国农业银行、交通银行、中国银行、广发银行、兴业银行、中国光大银行、浦发银行、中国工商银行、中国建设银行、招商银行、中国邮政储蓄银行、中信银行、中国民生银行</p>
+                <h3>三、微信支付（手机支付）</h3>
+                <p>● 请于完成填写申请单后，请依照操作教学加入微信客服，完成加入后即可进行转帐，新增转帐说明处输入VS娱乐会员帐号（可加速入款时间）。</p>
+                <h2>充值需知：</h2>
+                <p>1.VS娱乐城最低充值为￥20，银行充值最高充值金额无上限，在线支付单笔最高上限￥3000。</p>
+                <p>2.未开通网银的会员﹐请亲洽您的银行柜台办理。</p>
+                <p>3.如有任何问题﹐请洽24小时在线客服。</p>
+              </div>
+            </div>
+
+            <!-- 提现帮助 -->
+            <div class="tab-con-item">
+              <div class="word_box_about">
+                <h2>提现方法</h2>
+                <p>1.会员登入后点选"中心钱包"。</p>
+                <p>2.进入页面后按下"提现"按键。</p>
+                <p>3.输入提现密​​​​码﹐确认提款人姓名与您银行帐号持有人相符。</p>
+                <p>4.输入出款额度﹐以及有效的手机号码﹐如有任何问题﹐方便VS娱乐客服第一时间与您联系。</p>
+                <p>5.确认提款银行帐号正确。</p>
+                <p>6.选择公司金流方式出款:</p><br />
+                <p>绑定工商银行.农业银行.建设银行.招商银行.中国银行.交通银行.中信银行.光大银行.华夏银行.民生银行.广东发展银行.深圳发展银行.邮政储蓄.农村信用合作社为出款银行的会员﹐单笔提现$20000RMB以内﹐可24小时提出申请﹐并享受<b>2小时内</b>到帐。</p>
+                <h2>提现需知</h2>
+                <p>1.VS娱乐最低提现为￥50人民币﹐最高提现上限为单笔￥20000人民币，一天可不限次数申请。</p>
+                <p>2.会员于24小时内提现最高限额是20万人民币。自当日第一笔提现后算起24小时内总额不得超过20万人民币。</p>
+                <p>3.公司实行24小时在线存提款政策，会员可随时提出申请并不受多次提款手续费的限制，手续费均由公司财务自主吸收。</p>
+                <p>4.VS娱乐保留权利审核会员帐户﹐若由上次出款起﹐有效下注金额未达""<b>最后一次入款后帐户的总余额</b>""﹐而申请出款者﹐公司将收取""<b>最后一次入款后帐户的总余额</b>""50%的行政费用。</p>
+                <br />
+                <p>【例1】1月1日12:00当下额度1000,并在存入3000元,则在1月1日12:00后,有效投注额必须为(1000+3000)以上出款,才不被扣除行政费用+手续费用</p>
+                <p>【例2】若有效投注未达到(1000+3000)元,则会扣除行政费用(1000+3000)*50%+手续费50 = 须被扣除2050元</p>
+                <br />
+                <p>5.请注意: 各游戏和局/未接受/取消注单﹐对冲对打，无风险投注不纳入有效投注计算。运动博弈游戏项目﹐大赔率玩法计算有效投注金额﹐小赔率玩法计算输赢金额为有效投注。 **大赔率产品包括: 过关﹑波胆﹑总入球﹑半全场﹑双胜彩﹑冠军赛。</p>
+                <p>6.如有任何问题﹐请洽24小时线上客服！</p>
+                <p>7.VS娱乐保留所有会员提现审核权力，会员必须依照公司风险控管部门审核规定提供相关证明文件，如不配合审核，VS娱乐保有取消会员出款的权力。所有会员提供相关审核文件将仅会由VS娱乐审核验证用。</p>
+              </div>
+            </div>
+
+            <!-- 联系我们 -->
+            <div class="tab-con-item">
+              <div class="word_box_about">
+                <h2>联系我们</h2>
+                <p>亲，为您服务是我们的荣幸。VS娱乐以专业、亲切的态度，尽速解决您于网站、游戏中遇到的种种问题，全天候24小时为您提供专业、贴心的VIP服务，如有任何批评指教也欢迎与我们联系唷！</p>
+                <h3>即时问题排解</h3>
+                <p>● 24小时【在线客服】</p>
+                <h3>其他联系方式</h3>
+                <p>● 官方邮箱：gm510888＠gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+<script src="js/hdm.js"></script>
+
+<script type="text/javascript">
+$("#tab").rTabs({
+  bind : 'click',
+  animation : 'fadein'
+});
+</script>
+  </div>
+</div>
+<!-- 註冊 -->
+<!-- <div id="go_reg">進入</div> -->
+<div id="reg_view" class="Pop-up reg_main pop_close">
+    <div id="go_reg" class="btn_close pop_cls close_event"><i class="fa fa-times"></i></div>
+    <div class="border_bg">
+        <div class="reg_logo">
+          <img src="images/header/sml_logo2.png">
+        </div>
+        <div id="reg_data" class="reg_intbox"></div>
+    </div>
+</div>
+
+<div id="msg_view" class="Pop-up pop_main pop_close">
+  <div class="btn_close pop_cls close_event"><i class="fa fa-times"></i></div>
+  <div class="pop_main_bg">
+      <p id="hint"></p>
+      <button class="hover_sld close_event">确定</button>
+  </div>
+</div>
+<!-- 彈出視窗 -->
+
+<!-- 等待视窗 -->
+<div id="wait" class="Pop-up pop_main pop_close">
+  <p>处理中请稍候!!</p>
+</div>
+
+
+<div id="go_remind_bg"></div>
+<div class="scroll" id="remind_main_bg">
+  <div class="scrollbox">
+
+    <div id="remind" class="btn_close pop_cls"><i class="fa fa-times"></i></div>
+    
+      <div class="tab" id="tab_remind">
+        <div class="tab-nav j-tab-nav2 tab_btn4">
+          <a class="current" href="javascript:void(0);">一般讯息</a>
+          <a href="javascript:void(0);">维护通知</a>
+        </div>
+        <div class="tab-con">
+          <div class="j-tab-con2">
+
+            <div class="tab-con-item" style="display:block;">
+              <div class="remind_box">
+				<div class='rembox_cont'><p><strong>2017-07-28</strong></p><p>NT平台
+系统维护中
+
+造成的不便，深感抱歉，敬请您的谅解</p></div><div class='rembox_cont'><p><strong>2017-07-27</strong></p><p>WG游戏平台将于2017年7月28日(本周五)进行维护
+日期：2017年7月28日
+时间：9:30 - 11:30 (2小时) GMT +8.
+维护期间，所有游戏将无法启用
+造成不便请见谅</p></div><div class='rembox_cont'><p><strong>2017-07-24</strong></p><p>亲爱的贵宾您好,为了让您更快速更方便,请多利用快速入款及出款,出款金额500以下请用快速出款,谢谢您</p></div><div class='rembox_cont'><p><strong>2017-05-18</strong></p><p>欢迎来访VS娱乐城【优惠提醒】		
+若有任何透过不诚实手法，双边投注或对打等情况，获取官网优惠或返水优惠，本公司有权在查获后，立即扣除所有透过不诚实行为获得的额度，而不另行告知。</p></div>
+              </div>
+            </div>
+
+            <div class="tab-con-item">
+              <div class="remind_box">
+
+            	<div class='rembox_cont'><p>紧急维护</p></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+<!-- 弹出视窗 -->
+<script type="text/javascript">
+    $(function(){
+        $(".go_about, #go_about_bg").on('click',function() {
+            $("#go_about_bg, #goabout_main_bg").toggle("fade", 350);
+            $(".j-tab-nav a").eq($(this).attr('index')).trigger('click');
+        });
+        $("#msg,#login,#reg,#mobile,#mob_tynav,#mob_mobwech").on('click', function() {
+            if ($(this).attr("id")=="reg"){
+                $("#reg_data").load("main_reg");
+            }
+            $(".pop_bg").fadeIn('350');
+            $("#"+$(this).attr("id")+"_view").fadeIn('350');
+        });
+        $(".release").click(function(event) {
+            mesg='即将推出!';
+            $("#hint").html(mesg);
+            $("#msg").trigger('click');
+        });
+        $(".pop_bg,.close_event").on('click', function() {
+            $(".pop_bg").fadeOut('350');
+            $(".pop_close").fadeOut('350');
+        });
+
+        $("#go_fgt").on('click', function() {
+            $("#forget").load("main_reset_password");
+            $("#forget").fadeToggle('350');
+        });
+
+        $("#remind, #go_remind_bg").click(function() {
+          $("#go_remind_bg, #remind_main_bg").toggle("fade", 350);
+        });
+        $("#tab_remind").rTabs2({
+          bind : 'click',
+          animation : 'fadein'
+        });
+        $(".hungbau_btn").click(function(event) {
+          $(".hungbau_flat , .hungbau_btn").fadeOut(500);
+        });
+        //cnzz
+        var cz = document.createElement("script");
+        cz.src = "//s11.cnzz.com/z_stat.php?id=1262029953&web_id=1262029953";
+        document.getElementsByTagName('body')[0].appendChild(cz);
+    });
+    function open_jackpotgame(id){
+            $("#hint").html("请先登入游戏帐号");
+        $("#msg").trigger('click');
+        }
+    function open_fish(){
+            $("#hint").html("请先登入游戏帐号");
+        $("#msg").trigger('click');
+        }
+</script>
+
+</body>
+</html>

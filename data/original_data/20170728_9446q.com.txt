@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+       <title>澳门金沙赌场 澳门金沙娱乐官网  澳门金沙赌场网  澳门金沙娱乐网</title>
+       <meta name="description" content="澳门金沙赌场www.9446.com是一家集真人游戏、对战游戏、高频彩票及滚球体育的游戏网投站点，同时一直致力为用户提供良好的游戏体验而不懈努力！" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le styles -->
+            <link href="https://static1.tbk-app.net/style/share/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://static1.tbk-app.net/style/aomenjinshaylca/css.css?v=8764344475877" media="screen" rel="stylesheet" type="text/css">
+<link href="https://static1.tbk-app.net/style/aomenjinshaylca/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+        <!-- Scripts -->
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/style/share/tab.js"></script>
+<script type="text/javascript" src="/style/share/jquery.SuperSlide.2.1.1.js"></script>
+    </head>
+    <body>
+    <div id="mainall">
+<div id="mainBody">
+
+<div id="page-header">
+<div id="header">
+   <div id="hdselect">
+      <a href="/cn/lines" class="textGlittera">线路检测</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="/cn/mobile" class="textGlitterb">手机投注</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	  <a href="/agent" class="textGlitterc">代理加盟</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	  <a href="http://agent.9446q.com" target="_blank" class="textGlitterc">代理登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+      <a href="javascript:;" class="iconphone">联系电话：00639218298888</a>
+   </div>
+   <div id="headtop" style="position:relative">
+       <div id="header-logo"><object width="219" height="75" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" onmousedown="location.href='/'" ><param value="/upload/769/flash/160715000011.swf" name="movie" /><param value="transparent" name="wmode"/><param value="high" name="quality"/><embed width="219"  wmode="transparent" height="75" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" loop="true" autostart="true" src="/upload/769/flash/160715000011.swf"></object></div> 
+	   <div id="headright">
+		       
+		  <div id="L-Menual"> 
+			<ul id="main-Menual">
+				<li class="LS-home"><a id="n1" href="/" class="current">首页</a></li>
+				<li class="LS-ball"><a id="n2" href="/hg_sports" >体育赛事</a></li>
+				<li class="LS-live"><a id="n3" href="/visual" >视讯直播</a></li>
+				<li class="LS-game"><a id="n4" href="/mg/index" class="textGlitter1">电子游艺</a></li>
+				<li class="LS-lottery" ><a id="n5" href="/cn/caipiao" >彩票游戏</a></li>
+				<li class="LS-lines"><a id="n7" href="/vg">棋牌游戏</a></li>
+				<li class="LS-youhui" ><a id="n6" href="http://youhui.9446js.cc" target="_blank" class="textGlitter1">优惠办理大厅<span></span></a></li>
+				<li class="LS-kefu"><a href="https://chat6.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=697496&configID=47785&jid=1015026641&s=1" target="_blank">在线客服</a></li>
+			</ul>
+			<div id="L-Sub">
+				<div class="LS-ball"> 
+					 <span class="subbg-left"></span> 
+					     <a href="/hg_sports" class="nsp" >皇冠体育</a><a href="/ts" class="nts">三昇体育</a><a href="/visual/sp-sport" class="nsb" target="_blank">沙巴体育</a><a href="/ug" class="nug">新皇冠</a>					 <span class="subbg-right"></span>
+				</div>
+				<div class="LS-live"> 
+					<span class="subbg-left"></span>
+					    <a href="/visual/ag/info" class="nag">AG国际厅</a><a href="/visual/bbin/info" class="nbbin">BBIN波音厅</a><a href="/visual/ab/info" class="nab">AB亚洲厅</a><a href="/visual/ho/info" class="nhg">HG名人厅</a><a href="/ds/info" class="nds">DS贵宾厅</a><a href="/visual/og/info" class="nog">OG东方厅</a><a href="/gc/info" class="ngc">GC黄金厅</a><a href="/bv/info" class="nbg">BG视讯厅</a>					<span class="subbg-right"></span>
+				</div>
+				<div class="LS-game">
+					<span class="subbg-left"></span> 
+					    <a href="/mg/index" class="dzmg">MG电子</a><a href="/pt" class="dzpt">PT电子</a><a href="/yg" class="dztbk">YG电子</a><a href="/hb" class="dzhb">HB电子</a><a href="/visual/bbin-game" class="dzbbin">BBIN电子</a>					<span class="subbg-right"></span>
+			   </div>
+			   <div class="LS-lottery">
+					<span class="subbg-left"></span> 
+					    <a href="/tt" class="ntt">天天彩票</a><a href="/jl" class="njl" >吉利彩票</a><a href="/vr" class="nvr" >VR彩票</a>					<span class="subbg-right"></span>
+			   </div>		  
+		  </div>
+	    </div>     		  
+		          	  
+	   </div>
+       <div style="position:absolute; width:272px; height:42px; left:-20px; top:82px; z-index:100;">
+        <img src="https://static1.tbk-app.net/style/aomenjinshaylca/yiji.png">
+       </div>
+	</div>	  
+
+	 		
+</div>
+</div>
+		
+<script language="javascript">
+$("li.LS-ball, li.LS-live, li.LS-game, li.LS-lottery").subTabs();
+new toggleColor('.textGlitter', ['#FFFF00', '#FF0000'], 600);
+new toggleColor('.textGlitter1', ['#d5a867', '#FF0000'], 600);
+new toggleColor('.textGlittera', ['#ff0', '#a4a4a4'], 600);
+new toggleColor('.textGlitterb', ['#0ff', '#a4a4a4'], 600);
+new toggleColor('.textGlitterc', ['#f00', '#a4a4a4'], 600);
+$("#n1").removeClass("current");
+$("#n8").addClass("current");</script>
+<!-- head end  --> 
+<div id="center"> 
+  <div class="wrapc" id="wrapc">
+  
+  
+                      <div id="hdpublic" style="background:url(https://static1.tbk-app.net/style/aomenjinshaylca/title_welcome.jpg) repeat-x center top;">
+              <div id="hdpbox">
+			      <div id="hdpuser">
+				  
+				     					  <div class="fumemtitle">会员登录</div>
+					  <div id="loginbox">
+						   <form name="LoginForm" action="/cn" method="POST" onSubmit="return inputCheck();" style="margin:0" autocomplete="off" >
+						   <div id="loginarea">		  
+								<div class="logintxt"><input name="username" tabindex="1" type="text" class="za_text" id="username" maxlength="20" value="帐号" onFocus="if(this.value=='帐号')this.value=''" onBlur="if(this.value =='') this.value ='帐号'"   /></div>
+								<div class="logintxt"><input id="txtFacade" type="text" value="密码" readonly class="za_text" tabindex="2" onFocus="$('#txtPasword').val('');$('#txtFacade').css('display', 'none');$('#txtPasword').css('display', '');$('#txtPasword').focus();" style="">
+								<input id="txtPasword" name="password" tabindex="3" type="password" class="za_text" onBlur="if ($('#txtPasword').val() === ''){$('#txtFacade').css('display', '');$('#txtPasword').css('display', 'none');}" value="" style="display: none; " /></div>
+								<div class="clear"></div>
+							</div>
+							<div class="logintxt1">
+							   <input class="Loginbtn"  name="Submit" type="submit" value="登入" />
+							   <div id="Loginbtnreg"><a  href="/cn/register">加入会员</a></div>
+							   <div class="clear"></div>
+							   <div id="Loginbtnpwd"><a href="/cn/forget"   title="忘记密码">忘记密码</a></div>
+							</div>		
+					  </form>
+					  </div>
+					  	
+				  
+				  </div>
+			  </div>     
+           </div>
+		   <div style="clear:both;"></div>	 
+		   <div id="wrapbox">
+			    <div id="wrapw">
+			      <div id="wrapwhead">
+				     <div class="wwhtit" style="background:url(https://static1.tbk-app.net/style/aomenjinshaylca/title_welcome_bg.jpg) repeat-x center top;"></div>
+					 <div class="wwhnews">
+					    <marquee scrollamount="5" scrolldelay="150" direction="left" onMouseOver="this.stop();" onMouseOut="this.start();"  style="cursor:pointer;" onClick="alert('     尊敬的全体金沙会员：为了所有新老会员有更好的游戏体验，公司优惠客服大厅正式上线！！！现在公司推出多种新类型优惠：转运彩金赠送、推荐好友奖励、及最最重要的：“砸金蛋、送彩金”活动正式上线，希望广大会员互相转告！！祝大家多多盈利哦！
+    尊敬的会员您好：公司最新成功APP下载方式：请使用UC浏览器点击进入：wap.080336.com点击下载即可哦，谢谢
+');" >     尊敬的全体金沙会员：为了所有新老会员有更好的游戏体验，公司优惠客服大厅正式上线！！！现在公司推出多种新类型优惠：转运彩金赠送、推荐好友奖励、及最最重要的：“砸金蛋、送彩金”活动正式上线，希望广大会员互相转告！！祝大家多多盈利哦！
+    尊敬的会员您好：公司最新成功APP下载方式：请使用UC浏览器点击进入：wap.080336.com点击下载即可哦，谢谢
+</marquee>
+					 </div>
+				  </div>
+				  <div id="wrapwcent">			 
+                     <div id="wrapwcentc">
+					   
+<div id="main" class="reg">
+<div id="left"><div id="cwrapleft">
+	<div id="page-left">
+	   <div id="left_center">
+			<div id="Game-Menual">
+			   <div class="Game-Menual-box">
+				<a href="/cn/forget" target="_self">忘记密码</a>   
+				<a href="/cn/register">免费注册</a>
+								<a href="/agent" target="_self">代理注册</a>
+								<a href="/hg_sports" target="_self">体育投注</a>
+				<a href="/visual/" target="_self">真人娱乐</a>
+				<a href="/game" target="_self">电子游艺</a>
+				<a href="/cn/caipiao" target="_self">彩票游戏</a>
+								    <a href="/cn/lines" target="_self">备用网址</a>
+										    
+				    <a href="/cn/youhui" target="_self">优惠活动</a>				
+                				
+<!-- 			<a href="/sport" target="_blank">沙巴足球</a>				
+				<a href="/visual/mingren/info" target="SI2_mem_index">名人厅</a>
+				<a href="/visual/ks/info" target="SI2_mem_index">卡沙馆</a>
+				<a href="/visual/qj/info" target="SI2_mem_index">旗舰厅</a>								
+ -->		  </div>		
+			</div>	
+	        <div id="left_down"><img src="https://static1.tbk-app.net/style/aomenjinshaylca/left_down.png" border="0"></div>
+	   </div>		
+    </div>
+</div></div>
+<div id="middle">
+<div class="reg_bg" id="registerbg"></div>
+<div class="form">
+<form action="" method="post" name="register" id="register"><div class='reg_top' id='reg_top'></div><div class='reg_add'>  <div class='reg_add_top_left'><img src='https://static1.tbk-app.net/style/aomenjinshaylca/favicon.ico' width='48' height='48' /></div>  <div class='reg_add_top_right'>立即加入</div></div><h2>账户信息</h2><div class='use'><label><span class='title'>用户账号:</span><input name="username" type="text" value=""><br><span class='title'></span>&nbsp;&nbsp;*须为<font color='#FF0000'>6-12</font>个字元, 英文和数字组成,至少一个字母！  </label></div><div class='pass'><label><span class='title'>登入密码:</span><input name="password" type="password" value=""><br><span class='title'></span>&nbsp;&nbsp;*须为<font color='#FF0000'>6~20</font>个英文或数字且符合<font color='#FF0000'>0~9</font>或<font color='#FF0000'>a~z</font>字元！ </label></div><div class='rep'><label><span class='title'>确认密码:</span><input name="repassword" type="password" value=""><br><span class='title'></span>&nbsp;&nbsp;*请再次输入您的登录密码！ </label></div><div class='reg_bottom'></div><h2>个人资料</h2><div><label><span class='title'>真实姓名:</span><input type="text" name="realname" value=""><br><span class='title'></span>&nbsp;&nbsp;*<font color='#FF0000'>必须与您的银行帐户名称相同，否则不能出款!</font> </label></div><div><label><span class='title'>手机号码:</span><input type="text" name="tel" value=""><br><span class='title'></span>&nbsp;&nbsp;*请认真填写，以便有优惠活动可以即时的通知您！ </label></div><div><label><span class='title'>腾讯QQ:</span><input type="text" name="qq" value=""><br><span class='title'></span>*请认真填写，以便有优惠活动可以即时的通知您！</label></div><div class='clear'></div><div><label><span class='title'>取款密码:</span><input name="qkmm" type="password" value=""><br><span class='title'></span>&nbsp;&nbsp;*<font color='#FF0000'>提款认证必须，请务必记住!</font> </label></div><div><label><span class='title'>提示问题:</span><select name="question"><option value="">请选择</option>
+<option value="&#x60A8;&#x7684;&#x8F66;&#x724C;&#x53F7;&#x7801;">您的车牌号码</option>
+<option value="&#x60A8;&#x6240;&#x5728;&#x7684;&#x57CE;&#x5E02;">您所在的城市</option>
+<option value="&#x60A8;&#x7684;&#x751F;&#x65E5;">您的生日</option>
+<option value="&#x60A8;&#x7684;&#x540D;&#x5B57;">您的名字</option>
+<option value="&#x60A8;&#x7236;&#x4EB2;&#x7684;&#x540D;&#x5B57;">您父亲的名字</option>
+<option value="&#x60A8;&#x6BCD;&#x4EB2;&#x7684;&#x540D;&#x5B57;">您母亲的名字</option>
+<option value="&#x60A8;&#x513F;&#x5973;&#x7684;&#x540D;&#x5B57;">您儿女的名字</option>
+<option value="&#x60A8;&#x59BB;&#x5B50;&#x7684;&#x540D;&#x5B57;">您妻子的名字</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x6570;&#x5B57;">您喜欢的数字</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x54C1;&#x724C;">您喜欢的品牌</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x8FD0;&#x52A8;">您喜欢的运动</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x989C;&#x8272;">您喜欢的颜色</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x7403;&#x961F;">您喜欢的球队</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x7403;&#x661F;">您喜欢的球星</option></select><br><span class='title'></span>&nbsp;&nbsp;*认真选择找回密码提示问题！ </label></div><div><label><span class='title'>提示答案:</span><input type="text" name="answer" value=""><br><span class='title'></span>&nbsp;&nbsp;*此为您取回登入密码的唯一途径, <font color='#FF0000'>请务必记住!</font></label></div><div class='check'><input type='checkbox' checked='checked' id='registerCheckbox'>我已届满合法博彩年龄﹐且同意各项开户条约。<a href='/html/readme.html' target='_blank'>开户协议</a></div><div class='submitDiv'><input name="submit" type="submit" id="submitbutton" value="&#x20;&#x63D0;&#x20;&#x4EA4;&#x20;"></div><div class='reg_bottom'></div></form>
+<dl>
+ <dt>备注：</dt>
+ <dd>1.标记有<span> *</span> 者为必填项目。</dd>
+ <dd>2.手机与取款密码为取款金额时的凭证,请会员务必填写详细资料。</dd>
+ <dd>3.若公司有其它活动会E-MAIL通知，请客户填写清楚。</dd>
+</dl>
+
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#register').find("input[name=username]").first().blur(function(){
+		var val = $(this).val();
+		if( val.length <6){
+			alert('用户名必须不少于6个字符');
+			return false;
+		}else{
+			checkUsername( val);
+
+		}
+	});
+})
+function checkUsername( val){
+	$.ajax({
+		type: "POST",
+		url: "/cn/check-username/"+val,
+		dataType: "json",
+		cache:false,
+		success: function(msg){
+			if( msg.result){
+				alert(val + " 已经被注册,请更换!");
+			}
+		}
+	});
+}
+function getCaptcha(){    
+    var img = document.getElementById("imgCap");    
+    img.src = "/cn/captcha?cap=" + new Date().getTime();    
+} 
+</script>
+</div>
+<div class="clear"></div>
+</div>					 </div>  
+				  </div>	 
+			    </div>
+			</div>
+			     
+  </div>
+</div>
+<!-- foot -->
+<div style="clear:both;"></div>
+<div id="page-footer">
+  <div class="footer">
+	<div id="ArticleList"><a href='/cn/nav/128765'>关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128759'>规则说明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128760'>常见问题</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128761'>代理合作</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128762'>存款帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128763'>取款帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128764'>客服中心</a></div>
+	<div class="clear"></div>
+    <a class="huanyu" href="http://www.ub66.com/?lang=zh-cn" target="_blank"></a>
+	<div id="footermsg"></div>
+  </div>	  
+</div>
+<div class="footerbottom">
+   <div class="fbbox1">
+       <div class="fbh3">关于我们  <span>/ About</span></div>
+       <div class="fbtitle">关于澳门金沙赌场</div>
+	   <div class="fbtxt">澳门金沙赌场--全球最大博彩公司，致力于打造世界顶级的网上博彩娱乐平台。</div>
+	   <div class="fbtxt">在这里我们将为您提供一个公平，公正的网络博彩平台，更承诺配备最优质的投注方法，并辅以最先进的网络技术支援，献上最佳的客户服务和最优惠的支付方案，我们致力于为广大客户提供丰富多彩的博彩活动，并极力以最优越的客户服务及丰富的奖赏作回馈，澳门金沙赌场所提供的所有产品和服务皆由澳门经济特区博彩执照监察局所授权和监管。本公司的经营理念是通过向顾客提供最佳的在线博彩及多元化的网上娱乐，以进一步拓展我们的公司性能。</div>
+	   <div class="fbtitle">优质服务承诺</div>
+	   <div class="fbtxt">自成立至今，澳门金沙赌场致力提供多元化的体育博彩及网上娱乐，让客户能每天24小时体验到最精采刺激的休闲享受，更藉以丰富奖赏，以回馈所有大众对我们的支持及热烈参与。我们恪守「顾客至上」的宗旨，以力求创新，不断进步的精神，开拓多元化的娱乐业务。为此，我们聘用庞大的服务团队，客户服务、技术支援等优秀人员的不懈努力，为客户提供专业的娱乐服务。</div>
+	   <div class="fbtxt">我们承诺，置身于澳门金沙赌场游戏平台的客户也能享有极具价值的博彩回报。同时，每名客户的资讯保密性对我们来说是最重要的。我们承诺，将继续不遗余力地坚持严格实行保密和隐私制度。</div>
+   </div>
+   <div class="fbbox2">
+       <div class="fbh3">经营理念  <span>/ Idea</span></div>
+       <div class="fbtitle">诚信</div>
+	   <div class="fbtxt">作为国际专业的网上博彩运营企业，我们凭藉集合世界级的博彩资讯专家、丰富经验的服务团队、市场营销专家、先进的软硬件开发人员建立出澳门金沙赌场全面而完善的组织体系。我们承诺，为每一位客户提供最新、最安全、最准确的专业博彩数据，以及全方位的国际化服务。同时，我们更聘请了多位资深计算机专家给公司设计和提供软硬件设施维护服务，以提供最佳的技术支援，确保客户能于无时无刻享受到最优质的娱乐服务。</div>
+	   <div class="fbtitle">严格维护保密及安全性</div>
+	   <div class="fbtxt">为维护系统的完整性及公平原则，我们将会进行不定期的安全检查。客户的安全和游戏的公正性乃澳门金沙赌场最重要的服务信念与宗旨。我们采用的是全球最先进的游戏软件设备，保证了软件本身的公正性。同时，本公司更用最先进的加密措施来保证游戏的安全，並作24小时的后台检测和监控，确保我们的客户可以在一个最保密、最安全的网络游戏空间尽情玩乐。</div>
+	   <div class="fbtitle">公平游戏</div>
+	   <div class="fbtxt">澳门金沙赌场致力为玩家提供最公正的环境，在一个结合体育博彩及网络直播的娱乐平台上尽情享乐。澳门金沙赌场乃现时亚洲市场最具权威及最先进的科技系统所提供。此外，所有参与现场游戏的荷官均经过严格训练及挑选，每局牌局均有主管负责监察，以确保游戏的真实度。</div>
+   </div>
+   <div class="fbbox3">
+       <div class="fbh3">我们的优势  <span>/ Advantage</span></div>
+       <div class="fbtitle">付款</div>
+	   <div class="fbtxt">我们提供各种安全简便的存款及提款选择给客户。我们一直主张客户「瞭解我们的用户(KYC)」和反洗钱(AML)的原则，並与第三方的财务管理当局合作，用以确保在最大程度上遵从相关的法律及法规。澳门金沙赌场希望所有的客户能够在一个安全愉快的环境中，享受本公司精心设计的产品和服务，並能够从中获利。我们欢迎客户对我们提出任何意见。如有需要，联系在线客服。</div>
+	   <div class="fbtitle">负责任博彩</div>
+	   <div class="fbtxt">澳门金沙赌场承诺提供「负责任博彩」，並确保每位客户能与我们一起享受到博彩的乐趣。但是我们也瞭解到有小部分的人有时候未必能控制自己的投注行为，如遇相关问题，澳门金沙赌场会积极鼓励这些用户及时与我们联络，以便尽提供相关帮助。</div>
+	   <div class="fbtitle">澳门金沙赌场优势</div>
+	   <div class="fbtxt">澳门金沙赌场除了展示自身的实力及品牌价值，我们更致力于为客户提供更加全面的产品服务。我们力求给客户提供最有价值的游戏体验及各类优惠服务。除了提供多渠道的入款方法，我们力求保证每位玩家的每笔提款都将在10分钟之内完成。公司更设有超级VIP服务项目，每位成为公司的VIP会员我们会在VIP会员的生日、节假日、每月、每年给VIP客户提供更加给力的优惠活动，以展示VIP会员的自身价值。</div>
+   </div>
+</div>
+    <script language="javascript">
+        $(document).ready(function(){
+            $('.Game-Menual-box a').eq(8).attr({href:'http://youhui.9446js.cc',target:'_blank'});
+        });
+
+    </script>
+
+
+
+
+</div>
+</div>
+
+<style type="text/css">
+#floatc{ width:122px; height:342px; background:url("https://static1.tbk-app.net/style/aomenjinshaylca/right.png") no-repeat left top; overflow:hidden; cursor:pointer; position:absolute; top:150px; right:10px;z-index:10000; }
+#floatkf { margin:0; height:250px; overflow:hidden;}
+#floatkf a { display:block; width:122px; height:250px;  overflow:hidden; cursor:pointer;}
+#floatqq { margin:0; height:50px; overflow:hidden;}
+#floatqq a { display:block; width:122px;height:96px;  overflow:hidden; cursor:pointer;}
+
+#floatclose { margin:0;  height:19px; overflow:hidden;  }
+
+#floatdown{ width:130px; height:398px; background:url("https://static1.tbk-app.net/style/aomenjinshaylca/left.png") no-repeat top left; overflow:hidden; cursor:pointer; position:absolute; top:150px; left:5px; cursor:pointer; z-index:10000; }
+#floatmous { margin:0; height:260px; overflow:hidden;}
+#floatmous a { display:block; width:122px; height:260px; }
+#floater { margin:0; height:200px; overflow:hidden;}
+#floatdownclose { margin:0;  height:24px; overflow:hidden;}
+</style>
+<script type="text/javascript" src="/style/share/movefloat.js"></script>
+<script type="text/javascript" src="/style/share/jquery.cookies.min.js"></script>
+<div id="floatc" class="pngclass">
+  <div id="floatkf"><a href="https://chat6.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=697496&configID=47785&jid=1015026641&s=1" class="popupkefu" target="_blank"></a></div>
+  <div id="floatqq"><a href="/cn/register"></a></div>
+  <div id="floatclose"></div>
+</div>
+<div id="floatdown" class="pngclass" style=" height:398px;">
+  <div id="floatmous" style=" height:260px;"><a href="tencent://message/?uin=77867276&Menu=yes"  target="_blank"></a></div>
+  <div id="floater" style=" height:90px;"><a href="tencent://message/?uin=77867276&Menu=yes"  target="_blank"></a></div>
+  <div id="floatdownclose"></div>
+</div>
+<script language="javascript">
+ function showRdKfAd(){
+   var isClose=$.cookie("rdAd1");
+   if(isClose=="hide11"){
+      $("#floatc").hide();
+   }else{
+      $("#floatc").show();
+   }
+}
+ function showRdDoAd(){
+   var issClose=$.cookie("rdAd2");
+   if(issClose=="hide22"){
+      $("#floatdown").hide();
+   }else{
+      $("#floatdown").show();
+   }
+}
+$("#floatclose").click(function(){
+  $("#floatc").hide();
+  $.cookie("rdAd1", "hide11",{expires: 7200});
+});
+moveTips("floatc",150,5,"right");
+showRdKfAd();
+$("#floatdownclose").click(function(){
+ $("#floatdown").hide();
+  $.cookie("rdAd2", "hide22",{expires: 7200});
+});
+moveTips("floatdown",150,10,"left");
+showRdDoAd();
+</script>
+
+<script language="javascript" src="http://count20.51yes.com/click.aspx?id=209987715&logo=12" charset="gb2312"></script>
+ 
+<script src="https://static1.tbk-app.net/style/share/jquery-ui-1.8.21.custom.min.js"></script>
+<link href="https://static1.tbk-app.net/style/share/jquery-ui-1.8.21.custom.css" rel="stylesheet"/>
+<script src="https://static1.tbk-app.net/style/share/jquery.cookie.js"></script>
+<div id="js-notice-pop" style="display:none;">
+<img src="https://static1.tbk-app.net/upload/769/image/170616012415.jpg" width="500" height="350" >
+</div>
+<script>
+  try{
+    (function(){
+       if ($.cookie("NP_118449")) return;
+       $.cookie("NP_118449", "Y", {path:"/", expires: 7});
+       $("#js-notice-pop").dialog({
+         'closeOnEscape': true,
+         'bgiframe': true,
+         'width' : 530,
+         'height' : 470,
+         'title': '',
+         'resizable': true,
+         'modal': true,
+         'autoOpen': false,
+         'buttons' : { 
+            "关闭" : function() { $(this).dialog("close"); }
+         }
+     });
+         $('#js-notice-pop').dialog('open');
+    })();
+  }catch(e){}
+  $(".ui-widget-overlay").click(function(){
+     $("#js-notice-pop").dialog("close");
+  });
+</script>
+</body>
+</html>
+<!--[if (IE 6)]>
+<script>
+    var downloadNewIE;
+    if('undefined' != typeof downloadvwin){
+        downloadNewIE = downloadvwin;
+    }else{
+        downloadNewIE = function(){
+            window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8');
+        }
+    }
+    </script>
+    <div id="ie6-alertBox">
+        <div id="ie6-infoBar">
+                            系统侦测到您使用旧版浏览器,<span class="alert">本站预计已停止对 IE6 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadNewIE();">「下载区」</a>升级您的浏览器。
+                    </div>
+            </div>
+    <div id="ie6-overlay"></div>
+    <style type="text/css">
+        html{overflow-y:hidden;}
+        .alert{color: red;}
+        #ie6-overlay{
+            background:#777777;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+            /*展示用*/
+            -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+            -moz-opacity:0.5;
+            opacity: 0.5;
+            /*展示用*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        #ie6-alertBox{
+            position:absolute;
+            font-size: 13px;
+            width:300px;
+            height:auto;
+            padding:10px 10px 30px;
+            left:50%;
+            top:40%;
+            line-height: 25px;
+            margin-left:-160px;
+            z-index: 11;
+            color: #000;
+            border:1px solid #777;
+            background-color: #CCCCCC;
+            /*展示用*/
+            background-image: -moz-linear-gradient(top,white,#CCCCCC);
+            background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#CCCCCC));
+            background-image: -webkit-linear-gradient(top,white,#CCCCCC);
+            background-image: -o-linear-gradient(top,white,#CCCCCC);
+            background-image: linear-gradient(to bottom,white,#CCCCCC);
+            background-repeat: repeat-x;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            /*展示用*/
+            border: 1px solid #D4D4D4;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);
+            display:none;
+        }
+        #ie6-infoBar a,#ie6-alertBoxClose{color: #F57900;text-decoration: none;}
+        #ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color: #FF9A37;}
+        #ie6-alertBoxClose{
+            position:absolute;
+            right:5px;
+            bottom:5px;
+            display: none;
+        }
+    </style>
+    <script>
+
+        
+        function showalert(){
+            $("#ie6-overlay").height($(window).height()).width($(window).width());
+                            $("#ie6-alertBox").slideToggle();
+                    }
+
+
+        $(function(){
+                            showalert();
+                    });
+</script>
+<!-->
+<!--<![endif]-->

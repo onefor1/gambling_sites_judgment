@@ -1,0 +1,111 @@
+
+
+
+
+
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FC - 官方网站</title>
+<link href="/css/base.css" rel="stylesheet" type="text/css">
+<link href="/css/login2.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/js/zDrag.js"></script>
+<script type="text/javascript" src="/js/zDialog.js"></script>
+<script src="/common/template/member/A_style.js" type="text/javascript"></script>
+<style>
+.c_testspeed {
+	width: 80px;
+	height: 30px;
+	background: url(/images/hrcs_.png) no-repeat;
+	cursor: pointer;
+}
+
+.c_testspeed:hover {
+	width: 80px;
+	height: 30px;
+	background: url(/images/hrcs_01.png) no-repeat;
+}
+</style>
+</head>
+<body>
+	<input id="base" value="" type="hidden"/>
+	<input id="isLogin" value="false" type="hidden"/>
+	<div id="divbg">
+		<img src="/images/9.jpg">
+	</div>
+	<form id="LGForm" name="LGForm" method="post">
+<!-- 		<div class="PageHeader"> -->
+<!-- 			<div class="CT w1280"> -->
+<!-- 				<ul class="fr"> -->
+<!-- 					<li onclick="#" style="display: none"> -->
+<!-- 						<div class="c_testspeed" title="在线测速"></div> -->
+<!-- 					</li> -->
+<!-- 					<li onclick="zxkf()"> -->
+<!-- 						<div class="c_onlineLive" title="在线客服"></div> -->
+<!-- 					</li> -->
+<!-- 					<li onclick="zxkf()"> -->
+<!-- 						<div class="c_onlineQQ" title="QQ客服咨询"></div> -->
+<!-- 					</li> -->
+<!-- 				</ul> -->
+<!-- 				<div class="fl login_t"> -->
+<!-- 					<a href="#"></a> -->
+<!-- 				</div> -->
+<!-- 				<div class="cb"></div> -->
+<!-- 			</div> -->
+<!-- 		</div> -->
+		<div class="Page_CT">
+			<div class="w1280">
+				<div class="fr CTR">
+					<h4>账户登录</h4>
+					<p class="txt name">
+						<input type="text" id="account" name="account" placeholder="请输入您的登录名">
+					</p>
+					<p class="txt psw">
+						<input type="password" id="password" name="password" placeholder="请输入您的密码">
+					</p>
+					<p class="txt psw" style="position: relative;">
+						<input type="text" id="verifyCode" name="verifyCode" placeholder="请输入验证码">
+						<div style="margin-left: 224px;margin-top: -40px;position: absolute;">
+							<img src="#" id="authnumImg">
+						</div>
+					</p>
+					<p class="login" onclick="doLoginA();">
+						<a href="javascript:void(0)">登 录</a>
+					</p>
+					<p class="tr">
+<!-- 						<a href="javascript:alert('敬请期待')" class="hkd">客户端下载</a> -->
+<!-- 						<a href="javascript:zxkf()" class="fr mt10 mr10 wjm" title="找回密码">忘记登入密码？</a> -->
+					</p>
+				</div>
+				<div class="fl CTL">
+<!-- 					<p>竭诚为客户提供更好的购彩体验</p> -->
+<!-- 					<p style="margin-top: 30px;">可能是最好的彩票平台</p> -->
+					<p style="margin-top: 30px;"><img src="/images/login_logo.png"/></p>
+				</div>
+				<p class="cb"></p>
+			</div>
+		</div>
+		</form>
+		<div class="PageFooter" style="display: none;">
+			<ul>
+				<li><a href="http://hr88.co/help/about.html" target="_blank">关于我们</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/help/question.html" target="_blank">常见问题</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/help/contact.html" target="_blank">联系我们</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/help/service.html" target="_blank">服务条款</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/help/hidden.html" target="_blank">隐私政策责任</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/help/service.html" target="_blank">免责声明</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/login.shtml#">客服热线：+63-9276888888</a></li>
+				<li>|</li>
+				<li><a href="http://hr88.co/login.shtml#">集团咨询：+63-9158888888</a></li>
+			</ul>
+		</div>
+</body>
+</html>

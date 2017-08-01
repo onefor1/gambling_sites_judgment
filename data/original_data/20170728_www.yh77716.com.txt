@@ -1,0 +1,253 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>银河娱乐城 - 实力铸就品牌，诚信打造一切，相信品牌的力量</title>
+
+    <meta name="keywords" content="银河娱乐城 - 实力铸就品牌，诚信打造一切，相信品牌的力量">
+    <meta name="description" content="银河娱乐城 - 实力铸就品牌，诚信打造一切，相信品牌的力量 ">
+    <link rel="shortcut icon" href="/images/ico.ico"></link>
+    <link rel="canonical" href="http:///" />
+    <link href="/cl/tpl/commonFile/css/standard.css" rel="stylesheet" type="text/css" />
+	
+	
+<!---- 识别手机开始  start  -->
+<script type="text/javascript">function uaredirect(f){try{if(document.getElementById("bdmark")!=null){return}var b=false;if(arguments[1]){var e=window.location.host;var a=window.location.href;if(isSubdomain(arguments[1],e)==1){f=f+"/#m/"+a;b=true}else{if(isSubdomain(arguments[1],e)==2){f=f+"/#m/"+a;b=true}else{f=a;b=false}}}else{b=true}if(b){var c=window.location.hash;if(!c.match("fromapp")){if((navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))){location.replace(f)}}}}catch(d){}}function isSubdomain(c,d){this.getdomain=function(f){var e=f.indexOf("://");if(e>0){var h=f.substr(e+3)}else{var h=f}var g=/^www\./;if(g.test(h)){h=h.substr(4)}return h};if(c==d){return 1}else{var c=this.getdomain(c);var b=this.getdomain(d);if(c==b){return 1}else{c=c.replace(".","\\.");var a=new RegExp("\\."+c+"$");if(b.match(a)){return 2}else{return 0}}}};</script>
+<script type="text/javascript">
+ 
+uaredirect("http://m.yh77716.com/?intr=&");
+ 	
+
+</script>
+
+
+
+<!---- end  -->
+
+    
+
+<!-- Le styles -->
+<link href="/skin/css/base.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/skin/css/styles.css" media="screen" rel="stylesheet" type="text/css">
+      <script src="/cl/js/jquery-1.7.2.min.js"></script>
+      <script src="/cl/js/common.js"></script>
+      <script src="/cl/js/tools/upup.js" data-ltl="Y" id="upupjs"></script>
+      <script src="/cl/js/pluging/swfobject.js"></script>
+      <script src="/cl/js/pluging/jquery.cookie.js"></script>
+      <script src="/cl/tpl/starball/ver1/js/starball.js"></script>
+      <script src="/cl/js/tools/ScrollPic.js"></script>
+      <script src="/cl/js/pluging/jquery.ifixpng.js"></script>
+      <script src="/cl/js/tools/tab.js"></script>
+      <script language="javascript" src="/skin/js/select.js"></script>
+      <script language="javascript" src="/skin/js/superslide.2.1.js"></script>
+
+      <script language="javascript">
+        function BBOnlineService() {
+          window.open('https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=839320&configID=65906&jid=6827481465&s=1', '', 'menubar=no,status=yes,scrollbars=yes,top=150,left=400,toolbar=no,width=705,height=520')
+        }
+      </script>
+  </head>
+
+  <body>
+    <iframe id="topFrame" name="topFrame" frameborder="0" scrolling="no" width="100%" src="/cl/top.php" allowtransparency="true" height="161" style="display:none"></iframe>
+    <div id="page-header">
+      <div id="header">
+        <div id="header-logo">
+          <object width="216" height="171" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  >
+            <param value="/skin/img/2015111101.swf" name="movie">
+            <param value="transparent" name="wmode">
+            <param value="high" name="quality">
+            <embed width="216" wmode="transparent" height="171" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/skin/img/2015111101.swf">
+          </object>
+        </div>
+        <div id="headtop">
+          <div id="headtopleft">
+            <div class="gpdm">澳门银河集团 （赌场直营） 上市代码：HK00027</div>
+          </div>
+          <div id="headtopright">
+            <div id="hdselect">
+              <a href="http://m.44164.com" target="_blank">手机投注</a>&nbsp;|&nbsp;
+              <a href="javascript:click_url('/app/member/help/dlhz.php')">代理加盟</a>&nbsp;|&nbsp;
+              <a href="javascript:void(0)" onclick="SetHome(this, top.location)">设为首页</a>&nbsp;|&nbsp;
+              <a href="javascript:void(0)" onclick="AddFavorite(window.location, document.title)">加入收藏</a>
+            </div>
+            <div class="clear"></div>
+            <script type="text/javascript">
+              function RefreshImage() {
+                var imgObj = document.getElementById("vPic");
+                if (imgObj != null)
+                  imgObj.src = "/yzm.php?" + Math.random();
+                imgObj.style.visibility = 'visible';
+                return false;
+              }
+            </script>
+            <script type="text/javascript">
+              function Go_forget_pwd() {
+                alert("请联系在线客服寻求帮助!");
+              }
+            </script>
+            <div id="loginbox">
+                              <form name="LoginForm" method="POST" onsubmit="return false;" style="margin:0" autocomplete="off">
+                  <div id="loginarea">
+                    <div class="logintxt">
+                      <input name="username" class="za_text login-input" id="username" value="账户" onfocus="if(this.value=='账户')this.value=''" onblur="if(this.value =='') this.value ='账户'" tabindex="1" type="text" />
+                    </div>
+                    <div class="logintxt">
+                      <input name="password" class="za_text login-input" id="passwd" maxlength="20" value="******" onfocus="if(this.value=='******')this.value=''" onblur="if(this.value =='') this.value ='******'" tabindex="2" type="password" />
+                    </div>
+                    <div class="logintxt logintxt-chk" style="position: relative;">
+                      <input name="rmNum" class="za_text login-input" id="rmNum" size="3" maxlength="4" value="****" onfocus="getKey();if(this.value=='****')this.value=''" onblur="if(this.value =='') this.value ='****'" tabindex="3" type="text" />
+                      <img id="vPic" src="yzm.php" onclick="getKey();" align="absmiddle" border="0" height="18" width="40" style="position:absolute;top:5px;right:12px">
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="logintxt1">
+                    <input class="Loginbtn inputsubmit" name="Submit" type="submit" value="GO登入" onclick="aLeftForm1Sub();return false">
+                    <div id="Loginbtnreg"><a href="javascript:void(0);" onclick="javascript:click_url('/cl/reg.php')">加入会员</a></div>
+                    <div id="Loginbtnpwd"><a href="###" onclick="javascript:alert('请联系在线客服')" title="忘记密码">忘记密码</a></div>
+                  </div>
+                </form>
+                            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div id="L-Menual">
+          <ul id="main-Menual">
+            <li class="LS-home"><a id="n1" href="javascript:click_url('/cl/main.php')" class="current">首页HOME</a></li>
+            <li class="LS-ball"><a id="n2" href="javascript:click_url('/app/member/sport.php')">体育赛事</a></li>
+            <li class="LS-live"><a id="n3" href="javascript:click_url('/member/zhenren/mylive.php')">视讯直播</a></li>
+            <li class="LS-lottery" style="margin-right:320px;"><a id="n5" href="javascript:click_url('/member/lottery/lottery.php')">彩票游戏</a></li>
+            <li class="LS-youhui"><a id="n5" href="javascript:click_url('/xin_game/')">电子游艺</a></li>
+            <li class="LS-youhui"><a id="n6" href="javascript:click_url('/member/lt/?rtype=SPbside')">六合彩</a></li>
+            <li class="LS-lines"><a id="n7" href="javascript:click_url('/cl/offer.php')">优惠活动</a></li>
+            <li class="LS-kefu"><a href="http://m.44164.com" target="_blank">手机下注</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: none;" id="showselect">
+      <div id="hdpbox">
+        <div id="hdpnews">
+          <marquee scrollamount="5" scrolldelay="150" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor:pointer;" onclick="notice_data();"></marquee>
+        </div>
+      </div>
+    </div>
+
+    <div id="mainFrameDiv">
+      <center>
+        <iframe id="mainFrame" name="mainFrame" frameBorder="0" scrolling="no" width="100%" src="/cl/main.php" allowtransparency="true" height="916" onload="this.height=mainFrame.document.body.scrollHeight"></iframe>
+      </center>
+    </div>
+
+    <div id="bottomFrameDiv">
+      <div style="position:relative;margin:0 auto;width:1023px">
+        <div id="yinhelogo"></div>
+      </div>
+      <center>
+        <iframe id="bottomFrame" name="bottomFrame" frameBorder="0" scrolling="no" width="100%" src="/cl/bottom.php" allowtransparency="true" height="726"></iframe>
+      </center>
+    </div>
+
+    <div style="background:url('/skin/img/left.png') no-repeat center;width:131px;height:400px;position:absolute;left:5px;top:-115px;z-index:999" id="leftTips">
+  <a href="/live2/Agtry.php" target="_blank" style="width:131px;height:97px;font-size:0px;display:block"></a>
+  <a href="javascript:click_url('/member/zhenren/mylive.php')" target="_blank" style="width:131px;height:86px;font-size:0px;display:block"></a>
+  <a href="javascript:;" style="width:131px;height:145px;font-size:0px;display:block"></a>
+  <a href="javascript:;" style="width:131px;height:22px;font-size:0px;display:block" onclick="javascript:FloatClose(this)">Close</a>
+</div>
+<div style="background:url('/skin/img/right.png') no-repeat center;width:124px;height:400px;position:absolute;right:5px;top:-115px;z-index:999" id="rightTips">
+  <a href="javascript:;" style="width:124px;height:72px;font-size:0px;display:block" onclick="BBOnlineService()"></a>
+  <a href="http://wpa.qq.com/msgrd?v=3&uin=892275555&site=qq&menu=yes" target="_blank" style="width:124px;height:61px;font-size:0px;display:block"></a>
+  <a href="javascript:void(0);" onclick="javascript:click_url('/cl/reg.php')" style="width:124px;height:60px;font-size:0px;display:block"></a>
+  <a href="#" target="_blank" style="width:124px;height:65px;font-size:0px;display:block"></a>
+  <a href="http://wpa.qq.com/msgrd?v=3&uin=892275555&site=qq&menu=yes" target="_blank" style="width:124px;height:70px;font-size:0px;display:block"></a>
+  <a href="javascript:;" style="width:124px;height:22px;font-size:0px;display:block" onclick="javascript:FloatClose(this)">Close</a>
+</div>
+
+<script>
+  moveTips("leftTips", 115, 5, "right");
+  moveTips("rightTips", 115, 5, "right");
+
+  function FloatClose(t) {
+    event.cancelBubble = true;
+    $(t).parent().hide();
+  }
+</script>  </body>
+
+  </html>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var num;
+      $('.nav-ul>li[id]').hover(function() {
+        var Obj = $(this).attr('id');
+        num = Obj.substring(3, Obj.length);
+        $('.select-div').hide()
+        $('#box-' + num).slideDown(300);
+      }, function() {
+        $('#box-' + num).hide();
+      });
+      $('.hidden-box').hover(function() {
+        $(this).show();
+      }, function() {
+        $(this).slideUp(200);
+      });
+    });
+
+    function getKey() {
+      $("#vPic").attr("src", '/yzm.php?' + Math.random());
+      $("#vPic").css("display", "inline");
+      $("#crPic").css("display", "inline");
+      $("input[name='rmNum']").val("");
+    }
+
+    $(function() {
+      jQuery(".nav").slide({
+        type: "menu",
+        titCell: ".erji",
+        targetCell: ".subnav",
+        effect: "slideDown",
+        delayTime: 200,
+        triggerTime: 0
+      });
+      var ms = 0;
+
+      $('#ele-logo-wrap > a').hover(function() {
+        $(this).stop().animate({
+          'opacity': 0
+        }, ms);
+      }, function() {
+        $(this).stop().animate({
+          'opacity': 1
+        }, ms);
+      });
+
+      var headerBot = $("#login"),
+        news = $("#news");
+      $(window).on("scroll", function() {
+        if ($('#news').attr('data-home') == '0') {
+          if ($(this).scrollTop() > 410) {
+            headerBot.removeClass("first");
+            headerBot.addClass("bot");
+            news.removeClass("home");
+          } else {
+            headerBot.addClass("first");
+            headerBot.removeClass("bot");
+            news.addClass("home");
+          }
+        }
+      });
+
+    });
+  </script>
+
+  
+
+      
+
+        
+
+<!-- Live800默认功能代码: 开始-->
+<script language="javascript" src="https://kf1.learnsaas.com/chat/chatClient/monitor.js?jid=6827481465&companyID=839320&configID=65905&codeType=custom&ss=1"></script>
+<!-- Live800默认功能代码: 结束-->

@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" type="image/x-icon" href="/skin/skin_blue/favicon.ico">
+<title>彩世界</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/skin/skin_blue/main.css">
+<link rel="stylesheet" href="/skin/skin_blue/style.css">
+<link rel="stylesheet" href="/skin/skin_blue/index.css">
+<link rel="stylesheet" href="/skin/skin_blue/login_index.css">
+<link rel="stylesheet" href="/skin/skin_blue/jquery.bxslider.css">
+<link rel="stylesheet" href="/skin/skin_blue/jquery-ui.css">
+<link rel="stylesheet" href="/skin/skin_blue/spigPet.css" type="text/css"/>
+
+<script type="text/javascript" src="/skin/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/skin/main/onload.js?version=20160420"></script>
+<script type="text/javascript" src="/skin/main/reglogin.js"></script>
+<script type="text/javascript" src="/js/guest.js"></script>
+<script type="text/javascript" src="/yoy/js/global.js"></script>
+<script type="text/javascript" src="/skin/skin_blue/spig.js"></script>
+
+<script type="text/javascript">
+var isindex = true;
+var visitor = true;
+</script>
+
+<script type="text/javascript">browserRedirect();</script>	
+</head>
+
+<body id="bodyid">
+    <div class="topmenu">
+	<div class="g_w1">
+		<div class="logo">
+			<a href="/"><img src="/customise/images/pc_logo.jpg" height="59" alt=""></a>
+		</div>
+		<div class="menulinks clearfix">
+			<a href="/" class="sublinks sublinks_active">网站首页</a>
+			<a href="/reg.php" class="sublinks">开户注册</a>
+			<a href="/At.php?id=12" class="sublinks" style="position: relative;">优惠活动<img src="/skin/skin_blue/hot.gif" style="position: absolute; top: -10px" /></a>
+			<a href="/At.php?id=8" class="trade sublinks">存款取款</a>
+			<a href="/At.php?id=7" class="sublinks">常见问题</a>
+			<a href="javascript:BBOnlineService('https://chat6.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=863170&configID=54248&jid=5763286641&s=1');" class="sublinks">在线客服</a>
+			<a href="/At.php?id=10" class="sublinks">加盟合作</a>
+		</div>
+	</div>
+</div>
+
+
+    <div class="main">
+        <div class="notice">
+            <div class="txtMarquee-right">
+                <div class="icon"></div>
+                <div class="text">
+                    <marquee style="color:red;" id="noticeDom" scrollamount="4" scrolldelay="100" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+<a href="javascript:;" onclick="alert('彩世界：全网最高赔率 7年零投诉信誉平台  完美支持手机版 走到哪玩到哪 指尖上的大奖 下一个幸运之星就是您！');" style="color:#FF0000;">彩世界：全网最高赔率 7年零投诉信誉平台  完美支持手机版 走到哪玩到哪 指尖上的大奖 下一个幸运之星就是您！</a> &nbsp; &nbsp; 					</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="main-info-ad">
+
+                <div class="hd">
+                    <ul>
+                        <li  class="on"></li>
+                    </ul>
+                </div>
+                <div class="bd">
+                    <div class="tempWrap">
+                        <ul>
+<li><img src="/customise/images/pc_banner_1.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="prev"></a>
+                <a class="next"></a>
+            </div>
+
+            <div class="login">
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=877700678&site=qq&menu=yes" class="support_qq"></a>
+                <form action="/user/loginedto" method="post" onajax="userBeforeLoginto" enter="true" call="userLoginto" target="ajax">
+                    <div class="info username change">
+                        <label>账号</label>
+                        <input style="height:28px;margin-top:7px;" id="username" name="username" type="text" title="请输入您的账号" class="tip" autocomplete="off">
+                    </div>
+                    <div class="info password change">
+                        <label>密码</label>
+                        <input style="height:28px;margin-top:7px;" id="password" name="password" type="password" class="tip" autocomplete="off">
+                    </div>
+					<div class="validate change">
+						<div class="validatecode">
+							<label>验证码</label><input style="height:28px;margin-top:7px;" name="vcode" id="vcode" type="text" title="验证码" class="tip" autocomplete="off">
+						</div>
+						<div class="imgCode">
+							<img alt="验证码" src="/mobile/user/vcode/1501241070" title="看不清楚，点我换图" onclick="this.src='/mobile/user/vcode/'+(new Date()).getTime()" style=" width:80px; height:40px; cursor: pointer; margin:0 0 0 0;">
+						</div>
+					</div>
+                    <div class="clear"></div>
+                    <div class="login_bu">
+                        <input type="submit" class="enter" name="Submit" value="登录">
+                        <input type="button" class="reg" value="注册" onclick="window.location.href='reg.php'">
+                        <input type="button" class="test" onclick="guestLogin();">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="gamelist">
+        <div class="gameitms g_w1">
+            <a href="javascript:alert('请先登录。');" target="_blank" class="bjpk10"></a>
+            <a href="javascript:alert('请先登录。');" target="_blank" class="cqssc"></a>
+            <a href="javascript:alert('请先登录。');" target="_blank" class="hk6"></a>
+            <a href="javascript:alert('请先登录。');" target="_blank" class="bjpk10bjl"></a>
+            <a href="javascript:alert('请先登录。');" target="_blank" class="pcegg"></a>
+            <a href="javascript:alert('请先登录。');" target="_blank" class="f3d"></a>
+            <a href="javascript:alert('请先登录。');" class="more"></a>
+        </div>
+    </div>
+    <div class="prodcontainer">
+        <div class="g_w1">
+            <div class="col1">
+                <div class="spechd clearfix">
+                    <div class="specicon"><img src="/skin/skin_blue/icon_service.jpg" width="46" height="51" alt=""> </div>
+                    <div class="spectxt">
+                        <h1>服务优势</h1>
+                        <p>Service advantages</p>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <div class="cci_title">存款到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count1">25</div>
+                        <div class="number1txt">秒</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar1""></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <div class="cci_title">取款到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count2">2‘00</div>
+                        <div class="number1txt">分</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar2""></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft2">
+                        <div class="cci_title">便捷的银行服务</div>
+                        <p><img src="/skin/skin_blue/creditcard.jpg" width="118" height="26" alt=""></p>
+                        <p class="card_count">目前我们支付机构有：</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1 bank_number" id="count3">34</div>
+                        <div class="number1txt bank_numbertxt">家</div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col2">
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="/skin/skin_blue/icon_advantage.jpg" width="49" height="49" alt=""> </div>
+                    <div class="spectxt">
+                        <h1>产品优势</h1>
+                        <p>Product advantages</p>
+                    </div>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">手机客户端</div>
+                    <p>独家提供苹果/安卓客户端，您可以通过手机客户端畅玩所有彩票游戏。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">手机触屏版</div>
+                    <p>专注彩票，独家提供手机触屏网页版，无需下载，打开网页即可下注畅玩，兼容完美。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">彩票百家乐平台</div>
+                    <p>独家开发北京赛车百家乐，业界最公平的百家乐游戏，5分钟一期、先开奖开牌再对牌。</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col3">
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="/skin/skin_blue/icon_lion.jpg" width="49" height="49" alt=""> </div>
+                    <div class="spectxt">
+                        <img src="/skin/skin_blue/lionimg.jpg">
+                        <h2>会员大额提现均可在<br>澳门<span class="orange">威尼斯人酒店</span>提现。</h2>
+                        <p>单日可提款<span class="orange textbig">1000</span>万港币。</p>
+                    </div>
+                </div>
+                <div class="spechd clearfix">
+                    <div class="specicon2">
+                        <img src="/skin/skin_blue/icon_licience.jpg" width="49" height="49" alt=""> </div>
+                    <div class="spectxt">
+                        <h1>牌照</h1>
+                        <p>License</p>
+                    </div>
+                </div>
+                <div class="specdetail2">
+                    <p style="margin:0">彩世界是由菲律宾政府卡格扬河经济特区所授权和监管，拥有菲律宾政府自2005年颁发、最具历史的牌照。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blueline">
+    </div>
+    <div class="prodcontainer prodcontainer2">
+        <div class="g_w1">
+            <div class="col1">
+                <div class="spechd clearfix">
+                    <div class="specicon">
+                        <img src="/skin/skin_blue/icon_innovative.jpg" width="46" height="51" alt=""> </div>
+                    <div class="spectxt">
+                        <h1>颠覆性创新设计</h1>
+                        <p>Innovative Design</p>
+                    </div>
+                </div>
+                <div class="specfull">
+                    <div class="bx-wrapper">
+                        <div class="bx-viewport">
+                            <div class="bx-wrapper">
+                                <div class="bx-viewport">
+                                    <div class="bx-wrapper" style="max-width: 100%;">
+                                        <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 266px;">
+                                            <ul class="bxslider4" style="width: auto; position: relative;">
+                                                <li style="float: none; list-style: none; position: absolute; width: 320px; z-index: 50; display: block;"><img src="/skin/skin_blue/innovative1.jpg" width="330" height="118" alt="">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">北京赛车百家乐</div>
+                                                        <p>官方开奖视频，业界最公平公正，重新百家乐游戏， 5分钟一期，全天179期。</p>
+                                                    </div>
+                                                </li>
+                                                <li style="float: none; list-style: none; position: absolute; width: 320px; z-index: 0; display: none;"><img src="/skin/skin_blue/innovative2.jpg" width="330" height="118" alt="">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">接地气本土服务</div>
+                                                        <p>青春洋溢的彩世界团队在最贴近生活的方式下设计出一款款高端大气的产品，为各国用户带来最为接地气的个性化本土定制服务。</p>
+                                                    </div>
+                                                </li>
+                                                <li style="float: none; list-style: none; position: absolute; width: 320px; z-index: 0; display: none;"><img src="/skin/skin_blue/innovative3.jpg" width="330" height="118" alt="">
+                                                    <div class="specdetail">
+                                                        <div class="cci_title">颠覆性产品</div>
+                                                        <p>每款全新上线的彩世界产品都是经过大量测试后证实最符合亚洲人的产品，这是一个对既定现状做出强势挑战的创新团队。</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="bx-controls bx-has-pager">
+                                            <div class="bx-pager bx-default-pager" style="display:none;">
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="0" class="bx-pager-link active">1</a></div>
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="1" class="bx-pager-link">2</a></div>
+                                                <div class="bx-pager-item"><a href="javascript:void(0);" data-slide-index="2" class="bx-pager-link">3</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col2">
+            <div class="spechd clearfix">
+                <div class="specicon2">
+                    <img src="/skin/skin_blue/icon_partner.jpg" width="49" height="49" alt=""> </div>
+                <div class="spectxt">
+                    <h1>合作伙伴</h1>
+                    <p>Artners</p>
+                </div>
+            </div>
+            <div class="specdetail2">
+                <img src="/skin/skin_blue/payment.jpg" width="190" height="192" alt=""> </div>
+        </div>
+        <div class="divider"></div>
+        <div class="col3">
+            <div class="spechd clearfix">
+                <div class="clearfix">
+                    <div class="specicon2">
+                        <img src="/skin/skin_blue/icon_guide.jpg" width="49" height="49" alt=""> </div>
+                    <div class="spectxt clearfix">
+                        <h1>使用帮助</h1>
+                        <p>Guide</p>
+                    </div>
+                </div>
+                <div class="specdetail2 mt10">
+                    <div class="col1">
+                        <p><a href="/At.php?id=8">如何存款</a>
+                            <br><a href="/At.php?id=8">如何提款</a></p>
+                    </div>
+                    <div class="col2">
+                        <p><a href="/At.php?id=5">关于我们</a></p>
+                    </div>
+                    <div class="col3">
+                        <p><a href="/At.php?id=6">联系我们</a>
+                            <br><a href="/At.php?id=6">联系我们</a></p>
+                    </div>
+                </div>
+                <div class="greyline"></div>
+                <div class="specdetail2">
+                    <div class="cci_title">推荐浏览器</div>
+                    <p><a href="http://www.firefox.com.cn/" target="_blank">火狐浏览器</a>
+                        <br><a href="https://www.google.cn/chrome/" target="_blank">谷歌浏览器</a>
+                        <br><a href="https://support.microsoft.com/zh-cn/help/17621/internet-explorer-downloads" target="_blank">IE 9 以上浏览器</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footerindex2">© 彩世界。All Rights Reserved.  &nbsp; &nbsp; &nbsp; <a href="http://186455.com/mobile" target="_blank">手机版</a></div>
+
+
+
+<div class="remodal" data-remodal-id="modal" role="dialog" aria-describedby="modal1Desc" data-remodal-options="hashTracking: false" style="width: 250px">
+    <div>
+        <p id="modal1Desc" style="color: #000"></p>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/skin/skin_blue/jquery.SuperSlide.js"></script>
+
+    <script src="/skin/skin_blue/index.js"></script>
+
+</body>
+
+</html>

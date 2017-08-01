@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>600万彩票网(600wan.com)-重庆时时彩-足彩-幸运28-足球彩票-体育彩票-北京赛车PK10-七星彩-双色球</title>
+    <meta name="keywords" content="时时彩,香港彩,双色球开奖结果,双色球走势图,重庆时时彩开奖结果,重庆时时彩走势图,幸运28开奖结果,幸运28走势图,北京赛车PK10开奖结果，北京赛车PK10走势图,广东快乐十分,广东快乐十分开奖结果" />
+    <meta name="description" content="600wan彩票网覆盖了足彩,足球彩票,体育彩票,重庆时时彩,福利彩票.是一家服务于中国彩民的互联网彩票合买代购交易平台，是当前中国彩票互联网交易行业的领导者。" />
+    <link rel="icon" href="http://www.600wa888.com:80/images/44" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.600wa888.com:80/images/44" mce_href="http://www.600wa888.com:80/images/44" type="image/x-icon">
+    <style>html{height:100%;width:100%;}iframe{width:100%;height:100%;overflow-x:hidden;overflow-y:hidden;padding:0;margin:0;}body{margin:0;padding:0;height:100%;overflow:hidden;}</style>
+    <script>
+    <!--
+    // 屏蔽JS错误
+//    window.onerror = function(){return true;}
+    // -->
+</script>
+<script>
+    var CONFIG = {
+        BASEURL: "http://www.600wa888.com:80/",    // 根路径
+        RESURL: "http://www.600wa888.com:80/static/theme/600w/"         // 资源路径
+    };
+</script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/mobile-detect.min.js"></script><script type="text/javascript">
+    
+    // 检查浏览器
+    var md = new MobileDetect(window.navigator.userAgent);
+    if (md.mobile()) {
+        window.location.href = "http://m.600wa888.com" + "";
+    }
+
+    // 检查兼容
+    var browser=navigator.appName
+    var b_version=navigator.appVersion
+    var version=b_version.split(";");
+    var trim_Version=version[1].replace(/[ ]/g,"");
+    if(browser == "Microsoft Internet Explorer" && trim_Version == "MSIE6.0") {
+        window.location.href = "http://www.600wa888.com:80/error/incompatible.html"
+    } else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0") {
+        window.location.href = "http://www.600wa888.com:80/error/incompatible.html"
+    } else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") {
+        window.location.href = "http://www.600wa888.com:80/error/incompatible.html"
+    } else if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") {
+    }
+    </script>
+</head>
+<body>
+<iframe src ="http://www.600wa888.com:80/main.html" frameborder="0" marginheight="0" marginwidth="0" frameborder="0" scrolling="auto" id="ifm" name="ifm"  width="100%"></iframe>
+<script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?b72b25235ea89680f56db2fca6d3b6c4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();</script>
+<script type="text/javascript" src="http://www.600wa888.com:80/static/theme/600w/js/jquery.min.js?v=2017"></script><!--jQuery库-->
+<script type="text/javascript" src="http://www.600wa888.com:80/static/theme/600w/js/scrollanim.min.js?v=2017"></script> <!--"动画库"-->
+<script src="http://www.600wa888.com:80/static/theme/600w/js/type.js?v=2017"></script><!--自定义封装函数-->
+<script src="http://www.600wa888.com:80/static/theme/600w/js/global.js?v=20170505"></script><!--自定义封装函数-->
+<script src="http://www.600wa888.com:80/static/theme/600w/js/jquery.cookie.js?v=2017"></script><!--自定义封装函数-->
+<script src="http://www.600wa888.com:80/static/theme/600w/js/jquery.md5.js?v=2017"></script><!--自定义封装函数-->
+<script src="http://www.600wa888.com:80/static/theme/600w/layer/layer.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/jquery.nicescroll.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/dateFormat.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/template.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/swfobject/swfobject.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/jquery.liMarquee.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/js/placeholders.jquery.min.js?v=2017"></script>
+<script src="http://www.600wa888.com:80/static/theme/600w/jRange/jquery.range-min.js?v=2017"></script>
+<script>
+    // 闪烁
+    var blinkColorArr = "#fa6200|#0f3f94".split("|");
+    $(".blink").each(function() {
+        var obj = $(this);
+        setInterval(function() {
+            var tmpColor = blinkColorArr[parseInt(Math.random() * blinkColorArr.length)];
+            $(obj).css("color", tmpColor);
+        },200);
+    });
+
+
+
+    $(function() {
+        // 底部信息调用
+        function ajaxGetDbxx() {
+            ajaxRequest({
+                url: CONFIG.BASEURL + "ajaxGetWebInfo.json",
+                success: function (json) {
+                    if (json.result != 1) {
+                        return;
+                    }
+                    $(".webDbxx").html(json.webDbxx);
+                }
+            });
+        }
+
+        if ($(".webDbxx").length > 0) {
+            ajaxGetDbxx();
+        }
+    });
+
+
+</script><script>
+    $(document).ready(function() {
+        var p = Tools.parseInt('');
+        if (!isNaN(p)) {
+            $.cookie("agentId", p, {path: "/"});
+        }
+//            else {
+//                $.cookie("agentId", '', {path: "/", expires: -1});
+//            }
+    });
+</script>
+
+<script>
+    $(function() {
+        var checkOnlineFlag = true;
+        setInterval(function() {
+            var uid = $.cookie("uid");
+            var token = $.cookie("token");
+            if (!checkOnlineFlag || typeof uid == 'undefined' || typeof token == 'token' || !uid || !token) {
+                return;
+            }
+
+            ajaxRequest({
+                url: "http://www.600wa888.com:80/member/checkOnline.json",
+                beforeSend: function() {
+                    checkOnlineFlag = false;
+                },
+                success: function(json) {
+                    if (json.result == 1) {
+                        checkOnlineFlag = true;
+                        return;
+                    }
+                    $.cookie("uid", '', {path: "/", expires: -1});
+                    $.cookie("token", '', {path: "/", expires: -1});
+
+                    if (json.result == 108) {
+                        alert("登录超时，请重新登录");
+                        window.location.href = "http://www.600wa888.com:80/";
+                        return;
+                    }
+
+                    if (json.result == 109) {
+                        alert("你的账号已在其它设备登录，请重新登录");
+                        window.location.href = "http://www.600wa888.com:80/";
+                        return;
+                    }
+
+                    alert("登录超时，请重新登录");
+                    window.location.href = "http://www.600wa888.com:80/";
+                    return;
+                }
+            });
+        }, 10000);
+    });
+</script></body>
+</html>

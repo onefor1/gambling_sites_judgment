@@ -1,0 +1,961 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>【澳门五分彩】官方首页</title>
+<meta name="keywords" content=" 香港五分彩管理系统" />
+<meta name="description" content=" 香港五分彩管理系统" />
+<link href="/style/css/global.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+@import url("../../style/css/global.css");
+
+.layout-main{float:left;width:628px;color:#c0c0c0}
+.layout-side{float:right;width:360px}
+.balls-rule{padding:12px 15px;line-height:23px;border-bottom:1px solid #101010}
+.balls-rule em{color:#f3a713}
+.balls-play{background:#2a2a2a;margin-left:-1px}
+.balls-play thead{background:#1f1f1f}
+.balls-play tbody{background:#373737}
+.balls-play tr{border-top:1px solid #101010}
+.balls-play thead tr{border-top:0}
+.balls-play th, .balls-play td{text-align:left;white-space:nowrap;padding:5px 0 5px 15px;border-left:1px solid #101010}
+.balls-play .even{background:#414141}
+body,td,th {
+	color: #837E7E;
+}
+</style>
+<script type="text/javascript">
+// 设置为主页
+function SetHome(obj,vrl){
+try{
+obj.style.behavior='url(/style/images/img/)';obj.setHomePage(vrl);
+}
+catch(e){
+if(window.netscape) {
+try {
+netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+}
+catch (e) {
+alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+}
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+prefs.setCharPref('browser.startup.homepage',vrl);
+}else{
+alert("您的浏览器不支持，请按照下面步骤操作：1.打开浏览器设置。2.点击设置网页。3.输入："+vrl+"点击确定。");
+}
+}
+}
+// 加入收藏 兼容360和IE6
+function shoucang(sTitle,sURL)
+{
+try
+{
+window.external.addFavorite(sURL, sTitle);
+}
+catch (e)
+{
+try
+{
+window.sidebar.addPanel(sTitle, sURL, "");
+}
+catch (e)
+{
+alert("加入收藏失败，请使用Ctrl+D进行添加");
+}
+}
+}
+</script> 
+<script type="text/javascript" src="/style/js/jquery-1.4.2.min.js" tppabs="/static/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#topBar .expan").hover(function(){
+		$(this).addClass("expan-hover");
+		$(".folder",$(this)).show();
+	},function(){
+		$(this).removeClass("expan-hover");
+		$(".folder",$(this)).hide();
+	});
+});
+</script>
+
+
+<script type="text/javascript">
+var lottery = {
+    lotid: "32869",
+    issue: "20170728233",
+    time: "2017-07-28 19:20:00",
+    status: true
+};
+var dtime=strto_time("2017-07-28 19:15:31");
+var lott_timer = null;
+var timeid=null;
+var lott_wheel = function(elem, numBox, count) {
+    var Num = $(elem);
+    var arrBall = [];
+    var interval,
+    index,
+    i = 0;
+    for (var i = 1; i < count; i++) {
+        arrBall.push(i)
+    }
+    arrBall.sort(function() {
+        return (Math.random() < 0.5 ? 1: -1)
+    });
+    function setNum() {
+        Num.find(numBox).each(function() {
+            index = arrBall[Math.floor(Math.random() * (count - 1))];
+            $(this).text(index)
+        });
+        i++;
+        if (i > count + 15) {
+            arrBall.sort(function() {
+                return (Math.random() < 0.5 ? 1: -1)
+            });
+            for (var j = 0; j < Num.find(numBox).length; j++) {
+                Num.find(numBox).eq(j).text(arrBall[j])
+            }
+            return
+        }
+    }
+    setNum()
+}
+function date2str(d) {
+    var ret = d.getFullYear() + "-";
+    ret += ("00" + (d.getMonth() + 1)).slice( - 2) + "-";
+    ret += ("00" + d.getDate()).slice( - 2) + " ";
+    ret += ("00" + d.getHours()).slice( - 2) + ":";
+    ret += ("00" + d.getMinutes()).slice( - 2) + ":";
+    ret += ("00" + d.getSeconds()).slice( - 2);
+    return ret
+}
+function strto_time(str_time) {
+    var new_str = str_time.replace(/:/g, '-');
+    new_str = new_str.replace(/ /g, '-');
+    var arr = new_str.split("-");
+    var datum = new Date(Date.UTC(arr[0], arr[1] - 1, arr[2], arr[3] - 8, arr[4], arr[5]));
+    return datum
+}
+function format_time(t, f) {
+    var str = "";
+    var d = Math.floor((t % (365 * 24 * 3600 * 1000)) / (24 * 3600 * 1000));
+    var h = Math.floor((t % (24 * 3600 * 1000)) / (3600 * 1000));
+    var m = Math.floor((t % (3600 * 1000)) / (60 * 1000));
+    var s = Math.round((t % (60 * 1000)) / 1000);
+    if (d) {
+        str += ("00" + d).slice( - 2) + ":"
+    }
+    if (h) {
+        str += ("00" + h).slice( - 2) + ":"
+    }
+    str += ("00" + m).slice( - 2) + ":";
+	str += ("00" + s).slice( - 2);
+    return str
+}
+function diff_time() { 
+    dtime.setSeconds(dtime.getSeconds()+1);
+    var a = strto_time(lottery.time) - dtime;
+    return a
+}
+function get_lottery() {
+
+
+    var d = diff_time();
+    //console.log(d);
+    //var d_new = d + (60 * 1000)
+	var d_new = d;
+    //console.log(d_new);
+    //console.log(d);
+    if (d_new >= 0) {
+        $(".cd-time").html(format_time(d_new))
+    }
+    if (d_new == 10000) {
+        lott_timer = setInterval(function() {
+            lott_wheel(".open-balls", "i", 9)
+        },
+        10)
+    }
+    if (d_new == 0 || !lottery.status) {
+        if (!lottery.issue || !lottery.time) {
+            return false
+        }
+        location.reload();
+		
+
+    }
+}
+function init_ball(b) {
+    var bstr = b.split(",");
+    $(".open-balls span i").each(function(i) {
+        $(this).text(bstr[i])
+    })
+}
+$(document).ready(function() {
+    if (lottery.lotid && lottery.issue && lottery.time) {
+        timeid=setInterval("get_lottery()", 1000)
+    }
+});
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<body>
+    <form name="form1" method="post" action="index.html" id="form1">
+
+
+
+	
+<div class="topbar" id="topBar">
+  <div class="layout">
+    <ul class="tb-l">
+      <li><a href="/">澳门彩票网</a></li>
+      <li class="expan"><a href="javascript:;" class="slct">选择彩种(<i>1</i>个)</a>
+        <div class="folder lottery">
+		            <dl class="fst">
+            <dt>高频</dt>
+            <dd><a href="/">澳门五分彩</a></dd>
+          </dl>
+		          </div>
+      </li>
+    </ul>
+   <div class="tb-r">推荐使用360、谷歌浏览器</div>
+  </div>
+</div>
+
+
+<div class="naver">
+  <div class="layout clearfix">
+    <div class="logo"><img src="/style/images/logo.png" tppabs="http://frgcsc.com//static/image/logo.png" height="40"></div>
+  
+	<div class="nav">
+	<a href="/index/" class="cur">首页</a>
+	<a href="/shuoming/">说明</a>
+	<a href="/chart/">走势</a>
+	<a href="/balls/">号码</a>
+	<a href="/open/">开奖</a>
+	<a href="/tools/tools">计划工具</a>
+</div>  </div>
+</div>
+
+<style type="text/css">
+.lott-box{height:380px;position:relative;background:#000 url("/style/images/img/lottery-open-bg.jpg") no-repeat center top;}
+.lott-open{width:465px;height:180px;margin-left:6px;background:#CD2626 url(/style/images/img/lottery-open-box.gif) no-repeat center top;box-shadow:0 0 4px #fff;font-family:"宋体"}
+.lott-oside{float:left;width:121px;}
+.lott-oside .tbar{text-align:center;padding-top:4px;line-height:17px}
+.lott-oside .issue{text-align:center}
+.lott-oside .cd-time{margin-top:-27px;text-align:center;font-size:18px;color:#CD2626;font-family:arial;text-shadow:0 0 5px red;text-indent:-2px}
+.lott-omain{float:right;width:343px;}
+.lott-omain .issue{text-align:center;color:#CD2626;line-height:25px;height:25px;overflow:hidden}
+.lott-omain .issue .n{margin-left:20px}
+.open-balls{height:60px;margin-top:20px;overflow:hidden}
+.open-balls span{display:inline;float:left;width:57px;height:58px;overflow:hidden;background:url("/style/images/img/lottery-balls.png") no-repeat}
+.open-balls i{display:block;width:35px;height:35px;line-height:35px;margin:0 auto;text-align:center;background:url(/style/images/img/lottery-balls01.png) no-repeat 0 -419px;color:#000;font-family:"黑体";font-size:24px;margin-top:11px}
+.open-balls .red-ball{background-position:0 0}
+.open-balls .oran-ball{background-position:0 -80px}
+.open-balls .gren-ball{background-position:0 -160px}
+.open-balls .blue-ball{background-position:0 -240px}
+.open-balls .purp-ball{background-position:0 -320px}
+.balls-c5{padding-left:14px}
+.balls-c5 span{margin-left:5px}
+</style>
+<!--header start-->
+<!--container start-->
+
+<div class="container">
+  <div class="wraper">
+    
+    <div class="lottery">
+        <div class="lotNow">
+		  <div class="lott-open">
+			<div class="lott-oside">
+			  <div class="tbar">            <h2 class="issue">第 <i>20170728-233</i> 期</h2>
+            <span class="status">剩余开奖时间</span> </div>
+			  <div class="cd-time">--:--</div>
+			</div>
+			<div class="lott-omain">
+          <h2 class="issue"><span class="t">澳门五分彩</span><span class="n">第 <i>20170728-232</i> 期</span></h2>
+			  <div class="open-balls balls-c5">
+	<span class="red-ball"><i>3</i></span><span class="oran-ball"><i>2</i></span><span class="gren-ball"><i>8</i></span><span class="blue-ball"><i>6</i></span><span class="purp-ball"><i>9</i></span>
+			  </div>
+			</div>
+		  </div>
+</div>
+        <div class="sumInfo">
+            <div class="sListt"><a>上一期</a><a class="active">当前期</a><a>待购期</a></div>
+            <div class="sListc" style="display: block;"><a href="http://www.shishicai.cn/2014/11/hongbao/" target="_blank" alt=""><img src="http://www.shishicai.cn/images/siteimg/home_www_990_255_20150217.jpg" style="" alt=""></a></div><div class="sListc">
+                <p class="cpt"><i></i><span></span></p>
+                <div class="sListTH">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="i1">玩法类型</th>
+                                <th class="i2">投注内容</th>
+                                <th class="i3">倍数</th>
+                                <th class="i4">金额</th>
+                                <th class="i5">状态</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="sListTD">
+                    <table>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="sListc" style="display: none;">
+                <p class="cpt"><i></i><span></span></p>
+                <div class="sListTH">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="i1">玩法类型</th>
+                                <th class="i2">投注内容</th>
+                                <th class="i3">倍数</th>
+                                <th class="i4">金额</th>
+                                <th class="i5">状态</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="sListTD">
+                    <table>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="sListc">
+                <p class="cpt"><i></i><span></span></p>
+                <div class="sListTH">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="i1">方案编号</th>
+                                <th class="i2">方案金额</th>
+                                <th class="i4">待购金额</th>
+                                <th class="i3">进度</th>
+                                <th class="i5">详情</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="sListTD">
+                    <table>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="section sectionChart update"><h3 class="stn">今日开奖<span class="str" style="margin-left:10px;">[<a target="_blank" href="/balls" style="color: #837E7E;font-size: 12px;">更多号码</a>]</span></h3><div class="stnmain"><div class="updateElement"><table><tbody>
+	 
+	 <tr><th bgcolor="#7E7777">期号</th><th bgcolor="#F4192E">开奖号</th><th>后2</th><th>后3</th></tr>
+	 <tr><td i="1">1</td><td class="num">12766</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="2">2</td><td class="num">14336</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="3">3</td><td class="num">70231</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="4">4</td><td class="num">13187</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="5">5</td><td class="num">68711</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="6">6</td><td class="num">45906</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="7">7</td><td class="num">99579</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="8">8</td><td class="num">08877</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="9">9</td><td class="num">49548</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="10">10</td><td class="num">16975</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="11">11</td><td class="num">53229</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="12">12</td><td class="num">47993</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="13">13</td><td class="num">77030</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="14">14</td><td class="num">05619</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="15">15</td><td class="num">61281</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="16">16</td><td class="num">08040</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="17">17</td><td class="num">21989</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="18">18</td><td class="num">81438</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="19">19</td><td class="num">33490</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="20">20</td><td class="num">39215</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="21">21</td><td class="num">22922</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="22">22</td><td class="num">72841</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="23">23</td><td class="num">19404</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="24">24</td><td class="num">92956</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="25">25</td><td class="num">46891</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="26">26</td><td class="num">18668</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="27">27</td><td class="num">45689</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="28">28</td><td class="num">37393</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="29">29</td><td class="num">45273</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="30">30</td><td class="num">80557</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="31">31</td><td class="num">50276</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="32">32</td><td class="num">14026</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="33">33</td><td class="num">00550</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="34">34</td><td class="num">43639</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="35">35</td><td class="num">18095</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="36">36</td><td class="num">37042</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="37">37</td><td class="num">54463</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="38">38</td><td class="num">03798</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="39">39</td><td class="num">55549</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="40">40</td><td class="num">79855</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="41">41</td><td class="num">02151</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="42">42</td><td class="num">04747</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="43">43</td><td class="num">37662</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="44">44</td><td class="num">57631</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="45">45</td><td class="num">89324</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="46">46</td><td class="num">72407</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="47">47</td><td class="num">72516</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="48">48</td><td class="num">77493</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+</tbody></table><table><tbody>
+	 
+	 <tr><th>期号</th><th>开奖号</th><th>后2</th><th>后3</th></tr><tr><td i="49">49</td><td class="num">39616</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="50">50</td><td class="num">99249</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="51">51</td><td class="num">85180</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="52">52</td><td class="num">40276</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="53">53</td><td class="num">31023</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="54">54</td><td class="num">78141</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="55">55</td><td class="num">20734</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="56">56</td><td class="num">35240</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="57">57</td><td class="num">95965</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="58">58</td><td class="num">27730</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="59">59</td><td class="num">94518</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="60">60</td><td class="num">11575</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="61">61</td><td class="num">19746</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="62">62</td><td class="num">77298</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="63">63</td><td class="num">10985</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="64">64</td><td class="num">76801</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="65">65</td><td class="num">45952</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="66">66</td><td class="num">95506</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="67">67</td><td class="num">72609</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="68">68</td><td class="num">50824</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="69">69</td><td class="num">64721</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="70">70</td><td class="num">09807</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="71">71</td><td class="num">65330</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="72">72</td><td class="num">41792</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="73">73</td><td class="num">57096</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="74">74</td><td class="num">60808</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="75">75</td><td class="num">02192</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="76">76</td><td class="num">70071</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="77">77</td><td class="num">35781</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="78">78</td><td class="num">74072</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="79">79</td><td class="num">96424</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="80">80</td><td class="num">21412</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="81">81</td><td class="num">36489</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="82">82</td><td class="num">36447</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="83">83</td><td class="num">57534</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="84">84</td><td class="num">62715</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="85">85</td><td class="num">67187</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="86">86</td><td class="num">53676</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="87">87</td><td class="num">72178</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="88">88</td><td class="num">91953</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="89">89</td><td class="num">48392</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="90">90</td><td class="num">97193</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="91">91</td><td class="num">89665</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="92">92</td><td class="num">66689</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="93">93</td><td class="num">00209</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="94">94</td><td class="num">77790</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="95">95</td><td class="num">16715</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="96">96</td><td class="num">72119</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+</tbody></table><table><tbody>
+	 
+	 <tr><th>期号</th><th>开奖号</th><th>后2</th><th>后3</th></tr><tr><td i="97">97</td><td class="num">90713</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="98">98</td><td class="num">00746</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="99">99</td><td class="num">77572</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="100">100</td><td class="num">13650</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="101">101</td><td class="num">48777</td>
+<td class="dz"></td><td class="y1">豹子</td></tr>
+<tr><td i="102">102</td><td class="num">65863</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="103">103</td><td class="num">25392</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="104">104</td><td class="num">08583</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="105">105</td><td class="num">07792</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="106">106</td><td class="num">17066</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="107">107</td><td class="num">64060</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="108">108</td><td class="num">23927</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="109">109</td><td class="num">53989</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="110">110</td><td class="num">23984</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="111">111</td><td class="num">65416</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="112">112</td><td class="num">30803</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="113">113</td><td class="num">74051</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="114">114</td><td class="num">93885</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="115">115</td><td class="num">47643</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="116">116</td><td class="num">56014</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="117">117</td><td class="num">66737</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="118">118</td><td class="num">49379</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="119">119</td><td class="num">50354</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="120">120</td><td class="num">04978</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="121">121</td><td class="num">15527</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="122">122</td><td class="num">51485</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="123">123</td><td class="num">56434</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="124">124</td><td class="num">09816</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="125">125</td><td class="num">43659</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="126">126</td><td class="num">63191</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="127">127</td><td class="num">52749</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="128">128</td><td class="num">63277</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="129">129</td><td class="num">54977</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="130">130</td><td class="num">30274</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="131">131</td><td class="num">26402</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="132">132</td><td class="num">39710</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="133">133</td><td class="num">09948</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="134">134</td><td class="num">51453</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="135">135</td><td class="num">01588</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="136">136</td><td class="num">84459</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="137">137</td><td class="num">48647</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="138">138</td><td class="num">23724</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="139">139</td><td class="num">60505</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="140">140</td><td class="num">77809</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="141">141</td><td class="num">67677</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="142">142</td><td class="num">18021</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="143">143</td><td class="num">77217</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="144">144</td><td class="num">71837</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+</tbody></table><table><tbody>
+	 
+	 <tr><th>期号</th><th>开奖号</th><th>后2</th><th>后3</th></tr><tr><td i="145">145</td><td class="num">72119</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="146">146</td><td class="num">63675</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="147">147</td><td class="num">34216</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="148">148</td><td class="num">18674</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="149">149</td><td class="num">29138</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="150">150</td><td class="num">15205</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="151">151</td><td class="num">02051</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="152">152</td><td class="num">89719</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="153">153</td><td class="num">44036</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="154">154</td><td class="num">92603</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="155">155</td><td class="num">79198</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="156">156</td><td class="num">13611</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="157">157</td><td class="num">15029</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="158">158</td><td class="num">06278</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="159">159</td><td class="num">04932</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="160">160</td><td class="num">12969</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="161">161</td><td class="num">00934</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="162">162</td><td class="num">41325</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="163">163</td><td class="num">87565</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="164">164</td><td class="num">35350</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="165">165</td><td class="num">81696</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="166">166</td><td class="num">27880</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="167">167</td><td class="num">41597</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="168">168</td><td class="num">74171</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="169">169</td><td class="num">87266</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="170">170</td><td class="num">75629</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="171">171</td><td class="num">99350</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="172">172</td><td class="num">96976</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="173">173</td><td class="num">08122</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="174">174</td><td class="num">65891</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="175">175</td><td class="num">41210</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="176">176</td><td class="num">56558</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="177">177</td><td class="num">91837</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="178">178</td><td class="num">01439</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="179">179</td><td class="num">50590</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="180">180</td><td class="num">27407</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="181">181</td><td class="num">27663</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="182">182</td><td class="num">69708</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="183">183</td><td class="num">88042</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="184">184</td><td class="num">02463</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="185">185</td><td class="num">83005</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="186">186</td><td class="num">70268</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="187">187</td><td class="num">12353</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="188">188</td><td class="num">25833</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="189">189</td><td class="num">53416</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="190">190</td><td class="num">38741</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="191">191</td><td class="num">63609</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="192">192</td><td class="num">13429</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+</tbody></table><table><tbody>
+	 
+	 <tr><th>期号</th><th>开奖号</th><th>后2</th><th>后3</th></tr><tr><td i="193">193</td><td class="num">57188</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="194">194</td><td class="num">91340</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="195">195</td><td class="num">71914</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="196">196</td><td class="num">93488</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="197">197</td><td class="num">74063</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="198">198</td><td class="num">70309</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="199">199</td><td class="num">93149</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="200">200</td><td class="num">29657</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="201">201</td><td class="num">46151</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="202">202</td><td class="num">02924</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="203">203</td><td class="num">90180</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="204">204</td><td class="num">57093</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="205">205</td><td class="num">42347</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="206">206</td><td class="num">82911</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="207">207</td><td class="num">55347</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="208">208</td><td class="num">01080</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="209">209</td><td class="num">17940</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="210">210</td><td class="num">61732</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="211">211</td><td class="num">93575</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="212">212</td><td class="num">27988</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="213">213</td><td class="num">89327</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="214">214</td><td class="num">44681</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="215">215</td><td class="num">09697</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="216">216</td><td class="num">46973</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="217">217</td><td class="num">74876</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="218">218</td><td class="num">58599</td>
+<td class="y1">对子</td> <td class="y2">组三</td></tr>
+<tr><td i="219">219</td><td class="num">10170</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="220">220</td><td class="num">59757</td>
+<td class="dz"></td><td class="y2">组三</td></tr>
+<tr><td i="221">221</td><td class="num">67564</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="222">222</td><td class="num">13912</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="223">223</td><td class="num">85432</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="224">224</td><td class="num">41476</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="225">225</td><td class="num">22092</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="226">226</td><td class="num">59328</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="227">227</td><td class="num">95854</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="228">228</td><td class="num">66514</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="229">229</td><td class="num">06273</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="230">230</td><td class="num">58207</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="231">231</td><td class="num">31670</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="232">232</td><td class="num">32869</td>
+<td class="dz"></td><td class="y3">组六</td></tr>
+<tr><td i="233">233</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="234">234</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="235">235</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="236">236</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="237">237</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="238">238</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="239">239</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="240">240</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+</tbody></table><table><tbody>
+	 
+	 <tr><th>期号</th><th>开奖号</th><th>后2</th><th>后3</th></tr><tr><td i="241">241</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="242">242</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="243">243</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="244">244</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="245">245</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="246">246</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="247">247</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="248">248</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="249">249</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="250">250</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="251">251</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="252">252</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="253">253</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="254">254</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="255">255</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="256">256</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="257">257</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="258">258</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="259">259</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="260">260</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="261">261</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="262">262</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="263">263</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="264">264</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="265">265</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="266">266</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="267">267</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="268">268</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="269">269</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="270">270</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="271">271</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="272">272</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="273">273</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="274">274</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="275">275</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="276">276</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="277">277</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="278">278</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="279">279</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="280">280</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="281">281</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="282">282</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="283">283</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="284">284</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="285">285</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="286">286</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="287">287</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+<tr><td i="288">288</td><td class="num"></td>
+<td class="dz"></td><td class="y3"></td></tr>
+	 
+	 
+	 
+	</tbody></table></div></div></div>
+
+	 <div style="clear:both"></div>
+  </div>
+</div>
+
+	<div class="footer">
+  <div class="layout"><a target="_blank" href="/chinese"> 提倡有节制博彩</a>&nbsp;&nbsp;<a target="_blank" href="/about"> 法律声明</a>&nbsp;&nbsp;<a target="_blank" href="/contact"> 联系我们 </a>&nbsp;&nbsp;<a href="javascript:void(0)" onclick="SetHome(this,window.location)"> 设为首页 </a>&nbsp;&nbsp;<a href="javascript:void(0)" onclick="shoucang(document.title,window.location)"> 加入收藏 </a>&nbsp;&nbsp; 版权所有 不得转载 copyright: 2000-2014 澳门五分彩有限公司&nbsp;&nbsp;&nbsp;&nbsp;  未满十八岁人士不得投注或进入可投注的地方</div>
+</div>
+
+    </form>
+</body>
+</html>

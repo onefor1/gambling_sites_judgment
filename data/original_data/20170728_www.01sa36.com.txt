@@ -1,0 +1,878 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>沙龙国际-SA36亚洲在线博彩第一品牌!</title>
+    <meta name="keywords" content="沙龙国际,SA36" />
+    <meta name="description" content="SA36属于沙龙国际集团直属现金网，本网站提供体育博彩，真人娱乐城,彩票,赛马等游戏，SA36提供最刺激的游戏，最贴心的服务。现在加入，更多惊喜等待您！SA36集团亚洲在线博彩第一品牌！" />
+    <link href="Styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/sliderman.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/sliderman.1.3.7.js"></script>
+    <script type="text/javascript" src="Scripts/slides.min.jquery.js"></script>
+    <script type="text/javascript" src="Scripts/imageshow.js"></script>
+
+    
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?d195eaf35bd0a68758192443cfeeb950";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-76733253-5', 'auto');
+    ga('send', 'pageview');
+</script>
+</head>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false" class="h_cs homepage">
+    
+    <form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="ToolkitScriptManager1_HiddenField" id="ToolkitScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIxMTgxNTY5NzEPZBYCAgkPZBYEAgMPZBYGAgMPFgIeBWNsYXNzBQlhY3RpdmUgdzJkAhcPZBYCZg9kFgICAQ8WAh4EVGV4dAXiCCZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwOyZuYnNwO+WQhOS9jeS8muWRmOivt+azqOaEj++8muacrOWFrOWPuOayoeacieS9nOWHuuS7u+S9leWQiOW5tuetiei/kOiQpeiwg+aVtO+8jOS4uuS6huS/nemanOaCqOeahOadg+ebiu+8jOivt+iupOWHhuacrOWFrOWPuOWumOaWueWfn+WQje+8iHd3dy5zYTM2LmNvbe+8ieaFjumYsuivr+WFpeiviOmql+e9keermeOAguWmguaenOaJk+W8gOacrOWFrOWPuOe9keermeWfn+WQjeWHuueOsOS4jeato+W4uOi3s+i9rOaIluW8ueeql++8jOivt+itpuaDleW5tuWPiuaXtuiBlOezuzI05bCP5pe25a6i5pyN54Ot57q/IDQwMDEyMDMzNjPov5vooYzlkqjor6LjgIImbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDvlkITkvY3kvJrlkZjor7fms6jmhI/vvJrmnKzlhazlj7jlsIbkvJrkuI3lrprmnJ/mm7TmjaLlrZjmrL7otKblj7fvvIzmm7TmjaLml7bkuI3kvJrlj6booYzpgJrnn6XvvIHlhaXmrL7liY3lv4XpobvogZTns7vlrqLmnI3noa7orqTmnIDmlrDmlLbmrL7otKblj7fvvIzlpoLlhaXmrL7oh7Plt7Lov4fmnJ/otKblj7fvvIzmnKzlhazlj7jlsIbml6Dms5Xmn6XmlLbvvIzmgZXkuI3mib/mi4Xnm7jlupTmjZ/lpLHvvIEmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDvlsIrmlaznmoTlrqLmiLfvvJrmiJHku6zlt7Lmjqjlh7rlhajnvZHmlZHmj7Tph5HmtLvliqjvvIzmrKLov47mgqjlhbPms6jlj4LkuI7jgIImbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDvlpb3mtojmga/vvJrigJzmsYfmva7mlK/ku5jigJ3miYvmnLrniYjlvIDpgJrllabvvIHml6DpnIDnvZHpk7bvvIzml6DpnIDnlLXohJHvvIzorqnmgqjpmo/ml7bpmo/lnLDmiYvmnLrovbvmnb7mlK/ku5jvvIzotbblv6vmnaXkvZPpqozlkKfvvIEmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDvlpb3mtojmga/vvIHkurrmsJTngavniIblubPlj7BHR+aNlemxvO+8iOWNl+a1t+mmhu+8ieeOsOW3sumahumHjeS4iue6v++8jOWQhOS9jeS8muWRmOi1tuW/q+eZu+WFpeS9k+mqjOWQp++8gWQCGQ8QD2QWAh4Ib25jaGFuZ2UFDWNoYW5nZUxhbmcoKTtkZGQCBQ9kFgJmD2QWAgIBDxYCHwEF4ggmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDsmbmJzcDvlkITkvY3kvJrlkZjor7fms6jmhI/vvJrmnKzlhazlj7jmsqHmnInkvZzlh7rku7vkvZXlkIjlubbnrYnov5DokKXosIPmlbTvvIzkuLrkuobkv53pmpzmgqjnmoTmnYPnm4rvvIzor7forqTlh4bmnKzlhazlj7jlrpjmlrnln5/lkI3vvIh3d3cuc2EzNi5jb23vvInmhY7pmLLor6/lhaXor4jpqpfnvZHnq5njgILlpoLmnpzmiZPlvIDmnKzlhazlj7jnvZHnq5nln5/lkI3lh7rnjrDkuI3mraPluLjot7PovazmiJblvLnnqpfvvIzor7forabmg5Xlubblj4rml7bogZTns7syNOWwj+aXtuWuouacjeeDree6vyA0MDAxMjAzMzYz6L+b6KGM5ZKo6K+i44CCJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A75ZCE5L2N5Lya5ZGY6K+35rOo5oSP77ya5pys5YWs5Y+45bCG5Lya5LiN5a6a5pyf5pu05o2i5a2Y5qy+6LSm5Y+377yM5pu05o2i5pe25LiN5Lya5Y+m6KGM6YCa55+l77yB5YWl5qy+5YmN5b+F6aG76IGU57O75a6i5pyN56Gu6K6k5pyA5paw5pS25qy+6LSm5Y+377yM5aaC5YWl5qy+6Iez5bey6L+H5pyf6LSm5Y+377yM5pys5YWs5Y+45bCG5peg5rOV5p+l5pS277yM5oGV5LiN5om/5ouF55u45bqU5o2f5aSx77yBJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A75bCK5pWs55qE5a6i5oi377ya5oiR5Lus5bey5o6o5Ye65YWo572R5pWR5o+06YeR5rS75Yqo77yM5qyi6L+O5oKo5YWz5rOo5Y+C5LiO44CCJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A75aW95raI5oGv77ya4oCc5rGH5r2u5pSv5LuY4oCd5omL5py654mI5byA6YCa5ZWm77yB5peg6ZyA572R6ZO277yM5peg6ZyA55S16ISR77yM6K6p5oKo6ZqP5pe26ZqP5Zyw5omL5py66L275p2+5pSv5LuY77yM6LW25b+r5p2l5L2T6aqM5ZCn77yBJm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A7Jm5ic3A75aW95raI5oGv77yB5Lq65rCU54Gr54iG5bmz5Y+wR0fmjZXpsbzvvIjljZfmtbfppobvvInnjrDlt7Lpmobph43kuIrnur/vvIzlkITkvY3kvJrlkZjotbblv6vnmbvlhaXkvZPpqozlkKfvvIFkZLPLHdqzBSQPmNGcJMiMUwSlZIdv/W09KxY/2RP60Ncj" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pwEyrgYSqxtVje5jwWjqCcotT6hwWC24ZfBLg8F985mMv-9kW_q9b4JXVpcyIytfE8iZEgOlCSi3EnmbBULH68xPwGOxXG7q3chVzP3eXfo1&amp;t=635887188720247988" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=3v4CXQRmPEeJgMuNiL1xTJKCSUveC9hJndnyy_5bzgcj6TEmRt6AlLnGtuJ5yuBgqQP836dYs2j7AiOFkCi9Nxiz3f0fSKlTip3tsJY31H3PV3BBaCCg_U6rnYBZNBFBoB3nkHcMIpezZoCIsL_PAMB_LBdRiYf_PNj36fw6ms41&amp;t=fffffffff9bf6f51" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OBEFLz48xH3Ij7LJ6z9Al71MBexKJlMwSvggB3UKelLTnZ9ipc2ASBEu4VJYYHQmVJc6wbTKLMBvpuHHE5po5V7BRtVZ24tcK3V4O38rTEc8yGWES1NzTuu3PszNga3uQguOXXhGv64kjYQcm565Gg2&amp;t=ffffffffc9f82b39" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=-X8la8uK262kMzAmMgpm9RjLzEBPxPSshKp7a5DVDd1-EvbQKMqYK4F3miCqpsWNkEwOr1ZGBMLwHwuEGIRxvQH40AJR8SWnrp2zKvp5TPrJHO5m6GYTEDHECJRpJ_LTxK6zUYqW3_gKP6cTlC2W2A2&amp;t=ffffffffc9f82b39" type="text/javascript"></script>
+<script src="/Default.aspx?_TSM_HiddenField_=ToolkitScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.51116.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3azh-CN%3a07ead49c-3169-4e2b-b447-bacc452e967a%3a475a4ef5%3aeffe2a26%3a7e63a579%3a3ac3e789" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+null;if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCgKGqZjjAgL80t2SCALL6tDoCAKI+/cEAuaUjvwBAoDT5JwOAsaf4JgNAprXwugHAqSKm+QEAp2Kr5MLmc0k/bUdeQyeK6UTsWtgzPfBF9IOyzbgYYjMw35I9Zc=" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ToolkitScriptManager1', 'form1', ['tcs3$upNotice','cs3_upNotice','tupNotice','upNotice'], [], [], 90, '');
+//]]>
+</script>
+
+        
+<script src="../Scripts/main.js" type="text/javascript"></script>
+<script type="text/javascript" src="../Scripts/jquery.js"></script>
+<script src="../Scripts/jLayouts.js" type="text/javascript" charset="UTF-8"></script>
+<script src="/Scripts/tinybox.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+    var jLay;
+    (function ($) {
+        $(document).ready(function () {
+            jLay = new jLayouts(jQuery);
+            jLay.marquee({ trg: ".marquee", interval: 200 });
+            jLay.marquee({ trg: ".marquee-x", interval: 200, direction: "x" });
+            jLay.imgarea({ trg: ".imgarea", view: ".view", list: ".list li" });
+            jLay.status({ trg: ".s_btnclk", rsp: ".s_wrp", lev: 1 });
+            $(".onlinecs2").scrollFollow();
+            $(".dc_onlinecs").scrollFollow();
+        });
+    })(jQuery);
+</script>
+<div id="LP_DIV_1438269812451" style="display:none;"></div>
+<div class="layout">
+    <div class="ly_header">
+        
+        <div class="logo">
+            <object id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="150"
+                height="91">
+                <param name="movie" value="../flash/sa36logo.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <param name="swfversion" value="6.0.65.0" />
+                <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                <!--[if !IE]>-->
+                <object type="application/x-shockwave-flash" data="../flash/sa36logo.swf" width="150"
+                    height="91">
+                    <!--<![endif]-->
+                    <param name="quality" value="high" />
+                    <param name="wmode" value="transparent" />
+                    <param name="swfversion" value="6.0.65.0" />
+                    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                    <div>
+                        <p>
+                            <a href="https://www.adobe.com/go/getflashplayer">
+                                <img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                                    alt="Adobe Flash Player" width="112" height="33" /></a>
+                        </p>
+                    </div>
+                    <!--[if !IE]>-->
+                </object>
+                <!--<![endif]-->
+            </object>
+        </div>
+        
+                <div class="bk_userform png">
+                    <div class="btn_register" id="btnRegister">
+                        <a href="Terms.aspx"><img src="../Images/btn_register.gif" /></a>
+                    </div>
+                    
+                            <div class="account">
+                                <input name="cs3$LoginView1$LoginUser$UserName" type="text" maxlength="15" id="cs3_LoginView1_LoginUser_UserName" tabindex="1" class="form_bg" />
+                                <span id="cs3_LoginView1_LoginUser_UserNameRequired" style="display:none;"></span>
+                                <input type="hidden" name="cs3$LoginView1$LoginUser$wmUsername_ClientState" id="cs3_LoginView1_LoginUser_wmUsername_ClientState" />
+                                
+                            </div>
+                            <div class="code">
+                                
+
+
+  <div class="LBD_CaptchaDiv " id="c_default_cs3_loginview1_loginuser_logincaptcha_CaptchaDiv" style="width: 148px !important; height: 20px !important; ">
+    <div class="LBD_CaptchaImageDiv" id="c_default_cs3_loginview1_loginuser_logincaptcha_CaptchaImageDiv" style="width: 100px !important; height: 20px !important;"><!--
+   --><img class="LBD_CaptchaImage" id="c_default_cs3_loginview1_loginuser_logincaptcha_CaptchaImage" src="BotDetectCaptcha.ashx?get=image&amp;c=c_default_cs3_loginview1_loginuser_logincaptcha&amp;t=7b9705369884425c81abf936b9bd0c74&amp;s=sHSq2qH5uktNu7ILD3Ew5YstZp8q6GiSwYjLxwm05bg0Ajeyxyp5IRkwkRH9Ag2NrHxkXKJk%2bOTTAbRhmu532A%3d%3d" alt="CAPTCHA" /><!--
+ --></div>
+    <script src="BotDetectCaptcha.ashx?get=clientScriptInclude" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+      BotDetect.Init('c_default_cs3_loginview1_loginuser_logincaptcha', 'cs3_LoginView1_LoginUser_CaptchaCodeTextBox', true, true, true, false, 1800, 7200);
+    //]]>
+    </script>
+    <link type='text/css' rel='Stylesheet' href='BotDetectCaptcha.ashx?get=layoutStyleSheet' />
+    <input type="hidden" name="LBD_VCID_c_default_cs3_loginview1_loginuser_logincaptcha" id="LBD_VCID_c_default_cs3_loginview1_loginuser_logincaptcha" value="7b9705369884425c81abf936b9bd0c74" />
+  </div>
+
+
+<a id="c_default_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegame_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_telegame_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_telegamesalonhouse_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_telegamecagahouse_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegamecaga_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegamesalon_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegamehg_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegameopus_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegameroyal_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegameag_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegameallbet_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegamebbin_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_sportsbook_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_sportsbookow_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_sportsbookim_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egame_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lottery_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotterykeno_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotteryilotto_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotteryhappylotto_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotterymark6_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotterym4d_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_lotteryv4d_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_horseracing_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionlottery1_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionlottery2_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion1_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion3_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion4_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion5_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion6_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion7_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion8_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion10_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion11_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotion13_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_sinavideo_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_deepstaketurbo_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20120521_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20120520a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20120520b_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_yukurita_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_aboutus_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_howtoregister_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_howtodeposit_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_howtodeposit2_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_howtotransfer_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_howtowithdraw_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_contactus_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_sitemap_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_rulesregulation_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_help_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_faq_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_technical_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_responsiblegambling_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_privacypolicy_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_paymentmethod_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_withdrawal_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_terms_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_register_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20121115_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20121116_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20121117_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionroyal_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20130420a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20130420b_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_salon3dvideo_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionwithdraw_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionsummer_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_promotionlivegame5_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_sbaby_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamesa_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egameasia_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egameeurope_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamept_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamepg_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egameamaya_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egameptdownload_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131001a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131023b_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131023a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131101b_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131101a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131105b_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_activities_20131105a_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_livegamemg_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_chess_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egameip_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_mobile_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamegd_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamemg_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_egamegg_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+<a id="c_fishgame_cs3_loginview1_loginuser_logincaptcha_ReloadLink" />
+
+                            </div>
+                            <div class="password form_bg">
+                                <input name="cs3$LoginView1$LoginUser$Password" type="password" maxlength="25" id="cs3_LoginView1_LoginUser_Password" tabindex="2" class="form_bg" />
+                                <span id="cs3_LoginView1_LoginUser_PasswordRequired" style="display:none;"></span>
+                                <input type="hidden" name="cs3$LoginView1$LoginUser$tbWatermarkExtenderPassword_ClientState" id="cs3_LoginView1_LoginUser_tbWatermarkExtenderPassword_ClientState" />
+                            </div>
+                            <div class="securitycode">
+                                <input name="cs3$LoginView1$LoginUser$CaptchaCodeTextBox" type="text" maxlength="4" id="cs3_LoginView1_LoginUser_CaptchaCodeTextBox" tabindex="3" class="form_bg" />
+                                <span id="cs3_LoginView1_LoginUser_CaptchaRequired" style="display:none;"></span>
+                                
+                                <input type="hidden" name="cs3$LoginView1$LoginUser$wmCaptcha_ClientState" id="cs3_LoginView1_LoginUser_wmCaptcha_ClientState" />
+                            </div>
+                            <div class="btn_login">
+                                <a href="#">
+                                    <input type="submit" name="cs3$LoginView1$LoginUser$btnLogin" value="登入" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;cs3$LoginView1$LoginUser$btnLogin&quot;, &quot;&quot;, true, &quot;LoginUserValidationGroup&quot;, &quot;&quot;, false, false))" id="cs3_LoginView1_LoginUser_btnLogin" tabindex="5" class="btn_hidden" />
+                                </a>
+                            </div>
+                            <div class="btn_forgotpassword" onclick="cs();">
+                                <a href="javascript:cs();">
+                                    忘记密码</a>
+                            </div>
+                            <div id="cs3_LoginView1_LoginUser_LoginUserValidationSummary" class="failureNotification" style="display:none;">
+
+</div>
+                        
+                </div>
+            
+        <div class="menu ">
+            <ul>
+                <li id="cs3_menuHome" class="active w2">
+                    <a id="cs3_HyperLink7" href="./">
+                        <img src="../Images/menu01.png" />
+                    </a>
+                </li>
+                <li id="cs3_menuCasino" class="w2">
+                    <a id="cs3_HyperLink8" href="LiveGame.aspx">
+                        <img src="../Images/menu02.png" />
+                    </a>
+                    
+                </li>
+                <li id="cs3_menuEGames" class="w3">
+                    <a id="cs3_HyperLink11" href="EGame.aspx">
+                        <img src="../Images/menu05.png" />
+                    </a>
+                    
+                </li>
+                <li id="cs3_menuTeleGame" class="w3">
+                    <a id="cs3_HyperLink9" href="TeleGame.aspx">
+                       <img src="../Images/menu03.png" />
+                    </a>
+                </li>
+                <li id="cs3_menuSportsbook" class="w3">
+                    
+                            <a id="cs3_LoginView2_HyperLink10" href="SportsbookIM.aspx">
+                                <img src="../Images/menu04.png" /></a>
+                        
+                </li>
+                
+				<li id="cs3_menuMobile" class="w3">
+					<a id="cs3_HyperLink13" href="Mobile.aspx"> 
+                        <img src="../Images/menu06.png" />
+                    </a>
+                    
+                </li>
+				<li id="cs3_menuFishgame" class="w3">
+					<a id="cs3_HyperLink18" href="Fishgame.aspx"> 
+                        <img src="../Images/menu10.png" />
+                    </a>
+                    
+                </li>
+                
+                <li id="cs3_menuPromotions" class="w1">
+                    <a id="cs3_HyperLink14" href="Promotion.aspx">
+                        <img src="../Images/menu07.png" />
+                    </a>
+                </li>
+                <p class="hot-icon"></p>
+                <li id="cs3_menuAgent" class="w3">
+                    <a id="cs3_HyperLink15" href="Agent.aspx">
+                      <img src="../Images/menu08.png" />
+                    </a>
+                </li>
+                <li id="cs3_menuSAAPI" class="w1" style="background:none;">
+                    <a id="cs3_HyperLink12" href="SAAPI.aspx">
+                       <img src="../Images/menu09.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" style="display:none;">
+            <div class="ad" onclick="javascript:notice();">
+                <div id="cs3_upNotice">
+	
+                        <marquee scrollamount="3" behavior="scroll" width="99%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各位会员请注意：本公司没有作出任何合并等运营调整，为了保障您的权益，请认准本公司官方域名（www.sa36.com）慎防误入诈骗网站。如果打开本公司网站域名出现不正常跳转或弹窗，请警惕并及时联系24小时客服热线 4001203363进行咨询。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各位会员请注意：本公司将会不定期更换存款账号，更换时不会另行通知！入款前必须联系客服确认最新收款账号，如入款至已过期账号，本公司将无法查收，恕不承担相应损失！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;尊敬的客户：我们已推出全网救援金活动，欢迎您关注参与。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好消息：“汇潮支付”手机版开通啦！无需网银，无需电脑，让您随时随地手机轻松支付，赶快来体验吧！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好消息！人气火爆平台GG捕鱼（南海馆）现已隆重上线，各位会员赶快登入体验吧！</marquee>
+                        
+                    
+</div>
+            </div>
+        </a>
+        
+        <div class="chn">
+            <select name="cs3$ddlLanguage" id="ddlLanguage" class="select" onchange="changeLang();">
+	<option selected="selected" value="zh-CN">简体中文</option>
+	<option value="zh-TW">繁體中文</option>
+
+</select>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" language="javascript">
+    function changeLang() {
+        window.location.href = "/?lang=" + document.getElementById("ddlLanguage").options[document.getElementById("ddlLanguage").selectedIndex].value;
+    }
+    //http://www.webreference.com/js/tutorial1/exist.html
+
+    function hideRefresh() {
+        document.getElementById("ibRefresh").style.display = "none";
+    }
+</script>
+
+    <div class="onlinecs2 ">
+    <div class="onlinecs">
+        <div class="ps2 png">
+          <a href="/promotion21.aspx"><img src="../Images/Promo21.gif" /></a>
+        </div>
+    </div>
+        </div>
+    <div class="onlinecs2 ">
+    <div class="s_wrp onlinecs">
+        <div class="ps png">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="53" height="220">
+                <param name="movie" value="../flash/CS_right_cn.swf" />
+                <param name="quality" value="high" />
+                <param name="wmode" value="transparent" />
+                <embed src="../flash/CS_right_cn.swf" quality="high" wmode="transparent" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="53" height="220"></embed>
+            </object>
+        </div>
+    </div>
+        <div class="onlinecs_left">
+            <div class="ps"><a href="Mobile.aspx"><img src="../Images/h-mobile_qr.gif" /></a></div>
+
+        </div>
+    </div>
+
+
+
+
+<!--[if lte IE 6]>
+<script src="../Scripts/DD_belatedPNG.js" type="text/javascript"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('.png,.nivo-prevNav,.nivo-nextNav');
+</script>
+<![endif]-->
+
+
+       
+        <div class="h-slide">
+                    <div id="slider_container_4">
+                    <div id="slidermain" class="slidermain">
+                        <a href="Promotion21.aspx"><img src="Images/banner21.jpg"/></a>
+                        <a href="Promotion8.aspx"><img src="Images/banner4.jpg"/></a>
+                        <a href="promotion19.aspx"><img src="Images/banner19.jpg"/></a>
+                        
+                        <a href="mobile.aspx"><img src="Images/banner15.jpg"/></a>
+			            
+                        <a href="Promotion6.aspx"><img src="Images/banner2.jpg"/></a>
+                        
+                        
+                        <a href="LiveGame.aspx"><img src="Images/banner5.jpg"/></a>
+                    </div>
+                    <div class="slidermain_navigation" id="slidermain_navigation">
+                    </div>
+                    <script type="text/javascript">
+
+                        $(document).ready(function () {
+
+                            demo4Easing = { name: 'pow2', method: function (x) { return Math.pow(x, 2); } };
+                            demo4Effect1 = { name: 'myEffect41', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 100, duration: 400 };
+                            demo4Effect2 = { name: 'myEffect42', rows: 6, cols: 12, fade: true, easing: 'swing', order: 'cross', delay: 100, duration: 400, reverse: true };
+                            demo4Effect3 = { name: 'myEffect43', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 200, duration: 1000 };
+                            demo4Effect4 = { name: 'myEffect44', rows: 6, cols: 12, fade: true, easing: 'pow2', order: 'rectangle', delay: 200, duration: 1000, reverse: true };
+                            demo4Effect5 = { name: 'myEffect45', rows: 3, cols: 10, zoom: true, move: true, right: true, easing: 'swing', order: 'circle', delay: 150, duration: 800 };
+                            demo4Effect6 = { name: 'myEffect46', rows: 3, cols: 10, zoom: true, move: true, left: true, easing: 'swing', order: 'circle', delay: 150, duration: 800, reverse: true };
+                            demo4Effect7 = { name: 'myEffect49', rows: 5, cols: 1, zoom: true, move: true, bottom: true, easing: 'bounce', order: 'circle', delay: 150, duration: 800 };
+                            demo4Effect8 = { name: 'myEffect410', rows: 5, cols: 1, zoom: true, move: true, top: true, easing: 'bounce', order: 'circle', delay: 150, duration: 800, reverse: true };
+
+                            effectsDemo4 = [demo4Effect1, demo4Effect2, demo4Effect3, demo4Effect4, demo4Effect5, demo4Effect6, demo4Effect7, demo4Effect8];
+
+                            var slidermain = Sliderman.slider({
+                                container: 'slidermain',
+                                width: 1920,
+                                height: 400,
+                                effects: effectsDemo4,
+                                display: {
+                                    autoplay: 3000,
+                                    autostart: true,
+                                    first_slide: true,
+                                    effects_order: 'effects'
+                                },
+                                events: {
+                                    after: function () {
+                                        $("#slidermain_navigation").find("a").removeClass("active_page");
+                                        $("#slidermain_page_" + slidermain.get('current')).addClass("active_page");
+                                    }
+                                }
+                            });
+
+                            var slidermainTotalSlides = slidermain.get('length');
+                            var slidermainNavigation = $("#slidermain_navigation");
+
+                            for (var i = 0; i < slidermainTotalSlides; i++) {
+                                slidermainNavigation.append('<a href="javascript:void()" class="slidermain_page" id="slidermain_page_' + i + '">' + (i + 1) + '</a>');
+                            }
+                            $("#slidermain_page_0").addClass("active_page");
+                            slidermainNavigation.fadeIn("fast");
+                            var slidemain_pages = $("#slidermain_navigation").find("a.slidermain_page");
+                            slidemain_pages.fadeTo(0, 0.7);
+                            slidemain_pages.bind({
+                                'mouseover': function () { $(this).fadeTo(0, 1); },
+                                'mouseout': function () { $(this).fadeTo(0, 0.7); },
+                                'focus': function () { this.blur(); },
+                                'click': function (event) {
+                                    event.preventDefault()
+                                    slidermain.go($(this).attr("id").replace("slidermain_page_", ""));
+                                }
+                            });
+                        });
+
+                    </script>
+                </div>
+                </div>
+        <div class="main_body">
+            <div class="h_notice">
+                <div class="tit">最新公告</div>
+                <a href="#" class="n_t">
+                    <div onclick="javascript:notice();">
+                        <div id="upNotice">
+	
+                                <marquee scrollamount="3" behavior="scroll" width="99%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各位会员请注意：本公司没有作出任何合并等运营调整，为了保障您的权益，请认准本公司官方域名（www.sa36.com）慎防误入诈骗网站。如果打开本公司网站域名出现不正常跳转或弹窗，请警惕并及时联系24小时客服热线 4001203363进行咨询。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;各位会员请注意：本公司将会不定期更换存款账号，更换时不会另行通知！入款前必须联系客服确认最新收款账号，如入款至已过期账号，本公司将无法查收，恕不承担相应损失！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;尊敬的客户：我们已推出全网救援金活动，欢迎您关注参与。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好消息：“汇潮支付”手机版开通啦！无需网银，无需电脑，让您随时随地手机轻松支付，赶快来体验吧！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好消息！人气火爆平台GG捕鱼（南海馆）现已隆重上线，各位会员赶快登入体验吧！</marquee>
+                                
+                            
+</div>
+                    </div>
+                </a>
+            </div>
+            <div class="h_game">
+                <p>
+                    <span>娱乐场</span>
+                    <a href="LiveGame.aspx">开始游戏</a>
+                    <img src="Images/h_game01.png" />
+                </p>
+                <p>
+                    <span>电子游戏</span>
+                    <a href="EGame.aspx">开始游戏</a>
+                    <img src="Images/h_game02.png" />
+                </p>
+                <p>
+                    <span>体育博彩</span>
+                    
+                            <a href="SportsbookIM.aspx">开始游戏</a>
+                        
+                    <img src="Images/h_game03.png" />
+                </p>
+                <p>
+                    <span>电投娱乐</span>
+                    <a href="TeleGame.aspx">开始游戏</a>
+                    <img src="Images/h_game04.png" />
+                </p>
+                <p>
+                    <img src="Images/h_active01.png" />
+                </p>
+                <p>
+                    <img src="Images/h_active02.png" />
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="info1_footerDetails" class="footer">
+    <div class="footer_img" style="margin:10px 0;">
+        <div class="w_f w_i">
+            <img src="../Images/f-t01.png"/>
+            <ul>
+                <li>
+                   <a href="../AboutUs.aspx">
+                    <img src="../Images/f-f01.png"/>
+                    </a>
+                </li>
+                <li>
+                     <a href="../HowToDeposit.aspx">
+                    <img src="../Images/f-f02.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Promotion.aspx">
+                    <img src="../Images/f-f03.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="../ContactUs.aspx">
+                    <img src="../Images/f-f04.png"/>
+                    </a>
+                </li>
+                <li>
+                   <a href="../Activities.aspx">
+                    <img src="../Images/f-f05.png"/>
+                    </a>
+                </li>
+                 <li>
+                   <a href="../SiteMap.aspx">
+                    <img src="../Images/f-f06.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="w_f w_i">
+            <img src="../Images/f-t02.png"/>
+            <ul>
+                <li>
+                     <a href="../LiveGame.aspx">
+                    <img src="../Images/f-p01.png"/>
+                    </a>
+                </li>
+                <li>	
+                     <a href="../TeleGame.aspx">
+                    <img src="../Images/f-p02.png"/>
+                    </a>
+                </li>
+                <li>
+                    
+                                <a href="../SportsbookIM.aspx">
+                                     <img src="../Images/f-p03.png"/>
+                                </a>
+                            
+                </li>
+                <li>
+                     <a href="../EGame.aspx">
+                    <img src="../Images/f-p04.png"/>
+                    </a>
+                </li>
+                <li>
+                   <a href="../mobile.aspx">
+                    <img src="../Images/f-p05.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="w_f w_i">
+            <img src="../Images/f-t03.png"/>
+            <ul>
+                <li>
+                   <a href="Live.aspx" target="_blank">
+                    <img src="../Images/f-b01.png"/>
+                    </a>
+                </li>
+                <li>
+                     <a href="../RulesRegulation.aspx">
+                    <img src="../Images/f-b02.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <img src="../Images/f-b03.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="../Help.aspx?type=c">
+                    <img src="../Images/f-b04.png"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="../ResponsibleGambling.aspx">
+                    <img src="../Images/f-b05.png"/>
+                    </a>
+                </li>
+                 <li>
+                    <a href="../PrivacyPolicy.aspx">
+                    <img src="../Images/f-b06.png"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="w_f w_i">
+            <a class="a1" href="mailto:cs@sa-36.com"></a>
+            <a class="a2" href="http://wpa.qq.com/msgrd?v=3&uin=3267464991&site=qq&menu=yes" target="_blank"></a>
+            <a class="a2_1" href="http://wpa.qq.com/msgrd?v=3&uin=754363636&site=qq&menu=yes" target="_blank"></a>
+            <a class="a3" href="#"></a>
+            <img src="../Images/f-c.png"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="a_u">
+        <div class="p_d"></div>
+       沙龙娱乐SA36.com是沙龙国际集团直营现金网，拥有沙龙国际SA品牌授权。沙龙国际成立于2009年，是亚洲市场最受欢迎的线上博彩品牌之一。沙龙娱乐SA36.com拥有菲律宾第一卡加延特区博彩牌照和PAGCOR博彩牌照，依照国际博彩监管规则合规运营，所有游戏产品公平公正，切实保障玩家利益。<br />
+      沙龙娱乐有真人，电子游戏，电投，体育，捕鱼达人等多种游戏项目，接入SA沙龙，AG亚游，Allbet欧博，PT，MG，IM等世界主流游戏平台。我们提供在线咨询，QQ微信客服，电话客服等多项客服方式，网上银行，微信，支付宝等多项存款方式，竭诚为用户服务。<br />
+ 沙龙娱乐有手机版网站m.sa36.com，有备用网www.sa-36.com，www.sa-36.net，www.sa36bet.com，www.sa36game.com等，方便用户随时随地游戏娱乐。沙龙娱乐SA36.com多年耕耘中国市场，广受用户好评。我们将努力改善用户体验，提高服务质量，感谢广大用户多年以来对沙龙娱乐的支持和信任。
+    </div>
+    
+       
+    
+    <div class="logo_icon">
+    <div class="str4 str_wrap">
+        <a href="http://www.sagaming.com/" target="_blank" class="a1"></a>
+        <a href="#" class="a2"></a>
+        <a href="#" class="a3"></a>
+        <a href="#" class="a5"></a>
+        <a href="#" class="a6"></a>
+        <a href="#" class="a7"></a>
+        <a href="#" class="a8"></a>
+        <a href="#" class="a9"></a>
+        <a href="#" class="a10"></a>
+        <a href="#" class="a11"></a>
+        <a href="#" target="_blank"  class="a15"></a>
+        <a href="http://ceza.gov.ph/" target="_blank" class="a12"></a>
+        <a href="http://www.northcagayan.com/" target="_blank" class="a13"></a>
+        <a href="http://tstglobal.com/" target="_blank"  class="a14"></a>
+        </div>
+    </div>
+    <div class="footer_right">
+        <div class="copyright">
+            <div class="dns"><a href="http://www.sa-36.info" target="_blank">防刧持工具</a></div>
+            <dl id="xx">
+                <dt><a href="http://www.microsoft.com/downloads/zh-cn/details.aspx?familyid=341c2ad5-8c3d-4347-8c03-08cdecd8852b&displaylang=zh-cn"
+                    target="_blank"></a><a href="http://www.firefox.com.cn/download/" target="_blank"></a><a href="https://www.google.com/intl/zh-CN/chrome/browser/" target="_blank"></a><a href="http://get.adobe.com/cn/flashplayer/" target="_blank"></a><a href="javascript:clearCache();"
+                        style="width: 65px; margin-left: 100px;"></a></dt>
+                <dd>
+                    <a href="http://www.sa-36.com/" style="color: White;" target="_blank">
+                        SA36</a>版权所有。
+                    <span>©2009 - 2017
+                        <!--Copyright © 2010 - 2012 Salon International. All Rights Reserved -->
+                    </span>
+                </dd>
+                <dd style="padding-top: 4px; line-height: 16px;">
+                    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+                        <a class="bds_qzone png"></a><a class="bds_tsina png"></a><a class="bds_tqq png"></a><a class="bds_renren png"></a><span class="bds_more png">
+                            更多</span> <a class="shareCount png"></a>
+                    </div>
+                    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6452842"></script>
+                    <script type="text/javascript" id="bdshell_js"></script>
+                    <script type="text/javascript">
+                        document.getElementById("bdshell_js").src = "http://share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+                    </script>
+                </dd>
+                <dd style="padding-top:9px;">
+                    <div id="ImagesPanel" style="position:absolute;top:-400px;right:-222px;width:200px;height:400px; z-index:999;display:none; overflow:hidden;">
+                        <div>
+                            <img src="../Images/wechat_qr2.jpg" /></div>
+							
+                        <div>
+                            <img src="../Images/wechat_qr2_2.jpg" /></div>
+				</div>
+                    <a href="#" class="wechat">微信</a>
+                </dd>
+                <dd>
+                    
+                    <a href="http://weibo.com/sa36" target="_blank" class="weibo">
+                        SA36微博专页</a></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<script src="../Scripts/jquery.min.js" type="text/javascript"></script>
+<script src="../Scripts/jquery.liMarquee.js"></script>
+<script>
+    $(window).load(function () {
+        $('.str4').liMarquee();
+    });
+</script>
+<script language="javascript" type="text/javascript">
+    function clearCache() {
+        var nt = window.open("../ClearCache.aspx", "clearCache", "height=768, width=1024, toolbar= no,directions=no,alwaysRaised=yes,hotkeys =yes, menubar=no, scrollbars=yes, resizable=no, location=no, status=no,top=100,left=300");
+        nt.focus();
+    }
+    function S(i) { return document.getElementById(i) }
+    document.onclick = function (evt) {
+        var _target = evt ? evt.target : event.srcElement;
+        var _id = _target.id;
+        if (_id == "") {
+            _id = _target.tagName;
+        }
+        if (_id != "A") {
+            S("ImagesPanel").style.display = 'none';
+        }
+    }
+    window.onload = function () {
+        var xx = S("xx");
+        var xxx = xx.getElementsByTagName("a");
+        for (var i = 0, j = xxx.length; i < j; i++) {
+            xxx[i].onclick = function (evt) {
+                var _event = evt ? evt : window.event;
+                var _target = evt ? evt.target : window.event.srcElement;
+                var _p = S("ImagesPanel");
+                _p.style.top = _event.clientY + document.body.scrollTop;
+                _p.style.left = (_event.clientX + document.body.scrollLeft < 160 ? _event.clientX + document.body.scrollLeft + 10 : _event.clientX + document.body.scrollLeft - 120);
+                S("ImagesPanel").style.display = '';
+                return false;
+            }
+        }
+    }
+</script>
+
+    
+
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("cs3_LoginView1_LoginUser_LoginUserValidationSummary"));
+var Page_Validators =  new Array(document.getElementById("cs3_LoginView1_LoginUser_UserNameRequired"), document.getElementById("cs3_LoginView1_LoginUser_PasswordRequired"), document.getElementById("cs3_LoginView1_LoginUser_CaptchaRequired"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var cs3_LoginView1_LoginUser_UserNameRequired = document.all ? document.all["cs3_LoginView1_LoginUser_UserNameRequired"] : document.getElementById("cs3_LoginView1_LoginUser_UserNameRequired");
+cs3_LoginView1_LoginUser_UserNameRequired.controltovalidate = "cs3_LoginView1_LoginUser_UserName";
+cs3_LoginView1_LoginUser_UserNameRequired.focusOnError = "t";
+cs3_LoginView1_LoginUser_UserNameRequired.errormessage = "请输入用户名";
+cs3_LoginView1_LoginUser_UserNameRequired.display = "None";
+cs3_LoginView1_LoginUser_UserNameRequired.validationGroup = "LoginUserValidationGroup";
+cs3_LoginView1_LoginUser_UserNameRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+cs3_LoginView1_LoginUser_UserNameRequired.initialvalue = "";
+var cs3_LoginView1_LoginUser_PasswordRequired = document.all ? document.all["cs3_LoginView1_LoginUser_PasswordRequired"] : document.getElementById("cs3_LoginView1_LoginUser_PasswordRequired");
+cs3_LoginView1_LoginUser_PasswordRequired.controltovalidate = "cs3_LoginView1_LoginUser_Password";
+cs3_LoginView1_LoginUser_PasswordRequired.focusOnError = "t";
+cs3_LoginView1_LoginUser_PasswordRequired.errormessage = "请输入密码";
+cs3_LoginView1_LoginUser_PasswordRequired.display = "None";
+cs3_LoginView1_LoginUser_PasswordRequired.validationGroup = "LoginUserValidationGroup";
+cs3_LoginView1_LoginUser_PasswordRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+cs3_LoginView1_LoginUser_PasswordRequired.initialvalue = "";
+var cs3_LoginView1_LoginUser_CaptchaRequired = document.all ? document.all["cs3_LoginView1_LoginUser_CaptchaRequired"] : document.getElementById("cs3_LoginView1_LoginUser_CaptchaRequired");
+cs3_LoginView1_LoginUser_CaptchaRequired.controltovalidate = "cs3_LoginView1_LoginUser_CaptchaCodeTextBox";
+cs3_LoginView1_LoginUser_CaptchaRequired.focusOnError = "t";
+cs3_LoginView1_LoginUser_CaptchaRequired.errormessage = "请输入验证码";
+cs3_LoginView1_LoginUser_CaptchaRequired.display = "None";
+cs3_LoginView1_LoginUser_CaptchaRequired.validationGroup = "LoginUserValidationGroup";
+cs3_LoginView1_LoginUser_CaptchaRequired.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+cs3_LoginView1_LoginUser_CaptchaRequired.initialvalue = "";
+var cs3_LoginView1_LoginUser_LoginUserValidationSummary = document.all ? document.all["cs3_LoginView1_LoginUser_LoginUserValidationSummary"] : document.getElementById("cs3_LoginView1_LoginUser_LoginUserValidationSummary");
+cs3_LoginView1_LoginUser_LoginUserValidationSummary.showmessagebox = "True";
+cs3_LoginView1_LoginUser_LoginUserValidationSummary.showsummary = "False";
+cs3_LoginView1_LoginUser_LoginUserValidationSummary.displaymode = "List";
+cs3_LoginView1_LoginUser_LoginUserValidationSummary.validationGroup = "LoginUserValidationGroup";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ToolkitScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('cs3_LoginView1_LoginUser_LoginUserValidationSummary').dispose = function() {
+    Array.remove(Page_ValidationSummaries, document.getElementById('cs3_LoginView1_LoginUser_LoginUserValidationSummary'));
+}
+
+document.getElementById('cs3_LoginView1_LoginUser_UserNameRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('cs3_LoginView1_LoginUser_UserNameRequired'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"cs3_LoginView1_LoginUser_wmUsername_ClientState","WatermarkText":"用户名","id":"cs3_LoginView1_LoginUser_wmUsername"}, null, null, $get("cs3_LoginView1_LoginUser_UserName"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {"ValidChars":"0123456789abcdefghijklmnopqrstuvwxyz","id":"cs3_LoginView1_LoginUser_FilteredTextBoxExtender5"}, null, null, $get("cs3_LoginView1_LoginUser_UserName"));
+});
+
+document.getElementById('cs3_LoginView1_LoginUser_PasswordRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('cs3_LoginView1_LoginUser_PasswordRequired'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"cs3_LoginView1_LoginUser_tbWatermarkExtenderPassword_ClientState","WatermarkCssClass":"form_bg_pass_chs","WatermarkText":" ","id":"cs3_LoginView1_LoginUser_tbWatermarkExtenderPassword"}, null, null, $get("cs3_LoginView1_LoginUser_Password"));
+});
+
+document.getElementById('cs3_LoginView1_LoginUser_CaptchaRequired').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('cs3_LoginView1_LoginUser_CaptchaRequired'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.FilteredTextBoxBehavior, {"FilterType":2,"id":"cs3_LoginView1_LoginUser_FilteredTextBoxExtender1"}, null, null, $get("cs3_LoginView1_LoginUser_CaptchaCodeTextBox"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"cs3_LoginView1_LoginUser_wmCaptcha_ClientState","WatermarkText":"验证码","id":"cs3_LoginView1_LoginUser_wmCaptcha"}, null, null, $get("cs3_LoginView1_LoginUser_CaptchaCodeTextBox"));
+});
+//]]>
+</script>
+</form>
+    
+
+</body>
+</html>

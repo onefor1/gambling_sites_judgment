@@ -1,0 +1,262 @@
+ 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<title>ASTRO corp.</title>
+ <meta name="description" content="">
+
+      <meta name="keywords" content="">
+<link href="css/style_index.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="http://sg-gaming.com/wp-content/themes/sg/assets/js/selectivizr.min.js"></script>
+<![endif]-->
+<link href="css/index_news2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/tinycarousel2.css" type="text/css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+<script src="js/jquery.tinycarousel.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function()
+	{
+		jQuery('#slider1').tinycarousel();
+		jQuery('#slider2').tinycarousel();
+	});
+</script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<body>
+<div id="Header">
+	
+  <div class="Header_inner"> 
+    <table width="1287" height="130" border="0" cellpadding="0" cellspacing="0">
+      <tr> 
+        <td width="10"><a href="index.php"><img name="top_r1_c1" src="images/top_r1_c1.jpg" width="225" height="130" border="0" alt=""></a></td>
+        <td width="1277"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td height="64" background="images/top_r1_c2.jpg" class="topmenu">
+				<div class="fl Language"><img src="images/icon_language.gif" align="absmiddle">&nbsp;&nbsp;<a href="eng/">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="cht/">繁中</a></div>
+                <div class="Topsearch"> 
+                  <input name="searchkey" id="searchkey" type="text" class="Topsearch_input">
+                </div>
+                <div><a href="#"><img src="images/btn_search.jpg" border="0" onclick="getsearch();"></a></div></td>
+				<script>function getsearch(){
+				searchkey=document.getElementById("searchkey").value;
+				 if(searchkey.match(/[^\n^\s]/)!=null) location.replace('result.php?keysear=' + searchkey);
+				}
+				</script>
+            </tr>
+          </table>
+          <table width="1062" border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td width="857">
+<table width="81%" border="0" cellspacing="0" cellpadding="0">
+                  <tr> 
+                    <td><table width="857" border="0" cellpadding="0" cellspacing="0">
+                        <tr> 
+                          <td width="821" background="images/top_r2_c2.jpg"> <div class="Menu"> 
+                              <ul>
+                                <li><a href="index.php">首页</a></li>
+                                <li><a href="about.php">关于我们</a></li>
+                                <li><a href="lottery.php">彩票</a></li>
+                                <li><a href="game.php">游戏</a></li>
+                                <li><a href="cabinet.php">机台</a></li>
+                                <li><a href="system.php">系統</a></li>
+                                <li><a href="contact.php">联络我们</a></li>
+                              </ul>
+                            </div></td>
+                          <td width="36"><img name="top_r2_c9" src="images/top_r2_c9.jpg" width="36" height="52" border="0" alt=""></td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                  <tr>
+                    <td><img name="top_r3_c2" src="images/top_r3_c2.jpg" width="857" height="14" border="0" alt=""></td>
+                  </tr>
+                </table></td>
+              <td width="205" background="images/top_r1_c10.jpg"> 
+                <!--<div class="toplink"> 
+                  <ul> 
+                    <li><a href="#1"><img src="images/icon_F01.png"></a></li>                    <li><a href="#2"><img src="images/icon_F02.png"></a></li>                    <li><a href="#3"><img src="images/icon_F03.png"></a></li>                    <li><a href="#4"><img src="images/icon_F04.png"></a></li>                    <li><a href="#5"><img src="images/icon_F05.png"></a></li>                  </ul>
+                </div>--></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div id="Main2">
+	<div class="Main5_inner">
+		<div class="crumbs" style="height:30px;"></div>
+		<div class="">
+			
+      <div id="fsD1" class="focus"> 
+        <div id="D1pic1" class="fPic"> 
+                    <div class="fcon" style="display: none;"> <a href="lottery_4_1.php?gid=2"><img src="upload/Banner/banner160508043845832.jpg" style="opacity: 1;width:1205px;height:355px;"></a> 
+          </div>
+                    <div class="fcon" style="display: none;"> <a href="lottery_4_1.php?gid=2"><img src="upload/Banner/banner160508051953451.JPG" style="opacity: 1;width:1205px;height:355px;"></a> 
+          </div>
+                    <div class="fcon" style="display: none;"> <a href="http://www.astrocorp.com.tw/game_1_1.php?gid=81"><img src="upload/Banner/banners160804444593225.jpg" style="opacity: 1;width:1205px;height:355px;"></a> 
+          </div>
+                    <div class="fcon" style="display: none;"> <a href="game_1_1.php?gid=24"><img src="upload/Banner/banner160103292772443.png" style="opacity: 1;width:1205px;height:355px;"></a> 
+          </div>
+                    <div class="fcon" style="display: none;"> <a href="game_1_1.php?gid=17"><img src="upload/Banner/banner1601032934147748.png" style="opacity: 1;width:1205px;height:355px;"></a> 
+          </div>
+                  </div>
+        <div class="fbg"> 
+          <div class="D1fBt" id="D1fBt"> 
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i> 
+            1            </i></a> 
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i> 
+            2            </i></a> 
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i> 
+            3            </i></a> 
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i> 
+            4            </i></a> 
+                        <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i> 
+            5            </i></a> 
+                      </div>
+        </div>
+      </div>
+			<script type="text/javascript">
+						Qfast.add('widgets', { path: "js/terminator2.2.min.js", type: "js", requires: ['fx'] });  
+						Qfast(false, 'widgets', function () {
+							K.tabs({
+								id: 'fsD1',
+								conId: "D1pic1",
+								tabId:"D1fBt",  
+								tabTn:"a",
+								conCn: '.fcon',
+								auto: 1,
+								effect: 'fade',
+								eType: 'click',
+								pageBt:true,
+								bns: ['.prev', '.next'],                     
+								interval: 3000
+							}) 
+						})  
+					</script>
+		</div>
+		<div class="Hot_Products">
+			<ul>
+								<li>
+					<a href="lottery_4_1.php?gid=4">
+						<div class="Hot_Products_Img"><img src="upload/Products/fproducts160508093260631.PNG" width="205px" height="120px;"/></div>
+						<div class="Hot_Products_Title">手机即开彩票</div>
+					</a>
+				</li>
+								<li>
+					<a href="lottery_4_1.php?gid=2">
+						<div class="Hot_Products_Img"><img src="upload/Products/fproducts160508103432467.PNG" width="205px" height="120px;"/></div>
+						<div class="Hot_Products_Title">高频型彩票</div>
+					</a>
+				</li>
+								<li>
+					<a href="lottery_1.php">
+						<div class="Hot_Products_Img"><img src="upload/Products/fproducts1605081109120543.png" width="205px" height="120px;"/></div>
+						<div class="Hot_Products_Title">彩票投注大厅</div>
+					</a>
+				</li>
+							 
+			</ul>
+		</div>
+		<div class="Exhibition">
+			<ul>
+								<li>
+					<a href="about_2_1.php?gid=30">
+						<div class="Exhibition_Img"><img src="upload/Products/about_2160610222471456.jpg" width="140px;"/></div>
+						<div class="Exhibition_Title">2016 G2E Asia</div>
+						 
+					</a>
+				</li>
+								 
+			</ul>
+		</div>
+	</div>
+</div>
+
+   <div id="Footer">
+	<div class="Footer_inner">
+		<div class="Footer-columns">
+			<div aria-label="About" class="col-6-1" style="padding-left:0px;">
+				<h3>关于我们</h3>
+				<ul>
+					<li><a href="about.php">公司简介</a></li>
+					<li><a href="about_1.php">新闻 & 获奖</a></li>
+					<li><a href="about_2.php">参展资讯</a></li>
+					<li><a href="about_3.php">文章报导</a></li>
+				</ul>
+			</div>
+			<div aria-label="About" class="col-6-1">
+				<h3>彩票</h3>
+				<ul>
+					<li><a href="lottery_1.php">自助投注大厅</a></li>
+					<li><a href="lottery_2.php">后台监控中心</a></li>
+					<li><a href="lottery_4.php">各式彩票游戏</a></li>
+				</ul>
+			</div>
+			<div aria-label="About" class="col-6-1">
+				<h3>游戏</h3>
+				<ul>
+					<li><a href="game_1.php">赌场专用游戏</a></li>
+					<li><a href="game_2.php">多人座游戏</a></li>
+				</ul>
+			</div>
+			<div aria-label="About" class="col-6-1">
+				<h3>机台</h3>
+				<ul>
+										<li><a href="cabinet_1.php?gid=1">直立式机台</a></li>
+										<li><a href="cabinet_1.php?gid=2">座式机台</a></li>
+					 
+					<li><a href="cabinet_2.php">豪華式机台</a></li>
+				</ul>
+			</div>
+			<div aria-label="About" class="col-6-1">
+				<h3>系统</h3>
+				<ul>					<li><a href="system_1.php?gid=1">彩票系统</a></li>
+										<li><a href="system_1.php?gid=2"> VLT系统</a></li>
+										<li><a href="system_1.php?gid=3">CMS系统</a></li>
+					 
+				</ul>
+			</div>
+			<div aria-label="About" class="col-6-1" style="padding-right: 0px; width: 140px; padding-left: 70px;">
+				<h3>联络我们</h3>
+				<ul>
+					<li><a href="contact.php">联络表单</a></li>
+				</ul>
+			</div>
+			<div style="padding-right: 0px; width: 120px; padding-left: 30px;" aria-label="About" class="col-6-1">
+				<h3>投资人专区</h3>
+				<ul>
+				 
+					<li><a href="IR.php">公司资讯</a></li>													<li><a href="IR_3.php">股东会资讯</a></li>				<li><a href="IR_4.php">公司治理</a></li>				<li><a href="IR_5.php">利害关係人专区</a></li>				</ul>
+			</div>
+		</div>
+		<div class="Footer-copyright">
+					<div class="copyright">© 2014 ASTRO corp. All Rights Reserved.</div>
+			<div class="info">10F, No.111-1, Hsing De Rd., Sanchong Dist., New Taipei City 241, Taiwan  Tel: +886-2-8511-0555 Fax:+886-2-8511-0556 E-mail: <a href="mailto:sales@astrocorp.com.tw">sales@astrocorp.com.tw</a></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,767 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html class=" system zh-cn  isLoginN first">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>金沙娱乐城-打造高品质多元化娱乐服务-诚信品牌信誉-玩家首选</title>
+    <link rel="shortcut icon" href="/content/customer/js35111/images/logo.ico" type="image/x-icon" />
+    <script src="/Scripts/js/jquery-1.8.0.min.js"></script>
+
+    <script src="/Scripts/js/float.js"></script>
+
+    <script src="/Scripts/js/site.js"></script>
+
+
+    <link href="/content/customer/js35111/css/standard.css" type="text/css" rel="stylesheet" />
+    <link href="/content/customer/js35111/css/huangpu.css" rel="stylesheet" type="text/css" />
+    <!--手机访问自动跳转到手机版-->
+    
+    <script type="text/javascript">
+        function toggleColor(id, arr, s) {
+            var self = this;
+            self._i = 0;
+            self._timer = null;
+
+            self.run = function () {
+                if (arr[self._i]) {
+                    $(id).css('color', arr[self._i]);
+                }
+                self._i == 0 ? self._i++ : self._i = 0;
+                self._timer = setTimeout(function () {
+                    self.run(id, arr, s);
+                }, s);
+            }
+            self.run();
+        }</script>
+</head>
+<body marginwidth="0" marginheight="0" style="overflow-x:hidden;">
+    <div style="width:1000px; margin:0px auto; height:0px;">
+        <div style="z-index: 1000; margin: 35px 0px 0px 345px; position: absolute; display: none; padding-top: 10px;" id="zr2menu">
+            <table cellpadding="5" cellspacing="0" border="0">
+                
+<tr>
+ 
+    <td><a href="javascript:;" onclick="ToGame('DS')"><img src="/Content/images/1ds.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('GD')"><img src="/Content/images/1gd.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN','live')"><img src="/Content/images/1bbin.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('AGIN',0)"><img src="/Content/images/1ag.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('LBS')"><img src="/Content/images/1kk.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('AGIN', 6)"><img src="/Content/images/nav-buyu.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('CT')"><img src="/Content/images/1ct.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('MG')"><img src="/Content/images/1mg.png" /></a>&nbsp;</td>
+</tr>
+
+            </table>
+        </div>
+        <div style="z-index: 1000; margin: 35px 0px 0px 500px; position: absolute; display: none; padding-top: 10px; " id="dz2menu">
+            <table cellpadding="5" cellspacing="0" border="0">
+                
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameMG.png" /></a>&nbsp;</td>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameAG.png" /></a>&nbsp;</td>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/iconGameBBIN.png" /></a>&nbsp;</td>
+</tr>
+            </table>
+        </div>
+        <div style="z-index: 1000; margin: 35px 0px 0px 570px; position: absolute; display: none; padding-top: 10px; " id="cp2menu">
+            <table cellpadding="5" cellspacing="0" border="0">
+                
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);" ><img src="/Content/images/cp.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToFFC('DSFFC')" ><img src="/Content/images/dsffc.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN', 'Ltlottery')"><img src="/Content/images/bbcp.png" /></a>&nbsp;</td>
+</tr>
+            </table>
+        </div>
+        <div style="z-index: 1000; margin: 35px 0px 0px 365px; position: absolute; display: none; padding-top: 10px; " id="ty2menu">
+            <table cellpadding="5" cellspacing="0" border="0">
+                
+
+<tr>
+    <td><a href="javascript:alert(&quot;请先登录&quot;);"><img src="/Content/images/nsp.png" /></a>&nbsp;</td>
+    <td><a href="javascript:;" onclick="ToGame('BBIN','ball')"><img src="/Content/images/nsb.png" /></a></td>
+</tr>
+            </table>
+        </div>
+    </div>
+    <div id="ele-lang-group" class="ele-lang-group" style="width: 72px;">
+        <a href="/" target="mem_index" title="繁體中文" class="ele-lang-option ele-lang-zh-tw ">
+            繁體中文
+        </a>
+        <a href="/" target="mem_index" title="简体中文" class="ele-lang-option ele-lang-zh-cn ele-lang-current">
+            简体中文
+        </a>
+        <a href="/" target="mem_index" title="English" class="ele-lang-option ele-lang-en ">
+            English
+        </a>
+        <style type="text/css">
+            .ele-lang-group {
+                display: none;
+                position: absolute;
+                z-index: 100;
+                font-size: 12px;
+                border-radius: 0 0 5px 5px;
+                background-color: #FFFFFF;
+                border-right: 1px solid #AEAEAD;
+                border-left: 1px solid #AEAEAD;
+                border-bottom: 1px solid #AEAEAD;
+            }
+
+                .ele-lang-group a {
+                    height: 22px;
+                    line-height: 22px;
+                    display: block;
+                    text-indent: 5px;
+                    text-decoration: none;
+                    color: #000;
+                }
+
+                    .ele-lang-current,
+                    .ele-lang-group a:hover {
+                        color: #000;
+                        background-color: #EFEFEF;
+                    }
+        </style>
+    </div>
+    <div id="mainBody">
+        <div id="page-header" class="clearfix">
+            <div class="headerTop clearfix">
+                <div class="headerLink floatL clearfix">
+                    <ul class="clearfix">
+                        <li><a href="javascript:void(0);" class="nLink" onclick="SetPage(2)">设为首页</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" onclick="SetPage(1)">加入收藏</a></li>
+                    </ul>
+                </div>
+                <div class="headerFrag floatL">
+                    <span class="floatL">选择语系</span>
+                    <span class="floatL">
+                        <div id="ele-lang-wrap" class="ele-lang-wrap">
+                            <div class="ele-lang-title ele-lang-option ele-lang-zh-cn">
+                                简体中文
+                            </div>
+
+                        </div>
+                    </span>
+                </div>
+                <!-- 主選單 -->
+                <div id="mainnav-wrap">
+                    <ul class="floatL clearfix" id="main-Menual">
+                                <li class="LS-home"> <a class="" href="/home/index" title="首页" target=""> <b>首页</b> </a> </li>
+        <li class="LS-ball menuPE"> <a href="/Home/PE?QU=" class="" title="体育赛事" target="_self"> <b>体育赛事</b> </a> </li>
+                                <li class="LS-live"> <a class="LS-LiveMain  menuVedio" href="/Vedio/index" title="视讯直播" target="_self"> <b>视讯直播</b> </a> </li>
+                                <li class="LS-game"> <a href="/Games/BBINGames" title="电子游艺" class=" menuGames" target=""> <b>电子游艺</b> </a> </li>
+        <li class="LS-lottery menuCP"> <a class="" href="/Home/BET?QU=" title="彩票游戏" target="_self"> <b>彩票游戏</b> </a> </li>
+                                <li class="LS-youhui"> <a class=" textGlitter promotions" style="color: rgb(255, 0, 0);" href="/Activity/Index" title="优惠活动" target="_self"> <b>优惠活动</b> </a> </li>
+                                <li class="LS-kefu"><a href="javascript:;" class="" onclick="showNewWin('https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=750171&amp;configID=62750&amp;jid=2994616879&amp;s=1',800,500)"><b>在线客服</b></a></li>
+                                <li> <a class="" href="/m/info" title="手机下注" target="_self"> <b>手机下注</b> </a> </li>
+                                <li> <a class="" href="/Games/AGTEST" title="免费试玩" target="_self"> <b>免费试玩</b> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="headerBottom clearfix">
+                <div class="floatL header-logo">
+                    <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="logo-flash" title="金沙娱乐城 首页" onmousedown="location.href='/'" width="295" height="92">
+                        <param value="/content/customer/js35111/images/logo.swf" name="movie" />
+                        <param value="transparent" name="wmode" />
+                        <param value="high" name="quality" />
+                        <embed wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/content/customer/js35111/images/logo.swf" width="295" height="92" />
+                    </object>
+                    <style>
+
+                    </style>
+                </div>
+                    <div class="headRight-wrap floatR isLoginN">
+                        <div id="IndexMsg" class="loginTitle clearfix">
+
+
+                            <div class="firstNews-wrap floatL">
+                                <div class="firstNews-title">最新公告</div>
+                                <div id="news-content">
+                                    <div class="ele-news-txt" style="display: inline-block; width: 603px; height: 33px; overflow: hidden;">
+                                        <div style="display: inline-block; width: 610px; height: 28px; overflow: hidden;margin-top:0px;margin-left:-10px;">
+                                            <marquee id="ele-msgNews" scrollamount="3" scrolldelay="150" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;"></marquee>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <style>
+                                .ele-news-txt {
+                                    cursor: pointer;
+                                }
+                            </style>
+
+
+                            <span class="cssSet floatL"></span>
+                        </div>
+
+                        <div id="login-wrap" class="clearfix isLoginN">
+                            <div id="LoginForm">
+                                <div class="floatL login-img"></div>
+                                <div id="login_box" class="floatL clearfix">
+                                    <p class="login-unit-user wordFade floatL">
+                                        <input name="Account" id="Account" type="text" tabindex="1" value="帐号" onfocus="if(this.value=='帐号') this.value=''" onblur="if(this.value =='') this.value ='帐号'" class="za_text" />
+                                    </p>
+                                    <p class="wordFade floatL">
+                                        <input name="Password" id="Password" type="password" tabindex="2" value="xx@x@x.x" onfocus="if(this.value=='xx@x@x.x')this.value=''" onblur="if(this.value =='') this.value ='xx@x@x.x'" autocomplete="off" class="za_text" />
+                                    </p>
+                                    <p class="wordFade floatL">
+                                        <input name="BETVALIDATECODEL" onclick="keyc()" id="BETVALIDATECODEL" class="za_text" value="验证码" onfocus="    if (this.value == '验证码') this.value = '';" onblur="    if (this.value == '') this.value = '验证码'" tabindex="3" pattern="\d{5}" required="" maxlength="5" />
+                                        <img id="vPic" style="margin-top:-2px;" src="/ValidateCode/GetValidateCode" alt="点击更换" onclick="$('#vPic').attr('src', '/ValidateCode/GetValidateCode?time=' + (new Date()).getTime())" />
+                                    </p>
+                                </div>
+                                <div id="login-btn" class="floatL clearfix">
+                                    <input class="btn-login floatL" name="Submit" type="button" onclick="BetLogin()" value="登 录" tabindex="4" />
+                                    <a class="btn-login floatL zh-cn-adjust" href="/MemberCenter/Member/Register">免费注册</a>
+                                    <a class="btn-pw floatL" href="javascript:void(0)" onclick="alert('「请联系在线客服找回密码！」');" target="_self">忘记密码</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            <!-- -->
+                <style type="text/css">
+                    #BannerImg, #page-news-area {
+                        display:none;
+                    }
+                </style>
+            <div id="BannerImg" class="pageTitleBg mCenter pngfix" >
+                <div class="pageTitle pngfix floatR"></div>
+            </div>
+        </div>
+        <div id="page-container">
+            <!-- 最新消息 -->
+            <div id="page-news-area">
+                <div id="page-news" class="mCenter">
+                    <div id="page-news-content">
+                        <div style="display: inline-block; width: 900px; height: 28px; overflow: hidden;margin-top:0px;margin-left:-10px;">
+                            <marquee id="ele-msgNews" scrollamount="3" scrolldelay="150" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;"></marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+<style type="text/css">
+    #page-container {
+        background: url('/content/customer/js35111/images/container_bg.png') 50% -3px no-repeat;
+    }
+</style>
+<div  class="cssSet clearfix">
+    <div id="first-wrap" class="mCenter clearfix">
+        <div class="firstFlashBg">
+            <div class="firstFlash" style="width:435px; height:150px;">
+                <object codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="logo-flash" title="金沙娱乐城 首页" onmousedown="location.href='/'" width="435" height="150">
+                    <param value="/content/customer/js35111/images/138596987229.swf" name="movie">
+                    <param value="transparent" name="wmode">
+                    <param value="high" name="quality">
+                    <embed wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/content/customer/js35111/images/138596987229.swf" width="435" height="150">
+                </object>
+            </div>
+        </div>
+        <div class="firstMiddle-wrap">
+            <style type="text/css">
+                .ele-firstgame {
+                    position: relative;
+                }
+
+                .ele-firstgame-1 {
+                    width: 221px;
+                    height: 86px;
+                    float: left;
+                    _display: inline;
+                    position: relative;
+                    overflow: hidden;
+                    background: url(/content/customer/js35111/images/138474190341.png?161049) -221px bottom no-repeat;
+                }
+
+                    .ele-firstgame-1 span {
+                        width: 221px;
+                        height: 86px;
+                        background: url(/content/customer/js35111/images/138474190149.png?161049) left top no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        cursor: pointer;
+                    }
+
+                .ele-firstgame-2 {
+                    width: 221px;
+                    height: 86px;
+                    float: left;
+                    _display: inline;
+                    position: relative;
+                    overflow: hidden;
+                    background: url(/content/customer/js35111/images/138474195640.png?161049) -221px bottom no-repeat;
+                }
+
+                    .ele-firstgame-2 span {
+                        width: 221px;
+                        height: 86px;
+                        background: url(/content/customer/js35111/images/138474195412.png?161049) left top no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        cursor: pointer;
+                    }
+
+                .ele-firstgame-3 {
+                    width: 221px;
+                    height: 86px;
+                    float: left;
+                    _display: inline;
+                    position: relative;
+                    overflow: hidden;
+                    background: url(/content/customer/js35111/images/138474199956.png?161049) -221px bottom no-repeat;
+                }
+
+                    .ele-firstgame-3 span {
+                        width: 221px;
+                        height: 86px;
+                        background: url(/content/customer/js35111/images/138474199787.png?161049) left top no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        cursor: pointer;
+                    }
+
+                .ele-firstgame-4 {
+                    width: 221px;
+                    height: 86px;
+                    float: left;
+                    _display: inline;
+                    position: relative;
+                    overflow: hidden;
+                    background: url(/content/customer/js35111/images/138474204700.png?161049) -221px bottom no-repeat;
+                }
+
+                    .ele-firstgame-4 span {
+                        width: 221px;
+                        height: 86px;
+                        background: url(/content/customer/js35111/images/138474204495.png?161049) left top no-repeat;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        cursor: pointer;
+                    }
+</style>
+            <div class="ele-firstgame-wrap" onselectstart="return false">
+                <div class="clearfix ele-firstgame" id="js-firstgame-slider">
+                    <a href ="/Home/PE?QU=" target="mem_index" class="ele-firstgame-1 js-ele-firstgame-fade" style="background-position-x: -221px;">
+                        <span style="background-position-x: 0px;"></span>
+                        </a>
+                    <a href="/Vedio/index" target="mem_index" class="ele-firstgame-2 js-ele-firstgame-fade" style="margin-right: 185px; background-position-x: -221px;">
+                        <span style="background-position-x: 0px;"></span>
+                    </a>
+                    <a href="/Home/BET?QU=" target="mem_index" class="ele-firstgame-3 js-ele-firstgame-fade" style="background-position-x: -221px;">
+                        <span style="background-position-x: 0px;"></span>
+                    </a>
+                    <a href="/Games/MGEGames" target="mem_index" class="ele-firstgame-4 js-ele-firstgame-fade" style="background-position-x: -221px;">
+                        <span style="background-position-x: 0px;"></span>
+                    </a>
+</div>
+            </div>
+            <script>
+                $('.js-ele-firstgame-fade > span').hover(
+                    function () {
+                        $(this).css("background-position-x", "-221px")
+                            .parent()
+                            .css("background-position-x", "0");
+                    }, function () {
+                        $(this).css("background-position-x", "0")
+                            .parent()
+                            .css("background-position-x", "-221px");
+                    }
+                );
+            </script>
+            <a class="firstJoin" href="/MemberCenter/Member/Register"></a>
+            <script type="text/javascript">
+                $('.ele-firstgame a').eq(1).css('margin-right', '185px');
+            </script>
+        </div>
+        <div class="firstBottom-wrap">
+            <a class="btn_download" href="/Activity/ActivityDetail/43" target="mem_index"></a>
+            <a class="btn_service pngfix" href="javascript:void(0)" onclick="showNewWin('https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=750171&amp;configID=62750&amp;jid=2994616879&amp;s=1', 800, 500);"></a>
+        </div>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" type="text/css" href="/content/css/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/content/css/jquery-ui.theme.min.css" />
+<style type="text/css">
+    /*首页弹框*/
+    #index-Bomb-box {
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #413d3d;
+        z-index: 1000;
+        -moz-opacity: 0.7;
+        opacity: .70;
+        filter: alpha(opacity=70);
+    }
+
+    .index-dialog-wrap {
+        display: none;
+        /*width: 600px;*/
+        z-index: 1001;
+        position: fixed;
+        top: 15%;
+        left: 27%;
+        background: rgba(255,255,255,0.75);
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding: 6px 6px 6px 6px;
+    }
+
+        .index-dialog-wrap p {
+            font-size: 18px;
+            color: #2e2e2e;
+        }
+
+        .index-dialog-wrap .index-dialog-icon {
+            height: 28px;
+            width: 26px;
+            background: url(/Content/images/icon-gg.jpg) no-repeat;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .index-dialog-wrap .index-dialog-header {
+            border-bottom: 1px #684509 solid;
+        }
+
+        .index-dialog-wrap .index-dialog-contain {
+            padding-top: 10px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+            .index-dialog-wrap .index-dialog-contain .index-dialog-close {
+                width: 80px;
+                height: 30px;
+                line-height: 30px;
+                color: white;
+                display: inline-block;
+                border: 1px #684509 solid;
+                -moz-border-radius: 3px;
+                -webkit-border-radius: 3px;
+                border-radius: 3px;
+                font-size: 14px;
+                background: #684509;
+                text-align: center;
+                margin-top: 10px;
+                text-decoration: none;
+                float: right;
+            }
+
+    .btn-submit, .btn-cancel {
+        overflow: hidden;
+        padding: 0px 28px;
+        height: 34px;
+        line-height: 34px;
+        background: url(/content/images/sideBar.png) no-repeat center -40px;
+        color: #fff;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+        font-size: 14px;
+        border: #6A4809 solid 1px;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: #6A4809 2px 0px 3px;
+    }
+
+    .index-dialog-wrap .dialog-footer {
+        height: 20px;
+        margin: 3px 0;
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: bold;
+        border-top: 1px solid #000;
+    }
+
+    .closeBtn {
+        float:right;
+        margin-right: 6px;
+        padding:0 13px;
+        background:#e6e6e6;
+        border-radius:4px;
+
+    }
+
+    .dialog-footer .red {
+        color: red;
+    }
+
+    #box {
+        max-width: 750px;
+        width: expression_r(document.body.clientWidth > 750 ? "750px": "auto" );
+    }
+</style>
+<div id="index-Bomb-box">
+</div>
+<div id="box" class="index-dialog-wrap ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-dialog-buttons ui-draggable ui-resizable" style="position:absolute;z-index:1001;width:640px;margin:0 auto;top:130px;">
+    
+    <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle">
+        <span id="ui-id-1" class="ui-dialog-title">金沙娱乐城</span>
+        <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close" role="button" title="Close" onclick="hideBomb();">
+            <span class="ui-button-icon-primary ui-icon ui-icon-closethick" style="background-image: url('/content/images/ui-icons_888888_256x240.png')"></span><span class="ui-button-text">Close</span>
+        </button>
+    </div>
+    <div class="index-dialog-contain">
+        <span id="ActiveBomb" style="display:inline-block;width:640px;word-wrap:break-word;">
+
+        </span>
+        
+    </div>
+    
+    <div class="dialog-footer">
+        官方网址：<span class="red">www.js91586.com</span>&nbsp;&nbsp;&nbsp;手机网址：<span class="red">m.32111k.com</span>
+        
+        <a class="index-dialog-close closeBtn" onclick="hideBomb();" href="javascript:;">关闭</a>
+    
+    </div>
+</div>
+<script type="text/javascript">
+    function hideBomb() {
+        $("#index-Bomb-box").css({ display: "none" });
+        $(".index-dialog-wrap").css({ display: "none" });
+    }
+
+    function showBomb() {
+        document.getElementById("index-Bomb-box").style.display = "block";
+        $(".index-dialog-wrap").css({ display: "block" });
+        //box();
+    }
+
+    $(function () {
+        // 最新弹框消息
+        $.ajax({
+            type: "GET",
+            url: "/Home/Active?Way=1&Type=1&SubType=1&" + Math.random(),
+            dataType: "json",
+            error: function () { return false; },
+            success: function (json) {
+                if (json.data != null && json.data != "") {
+                    $("#ActiveBomb").html(json.data);
+                    showBomb();
+                    box();
+                }
+            }
+        });
+
+    });
+    function box() {
+        var oBox = document.getElementById('box');
+        var L1 = oBox.offsetWidth;
+        //var H1 = oBox.offsetHeight;
+        var Left = (document.documentElement.clientWidth - L1) / 2;
+        //var top = (document.documentElement.clientHeight - H1) / 2;
+        oBox.style.left = Left + 'px';
+        //oBox.style.top = top + 'px';
+    }
+    //window.onload = function () {
+    //    box();
+    //    window.onresize = function () {
+    //        box();
+    //    }
+    //}
+</script>
+;
+        </div>
+        <div id="page-footer" class="clearfix">
+            <div id="footer-nav">
+                <!-- 廳主自改 -->
+                <a href="/home/contact" target="mem_index" data-color="" class="js-article-color transition-color">关于我们</a>
+                &nbsp;|&nbsp;
+                <a href="/home/Article/45" target="mem_index" data-color="" class="js-article-color transition-color">連絡我們</a>
+                &nbsp;|&nbsp;
+                <a href="/home/partners" target="mem_index" data-color="" class="js-article-color transition-color">合作夥伴</a>
+                &nbsp;|&nbsp;
+                <a href="/home/Article/7" target="mem_index" data-color="" class="js-article-color transition-color">存款帮助</a>
+                &nbsp;|&nbsp;
+                <a href="/home/Article/8" target="mem_index" data-color="" class="js-article-color transition-color">取款方法</a>
+                &nbsp;|&nbsp;
+                <a href="/home/Article/9" target="mem_index" data-color="" class="js-article-color transition-color">常見問題</a>
+
+                &nbsp;|&nbsp;
+                <a href="/BackUpDomain/Index" target="mem_index" data-color="" class="js-article-color transition-color">备用网址</a>
+            </div>
+            <div id="footer-info" class="clearfix">
+                <!--<a id="browser-logo"><img src="images/ublogo.png" border="0" width="100"></a>-->
+                <div id="copyright" style="display: inline-block">
+                    <p>
+                        <a id="bblogo" class="pngfix"></a>
+                    </p>
+                    <p>Copyright © 金沙娱乐城&nbsp; Reserved</p>
+                    <div>金沙娱乐城所提供的产品和服务，是由澳门特别行政区&nbsp;The&nbsp;Macao&nbsp;Special&nbsp;Administrative&nbsp;Region.授权和监管。选择我们，您将拥有可靠的资金保障和优质的服务。 </div>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; left: 5px; width: 117px;" picfloat="left">
+        <li>
+            <a href="/luck" target="mem_index" style="width: 117px; height: 317px;">
+                <img src="/content/customer/js35111/images/139598839195.png" align="center" alt="" class="png_fix" width="117" height="317" style="display: inline;" />
+                <img src="/content/customer/js35111/images/139598839195.png" align="center" style="display: none;" alt="" class="png_fix" width="117" height="317" />
+            </a>
+        </li>
+        <li>
+            <a onclick="FloatClose(this);" style="width: 117px; height: 24px;">
+                <img src="/content/customer/js35111/images/139599465750.png" align="center" alt="" class="png_fix" width="117" height="24" />
+                <img src="/content/customer/js35111/images/139599465750.png" align="center" style="display: none;" alt="" class="png_fix" width="117" height="24" />
+            </a>
+        </li>
+    </ul>
+    <ul id="TplFloatPic_1" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 150px; right: 5px; width: 122px;" picfloat="right">
+        <li>
+            <a href="javascript:void(0);" onclick="showNewWin('https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=750171&amp;configID=62750&amp;jid=2994616879&amp;s=1', 800, 600)" style="width: 122px; height: 239px;">
+                <img src="/content/customer/js35111/images/139599458677.png" align="center" alt="" class="png_fix" width="122" height="239" style="display: inline;" />
+                <img src="/content/customer/js35111/images/139599458677.png" align="center" style="display: none;" alt="" class="png_fix" width="122" height="239" />
+            </a>
+        </li>
+        <li>
+            <a onclick="FloatClose(this);" style="width: 122px; height: 24px;">
+                <img src="/content/customer/js35111/images/139599461200.png" align="center" alt="" class="png_fix" width="122" height="24" />
+                <img src="/content/customer/js35111/images/139599461200.png" align="center" style="display: none;" alt="" class="png_fix" width="122" height="24" />
+            </a>
+        </li>
+    </ul>
+    <style>
+        .TplFloatSet a {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .TplFloatSet img {
+            vertical-align: bottom;
+        }
+
+        .TplFloatSet li {
+            list-style: none;
+            font-size: 0px;
+            *margin-top: -3px;
+        }
+    </style>
+    <script>
+        //關閉效果
+        function FloatClose(t) { $(t).parents('.TplFloatSet').hide(); }
+        var left_top = 150, right_top = 150, float_list = [];
+        $(window).load(function () {
+            // 廳主自改 - 浮動圖V2 -2013.7.19
+            float_list['0'] = $('#TplFloatPic_0');
+            float_list['1'] = $('#TplFloatPic_1');
+            for (var i in float_list) {
+                var self = float_list[i],
+                    picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+                self.show().Float({ 'floatRight': picfloat, 'topSide': ((picfloat == 1) ? right_top : left_top) });
+                var w = 0;
+                $.each(self.find('img'), function () {
+                    var width = $(this).width();
+                    w = (width > w) ? width : w;//取圖片最大寬度
+                    $(this).attr({
+                        'width': width,
+                        'height': $(this).height()
+                    });
+                });
+                self.css('width', w);
+                if (picfloat) {
+                    right_top = right_top + 10 + (self.height() || 250);
+                } else {
+                    left_top = left_top + 10 + (self.height() || 250);
+                }
+
+                $('a', self).each(function () {
+                    $(this).css({ 'width': $(this).find('img:first').width(), 'height': $(this).find('img:first').height() });
+                    $(this).hover(function () {
+                        $(this).find('img:first').hide();
+                        $(this).find('img:last').show();
+                    }, function () {
+                        $(this).find('img:last').hide();
+                        $(this).find('img:first').show();
+                    });
+                });
+            }
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            new toggleColor('.textGlitter', ['#0000ff', '#ff0000'], 600);
+        })
+    </script>
+    <!--左右浮动 end-->
+    <script>
+        function keyc() {
+            $('#vPic').css('visibility', 'visible');
+            $('#vPic').attr('src', '/ValidateCode/GetValidateCode?' + Math.random());
+        }
+        $(function () {
+            // 最新消息跑馬燈
+            $.ajax({
+                type: "GET",
+                url: "/Home/Active?Way=2&Type=1&SubType=1&" + Math.random(),
+                dataType: "json",
+                error: function () { return false; },
+                success: function (json) {
+                    var msg_dir = $('#ele-msgNews').attr('direction');
+                    if (/up|top|down|bottom/.test(msg_dir)) {
+                        $('#ele-msgNews').html(json.data);
+                    } else {
+                        $('#ele-msgNews').html(json.data.replace(/\&lt;br[^(\&gt;)]*\&gt;/igm, "&nbsp;&nbsp;"));
+                    }
+                }
+            });
+        });
+        $(function () {
+            var rawUrl = "/".toUpperCase();
+            var current = "";
+            if (rawUrl.indexOf("/LHC/") > -1 ||
+                rawUrl.indexOf("/KLSF/") > -1 ||
+                rawUrl.indexOf("/FCTC3D/") > -1 ||
+                rawUrl.indexOf("/SSC/") > -1) {
+                current = "/LHC/";
+            }
+            else {
+                rawUrl = rawUrl.split('?')[0];
+                switch (rawUrl) {
+                    case "/":
+                        current = "/home/index";
+                        break;
+                    case "/MemberCenter/Member/RegisterAgent".toUpperCase():
+                        current = "/home/partners";
+                        break;
+                    default:
+                        current = rawUrl;
+                }
+            }
+
+            current = current.toUpperCase();
+
+            if (current == "/HOME/PE") {
+                $("#page-footer").remove();
+            } else if (current == "/HOME/BET") {
+                $("#page-footer").remove();
+            } else if (current == "/LHC/") {
+                $("#page-footer").remove();
+            }
+        });
+    </script>
+</body>
+
+</html>

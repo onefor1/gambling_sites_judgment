@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html  id="ng-app" ng-app="portalApp" meidon-time="2017/07/28 07:15:55"  moment-lang="zh-CN"  ng-init="'奇迹电游'">
+<head>
+    <title>奇迹电游</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="http://cdn.ccpt-cn.com:8888/Web.Portal/HM001-01.Portal/Content/Views/Shared/images/favicon.ico" />
+
+    
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
+
+    <link href="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="/bundles/font-awesome?v=QqiES8bMVFD1YGmU_C7h6nsgr358Xu-gbi4VJ0NwJNs1" rel="stylesheet"/>
+
+    <link href="/bundles/custom?v=D_lzBHWKlyVrRuB82LzDD6BzhRovkUogKkq26qIy4e81" rel="stylesheet"/>
+
+    <link href="/bundles/site?v=dMCTt3G2wKoQQhNBNx2zMU7Yl286Y0sYuygfteJQ8NY1" rel="stylesheet"/>
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet" />
+    
+    <link href="/bundles/home?v=P1rguCLQT8_mPmXt-YCr-wI35qVmlK-Il2Px2sHDMoM1" rel="stylesheet"/>
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet" />
+
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery/v1.10.2/jquery.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="/bundles/common?v=43K0U2PTo3hjXKinjDELLvolTGd1xxqmZDl99bYH0HA1"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/jquery-signalR/v2.1.2/jquery.signalR-2.1.2.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body class="layout" ng-controller="LayoutCtrl">
+    <header id="header">
+        <div class="nav-top">
+            <div class="wrapper">
+                <ul class="nav-left">
+                    <li id="language" select-language>
+                        <span ng-repeat="item in language" data-language="{{item.Key}}" title="{{item.Value}}" ng-cloak></span>
+                    </li>
+                    <li class="license">牌照展示</li>
+                </ul>
+                <ul class="nav-right" ng-controller="LobbiesCtrl">
+                        <li ng-click="FreePlayClick()"> <a href="javascript:void(0)">免费试玩</a> </li>
+                    <li><a ng-href="{{ContactInfo.HttpDetection==''? '#': ContactInfo.HttpDetection}}" target="_blank">导航站</a></li>
+                    <li><a ng-href="{{ContactInfo.HttpDeposit==''? '#': ContactInfo.HttpDeposit}}" target="_blank">一秒存款</a></li>
+                    <li toggle-color class="red"><a ng-href="{{ContactInfo.HttpRedenvelope==''? '#': ContactInfo.HttpRedenvelope}}" target="_blank">抢红包</a></li>
+                    <li toggle-color class="green"><a href="javascript:void(0)" ng-click="toFish()">真钱捕鱼</a></li>
+                    <li><a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" target="_blank">优惠申请大厅</a></li>
+                    <li><a ng-href="{{ContactInfo.HttpVIP==''? '#': ContactInfo.HttpVIP}}" target="_blank">奇迹修仙</a></li>
+                    <li toggle-color class="red-green"><a href="/Promotion">电子优惠</a></li>
+                    <li><a href="/Partner">占股代理</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <a href="/"></a>
+            </div>
+            
+                <div id="account-box">
+                    <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing">
+                        用户名 :
+                        <input id="login_account" tabindex="1" type="text" ng-model="loginParams.account" required autofocus />
+                        密码 :
+                        <input id="login_password" tabindex="2" type="password" ng-model="loginParams.password" required />
+                        <button class="forget-btn" ng-click="lineChatClick()" type="button">忘记?</button>
+
+                        <div id="check-code-wrapper">
+                            验证码 :
+                            <input tabindex="3" data-checkcode-display="checkCode" type="text" ng-model="loginParams.checkCode" checkcode-type="Login" required />
+                            <img id="captcha" ng-show="checkCode.image" ng-src="{{checkCode.image}}" />
+                        </div>
+                        <button id="login-box" tabindex="4" class="login-btn" ng-disabled="isProcessing" ng-bind="isProcessing ? '登录...' : '登录'">登录</button>
+                        <button class="register-btn" type="button" ng-click="RegisterClick()">注册</button>
+                        <div id="agree" ng-show="loginOver" ng-cloak>
+                            点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                        </div>
+                    </form>
+                </div>
+
+            <nav id="nav">
+                <ul ng-controller="LobbiesCtrl">
+                    <li>
+                        <a href="/">
+                            网站首页<span class="title-en">HOME</span>
+                        </a>
+                    </li>
+                    <li class="hot">
+                        <a href="/Lobby/Game">
+                            电子游艺<span class="title-en">SLOTS</span>
+                        </a>
+                        <ol class="subnav">
+                            <li toggle-color>天天返水3.0%</li>
+                            <li game-box="mw" class="hot-en" ng-click="toMwFish()">千炮捕鱼</li>
+                            <li game-box="fish" class="hot" ng-click="toFish()">捕鱼达人</li>
+                            <li game-box="agfish" ng-click="toAgFish()">AG捕鱼王</li>
+                            <li game-box="sg" ng-click="toSgFlash()">SG 电子</li>
+                            <li game-box="mg" ng-click="toMgFlash()">MG角子机</li>
+                            <li game-box="pt" ng-click="toPtFlash()">PT老虎机</li>
+                            <li game-box="mw" ng-click="toMwGame()">MW电子</li>
+                            <li game-box="gns" ng-click="toGnsHtml()">GNS电子</li>
+                            <li game-box="ag" ng-click="toAgGame()">AG电子</li>
+                            <li game-box="gpi" ng-click="toGpiFlash()">GPI电子</li>
+                            <li game-box="prg" ng-click="toPrgFlash()">PRG电子</li>
+                            <li game-box="hb" ng-click="toHabaHtml()">HB电子</li>
+                            <li game-box="jdb" ng-click="toJdbHtml()">JDB电子</li>
+                            
+                            <li game-box="bb" ng-click="toBbGame()">BBIN电子</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" ng-click="toMgFlash()">
+                            新MG电子<span class="title-en">MG SLOT</span>
+                        </a>
+                    </li>
+                    <li toggle-color>
+                        <a href="javascript:void(0)" ng-click="toFish()">
+                            真钱捕鱼<span class="title-en">FISH</span>
+                        </a>
+                    </li>
+                    <li class="hot">
+                        <a href="/Lobby/Live">
+                            真人娱乐<span class="title-en">CASINO</span>
+                        </a>
+                        <ol class="subnav">
+                            <li toggle-color>天天返水2.0%</li>
+                            <li game-box="bb" ng-click="toBbLive()">BBIN 旗舰厅</li>
+                            <li game-box="ag" ng-click="toAgLive()">AG寰亚厅</li>
+                            <li game-box="mg" ng-click="toMgDealer()">MG国际厅</li>
+                            <li game-box="pt" ng-click="toPtLive()">PT欧美厅</li>
+                            <li game-box="gpi" ng-click="toGpiLive()">GPI贵宾厅</li>
+                            <li game-box="evo" ng-click="toEvoLive()">EVO尊爵厅</li>
+                            <li game-box="ab" ng-click="toAbLive()">AB真人厅</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Sport">
+                            体育赛事<span class="title-en">SPORTS</span>
+                        </a>
+                        <ol class="subnav">
+                            <li toggle-color>天天返水0.6%</li>
+                            <li game-box="hg" ng-click="toSingSport()">皇冠体育</li>
+                            <li game-box="bb" ng-click="toBbSport()">BBIN体育</li>
+                            <li game-box="saba" ng-click="toSabaGame()">沙巴体育</li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Lottery">
+                            幸运彩票<span class="title-en">LOTTERY</span>
+                        </a>
+                        <ol class="subnav">
+                            <li toggle-color>天天返水2.0%</li>
+                            <li game-box="bb" ng-click="toBbLottery()">BBIN彩票</li>
+                            <li game-box="eg" ng-click="toEgLottery()">EG彩票</li>
+                            <li game-box="eg3" ng-click="toEg3MarkSix()">EG六合彩</li>
+                            <li game-box="ig" ng-click="toIgLottery()">IG彩票</li>
+                            <li game-box="ig-marksix" ng-click="toIgMarkSix()">IG六合彩</li>
+                        </ol>
+                    </li>
+                    <li class="hot">
+                        <a href="/Promotion">
+                            优惠活动<span class="title-en">PROMOTION</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" ng-click="lineChatClick()">
+                            在线客服<span class="title-en">SERVICE</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div id="banner" class="animated fadeInUp" ng-cloak>
+                
+    <section ng-controller="LobbiesCtrl" id="main-banner" class="cycle-slideshow"
+             data-cycle-timeout="4000"
+             data-cycle-pause-on-hover="true"
+             data-cycle-slides=">a">
+        <a href="javascript:void(0)" ng-click="toFish()" target="_blank">
+            <img src="http://cdn.ccpt-cn.com:8888/Web.Portal/HM001-01.Portal/Content/Views/Home/images/banner01.png" alt="" />
+        </a>
+        <a href="/Promotion">
+            <img src="http://cdn.ccpt-cn.com:8888/Web.Portal/HM001-01.Portal/Content/Views/Home/images/banner02.png" alt="" />
+        </a>
+        <a ng-href="{{ContactInfo.HttpVIP==''? '#': ContactInfo.HttpVIP}}" target="_blank">
+            <img src="http://cdn.ccpt-cn.com:8888/Web.Portal/HM001-01.Portal/Content/Views/Home/images/banner03.png" alt="" />
+        </a>
+        <a href="/Partner">
+            <img src="http://cdn.ccpt-cn.com:8888/Web.Portal/HM001-01.Portal/Content/Views/Home/images/banner04.png" alt="" />
+        </a>
+    </section>
+
+            </div>
+        </div>
+    </header>
+
+    
+    <div id="news" class="animated fadeInUp" ng-cloak>
+        <div class="wrapper">
+            <div id="hot-news" class="marqueen">
+                <a href="javascript: void(0)" ng-click="newsClick()">❤【防骗通知】近日有不法份子伪造虚假赌场（BET365/新葡京/威尼斯人/银河/美高梅/金沙等等诈骗网站）恶意劫持本公司网站，并声称合并、备案审核、收购等，请广大玩家注意防范骗子网站，不要等到被骗才后悔！本公司永久独立运行，如果打开跳转到其他公司网站，请多刷新几次或者直接联系微信/QQ客服获取最新域名！
+❤【优惠更新通知】平台优惠活动调整，天天首存 暂未开放、助战限时礼金17送27、27送37、57送67 新规则变动，给您带来的不便敬请谅解 
+❤【快速充值通道】快速充值通道www.qjcunkuan.com支付宝微信多线路开放！大额支付宝微信无忧扫码入款，由于每日交易订单量很多，在支付失败时可移步公司入款页面大额微信支付宝扫码100%成功。大额存款建议您前往公司入款或线上微信支付进行入款，存款失败请联系客服谢谢您！
+❤近期出现部分利用我公司高优惠、高返水、高信誉进行恶意洗码套利的会员！在此特别声明，若有发现将严肃处理！我们不欢迎任何恶意洗码套利的会员！
+❤【欢迎光临奇迹电游】提供老虎机、百家乐、体育、彩票等投注游戏，超高反水3.0%业界良心！VIP奇迹修仙每月免费彩金、天天抢红包等超多惊喜等您来拿！</a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="wrapper">
+            <div id="home">
+    <section id="slider" ng-controller="HomeCtrl">
+        <div id="imgNames" ng-init="selectedImg = 1">
+            <img ng-repeat="slideImg in slideImgs track by $index" ng-src="{{ slideImg }}" ng-class="{'show': $index == selectedImg - 1}" ng-click="slideBannerClick()" />
+        </div>
+        <div id="ad-pager">
+            <strong ng-repeat="slideImg in slideImgs track by $index" ng-class="{'cycle-pager-active': $index == selectedImg - 1}" ng-click="changeSelected($index)"></strong>
+        </div>
+    </section>
+    <ul class="side-slider animated bounceInRight">
+        <li class="promotion"><a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" target="_blank">优惠申请大厅</a></li>
+        <li class="register"><a href="/Register">免费注册</a></li>
+        <li class="redbag"><a ng-href="{{ContactInfo.HttpRedenvelope==''? '#': ContactInfo.HttpRedenvelope}}" target="_blank">抢红包</a></li>
+        <li class="deposit"><a ng-href="{{ContactInfo.HttpDeposit==''? '#': ContactInfo.HttpDeposit}}" target="_blank">快速充值</a></li>
+        <li class="agent"><a href="/Partner">占成代理</a></li>
+        <li class="search"><a ng-href="{{ContactInfo.HttpDetection==''? '#': ContactInfo.HttpDetection}}" target="_blank">导航站</a></li>
+    </ul>
+
+    
+    <div class="animated fadeInUp" ng-controller="LobbiesCtrl">
+        <div class="slider-left"
+             carousel-slider
+             super-vis="6"
+             super-play="true"
+             super-effect="leftLoop">
+            <span class="prev"></span>
+            <span class="next"></span>
+            <div class="main-cell">
+                <ul class="game-list" ng-init="show='sg'">
+                    <li game-box="sg" ng-click="toSgFlash()" ng-mouseover="show='sg'" ng-class="{'active': show=='sg'}">SG电子</li>
+                    <li game-box="mg" ng-click="toMgFlash()" ng-mouseover="show='mg'" ng-class="{'active': show=='mg'}">MG电子</li>
+                    <li game-box="pt" ng-click="toPtFlash()" ng-mouseover="show='pt'" ng-class="{'active': show=='pt'}">PT电子</li>
+                    <li game-box="ag" ng-click="toAgGame()" ng-mouseover="show='ag'" ng-class="{'active': show=='ag'}">AG电子</li>
+                    <li game-box="gpi" ng-click="toGpiFlash()" ng-mouseover="show='gpi'" ng-class="{'active': show=='gpi'}">GPI电子</li>
+                    <li game-box="gns" ng-click="toGnsHtml()" ng-mouseover="show='gns'" ng-class="{'active': show=='gns'}">GNS电子</li>
+                    <li game-box="prg" ng-click="toPrgFlash()" ng-mouseover="show='prg'" ng-class="{'active': show=='prg'}">PRG电子</li>
+                    <li game-box="mw" ng-click="toMwGame()" ng-mouseover="show='mw'" ng-class="{'active': show=='mw'}">MW电子</li>
+                    <li game-box="bb" ng-click="toBbGame()" ng-mouseover="show='bb'" ng-class="{'active': show=='bb'}">BB电子</li>
+                </ul>
+            </div>
+        </div>
+        <div class="game-box">
+            <div class="game-people"></div>
+            <ul class="game" ng-show="show=='sg'" ng-cloak>
+                <li ng-click="toSgFlash()" data-img="sg01">金鸡<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg02">冠军高尔夫<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg03">雪冰世界SA<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg04">斩五门SA<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg05">五福门 SA<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg06">发大财 SA<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg07">黄金黥鱼<span></span></li>
+                <li ng-click="toSgFlash()" data-img="sg08">新石器时代<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='mg'" ng-cloak>
+                <li ng-click="toMgFlash()" data-img="mg01">伴娘我最大<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg02">抢银行<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg03">黄金工厂<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg04">心跳时刻<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg05">不朽的爱情<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg06">招财鞭炮<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg07">摆脱<span></span></li>
+                <li ng-click="toMgFlash()" data-img="mg08">宝石之轮<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='pt'" ng-cloak>
+                <li ng-click="toPtFlash()" data-img="pt01">舞龙<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt02">大明帝国<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt03">飞龙在天<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt04">黑豹之月<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt05">夏洛克的秘密<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt06">圣诞奇迹<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt07">丛林心脏<span></span></li>
+                <li ng-click="toPtFlash()" data-img="pt08">堂吉诃德的财富<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='ag'" ng-cloak>
+                <li ng-click="toAgFish()" data-img="ag01">捕鱼王2代<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag02">水果拉霸<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag03">灵猴献瑞<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag04">关东煮<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag05">性感女仆<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag06">天空守护者<span></span></li>
+                <li ng-click="toAgGame()" data-img="ag07">杰克高手<span></span></li>
+                <li ng-click="toAgFish()" data-img="ag08">捕鱼王2代<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='gpi'" ng-cloak>
+                <li ng-click="toGpiFlash()" data-img="gpi01">四大美女<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi02">金瓶梅<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi03">高尔夫巡回赛<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi04">金蛋鹅<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi05">财神到<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi06">经典老虎机<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi07">甜蜜蜜<span></span></li>
+                <li ng-click="toGpiFlash()" data-img="gpi08">深海探险<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='gns'" ng-cloak>
+                <li ng-click="toGnsHtml()" data-img="gns01">冰上世界<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns02">嗜血一族<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns03">星际探索:猎户座<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns04">罗宾大探险<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns05">女帝崛起<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns06">神枪独角兽<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns07">啤酒盛宴<span></span></li>
+                <li ng-click="toGnsHtml()" data-img="gns08">草原争霸战<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='prg'" ng-cloak>
+                <li ng-click="toPrgFlash()" data-img="prg01">西游记<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg02">贝奥武夫<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg03">幸运龙<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg04">矮人黄金2<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg05">罗密欧与朱丽叶<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg06">狂野冰球赛<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg07">野生动物园<span></span></li>
+                <li ng-click="toPrgFlash()" data-img="prg08">女神戈帝梵<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='mw'" ng-cloak>
+                <li ng-click="toMwFish()" data-img="mw01">千炮捕鱼<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw02">水浒传<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw03">水浒英雄<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw04">洪福齐天<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw05">五龙争霸<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw06">超级斗地主<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw07">好运5扑克<span></span></li>
+                <li ng-click="toMwGame()" data-img="mw08">黄金777<span></span></li>
+            </ul>
+            <ul class="game" ng-show="show=='bb'" ng-cloak>
+                <li ng-click="toBbGame()" data-img="bb01">糖果派对<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb02">连环夺宝<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb03">喜福猴年<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb04">三国<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb05">沙滩排球<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb06">钻石列车<span></span></li>
+                <li ng-click="toBbGame()" data-img="bb07">外星争霸 <span></span></li>
+                <li ng-click="toBbGame()" data-img="bb08">斗鸡<span></span></li>
+            </ul>
+
+            <div class="list-box">
+                <ul class="list-money marqueen2">
+                    <li><span class="name">QINTI***</span>在<span class="play">糖果派对</span> 中，获得 <span class="money">66888元</span>；</li>
+                    <li><span class="name">wa***2</span>在<span class="play">连环夺宝</span> 中，获得 <span class="money">43709元</span>；</li>
+                    <li><span class="name">yuu**3</span>在<span class="play">喜福猴年</span> 中，获得 <span class="money">31470元</span>；</li>
+                    <li><span class="name">zx**90</span>在<span class="play">沙滩排球</span> 中，获得 <span class="money">90853元</span>；</li>
+                    <li><span class="name">tbt**616</span>在<span class="play">黑钻石</span> 中，获得 <span class="money">268225元</span>；</li>
+                    <li><span class="name">y***l14</span>在<span class="play">红宝石</span> 中，获得 <span class="money">24229元</span>；</li>
+                    <li><span class="name">a1**371</span>在<span class="play">蓝宝石</span> 中，获得 <span class="money">279844元</span>；</li>
+                    <li><span class="name">KY**518</span>在<span class="play">双喜临门</span> 中，获得 <span class="money">49361元</span>；</li>
+                    <li><span class="name">cc**8cc</span>在 <span class="play">富贵临门</span> 中，获得<span class="money">221478元</span>；</li>
+                    <li><span class="name">ym**99</span>在 <span class="play">百家乐</span>中，获得 <span class="money">27559元</span>；</li>
+                    <li><span class="name">y***88</span>在 <span class="play">杰克扑克</span>中，获得 <span class="money">17649元</span>；</li>
+                    <li><span class="name">asd**534</span>在 <span class="play">永恒钻石</span>中，获得 <span class="money">19804元</span>；</li>
+                </ul>
+                <span class="superjacket" digital digital-min="10000000" digital-max="20000000" word="¥"></span>
+            </div>
+        </div>
+    </div>
+    <div class="slider-bottom animated" ng-controller="LobbiesCtrl">
+        <ul ng-init="selectItem='fish'">
+            <li class="slide fish" ng-mouseover="selectItem='fish'" ng-class="{'active':selectItem=='fish'}" silde-name="fish" ng-click="toFish()">
+                <a href="javascript:void(0)">
+                    <div class="title show">捕鱼达人</div>
+                    <p class="text show">经典捕鱼万人在线，画质清晰，高爆率，绚丽画面以及简单轻松的玩法一直以来都深受电玩游戏玩家的青睐....</p>
+                    <div class="enter show">进入游戏></div>
+                </a>
+            </li>
+            <li class="slide live" ng-mouseover="selectItem='live'" ng-class="{'active':selectItem=='live'}" silde-name="live">
+                <a href="/Lobby/Live">
+                    <div class="title show">真人娱乐</div>
+                    <p class="text show">奇迹电游携手七大真人平台BBIN /AG/ MG/ PT/ GPI/ EVO /欧博，玩法多样，高清美女荷官发牌犹如身临其境……</p>
+                    <div class="enter show">进入游戏></div>
+                </a>
+            </li>
+            <li class="slide sport" ng-mouseover="selectItem='sport'" ng-class="{'active':selectItem=='sport'}" silde-name="sport">
+                <a href="/Lobby/Sport">
+                    <div class="title show">体育赛事</div>
+                    <p class="text show">奇迹电游提供丰富的体育投注，内容涵盖足球、网球、篮球、棒球及乒乓球等。您可同时通过手机访问。</p>
+                    <div class="enter show">进入游戏></div>
+                </a>
+            </li>
+            <li class="slide lottery" ng-mouseover="selectItem='lottery'" ng-class="{'active':selectItem=='lottery'}" silde-name="lottery">
+                <a href="/Lobby/Lottery">
+                    <div class="title show">彩票游戏</div>
+                    <p class="text show">奇迹电游拥有亚洲最好的彩票系统，涵盖东南亚所有最热门的彩票游戏，香港六合彩、重庆时时彩、PK10……一网打进 </p>
+                    <div class="enter show">进入游戏></div>
+                </a>
+            </li>
+            <li class="slide mobile" ng-mouseover="selectItem='mobile'" ng-class="{'active':selectItem=='mobile'}" silde-name="mobile">
+                <a href="/Mobile">
+                    <div class="title show">手机投注</div>
+                    <p class="text show">全面支持HTML5，平台所有游戏皆可进行投注，支持支付宝微信线上存款及线上取款....</p>
+                    <div class="enter show">进入游戏></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="info-bottom animated">
+        <ul class="game-tip">
+            <li class="join"><a href="/Register">免费开户</a></li>
+            <li class="info"><a href="/Register">绑定资料</a></li>
+            <li class="deposit"><a href="/Register">账户存款</a></li>
+            <li class="bet"><a href="/Register">投注游戏</a></li>
+            <li class="get"><a href="/Register">提款到账</a></li>
+        </ul>
+        <ul class="contact-tip">
+            <li class="tel">官方电话：<span ng-bind="ContactInfo.TEL"></span></li>
+            <li class="mail">官方邮箱：<span ng-bind="ContactInfo.Email"></span></li>
+        </ul>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="wrapper">
+            <div id="footer-logo"></div>
+            <ul id="footer-nav">
+                <li><a href="/AboutUS">关于我们</a></li>
+                <li><a href="/Contact">联系我们</a></li>
+                <li><a href="/How/Deposit">存款帮助</a></li>
+                <li><a href="/How/Withdrawal">取款帮助</a></li>
+                <li><a href="/FAQ">常见问题</a></li>
+                <li><a href="/Partner">合作伙伴</a></li>
+                <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+            </ul>
+            <p id="footer-suggest">
+                Copyright &#169; 奇迹电游 Reserved
+            </p>
+        </div>
+
+    </footer>
+
+    <div class="licence-box">
+        <span class="close">x</span>
+    </div>
+    <aside class="services service-left" scrollfollow>
+        <ul class="girl">
+            <li class="slot"><a href="/Promotion"></a></li>
+            <li class="deposit"><a ng-href="{{ContactInfo.HttpDeposit==''? '#': ContactInfo.HttpDeposit}}" target="_blank"></a></li>
+            <li class="active"><a ng-href="{{ContactInfo.Httpactivity==''? '#': ContactInfo.Httpactivity}}" target="_blank"></a></li>
+            <li class="redbag"><a ng-href="{{ContactInfo.HttpRedenvelope==''? '#': ContactInfo.HttpRedenvelope}}" target="_blank"></a></li>
+            <li class="wechat"></li>
+            <li class="wechat2"></li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+    <aside class="services service-right" scrollfollow>
+        <ul class="girl">
+            <li class="chat" ng-click="lineChatClick()" title="在线客服"></li>
+            <li class="qq" ng-click="qqClick(ContactInfo.QQ)" title="{{ContactInfo.QQ}}"><span ng-bind="ContactInfo.QQ"></span></li>
+            <li class="promotion"><a ng-href="{{ContactInfo.HttpPromotion==''? '#': ContactInfo.HttpPromotion}}" target="_blank"></a></li>
+            <li class="partner"><a href="/Partner"></a></li>
+            <li class="join">
+                    <a href="/Register"></a>
+            </li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+    
+    <div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+        <aside id="marquee">
+            <header>
+                <h2>最新公告</h2>
+            </header>
+            <ul id="newsBags">
+                <li ng-repeat="news in newsBags track by $index">{{news}}</li>
+            </ul>
+            <footer>
+                <span ng-click="closeMarquee()">关闭</span>
+            </footer>
+        </aside>
+    </div>
+
+    
+
+    <div ng-if="ContactInfo.Dialog!=='' && ContactInfo.Dialog!==undefined" id="ad-dialog" title="{{ContactInfo.DialogTitle}}">
+        <a href="/Promotion"><img ng-src="{{ContactInfo.Dialog}}" /></a>
+        <div class="dialog-footer" ng-bind="ContactInfo.DialogFooter"></div>
+    </div>
+
+
+    
+    <div style="display:none"></div>
+
+    
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20140418"></script>
+    <script src="/Scripts/_config.js"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services?v=VogNHUBD5AdE-nejwNwPuSMaiD4rMfKYNH3PSuEvw0E1"></script>
+
+    <script src="/angular-controllers?v=GXMzbh65zrcAMWq0MSZbHrWPTnssJsJAF1fhEHXStA41"></script>
+
+    <script src="/angular-directives?v=q4W3N7y-s0orG00a1GtfR8g0x0Z0iKS7mvY6n8sBwcs1"></script>
+
+    <script src="/angular-filters?v=8bBCjaQ-419QVImadOi_l1dbU7abzLuyqjCJzLJvruU1"></script>
+
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Custom/common.js"></script>
+
+    
+    <script src="http://cdn.ccpt-cn.com:8888/Web.Portal/Common/Scripts/jquery.cycle2.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.marqueen2').marquee({
+                //speed in milliseconds of the marquee
+                duration: 12500,
+                //gap in pixels between the tickers
+                gap: 50,
+                //time in milliseconds before the marquee will start animating
+                delayBeforeStart: 0,
+                //'left' or 'right' or 'up' or 'right'
+                direction: 'up',
+                //true or false - should the marquee be duplicated to show an effect of continues flow
+                duplicated: true,
+                //hover over marquee to pause
+                pauseOnHover: true
+            });
+
+            var action = $(".slider-bottom,.info-bottom");
+
+            // #header-bot首页与其他页面的ScrollTop不同，所以在這裡另外控制
+            $(window).on("scroll", function () {
+                if ($(this).scrollTop() > 500) {
+                    action.addClass("flipInX");
+                } else {
+                    action.removeClass("flipInX");
+                }
+            });
+        });
+    </script>
+
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="QtldElKFVtEw-41IVdyJ8gWbcbqyE6H_Q-11P634yF_q0a48ZbHmUv0NA2BPNGcwlHgIedJ6M2z9Wmfnb8th2sTmdfQ1" />
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>E88888极速开奖网</title>
+<meta name="keywords" content="E88888极速开奖网" />
+<meta name="description" content="E88888极速开奖网" />
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<link rel="stylesheet" type="text/css" href="/views/pp168/images/style.css" />
+<script type="text/javascript">var sitepath = '/index.php';</script>
+<script type="text/javascript" src="/views/pp168/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/views/pp168/js/webd9_slide.js"></script>
+<script type="text/javascript" src="/views/pp168/js/configs.js"></script>
+</head>
+<body>
+<div class="hdtop">
+	<div class="pmain">
+		<div class="z"><span id="localtime"></span><i>|</i><marquee id="marquee" scrollamount="2" direction="left"><!--顶部滚动公告-->请认准官方域名:www.e88888.com  作为国内领先的互联网彩票公司，公司始终坚持走“易用、安全、便捷”的道路，让每个彩民享受到快捷、安全、绿色的开奖直播观看服务。依托网络、通信和数字电视技术，通过网络、电话、手机、短信、数字电视、电子杂志、电子邮件和平面媒体等多样化服务手段，为广大彩民提供全国各大联销型彩票及各地地方彩票的代购合买、彩票资讯、彩票分析、彩票软件、彩票社区等全方位、一体化的综合彩票服务，深受广大彩民的欢迎。<!--顶部滚动公告--></marquee></div>
+		<div class="y">
+			<a onClick="SetHome(window.location)" href="javascript:void(0)">设为首页</a>&nbsp;|&nbsp;<a onClick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a>
+		</div>
+	</div>
+</div>
+<script>
+function showLocale(objD) {
+	var str, colorhead, colorfoot;
+	var yy = objD.getYear();
+	if (yy < 1900) yy = yy + 1900;
+	var MM = objD.getMonth() + 1;
+	if (MM < 10) MM = '0' + MM;
+	var dd = objD.getDate();
+	if (dd < 10) dd = '0' + dd;
+	var hh = objD.getHours();
+	if (hh < 10) hh = '0' + hh;
+	var mm = objD.getMinutes();
+	if (mm < 10) mm = '0' + mm;
+	var ss = objD.getSeconds();
+	if (ss < 10) ss = '0' + ss;
+	var ww = objD.getDay();
+	if (ww == 0) colorhead = "<font color=\"#ae8559\">";
+	if (ww > 0 && ww < 6) colorhead = "<font color=\"#ae8559\">";
+	if (ww == 6) colorhead = "<font color=\"#ae8559\">";
+	if (ww == 0) ww = "星期日";
+	if (ww == 1) ww = "星期一";
+	if (ww == 2) ww = "星期二";
+	if (ww == 3) ww = "星期三";
+	if (ww == 4) ww = "星期四";
+	if (ww == 5) ww = "星期五";
+	if (ww == 6) ww = "星期六";
+	colorfoot = "</font>"
+	str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+	return (str);
+}
+function tick() {
+	var today;
+	today = new Date();
+	document.getElementById("localtime").innerHTML = showLocale(today);
+	window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+<div class="header">
+	<div class="pmain">
+		<div class="z">
+			<a href="/"><img src="/views/pp168/images/logo.png"></a>
+		</div>
+		<div class="y">
+			<a href="http://shang.qq.com/wpa/qunwpa?idkey=fed922b0363dbdfef86ffb9ebc52b3c905aa2188cf23ed18be593d6fba4bbc52" target="_blank"><img src="/views/pp168/images/19.gif"></a>
+		</div>
+	</div>
+</div>
+<div class="header-navbar-plus">
+	<div class="pmain cl" id="header_box">
+		<div class="lottery-plus" id="lotterys">
+			<h2 class="">选择彩种</h2>
+			<div class="lotterys-list-hd" id="lotterysList" style="display:block">
+	<ul class="lottery-list-box" id="lottery-list-box">
+		<li class="mainGame"><a class="mainA" href="./list-bjpk10.html"><i class="icon nav40-9"><img src="/views/pp168/images/lot2/1a.png"></i><span class="color333">北京PK拾</span></a><span class="normal-desc">彩友中200注</span></li>
+		<li class="mainGame"><a class="mainA" href="./list-cqssc.html"><i class="icon nav40-9"><img src="/views/pp168/images/lot2/2a.png"></i><span class="color333">重庆时时彩</span></a><a href="./list-cqssc.html"class="status-desc">最火爆的快彩</a></li>
+		<li class="mainGame"><a class="mainA" href="./list-hk6.html"><i class="icon nav40-9"><img src="/views/pp168/images/lot2/3a.png"></i><span class="color333">香港⑥合彩</span></a><span class="normal-desc">每周开奖三期</span></li>
+		<li class="mainGame"><a class="mainA" href="./list-jsk3.html"><i class="icon nav40-9"><img src="/views/pp168/images/lot2/8a.png"></i><span class="color333">江苏快三</span></a><span class="normal-desc">全天80期快乐猜大小</span></li>
+		<li class="mainGame"><a class="mainA" href="./list-mlaft.html"><i class="icon nav40-9"><img src="/views/pp168/images/lot2/6a.png"></i><span class="color333">幸运飞艇</span></a><span class="normal-desc">最新流行的时时彩</span></li>
+		<li class="allGames clearfix">
+			<h3><i class="sprite sprite-gpc"></i><span>高频彩</span></h3>
+			<ul class="clearfix game-list">
+				<li ><a href="./list-bjpk10.html">北京赛车pk10</a> </li>
+				<li ><a href="./list-cqssc.html">重庆时时彩</a> </li>
+				<li ><a href="./list-gdklsf.html">广东快乐十分</a> </li>
+				<li ><a href="./list-bjkl8.html">北京快乐8</a> </li>
+				<li ><a href="./list-jsk3.html">江苏快3</a> </li>
+				<li ><a href="./list-cqklsf.html">重庆幸运农场</a> </li>
+				<li ><a href="./list-gd11x5.html">广东11选5</a> </li>
+				<li ><a href="./list-tjssc.html">天津时时彩</a> </li>
+				<li ><a href="./list-xjssc.html" style="width:98px">新疆时时彩</a> </li>
+				<li ><a href="./list-gxklsf.html">广西快乐十分</a> </li>
+				<li ><a href="./list-gxk3.html">广西快3</a> </li>
+				<li ><a href="./list-ahk3.html">安徽快3</a> </li>
+				<li ><a href="./list-sd11x5.html">山东11选5</a> </li>
+				<li ><a href="./list-mlaft.html">幸运飞艇</a> </li>
+				<li ><a href="./list-shssl.html">上海时时乐</a> </li>
+			</ul>
+		</li>
+		<li class="allGames">
+			<h3><i class="sprite sprite-dpc"></i><span>低频彩</span></h3>
+			<ul class="clearfix game-list">
+			<li ><a href="./list-hk6.html">香港⑥合彩</a></li>
+			<li ><a href="./list-fc3d.html">福彩3D</a> </li>
+			<li ><a href="./list-pl3.html">体彩排列3</a> </li>
+			</ul>
+		</li>
+	</ul>
+</div>		</div>
+		<ul class="nav-plus cl">
+			<li class="on"><a href="/">首页</a></li>
+						<li ><a href="/list-mianfeidiaoyong.html">免费调用</a></li>
+						<li ><a href="/list-kaijiangzhibo.html">开奖直播</a></li>
+						<li ><a href="/list-caipiaoxinwen.html">彩票新闻</a></li>
+						<li ><a href="./list-beijingPKshigz.html">玩法规则</a></li>
+						<li ><a href="./list-aboutus.html">关于我们</a></li>
+						<li ><a href="/list-meinvtuku.html">美女图库</a></li>
+					</ul>
+	</div>
+</div>
+<div class="pmain">
+	<div class="index1">
+		<div class="pmainz">
+			<div class="pmainz2" style="padding-top:588px">
+				<div class="pmainz2t">
+					<h3>彩票新闻</h3>
+				</div>
+				<div class="pmainz2c"> 
+										<li><a href="/show-207.html">重新时时彩稳赚提醒</a></li>
+										<li><a href="/show-206.html">大二在校生通过网上借贷平台炒沥青 结果损失严重</a></li>
+										<li><a href="/show-205.html">北京快乐8的技巧小分享</a></li>
+										<li><a href="/show-204.html">移民中介因为工作需要出售高端客户信息最后被捕</a></li>
+										<li><a href="/show-203.html">重新时时彩稳赚经验技巧总结</a></li>
+										<li><a href="/show-202.html">男子诈骗老人百万余元 为打赏网络女主播</a></li>
+										<li><a href="/show-201.html">全国彩资金的合理使用也是赢得购彩乐趣的保障</a></li>
+										<li><a href="/show-200.html">农民工妥协跪地取款或是看不清键盘</a></li>
+										<li><a href="/show-199.html">重庆时时彩第一个快开型彩票</a></li>
+										<li><a href="/show-198.html">23座城市的空气污染红色报警 今年冬季的污染是否变严重？</a></li>
+					 </div>
+			</div>
+		</div>
+		<div class="pmainy">
+			<div id="slideBox" class="slideBox">
+				<div class="bd">
+					<ul>
+						<li><a href="./list-bjpk10.html"><img src="/views/pp168/images/flash1.jpg" /></a></li>
+						<li><a href="./list-cqklsf.html"><img src="/views/pp168/images/flash2.jpg" /></a></li>
+						<li><a href="./list-gdklsf.html"><img src="/views/pp168/images/flash3.jpg" /></a></li>
+					</ul>
+				</div>
+				<div class="hd">
+					<ul><li></li><li></li><li></li></ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+			$(".slideBox").slide({mainCell:".bd ul",autoPlay:true,interTime:3500});
+			</script>
+			<div class="height10"></div>
+			<div class="open_items">
+				<div class="pmaind">
+					<a href="./list-bjpk10.html" target="_blank">
+					<div class="item info_10016">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/1.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 北京PK拾&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-hk6.html" target="_blank">
+					<div class="item items_2 info_4001">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/3.png" /></div>
+							<div class="d">
+								<ul class="term_ball">
+									<span id="ball_l1"></span> <font id="info_l1">--</font> <span id="ball_l2"></span> <font id="info_l2">--</font> <span id="ball_l3"></span> <font id="info_l3">--</font> <span id="ball_l4"></span> <font id="info_l4">--</font> <span id="ball_l5"></span> <font id="info_l5">--</font> <span id="ball_l6"></span> <font id="info_l6">--</font> + <span id="ball_l7"></span> <font id="info_l7">--</font>
+								</ul>
+								<div class="info">香港彩&nbsp;<span id="nterm4001">000</span>期开奖时间：<span id="ndate4001">00月00日00时00分</span> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-cqssc.html" target="_blank">
+					<div class="item items_2 info_10011">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/2.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 重庆时时彩&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-cqklsf.html" target="_blank">
+					<div class="item info_10010">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/6.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 重庆幸运农场&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-mlaft.html" target="_blank">
+					<div class="item info_10085">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/5.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 幸运飞艇&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-jsk3.html" target="_blank">
+					<div class="item items_2 info_1006">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/7.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 江苏快3&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-bjkl8.html" target="_blank">
+					<div class="item items_2 info_10014">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/kl8.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info" style="margin-top:-3px;"> 北京快乐8&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<!--
+				<div class="pmaind">
+					<a href="./list-xingyun28.html" target="_blank">
+					<div class="item info_1001428">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/9.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> PC蛋蛋幸运28&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				-->
+				<div class="pmaind">
+					<a href="./list-shssl.html" target="_blank">
+					<div class="item info_10015">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/shssl.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 上海时时乐&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-gxklsf.html" target="_blank">
+					<div class="item info_1009">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/klsf.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 广西快乐十分&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-gxk3.html" target="_blank">
+					<div class="item items_2 info_10028">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/k3.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 广西快3&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-gdklsf.html" target="_blank">
+					<div class="item items_2 info_1008">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/4.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 广东快乐十分&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-gd11x5.html" target="_blank">
+					<div class="item info_1007">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/x5.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 广东11选5&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-tjssc.html" target="_blank">
+					<div class="item info_10021">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/11.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 天津时时彩&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-xjssc.html" target="_blank">
+					<div class="item items_2 info_10022">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/12.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 新疆时时彩&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-sd11x5.html" target="_blank">
+					<div class="item items_2 info_1003">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/x53.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 山东11选5&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-ahk3.html" target="_blank">
+					<div class="item info_10043">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/k3.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 安徽快3&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a> 
+				</div>
+				<div class="pmaind">
+					<a href="./list-fc3d.html" target="_blank">
+					<div class="item info_2002">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/8.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 福彩3D&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="pmaind">
+					<a href="./list-pl3.html" target="_blank">
+					<div class="item info_2007">
+						<div class="lo">
+							<div class="t"><img src="/views/pp168/images/lot1/pl3.png" /></div>
+							<div class="d">
+								<ul class="term_ball"></ul>
+								<div class="info"> 排列3&nbsp;<span class="next_term">000</span>期开奖时间： <i class="next_date next_date2"> <span>00</span><em>:</em><span>00</span></i> </div>
+							</div>
+						</div>
+					</div>
+					</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="height10"></div>
+<div class="height10"></div>
+<div class="footer">
+	<div class="footer1">
+		<div class="footer1z"><img src="/views/pp168/images/liantu.png" /><br />
+			扫一扫&nbsp;*&nbsp;手机看开奖</div>
+		<div class="footer1y">
+			<div class="footery1">
+				<h3>关于我们<span>About us</span></h3>
+				<ul>
+										<li><a href="/list-aboutus.html">关于我们</a></li>
+										<li><a href="/list-guanggaolianxi.html">广告联系</a></li>
+										<li><a href="/list-shangwuhezuo.html">商务合作</a></li>
+										<li><a href="/list-falvshengming.html">法律声明</a></li>
+										<li><a href="/list-mianzeshenming.html">免责申明</a></li>
+									</ul>
+			</div>
+			<div class="footery2">
+				<h3>走势图表<span>Lottery trend</span></h3>
+				<ul>
+					<li><a href="./list-guanyajizspk10.html">北京赛车pk10冠亚季趋势</a>&nbsp;&nbsp;<a href="./list-hezhizoushi.html">重庆时时彩和值走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushigdklsf.html">广东快乐十分基本走势</a>&nbsp;&nbsp;<a href="./list-bjkl8.html">北京快乐8</a>&nbsp;&nbsp;<a href="./list-jbzsjsk3.html">江苏快3基本走势</a></li>
+					<li><a href="./list-jibenzoushinc.html">重庆幸运农场基本走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi6.html">广东11选5基本走势</a>&nbsp;&nbsp;<a href="./list-hezhizoushi8.html">天津时时彩和值走势</a>&nbsp;&nbsp;<a href="./list-hezhizoushi5.html">新疆时时彩和值走势</a></li>
+					<li><a href="./list-jibenzoushi8.html">广西快乐十分基本走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi5gxk3.html">广西快3基本走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi9.html">安徽快3基本走势</a>&nbsp;&nbsp;<a href="./list-hezhizoushi9.html">山东11选5和值走势</a>&nbsp;&nbsp;<a href="./list-guanyajizoushitu.html">幸运飞艇冠亚季走势</a></li>
+					<li><a href="./list-hezhizoushi4.html">上海时时乐和值走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi9.html">福彩3D基本走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi5.html">体彩排列3基本走势</a></li>
+					<li><a href="./list-shengxiaozoushi.html">香港⑥合彩生肖走势</a>&nbsp;&nbsp;<a href="./list-temazoushi.html">香港⑥合彩特码走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi.html">香港⑥合彩基本走势</a>&nbsp;&nbsp;<a href="./list-jibenzoushi.html">香港⑥合彩正码走势</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer2">
+		<p>彩票有风险，购买要适度。禁止18周岁以下未成年人购买彩票。</p>
+		<p>Copyright © 2000-2017 www.e88888.com  All rights reserved.</p>
+	</div>
+</div>
+<link rel="stylesheet" type="text/css" href="/views/pp168/js/dailog/skins/discuz.css" />
+<script type="text/javascript" src="/views/pp168/js/dailog/lhgdialog.min.js"></script>
+<script src="/media/jquery.cookie.js" type="text/javascript"></script>
+<script src="/media/ring.js" type="text/javascript"></script>
+</body>
+<script type="text/javascript" src="/views/pp168/js/base.js"></script>
+<script type="text/javascript" src="/views/pp168/js/main.js"></script>
+<script type="text/javascript" src="/views/pp168/js/hotOpen.js"></script>
+</html>

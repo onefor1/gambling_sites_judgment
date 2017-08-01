@@ -1,0 +1,546 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  
+    <title>皇冠国际娱乐城</title>
+    <link href="/Content/css/global.css" rel="stylesheet"/>
+<link href="/Content/css/main.css" rel="stylesheet"/>
+
+    <link href="/Content/themes/base/jquery.ui.core.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.resizable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.selectable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.accordion.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.autocomplete.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.button.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.dialog.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.slider.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.tabs.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.datepicker.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.progressbar.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.theme.css" rel="stylesheet"/>
+
+    <script src="/Scripts/jquery-1.8.2.js"></script>
+<script src="/Scripts/Commen.js"></script>
+<script src="/Scripts/frontSiteBegin.js"></script>
+
+    <script src="/Scripts/jquery-ui-1.8.24.js"></script>
+
+    <script src="/Scripts/Json2/json2.js"></script>
+    <script src="/Scripts/javascriptlinq.js"></script>
+    
+    <link rel="icon" href="/favicon1.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon1.ico" type="image/x-icon" />
+
+<script type="text/javascript" src="/skin/images/float.js"></script>
+<link href="/skin/images/bcss.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+*{margin:0; padding:0px; list-style:none;}
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #ffffff;
+    background: url("/skin/images/bg_first.jpg") repeat-x scroll center top #1B110D;
+}
+html,body{width:100%;}
+</style>
+<style type="text/css">
+#new_content{
+	width:1000px;
+	padding:0px 0px 0px 0px;
+	margin:0px auto;
+	position:relative;
+	
+}
+#new_center{
+	width:1000px;
+	clear:both;
+	padding:0px 0px 0px 0px;
+	
+}
+#new_top{
+	width:1000px;
+	height:148px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+#new_left{
+	width:180px;
+	min-height:450px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	display:none;
+}
+#new_right{
+	width:1000px;
+	min-height:450px;
+	padding:0px;
+	margin:0px;
+	float:left;
+	position:relative	
+}
+</style>
+  <!--  <script src="/skin/images/common.js"></script>
+    <script src="/skin/images/upup.js" data-ltl="Y" id="upupjs"></script>
+    <script src="/skin/images/float.js"></script>
+    <script src="/skin/images/jquery_002.js"></script>-->
+
+
+
+
+</head>
+<body marginwidth="0" marginheight="0" style="cursor: auto;">
+
+<div id="new_content">
+  <div id="new_top">
+<!--[if lte IE 6]>
+<script src="/skin/js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]--> <div style=" height: 108px;text-align: left; width: 370px;position:absolute;left:0;top:0px;background:url('/skin/images/logo.gif') no-repeat;">
+<object type="application/x-shockwave-flash" data="/skin/images/logo.swf" width="280" height="108">
+<param name="movie" value="/skin/images/logo.swf" />
+<param name="wmode" value="transparent" />
+</object>
+
+
+</div>
+<div style="background:url(/skin/images/headerBg.jpg) no-repeat scroll left top transparent;">
+
+
+<div id="topbox">
+  <div id="time_flag" >
+    <div id="top_info">
+      <ul>
+      <li><a href="http://www.hg55pay.com/" target="_blank"><span style="color:red">支付宝微信快捷入款</span></a>|</li>
+        <li><a href="/Rules/Sports" target="_blank">玩法规则</a>|</li>
+        <li><a id="addfavor" href="javascript:window.external.AddFavorite('http://01109.com/','皇冠国际娱乐城');" class="first-add">收藏本站</a>|</li>
+        <!--<li><a href="http://www.01109.com/" target="_blank">线路选择</a></li>-->
+        <li><a href="/Help/LineCheck">线路测试</a></li>
+		<!-- <li><a href="/User/RejectAgent">代理合作</a></li>-->
+      </ul>
+    </div>
+    <div id="flag"> <a href="#"><img border="0" width="25" height="19" alt="繁體中文" src="/skin/images/index_zh-tw.gif"></a> <a href="#"><img border="0" width="25" height="19" alt="简体中文" src="/skin/images/index_zh-cn.gif"></a> <a href="#"><img border="0" width="25" height="19" alt="English" src="/skin/images/index_en.gif"></a> </div>
+  </div>
+  <div id="login_bg" style="margin-left:0px; width:248px;">
+    
+           <form name="LoginForm"  id="LoginForm" >
+
+    <div id="login_box">
+      <p>
+        <label for="name_" id="labelusername" name="name_" style="opacity: 1;">帐号</label>
+        <input type="text" tabindex="1" maxlength="20" id="username" class="za_text" name="name_" onfocus="document.getElementById('labelusername').style.display='none';" onblur="if(this.value =='') document.getElementById('labelusername').style.display='block';">
+      </p>
+      <p>
+        <label for="pwd_" id="labelpassword" name="pwd_" style="opacity: 1;">密码</label>
+        <input type="password" tabindex="2" maxlength="20" id="password" class="za_text" name="pwd_" onfocus="document.getElementById('labelpassword').style.display='none';" onblur="if(this.value =='') document.getElementById('labelpassword').style.display='block';">
+      </p>
+      <p style="position:relative" class="png_fix"><label for="code_" id="labelnum" name="code_" style="opacity: 1; ">验证码</label>
+                                    <input name="code_" type="text" class="za_text" style="width:100px;" id="rmNum" size="4" maxlength="4" title="( 点选此处产生新验证码 )" onfocus="document.getElementById('labelnum').style.display='none';change_pic();" onblur="if(this.value =='') document.getElementById('labelnum').style.display='block';">
+                                <input class="yzm_bg" id="code2" src="/IdentifyingCode/index?" style="width:50px; height:20px; position:absolute; top:1px; right:-2px;" type="image" onclick="reLoadCode()" />
+                                </p>
+      
+    </div>
+    <div id="login_btn">
+      <input type="button" tabindex="4" value="登入"  id="btnlogin"  onclick="Login()" >
+      <a onclick="alert('请联系客服人员！')" id="btn_pwd" href="#">忘记密码</a> <a  id="btn_join" target="_self"  href="/user/regist">立即注册</a>
+      <div class="clear" style="clear:both;"></div>
+    </div>
+             </form> 
+  
+  </div>
+           
+        
+</div>
+
+<div id="main-Menual">
+  <ul class="topNav">
+   <li id="first" ><a href="/home/index" class="this">首页</a></li>
+                <li class="LS-ball"><a href="/ballHome/index">体育赛事</a></li>
+                <li class="LS-live" style="text-align:center;"><a href="/VideoGame/Index" ><span style="background:url('/skin/images/re.gif') center right no-repeat;">真人娱乐&nbsp;&nbsp;</span></a></li>
+				<li><a href="/EleGame/Index" >PT电子</a></li>
+                <!--<li class=""><a target="_blank" href="http://www.sc67.com/?Intr=156511">电子游戏</a></li>-->
+                <li id="flashad-game" class="LS-game"><a href="/LHC/index2?ty=六合彩">香港六合彩</a></li>
+                <li id="flashad-lottery" class="LS-lottery"><a href="/LotteryHome/Index" >彩票游戏</a></li>
+                <li id="flashad-mobile"><a href="/Event/Index" id="textGlitter"  >优惠活动</a></li>
+                <li><a href="/User/RejectAgent" >代理联盟</a></li>
+                <!--<li><a href="/CommPart/CommHtmlPart1">手机下注</a></li>-->
+				<li><a href="/Help/CommonQuestions" >常见问题</a></li>
+                
+               <!-- <li><a href="indexs.php?path=pages&pages=help&uid=<?=$uid?>" >常见问题</a></li>-->
+              <!--  <li><a href="http://vip.hg0769.com" target="_blank">会员登录</a></li>-->
+                <!--<li id="flashad-reg"><a href="member.php?path=pages&pages=user&uid=<?=$uid?>&u=reg">立即开户</a></li>-->
+				<li id="flashad-kefu"><a href="https://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=368278&configID=45532&jid=7424971834&s=1" target="_blank" style="color: rgb(255, 255, 0); font-weight:bold;">在线客服</a></li>
+                <li id="flashad-kefu"><a href="https://app.1888sconline.com/install/mobile.html?agent=hg6030" target="_blank" style="color: rgb(255, 255, 0); font-weight:bold;">手机APP</a></li>
+  
+  </ul>
+</div>
+</div>
+
+  </div>
+
+  <div id="new_center">
+ 
+    <div id="new_right">
+    
+               <div class="cp_style">
+        <center>
+            
+
+<script type="text/javascript" src="/skin/images/swfobject.js"></script>
+
+<div id="sy_bg">
+<div id="head-title-bg">
+<div id="first-ad">
+                <div id="loop_flash">
+                   
+                </div>
+                 <script type="text/javascript">
+                    var flashvars = {};
+                    var params = {};
+                        params.wmode = 'transparent';
+                        params.quality = 'high';
+                        params.FlashVars = 'xml_url=/skin/images/banner.xml';
+                    var attributes = {};
+                        attributes.id = 'header-flash';
+
+			    swfobject.embedSWF('/skin/images/loop2011.swf', 'loop_flash', '1000', '348', '8.0.35.0', '"/skin/images/expressInstall.swf"', flashvars, params, attributes);
+                </script>
+
+        </div>
+<!--<object type="application/x-shockwave-flash" data="/skin/images/banner.swf" width="1000" height="348">
+<param name="movie" value="/skin/images/banner.swf" />
+<param name="wmode" value="transparent" />
+</object>-->
+  <!--<div id="picSwitch" class="picSwitch"><embed type="application/x-shockwave-flash" src="/skin/images/focusFlash_fp.swf" width="1000" height="348" style="undefined" id="mymovie1" name="mymovie1" bgcolor="#ffffff" quality="high" wmode="transparent" allowscriptaccess="sameDomain" flashvars="bigSrc=/skin/images/ad/1.jpg|/skin/images/ad/2.jpg|/skin/images/ad/3.jpg|/skin/images/ad/4.jpg|/skin/images/ad/5.jpg|/skin/images/ad/6.jpg&amp;href=#|#|#|#|#&amp;width=1000&amp;height=348"></div>-->
+</div>
+
+<div class="first_btn">
+                <div id="joinUs"><a href="/user/regist"  style="opacity: 1; "></a></div>
+                <div class="first_prize">
+                    <div style="position: relative; top: 49px; left:-50px;">
+ <object width="195" height="36" style="visibility: visible; " classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="prize">
+          <param value="http://www.8000bet.com/cl/tpl/commonFile/swf/prize.swf" name="movie">
+          <param value="high" name="quality">
+          <param value="transparent" name="wmode">
+          <param value="showall" name="scale">
+          <param value="uid=guest" name="flashvars">
+          <!--[if !IE]>-->
+          <object width="195" height="36" data="http://www.8000bet.com/cl/tpl/commonFile/swf/prize.swf" wmode="transparent" type="application/x-shockwave-flash">
+            <!--<![endif]-->
+            <h1>Alternative content</h1>
+            <p> <a href="#"><img alt="Get Adobe Flash player" src="/skin/images/get_flash_player.gif"></a> </p>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object>
+                    </div>
+                </div>
+                <div id="event"><a href="/Event/Index"></a></div>
+</div>	
+<div class="first_news">
+                <marquee width="800" height="44" style="cursor: pointer;" onclick="HotNewsHistory();" onmouseout="this.start();" onmouseover="this.stop();" id="msgNews" direction="left" scrolldelay="150" scrollamount="3"><?=$msg_member?>
+<script type="text/javascript">
+    function showmess(id) {
+        jQuery.post("/Message/Detil/" + id, {}, function (data) {
+            jQuery("#dialog4").html(data);
+            $("#dialog4").dialog({
+                zIndex: 3000,
+                resizable: false,
+                width: 850,
+                height: "auto",
+                modal: false,
+                buttons: {
+                    '关闭': function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+        });
+    }
+</script></marquee>
+            </div>
+
+	
+  <div id="first-game">
+  
+                            <!-- 图片列表 begin -->
+                            <div class="box">
+                                <a href="/ballHome/index" onclick="menu_click(2);return false;" style="background: url(/skin/images/135718736438.png); width: 180px; height: 113px;"></a>
+                            </div>
+                            <div class="box">
+                                <a href="/ballHome/index" onclick="menu_click(2);return false;" style="background: url(/skin/images/135718746304.png); width: 180px; height: 113px;"></a>
+                            </div>
+                            <div class="box">
+                                <a href="/LHC/index2?ty=六合彩" onclick="menu_click(3);return false;" style="background: url(/skin/images/135718750822.png); width: 180px; height: 113px;"></a>
+                            </div>
+                            <div class="box">
+                                <a href="cp.php?uid=<?=$uid?>&pages=Cqssc" onclick="menu_click(4);return false;" style="background: url(/skin/images/135718755316.png); width: 180px; height: 113px;"></a>
+                            </div>
+                            <div class="box">
+                                <a href="cps.php?uid=<?=$uid?>&pages=cp" onclick="menu_click(4);return false;" style="background: url(/skin/images/135718759998.png); width: 180px; height: 113px;"></a>
+                            </div>
+                            <!-- 图片列表 end -->
+                        <!---->
+ </div> 
+  <script type="text/javascript">
+    $('.first_btn a').hover(
+            function(){
+                $(this).stop().animate({'opacity': 0}, 650);
+            }, function(){
+                $(this).stop().animate({'opacity': 1}, 650);
+            }
+    );
+</script>
+
+
+</div>
+
+<!--新首页弹出框设置begin-->
+
+
+<div id="dialog" title='优惠活动'>
+<img src='http://hg6030.com/images/4650390671285364474.jpg' /></div>
+<input id="hidDialogEnable" type="hidden" value='true' />
+<script language="javascript">
+    $(function () {
+        if ($("#hidDialogEnable").val() == "true") {
+            $("#dialog").dialog({
+                resizable: false,
+                width: 15+631,
+                height:120+517,
+                modal: false,
+                buttons: {
+                    '关闭': function () {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+<!--新首页弹出框设置end-->
+        </center>
+    </div>
+  </div>
+  <div style="clear:both;"></div>
+    </div>
+</div>
+
+
+    <style type="text/css">
+#page-footer {
+    background: url("/skin/images/bg_footer.jpg") no-repeat scroll center top #1b120d;
+    color: #644d42;
+    padding-right: 32px;
+    width: 968px;
+}
+</style>
+<div id="footer">
+
+<div style="position: relative; border:#333 solid 0px; height:100px;" id="page-footer">
+    <div id="bblogo"></div>
+    <div id="bankLogo">
+        <img width="179" height="44" border="0" src="/skin/images/D1.png">
+        <img width="179" height="44" border="0" src="/skin/images/D28.png">
+    </div>
+    <div id="footer-article">
+        <!-- 廳主自改 -->
+      <a href="/Help/AboutUs">关于我们</a> ｜
+            <a href="/Help/ContractUs">联系我们</a> ｜
+            <a href="/User/RejectAgent">代理合作</a> ｜
+            <a href="/Help/Deposit">如何存款</a> ｜
+            <a href="/Help/WithDrawal">如何取款</a> ｜
+            <a href="/Help/CommonQuestions">常见问题</a>  ｜
+            <a href="/Rules/Sports" target="_blank">玩法规则</a> 
+    </div>
+    <div id="copy_ifo">
+      <p>Copyright © 皇冠国际娱乐城&nbsp;&nbsp; Reserved</p>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<!--<!--<SCRIPT LANGUAGE="JavaScript" src="http://float2006.tq.cn/floatcard?adminid=9532083&sort=0" ></SCRIPT>-->
+
+</div>
+
+
+
+
+
+<div id="TplFloatPic_0" style="position: absolute; cursor: pointer; z-index: 1000; top: 120px; right: 5px; " picfloat="right" class="pngFix"> <a href="https://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?jid=7424971834&companyID=368278&configID=45530&s=1" target="_blank"> <img src="/skin/images/rightkf.gif" alt="" class="png_fix"><img src="/skin/images/rightkf.gif" style="display: none;" alt="" class="png_fix"></a>
+  <div style="position:absolute;bottom:0px;left:10px;"> <img src="/skin/images/close.jpg" alt="" class="png_fix"> </div>
+</div>
+  <div id="TplFloatPic_1" style="position: absolute; cursor: pointer; opacity: 1; z-index: 1000; top: 150px; left: 5px; " picfloat="left"> 
+  <a href="https://app.1888sconline.com/install/mobile.html?agent=hg6030" target="_blank"><img src="/skin/images/leftkh.png" alt=""><img src="/skin/images/leftkh.png" style="display:none;" alt=""></a>
+    <div style="position:absolute;bottom:-25px;left:10px;"><img src="/skin/images/close.jpg" alt=""></div>
+  </div>
+
+
+      
+
+
+
+<script type="text/javascript">
+var left_top = 120, right_top = 120, float_list = [];
+$(window).load(function() {
+	// 廳主自改 - 浮動圖
+            float_list['0'] = $('#TplFloatPic_0');
+            float_list['1'] = $('#TplFloatPic_1');
+        
+    for (var i in float_list) {
+        var self = float_list[i], picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+        
+        self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top)});
+        
+        // ie6 png bug
+        if (navigator.userAgent.toLowerCase().indexOf('msie 6') != -1) {
+        	$.each(self.find('img'), function(){
+        		$(this).css({'width':$(this).width(),'height' : $(this).height()});
+        	});
+        }
+        
+        if (picfloat) {
+            right_top = right_top + 10 + (self.height() || 150);
+        } else {
+            left_top = left_top + 10 + (self.height() || 150);
+        }
+        
+        self.hover(function() {
+            $(this).find('a > img:first').css('display', 'none');
+            $(this).find('a > img:last').css('display', 'block');
+        }, function() {
+            $(this).find('a > img:last').css('display', 'none');
+            $(this).find('a > img:first').css('display', 'block');
+        }).find('div').click(function() {
+            event.cancelBubble = true;
+            $(this).parent('div').hide();
+        });
+    }
+});
+</script>
+
+
+
+    <script type="text/javascript">
+        //文字闪烁
+        setInterval(function(){
+            try
+            {
+                blinkff.color=blinkff.color=='#00ff00'?'#ff0000':'#00ff00';
+            }catch(e){}
+        },100)
+        //文字闪烁
+        setInterval(function(){
+            try
+            {
+                blinkff.color=blinkff.color=='#00ff00'?'#ff0000':'#00ff00';
+            }catch(e){}
+        },100)
+        //刷新验证码
+        function reLoadCode() {
+            jQuery("#code2").attr("src", "/IdentifyingCode/index?t=" + unixtime());
+            //alert(jQuery("#code2").attr("src"));
+        }
+        function Login() {
+            var name = jQuery("input[name=name_]").val();
+            var pwd = jQuery("input[name=pwd_]").val();
+            var code = jQuery("input[name=code_]").val();
+            jQuery.jsonPost("user", "Login", {
+                name: name, pwd: pwd, code: code
+            }, function (data) {
+                alert("登陆成功");
+                window.location = "/Commpart/relief";
+            }, {},function(){
+                reLoadCode();
+            });
+        }
+        jQuery(function () {
+            reLoadCode();
+            loaduserinfo();
+        });
+        var userInfo=null;
+        var loaduserinfo = function () {
+            jQuery.jsonPost("Commpart", "GetLoginUser", { m: "ref" }, function (d) {
+                if (d == null) {
+                } else {
+                    jQuery("#yuee").html("￥" + (d.balance - 0 + 0.0));
+
+                    if(jQuery("#bbin_money")!=null){
+                        jQuery("#bbin_money").html(d.BBIN_Money);
+                    }
+                    if(jQuery("#pt_money")!=null){
+                        jQuery("#pt_money").html(d.PT_Money);
+                    }
+                    if(jQuery("#dj_money")!=null){
+                        jQuery("#dj_money").html(d.DJ_Money);
+                    }
+                    if(jQuery("#allbet_money")!=null){
+                        jQuery("#allbet_money").html(d.ALLBET_Money);
+                    }
+                    if(jQuery("#hg_money")!=null){
+                        jQuery("#hg_money").html(d.HG_Money);
+                    }
+                    if(jQuery("#ag_money")!=null){
+                        jQuery("#ag_money").html(d.AG_Money);
+                    }
+                    if(jQuery("#og_money")!=null){
+                        jQuery("#og_money").html(d.OG_Money);
+                    }
+                    if(jQuery("#newCount")!=null){
+                        jQuery("#newCount").html(d.Msg);
+                    }
+
+                    userInfo=d;
+                }
+            }, {});
+        };
+
+        //刷新用户信息
+        setInterval(loaduserinfo, 10000);
+
+        function checkMobile(str) {
+            str = jQuery(str).val();
+            var re = /^1\d{10}$/
+            if (re.test(str)) {
+            } else {
+                alert("请输入正确的手机号码");
+                jQuery("input[name='phone']").focus();
+            }
+        }
+
+        function go_next(event, step){
+            event = event || window.event;
+            var keyCode = event.keyCode;
+            if(keyCode == 13){
+                if(step=="1"){
+                    jQuery('#password').focus();
+                }
+                if(step=="2"){
+                    var code2=jQuery('#txt_code');
+                    if(code2!=null){
+                        code2.focus();
+                    }else{
+                        Login();
+                    }
+                }
+                if(step=="3"){
+                    Login();
+                }
+            }
+        }
+    </script>
+
+</body>
+</html>

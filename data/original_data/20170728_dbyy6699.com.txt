@@ -1,0 +1,151 @@
+
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="zh"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh"><![endif]-->
+<!--[if gt IE 8]><html class="no-js" lang="zh"><![endif]-->
+<head>
+<meta charset="utf-8" />
+
+<!--IE9 W3C支持-->
+<meta http-equiv="X-UA-Compatible" content="IE=9,IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--基础信息 For SEO-->
+<title>大本赢</title>
+
+<!--Windows8 磁贴-->
+<meta name="msapplication-TileColor" content="#a40000" />
+
+
+    <!--系统样式表和交互，请勿变动其中的文件-->
+<link href="/Public/Pc/share.css" rel="stylesheet"/>
+
+<link rel="stylesheet" type="text/css" href="/Public/Pc/signin.css" />
+<script src="/Public/Pc/login.js"></script>
+
+<!--页面交互调用，部分内容可定制-->
+
+
+</head>
+
+<body>
+<!--[if lt IE 9]>
+<script type="text/javascript">
+    window.location.href='/Warn/LowVersion';
+</script>
+<![endif]-->
+
+<div id="base_loading"> <span>资源加载中...</span> </div>
+<!--login_wrap start-->
+<div id="login_wrap"> 
+  <!--mobile_login_tutorial start-->
+  <div class="locked" id="mobile_login_tutorial">
+    <div class="mlt_images"><img src="http://dby9988.com/2.png" alt="手机端二维码"/></div>
+    <div class="mlt_tips">
+      <p>使用手机扫描上面的二维码打开手机版!</p>
+      <p>您也可以在手机浏览器输入<span style="color:#c00; text-decoration:underline;">http://dbyy6699.com</span>直接进入手机投注系统！</p>
+    </div>
+  </div>
+  <!--mobile_login_tutorial end--> 
+  
+        <!--login_cont start-->
+        <div class="login_cont">
+            <div class="login_cont_body">
+                <div class="lcb_item">
+                    <div id="l_header_ad"></div>
+                    <div class="lcb_header">
+                        <div id="main_logo"><a href="/Home#LotteryHall">大本赢</a></div>
+                        <div id="light_filter"></div>
+                        <div id="l_header_bar"></div>
+                    </div>
+                    <div class="lcb_body">
+                        <form  method="post" onsubmit="return check();">
+                            <div class="form_item">
+                                <div class="l_form_text">
+                                    <label for="username" id="ftl_a">用户名</label>
+                                    <input type="text" id="username" name='username' />
+                                </div>
+                            </div>
+                            <div class="form_item">
+                                <div class="l_form_text">
+                                    <label for="password" id="ftl_b">密码</label>
+                                    <input type="password" id="password" name='password' />
+                                </div>
+                            </div>
+                            <div class="form_item">
+                                <div class="l_form_text" style="width:90px;">
+                                    <label for="vercode" id="ftl_c">验证码</label>
+                                    <input  type="text"   id="vercode" name="vercode"  />       
+                                </div>
+
+                                <div id="vercode_image" ><img id="valiCode" style="cursor: pointer;" src="/index.php/Home/Index/yzm.html" alt="验证码" /></div>
+                                <div id="vercode_refresh"><span onClick="ChangeCode();" >换一个</span></div>
+                            </div>
+
+
+
+                           <div class="form_option">
+                              
+                                          <div class="form_button">
+                                    <input type="button" id="login_submit" value="登&nbsp;&nbsp;录" />
+                                </div>
+                                <div id="login_statc">
+                                <a href="/reg"> <font color=red size=4>免费注册</font></a>
+                                </div>                                
+								<div id="kefu_statc">
+                                    <a href="/kefu.php" target=_blank><font color="red" size="4">联系客服</font></a>
+                                </div>
+							
+
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="lcb_footer"><span class="paper_shadow" id="paper_a"></span><span class="paper_shadow" id="paper_b"></span></div>
+                </div>
+            </div>
+        </div>
+        <!--login_cont end--> 
+  
+        <!--lfooter start-->
+        <div id="lfooter">
+            <p>大本赢彩票系统&nbsp;2.0</p>
+               
+            
+        </div>
+        <!--lfooter end--> 
+        </div>
+<!--fix_menu start-->
+<div id="fix_menu_wrap">
+  <div id="fix_menu" style="width:220px">
+    <ul>
+      
+      
+      <li><span id="show_mobile_login_type">手机版</span></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<!--fix_menu end--> 
+
+<!--nav-sub start-->
+<div id="nav-sub">
+  <ul>
+    
+  </ul>
+  <div class="clear"></div>
+</div>
+<!--nav-sub end--> 
+
+    <!--pass_back start-->
+
+<div id="base_mask"></div>
+<!--pass_back end-->
+    
+<!--login_wrap end-->
+</body>
+
+<script type="text/javascript">
+    location.hash = '';
+</script>

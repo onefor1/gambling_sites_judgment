@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>美高梅娱乐城-国际性娱乐平台,打造亚洲信誉第一,提款最快,澳门集团官方网站</title>
+<meta name="keywords" content="美高梅娱乐城,澳门赌场,娱乐城,娱乐场,赌场,真人百家乐,百家乐开户,体育赛事" />
+<meta name="description" content="美高梅娱乐城提供真人百家乐、体育、彩票、电子游戏等等,拥有雄厚财力、丰富的运营经验和强大的综合资源配备是全球最大娱乐城平台." />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="canonical" href="http:///" />
+<link href="/css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="/css/site.css" rel="stylesheet" type="text/css" />
+<link href="/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="/css/red_pc.css" rel="stylesheet" type="text/css" />
+<script src="/cl/js/jquery-1.7.2.min.js"></script>
+<script src="/js/redbag.js"></script>
+<script src="/cl/js/common.js"></script>
+
+<script src="/cl/js/tools/upup.js" data-ltl="Y" id="upupjs"></script>
+<script src="/cl/js/tools/float.js"></script>
+<script src="/cl/js/pluging/swfobject.js"></script>
+<script src="/cl/js/pluging/jquery.cookie.js"></script>
+<script src="/cl/tpl/starball/ver1/js/starball.js"></script>
+<script src="/cl/js/tools/ScrollPic.js"></script>
+<script src="/cl/js/pluging/jquery.ifixpng.js"></script>
+<script src="/cl/js/tools/tab.js"></script>
+<script src="/cl/js/index.js"></script>
+
+<script type="text/javascript">  
+     var url=window.location.href;  
+	 //alert(url);
+     if(url.indexOf("65655.com")>0
+		//||url.indexOf("678885.com")>0
+	 ){
+         if (url.indexOf("https") < 0) {
+             url = url.replace("http:", "https:");
+             window.location.replace(url);
+         }
+     }
+</script>
+
+<style type="text/css">
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: #ffffff;
+}
+#mainFrameDiv{
+    background:#000;
+}
+.mainFrameDivbg{
+ 
+}
+.mainFrameDivCenter{
+
+    margin: 0px auto;
+}
+#bottomFrameDiv{
+
+}
+.TplFloatSet a{display:block;margin:0 auto;text-align:center;}
+.TplFloatSet img{vertical-align:bottom;}
+.TplFloatSet li{list-style: none;font-size:0px;}
+
+.TplFloatSet a{display:block;margin:0 auto;text-align:center;}
+.TplFloatSet img{vertical-align:bottom;}
+.TplFloatSet li{list-style: none;font-size:0px;}
+
+
+.xubox_shade, .xubox_layer { position: absolute; }
+.xubox_shade { top: 0px; left: 0px; width: 100%; height: 100%; }
+.xubox_layer { top: 150px; left: 50%; height: auto; width: 310px; margin-left: -155px; }
+.xubox_border, .xubox_title, .xubox_title i, .xubox_page, .xubox_iframe, .xubox_title em, .xubox_close, .xubox_msgico, .xubox_moves { position: absolute; }
+.xubox_border { border-radius: 5px; }
+.xubox_title { left: 0px; top: 0px; }
+.xubox_main { position: relative; height: 100%; }
+.xubox_page { top: 0px; left: 0px; }
+.xulayer_png32 { background: transparent url('/images/xubox_ico0.png') no-repeat scroll 0% 0%; }
+.xubox_setwin { position: absolute; right: 10px; top: 10px; font-size: 0px; }
+.xubox_setwin a { position: relative; display: inline-block; vertical-align: top; width: 14px; height: 14px; margin-left: 10px; font-size: 12px; }
+.xubox_setwin .xubox_close0 { width: 14px; height: 14px; background-position: -31px -7px; cursor: pointer; }
+.xubox_setwin .xubox_close0:hover { background-position: -51px -7px; }
+.xubox_title { width: 100%; height: 35px; line-height: 35px; border-bottom: 1px solid rgb(213, 213, 213); background: rgb(235, 235, 235) url('/images/xubox_title0.png') repeat-x scroll 0% 0%; font-size: 14px; color: rgb(51, 51, 51); }
+.xubox_title em { height: 20px; line-height: 20px; width: 100%; top: 7px; left: 10px; font-style: normal; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+
+</style>
+
+
+</head>
+
+<body id="ss">
+
+<div id="topFrame">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Welcome</title>
+
+    <script src="/cl/js/jquery-1.7.2.min.js"></script>
+    <script src="/cl/js/common.js?v=2.0"></script>
+    <script src="/cl/js/tools/upup.js"></script>
+    <script src="/cl/js/tools/float.js"></script>
+    <script src="/cl/js/pluging/swfobject.js"></script>
+    <script src="/cl/js/pluging/jquery.cookie.js"></script>
+    <script src="/cl/tpl/starball/ver1/js/starball.js"></script>
+    <script src="/cl/js/tools/ScrollPic.js"></script>
+
+
+    <!--[if IE 6]>
+    <style type="text/css">
+        html {
+            overflow-x: hidden;
+        }
+
+        body {
+            padding-right: 1em;
+        }
+    </style>
+    <script src="/cl/js/pluging/jquery.ifixpng.js"></script>
+    <script>
+        $(function () {
+            $('img[src$=".png?_=171"],img[src$=".png"],.blk_29 .LeftBotton, .blk_29 .RightBotton').ifixpng();
+        });
+        //修正ie6 bug
+        try {
+            document.execCommand("BackgroundImageCache", false, true);
+        } catch (err) {
+        }
+    </script>
+    <![endif]-->
+
+
+    <script>
+        <!--
+        //Global variable for calculating page generation time
+        var PageInitTime = new Date();
+        var GameType = '';
+        // -->
+        function i(ur,w,h){
+        document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="'+w+'" height="'+h+'"> ');
+        document.write('<param name="movie" value="' + ur + '">');
+        document.write('<param name="quality" value="high"> ');
+        document.write('<param name="wmode" value="transparent"> ');
+        document.write('<param name="menu" value="false"> ');
+        document.write('<embed src="' + ur + '" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="'+w+'" height="'+h+'" wmode="transparent"></embed> ');
+        document.write('</object> ');
+        } 
+
+
+    </script>
+
+
+</head>
+
+<body style="background:url(/images/header_top_x.png) repeat-x;">
+   <header id="header">
+	<div id="up-right">
+		<div class="wrapper">
+			<ul id="right_list">
+			<li> <a target="_blank" href="/member/check/speed.php"> 线路检测 </a> </li>
+				<li> <a href="javascript:window.external.AddFavorite('http://140740.com ','美高梅娱乐城')"> 加入收藏 </a> </li>
+				<li> <a href="javascript:void(0)" ng-click="addHomePageClick()"> 设为首页 </a> </li>
+				<li> <a href="javascript:click_url('/app/member/help/dlhz.php');"> 代理合作 </a> </li>
+				<li class="lan_key"> <a target="_blank" href="/agent/agent_login.php"> 代理登入 </a> </li>
+				<li class="lan_key" property="zh-CN" title="简体中文"></li>
+				<li class="lan_key" property="zh-TW" title="繁体中文"></li>
+				<li class="lan_key" property="en-US" title="English"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div id="logo_bg"> 
+	 <script type="text/javascript" language="javascript">i('/images/logo.swf','440','78')</script>
+			 </div>
+
+		<nav id="nav">
+			<h1>主導覽列</h1>
+			<ul ng-controller="LobbiesCtrl" class="ng-scope">
+				<li> <a class="home" href="javascript:void(0);" onclick="click_url('/cl/main.php')">首页</a> </li>
+				<li> <a class="live" href="javascript:void(0);" onclick="click_url('/member/zhenren/mylive.php')">真人视讯</a>
+					<ol data-nav="Live" style="width:558px">
+					<li sub-nav="og" class="og-open" ></li>
+						<li sub-nav="sa" class="sa-open" ></li>
+						<li sub-nav="ag" class="ag-open" ></li>
+						<li sub-nav="bb" class="bbin-open" ></li>
+						<li sub-nav="gd" class="gd-open" ></li>
+						<li sub-nav="mg" class="mg-open" ></li>
+					</ol>
+				</li>
+				<li> <a class="Sport" onclick="click_url('/app/member/sport.php')" href="javascript:void(0);" >体育投注</a>
+					
+				</li>
+				<li> <a class="Game" href="javascript:void(0);" onclick="click_url('/member/zhenren/dzyx.php')">电子游艺</a>
+					<ol data-nav="Game">
+					<li sub-nav="sa" class="sa-open" ></li>
+						<li sub-nav="ag" class="ag-open" ></li>
+						<li sub-nav="bb" class="bbin-open" ></li>
+						<li sub-nav="mg" class="mg-open" ></li>
+					</ol>
+				</li>
+				<li> <a class="Lottery" onclick="click_url('/member/lottery/Cqssc.php')" href="javascript:void(0);">彩票游戏</a>
+
+				</li>
+				<li> <a class="Promotion" onclick="click_url('/cl/offer.php');return false;" href="javascript:void(0);">优惠专区</a> </li>
+				<li> <a class="Mobile" href="http://m.528198.com" target="_blank">手机投注</a> </li>
+			</ul>
+		</nav>
+	</div>
+</header>
+</body>
+</html>
+<script src="/cl/js/tools/tab.js"></script>
+<script src="/pt/assets/js/lib/sound.js"></script>
+  <script>
+    $('.ag-open-py').on('click', function(){
+        window.open('/Casino/liveLogin.php?gametype=55','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.ag-open').on('click', function(){
+        window.open('/Casino/liveLogin.php?gametype=5','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.gd-open').on('click', function(){
+        window.open('/Casino/liveLogin.php?gametype=6','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.bbin-open').on('click', function(){
+        window.open('/Casino/liveLogin.php?gametype=3','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.mg-open').on('click', function(){
+        window.open('/Casino/liveLogin.php?gametype=4','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.sa-open').on('click', function(){
+        window.open('/Casino/localIn.php?gametype=8','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+    $('.og-open').on('click', function(){
+        window.open('/Casino/localIn.php?gametype=9','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');
+    })
+</script>
+<script>
+
+    //最新消息
+   // $.ajax({
+    //    type: 'POST',
+    //    url: '?module=MGetData&method=GetHotNews&_r=' + Math.random(),
+   //     cache: false,
+   //     success: function (data) {
+    //        $('#msgNews').html(data.replace(/<\s*br\/*>/gi, "&nbsp;&nbsp;"));
+   //     }
+ //   });
+    // 密碼驗證
+    $('input[name=passwd]').LoginPW({
+        //'Upper': '提醒：密码须为小写，大写锁定启用中',
+        'Short': '密码长度不能少于6个字元',
+        'Long': '密码长度不能多于20个字元'
+        //'False': '密码须符合0~9及a~z字元'
+    });
+    function inputCheck() {
+        if (document.LoginForm.username.value == "") {
+            alert('请输入帐号!!');
+            document.LoginForm.username.focus();
+            return false;
+        } else if (document.LoginForm.passwd.value == "") {
+            alert('请输入密码!!');
+            document.LoginForm.passwd.focus();
+            return false;
+        } else if (document.LoginForm.passwd.value.length > 0 && document.LoginForm.passwd.value.length < 6) {
+            alert('密码长度不能少于6个字元');
+            document.LoginForm.passwd.focus();
+            return false;
+        } else if (document.LoginForm.rmNum.value == "") {
+            alert('请输入验证码!!');
+            document.LoginForm.rmNum.focus();
+            return false;
+        }
+        return true;
+    }
+    function Go_forget_pwd() {
+        window.open("/app/member/forget_pwd.php?uid=guest", "Go_forget_pwd", "width=350,height=250,status=no");
+    }
+
+    function Language(langx) {
+        parent.location = '".BROWSER_IP."';
+    }
+
+    function getKey() {
+        $("#vPic").attr("src",'/yzm.php?'+Math.random());
+        $("#vPic").css("display", "inline");
+        $("#crPic").css("display", "inline");
+        $("input[name='rmNum']").val("");
+    }
+    $('#ele-logo-wrap a').hover(
+        function(){
+            $(this).stop().animate({'opacity': 0}, 650);
+        }, function(){
+            $(this).stop().animate({'opacity': 1}, 650);
+        }
+    );
+
+    //下載版JS
+    function downloadvwin() {
+        window.open('/cl/?module=MRule&method=InstallationInstruction&type=download', 'downloadnew', 'width=1024,height=640,status=no,scrollbars=yes');
+    }
+
+    //文字閃爍
+    //new toggleColor('#textGlitter', ['#DD1B20', '#FDEB65'], 500);
+    new toggleColor('#textGlitter2', ['#fc9a4c','#DD1B20'], 500);
+
+    //按鈕特效
+    $('.hover_fade > a, .hover_fade > span, #event a, #joinUs a, #welcome div').hover(
+        function () {
+            $(this).stop().animate({'opacity': 0}, 650);
+        }, function () {
+            $(this).stop().animate({'opacity': 1}, 650);
+        }
+    );
+
+    $("li.LS-live, li.LS-game").subTabs();
+
+    //表單效果
+    $("#LoginForm label").InputLabels();
+
+
+    //設為首頁
+    f_com.setHomepage = function (url) {
+        if (document.all) {
+            document.body.style.behavior = 'url(#default#homepage)';
+            document.body.setHomePage(url);
+        } else {
+            alert("您的浏览器未支援此功能!");
+        }
+    };
+
+    // 加入最愛
+    f_com.bookmarksite = function (url, title) {
+        if (window.sidebar || window.opera) {
+            // for firfox
+            window.sidebar.addPanel(title, url, "");
+        } else if (document.all) {
+            // for IE
+            window.external.AddFavorite(url, title);
+        } else {
+            alert("您的浏览器未支援此功能!");
+        }
+    };
+    //-->
+</script>
+
+
+</div>
+<div id="mainFrameDiv">
+    <div style="margin: 0px auto;width:100%;" class="mainFrameDivbg" id="mainFrameDivbg">
+        <div class="mainFrameDivCenter">
+            <iframe id="mainFrame" name="mainFrame" frameBorder="0" scrolling="no" width="100%" src="/cl/main.php" allowtransparency="true" height="1000px"></iframe>
+        </div>
+    </div>
+</div>
+
+<div id="bottomFrameDiv" style="margin: 0px auto;width: 100%;">
+
+
+    
+    
+<footer id="footer">
+        <ol>
+            <li data-footer="logo">
+                <div id="footer_logo">
+                    
+                </div>
+            </li>
+            <li data-footer="menu">
+                <ul id="footer_nav">
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/aboutus.php');">关于我们</a></li>
+                    <li><a onclick="BBOnlineService();" href="javascript://">联络我们</a></li>
+                  
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/dlhz.php');">合作伙伴</a></li>
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/fzrbc.php');"> 责任博彩</a></li>
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/ck.php');">如何存款</a></li>
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/qk.php');">如何取款</a></li>
+                    <li><a href="javascript:void(0);" onclick="click_url('/app/member/help/cjwt.php');">常见问题</a></li>
+                    <li><a href="http://m.528198.com" target="_blank">手机客戶端</a></li>
+                </ul>
+                <p id="footer_suggest">
+                    <small>
+                        系统要求:本站浏览最佳分辨率为1024x768 建议使用IE 10以上浏览器或谷歌、百度等浏览器进行游戏
+                        <br>
+                        Copyright © 美高梅娱乐城 Reserved
+                    </small>
+                </p>
+            </li>
+            <li data-footer="allow">
+                <p id="footer_allow" class="wrapper"></p>
+            </li>
+        </ol>
+    </footer>    
+
+
+
+<script language="javascript">
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    
+    var left_top = 150, right_top = 150, float_list = [];
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+        float_list['0'] = $('#TplFloatPic_0');
+        float_list['1'] = $('#TplFloatPic_1');
+        for (var i in float_list) {
+            var self = float_list[i],
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top)});
+            var w = 0;
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                    $(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                    $(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+    function setHeight()
+    {
+    	$(window.parent.parent.document).find("#xubox_shade1").height($("#ss").height().toString());
+    }
+    window.onload=setHeight;
+    
+   
+
+</script>
+<!-- 
+<ul id="TplFloatPic_0" class="TplFloatSet png_fix" style="position:absolute;cursor:pointer;display:none;" picfloat="right">
+    <li><a onclick="BBOnlineService();" href="javascript://">
+    <img src="/images/right0.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/right0.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>
+    <li><a onclick="click_url('/cl/reg.php');return false;" href="javascript:void(0);">
+    <img src="/images/right1.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/right1.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>
+    <li><a onclick="click_url('/cl/offer.php');return false;" href="javascript:void(0);">
+    <img src="/images/right2.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/right2.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>
+    <li><a onclick="javascript: FloatClose(this);" href="javascript://">
+    <img src="/images/gb.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/gb.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>    
+</ul>
+
+<ul id="TplFloatPic_1" class="TplFloatSet png_fix" style="position:absolute;cursor:pointer;display:none;" picfloat="left">
+    <li>
+    <img src="/images/left0.png" align="center" alt="" class="png_fix">
+    <img src="/images/left0.png" align="center" style="display:none;" alt="" class="png_fix">
+    </li>
+    <li><a onclick="window.open('/Casino/TestlocalIn.php?gametype=5','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');return false;" href="javascript:void(0);">
+    <img src="/images/left1.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/left1.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>
+    <li><a onclick="javascript: FloatClose(this);" href="javascript://">
+    <img src="/images/gb.jpg" align="center" alt="" class="png_fix">
+    <img src="/images/gb.jpg" align="center" style="display:none;" alt="" class="png_fix"></a>
+    </li>
+
+</ul> --></div>
+<aside id="services" style="right: -143px;">
+        <h2>更多服務</h2>
+        <ul id="girl">
+            <li girl-box="01" onclick="BBOnlineService();" href="javascript://" title="在线客服"></li>
+                 <li girl-box="07" ><img src="/images/watewm.jpg" align="center" style="position: absolute;left:20px;top:35px;" alt="" class="png_fix" width="100" height="100">  </li>
+            <li girl-box="04" title="客服QQ" onclick="window.open('http://wpa.qq.com/msgrd?v=3&amp;uin=1244777888&amp;site=qq&amp;menu=yes','_open','width=588,height=486');"></li>
+            <li girl-box="05" title="易记域名">
+                <a target="_blank" href="/member/check/speed.php"></a>
+            </li>
+                <li girl-box="06" title="免费试玩"><a onclick="window.open('/Casino/TestlocalIn.php?gametype=5','newwindow','top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=yes,location=no, status=no');return false;" href="javascript:void(0);"></a></li>
+            <li id="closed" title="关闭"></li>
+        </ul>
+    </aside>
+	
+	
+		<style>
+	#services1 {
+    width: 250px;
+    height: 285px;
+    background: url('/images/528790syapp1.png') no-repeat top center;
+    text-indent: -9999px;
+    line-height: 0;
+    position: absolute;
+ 
+	right:-210px;
+    top: 400px;
+}
+	</style>
+	<!--<aside id="services1" >　</aside>-->
+
+<script type="text/javascript">
+
+    //推出美女
+    $("#services").hover(function () {
+        // $("#girl").show('slider', 1000);
+        $("#services").css("right", 0);
+    }, function () {
+        $("#services").css("right", -143);
+    });
+
+    //關閉美女
+    $("li#closed").click(function () {
+        $("#services").hide();
+    });
+
+	$("#services1").hover(function () {
+       
+        $("#services1").css("right", -10);
+    }, function () {
+        $("#services1").css("right", -210);
+    });
+	
+	
+</script>
+
+<!-- 抢红包 -->
+
+
+<div id="redbag_box">
+
+<div id="wrapper_redbag">            
+<div class="box" style="position: absolute; width: 100%; height: 100%;">      
+ <div class="demo TplFloatSet">                 
+ <a href="javascript:;" class="flipInX"><img src="/images/hg/rt-ad.gif"></a>     
+   <img src="/images/closethis.png" onclick="javascript: FloatClose(this);" style="position: absolute; right:0; top:0;cursor: pointer;" width="15" height="15">
+ </div>              
+<div id="dialogBg" style="width: 1903px; height: 511px; display: none;"></div>     
+<div id="dialog" style="width: 1903px; height: 511px; display: none;" class="animated bounceOutUp">     
+<div class="red_bg">         
+<div class="dialogTop">            
+ <a class="claseDialogBtn"></a> 
+ </div>    
+<div id="djs_redbag" class="djs"><strong>活动时间2016-10-01~2017-12-01</strong></div>   
+<div class="red_but" style="display: block;"><span id="red_sp"><img src="/images/hg/q_red.gif"></span></div> 
+<div class="red_ping hide" style="display: none;"><span id="red_sp">派奖中...请稍后</span></div> 
+<div class="ren_box" id="ren_box">                            
+<p id="qd" class="red_p"></p> 
+
+</div>                        
+ <div class="jilu">         
+<div class="jl_text str1 str_wrap noStop str_vertical">
+<div class="str_move str_origin" style="top: 95.6146px;"></div>
+</div> 
+</div>
+</div> 
+</div> 
+</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+	$("#red_sp").click(function(){
+		$.ajax({
+			type: 'POST',
+			url: 'bao.php',
+			dataType: 'json',
+			beforeSend: function(){
+				$("#qd").html('正在分配红包');
+			},
+			success: function(json){
+				var str = '';
+				var res = json.res;
+				if(json.msg==1){
+					$.each(res,function(index,array){ 
+						str += '<p>抢到<span>'+array['i']+'</span>个红包，金额<span>'+array['money']+'</span>元!</p>';
+					});
+					 $("#ren_box").addClass("show");
+					$("#qd").html(str);
+				}else if(json.msg==3){
+					str += '<p>网络堵塞，请稍后再抢!</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+				}else if(json.msg==4){
+					str += '<p>您今天已经抢过红包了！</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+				}else if(json.msg==2){
+					str += '<p>您还没登录，请登录后再抢!</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+				}else if(json.msg==5){
+					str += '<p>活动尚未开始!</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+				}else if(json.msg==10){
+					str += '<p>5秒钟内只能抢一次!</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+					 $("#ren_box").fadeOut(10000);
+					
+				}else if(json.msg==11){
+					str += '<p>充值大于10元以上才可以抢红包!</p>';
+					 $("#ren_box").addClass("show");
+					 $("#qd").html(str);
+				}
+			}
+		});
+	});
+});
+</script>
+<!-- 抢红包结束 -->
+<script type="text/javascript">
+
+
+
+
+(function ($) {
+    $.extend({
+        timer: function (action,time) {
+            var _timer;
+            if ($.isFunction(action)) {
+                (function () {
+                    _timer = setInterval(function () {
+                        action();
+                    }, time);
+                })();
+            }
+        }
+    });
+})(jQuery);
+
+clickfunction();
+function getCookie(name)
+{
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+    if(arr=document.cookie.match(reg))
+        return unescape(arr[2]);
+    else
+        return null;
+}
+
+var w,h,className;
+function getSrceenWH(){
+    w = $(window).width();
+    h = $(window).height();
+    $('#dialogBg').width(w).height(h);
+	$('#dialog').width(w).height(h);
+}
+
+window.onresize = function(){  
+    getSrceenWH();
+}  
+$(window).resize();  
+
+function clickfunction(){
+    getSrceenWH();
+    //显示弹框
+    $('.box a').click(function(){
+        className = $(this).attr('class');
+        $('#dialogBg').fadeIn(300);
+        $('#dialog').removeAttr('class').addClass('animated '+className+'').fadeIn();
+    });
+    
+    //关闭弹窗
+    $('.claseDialogBtn').click(function(){
+        $('#dialogBg').fadeOut(300,function(){
+            $('#dialog').addClass('bounceOutUp').fadeOut();
+        });
+    });
+    $(".claseDialogBtn").click(function(){
+        $("#ren_box").removeClass("show");
+        $(".jilu").removeClass("show_2");
+    });
+
+    
+}
+$(document).ready(function(){
+    $.redbag.refresh();
+    $.redbag.dtimer();
+})
+ var get_redbag = function(){
+        $.redbag.refresh();
+}
+$.timer(get_redbag, 10000);
+	
+</script>
+
+</body>
+</html>

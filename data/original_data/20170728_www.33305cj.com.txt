@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>大庄家葡京会 - 幸运大转盘 好运常相伴</title>
+<style type="text/css">
+	body {			margin: 0px;			font-size: 12px;			color:#000;			font-family:"微软雅黑","";		}	a img { border:0; }	a:active, a:focus {outline:none;}	ul,li {margin:0;padding:0;}	p{ line-height:18px; margin:10px}	.menu {			list-style:none;			margin-right:30px;			float:right;			}	.menu_li 		{			width:101px;			height:46px;			float:left;			background:url(images/menu_bg.png);			line-height:46px;			color:#fff;			font-size:14px;			text-align:center			}	.menu_li a {        color: #fff;    }	.menu_li a:hover {        color: #ffff00;    }	.step 	{			list-style:none;			width:965px;			margin:0 auto;			}	.step_li 			{			float:left;			width:305px;			height:185px;			}body,td,th {	font-family: 微软雅黑;	}a:link {	text-decoration: none;}a:visited {	text-decoration: none;}a:hover {	text-decoration: none;}a:active {	text-decoration: none;} .scrollcontainer{	width:990px;	height:185px;	overflow:hidden;	position:relative;	margin:0 auto;} .scrollcontainer ul{	list-style:none;	position:absolute;	left:0px;	top:0px;} .scrollcontainer li{	float:left;	width:330px;	height:185px;	text-align:center;}a.abtn{	position:absolute;	display:block;	margin-top:-150px;	overflow:hidden;}a.aleft{	left:100px;}a.aright{	right:100px;}.myprizelist {width: 310px;	padding: 3px;background: #FFF;border-collapse:collapse;border-spacing:0;}.myprizelist td {height: 32px;border: 1px #BDBDBD solid;text-align: center}.myprizelist .list_head {background-color: #D8D8D8}.actGotop{position:fixed;_position:absolute;bottom:180px;right:50px;width:47px;height:44px;display:none;}.actGotop a,.actGotop a:link{width:47px;height:78px;display:inline-block;background:url(/Public/Home/images/top.png) no-repeat;_background:url(/Public/Home/images/top.gif) no-repeat;outline:none;}.actGotop a:hover{background:url(/Public/Home/images/top.gif) no-repeat;outline:none;}.lottery_winners_list{ position: relative; height: 155px; overflow: hidden;}.lottery_winners_list ul{ position: absolute; width: auto; padding: 0;list-style:none;}.lottery_winners_list li{height:18px;}.lottery_winners_list li.first{ padding-left: 50px;}#lottery_winners_data td{color:#fff;}.clearfix:after { content: "\20"; display: block; height: 0; clear: both; visibility:hidden; }.clearfix { display: inline-block; } /* Hides from IE-mac\*/* html .clearfix { height: 1%; }.clearfix { display: block; } /* End hide from IE-mac*//*CSS quotes style pagination*/DIV.quotes {	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center}DIV.quotes A {	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ddd 1px solid; COLOR: #aaa; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ddd 1px solid; TEXT-DECORATION: none}DIV.quotes A:hover {	BORDER-RIGHT: #a0a0a0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #a0a0a0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a0a0a0 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #a0a0a0 1px solid}DIV.quotes A:active {	BORDER-RIGHT: #a0a0a0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #a0a0a0 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a0a0a0 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #a0a0a0 1px solid}DIV.quotes SPAN.current {	BORDER-RIGHT: #e0e0e0 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #e0e0e0 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #e0e0e0 1px solid; COLOR: #aaa; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #e0e0e0 1px solid; BACKGROUND-COLOR: #f0f0f0}DIV.quotes SPAN.disabled {	BORDER-RIGHT: #f3f3f3 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #f3f3f3 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #f3f3f3 1px solid; COLOR: #ccc; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #f3f3f3 1px solid}.ly-plate{  position:relative;  width:445px;  height:445px;  margin: 10px auto;}.rotate-bg{  width: 440px;  height: 440px;  position: absolute;  background-repeat:no-repeat;  top: 0;  left: 0;  margin-top: 0%;}.ly-plate div.lottery-star{  width:163px;  height:209px;  position:absolute;  top:115px;  left:130px;  outline:none}.ly-plate div.lottery-star #lotteryBtn{  cursor: pointer;  position: absolute;  top:0;  left:0;  *left:-107px}#msg_win{position:absolute;right:0px;display:none;overflow:hidden;z-index:99;border:1px solid #c00;background:#F9EFFC;width:240px;font-size:12px;margin:0px;} #msg_win .icos{position:absolute;top:2px;*top:0px;right:2px;z-index:9;} .icos a{float:left;color:#FFFFFF;margin:1px;text-align:center;font-weight:bold;width:14px;height:22px;line-height:22px;padding:1px;text-decoration:none;font-family:webdings;} .icos a:hover{color:#FFCC00;} #msg_title{background:#342506;border-bottom:1px solid #710B97;border-top:1px solid #FFF;border-left:1px solid #FFF;color:#FFFFFF;height:25px;line-height:25px;text-indent:5px;font-weight:bold;} #msg_content{margin:5px;margin-right:0;width:230px;height:126px;overflow:hidden;} #Notice *{color:#000;}
+</style>
+<script>
+var isStop = 0;var stopmsg = "亲~别急，请在15:00后再来抽！";</script>
+<link rel="stylesheet" href="/Public/Home/css/default.css">
+  <link rel="shortcut icon" href="/Public/Home/images/favicon.ico" />
+<script src="/Public/Home/js/artDialog.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/lottery_new.js"></script>
+<script src="/Public/Home/js/zebra_pin.js" type="text/javascript"></script>
+<script type="text/javascript" src="/Public/Home/js/Xslider.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.rotate.min.js"></script>
+<script type="text/javascript" src="/Public/Home/js/jquery.jplayer.min.js"></script>
+</head>
+<body style="overflow:scroll;overflow-x:hidden">
+<div class="" style="display: none; position: absolute;">
+	<div class="aui_outer">
+		<table class="aui_border">
+		<tbody>
+		<tr>
+			<td class="aui_nw">
+			</td>
+			<td class="aui_n">
+			</td>
+			<td class="aui_ne">
+			</td>
+		</tr>
+		<tr>
+			<td class="aui_w">
+			</td>
+			<td class="aui_c">
+				<div class="aui_inner">
+					<table class="aui_dialog">
+					<tbody>
+					<tr>
+						<td colspan="2" class="aui_header">
+							<div class="aui_titleBar">
+								<div class="aui_title" style="cursor: move; display: block;">
+								</div>
+								<a class="aui_close" href="javascript:/*artDialog*/;" style="display: block;">×</a>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="aui_icon" style="display: none;">
+							<div class="aui_iconBg" style="background-image: none; background-position: initial initial; background-repeat: initial initial;">
+							</div>
+						</td>
+						<td class="aui_main" style="width: auto; height: auto;">
+							<div class="aui_content" style="padding: 20px 25px;">
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" class="aui_footer">
+							<div class="aui_buttons" style="display: none;">
+							</div>
+						</td>
+					</tr>
+					</tbody>
+					</table>
+				</div>
+			</td>
+			<td class="aui_e">
+			</td>
+		</tr>
+		<tr>
+			<td class="aui_sw">
+			</td>
+			<td class="aui_s">
+			</td>
+			<td class="aui_se" style="cursor: se-resize;">
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</div>
+</div>
+<div class="" style="left: 0px; top: 0px; visibility: hidden; position: absolute;">
+	<table class="ui_border">
+	<tbody>
+	<tr>
+		<td class="ui_lt">
+		</td>
+		<td class="ui_t">
+		</td>
+		<td class="ui_rt">
+		</td>
+	</tr>
+	<tr>
+		<td class="ui_l">
+		</td>
+		<td class="ui_c">
+			<div class="ui_inner">
+				<table class="ui_dialog">
+				<tbody>
+				<tr>
+					<td colspan="2">
+						<div class="ui_title_bar">
+							<div class="ui_title" unselectable="on" style="cursor: move;">
+							</div>
+							<div class="ui_title_buttons">
+								<a class="ui_min" href="javascript:void(0);" title="最小化" style="display: inline-block;"><b class="ui_min_b"></b></a><a class="ui_max" href="javascript:void(0);" title="最大化" style="display: inline-block;"><b class="ui_max_b"></b></a><a class="ui_res" href="javascript:void(0);" title="还原"><b class="ui_res_b"></b><b class="ui_res_t"></b></a><a class="ui_close" href="javascript:void(0);" title="关闭(esc键)" style="display: inline-block;">×</a>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="ui_icon" style="display: none;">
+					</td>
+					<td class="ui_main" style="width: auto; height: auto;">
+						<div class="ui_content" style="padding: 10px;">
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div class="ui_buttons" style="display: none;">
+						</div>
+					</td>
+				</tr>
+				</tbody>
+				</table>
+			</div>
+		</td>
+		<td class="ui_r">
+		</td>
+	</tr>
+	<tr>
+		<td class="ui_lb">
+		</td>
+		<td class="ui_b">
+		</td>
+		<td class="ui_rb" style="cursor: se-resize;">
+		</td>
+	</tr>
+	</tbody>
+	</table>
+</div>
+<span id="dzp_model" style=" position:absolute; top:220px"></span><span id="dzp_rules" style=" position:absolute; top:820px"></span>
+<div id="pin2" style="height:90px;background-color:RGBA(51,3,4,0.4);width:100%">
+
+	<div style="width:965px;margin:0 auto;">
+		<div style="width:296px;height:74px;float:left; margin-left:30px;margin-top:5px">
+			<img src="/Public/Home/images/logo.png">
+		</div>
+		<ul class="menu" style="margin-top:30px">
+			<li class="menu_li"><a href="http://www.dzj0001.com/" target="_blank">游戏官网</a></li>
+			<li class="menu_li"><a href="http://messenger.providesupport.net/messenger/1bxs5ur0u0bbh0nrt4j9yp7uf1.html" target="_blank">在线客服</a></li>
+			<li class="menu_li"><a href="/index.php/Home/Index/index.html/#dzp_model">抽奖转盘</a></li>
+			<li class="menu_li"><a href="/index.php/Home/Index/index.html/#dzp_rules">抽奖规则</a></li>
+			<li class="menu_li"><a href="javascript:querylist();">中奖查询</a></li>
+		</ul>
+	</div>
+</div>
+<div style="background-color:#840000;">
+	<div style="padding-top:30px; background:url(/Public/Home/images/zpbg.png) top center no-repeat;">
+		<div style="height:260px;">
+		</div>
+		<div style="width:965px; height:590px;margin:0 auto;border:0px solid #fff;">
+			<div style="width:400px;float:left; margin-left:50px; margin-top:265px;">
+				<div id="msg1" style="overflow:hidden; width:350px; height:95px; margin-left:80px;text-align:left;color:#fff;">
+					<p>
+						当日有效投注达到5000以上可抽奖1次<br>
+						当日有效投注达到20000以上可抽奖2次<br>
+						当日有效投注达到50000以上可抽奖3次
+					</p>
+					<p>
+						抽奖前请仔细阅读”抽奖规则“
+					</p>
+				</div>
+				<div id="msg2" style="height:70px;">
+				</div>
+				<div id="dem" style="overflow:hidden; width:300px; height:130px; text-align:left;margin-left:87px;">
+					<div id="dem1" style="text-align:left">
+						<table id="lottery_winners_data" width="100%" border="0" cellspacing="0" cellpadding="0"><tbody></tbody></table>
+					</div>
+				
+					<script>
+//以下方法是滚动各种钥匙的中奖信息
+var MyMar;
+                
+function show_tzj(){
+    var speed=60;
+    dem2.innerHTML=dem1.innerHTML;
+    function Marquee(){
+        if(dem2.scrollHeight - dem.scrollTop <= 0){
+            dem.scrollTop = 0;  
+        }else{
+            dem.scrollTop++;
+            if(dem.scrollTop>80){
+                // scrollHeight
+            }
+        }                        
+    }
+    MyMar=setInterval(Marquee,speed);
+    dem.onmouseover=function() {clearInterval(MyMar)}
+    dem.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+}
+
+</script>
+				</div>
+			</div>
+			<div style="float:right; width:480px; margin-right:30px; margin-top:10px">
+				<!-- <div class="ly-plate">
+					<object type="application/x-shockwave-flash" id="ID_swf" name="ID_swf" data="/Public/Home/css/Roulette.swf" width="470" height="470" style="visibility: visible;"><param name="wmode" value="transparent"><param name="allowScriptAccess" value="always"><param name="flashvars" value="config=config.xml&onStart=onRouletteStart&onStop=onRouletteStop"></object>
+				</div> -->
+				<div class="ly-plate">
+				<script type="text/javascript">
+				
+				$(function(){
+				
+				$("#dzp_img").rotate({
+      angle:0, 
+      duration: 1000000000, 
+      animateTo: 2890000, //2160是要让指针旋转6圈 360
+      callback:function(){
+        
+      }
+    });
+				
+				
+				})
+ 
+</script>
+ <div class="rotate-bg"><img id="dzp_img" src="/Public/Home/images/back.png"></div>
+<script>
+$(function(){
+
+
+
+
+	var imgWid = 0 ;
+var imgHei = 0 ; //变量初始化
+var big = 1.2;//放大倍数
+$("#lotteryBtn").hover(function(){
+
+var imgWid2 = 0;var imgHei2 = 0;//局部变量
+imgWid = $('#lotteryBtn').width();
+imgHei = $('#lotteryBtn').height();
+imgWid2 = imgWid +20;
+imgHei2 = imgHei +20;
+$(this).css({"z-index":2});
+$(this).animate({"width":imgWid2,"height":imgHei2,"margin-left":-10,"margin-top":-10});
+},function(){$(this).stop().animate({"width":imgWid,"height":imgHei,"margin-left":0,"margin-top":0,"z-index":1});});
+})
+</script>
+
+  <div class="lottery-star">
+	 <div id="lottery_img" style="z-index:1;position:absolute;left:32px;top:45px;display:none">
+		<img id="lotteryLine" src="/Public/Home/images/line.png" style="width:120px;height:120px;cursor: pointer;">
+	</div>
+	<img  src="/Public/Home/images/pointer.png" onclick="playRoulette();"  id="lotteryBtn" style="position: absolute;z-index: 1;">
+  
+  </div>  
+</div>
+				<div style="height:55px;margin-top:30px; text-align:center;">
+					<a href="javascript:querylist();"><img src="/Public/Home/images/button1.png" width="245" height="55"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div style="width:962px;margin:0 auto;background:url(/Public/Home/images/cj2.jpg) top center repeat-y;">
+		<div style="background:url(/Public/Home/images/cj1.jpg) top center no-repeat;height:94px;">
+		</div>
+		<div style=" line-height:16px; color:#fff; font-size:14px;background:url(/Public/Home/images/cj2.jpg) top center repeat-y;">
+			<div style="margin:0px 40px 0px 40px;">
+<p>1、北京时间12:00到次日12:00，凡在大庄家葡京会有效投注超过5000元以上均可参与抽奖，百分百中奖最高奖金888元。有效投注达到5000以上获一次抽奖资格，打码20000以上获两次抽奖资格，有效投注50000以上获三次抽奖资格！百分百中奖，最高奖金888元，千万巨资回馈幸运玩家！</p>
+<p>2、当日的打码计算周期采用美东时间进行计算，即北京时间每天中午12点至隔天中午12点；</p>
+<p>3、如果您的当日打码达到抽奖条件，即可在隔天（第二天的北京时间中午16:00）后开始抽奖，且需在当天完成抽奖，否则视为放弃活动资格；</p>
+<p>4、每位会员每个IP当日累计抽奖次数最多为3次，如发现会员同一个IP下注册多个账号进行投注抽奖，公司有权拒绝赠送其彩金并做账号冻结处理，保证正常玩家的利益；</p>
+<p>5、获得“现金筹码”的1倍流水才能出款，获得“现金筹码”的会员无需申请，系统将在24小时内自动添加到您的会员账户内，请耐心等待；（注：当会员抽取“现金筹码”奖项，如若需放弃请联系在线客服进行处理，否则将视为您同意抽奖条件。)</p>
+<p>6、此转盘活动为【大庄家葡京会】系统程序自动运行，获奖的概率完全遵循力学及自然概率，不涉及任何人工操作，抽奖结果以系统判定为准，不得争议。</p>
+<p style="color:#ffd400; font-weight:bold; font-size:16px">
+					活动声明：
+				</p>
+<p>1、所有红利为随机派送, 如系统发生一些不可预测超出本站控制之外的技术错误, 或人为不可控制的因素, 则大庄家葡京会保留最终处理权；</p>
+<p>2、玩家不可以使用多账户参加本次活动，凡同一IP地址、同一姓名、同一银行账户，同一联系方式，同一邮箱、同一电脑均视为同一账户，“大庄家葡京会”在会员重复申请会员账号时，保留取消、收回会员相关优惠 ；</p>
+<p>3、无论是个人或团体，如有任何威胁、滥用或使用不诚实方式套利的行为，经“大庄家葡京会”风险部门审核，公司有权取消该会员所有优惠；</p>
+<p>4、本活动最终解释权归属“大庄家葡京会”所有，并保留修改以上条款的最终权利。</p>
+			</div>
+		</div>
+		<div style="background:url(/Public/Home/images/cj3.jpg) top center no-repeat;height:60px;">
+		</div>
+	</div>
+	<div style="">
+		<div style="width:965px; height:80px; margin:0 auto; color:#747474; text-align:center;">
+			<div style="text-align:center;">
+				<br>
+				<span style="color:#a9a9a9">Copyright © <span style="color:#ffd400; font-weight:bold;">大庄家葡京会</span> Reserved</span><br>
+			</div>
+		</div>
+	</div>
+<span id="sounddl" class="mp3"></span>
+<embed src="/Public/Home/images/xinshidai.mp3" loop=true autostart=true name=bgss width="0" height="0">
+</div>
+<div class="actGotop">
+	<a href="javascript:;" title="返回顶部"></a>
+</div>
+</body></html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" type="image/x-icon" href="/newdsn/images/favicon.ico" />
+<title>迪士尼彩乐园Ⅱ</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/js/jquery-ui/styles/jquery-ui.css">
+<link rel="stylesheet" href="/newdsn/css/fonts/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="/newdsn/css/sweetalert.css"  />
+<link rel="stylesheet" href="/dsnii/css/cash/main.css">
+<link rel="stylesheet" href="/dsnii/css/cash/style.css">
+<link rel="stylesheet" href="/dsnii/css/cash/index.css">
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/dialog.js"></script>
+<script type="text/javascript" src="/js/libs.js"></script>
+<script type="text/javascript" src="/newdsn/js/cash/login.js"></script>
+<script type="text/javascript" src="/newdsn/js/cash/common.js"></script>
+<script type="text/javascript" src="/newdsn/js/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="/dsnii/css/cash/jquery.bxslider.css"/>
+	<link rel="stylesheet" href="/newdsn/css/notice_popup.css"/>
+	<script type="text/javascript" src="/newdsn/js/cash/index.js"></script>
+    <script>
+        var stat1 = 25;
+        var statprogress1 = 25; // 25%, percentage
+        var stat2 = 120;
+        var statprogress2 = 65; // 65%, e
+        var stat3 = 34;
+        var affType = 0;
+    </script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '../www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-93117741-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body id="bodyid">
+<div class="top">
+        <div class="g_w1">
+            <div class="time_box">
+               <span class="date showTime"></span> 营业时间：白天07:30 - 凌晨04:00 / 全年无休
+            </div>
+            <div class="oper_box">
+                <div class="login">
+                <a href="/register"><button type="button" id="btn-register" class="btn btn-red" >注册</button></a>
+				<div class="userid form-control">
+					<input type='text' id="username" placeholder="会员账号" tabindex="1">
+				</div>
+				<div class="password form-control">
+					<input type='password' id="password" placeholder="密码" tabindex="2">
+					<a href="/forgotpwd" class="btn btn-sm btn-white">忘记?</a>
+				</div>
+				<button type="button" id="btnlogin" class="btn btn-red" tabindex="4">登录</button>
+				<button type="button" id="guestLogin" class="btn btn-blue">试玩登录</button>
+				<a target="_blank" href="https://gzzaxc820.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=783120&configID=41163&jid=9673529725&skillId=2602&s=1"><div" class="btn btn-yellow"><div style="margin-top:2px; "><img src="/dsnii/images/cash/mic.png"></div> <div style="margin-left:4px; margin-top: 0;">在线客服</div></div"></a>
+			</div>
+			<div class="header-links" style="display: none;">
+				<ul>
+					<li><span class="username"></span></li>
+					<!-- <li><span class="tesing"></span></li> -->
+					<li class="header-center"><a href="/member/index?page=center/index">个人中心</a></li>
+					<li class="header-payment"><a href="/member/index?page=payment/deposit">资金管理</a></li>
+					<li><a href="/member/index">进入游戏</a></li>
+					<li><a href="/member/logout">退出</a></li>
+				</ul>
+				<a target="_blank" href="https://gzzaxc820.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=783120&configID=41163&jid=9673529725&skillId=2602&s=1"><div" class="btn btn-yellow floatright"><div style="margin-top:2px; "><img src="/dsnii/images/cash/mic.png"></div> <div style="margin-left:4px; margin-top: 0;">在线客服</div></div"></a>
+			</div>
+            </div>
+            <div class="g_glear"></div>
+        </div>
+        <div class="g_glear"></div>
+    </div>
+    <div class="topmenu">
+        	<div class="g_w1">
+            	<div class="logo"><a href="/"><img src="/dsnii/images/cash/logo.png" alt=""/></a>
+                </div>
+                <div class="menulinks clearfix">
+                	<a href="/" class="sublinks">网站首页</a>
+                    <a href="/register" class="sublinks">开户注册</a>
+                    <a href="http://dsnfuli.co" class="sublinks" target="_blank">会员福利</a>
+                    <a href="/member/index?page=payment/deposit" class="trade sublinks">存款取款</a>
+                    <a href="/faqs" class="sublinks">常见问题</a>
+                    <a href="/mobile" class="sublinks">手机投注</a>
+                    <a href="/affindex" target="_blank" class="sublinks">加盟合作</a>
+                </div>
+            </div>
+    </div>    <div class="banner">
+        <ul class="bxslider">
+            <li style="background:url(/dsnii/images/cash/homebanner1.jpg) center center no-repeat;background-size:100%;"></li>
+            <li style="background:url(/dsnii/images/cash/homebanner2.jpg) center center no-repeat;background-size:100%"></li>
+            <li onClick="$('#popup_video, .back_body').show();" style="background:url(/dsnii/images/cash/homebanner3.jpg) center center no-repeat;background-size:100%;"></li>
+            <li onClick="javascript:void(0);" style="background:url(/dsnii/images/cash/homebanner4.jpg) center center no-repeat;background-size:100%;"></li>
+        </ul>
+    </div>
+    <div class="btncontainer">
+        <div class="g_w1 newsticker">
+            <div class="col1">
+                <div class="col_header1">
+                    <div class="iconchat1"><img src="/dsnii/images/cash/icon_chat.png" width="27" height="27" alt="" />
+                    </div>
+                    <div class="coltxt">
+                        <ul id="ticker1">
+									<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:void;"> 
+									 7月29号0点起更换新的银行卡充值卡号，请各位银行...  </a></li> 
+									<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:void;"> 
+									 迪士尼彩乐园II唯一官方导航网：www.dsn52...  </a></li> 
+									<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:void;"> 
+									 尊敬的会员:本平台快开彩单期单注不可以打9球或者1...  </a></li> 
+									<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:void;"> 
+									 尊敬的会员：因最近第三方受到风控，目前出入款可能会...  </a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col2">
+                <div class="col_header2">
+                    <div class="iconchat2"><img src="/dsnii/images/cash/icon_chat.png" width="27" height="27" alt="" />
+                    </div>
+                    <div class="coltxt" id="trans_list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="prizeinfo">
+        <div class="g_w1 clearfix" style="position:relative;">
+            <div class="newscol">
+                <div class="newstxt">会员影城</div>
+                <div class="newsimg" style='background-image: url("/dsnii/images/cash/news1.jpg");'></div>
+            </div>
+            <div class="newscol">
+            <a href="http://dsnfuli.co" target="_blank">
+                <div class="newstxt">品味情趣</div>
+                <div class="newsimg" style='background-image: url("/dsnii/images/cash/news2.jpg");'></div>
+            </a>
+            </div>
+            <div class="newscol">
+            <a href="http://dsnfuli.co/promo2.html" target="_blank">
+                <div class="newstxt">空投美女</div>
+                <div class="newsimg" style='background-image: url("/dsnii/images/cash/news3.jpg");'></div>
+            </a>
+            </div>
+            <div class="newscol">
+            <a href="http://dsnfuli.co/promo3.html" target="_blank">
+                <div class="newstxt">百万豪车</div>
+                <div class="newsimg" style='background-image: url("/dsnii/images/cash/news4.jpg");'></div>
+            </a>
+            </div>
+        </div>
+    </div>
+    <div class="gamelist">
+        <h1>热门彩种</h1>
+        <p>News and hot</p>
+        <div class="gameitms g_w1 bxslider5">
+            <a href="/member/index?lottery=HK6" target="_blank" class="iconsprite icon1"></a>
+            <a href="/member/bjl/hall?lottery=BJPK10BJL" target="_blank" class="iconsprite icon2"></a>
+            <a href="/member/index?lottery=BJPK10" target="_blank" class="iconsprite icon3"></a>
+            <a href="/member/index?lottery=F3D" target="_blank" class="iconsprite icon4"></a>
+            <a href="/member/index?lottery=GXK3" target="_blank" class="iconsprite icon5"></a>
+            <a href="/member/index?lottery=XJSSC" target="_blank" class="iconsprite icon6"></a>
+            <a href="/member/index?lottery=TJSSC" target="_blank" class="iconsprite icon7"></a>
+            <a href="/member/index?lottery=GD11X5" target="_blank" class="iconsprite icon8"></a>
+            <a href="/member/index?lottery=BJKL8" target="_blank" class="iconsprite icon9"></a>
+            <a href="/member/index?lottery=PL3" target="_blank" class="iconsprite icon10"></a>
+            <a href="/member/index?lottery=CQSSC" target="_blank" class="iconsprite icon11"></a>
+            <a href="/member/index?lottery=GDKLSF" target="_blank" class="iconsprite icon12"></a>
+            <a href="/member/index?lottery=GXKLSF" target="_blank" class="iconsprite icon13"></a>
+            <a href="/member/index?lottery=XYNC" target="_blank" class="iconsprite icon14"></a>
+            <a href="/member/index?lottery=AULUCKY5" target="_blank" class="iconsprite icon15"></a>
+            <a href="/member/index?lottery=AULUCKY8" target="_blank" class="iconsprite icon16"></a>
+            <a href="/member/index?lottery=AULUCKY10" target="_blank" class="iconsprite icon17"></a>
+            <a href="/member/index?lottery=AULUCKY20" target="_blank" class="iconsprite icon18"></a>
+            <a href="/member/index?lottery=PCEGG" target="_blank" class="iconsprite icon19"></a>
+            <a href="/member/index?lottery=PK10JSC" target="_blank" class="iconsprite icon20"></a>
+            <a href="/member/index?lottery=SSCJSC" target="_blank" class="iconsprite icon21"></a>
+            <a href="/member/index?lottery=GXK3" target="_blank" class="iconsprite icon22"></a>
+
+        </div>
+    </div>
+
+    <div class="borderbtmgrey">
+        <div class="g_w1">
+            <img src="/dsnii/images/cash/mainpageadv.jpg" />
+        </div>
+    </div>
+
+    <div class="prodcontainer borderbtmgrey">
+
+        <div class="g_w1">
+            <div class="col1">
+                <div class="spechd clearfix">
+                    <div class="spectxt">
+                        <h1>服务优势</h1>
+                        <p>Service advantages</p>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <p>存款到账
+                            <br>平均时间</p>
+                    </div>
+                    <div class="specright mr10">
+                        <div class="number1" id="count1">0</div>
+                        <div class="number1txt">秒</div>
+                    </div>
+                    <div class="marker1">
+                        <img src="/dsnii/images/cash/marker.jpg" />
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar1"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft fl mr20">
+                        <p>取款到账
+                            <br>平均时间</p>
+                    </div>
+                    <div class="specright fl mr20">
+                        <div class="number1" id="count2">0&lsquo;00</div>
+                        <div class="number1txt">分</div>
+                    </div>
+                    <div class="marker2">
+                        <img src="/dsnii/images/cash/marker.jpg" />
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar2"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft2">
+                        <div class="cci_title">便捷的银行服务</div>
+                        <p class="card_count">目前我们支付机构有</p>
+                    </div>
+                    <div class="specright mr65">
+                        <div class="number1 bank_number" id="count3">0</div>
+                        <div class="number1txt bank_numbertxt">家</div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="divider"></div>
+            <div class="col2">
+                <div class="spechd clearfix">
+                    <div class="spectxt">
+                        <h1>产品优势</h1>
+                        <p>Product advantages</p>
+                    </div>
+                </div>
+
+                <div class="specdetail2 mt35">
+                    <div class="cci_title">手机客户端</div>
+                    <p>独家提供苹果/安卓客户端
+                        <br>您可以通过手机客户端畅玩所有彩票游戏。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">手机触屏版</div>
+                    <p>专注彩票，独家提供手机触屏网页版，
+                        <br>无需下载，打开网页即可下注畅玩，兼容完美。</p>
+                </div>
+                <div class="specdetail2">
+                    <div class="cci_title">彩票百家乐平台</div>
+                    <p>独家开发北京赛车百家乐，业界最公平
+                        <br>的百家乐游戏，5分钟一期、先开
+                        <br>奖开牌再对牌。</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="col3">
+                <div class="spechd clearfix">
+                    <div class="spectxt">
+                        <img src="/dsnii/images/cash/lionimg.jpg" class="fl ml20">
+                        <div class="cci_title2">会员大额提现
+                            <br>均可在澳门威尼斯人酒店提现。
+                            <br>单日可提款</div>
+                        <span class="textbig fl fontred">1000</span>
+                        <div class="cci_title2 fl">万人民币。</div>
+                    </div>
+                </div>
+
+                <div class="divider2"></div>
+
+                <div class="spechd clearfix">
+                    <div class="spectxt">
+                        <h1>牌照</h1>
+                        <p>License</p>
+                    </div>
+                </div>
+
+                <div class="specdetail2">
+                    <div class="fontred cci_title2">迪士尼彩乐园Ⅱ
+                        <br> 由菲律宾政府颁发合法牌照，
+                        <br>由PAGCOR部门授权及监管。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="back_body" style="display:none;" onClick="$('#popup_video').children('iframe').attr('src', $('#popup_video').children('iframe').attr('src'));$('#popup_video, .back_body').hide();"></div>
+    <div id="popup_video" class="popup_video">
+        <iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=p03972tll8k&amp;tiny=0&amp;auto=0" allowfullscreen></iframe>
+    </div>
+    <div id="iosInst" class="popup_app_inst">
+        <img src="/newdsn/images/cash/ios_inst.png" usemap="#iosmap">
+        <map name="iosmap">
+            <area shape="rect" coords="217,13,429,52" href="javascript:showAppInstruction('androidInst','iosInst')">
+        </map>
+    </div>
+    <div id="androidInst" class="popup_app_inst">
+        <img src="/newdsn/images/cash/android_inst.png" usemap="#androidmap">
+        <map name="androidmap">
+            <area shape="rect" coords="6,13,216,51" href="javascript:showAppInstruction('iosInst','androidInst')">
+        </map>
+    </div>
+    <div class="back_body1" style="display:none;" onClick="hideAppInstruction()"></div>
+<link rel="stylesheet" href="/newdsn/css/cash/phoneback.css">
+<div class="footerlink">
+    <div class="g_w1 borderbtmgreydot">
+        <a href="/faqs">如何存款</a>
+        <a href="/faqs">如何提款</a>
+        <a href="/faqs">隐私及政策</a>
+        <a href="/faqs">联系我们</a>
+        <a href="/faqs">规则与条款</a>
+    </div>
+</div>
+
+<div>
+    <div class="g_w1 borderbtmgreydot">
+        <img src="/dsnii/images/cash/footerlogo.jpg" />
+    </div>
+</div>
+<div class="footerindex2">
+    ©2013-2020  迪士尼彩乐园Ⅱ。All Rights Reserved.
+</div>
+  <div class="left_adv">
+    <a href="http://dsn520.com" target="_blank"><img src="/dsnii/images/MQ2.png"></a>
+  </div>
+<div class="socialnavi">
+	<div class="wechatqr">
+		<img src="https://img.sg88.ws/dsn2/wechat_qr1.png" alt="" />
+	</div>
+
+	<div class="phonebackqr" style="display: none;"><p>提交回电请求</p></div>
+	<div class="qq" onClick="javascript:window.open('','_blank')"></div>
+	<div class="wechat" onClick="javascript:void(0);"></div>
+	<div class="livechat" onClick="javascript:window.open('https://gzzaxc820.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=783120&configID=41163&jid=9673529725&skillId=2602&s=1','_blank')"></div>
+	<div>
+		<a href="javascript:void(0);" onClick="scrolltop();" class="scrolltop">
+			<img src="/newdsn/images/cash/support_top.png" width="50" height="50" alt="" />
+		</a>
+	</div>
+</div>
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/newdsn/js/cash/plugins.js"></script>
+<script src="/newdsn/js/cash/phoneback.js"></script>
+<script src="/dsnii/js/cash/main.js"></script>
+</body>
+
+</html>

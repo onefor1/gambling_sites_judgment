@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="icon" type="image/x-icon" href="/newdsn/images/favicon.ico" />
+<title>迪士尼彩乐园官网-专注彩票-为人类建乐园</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/js/jquery-ui/styles/jquery-ui.css">
+<link rel="stylesheet" href="/newdsn/css/fonts/stylesheet.css">
+<link rel="stylesheet" href="/newdsn/css/cash/main.css">
+<link rel="stylesheet" href="/newdsn/css/cash/style.css">
+<link rel="stylesheet" href="/newdsn/css/cash/index.css">
+<script src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/dialog.js"></script>
+<script type="text/javascript" src="/js/libs.js"></script>
+<script type="text/javascript" src="/newdsn/js/cash/login.js"></script>
+<script type="text/javascript" src="/newdsn/js/cash/common.js"></script>	<link rel="stylesheet" href="/newdsn/css/cash/jquery.bxslider.css"/>
+	<link rel="stylesheet" href="/newdsn/css/notice_popup.css"/>
+	<script type="text/javascript" src="/newdsn/js/cash/index.js?v=0121"></script>
+		<script>
+			var stat1 = 25;
+			var statprogress1 = 25;  // 25%, percentage
+			var stat2 = 120;
+			var statprogress2 = 65;  // 65%, e
+			var stat3 = 34;
+			var affType = 0;
+		</script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-93117741-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+    </head>
+    <body id="bodyid">
+<div class="top">
+        <div class="g_w1">
+            <div class="time_box">
+               <span class="date showTime"></span> 营业时间：白天07:30 - 凌晨04:00 / 全年无休
+            </div>
+            <div class="oper_box">
+                <div class="login">
+                <a href="/register"><button type="button" id="btn-register" class="btn btn-red" >注册</button></a>
+				<div class="userid form-control">
+					<input type='text' id="username" placeholder="会员账号" tabindex="1">
+				</div>
+				<div class="password form-control">
+					<input type='password' id="password" placeholder="密码" tabindex="2">
+					<a href="/forgotpwd" class="btn btn-sm btn-white">忘记?</a>
+				</div>
+				<button type="button" id="btnlogin" class="btn btn-red" tabindex="4">登录</button>
+				<button type="button" id="guestLogin" class="btn btn-blue">试玩登录</button>
+				<a target="_blank" href="https://gzzaxc826.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=737177&configID=40879&jid=1682755682&s=1"><div" class="btn btn-yellow"><div style="margin-top:2px; "><img src="/newdsn/images/cash/mic.png"></div> <div style="margin-left:4px; margin-top: 0;">在线客服</div></div"></a>
+			</div>
+			<div class="header-links" style="display: none;">
+				<ul>
+					<li><span class="username"></span></li>
+					<!-- <li><span class="tesing"></span></li> -->
+					<li class="header-center"><a href="/member/index?page=center/index">个人中心</a></li>
+					<li class="header-payment"><a href="/member/index?page=payment/deposit">资金管理</a></li>
+					<li><a href="/member/index">进入游戏</a></li>
+					<li><a href="/member/logout">退出</a></li>
+				</ul>
+				<a target="_blank" href="https://gzzaxc826.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=737177&configID=40879&jid=1682755682&s=1"><div" class="btn btn-yellow floatright"><div style="margin-top:2px; "><img src="/newdsn/images/cash/mic.png"></div> <div style="margin-left:4px; margin-top: 0;">在线客服</div></div"></a>
+			</div>
+            </div>
+            <div class="g_glear"></div>
+        </div>
+        <div class="g_glear"></div>
+    </div>
+    <div class="topmenu">
+        	<div class="g_w1">
+            	<div class="logo"><a href="/"><img src="/newdsn/images/cash/logo.png" width="244" height="59" alt=""/></a>
+                </div>
+                <div class="menulinks clearfix">
+                	<a href="/" class="sublinks">网站首页</a>
+                    <a href="/register" class="sublinks">开户注册</a>
+                    <a href="/promo" class="sublinks">优惠活动</a>
+                    <a href="/member/index?page=payment/deposit" class="trade sublinks">存款取款</a>
+                    <a href="/faqs" class="sublinks">常见问题</a>
+                    <a href="/mobile" class="sublinks">手机投注</a>
+                    <a href="http://dsnag.com" target="_blank" class="sublinks">加盟合作</a>
+                </div>
+            </div>
+    </div>        <div class="banner">
+        	<ul class="bxslider">
+				<li style="background:url(/newdsn/images/cash/homebanner.jpg) center center no-repeat;"></li>
+				<li onClick="$('#iosInst, .back_body1').show();" style="background:url(/newdsn/images/cash/homebanner4.jpg) center center no-repeat;"></li>
+				<li style="background:url(/newdsn/images/cash/homebanner2.jpg) center center no-repeat;"></li>
+				<li onClick="$('#popup_video, .back_body').show();" style="background:url(/newdsn/images/cash/homebanner3.jpg) center center no-repeat;"></li>
+                <li style="background:url(/newdsn/images/cash/homebanner2.jpg) center center no-repeat;"></li>
+            </ul>
+        </div>
+        <div class="btncontainer">
+        	<div class="g_w1">
+                <div class="btnclose">
+                </div>  
+            </div>
+        </div>
+        <div class="prizeinfo">
+       	  <div class="g_w1 clearfix" style="height: 41px;position:relative;">
+                <img src="/newdsn/images/cash/dot.png" width="217" height="13" style="position: absolute; left: 392px; top: 90px;">
+                <div class="col1">
+                    <div class="col_header1">
+                    	<div class="iconchat1"><img src="/newdsn/images/cash/icon_chat.png" width="27" height="27" alt=""/></div>
+                      <div class="coltxt">
+                      		<ul id="ticker1">
+                      		 
+							<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:;"> 
+							 尊敬的会员，谢谢大家一直以来支持，为了对大家更加好...  </a></li> 
+
+							<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:;"> 
+							 尊敬的会员，再次提示：本平台快开彩单期单注不可以打...  </a></li> 
+
+							<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:;"> 
+							 尊敬的会员！本平台推出永久易记域名：(dsn00....  </a></li> 
+
+							<li><a onclick="dialog.open('公告','/noticelist',800,400,1)" href="javascript:;"> 
+							 尊敬的会员！由于部分地区登陆官网主域名卡，现在请记...  </a></li> 
+                            </ul>
+                      </div>
+               	  </div>
+               	  <div class="col_subhead">
+                   	<div class="col_icon1">
+                   	  		<img src="/newdsn/images/cash/icon_prize1.png" width="60" height="60" alt=""/> 
+                   	  </div>
+                        <div class="col_headtxt1"><img src="/newdsn/images/cash/header_prize1.png" width="121" height="26" alt=""/></div>
+               	  </div>
+                    
+                    <div class="col_img">
+                    	<a href="http://dishini.ph" target="_blank">
+                    	<ul class="bxslider2" style="padding-top:10px;">
+                          <li ><div class="prizecontainer">
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/1.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/2.png" width="126" height="126" alt="" class="clearfix"/>
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/3.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                        </div></li>
+                          <li ><div class="prizecontainer">
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/4.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/5.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/6.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                        </div></li>
+                        <li ><div class="prizecontainer">
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/7.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/8.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                          <div class="divider2"></div>
+                          <div class="col1">
+                            <img src="https://img.sg88.ws/newdsn/9.png" width="126" height="126" alt="" class="clearfix"/> 
+                          </div>
+                        </div></li>
+                        </ul>
+                        </a>
+                    </div>
+            </div>
+                
+                <div class="col2">
+                	<div class="col_header2">
+                    	<div class="iconchat2"><img src="/newdsn/images/cash/icon_chat.png" width="27" height="27" alt=""/></div>
+                        <div class="coltxt" id="trans_list">
+                       </div>
+                    </div>
+                    <div class="col_subhead2">
+                   	  <div class="col_icon2">
+                   	  		<img src="/newdsn/images/cash/icon_prize2.png" width="60" height="60" alt=""/> 
+                   	  </div>
+                        <div class="col_headtxt2"><img src="/newdsn/images/cash/header_prize2.png" width="104" height="26" alt=""/></div>
+                  	</div>
+                    
+                     <div class="col_img2">
+                               <div class="prizecontainer2" style="padding-top:10px;">
+                                    <div class="col1"><img src="/newdsn/images/cash/prize2.jpg" width="182" height="154" alt=""/></div>
+                                    <div class="col2">
+                                    	<ul class="bxslider3">
+                                        	<li><a href="/promo" target="_blank">
+                                            <h1>迪士尼彩乐园</h1>
+                                            <h2>敬请期待，更多活动...</h2>
+                                            <p>时间：2017-1-28至<script language="javascript">document.write(getLastDay(2017,1))</script>截止</p>
+                                            </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+               	     </div>
+                </div>
+                
+         	 </div>
+        </div>
+        
+		<div class="gamelist">
+			<div class="gameitms g_w1 bxslider5">
+				<a href="/member/bjl/hall?lottery=BJPK10BJL" target="_blank" class="bjpk10bjl"></a>
+				<a href="/member/index?lottery=PCEGG" target="_blank" class="pcegg"></a>
+				<a href="/member/index?lottery=SSCJSC" target="_blank" class="sscjsc"></a>
+				<a href="/member/index?lottery=PK10JSC" target="_blank" class="pk10jsc"></a>
+				<a href="/member/index?lottery=AULUCKY5" target="_blank" class="aulucky5"></a>
+				<a href="/member/index?lottery=AULUCKY8" target="_blank" class="aulucky8"></a>
+				<a href="/member/index?lottery=AULUCKY10" target="_blank" class="aulucky10"></a>
+				<a href="/member/index?lottery=AULUCKY20" target="_blank" class="aulucky20"></a>
+				<a href="/member/index?lottery=BJPK10" target="_blank" class="bjpk10"></a>
+				<a href="/member/index?lottery=QCSSC" target="_blank" class="cqssc"></a>
+				<a href="/member/index?lottery=HK6" target="_blank" class="hk6"></a>
+				<a href="/member/index?lottery=XYNC" target="_blank" class="xync"></a>
+				<a href="/member/index?lottery=GXK3" target="_blank" class="gxk3"></a>
+				<a href="/member/index?lottery=GD11X5" target="_blank" class="gd11x5"></a>
+				<a href="/member/index?lottery=CQSSC" target="_blank" class="cqssc"></a>
+				<a href="/member/index?lottery=XJSSC" target="_blank" class="xjssc"></a>
+				<a href="/member/index?lottery=TJSSC" target="_blank" class="tjssc"></a>
+				<a href="/member/index?lottery=GDKLSF" target="_blank" class="gdklsf"></a>
+				<a href="/member/index?lottery=GXKLSF" target="_blank" class="gxklsf"></a>
+				<a href="/member/index?lottery=F3D" target="_blank" class="f3d"></a>
+				<a href="/member/index?lottery=PL3" target="_blank" class="pl3"></a>
+            </div>
+        </div>
+        
+        <div class="prodcontainer">
+        	<div class="g_w1">
+            	<div class="col1">
+               	  <div class="spechd clearfix">
+                    	<div class="specicon">
+                   	    <img src="/newdsn/images/cash/icon_service.jpg" width="46" height="51" alt=""/> </div>
+                        <div class="spectxt">
+                        	<h1>服务优势</h1>
+                            <p>Service advantages</p>
+                        </div>
+                    </div>
+                  	<div class="specdetail">
+                   	  <div class="specleft">
+                       	<div class="cci_title">存款到账</div>
+                        <p>平均时间</p>
+                      </div>
+                    	<div class="specright">
+                        	<div class="number1" id="count1">0</div><div class="number1txt">秒</div>
+                        </div>
+                    </div>
+                    <div class="specgraph">
+                    	<div class="stats1"><div class="stats2" id="bar1"></div></div>
+                    </div>
+                  <div class="specdetail">
+                   	  <div class="specleft">
+                       	<div class="cci_title">取款到账</div>
+                        <p>平均时间</p>
+                      </div>
+                    	<div class="specright">
+                        	<div class="number1" id="count2">0&lsquo;00</div><div class="number1txt">分</div>
+                        </div>
+                    </div>
+                    <div class="specgraph">
+                    	<div class="stats1"><div class="stats2" id="bar2"></div></div>
+                    </div>
+                	<div class="specdetail">
+                    	<div class="specleft2">
+                       		<div class="cci_title">便捷的银行服务</div>
+                        	<p><img src="/newdsn/images/cash/creditcard.jpg" width="118" height="26" alt=""/></p>
+							<p class="card_count">目前我们支付机构有：</p>
+                        </div>
+                        <div class="specright">
+                        	<div class="number1 bank_number" id="count3">0</div><div class="number1txt bank_numbertxt">家</div>
+                        </div>
+                    </div>
+                
+                
+                </div>
+                <div class="divider"></div>
+                <div class="col2">
+                	<div class="spechd clearfix">
+                    	<div class="specicon2">
+                   	    <img src="/newdsn/images/cash/icon_advantage.jpg" width="49" height="49" alt=""/> </div>
+                        <div class="spectxt">
+                        	<h1>产品优势</h1>
+                            <p>Product advantages</p>
+                        </div>
+                    </div>
+                  	
+                	<div class="specdetail2">
+                       	<div class="cci_title">手机客户端</div>
+                        <p>独家提供苹果/安卓客户端，您可以通过手机客户端畅玩所有彩票游戏。</p>
+                    </div>
+                    <div class="specdetail2">
+                       	<div class="cci_title">手机触屏版</div>
+                        <p>专注彩票，独家提供手机触屏网页版，无需下载，打开网页即可下注畅玩，兼容完美。</p>
+                    </div>
+                    <div class="specdetail2">
+                       	<div class="cci_title">彩票百家乐平台</div>
+                        <p>独家开发北京赛车百家乐，业界最公平的百家乐游戏，5分钟一期、先开奖开牌再对牌。</p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="col3">
+                	<div class="spechd clearfix">
+                    	<div class="specicon2">
+                   	    <img src="/newdsn/images/cash/icon_lion.jpg" width="49" height="49" alt=""> </div>
+                        <div class="spectxt">
+                   	    <img src="/newdsn/images/cash/lionimg.jpg"> 
+                        	<h2>会员大额提现均可在<br>澳门<span class="orange">威尼斯人酒店</span>提现。</h2>
+                            <p>单日可提款<span class="orange textbig">1000</span>万人民币。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="spechd clearfix">
+                    	<div class="specicon2">
+                   	    <img src="/newdsn/images/cash/icon_licience.jpg" width="49" height="49" alt=""/> </div>
+                        <div class="spectxt">
+                        	<h1>牌照</h1>
+                            <p>License</p>
+                      </div>
+                    </div>
+                  	
+                    <div class="specdetail2">
+                        <p style="margin:0;color:#2161b3;">迪士尼彩乐园</p>
+                        	<p style="color:#2161b3;">由菲律宾政府颁发合法牌照，<br/>
+                        	由PAGCOR部门授权及监管。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blueline">
+        </div>
+        
+        <div class="prodcontainer prodcontainer2">
+			<div class="g_w1">
+				<div class="col1">
+					<div class="spechd clearfix">
+						<div class="specicon">
+							<img src="/newdsn/images/cash/icon_innovative.jpg" alt="">
+						</div>
+						<div class="spectxt">
+							<h1>最新最热</h1>
+							<p>Newest</p>
+						</div>
+					</div>
+					<div class="specfull">
+						<div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 263px;">
+							<ul class="bxslider4" style="width: auto; position: relative;">
+								<li>
+									<img src="/newdsn/images/cash/innovative1.jpg" alt="">
+									<div class="specdetail">
+										<div class="cci_title">极速赛车, 极速时时彩, 上线啦！</div>
+										<p>极速赛车和极速时时彩是引进欧洲博彩公司开奖设备，由菲律宾博彩执照公司审核监控，联合开发的彩票游戏，保证公平公正。</p>
+									</div>
+								</li>
+								<li>
+									<img src="/newdsn/images/cash/innovative2.jpg" alt="">
+									<div class="specdetail">
+										<div class="cci_title">极速赛车, 极速时时彩, 上线啦！</div>
+										<p>业界最公平公正，开奖时间，北京时间(GMT+8) 每天从早上07:29:15到凌晨03:59:15, 每75秒开一期, 全天开奖985期。</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+                <div class="divider"></div>
+                <div class="col2">
+                	<div class="spechd clearfix">
+                    	<div class="specicon2">
+                   	    <img src="/newdsn/images/cash/icon_partner.jpg" width="49" height="49" alt=""> </div>
+                        <div class="spectxt">
+                        	<h1>合作伙伴</h1>
+                            <p>Partners</p>
+                        </div>
+                    </div>
+                  	
+                	<div class="specdetail2">
+               	    <img src="/newdsn/images/cash/payment.jpg" width="190" height="192" alt=""> </div>
+                </div>
+                <div class="divider"></div>
+                <div class="col3">
+                	<div class="spechd clearfix">
+                    	<div class="clearfix">
+                            <div class="specicon2">
+                            <img src="/newdsn/images/cash/icon_guide.jpg" width="49" height="49" alt=""> </div>
+                            <div class="spectxt clearfix">
+                                <h1>使用帮助</h1>
+                                <p>Guide</p>
+                            </div>
+                        </div>
+                        <div class="specdetail2 mt10">
+                        	<div class="col1"><p><a href="/faqs">如何存款</a><br><a href="/faqs">如何提款</a></p></div>
+                            <div class="col2"><p><a href="/faqs">隐私及政策</a></p></div>
+                            <div class="col3"><p><a href="/faqs">联系我们</a><br><a href="/faqs">规则与条款</a></p></div>
+                        </div>
+                        <div class="greyline"></div>
+                        <div class="specdetail2">
+                        	<div class="cci_title">推荐浏览器</div>
+                            <p><a href="http://www.firefox.com.cn/" target="_blank">火狐浏览器</a><br><a href="http://rj.baidu.com/soft/detail/14744.html?ald" target="_blank">谷歌浏览器</a><br><a href="http://rj.baidu.com/soft/detail/23356.html?ald" target="_blank">IE 9 以上浏览器</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="back_body" style="display:none;" onClick="$('#popup_video').children('iframe').attr('src', $('#popup_video').children('iframe').attr('src'));$('#popup_video, .back_body').hide();"></div>
+            <div id="popup_video" class="popup_video">
+	            <iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=p03972tll8k&tiny=0&auto=0" allowfullscreen></iframe>
+			</div>
+				<div id="iosInst" class="popup_app_inst">
+					<img src="/newdsn/images/cash/ios_inst.png" usemap="#iosmap">
+					<map name="iosmap">
+					  <area shape="rect" coords="217,13,429,52" href="javascript:showAppInstruction('androidInst','iosInst')">
+					</map>
+				</div>
+				<div id="androidInst" class="popup_app_inst">
+					<img src="/newdsn/images/cash/android_inst.png" usemap="#androidmap">
+					<map name="androidmap">
+					  <area shape="rect" coords="6,13,216,51" href="javascript:showAppInstruction('iosInst','androidInst')">
+					</map>
+				</div>
+			<div class="back_body1" style="display:none;" onClick="hideAppInstruction()"></div>
+<link rel="stylesheet" href="/newdsn/css/cash/phoneback.css">
+<div class="footernavi2">
+        	<div class="footercontainer bothborder">
+            	<div class="col4 borderleft borderright">
+                	<div class="footercontent">
+						<!--<a href="https://1380tt.com" target="_blank"><img src="/newdsn/images/cash/footerlogo1.jpg" width="151" height="80" alt=""></a>-->
+                    </div>
+              	</div>
+                <div class="col5 borderleft borderright">
+                	<div class="footercontent">
+						<!--<a href="http://sgwin123.com" target="_blank"><img src="/newdsn/images/cash/footerlogo2.jpg" width="168" height="80" alt=""></a>-->
+                  	</div>
+                </div>
+                <div class="col6 borderleft borderright">
+                	<div class="footercontent">
+						<!--<a href="http://168kai.com/" target="_blank"><img src="/newdsn/images/cash/footerlogo3.jpg" width="160" height="80" alt=""></a>-->
+               	  </div>
+                </div>
+            </div>
+        </div> 
+        <div class="footerindex2">
+            ©2013-2016  迪士尼彩乐园。All Rights Reserved.
+         </div>
+  <div class="left_adv">
+    <a href="https://1380tt.com" target="_blank"><img src="/newdsn/images/MQ2.png"></a>
+    	<div><img src="/newdsn/images/cash/app_qrcode.png"><div>
+  </div>
+
+<div class="socialnavi">
+	<div class="wechatqr">
+		<img src="http://img.qq168.ws/dsn/wechat_qr1.png" alt="" />
+	</div>
+	<div class="downloadqr" style="display: none;"><p>下载迪士尼网址<br>
+防劫持发布器</p></div>
+	<div class="phonebackqr" style="display: none;"><p>提交回电请求</p></div>
+	<div class="qq" onClick="javascript:window.open('http://wpa.qq.com/msgrd?v=3&uin=1131138320&site=qq&menu=yes','_blank')"></div>
+	<div class="wechat" onClick=""></div>
+	<div class="livechat" onClick="javascript:window.open('https://gzzaxc826.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=737177&configID=40879&jid=1682755682&s=1','_blank')"></div>
+	<div class="download" onClick="javascript:window.open('http://soft.320app.com/','_blank')"></div>
+	<div>
+		<a href="javascript:;" onClick="scrolltop();" class="scrolltop"><img src="/newdsn/images/cash/support_top.png" width="50"
+			height="50" alt="" /></a>
+	</div>
+
+</div>
+<script src="/js/jquery.bxslider.min.js"></script>
+<script src="/newdsn/js/cash/plugins.js"></script>
+<script src="/newdsn/js/cash/phoneback.js"></script>
+<script src="/newdsn/js/cash/main.js?v=1226"></script>    </body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>波音平台|波音娱乐|波音赌场_澳门唯一官网指定平台开户注册网址</title>
+    <meta content="波音平台,波音娱乐,波音赌场" name="keywords" />
+    <meta content="波音平台记录线上真人提供最新体育新闻,波音娱乐记录现金开户让您了解一手体育新闻、波音娱乐记录线上网址、波音赌场录投注、波音平台记录安全吗信赖等娱乐资讯，赌博记录现金投注和明星资料。线上记录是权威专业体育新闻资讯网站。" name="description" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="robots" content="noarchive">
+<link rel="stylesheet" rev="stylesheet" href="/templates/new_tp803/css/default.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="/templates/new_tp803/css/index.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="/templates/new_tp803/css/css.css" type="text/css" media="all" />
+<script type="text/javascript" src="/templates/new_tp803/img/jquery.min.js"></script>
+<script src="/scripts/common.js" language="javascript" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".tab_content").hide(); 
+	$("ul.tabs li:first").addClass("active").show(); 
+	$(".tab_content:first").show(); 
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); 
+		$(this).addClass("active"); 
+		$(".tab_content").hide(); 
+		var activeTab = $(this).find("a").attr("href"); 
+		$(activeTab).fadeIn(); 
+		return false;
+	});
+});
+</script>
+</head>
+<body>
+<div class="wray">
+<div class="wrap">
+<div class="cl"></div>
+<table id="top" width="1003" height="27" border="0" cellpadding="0" cellspacing="0" align="center" background="/templates/new_tp803/images/top1.jpg" style="border-bottom: 1pt solid #cacaca; border-top: 1pt solid #cacaca; margin:0 auto;">
+                <tr>
+                    <td width="19" height="27">
+                    </td>
+                    <td width="22" height="27" class="clock">
+                    </td>
+                    <td width="210" height="27">
+                        <b>
+                            <script type="text/javascript">
+                                function y2k(number) { return (number < 1000) ? number + 1900 : number; }
+                                var now = new Date();
+                                var dd = now.getDate(), mt = now.getMonth() + 1, yy = y2k(now.getYear()), weekVal = now.getDay();
+                                if (weekVal == 0)
+                                    msg1 = "星期日";
+                                else if (weekVal == 1)
+                                    msg1 = "星期一";
+                                else if (weekVal == 2)
+                                    msg1 = "星期二";
+                                else if (weekVal == 3)
+                                    msg1 = "星期三";
+                                else if (weekVal == 4)
+                                    msg1 = "星期四";
+                                else if (weekVal == 5)
+                                    msg1 = "星期五";
+                                else if (weekVal == 6)
+                                    msg1 = "星期六";
+                                document.write('<font color=#000><font face="宋体" style="font-size:12px;">');
+                                document.write(yy + "年" + mt + "月" + dd + "日" + "</font></font>");
+                                document.write('<font color=#000><font face="宋体" style="font-size:12px;">');
+                                document.write(" " + msg1 + "</font></font>");
+                            </script>
+                            <script language="JavaScript" type="text/javascript"> 
+document.write(" </font></TT>"); 
+-- end Date --> 
+                            </script>
+                        </b>
+                    </td>
+                    <td width="89" height="27">
+                    </td>
+                    <td width="16" height="27"  class="searching">
+                    </td>
+                    <td width="63" height="27">
+                        站内搜索：
+                    </td>
+                    <td>
+                        <input type="text" style="border: 1px solid #c2c2c2; width: 125px; height: 17px;" onkeydown="CheckSearch()" onclick="Clear();" name="word";id="word" value="波音平台"/>
+                    </td>
+                    <td width="4" height="27">
+                    </td>
+                    <td width="69" height="27">
+                        <select style="width: 68px;">
+                            <option value="1">名称</option>
+                        </select>
+                    </td>
+                    <td width="10" height="27">
+                    </td>
+                    <td>
+                        <input type="image" src="/templates/new_tp803/images/top3.jpg" onclick="search();" style="cursor: pointer;" />
+                    </td>
+                    <td width="297" height="27" style="text-align: right; padding-right: 10px;">
+                        <a href="#" onclick="this.style.behavior='url(#default#homepage)';this.sethomepage(top.location);return false;" target="_top">设为首页</a>&nbsp;|&nbsp;<a href="javascript:window.external.AddFavorite(location.href,document.title)" title="将本站加入到您的收藏夹" target="_top">加入收藏</a>&nbsp;|&nbsp;<a href="http://www.inzimi.com/" target="_blank" class="mainkeyword">波音平台</a>
+                    </td>
+                </tr>
+            </table>
+
+<div class="opp">
+<div class="swfby h">
+<div class="R top1r"><ul><a href="/" style="margin:0 1px 0 1px;"></a><a href="/" style="margin:0 0 0 0;"></a></ul></div>
+</div>
+<div class="top">
+<div class="nav"><ul>
+	<li class="index"><a href="/" class="a1" onFocus="this.blur()">首 页</a></li>
+    <li id="s2"><a href="/" class="a2" onFocus="this.blur()">服务项目</a></li>
+    <li id="s3"><a href="/" class="a3" onFocus="this.blur()">新闻中心</a></li>
+    <li id="s4"><a href="/" class="a4" onFocus="this.blur()">客户案例</a></li>
+    <li id="s5"><a href="/" class="a5" onFocus="this.blur()">常见问题</a></li>
+	<li id="s6"><a href="/" class="a6" onFocus="this.blur()">联系方式</a></li>
+</ul></div></div>
+<div class="swfbx h">
+		<ul><img src="/templates/new_tp803/img/302.gif" border="0"></ul>
+</div>
+</div>
+
+<div class="middlec h">
+<div class="ibott h">
+
+<div class="l left h">
+<div class="left1 h">
+<script type="text/javascript" src="/tools/advert_js.ashx?id=1"></script>
+</div>
+<div class="left3 h">
+&nbsp;&nbsp;&nbsp;
+			印姿美是一家传承韩国丝网技术精髓和设计创意理念，<span style="font-size:16px;background-color:#60D978;"><a href="http://www.inzimi.com/" target="_blank">波音平台</a></span>以印刷、喷涂为主要生产工艺，集产品研发、生产、销售为一体的室内装饰材料科技型企业。<span style="font-size:16px;background-color:#FFE500;">波音娱乐</span>公司视企业信誉和产品质量为生命，以“制造精品”为己任，把“产品人性化”理念贯彻于每一环节。<span style="font-size:16px;background-color:#00D5FF;">波音赌场</span>期待与海内外更广泛合作伙伴携手，共谋发展、共同进步
+</div>
+</div>	
+
+
+	<div class="l right h">
+<div class="l rightm h">
+<div class="l rightm1 h">
+          <div id="news h">
+		  <div class="container">
+			 <ul class="tabs">
+			  <li class="first" ><a href="#tab1" hidefocus="true">新闻中心</a></li>
+			  <li><a href="#tab2" hidefocus="true">产品知识</a></li>
+			 </ul>
+			  <div class="more"></div>
+
+            <div class="cl"></div>
+			
+			<div class="tab_container">
+              <div id="tab1" class="tab_content">
+                <ul class="news">				
+					            
+</ul>
+              </div>
+              <div id="tab2" class="tab_content">
+                <ul class="news">
+				
+
+				  
+</ul>
+              </div>
+            </div><div class="cl"></div>
+          </div></div>
+</div>
+
+<div class="l rightm2 h">
+<div class="l gwznl h">留言反馈</div>
+<div class="l gwzn h">
+<ul>
+<form name="form" action="" method="get">
+<li>您的姓名：<input type="text" maxlength="10" name="u" id="username" size="21"  /></li>
+<li>联系方式：<input type="text" maxlength="10" name="n" id="nlr" size="21" /></li>
+<li>	
+    留言内容：<textarea name="l" id="lr" class="guend"></textarea>
+</li>
+<li><input type="submit" value=" 提 交 " style="float:right; margin-right:50px; margin-top:0px;" /></li>
+</form>
+</ul>
+
+</div>
+</div>
+</div></div>
+
+</div></div></div>
+<div class="l ddsx h">
+<p align="center">
+                <script language="javascript">
+    function gowhere1(formname) {
+        var url;
+        if (formname.myselectvalue.value == "0") {
+            url = "http://www.baidu.com/baidu";
+            document.search_form1.tn.value = "baidu";
+            formname.method = "get";
+        }
+        if (formname.myselectvalue.value == "1") {
+            url = "http://mp3.baidu.com/m";
+            document.search_form1.tn.value = "baidump3";
+            document.search_form1.ct.value = "134217728";
+            document.search_form1.lm.value = "-1";
+        }
+
+        if (formname.myselectvalue.value == "4") {
+            document.search_form1.tn.value = "news";
+            document.search_form1.cl.value = "2";
+            document.search_form1.rn.value = "20";
+            url = "http://news.baidu.com/ns";
+        }
+        if (formname.myselectvalue.value == "5") {
+            document.search_form1.tn.value = "baiduiamge";
+            document.search_form1.ct.value = "201326592";
+            document.search_form1.cl.value = "2";
+            document.search_form1.lm.value = "-1";
+            url = "http://image.baidu.com/i";
+        }
+        if (formname.myselectvalue.value == "6") {
+            url = "http://post.baidu.com/f";
+            document.search_form1.tn.value = "baiduPostSearch";
+            document.search_form1.ct.value = "352321536";
+            document.search_form1.rn.value = "10";
+            document.search_form1.lm.value = "65536";
+        }
+
+        formname.action = url;
+        return true;
+    }
+</script>
+<form name="search_form1" target="_blank" onsubmit="return gowhere1(this)">
+<table width="460" height="60" border="0" bgcolor="#FFFFFF" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <table width="460" height="60" border="0" cellpadding="0" cellspacing="0">
+                <input name="myselectvalue" type="hidden" value="0">
+                <input name="tn" type="hidden">
+                <input name="ct" type="hidden">
+                <input name="lm" type="hidden">
+                <input name="cl" type="hidden">
+                <input name="rn" type="hidden">
+                <tr>
+                    <td width="8%" valign="bottom">
+                        <div align="center">
+                            <a href="http://www.baidu.com/">
+                                <img src="http://img.baidu.com/img/logo-80px.gif" alt="Baidu" align="bottom" border="0"></a></div>
+                    </td>
+                    <td valign="bottom" width="92%">
+                        <input name="myselect" onclick="" javascript:this.form.myselectvalue.value="4;" type="radio"
+                            value="0">
+                        <font color="#0000cc" style="font-size: 12px">新闻</font>
+                        <input checked name="myselect" onclick="" javascript:this.form.myselectvalue.value="0;"
+                            type="radio" value="0">
+                        <span class="f12"><font color="#0000cc" style="font-size: 12px">网页</font></span>
+                        <input name="myselect" onclick="" javascript:this.form.myselectvalue.value="1;" type="radio"
+                            value="1">
+                        <span class="f12"><font color="#0000cc" style="font-size: 12px">音乐</font></span>
+                        <input name="myselect" onclick="" javascript:this.form.myselectvalue.value="6;" type="radio"
+                            value="0">
+                        <font color="#0000cc" style="font-size: 12px">贴吧</font>
+                        <input name="myselect" onclick="" javascript:this.form.myselectvalue.value="5;" type="radio"
+                            value="0">
+                        <font color="#0000cc" style="font-size: 12px">图片</font>
+                        <table align="right" border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <font style="font-size: 12px">
+                                            <input id="word" name="word" size="40" value="波音平台">
+                                        </font>
+                                        <input type="submit" value="百度搜索">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</form>
+
+</p>
+</div> 
+<div class="bottom h tc">
+<span>
+友情链接：
+
+<a href="http://www.baidu.com" target="_blank" title="百度">百度</a>&nbsp;&#8250;&nbsp;
+                     					
+</span><br />
+Copyright 2016-2020<a href="/">波音平台|版权所有,未经授权禁止复制或镜像,本站保留所有权利.
+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+</div></div>
+
+<div style="display:none;""><script language="javascript" src="/scripts/tongji.js"></script></div>
+</body>
+</html>

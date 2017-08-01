@@ -1,0 +1,2466 @@
+<!-- 0.750891 --><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cn">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <base href="https://vip.trueflip.io/newico/">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1" />
+        <title>Token Sale True Flip</title>
+        <meta name='description' content="True Flip -史上第一比特币区块浏览器彩卷 " />
+        <meta name="keywords" content="" />
+        <link rel="icon" type="image/png" href="/img/lottery-ball-1.png" />
+        <link rel="stylesheet" type="text/css" href="css/ico.min.css?v60b2191674fbed0d1a871370a923cee9" />
+        <meta property="og:site_name" content="True Flip">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="True Flip -史上第一比特币区块浏览器彩卷 ">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="https://trueflip.io/img/top-block-bg.jpg" >
+        <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter45031783 = new Ya.Metrika({ id:45031783, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true, ecommerce:"dataLayer" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/45031783" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-97077357-2', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1451519901833082'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1451519901833082&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- DO NOT MODIFY -->
+        <!-- End Facebook Pixel Code -->
+    </head>
+    <body class="loaded">
+        <script type="text/javascript">
+            var current_language = 'cn';
+            var nextDate_ts = 1501272000;
+            var prdt = new Date(nextDate_ts*1000);
+            var nextDate = prdt.toString();
+            var ico_start_ts = 1501322400;
+            var icostrtdt = new Date(ico_start_ts*1000);
+            var BTC_DASH = 0.0670428789;
+            var BTC_LTC = 0.0143941695;
+            var BTC_ETH = 0.0676963582;
+            var icoinfo = {
+                totaltokens: 21000000,
+                tokenprice: 0.0005, //BTC
+                forsale: 13902860
+            };
+        </script>
+        <!-- START BODY -->
+        <div class="main-wrapper">
+            <!-- START CONTENT -->
+            <main class="content">
+                <div class="main-screen main-screen_dashboard">
+                    <div class="wrapper">
+                        <div class="banner-prof" id="buytfltokens"><img src="img/prof-img.png" alt=""></div>
+		<img src="img/flipper.png" alt="" class="flipper">
+		<h2>Crowdsale dashboard</h2>
+		<script type="text/javascript">
+			var t_btc_a = 1873;
+			var t_bonus = 0.2;
+		</script>
+		<div class="eth_tfl">
+			Send ETH to smart contract directly without registering <a href="#" onclick="ico.fn.ethbranch(); return false;">SEND DIRECTLY</a>
+			<span>OR</span>
+		</div>
+		<div class="dashboard-form clearfix">
+				<div class="box-qty">
+						<div class="box-qty-form">
+								<input type="text" name="q" id="amount_TFL_to_buy" value="10000" class="box-qty-form__input">
+								<div class="box-qty-form__btns">
+										<a href="#" class="qty-plus"></a>
+										<a href="#" class="qty-minus"></a>
+								</div>
+						</div>
+						<p>1 TFL = 0.0005 BTC</p>
+				</div>
+				<div class="box-bonus">
+						<div class="box-bonus__block">+3000 TFL</div>
+						<p class="p-desktop">CURRENT BONUS: +20%</p>
+							<p class="p-mobile">+20% BONUS</p>
+				</div>
+				<div class="box-select">
+						<select name="s">
+								<option value="BTC" class="val_in inbtc">5.0000 BTC</option>
+								<option value="LTC" class="val_in inltc">10.0000 LTC</option>
+								<option value="ETH" class="val_in ineth">15.0000 ETH</option>
+								<option value="DASH" class="val_in indash">20.0000 DASH</option>
+						</select>
+						<p style="font-weight:500;color: #fff; font-size:14px; margin:0; padding:0;">CHOOSE CURRENCY</p>
+				</div>
+				<div class="box-btn">
+						<a href="#modal-step-01" class="btn btn-orange btn-orange-full fancybox">BUY</a>
+				</div>
+		</div>
+
+        <div class="qr_code">
+            <span class="title">WeChat Trueflip</span>
+            <a href="#modal-wechat" class="image fancybox"><img src="/img/qrcode.png"></a>
+        </div>
+
+		<div class="box-dashboard-list">
+				<ul class="dashboard-list">
+						<li class="dashboard-fill" style="width:38.478589734131%"></li>
+						<!--li class="dashboard-list__item dashboard-list__item_finished"-->
+							<li class="dashboard-list__item">
+								<div class="dashboard-item-top">0</div>
+								<div class="dashboard-item-bottom"><i class="hide-mobile">0.0005 BTC </i><span>+30% <i class="hide-mobile">TFL</i> Bonus</span></div>
+						</li>
+						<li class="dashboard-list__item">
+								<div class="dashboard-item-top">1000 BTC</div>
+								<div class="dashboard-item-bottom"><i class="hide-mobile">0.0005 BTC </i><span>+20% <i class="hide-mobile">TFL Bonus</i></span></div>
+						</li>
+						<li class="dashboard-list__item">
+								<div class="dashboard-item-top">2000 <i class="hide-mobile">BTC</i></div>
+								<div class="dashboard-item-bottom"><i class="hide-mobile">0.0005 BTC </i><span>+10% <i class="hide-mobile">TFL Bonus</i></span></div>
+						</li>
+						<li class="dashboard-list__item">
+								<div class="dashboard-item-top">3000 <i class="hide-mobile">BTC</i></div>
+								<div class="dashboard-item-bottom"><i class="hide-mobile">0.0005 BTC </i><span>+5% <i class="hide-mobile">TFL Bonus</i></span></div>
+						</li>
+						<li class="dashboard-list__item">
+								<div class="dashboard-item-top">5000 <i class="hide-mobile">BTC</i></div>
+								<div class="dashboard-item-bottom"><i class="hide-mobile">0.0005 BTC </i><span class="nobonus">No Bonuses</span></div>
+
+						</li>
+						<li class="dashboard-list__item dashboard-list__item_last">
+								<div class="dashboard-item-top">6125 <i class="hide-mobile">BTC</i></div>
+
+						</li>
+				</ul>
+
+				<div class="dashboard-list-text">The Token Sale will last for 30 days (or until all the tokens are sold) with the bonus amount decrease according to acquried amount of BTC as shown on the above Token sale progress bar. At the end of the Token Sale the remaining unsold tokens will be burned and share of all Token holders will be proportionally increased.</div>
+		</div>
+		<div class="dashboard-statistic">
+				<div class="dashboard-statistic-col">
+						<div class="dashboard-statistic-col__icon statistic-sold"></div>
+						<div class="dashboard-statistic-col__text">
+								Total sold<br>
+								<b>5,906,337</b> TFL<br>
+								<span>of 14,700,000</span>
+						</div>
+				</div>
+				<div class="dashboard-statistic-col">
+						<div class="dashboard-statistic-col__icon statistic-participants"></div>
+						<div class="dashboard-statistic-col__text">
+								Participants<br>
+								<b>1592</b>
+						</div>
+				</div>
+				<div class="dashboard-statistic-col">
+						<div class="dashboard-statistic-col__icon statistic-timer"></div>
+						<div class="dashboard-statistic-col__text">
+								Token Sale will end in
+								<div class="dashboard-timer block-time">
+										<div class="timer" data-date="2017-07-30 00:00:00"></div>
+								</div>
+						</div>
+				</div>
+		</div>
+
+		<div class="block-invested">
+				<div class="block-invested__title"><span>TOTAL CONTRIBUTED
+					<span class="sums_invested">1873.93 BTC / 5,218,318 USD</span>
+					</span>
+
+				</div>
+				<ul class="invested-list">
+						<li class="invested-list__item">
+								<span class="invested-icon"><i class="icon-bitcoin"></i></span>
+								<span class="invested-list__title">1115.83 BTC</span>
+						</li>
+						<li class="invested-list__item">
+								<span class="invested-icon"><i class="icon-litecoin"></i></span>
+								<span class="invested-list__title">614.790 LTC</span>
+						</li>
+						<li class="invested-list__item">
+								<span class="invested-icon"><i class="icon-ethereum"></i></span>
+								<span class="invested-list__title">9224.286 ETH</span>
+						</li>
+						<li class="invested-list__item">
+								<span class="invested-icon"><i class="dashico"></i></span>
+								<span class="invested-list__title">126.669 DASH</span>
+						</li>
+				</ul>
+		</div>
+
+                    </div>
+                </div>
+                <div class="stat-banner">
+                    <div class="wrapper">
+                        <div class="stat-table-wrapper">
+                            <img src="img/robot.png" alt="" class="robot">
+                            <div class="stat-table">
+                                <div class="stat-table__col stat-table-title">数据统计 </div>
+                                <div class="stat-table__col">
+                                    Beta版本 
+                                    <span>20.04.2017</span>
+                                </div>
+                                <div class="stat-table__col">
+                                    大奖现状 
+                                    <span>60.405 BTC</span>
+                                </div>
+                                <div class="stat-table__col">
+                                    参于者 
+                                    <span>130715</span>
+                                </div>
+                                <div class="stat-table__col">
+                                    已售彩卷 
+                                    <span>163547</span>
+                                </div>
+                                <div class="stat-table__col">
+                                    赢得 
+                                    <span>44.443 BTC</span>
+                                </div>
+                                <div class="stat-table__col">
+                                    <a href="https://trueflip.io/#reg" target="_blank" onclick="ico.fn.metrik_events_trigger('play_now_tapped');" class="btn btn-orange btn-orange-full btn-orange-border btn-play">购买彩卷 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-faq">
+		<div class="wrapper">
+				<h2>True Flip Token sale FAQ</h2>
+				<div class="fqwr">
+					<ul class="accordion">
+							<li>
+								<a href="#" class="js-accordion-link">How to receive TFL Token, if I purchased them via BTC, LTC, Dash or through Token holders panel?</a>
+            		<div><a href="https://ico.trueflip.io/Redeem%20Instruction.pdf" target="_blank">Redeem Instruction</a> (PDF 651,6 KB)</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">How can users be sure the winning numbers are generated exactly by the code placed on Github?</a>
+            		<div>If you want to make sure, it’s easy to do: just follow the link (https://trueflip.io/check-honesty?lang=en). There you can insert the hash of the block that has provided the winning numbers previously – at the moment of the draw we do not know what the exact block will look like. Thus you will see the same numbers, that have won in the draw connected to this block. Otherwise, just show our Github to your IT support:)</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">What is your country of residence?</a>
+            		<div>True Flip resides in Costa Rica. In accordance with the local legislation, online lottery companies are not prohibited.</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">Why did you decide not to integrate Waves platform to conduct the Token sale?</a>
+            		<div>We have decided not to integrate Waves so far as we cannot guarantee the required level of stability in separate aspects in case we deal with two platforms at the same time. Therefore, only ETH-based tokens.</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">What exchanges are going to list TFL tokens?</a>
+            		<div>For the present date we are not able to post a 100% guaranteed list of all exchanges we plan to work with as multiple talks are in progress now. Though the TFLs WILL definitely appear at least on several exchanges within two weeks after the end of crowdsale. Yet we do not know the exact amount of exchanges we are going to be listed on.</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">What is going to happen in case you are not able to collect the estimated funds?</a>
+            		<div>We will continue developing TrueFlip with any Token sale results. After the end of Token Sale the remaining unsold tokens will be burned and share of all Token holders will be proportionally increased. However, we already have a sufficient number of preliminary agreements with contributors involved, which allows us to count on the worthy results of the crowd sale :)</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">I am a US citizen. Can I participate?</a>
+            		<div>Unfortunately the US citizens are not allowed to participate in the Token sale due to the country laws (which we respect).</div>
+							</li>
+							<li>
+								<a href="#" class="js-accordion-link">How do i participate?</a>
+            		<div>In general, you have 2 ways:
+You can go to token.trueflip.io when the crowdsale starts and buy tokens by clicking BUY TOKENS button (your account funds will be used if there are any) or just use smart contract on the Token sale page (no existing account needed in this case, but this works only with Ethereum coins).</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">I have bought tokens using Token sale page with coins other than ETH. My transaction was confirmed by network but I still have not recieved any tokens on my Trueflip account. How can this issue be solved?</a>
+            		<div>Please have some patience. If your account has not been refilled within 24-hour period, please contact support.</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">I am trying to make purchase using my contributor profile but the system shows "Pending" message. Is that alright?</a>
+            		<div>Yes, that if fine. Do not worry, you will have your tokens shown on the account. Just have some patience please.</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">My transaction was already confirmed but I cannot see any changes on my Trueflip account. Is it normal?</a>
+            		<div>Please have some patience. If your account has not been refilled within 24-hour period, please contact support.</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">Can I keep my tokens safe and sound on the True Flip website?</a>
+            		<div>Yes, you can definitely keep your tokens on the True Flip website. We provide 2FA authentication. We take wallet security really seriously and constantly working on its improvement, providing the safety of your assets.</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">I sent ETH from my personal wallet directly to smart contract address and I have still not received my tokens back. Do I need to do anything?</a>
+            		<div>In this case you will get your tokens on your wallet. You just need to wait a little and add an alternative address for TFL token (find it in the bottom right section where you can add a custom token http://take.ms/0wvwQ http://take.ms/eNz0e) using the following details:
+address: 0xa7f976C360ebBeD4465c2855684D1AAE5271eFa9
+Token symbol: TFL
+decimals: 8</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">Can I use any ETH wallet to send money directly to smart contract address?</a>
+            		<div>We recommend the following wallets: Mist, MyEtherWallet, Metamask or Parity</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">Can I refill my balance using any wallet, including directly from exchanges option?</a>
+            		<div>You can refill your balance on your profile from any wallet of the according currency including exchanges.
+But in case you would like to send funds directly to smart contract which will distribute tokens afterwards (to speed up the procedure of token purchase), we recommend you to use only trusted wallets. Mist, MyEtherWallet, Metamask or Parity are among them.</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">What I need to join Token sale?</a>
+            		<div>- to have a registered account? to refill the balance? to provide my eth wallet address? 
+You are welcome to use the official guide manual which we have developed especially for you: https://trueflip.io/TrueFlip%20Token%20Sale%20Guide.pdf</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">In case you transferred funds directly to the ETH address (not using BUY TOKENS button in the Contributor profile) - they should have already arrived in your wallet by this moment.</a>
+            		<div>In case you used Contributor profile, please refer to the guide manual below to ensure you have your tokens purchased, as web interface may be subject to showing incorrect data. That works if you previously put an ETH wallet address for withdrawal. If not, you will need to wait until we add a form for this (shortly we will).</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">What happens if I do not specify wallet address?</a>
+            		<div>from 29.06 you will be able to add ETH address to your Contributor profile to withdraw TFL tokens</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">To get 30% bonus, do I have to contribute in BTC? If I contribute in LTC, will I get the 30% bonus? Thanks.</a>
+            		<div>Bonus does not depend on the way you purchase TFL tokens. We personally recommend ETH -> smart contract. This way you will receive tokens much faster</div>
+							</li>
+							<li class="all_faq">
+								<a href="#" class="js-accordion-link">Please guide me to get my tokens to MyEtherWallet</a>
+            		<div>To receive your TFL token on your MyEtherwallet.com you need to:
+1) Open your wallet
+2) Find in the bottom right section where you can add a custom token 
+- http://take.ms/0wvwQ
+- http://take.ms/eNz0e
+3) Add data:
+- address: 0xa7f976C360ebBeD4465c2855684D1AAE5271eFa9
+- Token symbol: TFL
+- decimals: 8</div>
+							</li>
+					</ul>
+					<a href="#" onclick="$('.all_faq').show(); $(this).hide(); return false;" class="faq_all">Show all</a>
+				</div>
+		</div>
+</div>
+<div class="qr_code bg-gray">
+    <div class="wrapper">
+        <span class="title">WeChat Trueflip</span>
+        <a href="/img/qrcode.png" class="image"><img src="/img/qrcode.png"></a>
+    </div>
+</div>
+
+                <section class="section-blog" id="blog">
+                    <div class="wrapper">
+                        <h3 class="title title_white">阅读我们的博客 </h3>
+                        <div class="block-blog">
+                            <div class="block-blog__col">
+                                <div class="blog-item">
+                                    <div class="blog-item__image" style="background:url(https://steemitimages.com/DQmXEwV4wGpWgYkYhJKwm9Jq88LFYN3syMmW7D4bM2QtX1b/FlipsChest_Landing_screen.png) no-repeat left top; background-size: cover;">
+
+                                        <div class="blog-item__bottom-black"></div>
+                                        <a href="http://steemit.com/blockchain/@trueflip/the-flip-s-chest" target="_blank" class="blog-item__name">The Flip's Chest</a>
+                                    </div>
+                                    <div class="blog-item__info">Hi!
+
+This day brings another portion of good news! We are ready to show the first demo of Flip’s Chest, a new instant game upcoming on True Flip. With it’s progressive Jackpot size, multiple winning...</div>
+                                </div>
+                            </div>
+                            <div class="block-blog__col">
+                                <div class="blog-item">
+                                    <div class="blog-item__image" style="background:url(https://steemitimages.com/DQmUfDS8WDgXpmimrfWbbBB2pYuQgHSGDB6sqmuVVPuCRTS/photo_2017-07-25_21-14-19.jpg) no-repeat left top; background-size: cover;">
+
+                                        <div class="blog-item__bottom-black"></div>
+                                        <a href="http://steemit.com/blockchain/@trueflip/the-figures" target="_blank" class="blog-item__name">The %% - why we love True Flip (and why you should)</a>
+                                    </div>
+                                    <div class="blog-item__info">Hello!
+
+We love stats, as that’s the best proof of fairness and transparency, and we hope so do you. Here’re some of the interim results to date:
+
+
+
+There're also numerous stories with people buying...</div>
+                                </div>
+                            </div>
+                            <div class="block-blog__col">
+                                <div class="blog-item">
+                                    <div class="blog-item__image" style="background:url(https://steemitimages.com/DQmPVyzpavYxtzQPXKyCrtmK9p2XBFqjbphv42hS6q9Cgtp/bbitcoinn.png) no-repeat left top; background-size: cover;">
+
+                                        <div class="blog-item__bottom-black"></div>
+                                        <a href="http://steemit.com/blockchain/@trueflip/the-vote-2" target="_blank" class="blog-item__name">The vote - 2</a>
+                                    </div>
+                                    <div class="blog-item__info">Hi there!
+
+While the True Flip Steemit Challenge goes on, we are glad to note the significant interest paid by community here. Now we have over 450 comments in the voting post, so let this be the seco...</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <a href="https://steemit.com/@trueflip" target="_blank" class="btn btn-border btn-border-white">最新消息 </a>
+                        </div>
+                    </div>
+                </section>
+                <div class="box-video" id="about">
+                    <div class="wrapper">
+                        <div class="video__title">
+                            <h1>我们的目标是成为世界上最大, 最流行和绝对透明的比特币区块浏览器彩卷 </h1>
+                            <p>大多数现有彩票完全集中于政府持有，几乎不透明。我们希望建立TrueFlip 为一个公平的彩票平台。 绝对不是任何国家或单一的权威持有，也不是我们团队成员所能控制的。 </p>
+                            <a href="#video" class="link-border scroll"><i class="icon-whatch"></i><span>观看介绍视频 </span></a>
+                        </div>
+                        <div class="video-player" id="video">
+                            <div class="video-player__img">
+                                <img src="img/video-player-bg.png" alt="">
+                            </div>
+                            <div class="video-player__link">
+                            	<a href="#" class="video-player__icon js-video" data-src="https://www.youtube.com/embed/BXYjfpXIwX4?autoplay=1">
+                            			<i class="icon-play"></i>
+                            	</a>
+                            </div>
+                            <div id="videoIframe"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-step">
+                	<div class="wrapper">
+                		<div class="video-step-list">
+	                		<div class="video-step__col">
+	                			<h4 class="video-step__title">首次抽奖已开始 </h4>
+	                			<p>True Flip是一个比特币区块浏览器彩票平台。我们开发了一个于比特币为主的公平 6/49（Power ball）彩卷。这是开发的第一个阶段，工作以在进行。 
+	                			<a href="https://trueflip.io/#reg" target="_blank" class="link-border"><span>用免费彩卷试试 </span><i class="icon-arrow"></i></a></p>
+	                		</div>
+	                		<div class="video-step__col">
+	                			<h4 class="video-step__title">最大透明度 </h4>
+	                			<p>为了以最好的方式完成我们的使命，我们使整个彩票结构完全透明：每张售票，每一场抽奖，所有TFL代币持有人的奖励分配，财务业绩都将在比特币区块浏览器公布。 </p>
+	                		</div>
+	                		<div class="video-step__col">
+	                			<h4 class="video-step__title">独立 </h4>
+	                			<p>第二个勃大的目标是使True Flip平台成为可能的分散化。我们还打算使用分散的托管和多个数据中心，以便避免 停机危机。我们将在白皮书中描述细节。 </p>
+	                		</div>
+	                		<div class="video-step__col">
+	                			<h4 class="video-step__title">伟大的将来 </h4>
+	                			<p>开始的第一步，我们要创建TrueFlip代币，授予TFL代币持有人获得每日奖励的权利，并授权他们对彩票的未来发展进行投票。我们计划至少制作3个彩票游戏：即时，小时彩票和优质大奖游戏。 </p>
+	                			</div>
+	                		</div>
+	                		<div class="btn-wrap">
+                                            <a href="https://trueflip.io/info/about" onclick="ico.fn.metrik_events_trigger('learn_more_tapped');" target="_blank" class="btn btn-border">游览 </a>
+	                		</div>
+	                	</div>
+                </div>
+                <div class="box-roadmap" id="roadmap">
+                    <div class="wrapper">
+                        <h2 class="title title_white">蓝图 </h2>
+                        <ul class="roadmap-list">
+                            <li class="roadmap-list__item roadmap-list__item_finished">
+                                <div class="roadmap-item-top">概念 + MVP <span>阶段 0 </span></div>
+                                <div class="roadmap-item-bottom">3个月发展期间 </div>
+                            </li>
+                            <li class="roadmap-list__item roadmap-list__item_finished">
+                                <div class="roadmap-item-top">推出测试 <span>阶段 1 </span></div>
+                                <div class="roadmap-item-bottom">售出十万彩卷 </div>
+                            </li>
+                            <li class="roadmap-list__item roadmap-list__item_finished">
+                                <div class="roadmap-item-top">预售 <span>阶段 2 </span></div>
+                                <div class="roadmap-item-bottom">吸引了100比特币投资金额 </div>
+                            </li>
+                            <li class="roadmap-here"><span>我们在此 </span></li>
+                            <li class="roadmap-list__item">
+                                <div class="roadmap-item-top">代币销售 <span>阶段 3 </span></div>
+                                <div class="roadmap-item-bottom roadmap-item-bottom_large">6125比特币目标 </div>
+                            </li>
+                            <li class="roadmap-list__item">
+                                <div class="roadmap-item-top">发展与营销 <span>阶段 4 </span></div>
+                                <div class="roadmap-item-bottom">3个额外的彩卷 一千万张彩卷售出 <span>2017年 4季度 </span></div>
+                            </li>
+                            <li class="roadmap-list__item">
+                                <div class="roadmap-item-top">分散式平台 <span>阶段 5 </span></div>
+                                <div class="roadmap-item-bottom">最大透明度 <span>2018年 1季度 </span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <section class="section-roadmap-info">
+                    <div class="wrapper clearfix">
+                        <div class="info-col text">
+                            <div class="text-title">我们与其他彩卷的区别 </div>
+                            <p>我们在售卖TFL代币之前已经做出了这个彩卷产品，而不像其他只承诺将来开发某些产品的竞争者。  <a href="https://trueflip.io/" target="_blank" class="link-border"><span>试试看 !</span></a></p>
+
+
+                            <div class="text-title">为什么我们仍然需要出售TFL代币？ </div>
+                            <p>［大奖］彩票只有在有大奖的情况下才会很有趣 - 所以我们想通过TFL代币销售活动为大奖筹集3,000BTC。大奖将被安置在寒冷（离线）的钱包上，并使用涉及三个社区利益相关者的多重签名托管服务，而开发团队则无法吞拿这笔钱。所以当有人幸运赢得大奖时，我们才会安排奖金转移。 </p>
+                            <p>［透明度］我们想要向比特币区块浏览器证明我们的游戏是公平的。在这个时刻，TrueFlip没有100％分散。我们的团队知道这一点，并计划如何使TrueFlip尽可能多的分散化。我们的下一个目标是使彩票独立于任何第三方（包括团队）。 </p>
+                            <p>［发展］我们计划开发3个更酷的彩票。我们将在白皮书中描述。 </p>
+                            <p>［营销与公关］我们知道，如果没有营销预算，一个项目难以吸引数百万的客户。所以，销售TFL代币将为全球营销活动组合预算。我们有一个有效的营销策略。 </p>
+
+                            <a href="https://trueflip.io/ico_/report/gantt.html" onclick="ico.fn.metrik_events_trigger('grantt_diagam_tapped');" target="_blank" class="btn btn-border btn-border-white" target="_blank">甘特图 </a>
+                        </div>
+                        <div class="info-col text">
+                            <div class="text-title">下一步 </div>
+                            1）系统重构。 2）付款处理： - ETH和LTC钱包，用于票据和TFL代币购买。 - Visa和万事达卡处理。 3）各种有趣插件： - 中文，葡萄牙语，德语和法语本地化; - 门票批发：您可以购买未来抽奖（最多60天）。 - 终身图纸广播。 4）True Flip平台内的3个新彩票。 5）分散平台： - 在TFL代币销售后将在在线交易所上市的Ethereum代币。 TFL代币还将有权从其所有售票中获得奖金。 - 制定在现有比特币区块浏览器（Ethereum）上记录所有采票，抽奖结果和付款的选项。 - 为True Flip平台开发分散式虚拟主机。 - 智能合同整合 
+                             <a href="https://trueflip.io/ico_/report/index.html" target="_blank" class="btn btn-border btn-border-white"  target="_blank">全面的项目管理报告 </a>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="section-white-paper" id="whitepaper">
+                    <div class="wrapper">
+                        <h2 class="title">白皮书 </h2>
+                        <div class="box-download">
+                            <a href="https://trueflip.io/TrueFlip Whitepaper(01.06).pdf" target="_blank" class="btn btn-orange btn-orange-full">下载 </a>
+                            <p>PDF, 1325 KB</p>
+                        </div>
+                        <div class="title-small">分发 TFL代币 </div>
+                        <div class="structure-tokens">
+                            <div class="token-line-btns clearfix">
+                                <div class="token-btn">已销售 </div>
+                                <div class="token-btn token-btn_right">团队奖金 </div>
+                                <div class="token-btn token-btn_center">Bounty, Advisory<br>& Escrow</div>
+                            </div>
+                            <div class="token-line-2 clearfix">
+                                <div class="token-line-2__item">70%</div>
+                                <div class="token-line-2__item">20%</div>
+                                 <div class="token-line-2__item token-line-2__item_center">10%</div>
+                            </div>
+                            <div class="token-line-3">
+                                <div class="token-btn-double">
+                                    <div class="token-btn-double__top">21 000 000 TFL</div>
+                                    <div class="token-btn-double__bottom">目标 6,125 比特币 </div>
+                                </div>
+                            </div>
+                            <div class="token-line-4 clearfix">
+                                <div class="token-line-4__item">50-80%</div>
+                                <div class="token-line-4__item">20-50%</div>
+                            </div>
+                            <div class="token-line-btns clearfix">
+
+                                <div class="token-line-btns__item">
+                                     <div class="token-btn token-btn_bottom">3062.5 BTC</div>
+                                     <p>运营，开发和营销 </p>
+                                </div>
+                                <div class="token-line-btns__item">
+                                     <div class="token-btn token-btn_bottom token-btn_right">3062.5 BTC</div>
+                                    <p class="p_right">头奖 </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="box-token-price">
+                            <div class="title-small">TFL 代币价格 & 奖金 </div>
+                            <ul class="token-price-list">
+                                <li class="token-price-list__item">
+                                    筹取 0 - 1,000 比特币 
+                                    <div class="token-price-list__info token-price-list__info_1">0.0005 BTC<span>+30% TFL Bonus</span></div>
+                                </li>
+                                <li class="token-price-list__item">
+                                    1,001 - 2,000 比特币 
+                                    <div class="token-price-list__info token-price-list__info_2">0.0005 BTC<span>+20% TFL Bonus</span></div>
+                                </li>
+                                <li class="token-price-list__item">
+                                    2,001 - 3,000 比特币 
+                                    <div class="token-price-list__info token-price-list__info_3">0.0005 BTC<span>+10% TFL Bonus</span></div>
+                                </li>
+                                <li class="token-price-list__item">
+                                     3,001 - 5,000 比特币 
+                                    <div class="token-price-list__info token-price-list__info_4">0.0005 BTC<span>+5% TFL Bonus</span></div>
+                                </li>
+                                <li class="token-price-list__item">
+                                    5,001 比特币以上 
+                                    <div class="token-price-list__info token-price-list__info_5">0.0005 BTC<span class="no_bonus">No bonuses</span></div>
+                                </li>
+                                <li class="token-price-list__stop">目标 6,125 比特币 </li>
+                            </ul>
+                            <div class="text">
+                                <p>销售TFL代币将持续30天。在销售结束时，剩余的未售出的TFL代币将被烧毁，并且所有TFL代币持有者的份额将按比例增加。 </p>
+                            </div>
+                            <div class="token-price-list-mobile">
+                                筹取 0 - 1,000 比特币  — 0.0005 BTC <span>+30% ＋40/30/20% 额外TFL代币 </span>
+                                1,001 - 2,000 比特币  — 0.0005 BTC <span>+20% ＋40/30/20% 额外TFL代币 </span>
+                                2,001 - 3,000 比特币  — 0.0005 BTC <span>+10% ＋40/30/20% 额外TFL代币 </span>
+                                3,001 - 5,000 比特币  — 0.0005 BTC <span>+5% ＋40/30/20% 额外TFL代币 </span>
+                                5,001 比特币以上  — 0.0005 BTC <span>0</span>
+                                目标 6,125 比特币 
+                            </div>
+                        </div>
+
+                        <div class="title-small">TFL代币构造 </div>
+
+                        <div class="token-info">取决于ICO筹集的资金数额 </div>
+
+                        <div id="slider-r"></div>
+
+                        <div id="diagramm" class="diagramm"></div>
+
+                        <div class='diagramm-info'><br><br><br></div>
+                    </div>
+                </section>
+
+                <section class="section-escrow-jackpot">
+                    <div class="wrapper">
+                        <h3 class="title-small title-small_white">托管资金 </h3>
+                        <div class="text text-center text-top-escrow">
+                            <p>托管资金 </p>
+                        </div>
+
+                        <div class="block-escrow-people block-escrow-people-slider">
+                            <div class="block-escrow-people__item">
+                                <div class="people-photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/richard.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                </div>
+                                <div class="team-item__name">
+                                    Richard Kastelein
+                                    <span>Co-founder of Initial Coin Offering (ICO) company CryptoAsset Design Group</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/kastelein?ref=br_rs" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/expathos/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="block-escrow-people__item">
+                                <div class="people-photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/george.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                </div>
+                                <div class="team-item__name">
+                                    George Basiladze
+                                    <span>Founder Cryptopay</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.linkedin.com/in/georgebasiladze/" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.facebook.com/george.basiladze" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="block-escrow-people__item">
+                                <div class="people-photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/parhomenko.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                </div>
+                                <div class="team-item__name">
+                                    Nikita Parhomenko
+                                    <span>COO True Flip</span>
+                                </div>
+                               <div class="team-social">
+                                    <a href="https://www.facebook.com/parkhomenko.nikita" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/nipar" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text clearfix">
+                            <div class="text-escrow__left">
+                                <p>这些资金存在在一个托管帐户中。这些帐户的定义将在白皮书中描述。所募集资金只有经过三名登记人员中的至少两名同意并且满足所有条件时才能动用。 </p>
+                            </div>
+                            <a href="https://trueflip.io/TrueFlip Whitepaper(01.06).pdf" target="_blank" class="text-escrow__right link-border">
+                                <span>下载白皮书 </span>
+                                <i>PDF, 1.33 Mb</i>
+                            </a>
+                        </div>
+
+                        <div class="text text-escrow-2 clearfix">
+                            <div class="text-escrow-2__left">
+                                <div class="text-title">头奖  — 40%</div>
+                                <p>大奖将被完全托管。幸运的人赢得TrueFlip的大奖，将由第三方托管人转送奖金。 </p>
+                            </div>
+                            <div class="text-escrow-2__right">
+                                <div class="text-title">运营，开发和营销 - 60% </div>
+                                <div class="text-escrow-3 clearfix">
+                                    <div class="text-escrow-3__left">
+                                        这部分募集资金将主导发展和营销活动。 
+                                    </div>
+                                    <div class="text-escrow-3__right">
+                                        关键绩效指标 - 第一阶段：MVP - 第二阶段：额外的彩票 - 第三阶段：分散制度 
+
+                                        <a href="https://trueflip.io/ico_/report/index.html" target="_blank" class="link-border"><span>更多信息在完整的开发报告 </span><i class="icon-arrow"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="section-benefits" id="more_benefits">
+                    <div class="wrapper">
+                         <h3 class="title-small title-small_white">TFL代币持有者的效益 </h3>
+
+                        <div class="block-benefits">
+                            <div class="block-benefits__col">
+                                <div class="benefits-item">
+                                    <div class="benefits-item__title">TFL代币持有者的利润 </div>
+                                    <p>每个TFL代币持有人将获得每日比特币奖金：每张售票的10-15％将在所有TFL代币持有人之间分配！ </p>
+                                </div>
+                            </div>
+                            <div class="block-benefits__col">
+                                <div class="benefits-item">
+                                    <div class="benefits-item__title">TFL代币将在交易所上市 </div>
+                                    <p>我们尽一切努力确保TFL代币会在大多数交易所上市。 </p>
+                                </div>
+                            </div>
+                            <div class="block-benefits__col">
+                                <div class="benefits-item">
+                                    <div class="benefits-item__title">赏金计划 </div>
+                                    <p>所有TFL代币持有人将在TFL代币销售完成后参与封闭彩票。所有TFL代币销售资金中的百分之一将分配给5名幸运TFL代币持有人。 </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="benefits-info clearfix">
+                            <div class="benefits-info__col benefit-finance">
+                                <div class="benefits-info__title">财务透明度 </div>
+                                <p>网站已为TFL代币持有者提供了公司实时的财务状况。 </p>
+                            </div>
+                            <div class="benefits-info__col benefit-peer">
+                                <div class="benefits-info__title">同行决定 </div>
+                                <p>项目开发的所有重要决定将由投资者资料专栏中所有TFL代币持有人投票表决。 </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-ticket-structure">
+                    <div class="wrapper">
+                        <h3 class="title-small">彩卷构造 </h3>
+
+                        <div class="structure-tokens-3">
+                            <div class="token-line-1">
+                                <div class="token-btn-top">［市场策略］每天销售25,000张彩卷 </div>
+                                <div class="token-arrow-1"></div>
+                            </div>
+                            <div class="token-line-2">
+                                <div class="token-btn-center">［彩卷］固定在0.001BTC </div>
+                                <div class="token-line-2__left">
+                                    <div class="token-btn">投资者 <span>(10-15%*)</span></div>
+                                    <div class="token-btn">运营 <span>(5-10%*)</span></div>
+                                    <div class="token-percent token-percent-1">10-15%*</div>
+                                     <div class="token-percent token-percent-2">5-10%*</div>
+                                </div>
+                                <div class="token-line-2__right">
+                                    <div class="token-btn">营销预算 <span>(15-20%*)</span></div>
+                                    <div class="token-btn">推荐计划 <span>(2%)</span></div>
+                                    <div class="token-arrow-1"></div>
+                                    <div class="token-btn token-btn_last">朋友 </div>
+                                    <div class="token-percent token-percent-1">15-20%*</div>
+                                    <div class="token-percent token-percent-2">2%</div>
+                                    <div class="token-arrow-3"></div>
+                                </div>
+                                <div class="token-arrow-2">60%</div>
+
+                            </div>
+                             <div class="token-jackpot">头奖 <span></span></div>
+                            <div class="token-info-star"><p>[社区证明] 所有的决定将由TFL代币持有者投票决定 </p></div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="section-graphs">
+                    <div class="wrapper">
+                        <div class="graph-cols">
+                            <!--div class="graph-col">
+                                <div class="graph profit">
+                                    <div class="title-small">TFL代币持有者奖励计算器 </div>
+                                    <div class="profit-calculator">
+                                        <div class="profit-select-wrap">
+                                            <select class="styled" id="js-profit-select">
+                                                <option value="0">低数量  (100 000)</option>
+                                                <option value="500000" selected="">中等数量  (500 000)</option>
+                                                <option value="1000000">高数量  (1 000 000)</option>
+                                            </select>
+                                        </div>
+                                        <div class="profit-range-slider">
+                                            <span>每日售票 </span>
+                                            <div class="line-slider line-slider_top">
+                                                <div id="slider">
+                                                    <p class="line-slider__number line-slider_number1">30 000</p>
+                                                    <p class="line-slider__number line-slider_number2">50 000</p>
+                                                    <p class="line-slider__number line-slider_number3"></p>
+                                                    <p class="line-slider__number line-slider_number4">100 000</p>
+                                                    <p class="line-slider__number line-slider_number5">200 000</p>
+                                                    <input type="text" id="min_cost_1" value="30000"  class="input-slider">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul class="sublabels">
+                                            <li>低数量 </li>
+                                            <li>中等数量 </li>
+                                            <li>高数量 </li>
+                                        </ul>
+
+                                        <div class="profit-calculator-results">
+                                            <div class="row">
+                                                <div>每月营销费用 </div>
+                                                <div class="js-monthly-expences">135.00 BTC</div>
+                                            </div>
+                                            <div class="row">
+                                                <div>每月销售彩卷数量 </div>
+                                                <div class="js-number-tickets-month">900 000</div>
+                                            </div>
+                                            <div class="row">
+                                                <div>营业额 </div>
+                                                <div class="js-revenue">900.00 BTC</div>
+                                            </div>
+                                            <div class="row">
+                                                <div>1 TFL 月间利润 </div>
+                                                <div class="js-monthly-profit">0.00010 BTC</div>
+                                            </div>
+                                            <div class="row">
+                                                <div>TFL 代币数量 </div>
+                                                <div class="js-tockens">
+                                                    <input type="text" id="NTokens" value="1000">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div>年间利润 </div>
+                                                <div class="js-year-profit">0.10 BTC</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div-->
+                            <script type="text/javascript">
+    var week_labels = ['21/07','22/07','23/07','24/07','25/07','26/07','27/07','28/07'];
+    var week_values = [2108,2513,3667,5023,4108,5262,5709,707];
+
+
+</script>
+
+
+                            <div class="graph-col" style="width: 100%">
+                                <div class="graph">
+                                    <div class="title-small title-small_2">昨天售票记录  <span id="ystrd_sold" data-sold="">4965</span> </div>
+                                    <!-- schedule-->
+                                    <div class="box-graphic-wrap">
+
+                                        <div class="tab-wrap">
+
+                                            <div class="box-tab-cont">
+                                                <div class="tab-cont" id="tab_5">
+                                                    <div id="graphic"></div>
+                                                </div>
+                                                <!--div class="tab-cont hide-tab" id="tab_6">
+                                                    <div id="graphic2"></div>
+                                                </div>
+                                                <div class="tab-cont hide-tab" id="tab_7">
+                                                    <div id="graphic3"></div>
+                                                </div-->
+
+                                            </div>
+
+                                            <div class="graphic-title">
+                                                <!--ul class="nav-tab-list tabs">
+                                                    <li class=" graphic-title-list__item active">
+                                                        <a href="#tab_5" class=" graphic-title-list__link">Week</a>
+                                                    </li>
+                                                    <li class=" graphic-title-list__item">
+                                                        <a href="#tab_6" class=" graphic-title-list__link">Month</a>
+                                                    </li>
+                                                    <li class="graphic-title-list__item">
+                                                        <a href="#tab_7" class=" graphic-title-list__link">Quarter</a>
+                                                    </li>
+
+                                                </ul-->
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                  <!-- schedule-->
+                                </div>
+                            </div>
+
+
+                            <div class="graph-col graph-col_full">
+    <div class="graph">
+        <div class="prize-transactions prizes-item">
+            <div class="prize-transactions-inner">
+                <div class="clearfix">
+                    <div class="title-small">True Flip交易 </div>
+                    <form>
+                        <div class="switcher">
+                                <label for="switcher" class="label_check f_on" data-href="on-transactions">存款 </label>
+                                <div class="switcher-input">
+                                    <input type="checkbox" name="switcher" class="js-switcher" id="switcher">
+                                    <div class="checkedBall"></div>
+                                </div>
+                              <label for="switcher" class="label_check f_off" data-href="off-transactions">取款 </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="tabs-transactions">
+                    <div id="on-transactions" class="tab-transactions js-switcher-tab active">
+                        <div class="table-list-wrapper">
+                            <table class="table-list">
+                                <tr>
+                                    <th>交易ID </th>
+                                    <th>用户 </th>
+                                    <th>时间 </th>
+                                    <th>金额 </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://etherscan.io/tx/0x03e67a2404ac2f28c6389b56e79fac6e8d2ce5fb3843987e86eedd77938cfec1" rel="nofollow" target="_blank">0x03e67a2404ac2f28c6389b56e79fac6e8d2ce5fb3843987e86eedd77938cfec1</a>
+                                    </td>
+                                    <td>bac****</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.12500</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://etherscan.io/tx/0x301ba6e93e01d19d3bf162ade40cdafb3a6c286e741fe31a154dce92b264a8b8" rel="nofollow" target="_blank">0x301ba6e93e01d19d3bf162ade40cdafb3a6c286e741fe31a154dce92b264a8b8</a>
+                                    </td>
+                                    <td>one*********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.15000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://etherscan.io/tx/0xb5c864c72f3229a81d04f59faebb129eda54e84ac5dfd1d9fe46a39ed0e10f51" rel="nofollow" target="_blank">0xb5c864c72f3229a81d04f59faebb129eda54e84ac5dfd1d9fe46a39ed0e10f51</a>
+                                    </td>
+                                    <td>hol*********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.50000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/cd72a2496ca7c4b13e35521bd4fd92199dfde04808453cea722df2fa3c140454" rel="nofollow" target="_blank">cd72a2496ca7c4b13e35521bd4fd92199dfde04808453cea722df2fa3c140454</a>
+                                    </td>
+                                    <td>mir**********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.03960</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/7407a4f762b6aeb9d58e6929a1e768d00222520c4cb56a0fab47fdc8433dd07b" rel="nofollow" target="_blank">7407a4f762b6aeb9d58e6929a1e768d00222520c4cb56a0fab47fdc8433dd07b</a>
+                                    </td>
+                                    <td>fun****</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.05000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://etherscan.io/tx/0x83b1f33a840615b2702122f444afc237293fb5cd441c35a3dab2243fd0948fa9" rel="nofollow" target="_blank">0x83b1f33a840615b2702122f444afc237293fb5cd441c35a3dab2243fd0948fa9</a>
+                                    </td>
+                                    <td>spe********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.01500</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/56f1018794ff8746b881fe963865059431684d8a9afcd15dcbcdfac934670915" rel="nofollow" target="_blank">56f1018794ff8746b881fe963865059431684d8a9afcd15dcbcdfac934670915</a>
+                                    </td>
+                                    <td>vl.******</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.00236</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://etherscan.io/tx/0x9bae64e60d4439066c5623ced8cc1895bee213447c37d5a4aab2bc736ffc3758" rel="nofollow" target="_blank">0x9bae64e60d4439066c5623ced8cc1895bee213447c37d5a4aab2bc736ffc3758</a>
+                                    </td>
+                                    <td>bar********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.60500</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/3300b847009f1bb1371a4500bc88a81252ff7b44726d597761373668edcc33aa" rel="nofollow" target="_blank">3300b847009f1bb1371a4500bc88a81252ff7b44726d597761373668edcc33aa</a>
+                                    </td>
+                                    <td>rij**********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.01000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/d69313c55a40c104a5cd86fc3d7c41abf3510576092b5fa6994db276995f2dfe" rel="nofollow" target="_blank">d69313c55a40c104a5cd86fc3d7c41abf3510576092b5fa6994db276995f2dfe</a>
+                                    </td>
+                                    <td>myj*****</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.05900</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/f9c274d6b84372fb2bc1ecfa30a174b038649e50e91649c35b0b43ae932c4054" rel="nofollow" target="_blank">f9c274d6b84372fb2bc1ecfa30a174b038649e50e91649c35b0b43ae932c4054</a>
+                                    </td>
+                                    <td>leo********</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.05010</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/af33b7006ed099e51b284a1bfaa76c8a40cd75ee6134197ee98e16e33185131c" rel="nofollow" target="_blank">af33b7006ed099e51b284a1bfaa76c8a40cd75ee6134197ee98e16e33185131c</a>
+                                    </td>
+                                    <td>www****</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.46831</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/a08a7fda99d8b2fb5dfed11262b1a411229e3e2eb5384fa1a5b2fd2a48880858" rel="nofollow" target="_blank">a08a7fda99d8b2fb5dfed11262b1a411229e3e2eb5384fa1a5b2fd2a48880858</a>
+                                    </td>
+                                    <td>ser**************</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.04900</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/750b8d4093f9f6432760d3249276079a6645fcaf0e7b17ceaefc1237d1f656a8" rel="nofollow" target="_blank">750b8d4093f9f6432760d3249276079a6645fcaf0e7b17ceaefc1237d1f656a8</a>
+                                    </td>
+                                    <td>ser**************</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.00100</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/00e75ab81a36722afaac76b66a35880b4616f27250ff0768a6f17dcfb831f2a4" rel="nofollow" target="_blank">00e75ab81a36722afaac76b66a35880b4616f27250ff0768a6f17dcfb831f2a4</a>
+                                    </td>
+                                    <td>nem*****</td>
+                                    <td>28/07/2017</td>
+                                    <td>0.17070</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="off-transactions" class="tab-transactions js-switcher-tab">
+                        <div class="table-list-wrapper">
+                            <table class="table-list">
+                                <tr>
+                                    <th>交易ID </th>
+                                    <th>用户 </th>
+                                    <th>时间 </th>
+                                    <th>金额 </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/d5df49e4c46e5851dd9c7e3601c93d53b32ec4f73d8706d8ad6e54c10533cc1e" rel="nofollow" target="_blank">d5df49e4c46e5851dd9c7e3601c93d53b32ec4f73d8706d8ad6e54c10533cc1e</a>
+                                    </td>
+                                    <td>pau*************</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.02500</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/40d8715583e7427f14077bcf8ab98bd3841fa3f1b4b43c508af259ccb4e7f22e" rel="nofollow" target="_blank">40d8715583e7427f14077bcf8ab98bd3841fa3f1b4b43c508af259ccb4e7f22e</a>
+                                    </td>
+                                    <td>mos*****</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.03099</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/a80adc47c89ddcd6468333f9a0d0146455d34880e1aeb0d140c32a73158d6c4a" rel="nofollow" target="_blank">a80adc47c89ddcd6468333f9a0d0146455d34880e1aeb0d140c32a73158d6c4a</a>
+                                    </td>
+                                    <td>jma*********</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.01952</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/7a3cf48a411160f7fa8346e3d2292d5f1549c85566d1bf9719da5d7597e54aa5" rel="nofollow" target="_blank">7a3cf48a411160f7fa8346e3d2292d5f1549c85566d1bf9719da5d7597e54aa5</a>
+                                    </td>
+                                    <td>hue*****</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.15870</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/1d868ed2461fdaec2b3ced77f5a431aada475483922006b3dc8f2bb7cbbce564" rel="nofollow" target="_blank">1d868ed2461fdaec2b3ced77f5a431aada475483922006b3dc8f2bb7cbbce564</a>
+                                    </td>
+                                    <td>moe*******</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.01000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/ed1b5747438ea65c294fbd54960e4aac5457b111b6e0a7e4959b5b24a40ab2d6" rel="nofollow" target="_blank">ed1b5747438ea65c294fbd54960e4aac5457b111b6e0a7e4959b5b24a40ab2d6</a>
+                                    </td>
+                                    <td>nik</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.25000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/a802221ae890bfaa54650c1437aca122a8a81437dc8cec99215e97f6ef0cd53d" rel="nofollow" target="_blank">a802221ae890bfaa54650c1437aca122a8a81437dc8cec99215e97f6ef0cd53d</a>
+                                    </td>
+                                    <td>mch*</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.01000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/f74bcb7ae29f23fe3f5883e1000b4273da995fb2e57bda69632bb095b91600c6" rel="nofollow" target="_blank">f74bcb7ae29f23fe3f5883e1000b4273da995fb2e57bda69632bb095b91600c6</a>
+                                    </td>
+                                    <td>tre********</td>
+                                    <td>27/07/2017</td>
+                                    <td>0.03600</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/c09bd476899b63f8e7b587e857650cec1dac9bf552dd0b20c08d897a86d04c85" rel="nofollow" target="_blank">c09bd476899b63f8e7b587e857650cec1dac9bf552dd0b20c08d897a86d04c85</a>
+                                    </td>
+                                    <td>wit********</td>
+                                    <td>26/07/2017</td>
+                                    <td>0.05000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/e5c4733f7ec2389830781f965e187deaf538e3b3d330a0d2390b7be380efb43a" rel="nofollow" target="_blank">e5c4733f7ec2389830781f965e187deaf538e3b3d330a0d2390b7be380efb43a</a>
+                                    </td>
+                                    <td>tud**</td>
+                                    <td>26/07/2017</td>
+                                    <td>0.02195</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/7dc7c64699d62b8f2b73e3f59bdbf1560edb1e757d4d00e1cab20c9ea1ee58da" rel="nofollow" target="_blank">7dc7c64699d62b8f2b73e3f59bdbf1560edb1e757d4d00e1cab20c9ea1ee58da</a>
+                                    </td>
+                                    <td>adv********</td>
+                                    <td>26/07/2017</td>
+                                    <td>0.02250</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/b470f003da0cdb45600db9f804cff513ecb2e38d1a5324ef1b098ac0071be114" rel="nofollow" target="_blank">b470f003da0cdb45600db9f804cff513ecb2e38d1a5324ef1b098ac0071be114</a>
+                                    </td>
+                                    <td>Out***********</td>
+                                    <td>26/07/2017</td>
+                                    <td>1.00000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/384665cb3f1d378eb07fb35277e0987c78957d9a21eb08fdd0182074fceff30e" rel="nofollow" target="_blank">384665cb3f1d378eb07fb35277e0987c78957d9a21eb08fdd0182074fceff30e</a>
+                                    </td>
+                                    <td>ars******</td>
+                                    <td>26/07/2017</td>
+                                    <td>0.04000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/8f993aefe47ce7e6d43f34f338e62aa1eed60415055491b6ade71abcac018a28" rel="nofollow" target="_blank">8f993aefe47ce7e6d43f34f338e62aa1eed60415055491b6ade71abcac018a28</a>
+                                    </td>
+                                    <td>apa**</td>
+                                    <td>26/07/2017</td>
+                                    <td>0.03350</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://blockchain.info/tx/d5672ef26985390b893efdff562114790f41b94a858ba25b1bfe36ab6bb12387" rel="nofollow" target="_blank">d5672ef26985390b893efdff562114790f41b94a858ba25b1bfe36ab6bb12387</a>
+                                    </td>
+                                    <td>cal********</td>
+                                    <td>25/07/2017</td>
+                                    <td>0.09000</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-border btn-graphs" target="_blank" style="margin: 30px auto 0;display: block;width: 200px;text-align: center;" href="https://trueflip.io/proofs_of_the_truth">See more</a>
+            </div>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+                            <div class="text-center">
+                                <a href="https://trueflip.io/#reg" target="_blank" class="btn btn-border btn-graphs">投资者资料的更多信息 </a>
+                            </div>
+                    </div>
+                    </div>
+                </section>
+
+                <section class="section-advisory" id="team">
+                    <div class="wrapper">
+                        <h3 class="title">咨询 </h3>
+
+                        <div class="team team-slider">
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/ericbenz.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang canada"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Eric Benz
+                                    <span>Advisor / CEO Cryptopay</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/benzeric?fref=ts" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/ericbenz84/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/jason.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang canada"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Jason Cassidy
+                                    <span>Vice Chairman of the Board at Blockchain Association of Canada</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/jason.cassidy.10048" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/kinchikov.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Pavel Kinchikov
+                                    <span>Deputy Group CEO<br>Media Instinct Group</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/pavel.kinchikov" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/pavel-kinchikov-b7399717/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/matonis.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang eng"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Jon Matonis
+                                    <span>Founding Director at Bitcoin Foundation.<br>CEO of Hushmail.<br>Startup Team at RSA's VeriSign.</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://uk.linkedin.com/in/jonmatonis" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                    <a href="https://twitter.com/@jonmatonis" target="_blank" class="team-social__item">
+                                        <span class="twitter_ico"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/maggie.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country" style="right:40px">
+                                        <span class="icon-lang usa"></span>
+                                    </div>
+                                    <div class="team-item__country">
+                                        <span class="icon-lang chi"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Maggie Deng
+                                    <span>Advisor<br>MS Group CEO</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/profile.php?id=100009086306997" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="title title-middle">管理团队 </div>
+
+                        <div class="team team-slider">
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/parhomenko.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Nikita Parhomenko
+                                    <span>COO</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/parkhomenko.nikita" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/nipar" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/katsev.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Konstantin Katsev
+                                    <span>Marketing director</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/montanatony" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/konstantin-katsev-881b3775/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/daniil.png?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Daniil Andriyanov
+                                    <span>CFO,<br>Part Group Managing Partner</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.linkedin.com/in/daniil-andriyanov-2a21a743/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/gorlo.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Alex Gorlo
+                                    <span>Marketing manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/aleksey.gorlo" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/polynov.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Vasili Polynov
+                                    <span>Head of communications</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/vpolynov" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/almeida.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang br-pt"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                   Renato Almeida
+                                    <span>Legal advisor</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/realmeida.br" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/realmeidabr/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/machikhin.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Dmitry Machikhin
+                                    <span>Crypto lawyer</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://facebook.com/dmitry.machikhin" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a
+                                    <a href="https://www.linkedin.com/in/dmitry-machikhin" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="title title-middle">开发团队 </div>
+
+                        <div class="team  team-slider">
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/felix.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang canada"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Felix Sidokhin
+                                    <span>Core developer</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.linkedin.com/in/felix-sidokhine-1963b7b7/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/ivanov.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                 <div class="team-item__name">
+                                    Nikita Ivanov
+                                    <span>Core developer</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/nikita.ivanov.7509" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/web76/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/feoktistov.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang canada"></span>
+                                    </div>
+                                </div>
+                                 <div class="team-item__name">
+                                    Vladimir Feoktistov
+                                    <span>Core developer</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/ivan.pound.10" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/skorbatiuk.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ua"></span>
+                                    </div>
+                                </div>
+                                 <div class="team-item__name">
+                                    Oleh Skorbatiuk
+                                    <span>IT infrastructure architect</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/skorbic" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/skorb/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/zerion.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang usa"></span>
+                                    </div>
+                                </div>
+                                 <div class="team-item__name">
+                                    Zerion
+                                    <span>Token smart-contract developer</span>
+                                </div>
+                                <div class="team-social">
+                                    <!--noindex-->
+                                    <a href="https://zerion.io/" target="_blank" class="team-social__item">
+                                        <span class="globe_ico"></span>
+                                    </a>
+                                    <!--/noindex-->
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="title title-middle">社区团队 </div>
+
+                        <div class="team team-small team-slider">
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/ruslan.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Ruslan Nurtdinov
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/ruslan.nurtdinov.12" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/lukina.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ru"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Natalia Lukina
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/natalia.lukina.3" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/bogdan.png?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang ua"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Kalyta Bohdan
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/bohdan.kalyta" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/bohdan-kalyta-96a307145/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/lipkiam.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang chi"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Lip Kiam
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.linkedin.com/in/lip-kiam-tan-9ab11927/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/ojin.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang jp"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Ojin Shimizu
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/domainya" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/akihiko-shimizu-0480293b/" target="_blank" class="team-social__item">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="team-item">
+                                <div class="team-item__photo">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/people/igor.jpg?60b2191674fbed0d1a871370a923cee9" alt="">
+                                    <div class="team-item__country">
+                                        <span class="icon-lang br-pt"></span>
+                                    </div>
+                                </div>
+                                <div class="team-item__name">
+                                    Igor Marcos
+                                    <span>Community manager</span>
+                                </div>
+                                <div class="team-social">
+                                    <a href="https://www.facebook.com/igor.marcos.14" target="_blank" class="team-social__item">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="team-main">
+
+
+                        </div>
+
+
+                    </div>
+                </section>
+                <section class="section-partners">
+                    <div class="wrapper">
+                        <h3 class="title">Media about TrueFlip</h3>
+
+                        <div class="partners ">
+                            <div class="partners__col" onclick="window.open('https://cointelegraph.com/news/trueflip-become-a-token-holder-in-the-worlds-largest-blockchain-lottery','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/partner-02.png?v60b2191674fbed0d1a871370a923cee9" alt="Cointelegraph">
+                                </div>
+                            </div>
+                            <div class="partners__col" onclick="window.open('https://tokenmarket.net/blockchain/bitcoin/assets/true-flip-lottery/','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/tokenmarket-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="Token market">
+                                </div>
+                            </div>
+                            <div class="partners__col" onclick="window.open('https://www.smithandcrown.com/icos/','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/smithandcrown-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="Smith and Crown">
+                                </div>
+                            </div>
+                            <div class="partners__col" onclick="window.open('http://bitcoinist.com/trueflip-announces-crowdsale-campaign/','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/bitcoinist-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="Bitcoinist">
+                                </div>
+                            </div>
+                            <div class="partners__col" onclick="window.open('http://www.newsbtc.com/2017/06/05/trueflips-upcoming-crowdsale-face-troubles-russia/','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/newsbtc-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="NewsBTC">
+                                </div>
+                            </div>
+                            <div class="partners__col" onclick="window.open('https://icotracker.net/project/true_flip','_blank'); return false;">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/icotracker-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="ICO tracker">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://forklog.com/blokchejn-lotereya-trueflip-anonsirovala-kraudsejl/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/partner-01.png?v60b2191674fbed0d1a871370a923cee9" alt="Forklog">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://www.coinspeaker.com/2017/06/22/blockchain-based-lottery-trueflip-starts-crowdsale-campaign-soon/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/coinspeaker-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="Coin Speaker">
+                                </div>
+                            </div>
+
+
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://www.the-blockchain.com/2017/06/23/blockchain-startup-trueflip-reinvents-business-600-year-long-history-fails/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/blockchainnews-logo.jpg?v60b2191674fbed0d1a871370a923cee9" alt="Blockchain News">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('https://calvinayre.com/2017/06/26/press-releases/trueflip-blockchain-lottery-hold-token-crowsale-starting-june-28-2017/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/calvinayre-logo.jpg?v60b2191674fbed0d1a871370a923cee9" alt="CalvinAyre.com">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('https://hacked.com/ico-analysis-trueflip/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/hacked-logo.png?v60b2191674fbed0d1a871370a923cee9" alt="Hacked.com">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://icorating.com/project/103/True-Flip','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/icorating-logo.jpg?v60b2191674fbed0d1a871370a923cee9" alt="ICOrating">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="section-partners">
+                    <div class="wrapper">
+                        <h3 class="title">伙伴 </h3>
+
+                        <div class="partners partners-slider">
+                           <div class="partners__col">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/partner-03.png" alt="">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/partner-04.png" alt="">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://www.part.group/','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/part-logo.png" alt="">
+                                </div>
+                            </div>
+                            <div class="partners__col">
+                                <div class="partners-item" onclick="window.open('http://part.media','_blank'); return false;">
+                                    <img src="../img/beepi_loader_blue_1.gif" data-src="img/part-media-logo.png" alt="">
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="text-center">
+                            <a href="https://trueflip.io/partner" target="_blank" class="btn btn-border btn-border-black">成为伙伴 </a>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <!-- CONTENT EOF   -->
+        <!-- START HEADER -->
+        <header id="header">
+            <div class="wrapper">
+                <div class="header-wrap clearfix">
+                    <div class="box-logo">
+                        <a href="https://ico.trueflip.io" target="_blank" class="logo"><img src="img/logo.svg" alt=""></a>
+                        <span class="logo__text">史上第一比特币区块浏览器彩卷 </span>
+                    </div>
+                    <div class="box-nav">
+                        <nav class="main-nav">
+                            <ul class="main-nav-list">
+                                <li class="main-nav-list__item"><a href="#about" class="main-nav-list__link scroll">关于我们 </a></li>
+                                <li class="main-nav-list__item"><a href="#roadmap" class="main-nav-list__link scroll">蓝图 </a></li>
+                                <li class="main-nav-list__item"><a href="#whitepaper" class="main-nav-list__link scroll">白皮书 </a></li>
+                                <li class="main-nav-list__item"><a href="#team" class="main-nav-list__link scroll">团队 </a></li>
+                                <!--li class="main-nav-list__item"><a href="#blog" class="main-nav-list__link scroll">博客 </a></li-->
+                                <li class="main-nav-list__item">
+                                    <a href="#" class="main-nav-list__link social-header js-social-header">免费注册 </a>
+                                    <ul class="social-list">
+                                        <li class="social-list__item"><a href="https://trueflip.io/slack" class="social-list__link social-slack" target="_blank"><i class="icon-slack"></i>slack</a></li>
+                                        <li class="social-list__item"><a href="https://t.me/joinchat/AAAAAELcwT-fgH2zG7xEng" class="social-list__link social-telegram" target="_blank"><i class="icon-telegram-white"></i>telegram</a></li>
+                                        <li class="social-list__item"><a href="https://www.facebook.com/TrueFlip.io/" class="social-list__link social-facebook" target="_blank"><i class="icon-facebook"></i>facebook</a></li>
+                                        <!--li class="social-list__item"><a href="#" class="social-list__link social-vk"><i class="icon-vk"></i>vkontakte</a></li-->
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+					<div class="header-currency">
+                        <ul class="main-nav-list">
+                            <li class="main-nav-list__item sign-in-dropdown-link"><a href="#" onclick="ico.fn.open_nth_step('#modal-sign_in');return false;" class="main-nav-list__link scroll"><span class="icon-username"></span> Sign In</a></li>
+                        </ul>
+                    </div>
+                    <div class="box-lang">
+                        <div class="box-lang__cont">
+                            <div class="box-choose-lang">
+                                <a class="lang-title" href="#"><span class="lang-title__choose"><span class="icon-lang chi"></span>CN</span></a>
+                                <div class="box-lang-list">
+                                    <ul class="lang-list js-lang">
+                                        <li class="lang-list__item">
+                                            <a class="list-lang__link" href="/?lang=cn"><span class="icon-lang chi"></span>CN</a>
+                                        </li>
+                                        <li class="lang-list__item">
+                                            <a class="list-lang__link" href="/?lang=jp"><span class="icon-lang jp"></span>JP</a>
+                                        </li>
+                                        <li class="lang-list__item">
+                                            <a class="list-lang__link" href="/?lang=kr"><span class="icon-lang kr"></span>KR</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <a href="#" id="hamburger" class="mobile-trigger">
+                        <span class="hamburger hamburger--collapse">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER EOF   -->
+        <!-- START FOOTER -->
+        <footer>
+            <div class="wrapper clearfix">
+                <img src="img/robot.png" alt="" class="footer-robot">
+                <div class="footer-left">
+                    <div class="footer-join">
+                        <div class="footer-title">免费注册 </div>
+                        <div class="footer-social">
+                            <a href="https://trueflip.io/slack" target="_blank" class="footer-social__link footer-social__link1">
+                                <span class="icon-slack"></span>
+                            </a>
+                            <a href="https://www.facebook.com/TrueFlip.io/" target="_blank" class="footer-social__link footer-social__link2">
+                                <span class="icon-facebook"></span>
+                            </a>
+
+                            <a href="https://t.me/joinchat/AAAAAELcwT-fgH2zG7xEng" target="_blank" class="footer-social__link footer-social__link4">
+                                <span class="icon-telegram-white"></span>
+                            </a>
+                            <a href="https://steemit.com/@trueflip" target="_blank" class="footer-social__link footer-social__link5">
+                                <span class="icon-steemit-white"></span>
+                            </a>
+                            <a href="https://bitcointalk.org/index.php?topic=1928663.60" target="_blank" class="footer-social__link footer-social__link6">
+                                <span class="icon-bitcointalk"></span>
+                            </a>
+                            <a href="http://Reddit.com/r/TrueFlip " target="_blank" class="footer-social__link footer-social__link7">
+                                <span class="icon-reddit"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="footer-subscribe">
+                        <div class="footer-title">订阅新消息邮件 </div>
+                        <div class="footer-form">
+                            <div class="box-subscribe clearfix">
+                                <form onsubmit="return false;">
+                                    <div class="box-subscribe__input">
+                                        <input type="email" id="subscription_email_foot" class="form-control" placeholder="通过电子邮件通知我 ">
+                                    </div>
+                                    <div class="box-subscribe__btn">
+                                        <input type="submit"  onclick="ico.fn.subscribe('#subscription_email_foot'); return false;"  class="btn btn-orange" value="订阅 ">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="footer-menu">
+                        <div class="footer-title">True Flip</div>
+                        <ul class="nav">
+                            <li class="nav__item">
+                                <a target="_blank" href="https://trueflip.io/info/about">About lottery</a>
+                            </li>
+                           <li class="nav__item">
+                                <a target="_blank" href="https://trueflip.io/info/faq">How to play and where to buy?</a>
+                            </li>
+                            <li class="nav__item">
+                                <a target="_blank" href="https://trueflip.io/info/referral-program">Free ticket</a>
+                            </li>
+                            <li class="nav__item">
+                                <a target="_blank" href="https://trueflip.io/info/archive">Archive of draws</a>
+                            </li>
+                            <li class="nav__item">
+                                <a target="_blank" href="https://github.com/TrueFlip">Source code on GitHub </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-next">
+                        <div class="clearfix">
+                            <div class="footer-next__text">Time till the next draw</div>
+                            <div class="footer-timer">
+                                <div class="js-countdown countdown">
+                                         <span class="days"></span>
+                                        <span class="divider">:</span>
+                                        <span class="hours"></span>
+                                        <span class="divider">:</span>
+                                        <span class="mins"></span>
+                                        <span class="divider">:</span>
+                                        <span class="secs"></span>
+                                    </div>
+
+                            </div>
+                        </div>
+
+                        <a target="_blank" href="https://trueflip.io/#reg" class="footer-ticket">Buy a lottery ticket<span>Bets starting from 0.001 BTC</span></a>
+
+
+                    </div>
+
+                    <div class="qr_code footer">
+                            <span class="title">WeChat Trueflip</span>
+                            <a href="#modal-wechat" class="image fancybox"><img src="../img/beepi_loader_blue_1.gif" data-src="/img/qrcode.png"></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="wrapper clearfix">
+                    <div class="footer-bottom__left">
+                        <span class="footer_long_copy">© <a href="https://trueflip.io/TrueFlipGroup.pdf" target="_blank">True Flip Group SRL, 2017</a>
+                        <div style="font-size: 0.7em;"> ico.trueflip.io and related rights belong to TRUE FLIP GROUP SOCIEDAD DE RESPONSABILIDAD LIMITADA incorporated in Costa Rica San Jose- Montes de Oca by the digital reg. number 40620000684636. Please note that gambling is permitted under the Costa Rica gaming law.</div></span>
+                        <!--© True Flip Inc., 2016-2017-->
+                    </div>
+                    <div class="footer-bottom__right">
+                        <a target="_blank" href="https://trueflip.io/Terms of service final.docx" class="footer-bottom__link">Terms of use</a>
+                        <a target="_blank" href="https://trueflip.io/info/privacy-policy" class="footer-bottom__link">Privacy policy</a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- FOOTER EOF   -->
+        </div>
+        <div class="icon-load"></div>
+        <div class="modal-wrap modal-wrap_registr" id="modal-step-01">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active">
+                    <form action="#" class="registration-box__form">
+                    <div class="modal-content modal-content_registr">
+                        <div class="steps-box">Step 1 of 3</div>
+                        <div class="registration-box">
+                            <div class="registration-box__title">
+                                Token Sale Agreement & Terms and Conditions
+                            </div>
+                            <p class="registration-box__text">You must read and agree to the following information before you can proceed.</p>
+                            <div class="scroll-box scroll-box_registry js-custom-scroll">
+                                <div class="scroll-box__text_registry">
+                                    <p>Terms of Use and Risk Notifications of the TrueFlip Platform</p>
+<p><strong>1. Introduction</strong>
+These terms and conditions (hereinafter the “Terms”) describe information applicable to the use of the <a href="https://trueflip.io" target="_blank">https://trueflip.io</a> website and its services, which is owned and operated by True Flip Group SRL. By using the Website or its related services, including Referral Program and Token sale process, you expressly agree to be bound by all of the terms and conditions set forth.
+In accepting this agreement, you acknowledge that you have read this agreement, understand it, and had an opportunity to seek independent legal advice prior to agreeing to it. You also warrant that you are at least 18 years old and have full capacity to contract under applicable law; only transacting on <a href="https://trueflip.io" target="_blank">https://trueflip.io</a> with legally-obtained funds that belong to you; not furthering, performing, undertaking, engaging in, aiding, or abetting any unlawful activity through your relationship with us or through your use of <a href="https://trueflip.io" target="_blank">https://trueflip.io</a>; and, comporting with and obeying all applicable laws.
+At any point, if you do not agree to any portion of the current Terms, you should not proceed to use the Website, the Referral Program or participate in the Token sale.
+Trueflip has the right to review and amend the current agreement at any time without notice. </p>
+
+<p><strong>2. Terms and Definitions</strong>
+In the present document, the following terms shall have the meaning specified below:<br>
+“Bitcoin” or “BTC” means the digital currency and payment system using peer-to-peer transactions verified by network nodes and recording in a public distributed ledger.<br>
+“Blockchain” - a distributed database that maintains a continuously growing list of ordered records called blocks. By design, blockchains are inherently resistant to modification of the data — once recorded, the data in a block cannot be altered retroactively.<br>
+“Escrow” - money held by a third-party entity on behalf of transacting parties. <br>
+“GitHub” - is a development platform that provides hosting and reviewing code, managing projects, and building software alongside millions of other developers. The Trueflip account is available at  <a href="https://github.com/TrueFlip" target="_blank">https://github.com/TrueFlip</a>.<br>
+“Player” (“User”) - a person participating in the lottery for the purpose of entertainment, including but not limited to winning a prize. Once a Player creates an account on the TrueFlip Website and confirms his email, he becomes a “Registered Player”.<br>
+“Purchaser” - legal or natural person participating in the Initial Coin Offering.<br>
+“Referred player” - someone who has been referred to TrueFlip by a Registered Player. A person becomes a Referred Player by clicking on a Registered Player’s unique referral link and creating a new account on the TrueFlip Website (“Referred Account”).<br>
+“Service” (“System”) - TrueFlip blockchain lottery platform at <a href="https://trueflip.io" target="_blank">https://trueflip.io</a>.<br>
+“Smart contracts” (“Smart contract system”) - are self-executing contractual states, stored on the Ethereum blockchain, which nobody controls and therefore everyone can trust.<br>
+“TFL Token” – an ERC-20-compatible smart contract on Ethereum blockchain used in the Trueflip ICO. It represents the proof of participation in the Trueflip ICO and the opportunity to receive a part of the company's distributable profits, as described in these Terms and the Whitepaper. <br>
+“Ticket” - a record of participation in the System with a range of functionalities programmed in the Smart Contract System.<br>
+“Token sale” (“Initial Coin Offering”, “ICO”) - a process of capital rising by which funds are raised for a new cryptocurrency venture.<br>
+“Website” - the website on the Internet at <a href="https://trueflip.io" target="_blank">https://trueflip.io</a>.<br>
+“Whitepaper” – an informational document issued by a True Flip Group SRL highlighting the features of the Service, available for download at <a href="https://ico.trueflip.io" target="_blank">https://ico.trueflip.io</a>.
+</p>
+<p><strong>3. General provisions</strong>
+The Service provides the Players with opportunity to participate in lottery by transferring their money to bitcoin wallet and purchasing Tickets. The aforementioned relationships between the Service and Players as well as the development, programming and issuance of the Smart Contract System, managing and executing marketing programs, operation of user interfaces by the company and/or individuals providing services (“Workshop”) and its advisors and affiliates as well as any use and allocation of funds transferred to the Smart Contract System are regulated exclusively by the Smart Contract System to the Workshop and / or third parties and no other terms shall be relevant or can be relied upon.
+</p>
+<p><strong>4. Status of these Terms</strong>
+4.1. The purpose of these Terms is to explain the functionality Service and to notify the persons who intend to enter into the relations with Service about the risks connected with the use of Service, as well as about the risks connected with participation in lottery.<br>
+4.2. The list of risks specified in these Terms is not comprehensive, as well as it may not contain those risks which cannot be predicted at the present moment. If you are not sure that you can estimate the probability of occurrence of such risks by yourself, you are advised to contact an appropriate specialist (a lawyer, an auditor, an adviser or a programmer) before making a decision about entering into the relations with the Service.<br>
+4.3. Reviewing these Terms does not substitute reviewing the Blockchain system. By transferring bitcoins to the Service you confirm that you have read the Blockchain system instructions and fully and unconditionally agree with the conditions hereof.<br>
+4.4. You may not take legal actions against any Players and/or the Service connected with using of Service, including, but not limited to claims based on the fact that you did not read nor did not understand the terms and conditions of the Blockchain system.<br>
+4.5. These Terms might be amended and/or updated in the future. The relevant Terms are the ones showed on the Site. In order to obtain the most complete and current information regarding the Service you should periodically review this section.<br>
+</p>
+<p><strong>5. Guarantees of the Player</strong>
+By using the Service the Player guarantees that:<br>
+5.1. By purchase bitcoins in Players wallet or tickets in Service platform the Player expressly agrees to all functionality set forth in Service Code existing on the GitHub (address set forth above) and the notification made in these Terms, which is incorporated by reference herein. The Player further confirms to have carefully reviewed the Service Code and these Terms and fully understand the risks and costs of contributing into the Service;<br>
+5.2. The Player has a deep understanding of the functionality, usage, storage, transmission mechanisms and intricacies associated with bitcoin (BTC) and blockchain-based software systems;<br>
+5.3. The Player has carefully reviewed the code of the Service located on the GitHub at the addresses set forth above and fully understands and accepts the functions implemented therein;<br>
+5.4. The Player waives the right to participate in a class action lawsuit or a class wide arbitration against any entity or individual involved with the creation of Tickets;<br>
+5.5. The Player understands that creation of Tokens does not involve the purchase of shares or any equivalent in any existing or future public or private company, corporation or other entity in any jurisdiction;<br>
+5.6. The Player understands that the transfer of bitcoins to the Service and the operation of the Services carries significant financial, storage, regulatory and reputational risks as further set forth in the Terms;<br>
+5.7. The Player understands that bitcoins transferred to the Service can be transferred to individuals and/or entities which provide services for the development of Services, for marketing and operation of the Services;<br>
+5.8. The Player understands that the Player has no right against any party whatsoever to request any refund of the bitcoins submitted to the Service for the creation of the tickets under any circumstance;<br>
+5.9. The Player understands that Tickets are not designed to form any form of currency, that no market liquidity may be guaranteed and that the value of Tickets over time may experience extreme volatility or depreciate in full; he/she has sufficient legal capacity in accordance with the law to enter into Service;<br>
+5.10. The Player understands that he/she is not going to enter the Blockchain System and/or to use Player`s wallet or Tickets for the purpose of avoidance of bans and/or restrictions put on it by the law, as well as not to use the Blockchain Systems with the aim of creating speculative, misleading and/or fraudulent schemes;<br>
+5.11. Player understands that he/she has no right to create more than one account on Service. If Player is found out creating more than one accounts or creating a referral network of their own accounts, or any other cheating, all his accounts will be blocked and winnings are transferred to the prize Fund.<br>
+</p>
+<p><strong>6. Entry to and Execution of Service</strong>
+6.1. Tickets do not originate and do not provide any rights for participation in property, joint stock or authorized capital of any associations, partnerships, companionships or any other forms of legal entities of whatever jurisdiction. Tickets cannot be used as any kind of security.<br>
+6.2. Tickets do not provide their holders with any additional rights in material, as well as non-material nature, except for those rights that are stipulated by the Service. Tickets allows the holders to participate in lottery.<br>
+6.3. The execution is nominated in Bitcoins and is provided automatically at occurrence of the terms specified in the Blockchain. The Players of the Lottery understand and accept that they are not able to challenge the data in the System or ask for the reimbursement for the Service or any other reimbursement. <br>
+</p>
+<p><strong>7. Player Wallet</strong>
+7.1. As part of the creation process the Player will generate a wallet seed, need to provide a password and save their private wallet keys. The password will be used to encrypt the Player’s seed and private keys to the Player's Wallet.<br>
+7.2. Following the creation of Ticket by the Service, the Tickets will be used to Player`s participation in the lottery. The Player understands that the Player must keep his seed, password and private keys safe and that the Player may not share them with anybody. The Player further understands that if his seed is lost or stolen, the Player will not be able to generate a new password or recover his private keys, and if the Player also loses his private keys and password, the bitcoins or Tickets associated with the Player's Wallet will be unrecoverable and will be permanently lost. Furthermore, the Player understands that there is no recovery mechanism for lost seeds, and without the seeds there is no recovery mechanism for lost passwords and private keys, so no one will be able to help the Player retrieve or reconstruct a lost seed, password and private keys and provide the Player with access to any lost Tickets or bitcoins. Furthermore, the Player understands that it is not possible to reconstruct a lost or stolen wallet.<br>
+</p>
+<p><strong>8. Formation and Distribution of the Prize fund</strong>
+8.1. Every payment for purchasing ticket is distributed by the System according to the following proportion: 60 % of the ticket cost goes to the Jackpot fund; remaining 40% go to promotion (15-20%), Token holders' dividends (10-15%) and management fee and referral rewards (5-10%).<br>
+8.2. Every day the Service raffles a draw among Players that bought tickets in this day. A Ticket wins when numbers of the ticket match numbers of the winning set according to the table set forth. Winning set for free tickets specified with table set forth below.<br>
+</p>
+<img src="https://trueflip.io/newico/img/prize_table.jpg" alt="prize table" style="max-width: 320px;"/>
+<p>8.3. The process of determination of the winning is published on GitHub (address set forth above).<br>
+8.4. If a Player`s ticket wins in accordance with the table described above, the corresponding amount of BTC is instantly transferred to the Player`s wallet under his account.<br>
+8.5. For further disposal of winning amount, a Player can send Bitcoins directly to the exchange services and then convert it to any currency or use TrueFlip account for any Bitcoin expenses. All operations are subject to commission fee equal to 4%.</p>
+<p><strong>9. Notification About Risks</strong>
+The Player understands and accepts the risks in connection with transferring Bitcoins to the Service and creating Ticket as exemplary set forth above and hereinafter. In particular, but not limited, the Player understands the inherent risks listed hereinafter:<br>
+9.1. Risk of software weaknesses: The Player understands and accepts that the Blockchain System concept, the underlying software application and software platform is still in an early development stage and unproven, why there is no warranty that the process for creating tickets will be uninterrupted or error-free and why there is an inherent risk that the software could contain weaknesses, vulnerabilities or bugs causing, inter alia, the complete loss of Bitcoins.<br>
+9.2. Regulatory risk: The Player understands and accepts that the blockchain technology allows new forms of interaction and that it is possible that certain jurisdictions will apply existing regulations on, or introduce new regulations addressing blockchain technology based applications, which may be contrary to the current setup of the System and which may, inter alia, result in substantial modifications of the Service, including its termination and the loss of Bitcoins or tickets for the User.<br>
+9.3. Risk of abandonment / lack of success: The Player understands and accepts that the creation of the Tickets and the development of the Service may be abandoned for a number of reasons, including lack of interest from the public, lack of funding, lack of commercial success or prospects (e.g. caused by competing projects). The Player therefore understands that there is no assurance that, even if the Services are partially or fully developed and launched, the User will receive any revenues through the Tickets held by him.<br>
+9.4. Risk of Loss of private key: Bitcoins in account wallet can only be accessed with a wallet seed or combination of private key and password. The private key is encrypted with a password. The Player understands and accepts that if his wallet file or password respectively his private key got lost or stolen, the obtained Bitcoins associated with the Player’s Wallet or password will be unrecoverable and will be permanently lost with the wallet seed.<br>
+9.5. Risk of theft: The Player understands and accepts that the Service concept, the underlying software application and software platform may be exposed to attacks by hackers or other individuals that that could result in theft or loss of bitcoins or tickets, impacting the ability to develop the Services.<br>
+</p>
+<p><strong>10. Referral program</strong>
+10.1. For the purpose of attracting new Players the Service introduces Referral program (hereinafter the “Program”) called “Friend`s winnings”. The Program provides Players the opportunity to refer other individuals to join the Trueflip Service as new Players. <br>
+10.2. To be eligible to participate in the Referral Program as a referrer, a Player must be registered on the Trueflip Website and confirm his email. Under the Program, the System provides a Player with a unique referral link that can be distributed to other individuals to become Referred Players. Referrers are provided with a personal “Refer-a-Friend” page (https://trueflip.io/profile/referral) to check the status of his/her Referrals and to manage his/her rewards.<br>
+10.3. In order for a new Player to be registered as a Referred player in the System, he must visit the Website using a referral link and create an account in the next 72 hours. Cookies must be enabled on the computer of a new Player.<br>
+10.4. After a Referred Player creates an account on the Website and confirms his email, both the Referrer and the Referred Player get a free lottery ticket. The Referrer will also receive 2% of the Referred Players’ winnings on an ongoing basis, including Jackpot​. <br>
+10.5. All Referral Program remunerations are added automatically to the Player’s account and can be used at his discretion in accordance with present Terms and Conditions.<br>
+10.6. When distributing, promoting or communicating their Referral Code(s) the Registered Players must agree to the following restrictions:<br>
+10.6.1. No spamming. The Registered Players agree that they will not “spam” anyone with invitations to join the Trueflip System, and that at all times they will remain compliant with all applicable laws. The following specific activities are prohibited: <br>
+- Mass emailing, texting or messaging people they do not personally know; <br>
+- Use of automated systems or bots through any channel to distribute, post or respond to their Referral Code; <br>
+- Use of scripts, programmed or automatic dealers to send invites or to communicate Referral Codes; <br>
+- Posting referral codes on event or venue pages without express permission from the owner. <br>
+10.6.2. No misrepresentations. The Registered Players agree they you will not attempt to mislead anyone in connection with the Referral Program, either by affirmative representation, implication, or omission. In particular, they agree that they will not: <br>
+- Impersonate any person or entity;<br>
+- Create fake accounts, blogs, webpages, profiles, websites, links or messages; <br>
+- Misrepresent their relationship with Trueflip or any other third party;<br>
+- Suggest that an affiliation or partnership exists with a third party where none exists. <br>
+- Make misrepresentations with respect to the characteristics or qualification requirements for any referral rewards. <br>
+10.6.3. No prohibited content. The Registered Players agree that they will not use the Trueflip brand in connection with: <br>
+- Disparaging or defamatory content concerning Trueflip or third parties; <br>
+- Content which promotes racism, bigotry, hatred, discrimination or physical harm of any kind against any group or individual; <br>
+- Offensive, abusive, intimidating or harassing content;<br>
+- Content that is sexually explicit, obscene and/or contains nudity; <br>
+- Any political and/or religious statement; <br>
+- Content containing images or reference to drugs, alcohol, tobacco, weapons or firearms; <br>
+- Content that violates someone else’s privacy. <br>
+10.6.4. Other restrictions. The Registered Players also agree that they will not:<br>
+- Open accounts with their affiliate links and with a single IP address;<br>
+- Create websites, domains, URLs, social media handles or email addresses containing the word “Trueflip”; <br>
+- Engage in fraudulent activity.  The Registered Players agree that they and their referrals will not defraud or abuse (or attempt to defraud or abuse) Trueflip, the terms of the Trueflip Referral Program, or any invited users.<br>
+10.7. Trueflip System reserves the right to disqualify any Player and/or cancel any Reward(s) it finds to be violating these Terms and Conditions. Referrals generated by a script, macro or other automated means will be disqualified. <br>
+</p>
+<p><strong>11. Token sale</strong>
+11.1 In order to increase the Jackpot fund and run a marketing campaign the True Flip Group SRL is planning to conduct an Initial Coin Offering starting on June 28th 2017.<br>
+11.2. By transferring Bitcoin (BTC) or other supported cryptocurrencies to the Trueflip address in exchange for TFL Tokens, the Purchaser confirms to understand and accept that he/she makes a contribution into a Trueflip System for the development of the project, as described in the Trueflip Whitepaper, available at the https://trueflip.io website.<br>
+11.3. The Purchaser understands and accepts that while the individuals and entities, including True Flip Group SRL, assigned to this task will make reasonable efforts to develop the Trueflip System, it is possible that such development may fail and purchaser’s TFL Tokens become useless and/or valueless due to technical, commercial, regulatory or any other reasons.<br>
+11.4. The Purchaser understands that there may be serious risks connected with investing in cryptocurrency, such as heavy fluctuations of virtual or actual currency values, which in turn may lead to loss of currency over short or long periods.<br>
+11.5. The Purchaser acknowledges and understands that the Tokens have no warranty whatsoever, expressed or implied, to the extent permitted by Applicable Law and accordingly that Tokens are purchased on an "as is" basis.<br>
+11.6. The Purchaser also understands that Trueflip will not provide any refund of the purchase price for Tokens under any circumstance.<br>
+11.7. The Purchaser further agrees to accept sole and exclusive risk for the purchase of Tokens through the Trueflip Service. The Purchaser recognises that the Trueflip Platform is currently being developed and may undergo significant changes before release.<br>
+11.8. In order to reduce the possibility of fraud, phishing attempts and other schemes perpetrated by malicious third parties, the Purchaser agrees not to respond directly to any inquiry regarding its purchase of Tokens, including but not limited to email requests purportedly coming from Trueflip. The Purchaser understands that Trueflip may send the Purchaser emails from time-to-time, but these email notices will never ask for information or require a response from the Purchaser.<br>
+11.9. The Purchaser recognises that Trueflip does not warrant the period of time for which the Trueflip Service will be operational. The Trueflip Service may be abandoned by Trueflip for a number of reasons, including a lack of interest from the public, a lack of funding or competing games that seek to develop similar products, and competing non-affiliated games built on the same underlying protocol and open source technology.<br>
+11.10. The Purchaser understands that between the time of purchase of Tokens by means of the Token sale and the inception of the Trueflip Service, Tokens will be tradable in the Purchaser's discretion and shall be therefore be a liquid asset class.<br>
+11.11. By purchasing the TFL Tokens, the Purchaser confirms that he/she:<br>
+- Is legally permitted to purchase Tokens in the Purchaser’s jurisdiction;<br>
+- Is of a sufficient age to legally purchase Tokens or has received permission from a legal guardian who has reviewed and agreed to these Terms and the Sale Agreement;<br>
+- Will take sole responsibility for any restrictions and risks associated with the purchase of Tokens as set in the Terms;<br>
+- Is not exchanging Bitcoin for Tokens for the purpose of speculative investment;<br>
+- Has a full and complete understanding of the usage and intricacies of Blockchain-based assets, like Tokens, Bitcoins and Blockchain-based software systems.<br>
+- Is not a citizen of the United States of America.<br>
+11.12. After purchasing TFL Tokens, the Purchaser becomes a Token Holder. Every Token Holder becomes part of the bonus system organised by the Trueflip Service and is entitled to:<br>
+- Vote any management change after Trueflip Platform becomes fully decentralised;<br>
+- Gain 10-15% of the tickets sales revenue each month in proportion to the number of tokens they have.<br>
+11.13. The price of one TFL Token is set at 0.0005 Bitcoins. There will be maximum 21`000`000 TFL Tokens issued with the following distribution:  <br>
+- 70% of the Tokens for sale (including pre-ICO);<br>
+- 20% allocated for development team;<br>
+- 10% of the Tokens - for advisors and bounty campaign, escrow costs, tech and marketing consulting;<br>
+All unredeemed Tokens will be burned.<br>
+</p>
+<p><strong>12. Taxation</strong>
+The Users bears the sole responsibility to determine if the contribution to and receipt from the Smart Contract System, including but not limited to the acquisition of Tokens, change of the Token's value with the course of time and the receive function of the Smart Contract System shall be a taxable event for the User. The Users bear full responsibility for timely and correct calculation and payment of all taxes due in accordance with the legislation applicable to the Users. The Service is not a tax agent of the User, as well as it does not advise the User on the order of calculation and/or the payment of taxes.
+</p>
+<p><strong>13. No Forward-Looking Statements</strong>
+13.1. Nothing in the Service, in the Terms or in any statements or information contained on the Site at any moment, or in any means of communication of the Service (including but not limited to the publications in social media, as well as the statements or declarations made by inter alia the representatives of the Service, notwithstanding whether they had been made personally or on behalf of the Service), notwithstanding the time of their occurrence, shall be construed as the guarantee of gaining profit or benefit in any other form. The Players understand that participating in Lottery may result in financial losses.<br>
+13.2. The Player understands and accepts that while the individuals and entities assigned to provide certain tasks to develop Service and Lottery will make reasonable efforts to develop, complete these tasks as well as operating the Services under any regulatory scheme, it is possible that such development may fail and Tickets become useless or valueless due to technical, commercial, regulatory or any other reasons.<br>
+13.3. Hence, User therefore understands and accepts that the transfer of BTC to the Service may result in a total loss and that Player shall not have any claim whatsoever to reclaim any BTC lost.<br>
+</p>
+<p><strong>14. No Liability</strong>
+14.1. The Player acknowledges and agrees that, to the fullest extent permitted by any applicable law, the Player will not hold any developers, auditors, contractors or founders of the Service, the Blockchain System liable for any and all damages or injury whatsoever caused by or related to the use of, or the inability to use, Tickets, Services or Blockchain system under any cause or action whatsoever of any kind in any jurisdiction, including, without limitation, actions for breach of warranty, breach of contract or tort (including negligence) and that developers, auditors, contractors or founders of the Blockchain System and/or the Services shall not be liable for any indirect, incidental, special, exemplary or consequential damages, including for loss of profits, goodwill or data, in any way whatsoever arising out of the use of, or the inability to use of the Blockchain System and/or Services. The Player further specifically acknowledges that developers, auditors, contractors or founders of the Tokens, Smart Contract System and/or the Services are not liable, and the User agrees not to seek to hold them liable, for the conduct of third parties, including other creators of Token, and that the risk of creating, holding and using Token rests entirely with the User. By creating or holding Token, and to the extent permitted by law, the User agrees not to hold any third party (including developers, auditors, contractors or founders) liable for any regulatory implications or liability associated with or arising from the creation or ownership of Token or any other action or transaction related to the Smart Contract System.<br>
+14.2. The Service does not guarantee the permanent and uninterruptible operation of the Site and does not take any responsibility for direct, indirect, accidental, special, circumstantial or punitive damages, including but not limited to the losses in the form of lost profit for the mistakes and/or technical issues in operation of the Site, or restriction of the access to the Site on the territory of any jurisdiction.<br>
+</p>
+<p><strong>15. Miscellaneous</strong>
+15.1. The User understands and accepts that the network of miners will be ultimately in control of the Smart Contract System. The User understands that a majority of these miners could agree at any point to make changes to the official Smart Contract System and to run the new version of the Smart Contract System. Under such a scenario, Tokens will likely have no intrinsic value.<br>
+15.2. The User agrees that if any portion of these Terms is found illegal or unenforceable, in whole or in part, such provision shall, as to such jurisdiction, be ineffective solely to the extent of such determination of invalidity or unenforceability without affecting the validity or enforceability thereof in any other manner or jurisdiction and without affecting the remaining provisions of the Terms, which shall continue to be in full force and effect.<br>
+15.3. The Terms govern the creation, transfer and holding of the Tokens and supersede any public statements about the launch of Tokens and/or the Smart Contract System made by anyone in the past, present and future.<br>
+15.4. The applicable law is Costa Rican law. Any dispute arising out of or in connection with the creation of the Tokens and the development of Services shall be finally settled by the ordinary courts of the registered domicile of the defendant.<br>
+</p>
+
+                                </div>
+                            </div>
+
+                                <div class="registration-box__field">
+                                    <label class="form-control__label form-control__label_checkbox">
+                                    <input id="agree_1" type="checkbox" class="form-control__checkbox styled">I hereby confirm that I read and agree to the <a href="https://trueflip.io/info/token-sale-agreement?lang=en" target="_blank" class="registration-box__link">Token Sale Terms</a> and <a href="https://trueflip.io/TrueFlip%20Whitepaper(01.06).pdf" target="_blank" class="registration-box__link">True Flip White Paper</a></label>
+                                </div>
+                                <div class="registration-box__field">
+                                    <label class="form-control__label form-control__label_checkbox">
+                                    <input id="agree_2" type="checkbox" class="form-control__checkbox styled">I hereby confirm that I am not a US citizen or resident, nor am I signing on behalf of a US citizen or resident.</label>
+                                </div>
+                                <div class="registration-box__field">
+                                    <label class="form-control__label form-control__label_checkbox">
+                                    <input id="agree_3" type="checkbox" class="form-control__checkbox styled">I hereby acknowledge that the Token Sale will be used to fulfil the workshop mission.</label>
+                                </div>
+                                <div class="registration-box__field">
+                                    <label class="form-control__label form-control__label_checkbox">
+                                    <input id="agree_4" type="checkbox" class="form-control__checkbox  styled">I hereby acknowledge that the Token Sale does not receive equity in TrueFlip Group SRL.</label>
+                                </div>
+
+
+                        </div>
+                    </div>
+                    <div class="modal-bottom-grey">
+                            <div class="registration-box__field registration-box__field_bottom clearfix">
+                                        <div class="registration-box__field registration-box__field_column">
+                                            <label class="form-control__label">Enter your full name or initials to digitally sign and agree:</label>
+                                            <input type="text" id="initials" class="modal-input modal-input-2" placeholder="Enter your initials...">
+                                        </div>
+                                         <div class="registration-box__field registration-box__field_column">
+                                             <a href="#" onclick="ico.fn.validate_2d_step();return false;" class="btn btn-orange btn-orange-full">Sign & agree</a>
+                                         </div>
+                                    </div>
+                        </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="modal-wrap modal-wrap_registr" id="modal-step-02">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active">
+                    <div class="modal-content modal-content_registr">
+                        <div class="steps-box">Step 2 of 3</div>
+                        <div class="registration-box">
+                            <div class="registration-box__title">
+                               <a href="#tab-1" class="tab-link active">Create Your Account</a> <span class="font-normal">or</span> <a href="#tab-2" class="tab-link singintablink">Sign In</a>
+                            </div>
+
+                            <div class="tab-block clearfix">
+                                <div class="tab-block__col">
+                                    <div class="tab-item" id="tab-1">
+                                            <div class="block-register-item">
+                                                <form action="#" onsubmit="return false;" id="signupform">
+                                                   <div class="modal-form__row">
+                                                        <input type="text" name="name" placeholder="Your name" class="modal-input">
+                                                    </div>
+                                                    <div class="modal-form__row">
+                                                        <input type="text" name="email" id="signupemail" placeholder="Email" class="modal-input">
+                                                    </div>
+                                                    <div class="modal-form__row">
+                                                        <input type="password" name="pass" id="signuppassword" placeholder="Password" class="modal-input">
+                                                    </div>
+                                                    <div class="modal__btn-wrap">
+                                                        <a href="#" onclick="ico.fn.ico_signup();return false;" class="btn btn-orange btn-orange-full fancybox-2">SIGN UP</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                </div>
+                                <div class="tab-item" id="tab-2">
+
+                                            <div class="block-register-item block-signin">
+                                                <form action="#" onsubmit="return false;" id="signinform">
+                                                    <div class="modal-form__row">
+                                                        <input type="text" name="email" id="signinemail" placeholder="Email" class="modal-input">
+                                                    </div>
+                                                    <div class="modal-form__row">
+                                                        <input type="password" name="pass" id="signinpassword" placeholder="Password" class="modal-input">
+                                                    </div>
+                                                    <div class="modal__btn-wrap">
+                                                        <a href="#" onclick="ico.fn.ico_signin();return false;" class="btn btn-orange btn-orange-full">SIGN IN</a>
+                                                    </div>
+                                                </form>
+                                            </div>
+
+                                </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrap modal-wrap_registr" id="modal-step-03">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active">
+                    <form action="#" class="registration-box__form">
+                    <div class="modal-content modal-content_registr">
+                        <div class="steps-box">Step 3 of 3</div>
+                        <div class="registration-box">
+                            <div class="registration-box__title">
+                               Send Your Contribution Using ETH
+                            </div>
+                            <div class="modal-text">
+                                <p> Send ETH to the smart contract address below using Mist, Metamask, ImToken Parity or MyEtherWallet. By sending ETH to the address below, you agree to the Token Sale Terms.</p>
+                                <div class="modal-subtitle" style="color: #f00;">IMPORTANT</div>
+                                <p>DO NOT send ETH from exchanges like Coinbase, Poloniex, Kraken, or use Jaxx. In addition DO NOT make use of any Multi-Signature wallet as we will not support them and your transaction will not go through. By doing so your ETH may be permanently lost, and the TFL may not be created.</p>   <div class="modal-subtitle">REMEMBER</div>
+                                <p>Your tokens, transactions, wallets and passwords are your responsibility. Protect your keys and passwords, they are unrecoverable. If you lose them someone else may get access to your tokens</p>
+                            </div>
+                            <div class="modal-table-wrap">
+                                <table class="modal-table">
+                                    <tr>
+                                        <td colspan="3">
+                                            ETH-WALLET ADDRESS <a href="#" data-clipboard-text="0x56de36FCD949cbbCb1B511e4C125f452e0162947" data-tocopy="0x56de36FCD949cbbCb1B511e4C125f452e0162947"
+                                             onclick="return false;" class="link-copy copy_wallet_address">COPY</a>
+                                            <div class="modal-table-info">0x56de36FCD949cbbCb1B511e4C125f452e0162947</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            START BLOCK
+                                            <div class="modal-table-info">#3,942,730</div>
+                                        </td>
+                                        <td>
+                                            RECOMMENDED GAS LIMIT
+                                            <div class="modal-table-info">200,000</div>
+                                        </td>
+                                        <td>
+                                           MAXIMUM GAS PRICE
+                                            <div class="modal-table-info">50 Gwei</div>
+                                        </td>
+                                    </tr>
+                                    <tr style="display:none;">
+                                        <td class="noborder">
+                                            TOKEN AMOUNT:
+                                            <div class="modal-table-info modal-table-info_inline" id="eth_amount_tfl">10000 <span>TFL</span></div>
+                                        </td>
+                                        <td class="noborder">
+                                           BONUS (+20%):<span class="modal-table-star">1</span>
+                                            <div class="modal-table-info modal-table-info_inline" id="eth_amount_bonus_tfl">3000 <span>TFL</span></div>
+                                        </td>
+                                       <td class="noborder">
+                                          TOTAL:
+                                           <div class="modal-table-info modal-table-info_inline" id="eth_amount_total_tfl">13000 <span>TFL</span></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                        </form>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal-wrap modal-wrap_registr" id="modal-step-04">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active">
+                    <form action="#" class="registration-box__form">
+                    <div class="modal-content modal-content_registr">
+                        <div class="steps-box">Step 3 of 3</div>
+                        <div class="registration-box">
+                            <div class="registration-box__title">
+                               Send Your Contribution Using <span class="laststep_cur"></span>
+                            </div>
+                            <div class="modal-text">
+                                <!--p>This account is valid for 30 minutes. The funds must be sent in this period of time.</p-->
+                                <div class="modal-subtitle">IMPORTANT</div>
+                                <p>If you will make a mistake and send the funds to a wallet different from the one specified below, then True Flip takes no responsibility for that and will not be able to recover funds in any way.</p>
+                                <div class="modal-subtitle">REMEMBER</div>
+                                <p>You are responsible for your tokens, transactions, wallets and passwords. Protect your keys and passwords. They are unrecoverable. If you lose them, someone else may get access to your tokens.</p>
+                            </div>
+                            <div class="modal-table-wrap">
+                                <table class="modal-table">
+                                    <tr>
+                                        <td colspan="2">
+                                            <span class="laststep_cur"></span> ADDRESS <a href="#"
+                                            data-clipboard-text="" data-tocopy=""
+                                            onclick="return false;" id="ltcbtcdash_addr" class="link-copy copy_wallet_address">COPY</a>
+                                            <div class="modal-table-info" id="MYwallet"></div>
+                                        </td>
+                                        <td>
+                                            AMOUNT <!--a href="#" class="link-edit">Edit</a-->
+                                            <div class="modal-table-info" id="MYcurrencyAmount">5.0000 BTC</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="noborder noborder-bottom">
+                                           YOUR ETH-WALLET<br><br>ADDRESS FOR TFL TOKEN<span class="modal-table-star">1</span>
+                                        </td>
+                                        <td colspan="2" class="noborder">
+                                           <input type="text" name="eth_wallet" id="eth_wallet_ext" class="modal-table-input">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="noborder">
+                                            TOKEN AMOUNT:
+                                            <div class="modal-table-info modal-table-info_inline" id="MYamount">10000 <span>TFL</span></div>
+                                        </td>
+                                        <td class="noborder">
+                                            BONUS (+20%):<span class="modal-table-star">2</span>
+                                            <div class="modal-table-info modal-table-info_inline" id="MYbonus">3000 <span>TFL</span></div>
+                                        </td>
+                                       <td class="noborder">
+                                            TOTAL:
+                                            <div class="modal-table-info modal-table-info_inline" id="MYtotal"> 13000 <span>TFL</span></div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="modal-table-btn">
+                                <a href="#" onclick="ico.fn.save_and_go(); return false;" class="btn btn-orange btn-orange-full fancybox-2">SAVE</a>
+                                <p class="modal-btn-info">& go to the investor's profile</p>
+                            </div>
+
+
+                             <div class="modal-table-star-info"><span class="modal-table-star">1</span> Token will be transfered to the specified ETH wallet within some time. If the wallet is not specified, you will be able to point it in your account and then the funds will be received within two weeks after the end of the Token Sale.</div>
+
+                            <div class="modal-table-star-info"><span class="modal-table-star">2</span>The specified bonus is non-guaranteed and expected in case of early payment. The final accrual will be determined by the smart contract and the fact of receipt of funds to the wallet.</div>
+
+                        </div>
+                    </div>
+
+                        </form>
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrap modal-wrap_registr" id="modal-wechat" style="max-width: 500px">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active" style="text-align: center;">
+                    <div class="modal-content modal-content_registr">
+                        <div class="registration-box">
+                            <img src="../img/beepi_loader_blue_1.gif" data-src="/img/qrcode.png" style="max-width: 300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-wrap modal-wrap_registr" id="modal-sign_in">
+            <div class="modal-content-wrap">
+                <div class="modal-in js-modal-in active">
+                    <div class="modal-content modal-content_registr">
+                        <div class="registration-box">
+                            <div class="registration-box__title">
+                                <a href="#tab-sign_in-1" class="tab-link active">Create Your Account</a> <span class="font-normal">or</span> <a href="#tab-sign_in-2" class="tab-link singintablink">Sign In</a>
+                            </div>
+
+                            <div class="tab-block clearfix">
+                                <div class="">
+                                    <div class="tab-item" id="tab-sign_in-1">
+                                        <div class="block-register-item">
+                                            <form action="#" onsubmit="return false;" id="signupform">
+                                                <div class="modal-form__row">
+                                                    <input type="text" name="name" placeholder="Your name" class="modal-input">
+                                                </div>
+                                                <div class="modal-form__row">
+                                                    <input type="text" name="email" id="signupemail" placeholder="Email" class="modal-input">
+                                                </div>
+                                                <div class="modal-form__row">
+                                                    <input type="password" name="pass" id="signuppassword" placeholder="Password" class="modal-input">
+                                                </div>
+                                                <div class="modal__btn-wrap">
+                                                    <a href="#" onclick="ico.fn.ico_signup({success: 'https://trueflip.io/profile/investor'});return false;" class="btn btn-orange btn-orange-full fancybox-2">SIGN UP</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="tab-item" id="tab-sign_in-2">
+
+                                        <div class="block-register-item block-signin">
+                                            <form action="#" onsubmit="return false;" id="signinform">
+                                                <div class="modal-form__row">
+                                                    <input type="text" name="email" id="signinemail" placeholder="Email" class="modal-input">
+                                                </div>
+                                                <div class="modal-form__row">
+                                                    <input type="password" name="pass" id="signinpassword" placeholder="Password" class="modal-input">
+                                                </div>
+                                                <div class="modal__btn-wrap">
+                                                    <a href="#" onclick="ico.fn.ico_signin({success: 'https://trueflip.io/profile/investor'});return false;" class="btn btn-orange btn-orange-full">SIGN IN</a>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- BODY EOF   -->
+        <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+        <script type="text/javascript" src="js/components/timecircles.js" ></script>
+
+        <script type="text/javascript" src="js/components/components.min.js" ></script>
+        <script async src="https://www.youtube.com/iframe_api" async></script>
+        <script type="text/javascript" src="js/custom.min.js?v60b2191674fbed0d1a871370a923cee9" ></script>
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 848720716;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+		<div class="counters">
+			<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		</div>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/848720716/?guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 848720716;
+        var google_conversion_label = "DNHKCOKJ33IQzObZlAM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/848720716/?value=1.00&amp;label=DNHKCOKJ33IQzObZlAM&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+    </body>
+</html>
+

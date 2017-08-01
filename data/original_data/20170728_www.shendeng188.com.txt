@@ -1,0 +1,406 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"  />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />  
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+        <title>
+                登录 -- 神灯彩票
+            
+            
+        </title>
+                    <link media="all" type="text/css" rel="stylesheet" href="http://qiniu.static.luckyshendeng.com/assets/images/global/global.css?v=f2125849e752d0be548d442a7859dba27e30f61a">
+        
+    <link media="all" type="text/css" rel="stylesheet" href="http://qiniu.static.luckyshendeng.com/assets/images/login/login.css">
+    </head>
+
+    <body>
+
+
+        
+    <div class="layout layout-login">
+
+        <div class="s-1">
+        <div class="big_container">
+                    <div class="s-1-header-line"></div>
+                        <div class="container">
+                            <div class="clearfix">
+                                <div class="s-1-header">
+                                    <div class="s-1-header-left">
+                                        <a href="/" class="logo"></a>
+                                        <div class="txt">
+                                            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;专注彩票14年&nbsp;&nbsp;&nbsp;100%兑现赔付
+                                        </div>
+                                    </div>
+                                    <div class="s-1-header-right">
+                                        <a href="javascript:void(0)" class="link link-service JS-service-chat">
+                                             联系客服
+                                        </a>
+                                        <!-- <a href="/mobile" class="link link-mobile">
+                                            手机客户端
+                                        </a> -->
+                                        <a href="/pc-client" class="link link-pc-client" target="_blank">
+                                            电脑客户端
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="clearfix">
+                                <div class="left"></div>
+                                <div class="right">
+
+                                <form method="POST" action="http://www.shendeng188.com/auth/signin" accept-charset="UTF-8" class="login-form" role="form" target="_top" name="signinForm"><input name="_token" type="hidden" value="OSslmLLXrl7ejwRLMHxEwYMYGTgdFZzgDofwyamP">                                <input type="hidden" name="_random" value="$2y$10$AzkH3hxpuZ6llHFSjZFGU.0ZucwrtGV3V5bidTg9Ym51bmnImb7AW_dLvekA" />
+                                    <div class="inner">
+                                        <div class="box">
+                                            <div class="title clearfix">
+                                                <div class="login-txt">用户登录</div>
+                                                <a class="fastlogin" href="http://speed.sd188.info:8080" target="_blank">快速登录</a>
+                                            </div>
+                                            <div class="line"></div>
+                                            <div class="row">
+                                                <input type="text" class="ipt ipt-username"  name="username" id="login-name" value="" placeholder="用户名"   required autofocus />
+                                                <span class="msg-tip "></span>
+                                            </div>
+                                            <div class="row">
+                                                <input class="ipt ipt-password"  name="" id="login-pass" type="password"  placeholder="密码" required />
+                                                <input name="password" id="login-pass-real" type="hidden" required />
+                                                    <!--<span class="msg-tip msg-tip-right"></span>-->
+                                            </div>
+
+
+                                            
+
+                                            <div class="row">
+                                                <button class="submit" id="J-button-submit">
+                                                    立即登录
+                                                </button>
+                                            </div>
+                                                                                    </div>
+                                    </div>
+                                </form>
+
+
+                                </div>
+                            </div>
+                            
+                            <div class="next"></div>
+                            <div class="timeline"></div>
+                        </div>
+                        </div>
+        </div>
+        <div class="s-2">
+            <div class="container">
+                <div class="title">
+                    <div class="title-ico"></div>
+                </div>
+                <div class="video-cont">
+                    <div class="inner">
+                        <div class="video-cover" id="J-video-cover">
+                        <div id="id_video_container_14651978969511555257" style="width:1052px;height:438px;margin: 6px"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="s-3">
+            <div class="container">
+                <div class="arrow"></div>
+                <div class="list clearfix">
+                    <div class="cell cell-a">
+                        <div class="c">
+                            <div class="t">14年行业龙头</div>
+                            <div class="text">主集团14年稳健经营，资金雄厚，管控健全，挡风雨稳发展！100%兑现赔付，保您畅玩无忧。</div>
+                        </div>
+                    </div>
+                    <div class="cell cell-b">
+                        <div class="c">
+                            <div class="t">100%安全保障</div>
+                            <div class="text">神灯彩票拥有政府颁发的最新PAGCOR牌照，以及First Cagayan颁发的牌照，双牌照为您保保驾护航。</div>
+                        </div>
+                    </div>
+                    <div class="cell cell-c">
+                        <div class="c">
+                            <div class="t">7*24优质服务</div>
+                            <div class="text">全年365天不间断的技术支持及客户服务，随时随地待命，第一时间为您排忧解难！</div>
+                        </div>
+                    </div>
+                   <div class="cell cell-d">
+                        <div class="c">
+                            <div class="t">3分钟提现到账</div>
+                            <div class="text">提款最快3分钟到账,19家合作银行为您提供快捷、安全、可靠的充提服务。</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="global-footer">
+<div class="footer-container">
+    <div class="container clearfix">
+        <div class="footer-bg"></div>
+        <ul class="footTitle">
+            <li>运营资质</li>
+            <li>联系我们</li>
+            <li>更多服务</li>
+            <li><i></i>神灯品牌</li>
+        </ul>
+        <ul class="footCont">
+            <li class="footCont1"></li>
+            <li class="footCont2"><div class="logobg"></div>
+            <ul class="footContact">
+                <li>Yuchengco Tower,RCBC Plaza,Makati City,Philippines</li>
+                <li class="info">Info@shendeng.ph</li>
+                <li>+63 9475963058<br>
+                服务时间：10:00-18:00</li>
+            </ul>
+            </li>
+            <li class="footCont3">
+                <ul class="server">
+                    <li class="disable" ><a href="javascript:void(0);" target="_blank">手机客户端</a></li>
+                    <li><a href="/pc-client/index.html" target="_blank">电脑客户端</a></li>
+                    <li><a href="http://speed.sd188.info:8080" target="_blank">快速登录</a></li>
+                    <li><a href="/help" target="_blank">帮助中心</a></li>
+                </ul>
+            </li>
+            <li class="footCont4"><p>神灯的主集团拥有14年行业经验,为您提供彩票、竞彩足球、电子娱乐等游戏产品及服务，强大......</p>
+            <a class="more" href="/brand" target="_blank">了解更多</a></li> 
+        </ul>
+        <div class="copy">
+            © 2003-2017 神灯彩票版权所有 <a class="link">菲律宾政府PAGCOR博彩牌照认证</a>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+                    <script src="http://qiniu.static.luckyshendeng.com//dist/assets/js/base-all.min.js?v=28d4ab17e64eb39f695b6c0c73665632be8b23ca"></script>
+        
+        <script type="text/javascript">
+    (function(){
+        if ($('#popWindow').length) {
+            var popWindow = new framework.Message();
+            var data = {
+                            title          : '温馨提示',
+                            content        : $('#popWindow').find('.pop-bd > .pop-content').html(),
+                            isShowMask     : true,
+                            closeIsShow    : true,
+                            closeButtonText: '关闭',
+                            closeFun       : function() {
+                                this.hide();
+                            }
+            };
+            popWindow.show(data);
+        }
+    })();
+</script>
+
+
+        
+        
+    <script src="http://qiniu.static.luckyshendeng.com/assets/js/md5.js"></script>
+    <script type="text/javascript">
+        function changeCaptcha () {
+            $('#J-vcode-img').attr('src', "http://www.shendeng188.com/captcha?" + ((Math.random()*9 +1)*100000).toFixed(0));
+        };
+
+        $(function(){
+            $('#J-button-submit').click(function (e) {
+                var pwd = $('#login-pass').val();
+                var username = ($('#login-name').val()).toLowerCase();
+                $('#login-pass-real').val(md5(md5(md5(username + pwd))));
+                $('form[name=signinForm]').submit();
+            });
+            $('form[name=signinForm]').keydown(function(event) {
+                if (event.keyCode == 13) $('#loginButton').click();
+            });
+        });
+        
+        setTimeout(function(){
+            $('.s-1 .line').fadeIn();
+        }, 1000);
+    </script>
+
+
+    <script type="text/javascript">
+        $(function(){
+            $.ajax({
+                url: 'https://qzonestyle.gtimg.cn/open/qcloud/video/h5/h5connect.js',
+                cache:true,
+                dataType:'script',
+                success:function(){
+                    $('#J-video-cover').click(function(){
+                        if (window['J-video-player'] == undefined){
+                            var option ={"auto_play":"1","file_id":"14651978969511555257","app_id":"1253231962","width":1052,"height":438,"https":1};
+                            /*调用播放器进行播放*/
+                            window['J-video-player'] = new qcVideo.Player(
+                                    /*代码中的id_video_container将会作为播放器放置的容器使用,可自行替换*/
+                                    "id_video_container_14651978969511555257",
+                                    option
+                                );
+                        }
+                    });
+                }
+            });
+        })
+    </script>
+
+
+
+
+
+
+<script type="text/javascript">
+(function($){
+    new framework.Hover({
+        triggers:'#J-footer-weichat',
+        panels:'#J-footer-panel-weichat',
+        currPanelClass:'panel-weichat-hover'
+    });
+
+})(jQuery);
+
+
+(function($){
+    //回到顶部
+    var refer = $('#J-header-container'),dom,offset,win,timer;
+    if(refer.size() < 1){
+        return;
+    }
+    win = $(window);
+    offset = refer.offset();
+    
+    
+    //问题反馈
+    var feedbackHandler = $('#J-global-panel-feedback');
+    if(feedbackHandler.size() > 0){
+        $(document).on('keyup', '.feedback-textarea', function(){
+            var v = this.value,len = v.length,maxlen = 1000;
+            $('#J-text-feedback-length').text(len);
+            if(len > maxlen){
+                this.value = v.substr(0, maxlen);
+            }
+        });
+        feedbackHandler.css({'left':offset.left + refer.width() + 10});
+        feedbackHandler.click(function(){
+            var wd = framework.Message.getInstance(),text = '';
+            wd.show({
+                isShowMask: true,
+                confirmText:' 提 交 ',
+                confirmIsShow: true,
+                title:'用户反馈',
+                content:$('#J-template-feedback-text').html(),
+                confirmFun:function(){
+                    text = $('#J-text-feedback-value').val();
+                    if($.trim(text) == ''){
+                        alert('内容不能为空');
+                        $('#J-text-feedback-value').focus();
+                        return;
+                    }
+                    $.ajax({
+                        url:'/suggestions/create',
+                        dataType:'json',
+                        method:'post',
+                        data:{'comment':text,'_token':$.trim($('#J-global-token-value').val())},
+                        beforeSend:function(){
+                            wd.hide();
+                        },
+                        success:function(data){
+                            if(Number(data['isSuccess']) == 1){
+                                wd.show({
+                                    isShowMask: true,
+                                    confirmIsShow: true,
+                                    title:'提示',
+                                    content:'<div style="font-size:16px;">提交成功！</div>',
+                                    confirmFun:function(){
+                                        wd.hide();
+                                    }
+                                 });
+                            }else{
+                                wd.show({
+                                    isShowMask: true,
+                                    confirmIsShow: true,
+                                    confirmText:' 关闭 ',
+                                    title:'提示',
+                                    content:'<div style="font-size:16px;">'+ data['Msg'] +'</div>',
+                                    confirmFun:function(){
+                                        wd.hide();
+                                    }
+                                 });
+                            }
+                        },
+                        error:function(xhr, type){
+                            alert('提交失败:' + type);
+                        }
+                    });
+                },
+                closeFun:function(){
+                    wd.hide();
+                }
+            });
+            
+        });
+    }
+})(jQuery);
+</script>
+
+<script>
+var _hmt = _hmt || [];
+$(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c7924a3b68b8f5904a62cdc2ab561f26";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+});
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+    (function(m, ei, q, i, a, j, s) {
+        m[i] = m[i] || function() {
+            (m[i].a = m[i].a || []).push(arguments)
+        };
+        j = ei.createElement(q),
+            s = ei.getElementsByTagName(q)[0];
+        j.async = true;
+        j.charset = 'UTF-8';
+        j.src = '//static.meiqia.com/dist/meiqia.js';
+        s.parentNode.insertBefore(j, s);
+    })(window, document, 'script', '_MEIQIA');
+    _MEIQIA('entId', 52326);
+    
+    _MEIQIA('metadata', {
+                ip: '218.30.116.9'
+    });
+    
+    _MEIQIA('withoutBtn');
+    $('.JS-service-chat').click(function(){
+        _MEIQIA('showPanel');
+        return false;
+    });
+})
+    
+
+</script>
+
+
+
+
+    </body>
+</html>

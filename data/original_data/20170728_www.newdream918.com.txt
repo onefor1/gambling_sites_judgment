@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN" xml:lang="zh-CN">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta charset="UTF-8">
+<title>新梦网|28游戏娱乐官网</title>
+<meta name="keywords" content="新梦网,新梦28,新梦官网,新梦彩票,新梦娱乐,新梦28官网,新梦游戏官网" />
+<meta name="description" content="新梦网——7年28游戏平台领导品牌。新梦网游戏最多，玩法最全，新梦网玩家最支持的老品牌。
+新梦想新旅程，感谢7年长情相伴——新梦娱乐游戏官网" />
+<link rel="stylesheet" type="text/css" href="http://cdn.xinyuemesh.com/assets/css/common-20170721.mini.css" />
+<link rel="stylesheet" type="text/css" href="http://cdn.xinyuemesh.com/assets/css/showDialog.css?ver=20160131" />
+</head>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery.form/3.51/jquery.form.min.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="http://cdn.xinyuemesh.com/assets/js/common-20170707.min.js"></script>
+<script type="text/javascript" src="http://cdn.xinyuemesh.com/assets/js/showDialog.js?version=20160130"></script>
+<body>
+<!-- 页面头部 -->
+<div class="top light-top">
+    <div class="center-wrap">
+        <div class="top-left"></div>
+        <div class="top-right">
+            <ul>
+                <li><a href="javascript:void(0);" id="downloadApp"><i class="icon app"></i>客户端下载</a></li>
+                <li><a href="javascript:void(0);" onClick="parent.LC_API.open_chat_window();"><i class="icon kefu"></i>在线客服</a></li>
+                <li><a href="javascript:void(0);" id="tryFree"><i class="icon icon-try-play"></i>免费试玩</a></li>
+            </ul>
+        </div>
+        <div class="fn-clear"></div>
+    </div>
+</div>
+<!-- 页面头部 结束-->
+
+<!-- 网站导航 -->
+<div class="head">
+    <div class="center-wrap">
+        <a class="logo" href="/"></a>
+                <div class="light-btns trigger-login-window">
+            <a class="btn light-btn-danger" href="javascript:void(0);" data-login-trigger="login">登 陆</a>
+            <a class="btn light-btn-primary" href="javascript:void(0);" data-login-trigger="register">注 册</a>
+        </div>
+                <div class="fn-clear"></div>
+    </div>
+</div>
+<!-- 网站导航 结束-->
+
+<!-- 网站主体 -->
+<div class="bro-banner" id="index-banner" style="display:none;"></div>
+<script type="text/javascript">
+$(function(){
+	var height=$(window).height();
+	if(height>855){
+		$('#index-banner').show();
+	} else {
+		var bannerHeight=height-115;
+		if(bannerHeight<540){
+			bannerHeight=540;
+		}
+		$('#index-banner').css('height', bannerHeight).show();
+	}
+});
+</script>
+<!-- 网站主体 结束 -->
+
+<div class="bg-pop"></div>
+<!-- 注册登录弹窗 -->
+<div class="login-pop-window">
+    <div class="tab">
+        <div class="tab-trigger active" data-id="loginTab" id="login">登 录</div>
+        <div class="tab-trigger" data-id="registerTab" id="register">注 册</div>
+        <div class="close"><i class="icon icon-login-close"></i></div>
+    </div>
+    <div class="tab-item show-tab" id="loginTab">
+        <form action="/login/ajax_signin" method="post" id="login-box-form">
+        <div class="pl-area">
+            <div class="pl-title"></div>
+            <div class="pl-content"><label class="small-label login-label">账 号：</label><input class="normal-input" name="username" type="text" placeholder="手机号/邮箱" id="user_name"></div>
+            <div class="pl-content"><label class="small-label login-label">密 码：</label><input class="normal-input" name="password" type="password" placeholder="密码" id="user_password"></div>
+            <div class="pl-content"><label class="small-label login-label">验证码：</label><input class="small-input" name="pincode" type="text" id="login-pincode"><img class="fresh-img" src="/captcha/index" onClick="this.src='/captcha/index/?time='+Math.round(Math.random()*10);" id="login-captcha-image"><i class="icon icon-fresh" data-url="/captcha/index"></i></div>
+            <div class="pl-content" id="login-box" style="display:none;"><label class="small-label login-label"></label><span class="f-error"><i class="icon icon-check"></i><span class="tip-text" id="login-message"></span></span></div>
+            <div class="pl-content p-btn big-btn"><label class="small-label login-label"></label><button class="btn btn-danger" type="submit" id="login-submit-btn" name="submit">登 录</button><a class="forget-pass" href="/login/forgetpwd1">忘记密码？</a></div>
+        </div>
+        </form>
+    </div>
+    <div class="tab-item" id="registerTab">
+        <form action="/login/ajax_signup" method="post" id="signup-box-form">
+        <div class="pl-area">
+            <div class="pl-title"></div>
+            <div class="pl-content"><label class="small-label login-label">邮 箱：</label><input class="normal-input" name="email" type="text" placeholder="邮箱地址" id="signup_user_name"><input type="hidden" name="uid" value="0"/></div>
+            <div class="pl-content"><label class="small-label login-label">密 码：</label><input class="normal-input" name="password" type="password" placeholder="密码" id="signup_user_password"></div>
+            <div class="pl-content"><label class="small-label login-label">确认密码：</label><input class="normal-input" name="confirmPassword" type="password" placeholder="确认密码" id="signup_confirm_password"></div>
+            <div class="pl-content"><label class="small-label login-label">手 机：</label><input class="normal-input" name="mobile" type="text" placeholder="手机号码"></div>
+            <div class="pl-content"><label class="small-label login-label">验证码：</label><input class="small-input" type="text" name="pincode" id="signup-pincode"><img class="fresh-img" src="/captcha/index" onClick="this.src='/captcha/index/?time='+Math.round(Math.random()*10);" id="signup-captcha-image"><i class="icon icon-fresh" data-url="/captcha/index"></i></div>
+            <div class="pl-content" id="signup-box" style="display:none;"><label class="small-label login-label"></label><span class="f-error"><i class="icon icon-check"></i><span class="tip-text" id="signup-message"></span></span></div>
+            <div class="pl-content p-btn big-btn"><label class="small-label login-label"></label><button class="btn btn-danger" type="submit" id="signup-submit-btn">注 册</button></div>
+        </div>
+        </form>
+    </div>
+</div>
+<!-- 注册登录弹窗 结束-->
+<!-- 试玩弹窗 -->
+<div class="try-pop-window">
+    <div class="title"><h2>免费试玩</h2><div class="close"><i class="icon icon-login-close"></i></div></div>
+    <div class="get-try-number">输入验证码获取试玩账号</div>
+    <div class="pl-content"><label class="small-label login-label">验证码：</label><input class="small-input" type="text" name="pincode" id="demo-pincode"><img class="fresh-img" src="/captcha/index" onClick="this.src='/captcha/index/?time='+Math.round(Math.random()*10);" id="demo-captcha-image"><i class="icon icon-fresh" data-url="/captcha/index"></i></div>
+    <div class="pl-content p-btn big-btn"><label ></label><button class="btn btn-danger" type="button" id="demo-submit-btn" name="demo-submit-btn">提 交</button></div>
+</div>
+<!-- 试玩弹窗 结束-->
+
+<!-- 客户端下载弹窗 -->
+<div class="app-pop-window">
+    <div class="title"><h2>客户端下载</h2><div class="close"><i class="icon icon-login-close"></i></div></div>
+    <div class="app-link">
+        <div class="item"><a href="http://cdn.xinyuemesh.com/download/newdream_android_stable_v2.0.apk"><img src="http://cdn.xinyuemesh.com/assets/images/android-app.png"></a></div>
+        <div class="item"><a href="http://cdn.xinyuemesh.com/download/newdream_pcapp_V2.0.rar"><img src="http://cdn.xinyuemesh.com/assets/images/windows-app.png"></a></div>
+    </div>
+    <div class="app-qrcode">
+        <div><img src="http://cdn.xinyuemesh.com/assets/images/qrcode/app/download.hzmeihe.jpg"></div>
+        <p>扫描下载手机客户端</p>
+    </div>
+</div>
+<!-- 客户端下载弹窗 结束-->
+
+<!-- 底部 -->
+<div class="footer">
+        <div class="footer-top">
+          <div class="f-top center-wrap">
+            <div class="footer-qrcode border-right" style="padding-left:45px;">
+							<img src="http://cdn.xinyuemesh.com/assets/images/qrcode/m.newdream123.com_qrcode.jpg?ver=20170118" width="110">
+			              <p>访问新梦手机版</p>
+            </div>
+            <div class="about-help">
+              <dl>
+                <dt><i class="icon icon-tanhao"></i> 关于我们</dt>
+                <dd><a href="/index/aboutme"><i class="icon icon-arrow"></i>公司简介</a></dd>
+                <dd><a href="/index/privacy"><i class="icon icon-arrow"></i>隐私声明</a></dd>
+                <dd><a href="/index/contact"><i class="icon icon-arrow"></i>联系我们</a></dd>
+              </dl>
+              <dl>
+                 <dt><i class="icon icon-wenhao"></i> 使用帮助</dt>
+                <dd><a href="/index/guide"><i class="icon icon-arrow"></i>新手指南</a></dd>
+                <dd><a href="/index/deposit"><i class="icon icon-arrow"></i>存款帮助</a></dd>
+                <dd><a href="/index/withdrawal"><i class="icon icon-arrow"></i>取款帮助</a></dd>
+              </dl>
+            </div>
+            <div class="footer-contact border-left border-right">
+                <div class="footer-qq-mail"><a class="footer-qq" href="http://wpa.qq.com/msgrd?v=3&uin=45397353&site=qq&menu=yes" target="_blank" title="有事点这里"><i class="icon icon-qq"></i> <span class="span-a">QQ客服</span></a> <a href="mailto:cs@lb9558.com" target="_blank"><i class="icon icon-mail"></i> <span>cs@lb9558.com</span></a></div>
+                <div class="select-line">网站线路</div>
+                <div class="line-list"><ul><li><a href="http://www.newdream999.com/">线路一</a></li><li class="active"><a href="http://www.newdream918.com/">线路二</a></li><li><a href="http://www.newdream555.com/">线路三</a></li><li><a href="http://www.xinmeng918.com/">线路四</a></li><li><a href="http://m.newdream918.com">手机版</a></li></ul></div>
+            </div>
+            <div class="footer-qrcode float-right" style="padding-right:45px;">
+              <img src="http://cdn.xinyuemesh.com/assets/images/weichat_qrcode.jpg" width="110">
+              <p>微信加关注</p>
+            </div>
+         </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="center-wrap">
+        Copyright © 2015 新梦网（Newdreams Entertainment，Inc） All Rights Teserves.<span class="hide"><script src="https://s11.cnzz.com/z_stat.php?id=1260604863&web_id=1260604863" language="JavaScript"></script></span>      </div>
+    </div>
+</div><!-- 底部 结束 -->
+<!-- 提示信息 start -->
+<div class="showbox-bg" id="showMsg-overlay"></div>
+<div class="showbox-window" id="showMsg-window">
+    <div class="showbox-title"><h1>提示信息:</h1><span class="icon icon-close close" id="showMsg-close"></span></div>
+    <div class="showbox-item" id="showMsg-content"></div>
+</div>
+<!-- 提示信息 end -->
+<script type="text/javascript">
+$(function(){
+	/*用户登陆*/
+	$('#login-box-form').ajaxForm({
+		beforeSubmit:loginRequest,
+		success:function(json){
+			if(json.status==true){
+				//当有网址跳转或页面刷新时
+				if(json.data.target){
+					location.href=json.data.target;
+				}
+			} else {
+				if(json.msg!='') {
+					$('#login-message').html(json.msg);
+					$('#login-box').show();
+				}
+				var imageUrl='/captcha/index';
+				$("#login-captcha-image").attr('src', imageUrl+'/?time='+Math.round(Math.random()*10));
+				$("#login-submit-btn").prop("disabled",false).html("登 录");
+			}
+			return true;
+		},
+		dataType:'json'
+	});
+	/*用户注册*/
+	$('#signup-box-form').ajaxForm({
+		beforeSubmit:signupRequest,
+		success:function(json){
+			if(json.status==true){
+				//当有网址跳转或页面刷新时
+				if(json.data.target){
+					location.href=json.data.target;
+				}
+			} else {
+				if(json.msg!='') {
+					$('#signup-message').html(json.msg);
+					$('#signup-box').show();
+				}
+				var imageUrl='/captcha/index';
+				$("#signup-captcha-image").attr('src', imageUrl+'/?time='+Math.round(Math.random()*10));
+				$("#signup-submit-btn").prop("disabled",false).html("注 册");
+			}
+			return true;
+		},
+		dataType:'json'
+	});
+	/*免费试玩*/
+	$('#demo-submit-btn').on("click",function(){
+		var code = $('#demo-pincode').val();
+		if(code == ''){
+			tipError($('#demo-pincode'), '验证码不能为空!');
+			return false;
+		}
+		$('#demo-submit-btn').prop("disabled",true).html("处理中...");
+		$.post('/index/ajax_demo', {pincode:code}, function(json){
+			if(json.status==true){
+				//当有网址跳转或页面刷新时
+				if(json.data.target){
+					location.href=json.data.target;
+				}
+			} else {
+				if(json.msg!='') {
+					tipError($("#demo-pincode"), json.msg);
+				}
+				var imageUrl='/captcha/index';
+				$("#demo-captcha-image").attr('src', imageUrl+'/?time='+Math.round(Math.random()*10));
+				$("#demo-submit-btn").prop("disabled",false).html("提 交");
+			}
+		}, 'json');
+	});
+});
+</script>
+<script type="text/javascript">
+$(function(){
+	$.getJSON("/inspection/ajax_check_blockip", function(json){
+		if(json.status==true){
+			location.href=json.data.target;
+		}
+	});
+});
+</script>
+<!--在线客服-->
+<script type="text/javascript">
+var __lc = {};
+__lc.license = 6368721;
+(function() {
+	var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+	lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!--/在线客服-->
+</body>
+</html>

@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html  id="ng-app" ng-app="portalApp" meidon-time="2017/07/28 07:15:28"  moment-lang="zh-CN"  ng-init="'澳门新葡京娱乐场'">
+<head>
+    <title>澳门新葡京娱乐场 - 最具实力的老虎机游戏平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://cdn.igsttech.com/Web.Portal/EH002-01.Portal/Content/Views/Shared/images/favicon.ico" />
+
+    
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="/bundles/font-awesome?v=QqiES8bMVFD1YGmU_C7h6nsgr358Xu-gbi4VJ0NwJNs1" rel="stylesheet"/>
+
+    <link href="/bundles/custom?v=5Wa8nqZwlBGzu1Pp_QLNPIWNPw7nHF_nimfxfdWB2fE1" rel="stylesheet"/>
+
+    <link href="/bundles/site?v=-r98C_NokadRRFOUBjiAmEHH7IjHjrrihEnIOKafX3Y1" rel="stylesheet"/>
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet" />
+    
+    <link href="/bundles/home?v=KHTjPH7X5g44lRLUr9GU17nyqyfw_UmTNITlfbW25hM1" rel="stylesheet"/>
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet" />
+
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery/v1.10.2/jquery.min.js"></script>
+
+    <script src="/bundles/common?v=43K0U2PTo3hjXKinjDELLvolTGd1xxqmZDl99bYH0HA1"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-signalR/v2.1.2/jquery.signalR-2.1.2.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body ng-controller="LayoutCtrl" class="layout">
+    <header id="header" scrolltop-fixed>
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <a href="/"></a>
+            </div>
+            <div id="slogan"></div>
+            
+            <div id="div-meiDonNow">
+                美东时间 -
+                <span ng-bind="meiDonNow|dateTime"></span>
+            </div>
+            <ul class="top-nav" ng-controller="LobbiesCtrl">
+                <li class="yel" ng-click="toAgFish()">
+                    <a href="javascript:void(0)">AG捕鱼王</a>
+                </li>
+                <li class="red" toggle-color><a href="http://www.zxd68455.com/app/%E6%BE%B3%E9%97%A8%E6%96%B0%E8%91%A1%E4%BA%AC%E8%B5%84%E8%AE%AF%E7%AB%AF.exe" target="_blank">资讯端下载</a></li>
+                <li class="green"><a href="http://www.hd8455.com" target="_blank">优惠申请</a></li>
+                <li class="purple"><a href="#" target="_blank">VIP等级查询</a></li>
+                    <li class="white"><a href="/Trial/Apply">免费试玩</a></li>
+                <li class="yel"><a href="http://www.www-68455.com" target="_blank">线路检测</a></li>
+                <li select-language>
+                    <span ng-repeat="item in language" data-language="{{item.Key}}" title="{{item.Value}}" ng-cloak></span>
+                </li>
+            </ul>
+            
+            <nav id="nav" ng-controller="LobbiesCtrl">
+                <ul>
+                    <li>
+                        <a href="/">首页</a>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="/Lobby/Game">电子游艺</a>
+                        <div class="subnav subSlot">
+                            <ol class="slot">
+                                <li game-box="sg" ng-click="toSgFlash()"></li>
+                                <li game-box="fish" ng-click="toFish()"></li>
+                                <li game-box="mg" ng-click="toMgFlash()"></li>
+                                <li game-box="prg" ng-click="toPrgFlash()"></li>
+                                <li game-box="pt" ng-click="toPtFlash()"></li>
+                                <li game-box="ag" ng-click="toAgGame()"></li>
+                                <li game-box="gpi" ng-click="toGpiFlash()"></li>
+                                <li game-box="gns" ng-click="toGnsHtml()"></li>
+                                <li game-box="mw" ng-click="toMwGame()"></li>
+                                <li game-box="hb" ng-click="toHabaHtml()"></li>
+                                <li game-box="jdb" ng-click="toJdbHtml()"></li>
+                                
+                                <li game-box="bb" ng-click="toBbGame()"></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li class="nav-mg">
+                        <a href="javascript:void(0)" ng-click="toMgFlash()">MG电子</a>
+                    </li>
+                    <li class="nav-pt">
+                        <a href="javascript:void(0)" ng-click="toPtFlash()">PT电子</a>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Live">真人视讯</a>
+                        <div class="subnav subLive"
+                             carousel-slider
+                             super-vis="6"
+                             super-play="true"
+                             super-effect="leftLoop">
+                            <div class="pic"></div>
+                            <span class="prev pager"></span>
+                            <div class="main-cell">
+                                <ol class="live">
+                                    <li game-box="ag" ng-click="toAgLive()"></li>
+                                    <li game-box="bb" ng-click="toBbLive()"></li>
+                                    <li game-box="mg" ng-click="toMgDealer()"></li>
+                                    <li game-box="pt" ng-click="toPtLive()"></li>
+                                    <li game-box="gpi" ng-click="toGpiLive()"></li>
+                                    <li game-box="evo" ng-click="toEvoLive()"></li>
+                                    <li game-box="ab" ng-click="toAbLive()"></li>
+                                </ol>
+                            </div>
+                            <span class="next pager"></span>
+                        </div>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="/Promotion">优惠活动</a>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Sport">体育投注</a>
+                        <div class="subnav subSport">
+                            <div class="pic"></div>
+                            <ol>
+                                <li game-box="hg" ng-click="toSingSport()"></li>
+                                <li game-box="bb" ng-click="toBbSport()"></li>
+                                <li game-box="saba" ng-click="toSabaGame()"></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Lottery">彩票游戏</a>
+                        <div class="subnav subLottery">
+                            <div class="pic"></div>
+                            <ol>
+                                <li game-box="bb" ng-click="toBbLottery()"></li>
+                                <li game-box="eg2" ng-click="toEgLottery()"></li>
+                                <li game-box="eg3" ng-click="toEg3MarkSix()"></li>
+                                <li game-box="ig" ng-click="toIgLottery()"></li>
+                                <li game-box="ig-marksix" ng-click="toIgMarkSix()"></li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/Mobile">手机投注</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" ng-click="lineChatClick()">在线客服</a>
+                    </li>
+                </ul>
+            </nav>
+            
+                <div id="account-box">
+                    <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing">
+                        <input tabindex="1" id="login_account" type="text" placeholder="帐号" ng-model="loginParams.account" required autofocus />
+                        <div class="input-wrapper">
+                            <input tabindex="2" id="login_password" type="password" placeholder="密码" ng-model="loginParams.password" required />
+                            <button class="forget-btn" ng-click="lineChatClick()" type="button">忘记密码</button>
+                        </div>
+
+                        <div id="check-code-wrapper">
+                            <input tabindex="3" data-checkcode-retriever="checkCode" type="text" placeholder="验证码" ng-model="loginParams.checkCode" checkcode-type="Login" required />
+                            <img id="captcha" ng-show="checkCode.image" ng-src="{{checkCode.image}}" />
+                        </div>
+                        <button tabindex="4" id="login-box" class="login-btn" ng-disabled="isProcessing" ng-bind="isProcessing ? '登入...' : '登入'">登入</button>
+                        <button type="button" class="join-btn" ng-click="RegisterClick()">注册</button>
+                        <div id="agree" ng-show="loginOver" ng-cloak>
+                            点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </header>
+    <div id="banner">
+        
+    
+    <section id="slide-banner" class="slider" ng-controller="HomeCtrl">
+        <div id="imgNames" ng-click="slideBannerClick()" ng-init="selectedImg = 1">
+            <img ng-repeat="slideImg in slideImgs" ng-src="{{ slideImg | replaceCdn: 'https://cdn2.igsttech.com/' }}" ng-class="{'show': $index == selectedImg - 1}" />
+        </div>
+        <div id="ad-pager">
+            <strong ng-repeat="slideImg in slideImgs" ng-click="changeSelected($index)" ng-class="{'cycle-pager-active': $index == selectedImg - 1}">
+            </strong>
+        </div>
+    </section>
+    <div class="huoguang"></div>
+    <div class="gtxboxs">
+        <span>
+            <!--[if !IE | gte IE 9]><!-->
+            <iframe src="https://cdn.igsttech.com/Web.Portal/EH002-01.Portal/Content/Views/Home/images/light/light.html"></iframe>
+            <!--<![endif]-->
+        </span>
+    </div>
+    <div class="heiying"></div>
+    <div class="mgduiza"></div>
+    <div class="heiyire"></div>
+    <!--[if !IE | gte IE 9]><!-->
+    <iframe src="https://cdn.igsttech.com/Web.Portal/EH002-01.Portal/Content/Views/Home/images/yun/yun.html"></iframe>
+    <!--<![endif]-->
+
+    </div>
+    
+    <ul class="game-box">
+        <li data-box="slot"><a href="/Lobby/Game"><span>电子游艺</span></a></li>
+        <li data-box="live"><a href="/Lobby/Live"><span>真人视讯</span></a></li>
+        <li data-box="sport"><a href="/Lobby/Sport"><span>体育投注</span></a></li>
+        <li data-box="lottery"><a href="/Lobby/Lottery"><span>彩票游戏</span></a></li>
+    </ul>
+
+    
+    <div id="news">
+        <div class="wrapper">
+            <div id="hot-news" class="marqueen">
+                <a href="javascript: void(0)" ng-click="newsClick()">★ 【游戏上线】最热、最火爆彩票平台【IG彩票/六合彩】强势登场，众多刺激的彩票游戏供您选择，六合彩、PC蛋蛋、北京赛车、时时彩、快3、11选5等应有尽有，投注既有机会中大奖，IG彩票助您走向人生巅峰
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：wu***ui于美东时间2017-07-08 04:09:58 在 HB 电子游艺【鲤鱼门】中获得大奖  101792.8 元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：hua***ao于美东时间2017-07-06 22:14:10 在 GAMEART 电子游艺【国王的财富】中获得大奖  87918.56 元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【现金大回馈第六期】2017现金大回馈第六期：系统已派送完成！敬请登入账号查收；澳门新葡京致力打造最具实力的游戏平台，手机输入澳门新葡京任意网址皆可畅玩，十六大电子平台，万款电子游艺，邀您遨游；2017年亿元大型现金回馈【第七期】将于美东时间08月08号隆重揭晓，1元起即可100%获得贴心月月亿元奖金超值回馈，敬请关注&lt;优惠活动&gt;专区更多劲爆优惠等着您！
+
+★ 【现金大回馈】澳门新葡京娱乐场2017大型月度现金回馈 &lt;第六期&gt; 已正式揭晓；凡是在活动活动区间累计存款1元以上，且有效投注达到100以上，即可获得澳门新葡京娱乐场月度现金回馈最高78455元；系统将于美东时间7月6号00:00统一派送,敬请广大会员相互告知,多多留意，&lt;优惠活动&gt;专区更多劲爆优惠等着您！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：fe***an 于【EG 六合彩】 76期下注特码金额：5100元， 中特彩金为： 249900 元；&lt;EG 六合彩&gt;高额赔率圆您财富梦想，欢迎广大会员踊跃投注，人人喜中特！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：LI***06于美东时间2017-06-26 03:01:29 在JDB电子游艺【悟空】中获得大奖 118751.14元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★【入款通知】如需支付宝进行入款，请选择方法A(重磅推荐) :支付宝、微信、QQ在线支付；或选择 方法B (公司支付宝）入款，或使用微信、QQ、网银在线支付支付方式进行入款，给您带来不便，敬请谅解！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：lo***ao 于【EG 六合彩】 73期下注特码金额：4200元， 中特彩金为： 199500 元；&lt;EG 六合彩&gt;高额赔率圆您财富梦想，欢迎广大会员踊跃投注，人人喜中特！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：wa***88于美东时间2017-06-23 22:37:15 在PT电子游艺【丛林心脏】中获得大奖 82758.26元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：q6***09 于【EG 六合彩】 71期下注特码金额：3500元， 中特彩金为： 166250 元；&lt;EG 六合彩&gt;高额赔率圆您财富梦想，欢迎广大会员踊跃投注，人人喜中特！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：ta***n于美东时间2017-06-22 08:14:38 在CQ9电子游艺【武圣】中获得大奖 98209.57元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：ch***ng 于美东时间2017-06-19 22:09:03 在MG电子游艺【摆脱】中获得大奖 112695.31 元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【EG六合彩】受广大彩民追捧的EG六合彩强势上线，高额赔率圆您财富梦想。更高赔率、更多玩法供您选择；全网最快开奖实时更新，登入会员账号点击【彩票游戏】→选择【EG 六合彩】即可投注，祝君获奖 ！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：pll***1988 于美东时间2017-06-10 17:49:22 在PT电子游艺【热力宝石】中获得大奖 128706 元, 关注澳门新葡京，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【现金回馈第五期】已全部派送完成，请会员登陆查收，是否中奖请以站内信息及收到的实际金额为准；为答谢各位新老玩家的长期厚爱与支持，后续我们将推出各类优惠系列活动，请您持续关注我们并踊跃投注，再次恭喜获得现金的玩家！
+
+★ 【喜讯】澳门新葡京现金回馈第五期已揭晓，将于6月9号正式派送，赠送力度之大前所未有，请会员到【优惠活动】专区查阅；即日起至06月15日申请首存15元+送35元，下注暂输且账户余额低于15元未提款的会员，次日系统自动派送35元复活彩金，让您玩得尽兴；澳门新葡京拥有12大电子平台，尊享全网豪华的优惠套餐，天天活动不断，如此给力，速来澳门新葡京娱乐场尽情游戏吧！
+
+★ 【游戏上线】尊敬的各位玩家，您好！ 很高兴通知您： 【CQ9电子平台】在众玩家的期待中正式上线了，点击官网右下角图案“最新游戏”进入；更多赔率，更高的爆奖几率，天天反水1.85%起最高无上限；完美提升游戏娱乐品质的同时，也给玩家带来更多、更高的中奖机会，欢迎大家踊跃投注，祝大家盈利多多，中奖多多~
+
+★ 【PRG黄金周4】澳门新葡京 &lt;PRG黄金周4&gt;，系统已于美东时间2017年06月04日派送完成！敬请查收； &lt;黄金周&gt; 、&lt;端午钜惠&gt;期间众多给力优惠火热进行中，同时澳门新葡京大型现金回馈【第五期】系统将于美东时间6月5日隆重揭晓，敬请广大会员相互告知，多多关注，&lt;优惠活动&gt;专区更多劲爆优惠等着您！
+
+★【端午钜惠2】澳门新葡京娱乐场 &lt;端午钜惠2&gt;系统已于美东时间2017年06月03日派送完成！敬请查收， &lt;端午钜惠&gt; 期间众多给力优惠火热进行中，同时澳门新葡京大型现金回馈【第五期】系统将于美东时间6月5日隆重揭晓，敬请广大会员相互告知，多多关注，&lt;优惠活动&gt;专区更多劲爆优惠等着您！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：xw***77于美东时间 2017-06-01 13:21:47 在HB电子游艺【淘金疯狂】中获得大奖 56174.43 元, 下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：Q2***64于美东时间 2017-05-29 07:13:69 在MG电子游艺【银行抢匪2】中获得大奖 74981.79 元, 下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★【端午钜惠1】澳门新葡京娱乐场 &lt;端午钜惠1&gt;系统已于美东时间2017年05月30日派送完成！敬请查收， &lt;端午钜惠&gt; 期间众多给力优惠火热进行中，敬请广大会员相互告知，多多关注，&lt;优惠活动&gt;专区更多劲爆优惠等着您！
+
+★【端午钜惠】亲爱的玩家，很高兴通知您：澳门新葡京 【端午钜惠】 专题已正式上线并生效，不论您是新会员还是老会员，皆可100%获得贴心回馈，快邀请您的好友一起来澳门新葡京 尽情放“粽”吧 ！活动详情请点击 【优惠活动】 查阅~
+
+★ 【重要公告】因业务结算需要，我司将不定期更换银行/微信/支付宝 收款账号，请会员每次入款前先查看最新收款账号再进行转账，谢谢！
+
+★ 【重要公告】近期有不法份子利用恶意手段拦截我司官方网址，跳转到非法网站，骗取会员存款； 澳门新葡京郑重声明：澳门新葡京并未合并、改名或者转让，此类信息纯属虚假诈骗！如您打开网址显示非  澳门新葡京 &lt;8455.am&gt; 官方网址，请您及时联系澳门新葡京官方唯一QQ客服：7398455  获取最新官方网址，以防上当受骗！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：rh***my于美东时间2017-05-24 18:53:01在JDB电子游艺【唐伯虎点秋香】中获得大奖 90157.81元, 下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京娱乐场会员：cc***16于美东时间2017-05-23 02:31:25在MG电子游艺【摆脱】中获得大奖 61469.76元, 下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【黄金周】澳门新葡京娱乐场超级赞助商：MG,PT,MW,PRG,SG五大顶级平台独家赞助澳门新葡京，亿元彩金大派送，邀您畅享电子之旅，电子   &lt;黄金周&gt;  火热进行中，不论是新会员还是老会员，只需加入关注澳门新葡京，凡是在活动区间：MG,PT,MW,PRG,SG 电子累计有效投注1000以上即可最高可获得18455元彩金，彩金无需申请， 系统自动派送；赶快邀请您的小伙伴一起加入澳门新葡京吧！月月有现金、周周有豪礼、天天有惊喜，敬请关注 &lt;优惠活动&gt; 专区更多劲爆优惠等着您！
+
+★【五一专题】亲爱的玩家，很高兴通知您：澳门新葡京重磅推出【五一钜惠、51亿现金大型回馈活动】 专题已正式上线并生效，100%贴心回馈，&lt;天天红包雨、天天存天天送、存款优惠全面加码0.2%&gt;全民皆赏人人有份，&lt;五一期间首存优惠全新升级，首次存款15元加赠35元&gt;快邀请您的好友一起来参与吧~活动详情请点击【优惠活动】查阅
+
+★ 【中奖通知】恭喜澳门新葡京会员 lb***00 通过【红包雨】赠送的彩金投注MG游戏【宝石连线】中得奖金 98346.92 元，下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【中奖通知】恭喜澳门新葡京会员 gy***kh 通过【红包雨】赠送的彩金投注AG游戏【复古花园】中得奖金56275.29 元，下载澳门新葡京‘资讯端’，畅玩千款游艺，赢领亿万彩金，欢迎广大会员踊跃投注，幸运大奖人人都能获得！
+
+★ 【全民红包雨】尊敬的澳门新葡京全体会员：您好，【全民红包雨】活动已圆满结束，符合条件的玩家请登陆账号查收，澳门新葡京与您相伴，不忘初心、创新前进，不间断推出各类给力活动惠及每一个会员，澳门新葡京感谢广大玩家的厚爱与支持，祝大家盈利多多，更多给力的优惠活动正在火热筹备中，敬请关注！
+
+★ 【中奖通知】恭喜澳门新葡京会员 lio***221 通过【红包雨】赠送的彩金投注PT游戏【古怪猴子】中得奖金 26000 元，再次恭喜这位玩家，请大家踊跃投注，幸运大奖人人都有机会获得
+
+★ 【全民红包雨1】尊敬的澳门新葡京全体会员：您好，【红包雨】活动-1已于美东时间2017年02月20日已全部派送完成，请以实际到账额度及到账时间为准，请注意查收！【红包雨】活动-2将于北京时间2017年2月22日20:00开始派送，感谢您对澳门新葡京娱乐场的支持与厚爱，祝您游戏愉快，盈利多多！
+
+★ 【独家礼遇】澳门新葡京与您相伴，不忘初心、创新前进，独家礼遇彩金，震撼上线，具体优惠详情请您登入我司官网点击【优惠活动】查阅~
+
+★ 【喜讯】尊敬的澳门新葡京会员您好，在众玩家的期待中，我司网站最新上线 【超级斗地主】游艺今日正式上线，点击网址右下角图片【MW 千炮捕鱼】即可进入游戏，天天反水1.85%起无上限，欢迎您加入~会有不同的惊喜与体验的哦~ 祝您游戏愉快， 盈利多多~
+
+★ 【游戏上线】尊敬的各位玩家，您好！ 很高兴通知您：最新游戏 【UG捕鱼天下】、【MW 千炮捕鱼】在众玩家的期待中于今日正式上线了，更多赔率，更高的爆奖几率，多模式多场景的创新玩法；完美提升游戏娱乐品质的同时，也给玩家带来更多、更高的中奖机会，欢迎大家踊跃投注，祝大家盈利多多，爆大奖过新年！
+
+★  澳门新葡京【8455.com】首家推出：“独家接口”支持支付宝、微信、手机银行、银行卡、线上支付、无需提交入款信息；微信单笔最高5000元，支付宝单笔最高5000元.支付秒到账！出款0审核、0冻结、0拖延、0手续费；出款秒到账！存款100%贴心回馈，存款1元起，天天反水1.85%起无上限，让您随时随地尽享博彩乐趣！
+
+★  欢迎阁下莅临【澳门新葡京娱乐场8455.com】官方直营→额度无需转换、存款无需等待、取款无需审核、最具实力的品牌优势、最优质的客户服务、最快捷的存取款服务、最给力的优惠策划、最丰富的平台优势、最负责任的博彩领导者、即刻开始您的澳门新葡京娱乐场之旅吧!</a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="wrapper">
+            
+
+<div id="home" ng-controller="LobbiesCtrl">
+    <div class="slot">
+        <ul class="aside" ng-init="slot='mg'">
+            <li class="mg" ng-class="{'active': slot=='mg'}" ng-mouseover="slot='mg'"></li>
+            <li class="pt" ng-class="{'active': slot=='pt'}" ng-mouseover="slot='pt'"></li>
+            <li class="bb" ng-class="{'active': slot=='bb'}" ng-mouseover="slot='bb'"></li>
+            <li class="ag" ng-class="{'active': slot=='ag'}" ng-mouseover="slot='ag'"></li>
+            <li class="gpi" ng-class="{'active': slot=='gpi'}" ng-mouseover="slot='gpi'"></li>
+            <li class="gns" ng-class="{'active': slot=='gns'}" ng-mouseover="slot='gns'"></li>
+        </ul>
+        <div class="mg" ng-show="slot=='mg'">
+            <p>MG 是全世界线上博彩最流行的游戏平台之一，游戏画面精致，超过50款截然不同游戏，神秘刺激的快乐的游艺实现您的淘金梦</p>
+            <p class="second">MG电子游艺热门游戏包括：摆脱、宝石连线、浪漫传奇、雷神索尔II、抢劫银行等...</p>
+            <a href="javascript:void(0)" ng-click="toMgFlash()">点击进入游戏</a>
+        </div>
+        <div class="pt" ng-show="slot=='pt'" ng-cloak>
+            <p>PT电子游艺 是美国最流行的电子游艺平台，漫威系列游戏获得全世界玩家认可，用心打造20款独具特色游戏，让您进入奇妙的电子游艺世界寻宝之旅</p>
+            <p class="second">PT电子游艺热门游戏包括：古怪猴子、高速公路之王、黄金之旅、刀锋战士、大明帝国等...</p>
+            <a href="javascript:void(0)" ng-click="toPtFlash()">点击进入游戏</a>
+        </div>
+        <div class="bb" ng-show="slot=='bb'" ng-cloak>
+            <p>BBIN 是亚洲实力最强，最流行的电子游艺平台，热门游戏众多，画质高清，线上超过200种游戏供玩家娱乐选择，绝对让您一玩再玩，彩金拉到手软！</p>
+            <p class="second">BBIN电子游艺热门游戏包括：连环夺宝、糖果派对、喜福猴年、三国、斗鸡等...</p>
+            <a href="javascript:void(0)" ng-click="toBbGame()">点击进入游戏</a>
+        </div>
+        <div class="ag" ng-show="slot=='ag'" ng-cloak>
+            <p>AG电子 游艺是线上最活跃、当下最受欢迎、游戏知名度最高的电子游戏品牌之一，让AG电子游艺带领玩家进入丰富的电子游戏世界享受大奖的刺激感受</p>
+            <p class="second">AG电子游艺热门游戏包括：捕鱼王II、灵猴献瑞、性感女仆、水果拉霸、杰克高手等...</p>
+            <a href="javascript:void(0)" ng-click="toAgGame()">点击进入游戏</a>
+        </div>
+        <div class="gpi" ng-show="slot=='gpi'" ng-cloak>
+            <p>GPI为您的玩家量身定制了多种界面的3D老虎机游戏，他们将可以快速在不同游戏中获得更多试玩的机会，进而转战到真钱游戏中。</p>
+            <p class="second">GPI电子游艺热门游戏包括：四大美女、沙灘比基尼、熱血棒球、深海探險、搖錢樹等...</p>
+            <a href="javascript:void(0)" ng-click="toGpiFlash()">点击进入游戏</a>
+        </div>
+        <div class="gns" ng-show="slot=='gns'" ng-cloak>
+            <p>GNS电子游艺 拥有创新及多年丰富经验和技术完美融合，创造多款有趣、独创且精美的画面的动画游戏，打造世界一流的老虎机游戏以及其他新型游戏。</p>
+            <p class="second">GNS电子游艺热门游戏包括：神枪独角兽、五行传说、妖精传奇、皇后的崛起、草原争霸战等...</p>
+            <a href="javascript:void(0)" ng-click="toGnsHtml()">点击进入游戏</a>
+        </div>
+        <div class="character"></div>
+        <ul class="bottom">
+            <li ng-show="slot=='pt'" class="pt01" ng-click="toPtFlash()"></li>
+            <li ng-show="slot=='pt'" class="pt02" ng-click="toPtFlash()"></li>
+            <li ng-show="slot=='pt'" class="pt03" ng-click="toPtFlash()"></li>
+            <li ng-show="slot=='pt'" class="pt04" ng-click="toPtFlash()"></li>
+            <li ng-show="slot=='mg'" class="mg01" ng-click="toMgFlash()"></li>
+            <li ng-show="slot=='mg'" class="mg02" ng-click="toMgFlash()"></li>
+            <li ng-show="slot=='mg'" class="mg03" ng-click="toMgFlash()"></li>
+            <li ng-show="slot=='mg'" class="mg04" ng-click="toMgFlash()"></li>
+            <li ng-show="slot=='bb'" class="bb01" ng-click="toBbGame()"></li>
+            <li ng-show="slot=='bb'" class="bb02" ng-click="toBbGame()"></li>
+            <li ng-show="slot=='bb'" class="bb03" ng-click="toBbGame()"></li>
+            <li ng-show="slot=='bb'" class="bb04" ng-click="toBbGame()"></li>
+            <li ng-show="slot=='ag'" class="ag01" ng-click="toAgGame()"></li>
+            <li ng-show="slot=='ag'" class="ag02" ng-click="toAgGame()"></li>
+            <li ng-show="slot=='ag'" class="ag03" ng-click="toAgGame()"></li>
+            <li ng-show="slot=='ag'" class="ag04" ng-click="toAgGame()"></li>
+            <li ng-show="slot=='gpi'" class="gpi01" ng-click="toGpiFlash()"></li>
+            <li ng-show="slot=='gpi'" class="gpi02" ng-click="toGpiFlash()"></li>
+            <li ng-show="slot=='gpi'" class="gpi03" ng-click="toGpiFlash()"></li>
+            <li ng-show="slot=='gpi'" class="gpi04" ng-click="toGpiFlash()"></li>
+            <li ng-show="slot=='gns'" class="gns01" ng-click="toGnsHtml()"></li>
+            <li ng-show="slot=='gns'" class="gns02" ng-click="toGnsHtml()"></li>
+            <li ng-show="slot=='gns'" class="gns03" ng-click="toGnsHtml()"></li>
+            <li ng-show="slot=='gns'" class="gns04" ng-click="toGnsHtml()"></li>
+        </ul>
+    </div>
+
+    <div class="live">
+        <div class="character"></div>
+        <ul>
+            <li class="ag brown" ng-click="toAgLive()"></li>
+            <li class="bb" ng-click="toBbLive()"></li>
+            <li class="pt brown" ng-click="toPtLive()"></li>
+            <li class="mg" ng-click="toMgDealer()"></li>
+            <li class="gpi brown" ng-click="toGpiLive()"></li>
+            <li class="ab" ng-click="toAbLive()"></li>
+        </ul>
+    </div>
+
+    <div class="sport">
+        <a href="javascript:void(0)" class="sport bb" ng-click="toBbSport()"></a>
+        <a href="javascript:void(0)" class="sport hg" ng-click="toSingSport()"></a>
+        <a href="javascript:void(0)" class="sport saba" ng-click="toSabaGame()"></a>
+        <a href="javascript:void(0)" class="lottery bb" ng-click="toBbLottery()"></a>
+        <a href="javascript:void(0)" class="lottery eg" ng-click="toEgLottery()"></a>
+    </div>
+
+    <div class="info">
+        <div class="branch">
+            <div class="logo"></div>
+            <div class="info01 node"></div>
+            <div class="info02 node"></div>
+            <div class="info03 node"></div>
+            <div class="info04 node"></div>
+            <div class="info05 node"></div>
+            <div class="info06 node"></div>
+        </div>
+        <div class="character"></div>
+    </div>
+
+    <div class="mobile">
+        <div class="phone"></div>
+    </div>
+</div>
+
+
+
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="wrapper">
+            <div id="footer-logo"></div>
+            <div id="footer-chat"><span ng-click="lineChatClick()">在线客服</span></div>
+            <ul id="footer-nav">
+                <li><a href="/AboutUS">关于我们</a></li>
+                <li><a href="/Contact">联系我们</a></li>
+                <li><a href="/How/Deposit">存款帮助</a></li>
+                <li><a href="/How/Withdrawal">取款帮助</a></li>
+                <li><a href="/FAQ">常见问题</a></li>
+                <li><a href="/Partner">合作伙伴</a></li>
+                <li><a href="/ResponsibleGambling">责任博彩</a></li>
+                <li><a href="/Guide">慈善捐助</a></li>
+                <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+            </ul>
+            <div id="footer-suggest">
+                <small>
+                    Copyright &#169; 澳门新葡京娱乐场 Reserved
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    
+    <aside class="services">
+        <ul class="girl">
+            <li class="chat" ng-click="lineChatClick()" title="在线客服"></li>
+            <li class="pt"><a href="/Promotion"></a></li>
+                <li class="join" ng-click="RegisterClick()" title="注册"> </li>
+            <li class="domain"><a href="http://www.www-68455.com" target="_blank"></a></li>
+            <li class="tel" title="{{ContactInfo.TEL}}"></li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+
+    
+    <div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+        <aside id="marquee">
+            <header>
+                <h2>最新消息</h2>
+            </header>
+            <ul id="newsBags">
+                <li ng-repeat="news in newsBags track by $index">{{news}}</li>
+            </ul>
+            <footer>
+                <span ng-click="closeMarquee()">关闭</span>
+            </footer>
+        </aside>
+    </div>
+
+    
+    <div ng-if="ContactInfo.Dialog!=='' && ContactInfo.Dialog!==undefined" id="ad-dialog" title="{{ContactInfo.DialogTitle}}">
+        <img ng-src="{{ContactInfo.Dialog}}" />
+        <div class="dialog-footer" ng-bind="ContactInfo.DialogFooter"></div>
+    </div>
+
+    
+    <div style="display:none">
+    </div>
+
+    
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20140418"></script>
+    <script src="/Scripts/_config.js"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services?v=4h6nnhe7phDZsGJrjgb4rRSPOHMxKw1CHFAWZNyYZgQ1"></script>
+
+    <script src="/angular-controllers?v=70j3-SP873-H3DBRUspP2vqtGHUtKJ2LXbiImTI_s441"></script>
+
+    <script src="/angular-directives?v=APDAFauAbNh5evFP42Y9OZxUUVzqAYf4uFQaP0nYp2E1"></script>
+
+    <script src="/angular-filters?v=8bBCjaQ-419QVImadOi_l1dbU7abzLuyqjCJzLJvruU1"></script>
+
+
+    
+    <script src="https://cdn.igsttech.com/Custom/common.js"></script>
+
+    
+    <script>
+
+        //调用函数
+        (function ($) {
+
+            //判断浏览器跳转手机站
+            try {
+                var urlhash = window.location.hash;
+                if (!urlhash.match("fromapp")) {
+                    if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+                        $(".flashyum").hide();
+                        $(".huoguang").hide();
+                        $(".gtxboxs  span").hide();
+                    }
+                }
+            } catch (err) { }
+
+
+            var throttleTimeout;
+            setPosition();
+            //全局变量模块
+            var speed = 1000;
+            var ePageX = null;
+            var ePageY = null;
+            var temwidth = $(window).width();
+            var productboxnum = -1;
+            var index_div_pro = null;
+            //alert($("#header .newlogo").position().left);
+            $(document).ready(function () {
+                $(window).resize(function () {
+                    setPositionmove();
+                });
+            });
+
+            index_div_pro = [{
+                sx: $(window).width() / 2 - $(".gtxboxs").width() / 2 - 500,
+                sy: 270,
+                mw: 1,
+                mh: 1,
+                bx: 20.4,
+                by: 50,
+                rx: 0.2,
+                fw: 50,
+                ne: ".heiyire"
+            },
+            {
+                sx: $(window).width() / 2 - $(".heiyire").width() / 2 - 80,
+                sy: 250,
+                mw: 1,
+                mh: 1,
+                bx: 20.4,
+                by: 50,
+                rx: 0.3,
+                fw: 50,
+                ne: ".mgduiza"
+            },
+            {
+                sx: $(window).width() / 2 - $(".mgduiza").width() / 2 - 400,
+                sy: 190,
+                mw: 1,
+                mh: 1,
+                bx: 5.4,
+                by: 50,
+                rx: 0.2,
+                fw: 50,
+                ne: ".gtxboxs"
+            },
+            {
+                sx: 0,
+                sy: 0,
+                mw: 1,
+                mh: 1,
+                bx: 30.4,
+                by: 100,
+                rx: 0.2,
+                fw: 100,
+                ne: ".huoguang"
+            }];
+
+            function getMousePos(expression) {
+                if (ePageX == null || ePageY == null) return null;
+                var _x = $(expression).position().left;
+                _x += ePageX - $(expression).parent().position().left;
+                var _y = $(expression).position().top;
+                _y += ePageY - $(expression).parent().position().top;
+                return {
+                    x: _x,
+                    y: _y
+                }
+            };
+            var index_xh = setInterval(function () {
+                for (var i = 0; i < 4; i++) {
+                    var mousepos = getMousePos(index_div_pro[i].ne);
+                    if (mousepos != null) {
+                        var left = parseInt($(index_div_pro[i].ne).css("left"));
+                        var l = left + (index_div_pro[i].sx + index_div_pro[i].mw - (mousepos.x - index_div_pro[i].fw) / index_div_pro[i].bx * index_div_pro[i].rx - left) * 0.2;
+                        var top = parseInt($(index_div_pro[i].ne).css("top"));
+                        var t = top + (index_div_pro[i].sy + index_div_pro[i].mh - (mousepos.y - index_div_pro[i].fw) / index_div_pro[i].by - top) * 0.2;
+                        $(index_div_pro[i].ne).css({
+                            left: l,
+                            top: t
+                        })
+                    }
+                }
+            },
+            20);
+
+            // 偵測滑鼠動作
+            $("body").mousemove(function (event) {
+                event = event || window.event;
+                ePageX = event.pageX;
+                ePageY = event.pageY;
+                // if (newsdragData != null) {
+                //  $("#newsbox").css({
+                // left: event.pageX - newsdragData.x,
+                // top: event.pageY - newsdragData.y
+                //})
+                //}
+            });
+
+            function setPosition() {
+                $("#banner").width($(window).width());
+                $(".flashyum").width($(window).width());
+                $(".huoflas").width($(window).width());
+                $(".heiying").width($(window).width());
+                $(".huoguang").width($(window).width());
+                $(".heiyire").css({ left: $(window).width() / 2 - 700, top: 0 });
+                $(".heiyire").animate({ "left": $(window).width() / 2 - $(".gtxboxs").width() / 2 - 500, "top": 270 }, { duration: speed, easing: "easeInOutCirc" });
+                $(".mgduiza").css({ left: $(window).width() / 2 - 300, top: 300 });
+                $(".mgduiza").animate({ "left": $(window).width() / 2 - $(".heiyire").width() / 2 - 80, "top": 250 }, { duration: speed, easing: "easeInOutCirc" });
+                $(".gtxboxs").css({ left: $(window).width() / 2 - 500, top: 500 });
+                $(".gtxboxs").animate({ "left": $(window).width() / 2 - $(".mgduiza").width() / 2 - 450, "top": 190 }, { duration: speed, easing: "easeInOutCirc" });
+                $(".huoguang").css({ left: -($(window).width() / 2 - $(".huoguang").width() / 2), top: 0 });
+                /*
+                var rfd=0;
+                rfd=$(".services-left").height();
+                if($(window).height()>rfd){
+                $(".services-left").css({top:$(window).height()/2-$(".services-left").height()/2});
+                }
+                */
+            };
+            function setPositionmove() {
+                $("#banner").width($(window).width());
+                $(".flashyum").width($(window).width());
+                $(".huoflas").width($(window).width());
+                $(".heiying").width($(window).width());
+                $(".huoguang").width($(window).width());
+                //alert(temwidth);
+                $(".heiyire").css({ left: $(window).width() / 2 - $(".gtxboxs").width() / 2 - 500, top: 270 });
+                $(".mgduiza").css({ left: $(window).width() / 2 - $(".heiyire").width() / 2 - 80, top: 250 });
+                $(".gtxboxs").css({ left: $(window).width() / 2 - $(".mgduiza").width() / 2 - 450, top: 190 });
+                $(".huoguang").css({ left: -($(window).width() / 2 - $(".huoguang").width() / 2), top: 0 });
+                /*
+                var rfd=0;
+                rfd=$(".services-left").height();
+                if($(window).height()>rfd){
+                $(".services-left").css({top:$(window).height()/2-$(".services-left").height()/2});
+                }else{
+                $(".services-left").css({top:0});
+                }
+                */
+
+                index_div_pro = [{
+                    sx: $(window).width() / 2 - $(".gtxboxs").width() / 2 - 500,
+                    sy: 270,
+                    mw: 1,
+                    mh: 1,
+                    bx: 20.4,
+                    by: 50,
+                    rx: 0.2,
+                    fw: 50,
+                    ne: ".heiyire"
+                },
+                {
+                    sx: $(window).width() / 2 - $(".heiyire").width() / 2 - 80,
+                    sy: 250,
+                    mw: 1,
+                    mh: 1,
+                    bx: 20.4,
+                    by: 50,
+                    rx: 0.3,
+                    fw: 50,
+                    ne: ".mgduiza"
+                },
+                {
+                    sx: $(window).width() / 2 - $(".mgduiza").width() / 2 - 400,
+                    sy: 190,
+                    mw: 1,
+                    mh: 1,
+                    bx: 5.4,
+                    by: 50,
+                    rx: 0.2,
+                    fw: 50,
+                    ne: ".gtxboxs"
+                },
+                {
+                    sx: 0,
+                    sy: 0,
+                    mw: 1,
+                    mh: 1,
+                    bx: 30.4,
+                    by: 100,
+                    rx: 0.2,
+                    fw: 100,
+                    ne: ".huoguang"
+                }];
+
+            };
+
+        })(jQuery);
+    </script>
+
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="qnyAkLLsSgh1-T8Iw0Ux4Z7cJE5fKwRncXZ-bJV00bBbUyGka4oOH22vqHGvtFO4uU7QRXZXWS-4zuo0W9g3NXZL1xM1" />
+</body>
+</html>
+

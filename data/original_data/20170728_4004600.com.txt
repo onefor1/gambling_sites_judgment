@@ -1,0 +1,3003 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 	var ctx="";
+ 	var loginStatus='';	//登录状态，"0"为已登录
+ 	var pageUrl = window.location.href;
+</script>
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/jsp/member/default/css/jquery-ui-1.9.1.custom.min.css">
+<script src="/common/js/me_common.js"></script>
+<!-- 公告js,css -->
+<script type="text/javascript" src="/common/js/announment.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ann.css" />
+<!-- 会员中心公用js -->
+<script type="text/javascript" src="/jsp/member/default/js/common.js"></script>
+<!-- 会员登录后刷新余额和展示各个api的余额 -->
+<link href="/jsp/member/default/css/refreshBalance.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- o084专用 -->
+<link rel="shortcut icon" href=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/favicon.ico" type="image/vnd.microsoft.icon">
+
+<link href=" //cdnszs.ruirobot.com/v2/stc/og/o084/css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/jsp/ogmember/js/float.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o084/js/main.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o084/js/unslider.min.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o084/js/jquery.tabs.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o084/js/jquery.vticker.min.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o084/js/countTo.js"></script>
+
+<script type="text/javascript">
+$().ready(function(){
+	selMenu("menu_01");
+	GetMemberLatestAnnouncement();
+});
+</script>
+</head>
+<body style="overflow-x: hidden;">
+	
+<script>
+	var offsettime = '-14400000';
+	var current = parseInt('1501240698215', 10) || 0;
+	$().ready(function(){
+		GetMemberLatestAnnouncement();
+		setInterval("getDayTime()", 1000);
+	});
+</script>
+
+
+<!--  对IE6、IE7不兼容提示框  -->
+
+
+<script type="text/javascript">
+
+//--------------------------------------------cookie 框架----------------------------------------------------
+jQuery.cookie = function(name, value, options) {
+  if (typeof value != 'undefined') { // name and value given, set cookie
+      options = options || {};
+      if (value === null) {
+          value = '';
+          options.expires = -1;
+      }
+      var expires = '';
+      if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+          var date;
+          if (typeof options.expires == 'number') {
+              date = new Date();
+              date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+          } else {
+              date = options.expires;
+          }
+          expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+      }
+      var path = options.path ? '; path=' + options.path : '';
+      var domain = options.domain ? '; domain=' + options.domain : '';
+      var secure = options.secure ? '; secure' : '';
+      document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+  } else { // only name given, get cookie
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+              if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                  cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                  break;
+              }
+          }
+      }
+      return cookieValue;
+  }
+};
+//--------------------------------------------cookie 框架----------------------------------------------------
+
+
+	//沙巴体育维护页面调用  -放这里是不想每个站点分别调用，必须先执行
+	function NoDataTime(){
+	    var NoDate={
+	   		'startDate':"",
+	   		'endDate':"",
+	   		'apiName':""
+	    };
+	
+	    window.callParentNoData = function(child){
+			child(NoDate);
+	    };
+	}
+	NoDataTime();
+	
+	$(document).ready(function() {
+		var browser=navigator.appName;
+		var b_version=navigator.appVersion;
+		var version=b_version.split(";"); 
+		if(version&&version.length>1){
+			var trim_Version=version[1].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer"&&(trim_Version=="MSIE6.0"||trim_Version=="MSIE7.0" || trim_Version == "MSIE8.0" || trim_Version == "MSIE9.0")){
+				$("#iealert").show();
+				$("#iealertX").click(function(){
+					$("#iealert").hide();
+				});
+			}
+		}
+	 	var ua = navigator.userAgent || " "; 
+	    var pageType= $.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+		 if ((ua.match(/(iPhone|iPod|Android|ios)/i))
+			&& ! ((ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	)))  {
+			 if(pageType2!="pc"){
+				  padJumpToPage('mobile');
+			 }
+		 } 
+	});
+
+	//打开即时聊天窗口
+	function openChatWin() {
+		var onlineservice = 'id:3882,ddgdId:50546770,type:onlinedoc,createUser:null,createTime:2017-06-01 09:43:32.506,updateUser:dfjto084,updateTime:2017-06-01 09:45:47.486,titleBig:null,titleSim:null,titleEng:null,docId:15883,status:0,docName:在线客服,contextBig:null,contextSim:null,contextEng:null,junctionBig:https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=810811&configID=65886&jid=4774468385&skillId=3596&s=1,junctionSim:https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=810811&configID=65886&jid=4774468385&skillId=3596&s=1,junctionEng:https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=810811&configID=65886&jid=4774468385&skillId=3596&s=1,isLocal:1,isWindow:1,windowHeight:1024,windowWidth:1024,contact:null,agentLogin:null,pageMark:null';
+		if(onlineservice!=''){
+			var isLocal ='1';
+			var isWindow = '1';
+			var windowHeight = '1024';
+			var windowWidth = '1024';
+			var url = 'https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=810811&configID=65886&jid=4774468385&skillId=3596&s=1';
+			if (isWindow == '1') {
+				var params = 'height='
+						+ windowHeight
+						+ ',width='
+						+ windowWidth
+						+ ',top=0,left=0,toolbar=no,menubar=no,scrollbars='
+						+ scroll
+						+ ', resizable=yes,location=yes, status=yes';
+				window.open(url, '即时聊天', params);
+			} else {
+				if (isLocal == '0') {
+					window.location.href = url;
+				} else {
+					window.location.href = ctx + url;
+				}
+			}
+		}else{
+			alert('客服繁忙，请联系上级');
+		}
+		return;
+	}
+	
+</script>
+<style type="text/css"> /* IE提示框CSS */
+ body 
+ {
+	 _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	 _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+ }
+ .iealertMain 
+ {
+ 	 font-family: Arial, Helvetica, sans-serif, Verdana, "SimSun", "Microsoft YaHei", "SimHei", "STHeiti";
+	 color:white;
+	 width: 100%;
+	 z-index: 9999;                                                     /*设置浮动层次*/
+	 overflow: visible;
+	 position: fixed;
+	 line-height:normal;
+	 top: 0px;                                                         /* 其他浏览器下定位，在这里可设置坐标*/
+	 _position: absolute;                                       /*IE6 用absolute模拟fixed*/
+	 _top: expression(documentElement.scrollTop + "px"); /*IE6 动态设置top位置*/
+	 /* documentElement.scrollTop 设置浮动元素始终在浏览器最顶，可以加一个数值达到排版效果 */
+	 background-color:gold;
+	 height: 25px;
+	 text-align: center;
+	 font-size: 18px;
+	 padding-top: 2px;
+ }
+ .iealertMain a
+ {
+ 	font-size: 18px;
+ }
+ .select-pop {
+	width:360px;
+	height:333px;
+	position:fixed!important;/* FF IE7*/
+	left:50%;
+	top:50%;
+	z-index:10999;
+	margin:-166px 0 0 -180px;
+}
+.select-pop2 {
+	width:360px;
+	height:280px;
+	background:url(pop1.png);
+}
+a.select-pop2 {
+	display:block;
+	width:181px;
+	height:53px;
+	background:url(/jsp/member/images/pop2.png);
+	float:left;
+}
+a.select-pop2:hover {
+	background:url(/jsp/member/images/pop2-hover.png);
+}
+a.select-pop3 {
+	display:block;
+	width:179px;
+	height:53px;
+	background:url(/jsp/member/images/pop3.png);
+	float:left;
+}
+a.select-pop3:hover {
+	background:url(/jsp/member/images/pop3-hover.png);
+}
+#lotteryAd{
+	width:280px; 
+	height:318px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+	display:none;
+	left:0px;
+}
+#lotteryAdMin{
+	width:110px; 
+	height:110px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	left:0px;
+	z-index: 9000;
+	display: none;
+}
+.mobile-img{
+	width:300px; 
+	height:219px;
+	cursor:pointer;
+	background-size:100%;
+}
+#mobile-close{
+	position:absolute;
+	bottom:13px;
+	left:2px;
+	cursor:pointer;
+}
+#mobile-close2{
+	position:absolute; 
+	top:-2px; 
+	right:-2px;
+	cursor:pointer;
+}
+#mobileDescription{
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+}
+.popBg,.popIframe {
+background-color: #000;
+display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:10998;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+ </style>
+ <!--  IE提示框  -->
+<div id="iealert"  style="display:none;">
+	<div class="iealertMain">
+		您所使用的浏览器不能被网站很好的支持,为了您能获得更好的浏览体验推荐您使用 <a href="http://www.uc.cn/" target="_blank" >UC 浏览器</a> 访问本网站。
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+
+<!-- 手机端提示框 -->
+<div id="mobilealert"  style="display:none;">
+	<div class="iealertMain">
+		 <a href="/PageChange?type=mobile">访问手机端</a>
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+<!-- 判断设置是否需要显示微信登录的图标 -->
+
+
+
+<!--  移动版提示框 
+<div id="mobileToPcAlert"  style="display:none;">
+	<div class="iealertMain" style="display:none;"> 
+		前往<a href="/PageChange?type=mobile" target="_top">移动版</a>
+		<div id="mobileAlertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+</div>
+ -->
+<!-- 广告部分 -->
+<div id="ad_div_main" style="display:none;overflow-x:hidden;"></div>
+<style>.ui-dialog .ui-dialog-content{padding: 3px;}</style>
+
+
+<!-- 平板提示 -->
+<div id="popDiv" class="select-pop" style="display:none;">
+   	<div class="select-pop1"><img src="/jsp/member/images/pop1.png" /></div>
+       <div>
+       	<a href="javascript:padJumpToPage('mobile');" class="select-pop2"></a>
+           <a href="javascript:padJumpToPage('pc');" class="select-pop3"></a>
+   	</div>
+</div>
+<div id="popBg" class="popBg" style="display:none;"></div>
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+
+<script type="text/javascript">
+	(function(){
+		var ua = navigator.userAgent  || " "; 
+	    var pageType=$.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+	    if ( (ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	) && !pageType
+	    	){
+			if(pageType2!="pc"){
+				padJumpToPage('mobile');
+			}
+	    }
+	})();
+	function padJumpToPage(type){
+		$.cookie('pageType', type);
+		top.window.location.href = "/PageChange?type=" + type;
+	}
+</script>
+
+<!-- 服务器监控使用，不能去掉 -->
+<div style="display: none">
+	<span style="display: none">fwkae5ldVj78cQE0U7ab3Y5O6zyl3SwK</span>
+</div>
+<!-- 弹层登录 -->
+<div id="login-tc"></div>
+<!-- 登录协议 -->
+<div id="loginProtocol"></div>
+<!-- 弹层验证吗 -->
+<div id="verificationCode_tc"></div>
+<header class="header">
+	<div class="headerbg"></div>
+	<div class="topbar clearfix">
+		<div class="wrapper">
+			<div class="topbar-left">
+				<div class="langue">
+					<span class="zh-cn"></span> <span class="zh-tw"></span> <span
+						class="zh-us"></span>
+				</div>
+				<span class="time">美东时间：<span id="clock"></span> </span>
+			</div>
+
+
+			<div class="topbar-right">
+				<div class="yiji"></div>
+				<a class="fc-pink j-fc-pink" href="javascript:;" onclick="trialGame()">免费试玩</a><span>|</span>
+				<a class="fc-yellow j-fc-green" href="/jsp/ogmember/space.jsp" >电子游艺十大专题</a><span>|</span>
+				<a class="j-fc-red fc-yellow fc-red" href="https://4600vip.com" target="_blank">VIP会员中心</a><span>|</span>
+				<a class="dropdown" href="javascript:;" > 合法牌照 <img
+					src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/license.png" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="header-main">
+		<div class="wrapper">
+			<h1 class="logo">
+				
+				<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/logo-png.png">
+				<a href="/index.jsp"></a>
+			</h1>
+			<div class="logo-bg"></div>
+
+
+			<div class="nav">
+				<ul class="group" id="">
+					<li><a href="/index.jsp"><span class="i-1"></span><em>首页</em></a>
+					</li>
+					<li><a href="/jsp/ogmember/lottery/lotteryList.jsp" class="nav-hot"><span class="i-5"></span><em>彩票游戏</em></a>
+						<div class="nav-subbox">
+							<div class="nav-sub">
+								<a href="javascript:;" onclick="targetLottery('LT24')">香港六合彩<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="targetLottery('LT2')" >重庆时时彩<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="targetLottery('LT6')">北京赛车<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="targetLottery('LT5')">广东快乐十分</a> 
+								<a href="javascript:;" onclick="targetLottery('LT11')">新疆时时彩</a>
+								<a href="javascript:;" onclick="targetLottery('LT7')">江苏骰宝</a> 
+								<a href="javascript:;" onclick="targetLottery('LT9')">幸运28</a>
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN彩票</a>
+							</div>
+						</div></li>
+					<li><a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)" class="nav-hot"><span class="i-2"></span><em>电子游艺</em></a>
+						<div class="nav-subbox">
+							<div class="nav-sub">
+								<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)">MG电子<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">PT电子<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">MW电子<i class="i-hot"></i></a>
+								<a href="javascript:;" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')">AG捕鱼达人</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN电子</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')">AG电子</a>
+							</div>
+						</div></li>
+					<li><a href="/member/flex?type=init0"><span class="i-3"></span><em>视讯直播</em></a>
+						<div class="nav-subbox">
+							<div class="nav-sub">
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')">AG女优厅<i class="i-hot"></i></a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=og','OG平台','no')">OG旗舰厅</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN波音厅</a>
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=lebo','LEBO平台','no')">LEBO视讯厅</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ab','欧博平台','no')">欧博 视讯厅</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=mg','MG平台','no')">MG欧美厅</a> 
+								<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=opus','OPUS平台','no')">OPUS 官方厅</a>
+							</div>
+
+						</div></li>
+					<li><a href="/jsp/member/sports/sportsList.jsp"><span class="i-4"></span><em>体育赛事</em></a>
+						<div class="nav-subbox">
+							<div class="nav-sub">
+								<a href="/FootBall" >皇冠体育</a> 
+								<a href="javascript:openWin3('/member/flex?type=loginapi&key=ibc')">沙巴体育</a>
+							</div>
+						</div></li>
+
+					<li><a href="/jsp/ogmember/space.jsp" class="nav-hot txt-red"><span class="i-6"></span><em>优惠活动</em></a>
+						<div class="nav-subbox">
+							<div class="nav-sub">
+								<a href="http://www.4600hd.com" target="_blank">优惠办理大厅</a> 
+							</div>
+						</div>
+					</li>
+					<li><a class="nav-hot1" href="javascript:;" onclick="toEditDocDetails('17905')"><span class="i-7"></span><em>合作代理</em></a>
+					</li>
+					<li><a href="javascript:;" onclick="openChatWin()"><span class="i-8"></span><em>在线客服</em></a>
+					</li>
+
+				</ul>
+			</div>
+
+
+
+		</div>
+
+
+	</div>
+
+	<div class="loginbar">
+		<div class="wrapper">
+			
+			<div class="login">
+					<div class="row1">
+						<div class="item">
+							<input type="text" tabindex="1"   class="ipt i-zh"
+							value="账号" maxlength="12"
+							onkeydown="enterLogin(event)" id="hd_account"
+							onFocus="OnFocusFun(this,'账号')" 
+							onBlur="OnBlurFun(this,'账号')" />
+						</div>
+
+						<div class="item">
+							<input type="password" tabindex="2" class="ipt i-pass"
+								value="******" maxlength="12"
+								onkeydown="enterLogin(event)" 
+								onFocus="OnFocusFun(this,'******')"
+								onBlur="OnBlurFun(this,'******')" id="hd_passwd" />
+						</div>
+
+					</div>
+
+					<div class="row2">
+						<button class="btn-login" type="button" name="button" onclick="dengRu()">登录</button>
+						<button class="btn-reg" type="button" name="button" onclick="returnSavaMember()">免费开户</button>
+						<a href="javascript:;" class="btn-forget" onclick="openForgetPassword()">忘记密码?</a>
+					</div>
+			</div>
+			
+
+			<!-- 登录后状态 begin -->
+			
+			
+			<!-- 登录后状态 end -->
+
+			<h3 class="login-tle">易记域名：4600.com</h3>
+		</div>
+
+	</div>
+
+</header>
+
+	<script type="text/javascript">$('div.loginbar').remove()</script>
+
+	<section class="sliderbox">
+	<div class="wrapper">
+
+		<div class="slider-login">
+
+			<div class="login-fm">
+
+				
+					<div class="hd">
+						<h3>会员登录</h3>
+						<span>Member login</span>
+					</div>
+
+					<ul>
+						<li><input type="text" tabindex="1" class="ipt i-user"
+							value="账号" maxlength="12" onkeydown="enterLogin(event)"
+							id="hd_account" onFocus="OnFocusFun(this,'账号')"
+							onBlur="OnBlurFun(this,'账号')" /></li>
+						<li>
+							<input type="password" tabindex="2" class="ipt i-pass"
+							value="******" maxlength="12" onkeydown="enterLogin(event)"
+							onFocus="OnFocusFun(this,'******')"
+							onBlur="OnBlurFun(this,'******')" id="hd_passwd" />
+							<a class="link-forget" style="text-decoration: none;margin-top: -30px;" href="javascript:;"
+								onclick="openForgetPassword()">忘记密码?</a>
+						</li>
+					</ul>
+					<button class="btn-login" type="buton" name="button" onclick="dengRu()"></button>
+
+					<div class="btns">
+						<a href="javascript:;" class="btn-reg" onclick="returnSavaMember()"></a>
+					</div>
+				
+
+				
+
+			</div>
+
+
+		</div>
+
+	</div>
+	<div class="slider" id="b06" style="width: 100%; min-height: 500px;">
+		<ul>
+			
+			
+				
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/a2b4e60f-e8b8-415a-8015-158546473e3a.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/6773cba3-fb81-4918-b7ca-f80794fc130d.jpg);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/c0d4c038-eb4b-4f2d-894e-39325b695826.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/fa83d858-f3eb-41b5-b72b-763da32cc5f4.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/ddee8681-a1ec-4022-93fa-6ba5e43e338c.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/b9dad0b9-3727-46af-a8fe-e7a740f4c93b.jpg);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/140fb379-fc8e-4aff-8d8e-959e1038a85b.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+									<li
+										style="background-image: url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o084/83705568-51dd-44a3-b5ef-e7d19e39cba3.png);">
+										<a href="javascript:;"
+										
+										></a>
+									</li>
+								
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+			
+			
+		</ul>
+
+		<a href="javascript:void(0);" class="unslider-arrow06 prev"><img
+			class="arrow" id="al"
+			src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/arrowl.png" alt="prev"></a>
+		<a href="javascript:void(0);" class="unslider-arrow06 next"><img
+			class="arrow" id="ar"
+			src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/arrowr.png" alt="next"></a>
+	</div>
+	
+
+<section class="notice2">
+	<div class="wrapper">
+		<h2>最新公告：</h2>
+		<div class="cont" id="memberLatestAnnouncement"
+			style="cursor: pointer"></div>
+	</div>
+
+</section> 
+	</section>
+
+	<section class="mod-menu">
+	<ul class="list wrapper">
+		<li>
+			
+			<a href="javascript:;" 
+				
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+								onclick="toEditDocDetails(15896)"
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				> 
+				<i class="i-1"></i>
+				<div class="info">
+					<span class="spa-1">如何存款</span> <span class="spa-2">无需收费，随时提取</span>
+				</div>
+			</a>
+		</li>
+		<li><a href="javascript:;"
+				
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+								onclick="toEditDocDetails(15894)"
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				> <i class="i-2"></i>
+				<div class="info">
+					<span class="spa-1">如何取款</span> <span class="spa-2">快捷安全，火速到账</span>
+				</div>
+		</a></li>
+		<li><a href="javascript:;"> <i class="i-3"></i>
+				<div class="info">
+					<span class="spa-1">下载中心</span> <span class="spa-2">一键下载，轻松娱乐</span>
+				</div>
+		</a></li>
+		<li><a href="javascript:;" onclick="toEditDocDetails('17905')"> <i class="i-4"></i>
+				<div class="info">
+					<span class="spa-1">合作加盟</span> <span class="spa-2">加入我们，月入百万</span>
+				</div>
+		</a></li>
+	</ul>
+	</section>
+
+	<section class="mod-tab">
+	<div class="wrapper">
+
+		<div class="leftdiv">
+			<div class="block-links">
+				<div class="hd"></div>
+				<div class="bd"></div>
+			</div>
+
+			<div class="ranks">
+				<div class="hd"></div>
+				<div class="list-marquee" id="homeNotice">
+					<ul>
+						<!-- <li>
+							<div class="item">
+								<span class="spa-1">山东</span> <span class="spa-2">hu****9705</span>
+								<span class="spa-3">江西时时彩</span> <span class="spa-4">1523684元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">天津</span> <span class="spa-2">NI****29</span>
+								<span class="spa-3">北京赛车</span> <span class="spa-4">5684521元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">湖南</span> <span class="spa-2">ZH****33</span>
+								<span class="spa-3">江苏骰宝</span> <span class="spa-4">236544元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">上海</span> <span class="spa-2">YLB***66</span>
+								<span class="spa-3">广东快乐十分</span> <span class="spa-4">26842元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">上海</span> <span class="spa-2">LI*****MEI</span>
+								<span class="spa-3">香港六合彩</span> <span class="spa-4">369854元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">天津</span> <span class="spa-2">LBH****90</span>
+								<span class="spa-3">北京赛车</span> <span class="spa-4">123654元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">福建</span> <span class="spa-2">AS*****89</span>
+								<span class="spa-3">重庆时时彩</span> <span class="spa-4">7896524元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">广东</span> <span class="spa-2">KG****67</span>
+								<span class="spa-3">北京赛车</span> <span class="spa-4">2565482元</span>
+							</div>
+						</li>
+						<li>
+							<div class="item">
+								<span class="spa-1">天津</span> <span class="spa-2">JIS****67</span>
+								<span class="spa-3">北京赛车</span> <span class="spa-4">545862元</span>
+							</div>
+						</li> -->
+						
+						<li>
+                        <div class="item">
+                            <span class="spa-1">福建</span>
+                            <span class="spa-2">hu****9705</span>
+                            <span class="spa-3">江西时时彩</span>
+                            <span class="spa-4">153684元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">天津</span>
+                            <span class="spa-2">NI****29</span>
+                            <span class="spa-3">北京赛车</span>
+                            <span class="spa-4">568448元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">广东</span>
+                            <span class="spa-2">lid***78</span>
+                            <span class="spa-3">重庆时时彩</span>
+                            <span class="spa-4">168986元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">山东</span>
+                            <span class="spa-2">A8***15</span>
+                            <span class="spa-3">江西时时彩</span>
+                            <span class="spa-4">48887元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">重庆</span>
+                            <span class="spa-2">FF9****00</span>
+                            <span class="spa-3">北京赛车</span>
+                            <span class="spa-4">269450元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">湖南</span>
+                            <span class="spa-2">QWE****1</span>
+                            <span class="spa-3">江苏骰宝</span>
+                            <span class="spa-4">163988元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">上海</span>
+                            <span class="spa-2">CH1****26</span>
+                            <span class="spa-3">广东快乐十分</span>
+                            <span class="spa-4">8973元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">上海</span>
+                            <span class="spa-2">zhu****lk</span>
+                            <span class="spa-3">香港六合彩</span>
+                            <span class="spa-4">333625元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">福建</span>
+                            <span class="spa-2">LI****22</span>
+                            <span class="spa-3">重庆时时彩</span>
+                            <span class="spa-4">568451元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">山东</span>
+                            <span class="spa-2">NI****29</span>
+                            <span class="spa-3">江西时时彩</span>
+                            <span class="spa-4">42811元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">北京</span>
+                            <span class="spa-2">CC****k9</span>
+                            <span class="spa-3">北京赛车</span>
+                            <span class="spa-4">168231元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">天津</span>
+                            <span class="spa-2">NI****29</span>
+                            <span class="spa-3">广东快乐十分</span>
+                            <span class="spa-4">243428元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">湖南</span>
+                            <span class="spa-2">ZH****33</span>
+                            <span class="spa-3">江苏骰宝</span>
+                            <span class="spa-4">236544元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">上海</span>
+                            <span class="spa-2">YLB***66</span>
+                            <span class="spa-3">广东快乐十分</span>
+                            <span class="spa-4">26242元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">上海</span>
+                            <span class="spa-2">LI*****MEI</span>
+                            <span class="spa-3">香港六合彩</span>
+                            <span class="spa-4">39954元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">天津</span>
+                            <span class="spa-2">LBH****90</span>
+                            <span class="spa-3">北京赛车</span>
+                            <span class="spa-4">123654元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">福建</span>
+                            <span class="spa-2">AS*****89</span>
+                            <span class="spa-3">重庆时时彩</span>
+                            <span class="spa-4">786524元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">广东</span>
+                            <span class="spa-2">KG37****6</span>
+                            <span class="spa-3">幸运28</span>
+                            <span class="spa-4">156482元</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item">
+                            <span class="spa-1">天津</span>
+                            <span class="spa-2">J19****mm</span>
+                            <span class="spa-3">重庆幸运农场</span>
+                            <span class="spa-4">345862元</span>
+                        </div>
+                    </li>
+						
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+
+		<div id="j-tab-default">
+			<a href="javascript:;" class="tab-more" target="_blank"></a>
+			<ul class="tab_menu">
+				<li class="current"><i class="i-1"></i></li>
+				<li class=""><i class="i-2"></i></li>
+				<li class=""><i class="i-3"></i></li>
+
+			</ul>
+
+			<div class="tab_box">
+				<div>
+					<ul class="list">
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT24')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/lhc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>六合彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="645123" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT2')">
+								<div class="pic">
+									<img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/cqssc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>重庆时时彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="657851" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT6')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/bjsc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>北京PK拾</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="457562" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT13')">
+								<div class="pic">
+									<img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/cqnc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>重庆幸运农场</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="658733" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT14')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/k3.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>广西快3</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="248745" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/1fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>1分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="740159" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/3fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>3分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="248745" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/5fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>5分彩</span><i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="365412" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						
+					</ul>
+
+				</div>
+				<div class="hide">
+					<ul class="list">
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/1fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>1分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="740159" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/3fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>3分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="248745" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/5fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>5分彩</span><i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="365412" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT13')">
+								<div class="pic">
+									<img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/cqnc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>重庆幸运农场</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="658733" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT2')">
+								<div class="pic">
+									<img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/cqssc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>重庆时时彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="657851" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT11')">
+								<div class="pic">
+									<img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/xjssc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>新疆时时彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="578541" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT6')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/bjsc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>北京PK拾</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="457562" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="targetLottery('LT24')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/lhc.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>六合彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="645123" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+					</ul>
+
+				</div>
+				<div class="hide">
+					<ul class="list">
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/1fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>1分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="657851" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+								<div class="mask"></div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/3fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>3分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="645123" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="/jsp/member/help/mobileDescription.html" target="_blank">
+								<div class="pic">
+									<!-- <em>手机版</em> --> <img
+										src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homeCP/5fen.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>5分彩</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="457562" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+						<li><a class="item-1" href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+								<div class="pic">
+									<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/logo-bbin.png"
+										alt="" />
+								</div>
+								<h4>
+									<span>BBIN彩票</span> <i></i>
+								</h4>
+								<div class="count">
+									<span>游戏人气：</span><span class="timer j-count"
+										data-from="198521" data-to="985785" data-speed="50000000"
+										data-refresh-interval="500">658251</span>
+								</div>
+						</a></li>
+
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!--demo4 end-->
+
+
+	</div>
+
+	</section>
+
+
+	<section class="mod-2">
+	<div class="wrapper">
+
+
+		<div id="js-tab-vertical2">
+
+			<ul class="tab_menu">
+				<li class="current">
+					<div class="img-ico">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-logo-mg.png"
+							alt="">
+					</div>
+					<div class="text">
+						<span>MG电子</span><em>MG GAMING</em>
+					</div>
+				</li>
+				<li class="">
+					<div class="img-ico">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-logo-pt.png"
+							alt="">
+					</div>
+					<div class="text">
+						<span>PT电子</span><em>PT GAMING</em>
+					</div>
+				</li>
+				<li class="">
+					<div class="img-ico">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-logo-ag.png"
+							alt="">
+					</div>
+					<div class="text">
+						<span>AG电子</span><em>AG GAMING</em>
+					</div>
+				</li>
+				<li class="">
+					<div class="img-ico">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-logo-bbin.png"
+							alt="">
+					</div>
+					<div class="text">
+						<span>BBIN电子</span><em>BBIN GAMING</em>
+					</div>
+				</li>
+				<li class="">
+					<div class="img-ico">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-logo-byw.png"
+							alt="">
+					</div>
+					<div class="text">
+						<span>MW电子</span><em>CTRONICS</em>
+					</div>
+				</li>
+
+			</ul>
+
+			<div class="tab_box">
+				<div>
+					<div class="ele">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-elel-mg.png"
+							alt="">
+					</div>
+					<div class="list-game">
+						<ul>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=BreakAwayV90')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/1.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>冰上曲棍球</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="157851" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=ImmortalRomance')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/2.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>不朽的爱情</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="589412" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=LadiesNite')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/3.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>淑女派对</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="654158" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=dragondance')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/4.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>舞龙</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="657851" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=BreakDaBank')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/5.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>银行抢匪</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="874123" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=ReelGemsV90')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/mg/6.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>宝石之轮</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="298412" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="hide">
+
+					<div class="ele">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-elel-pt.png"
+							alt="">
+					</div>
+					<div class="list-game">
+						<ul>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=ct')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/1.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>船长的宝藏</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="364298" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?type=playgame&gameid=fm')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/2.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>古怪猴子</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="194126" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=fdt')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/3.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>招财进宝</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="341556" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=gtshwkp')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/4.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>高速公路之王</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="589410" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=hlf')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/5.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>白狮</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="654175" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=hlk2')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/pt/6.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>金钱蛙</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="187445" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+						</ul>
+					</div>
+
+
+				</div>
+				<div class="hide">
+
+					<div class="ele">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-elel-ag.png"
+							alt="">
+					</div>
+					<div class="list-game">
+						<ul>
+							<li><a href="javascript:;" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')" class="item">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/1.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>捕鱼王2代</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="657851" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/2.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>水果拉霸</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="901203" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/3.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>齐天大圣</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="841020" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/4.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>灵猴献瑞</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="445110" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/5.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>性感女仆</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="366014" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/ag/6.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>麻将老虎机</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="187054" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+						</ul>
+					</div>
+
+
+				</div>
+				<div class="hide">
+
+					<div class="ele">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-elel-bbin.png"
+							alt="">
+					</div>
+					<div class="list-game">
+						<ul>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/1.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>糖果派对</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="700412" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/2.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>连环夺宝</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="445230" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/3.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>喜福猴年</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="699230" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/4.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>钻石水果盘</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="198250" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/5.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>斗鸡</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="750052" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BBIN平台', 'no')">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/bbin/6.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>沙滩排球</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="398111" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+						</ul>
+					</div>
+
+
+				</div>
+				<div class="hide">
+
+					<div class="ele">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/mod2-elel-byw.png"
+							alt="">
+					</div>
+					<div class="list-game">
+						<ul>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/1.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>千炮捕鱼</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="198850" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/2.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>超级斗地主</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="298112" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/3.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>森林舞会</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="366218" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/4.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>水浒英雄</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="854102" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/5.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>五龙争霸</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="741028" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+							<li><a href="javascript:;" class="item" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">
+									<div class="imgbox">
+										<img
+											src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/homegame/og/6.jpg"
+											alt="">
+									</div>
+									<h4>
+										<span>洪福齐天</span><i></i>
+									</h4>
+									<div class="count">
+										<span>游戏人气：</span><span class="timer j-count"
+											data-from="460121" data-to="985785" data-speed="50000000"
+											data-refresh-interval="500"></span>
+									</div>
+							</a></li>
+						</ul>
+					</div>
+
+
+				</div>
+
+			</div>
+
+		</div>
+		<!--demo4 end-->
+
+
+		<div class="row">
+			<div class="numbox">
+				<span class="timer j-count" id="count-number" data-to="9969810"
+					data-from="6179178" data-speed="100000000">23,153</span>
+			</div>
+			<div class="rank-hd"></div>
+			<div class="list-marquee" id="rankList">
+
+				<ul>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">湖南</span> <span class="spa-2">w***16 </span>
+							<span class="spa-3">不朽的浪漫</span> <span class="spa-4">46990元</span>
+						</div>
+						<div class="item">
+							<span class="spa-1">河北</span> <span class="spa-2">sa***77
+							</span> <span class="spa-3">妖精传奇</span> <span class="spa-4">21990元</span>
+						</div>
+					</li>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">沈阳</span> <span class="spa-2">bi***5669</span>
+							<span class="spa-3">抢银行</span> <span class="spa-4">78000元</span>
+						</div>
+						<div class="item">
+							<span class="spa-1">沈阳</span> <span class="spa-2">hh***514</span>
+							<span class="spa-3">冰上曲棍球</span> <span class="spa-4">68740元</span>
+						</div>
+					</li>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">四川</span> <span class="spa-2">geng****156</span>
+							<span class="spa-3">银行抢匪2</span> <span class="spa-4">69900元</span>
+						</div>
+						<div class="item">
+							<span class="spa-1">浙江</span> <span class="spa-2">geng****156</span>
+							<span class="spa-3">地府烈焰</span> <span class="spa-4">514520元</span>
+						</div>
+					</li>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">上海</span> <span class="spa-2">ew****ds</span>
+							<span class="spa-3">AG捕鱼王2代</span> <span class="spa-4">88820元</span>
+						</div>
+						<div class="item bornone">
+							<span class="spa-1">福建</span> <span class="spa-2">hd***554</span>
+							<span class="spa-3">斗鸡 </span> <span class="spa-4">21450元</span>
+						</div>
+					</li>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">北京</span> <span class="spa-2">ro****4169
+							</span> <span class="spa-3">多台-银行抢匪2</span> <span class="spa-4">32000元</span>
+						</div>
+						<div class="item">
+							<span class="spa-1">上海</span> <span class="spa-2">cv****214
+							</span> <span class="spa-3">性感女仆</span> <span class="spa-4">88745元</span>
+						</div>
+					</li>
+					<li>
+						<div class="item bornone">
+							<span class="spa-1">河南</span> <span class="spa-2">ghd***0</span>
+							<span class="spa-3">捕鱼传奇</span> <span class="spa-4">42000元</span>
+						</div>
+						<div class="item">
+							<span class="spa-1">上海</span> <span class="spa-2">kj**123</span>
+							<span class="spa-3">水果拉霸</span> <span class="spa-4">28720元</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+	</section>
+
+
+	<section class="mod-1">
+	<div class="wrapper">
+
+		<div id="js-tab-vertical">
+
+			<ul class="tab_menu">
+				<div class="item2"></div>
+				<li class="current" onclick="window.open('/member/flex?type=init0','_self')">
+					<div class="imgbox">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/i-game-2.png"
+							alt="" />
+					</div>
+					<div class="info">
+						<span class="spa-1">真人视讯<em>Live casino</em></span> <span
+							class="spa-2">进入游戏</span>
+					</div>
+				</li>
+				<li onclick="window.open('/FootBall','_self')">
+					<div class="imgbox">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/i-game-1.png"
+							alt="" />
+					</div>
+					<div class="info">
+						<span class="spa-1">体育赛事<em>Sports</em></span> <span class="spa-2">进入游戏</span>
+					</div>
+				</li>
+
+				<div class="item"></div>
+			</ul>
+
+			<div class="tab_box">
+				<div class="">
+
+					<div class="pic">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-pic02.png"
+							alt="" />
+					</div>
+					<div class="pic2">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-txt02.png"
+							alt="" />
+					</div>
+
+				</div>
+
+				<div class="hide">
+
+					<div class="pic">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-pic01.png"
+							alt="" />
+					</div>
+					<div class="pic2">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-txt01.png"
+							alt="" />
+					</div>
+
+				</div>
+				<div class="hide">
+
+					<div class="pic">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-pic03.png"
+							alt="" />
+					</div>
+					<div class="pic2">
+						<img
+							src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/tab-vertical-txt03.png"
+							alt="" />
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<!--demo4 end-->
+
+
+	</div>
+
+	</section>
+
+
+	<script>
+		//slider
+		function imgReload() {
+			var imgHeight = 0;
+			var wtmp = $("body").width();
+			$("#b06 ul li").each(function() {
+				$(this).css({
+					width : wtmp + "px"
+				});
+			});
+			$(".sliderimg").each(function() {
+				$(this).css({
+					width : wtmp + "px"
+				});
+				imgHeight = $(this).height();
+			});
+		}
+
+		$(window).resize(function() {
+			imgReload();
+		});
+
+		$(document).ready(function(e) {
+			imgReload();
+			var unslider06 = $('#b06').unslider({
+				dots : true,
+				delay : 5000,
+				fluid : true
+			}), data06 = unslider06.data('unslider');
+
+			$('.unslider-arrow06').click(function() {
+				var fn = this.className.split(' ')[1];
+				data06[fn]();
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		// jquery.vticker
+		$('#homeNotice').vTicker({
+			showItems : 9,
+			pause : 2000
+		});
+		$('#rankList').vTicker({
+			showItems : 4,
+			pause : 2000
+		});
+	</script>
+	<script type="text/javascript">
+        $(function(){
+          //tab
+          $('#j-tab-default').Tabs({
+            auto:5000,
+            // event:'click'
+          });
+
+          $('#js-tab-vertical').Tabs({
+            auto:5000,
+            // timeout:100
+            // event:'click'
+          });
+          $('#js-tab-vertical2').Tabs({
+            auto:5000,
+            // timeout:100
+            // event:'click'
+          });
+
+
+        });
+        </script>
+	<script type="text/javascript">
+		$('.j-count').countTo({
+			formatter : function(value, options) {
+				return value.toFixed(options.decimals);
+			}
+		});
+	</script>
+	
+
+<footer class="footer">
+
+	<section class="foot-ys"></section>
+
+	<section class="foot-contact">
+		<ul class="wrapper">
+			<li><span class="i-1">客服电话：0063-9091788888</span></li>
+			<span class="line"></span>
+			<li><span class="i-2">投诉邮箱：spj3721@gmail.com</span></li>
+			<span class="line"></span>
+			<li><a href="javascript:;" class="i-3" target="_blank">下载专区 DOWNLOAD
+					CENTER</a></li>
+			<span class="line"></span>
+			<li><a href="javascript:;" onclick="openChatWin()" class="i-4" target="_blank">客服中心 SERVICE
+					CENTER</a></li>
+		</ul>
+	</section>
+ 
+	<section class="foot-brand"></section>
+	<div class="foot-links wrapper">
+		
+			
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(16028)" >
+							   关于我们
+							</a><span>|</span>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(15894)" >
+							   取款帮助
+							</a><span>|</span>
+					
+				
+			
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(15896)" >
+							   存款帮助
+							</a><span>|</span>
+					
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(17905)" >
+							   合作伙伴
+							</a><span>|</span>
+					
+				
+			
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(15897)" >
+							   联络我们
+							</a><span>|</span>
+					
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(15898)" >
+							   责任与博彩
+							</a><span>|</span>
+					
+				
+			
+				
+			
+				
+					
+							<a href="javascript:;" onclick="toEditDocDetails(15899)" >
+							   慈善捐款
+							</a><span>|</span>
+					
+				
+			
+		
+        <a href="/sysProposalServlet?type=1">投诉建议</a><span>|</span> 
+        <a href="javascript:;" onclick="openHelp('/help')">常见问题</a><span>|</span> 
+        <a href="javascript:;">资讯端下载</a>
+        
+	</div>
+	<section class="foot-copy">COPYRIGHT © 澳门新葡京  RESERVED</section>
+
+</footer>
+
+<!--右下角图片开始  -->
+<style type="text/css">
+#og_board_phoneId  ul, #og_board_phoneId li{
+	margin: 0px;
+	padding: 0px;
+    position: relative;
+}
+.og_board_phoneClass_left {
+    position: fixed;
+    bottom: 6px;
+    right: 8px;
+    z-index: 9999;
+}
+ #og_board_phoneId .og_board_phone{
+	width: 173px;
+	height: 153px;
+	z-index:900;
+}
+#og_board_phoneId .og_board_phone .hd {
+    position: relative;
+    overflow:visible;
+    height: 21px;
+    left: 20px;
+    bottom: 1px;
+    z-index: 1;
+}
+#og_board_phoneId .og_board_phone .hd ul li {
+    float: left;
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    margin-right: 0px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url(' //cdnszs.ruirobot.com/v2/stc/og/o084/images/phone-hd.png') no-repeat;
+    padding-right:5px;
+}
+#og_board_phoneId .og_board_phone .hd ul li.on {
+    background-position: 0 -20px;
+}
+#og_board_phoneId .og_board_dv-colse:hover {
+  display: block;
+  z-index:9998;
+}
+</style>
+
+
+<div id="og_board_phoneId" class="og_board_phoneClass_left"> 
+	<div class="og_board_phone">
+		<a style="cursor: pointer;width: 22px;height: 22px;float: right;position: absolute;right: 0px;bottom: 170px;z-index: 999;" onclick="javascript:document.getElementById('og_board_phoneId').style.display='none';"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/phoneidg.png"></a>					
+		<div class="bd" id="lbt" >
+			<ul>
+				<li><a href="https://4600mm.com/jsp/member/lotteryV2/index.jsp#/app/lhc" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/1.png"></a></li>
+				<li><a href="https://4600vip.com" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/2.png"></a></li>
+				<li><a href="https://7774600.com/" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/3.png"></a></li>
+				<li><a href="https://4600mm.com/member/flex?key=mwg&type=playgame&gameid=50" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/4.png"></a></li>
+				<li><a href="https://4600mm.com/jsp/member/electronicGame/elgame.jsp?gameIndex=1" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/5.png"></a></li>
+				<li><a href="https://4600hb.com" target="_blank"><img
+						src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/6.png"></a></li>
+			</ul>
+		</div>
+		<div class="hd">
+			<ul><li class="on"></ul> 
+		</div>
+	</div>						
+</div>
+<script src="/jsp/member/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	jQuery("#og_board_phoneId .og_board_phone").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,scroll:1,easing:"easeInQuint",trigger:"click",interTime:3000});
+</script>
+
+<!--右下角图片结束  -->
+
+<!--左下角图片开始  --> 
+<style>
+	#phone_id{
+		position: fixed;
+		z-index: 9999;
+		bottom: 0px;
+		left: 0px;
+	}
+	.foot_left_close {
+		position: absolute;
+	    right: -12px;
+	    top: -23px;
+	    width: 18px;
+	    height: 20px;
+	} 
+</style>
+<div id="phone_id">
+	<a href="javascript:;" onclick="javascript:document.getElementById('phone_id').style.display='none';" class="foot_left_close"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/phoneidg.png"></a>
+	<a href="https://2307.com" target="_blank"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o084/images/foot_fr.gif"></a>
+</div>
+<!--左下角图片结束  -->
+	
+
+
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+	
+	
+
+
+
+	
+		 
+<style>
+	#box1 a {display: block}
+	#box2 a {display: block}
+</style>
+
+<div id="box1" picfloat="left" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; float:left;">	
+ 	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		
+	
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o084/104a52dc-fc36-403f-9961-75c7893ab341.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:QSFUN.getGamePager('#', 'Game', 'casino', 1)"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/bb81c132-2933-422c-a348-8593362fe7fd.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="https://4600hd.com/"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/430341b0-fa22-44aa-9b1b-0bfb03812ea8.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="http://0004600.com/download.php"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/897ebbc5-da7b-4029-81cb-3d5713c9b218.png">
+							</a>
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o084/30a91e23-599a-4d5f-bf26-ef901175b245.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box1')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/ad52b895-44b8-4f21-8e83-e85fb311148f.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+</div>
+
+<div id="box2" picfloat="right" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; right: 0; float: right;">
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openChatWin()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/6e952725-d184-455c-b88f-f0f1b5dc55d0.png">
+							</a>
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o084/43f244bf-0ca3-4783-9971-8ee055d8f971.png">
+							</a>
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o084/6b0e8e33-5ca1-45d1-a2c8-869b9bcacd6c.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="https://4600dl.com/"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/03f18df4-9917-435d-831b-b91bc4dcac65.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=810811&configID=65886&jid=4774468385&skillId=3596&s=1"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/a109dff2-ef3f-42b6-83cf-3562260a2101.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box2')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o084/2a4a6f29-49f8-49b6-a41c-0c920aad2d12.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+	</div>
+
+
+
+<script type="text/javascript">
+	if (self.location != top.location)
+		top.location = self.location;
+	var left_top = 170, right_top = 170, float_list = [];
+	$(window)
+			.load(
+			function() {
+				// 廳主自改 - 浮動圖
+				float_list['1'] = $('#box1');
+				float_list['2'] = $('#box2');
+				for ( var i in float_list) {
+					var self = float_list[i], picfloat = (self
+							.attr('picfloat') == 'right') ? 1 : 0;
+					self
+							.show()
+							.Float(
+							{
+								'floatRight' : picfloat,
+								'topSide' : ((picfloat == 1) ? right_top
+										: left_top),
+								close : "closebox" + (i)
+							});
+					// ie6 png bug
+					if (navigator.userAgent.toLowerCase().indexOf(
+									'msie 6') != -1) {
+						$.each(self.find('img'), function() {
+							$(this).css({
+								'width' : $(this).width(),
+								'height' : $(this).height()
+							});
+						});
+					}
+
+					if (picfloat) {
+						right_top = right_top + 10
+								+ (self.height() || 250);
+					} else {
+						left_top = left_top + 10
+								+ (self.height() || 250);
+					}
+					self.show();
+				}
+				//点击背景遮罩移除iframe和背景
+			    $("#YuFrame1Bg").click(function() {
+			        $("#YuFrame1").remove();
+			        $("#YuFrame1Bg").remove();
+			    });
+			});
+			
+			function closePic(i) {
+				document.getElementById(i).style.display = 'none';
+			}
+/*
+			function wxLogin()
+			{
+				var wxSrc=$("#YuFrame1").attr("src");
+				console.log(wxSrc);
+				if(wxSrc.indexOf("#ok") > 0)
+				{
+					console.log('stop');
+					clearInterval(ref);
+					///请求地址
+					$.ajax({
+				        type: "post",
+				        async: false,//false代表只有在等待ajax执行完毕后才执行 也就是同步
+				        url: "/Weixin/Login",
+				        contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+				        dataType: "json",
+				        success: function (data) {
+				            if(data.status)
+				            {
+				            	location.reload();
+				            }else
+				            {
+				            	alert("登录出现问题，请重新扫码登录！");
+				            	showWx(sessionId);
+				            }
+				        }
+				    }); 
+				}
+				console.log('jixu');
+			} */
+</script>
+
+
+	
+
+</body>
+</html>

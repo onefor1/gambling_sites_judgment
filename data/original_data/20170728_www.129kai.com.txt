@@ -1,0 +1,405 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>【129kai彩票开奖网】-比官方快一步</title>
+<meta name="keywords" content="129kai.com开奖网,北京赛车pk10,pk10开奖直播,北京PK10,重庆时时彩,广东快乐十分,香港彩,北京快乐8,江苏骰宝(快3),重庆幸运农场,上海时时乐,幸运飞艇,十一运夺金,开奖网,视频开奖网,彩票走势,彩票数据分析" />
+<meta name="description" content="★www.129kai.com★北京赛车pk10频道提供北京赛车pk10专业的最新开奖,开奖数据历史,开奖直播视频,投注技巧,大小单双,走势图，全力为彩民提供所有需要的数据开奖直播" />
+<meta name="renderer" content="webkit">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<link rel="stylesheet" type="text/css" href="/views/lanse/images/style.css" />
+<script type="text/javascript">var sitepath = '/index.php';</script>
+<script type="text/javascript" src="/views/lanse/js/jq.js"></script>
+<script type="text/javascript" src="/views/lanse/js/webd9_slide.js"></script>
+<script src="/views/lanse/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/views/lanse/js/configs.js"></script>
+</head>
+<body>
+
+<div class="top ">
+	<div class="w">
+		<div class="time"><script language="javascript" src="/views/lanse/js/clock.js"></script></div>
+		<div class="gg">
+			<div class="gg-1">
+				<ul>
+					<li>请认准官方域名:www.129kai.com  作为国内领先的互联网彩票公司，公司始终坚持走"易用、安全、便捷"的道路，让每个彩民享受到快捷、安全、绿色的开奖直播观看服务。依托网络、通信和数字电视技术，通过网络、电话、手机、短信、数字电视、电子杂志、电子邮件和平面媒体等多样化服务手段，为广大彩民提供全国各大联销型彩票及各地地方彩票的代购合买、彩票资讯、彩票分析、彩票软件、彩票社区等全方位、一体化的综合彩票服务，深受广大彩民的欢迎。</li>
+				</ul>
+			</div>
+		</div>
+		<div  class="sethome"><a href="javascript:void(0)" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.');">设为首页</a>|<a href="javascript:window.external.AddFavorite('http://www.', '博发彩票')">加入收藏</a></div>
+		<div class="clearfix"></div>
+		<div  class="logo" style="padding-top:15px;">
+			<a href="/"><img src="/views/lanse/images/logo.png"></a>
+		</div>
+		<div class="ad"><a href="tencent://message/?uin=446744" target="_blank"><img src="/views/lanse/images/8.png" width="850"></a></div>
+	</div>
+</div>
+
+<div class="header_nav">
+		<div class="header_navc">
+			<div class="menu">
+				<ul>
+					<li class="a"> <a href="/">首页</a> </li>
+					<li id="cpdtshow"> <a href="/list-kaijiangzhibo.html" >彩票大厅 </a>
+						<div class="web_colorSpeedSelectBlock_light" id="cpdtshow_con">
+							<div class="web_colorSpeedSelectCon">
+								<span class="web_colorSpeedLi"> <a href="./list-bjpk10.html"></a> <i class="web_colorSpeedIcon"><img src="/views/lanse/images/lot1/1.png" alt="北京赛车PK10"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedHot"></i>北京赛车PK10</b> </span> <span class="web_colorSpeedLi"> <a href="./list-cqssc.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/2.png" alt="重庆时时彩"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedHot"></i>重庆时时彩</b> </span> <span class="web_colorSpeedLi"> <a href="./list-hk6.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/3.png" alt="香港六合彩"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedHot"></i>香港六合彩</b> </span> <span class="web_colorSpeedLi"> <a href="./list-gdklsf.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/4.png" alt="广东快乐十分"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedHot"></i>广东快乐十分</b> </span> <span class="web_colorSpeedLi"> <a href="./list-bjkl8.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/kl8.png" alt="北京快乐8"/></i> <b class="web_colorSpeedFont">北京快乐8</b> </span> <!--<span class="web_colorSpeedLi"> <a href="./list-xy28.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/xy28-logo.png" alt="幸运28"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>幸运28</b> </span>--> <span class="web_colorSpeedLi"> <a href="./list-jsk3.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/7.png" alt="江苏骰宝(快3)"/></i> <b class="web_colorSpeedFont">江苏骰宝(快3)</b> </span> <span class="web_colorSpeedLi"> <a href="./list-cqklsf.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/6.png" alt="幸运农场"/></i> <b class="web_colorSpeedFont">幸运农场</b> </span> <span class="web_colorSpeedLi"> <a href="./list-gd11x5.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/x53.png" alt="广东11选5"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>广东11选5</b> </span> <span class="web_colorSpeedLi"> <a href="./list-tjssc.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/11.png" alt="天津时时彩"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>天津时时彩</b> </span> <span class="web_colorSpeedLi"> <a href="./list-xjssc.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/12.png" alt="新疆时时彩"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>新疆时时彩</b> </span> <span class="web_colorSpeedLi"> <a href="./list-gxklsf.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/klsf.png" alt="广西快乐10分"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedHot"></i>广西快乐10分</b> </span> <span class="web_colorSpeedLi"> <a href="./list-gxk3.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/k3.png" alt="广西快3"/></i> <b class="web_colorSpeedFont">广西快3</b> </span> <span class="web_colorSpeedLi"> <a href="./list-ahk3.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/k32.png" alt="安徽快3"/></i> <b class="web_colorSpeedFont">安徽快3</b> </span> <span class="web_colorSpeedLi"> <a href="./list-sd11x5.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/x52.png" alt="十一运夺金"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>十一运夺金</b> </span> <span class="web_colorSpeedLi"> <a href="./list-mlaft.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/5.png" alt="幸运飞艇"/></i> <b class="web_colorSpeedFont">幸运飞艇</b> </span> <span class="web_colorSpeedLi"> <a href="./list-shssl.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/shssl.png" alt="上海时时乐"/></i> <b class="web_colorSpeedFont">上海时时乐</b> </span> <span class="web_colorSpeedLi"> <a href="./list-fc3d.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/8.png" alt="福彩3D"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>福彩3D</b> </span> <span class="web_colorSpeedLi"> <a href="./list-pl3.html"></a> <i class="web_colorSpeedIcon"> <img src="/views/lanse/images/lot1/pl3.png" alt="排列3"/></i> <b class="web_colorSpeedFont"><i class="web_colorSpeedNew"></i>排列3</b> </span>
+							</div>
+						</div>
+					</li>
+					                    <li ><a href="/list-kaijiangzhibo.html">开奖直播</a></li>
+                                        <li ><a href="/list-bjpk10.html">北京赛车PK10</a></li>
+                                        <li ><a href="/list-cqssc.html">重庆时时彩</a></li>
+                                        <li ><a href="/list-gdklsf.html">广东快乐十分</a></li>
+                                        <li ><a href="/list-bjkl8.html">北京快乐8</a></li>
+                                        <li ><a href="/list-cqklsf.html">幸运农场</a></li>
+                                        <li ><a href="/list-meinvtuku.html">美女图库</a></li>
+                    				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="height0"></div>
+<script>
+$("#cpdtshow").hover(function () {
+    $("#cpdtshow_con").css("display", "block");
+}, function () {
+    $("#cpdtshow_con").css("display", "none");
+}); 
+$("#cpdtshow_con").hover(function () {
+    $("#cpdtshow").addClass("cpdtshowhover");
+}, function () {
+    $("#cpdtshow").removeClass("cpdtshowhover");
+});
+</script>
+<!--<div class="height10"></div>
+<div style="margin:0 auto; width:1200px; clear:both;"><a href="https://www.pg44.cc/api/r/C/B/tyloxk7176" target="_blank"><img src="/views/lanse/images/129kai.gif" width="100%"></a></div>!--><div class="height10"></div>
+<div class="pmain">
+	<div class="pmaininz">
+		<div id="slideBox" class="slideBox">
+			<div class="bd">
+				<ul>
+					<li><a href="https://www.pg44.cc" target="_blank"><img src="/views/lanse/images/1.jpg" /></a></li>
+					<li><a href="https://www.pg44.cc" target="_blank"><img src="/views/lanse/images/2.jpg" /></a></li>
+					<li><a href="https://www.pg44.cc" target="_blank"><img src="/views/lanse/images/3.jpg" /></a></li>
+					<li><a href="https://www.pg44.cc" target="_blank"><img src="/views/lanse/images/4.jpg" /></a></li>
+					<li><a href="https://www.pg44.cc" target="_blank"><img src="/views/lanse/images/5.jpg" /></a></li>
+				</ul>
+			</div>
+			<div class="hd">
+				<ul>
+					<li></li>
+					<li></li><li></li><li></li><li></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".slideBox").slide({mainCell:".bd ul",autoPlay:true,effect:"topLoop",interTime:4000});
+			</script> 
+	</div>
+	<div class="pmaininy">
+		<!--<div class="indexboxp">
+			<div class="indexboxpt"><span></span></div>
+			<div class="indexdeng">
+				<div class="indexdengd">
+					<h3>新凤凰彩票会员登录区</h3>
+					<ul>
+					<li><a href="http://www.xfh66.com" target="_blank" class="regBtn">登录</a></li>
+					<li><a href="http://www.xfh66.com" target="_blank" class="loginBtn">注册</a></li>
+					</ul>
+				</div>!-->
+				<div class="height0"></div><div class="height0"></div><div class="height0"></div><div class="height0"></div>
+				<a href="https://www.pg44.org" target="_blank" style="padding-left:3px;"><img src="/views/cpkj/images/222.png" /></a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="pmain">
+	<div class="video_list">
+		<ul class="picList">
+			<li>
+				<div class="pic"><a href="./list-kaijiangshipin.html" target="_blank"><img src="/views/lanse/images/pk10v.jpg" width="134" height="111"></a></div>
+				<p><a href="./list-kaijiangshipin.html" target="_blank">北京赛车PK10</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="./list-mlaftkjsp.html" target="_blank"><img src="/views/lanse/images/c2.jpg" width="134" height="111"></a></div>
+				<p><a href="./list-mlaftkjsp.html" target="_blank">幸运飞艇</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="./list-kaijiangshipincq.html" target="_blank"><img src="/views/lanse/images/c3.jpg" width="134" height="111"></a></div>
+				<p><a href="./list-kaijiangshipincq.html" target="_blank">时时彩</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="./list-kjspgdklsf.html" target="_blank"><img src="/views/lanse/images/c4.jpg" width="134" height="111"></a></div>
+				<p><a href="./list-kjspgdklsf.html" target="_blank">广东快乐十分</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="./list-cqklsf.html" target="_blank"><img src="/views/lanse/images/c5.jpg" width="134" height="111"></a></div>
+				<p><a href="./list-cqklsf.html" target="_blank">幸运农场</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="./list-kaijiangshipinjsk3.html" target="_blank"><img src="/views/lanse/images/jsk3-index.png" width="134" height="111"></a></div>
+				<p><a href="./list-kaijiangshipinjsk3.html" target="_blank">新疆时时彩</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="#" target="_blank"><img src="/views/lanse/images/sdc-index.png" width="134" height="111"></a></div>
+				<p><a href="/pk10/shipin" target="_blank">天津时时彩</a></p>
+			</li>
+			<li>
+				<div class="pic"><a href="#" target="_blank"><img src="/views/lanse/images/sdc-index.png" width="134" height="111"></a></div>
+				<p><a href="/pk10/shipin" target="_blank">广东11选5</a></p>
+			</li>
+		</ul>
+	</div>
+	<div class="clearfix"></div>
+	<style type="text/css">
+	.ball_nc_ { margin-right:2px}
+	.ball_year_ { margin-right:3px;}
+	</style>
+	<div class="game_list">
+		<div class="open_items">
+			<div class="game_listdiv info_10016">
+				<a href="./list-bjpk10.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/1.png" alt="北京赛车PK10"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">北京赛车PK10</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kaijiangshipin.html" target="_blank">开奖直播</a> 
+				<span class="lotteryHall_ListBtn1"><a href="./index.php?c=content&a=list&catid=9" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-guanyajizspk10.html" target="_blank">走势图</a> </span>
+			</div>
+			
+			<div class="game_listdiv info_10085">
+				<a href="./list-mlaft.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/5.png" alt="幸运飞艇"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">幸运飞艇</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-mlaftkjsp.html" target="_blank">开奖直播</a> 
+				<span class="lotteryHall_ListBtn1"> <a href="./index.php?c=content&a=list&catid=204" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-guanyajizoushitu.html" target="_blank">走势图</a> </span>
+			</div>
+			
+			
+			<div class="game_listdiv info_10011">
+				<a href="./list-cqssc.html" target="_blank" class="icon">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/2.png" alt="重庆时时彩"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">重庆时时彩</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kaijiangshipincq.html" target="_blank">开奖直播</a> 
+				<span class="lotteryHall_ListBtn1"><a href="./index.php?c=content&a=list&catid=26" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-hezhizoushi.html" target="_blank">走势图</a> </span>
+			</div>
+			<div class="game_listdiv info_10010">
+				<a href="./list-cqklsf.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/6.png" alt="幸运农场"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">幸运农场</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber sub_table"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kaijiangshipincqklsf.html" target="_blank">开奖直播</a> 
+				<span class="lotteryHall_ListBtn1"><a href="./index.php?c=content&a=list&catid=44" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-jibenzoushinc.html" target="_blank">走势图</a> </span>
+			</div>
+			
+			
+			<div class="game_listdiv info_1006">
+				<a href="./list-jsk3.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/7.png" alt="江苏快三"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">江苏快三</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber sub_table"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kaijiangshipinjsk3.html" target="_blank">开奖直播</a>
+				<span class="lotteryHall_ListBtn1"><a href="./index.php?c=content&a=list&catid=43" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-jbzsjsk3.html" target="_blank">走势图</a> </span>
+			</div>
+			<div class="game_listdiv info_1009">
+				<a href="./list-gxklsf.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/klsf.png" alt="广西快乐十分"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">广西快乐十分</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./index.php?c=content&a=list&catid=158" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-jibenzoushi8.html" target="_blank">走势图</a> 
+				<span class="lotteryHall_ListBtn2"><a href="./list-gd11x5zhtj.html">综合统计</a></span>
+			</div>
+			<div class="game_listdiv info_1007">
+				<a href="./list-gd11x5.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/x53.png" alt="广东11选5"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">广东11选5</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./index.php?c=content&a=list&catid=147" target="_blank">开奖记录</a>
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-gd11x5hzzs.html" target="_blank">走势图</a>
+				<span class="lotteryHall_ListBtn2"><a href="./list-gd11x5zhtj.html">综合统计</a></span>
+			</div>
+			<div class="game_listdiv info_1008">
+				<a href="./list-gdklsf.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/4.png" alt="广东快乐十分"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">广东快乐十分</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kjspgdklsf.html" target="_blank">开奖直播</a> 
+				<span class="lotteryHall_ListBtn1"><a href="./index.php?c=content&a=list&catid=34" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn2"><a class="delMargin" href="./list-jibenzoushigdklsf.html" target="_blank">走势图</a></span>
+			</div>
+			<div class="game_listdiv info_10022">
+				<a href="./list-xjssc.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/12.png" alt="新疆时时彩"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">新疆时时彩</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./index.php?c=content&a=list&catid=153" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-hezhizoushi5.html" target="_blank">走势图</a> 
+			    <span class="lotteryHall_ListBtn2"><a href="./list-zonghetongji7.html">综合统计</a></span>
+			</div>
+			<div class="game_listdiv info_4001">
+				<a href="./list-hk6.html" target="_blank">
+				<div class="game_listdiv1" style="padding-bottom:0">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/3.png" alt="香港彩"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">香港彩</div>
+						<div class="game_listdiv1y2">第<font id="nterm4001">000</font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span id="ndate4001">00月00日00时00分</span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber hkindex" style="padding-bottom:3px;"><ul class="term_ball"><li><span id="ball_l1"></span><br /><font id="info_l1">--</font></li><li><span id="ball_l2"></span><br /><font id="info_l2">--</font></li><li><span id="ball_l3"></span><br /><font id="info_l3">--</font></li><li><span id="ball_l4"></span><br /><font id="info_l4">--</font></li><li><span id="ball_l5"></span><br /><font id="info_l5">--</font></li><li><span id="ball_l6"></span><br /><font id="info_l6">--</font></li><li> + </li><li><span id="ball_l7"></span><br /><font id="info_l7">--</font></li></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./index.php?c=content&a=list&catid=153" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-hezhizoushi5.html" target="_blank">走势图</a> 
+				<span class="lotteryHall_ListBtn2"><a href="./list-tongjizhushou.html">统计助手</a></span>
+			</div>
+			<div class="game_listdiv info_2002">
+				<a href="./list-fc3d.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/8.png" alt="福彩3D"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">福彩3D</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./kaijianglishi5.html" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-jibenzoushi9.html" target="_blank">走势图</a> 
+				<span class="lotteryHall_ListBtn2"><a href="./list-wangmapaixing.html">旺码排行</a></span>
+			</div>
+			<div class="game_listdiv info_2007">
+				<a href="./list-pl3.html" target="_blank">
+				<div class="game_listdiv1">
+					<div class="game_listdiv1z"><img src="/views/lanse/images/lot1/pl3.png" alt="排列3"/></div>
+					<div class="game_listdiv1y">
+						<div class="game_listdiv1y1">排列3</div>
+						<div class="game_listdiv1y2">第<font class="next_term"></font>期开奖时间</div>
+						<div class="game_listdiv1y3">
+							<span class="next_date next_date2 right_timeBlock"><span>00</span><em>:</em><span>00</span></span>
+						</div>
+					</div>
+				</div>
+				</a>
+				<div class="kjnumber"><ul class="term_ball"></ul></div>
+				<span class="lotteryHall_ListBtn"> <a href="./list-kaijianglishi8.html" target="_blank">开奖记录</a> 
+				<span class="lotteryHall_ListBtn1"><a class="delMargin" href="./list-jbzspl3.html" target="_blank">走势图</a> 
+				<span class="lotteryHall_ListBtn2"><a href="./list-wangmapaixing9.html">旺码排行</a></span>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="height10"></div>
+<div class="clearfix"></div>
+<div class="foot">
+	<div class="w foot-1">
+		<!--<div class="vx"><img src="/views/lanse/images/vx.jpg"></div>!-->
+		<div class="dh">
+				</div>
+		<div class="copyright">彩票有风险，购买要适度。禁止18周岁以下未成年人购买彩票。<br>
+			Copyright © 2000-2017 www.129kai.com All rights reserved. 
+			</div>
+	</div>
+</div><script type="text/javascript" src="/views/lanse/js/js.js"></script><link rel="stylesheet" type="text/css" href="/views/lanse/js/dailog/skins/discuz.css" />
+<script type="text/javascript" src="/views/lanse/js/dailog/lhgdialog.min.js"></script>
+<script src="/media/jquery.cookie.js" type="text/javascript"></script>
+<script src="/media/ring.js" type="text/javascript"></script>
+</body>
+<script type="text/javascript" src="/views/lanse/js/base.js"></script>
+<script type="text/javascript" src="/views/lanse/js/main.js"></script>
+<script type="text/javascript" src="/views/lanse/js/hotOpen.js"></script>
+</html>

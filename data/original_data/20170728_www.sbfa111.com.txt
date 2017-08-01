@@ -1,0 +1,1170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+
+            <title>SBF胜博发老虎机娱乐游戏</title>
+      
+      <meta name="description" content="胜博发娱乐城，最佳在线娱乐平台，最具公信力品牌，提供百种在线娱乐产品
+">
+      <meta name="keywords" content="胜博发娱乐城，SBF胜博发 ,亚洲最专业老虎机与线上娱乐">
+
+
+
+<link rel="apple-touch-icon-precomposed" href="//ap101.lxg365.com/images/urlIcon.ico">
+<link rel="shortcut icon" sizes="16x16" href="//ap101.lxg365.com/images/urlIcon.ico">
+<link href="//ap101.lxg365.com/Css/style.css?v=2022170711" rel="stylesheet" type="text/css" />
+<link href="//ap101.lxg365.com/Css/base_new.css?v=20170622" rel="stylesheet" type="text/css" />
+<link href="//ap101.lxg365.com/Css/customer-games.css?v=1.0" rel="stylesheet" type="text/css" />
+<link href="//ap101.lxg365.com/Css/pagenav.css?v=20170406" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="//ap101.lxg365.com/Css/flexslider.css" type="text/css">
+<!--[if lt IE 9]>
+<script src="js/IE9.js"></script>
+<![endif]-->
+
+
+<script src="js/jquery.min.js"></script>
+<link rel='stylesheet' href='Css/jquery-ui.css'>
+<script src='js/jquery-ui.js?v=20160831'></script>
+<script src="js/jquery.slides.min.js"></script>
+<script src="js/jquery.modal.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/underscore-min.js"></script>
+
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js?v=201603"></script>
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox-1.3.4.css?v=201603" type="text/css" media="screen" />
+
+<script type="text/javascript">
+
+function MM_preloadImages() { //v3.0
+    var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+
+<script>
+  var ssoid = '';
+</script><script>
+    var initTime_H = '19';
+    var initTime_M = '23';
+    var initTime_S = '18';
+</script>
+<!--script type="text/javascript" src="lpp/lppplug.js?v=1.0"></script-->
+<script src="js/custom.fe.js?v=20170622"></script>
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="Top">
+
+  <div class="Topcon">
+
+    <div class="logo"><a href="./"><img src="//ap101.lxg365.com/images/logo.jpg" class="logo" style="width: 212px;"></a>
+
+    </div>
+    <ul class="Topnav">
+		  <li class="current"><span class="ptbtn"><a href="pt_game.php ">PT</br>国际馆</a></span></li>
+      <li ><span class="bbinbtn"><a href="bbin_game.php">BBIN</br>环球馆</a></span></li>
+		  <li ><span class="mgbtn"><a href="mg_game.php">MG</br>全球馆</a></span></li>
+      <li ><span class="mgbtn"><a href="ttg_game.php">TTG</br>世界馆</a></span></li>
+      <li ><span class="bbinbtn"><a href="xpg_game.php">BS</br>星球馆</a></span></li>
+      <li ><span class="mgbtn"><a href="gpi_game.php">GPI</br>银河馆</a></span></li>
+      <li ><span class="mgbtn"><a href="png_game.php">PNG</br>宇宙馆</a></span></li>
+      <li ><span class="mgbtn"><a href="ag_game.php">AG</br>环亚馆</a></span></li>
+      <li ><span class="mgbtn"><a href="hb_game.php">HB</br>太阳馆</a></span></li>
+
+
+      <!--li ><span class="bbinbtn"><a href="XPG_game.php">XPG</br>XPG馆</a></span></li>
+		  <li ><span class="mgbtn"><a href="SOVA_game.php">SOVA</br>sova馆</a></span></li-->
+		   <!--li>coming<br />soon</li-->
+
+      <!--li ><span class="mgbtn"><a target="JDB" href="javascript:alert('请登入会员再进行游戏');">JDB</br>JDB馆</a></span></li-->
+
+
+
+
+
+    </ul>
+
+ 
+<div id="Login">
+    <form class="LoginForm" action="" method="post">
+        <div class="ininput"><div class="fakey">SBF</div>
+            <input style="width: 105px; padding: 5px 35px;" name="lg_userid" class="loginuser check_space_event" type="text" placeholder="用戶名"  value="" onchange="this.value=this.value.toUpperCase();" maxlength="18" />
+            <script>
+            (function($){
+                $('input.check_space_event', $('#Login')).on('keyup', function(){
+                    var self = $(this);
+                    var val = self.val();
+
+                    while (val.indexOf(' ') >= 0) {
+                        val = val.replace(' ', '');
+                        self.val(val);
+                    }
+                });
+            }(jQuery));
+            </script>
+        </div>
+        <div class="pwmod">
+            <input name="lg_pwd" type="password" class="loginpw" id="loginpw" style="background: none;" placeholder="密码" />
+            <span class="btn_ftpw"><a href="password.php"></a></span>
+
+       </div>
+        <input name="verify" class="verify" placeholder="验证码" type="text"/>
+        <!--focus glitch btn-->
+        <button id="tab_sup_btn_Login" type="button" style="position: absolute; width: 0;height: 0;border: 0;"></button>
+        <button id="tab_sup_btn_Regedit" type="button" style="position: absolute; width: 0;height: 0;border: 0;" ></button>
+        <!--focus glitch btn-->
+            <div class="verifycode" style="height:25px; width: 80px" >
+                <img id="verifycode_img" src="verify/gd_vfont.php?section=login_err&range=9999&width=58" class="verify_img"/>
+                <a onclick="javascript:reloadVCode('verifycode_img','section=login_err&range=9999&width=58');">
+            </div>
+        <a type="submit" tabindex="-1" class="loginbtn">登录</a>
+            <script>
+                (function($){
+                    $('.LoginForm .loginpw').keypress(function(e){
+                        if(e.keyCode===13){
+                            AjaxLogin();
+                        }
+                    });
+                    $('.LoginForm .verify').on("keypress", function(e) {
+                        if(e.keyCode===13){
+                            AjaxLogin();
+                        }
+                    });
+                    $('.LoginForm .loginbtn').click(function(){
+                        var verify = $('#Login.LoginError .verify');
+                            if(verify.length > 0 && verify.val() === ''){
+                                alert('请输入验证码');
+                            }else{
+                                AjaxLogin();
+                            }
+                    });
+                    function AjaxLogin(){
+                       var data = $('#Login .LoginForm');
+                        $.ajax({
+                            type: 'post',
+                            url:  'Action/ActSys.php?act=AjaxLogin',
+                            data: data.serialize(),
+                            dataType: 'json',
+                            success: function (result) {
+                                if (result.IsSuccess) {
+                                    // window.location.replace(document.referrer);
+                                    window.location.reload() ;
+                                } else {
+                                    alert(result.Message);
+                                    $('#Login').addClass('LoginError');
+                                    if(result.Message ==='请输入正确的验证码' ){
+                                        $('.LoginForm .verify').val('');
+                                    }else{
+                                        $('.LoginForm .loginuser').val('');
+                                        $('.LoginForm .loginpw').val('');
+                                        $('.LoginForm .verify').val('');
+                                    }
+                                    reloadVCode('verifycode_img','section=login_err&range=9999&width=58');
+                                }
+                            }
+                        });
+                    }
+                        /**
+                        * focus glitch:
+                        * 由於focus進入登录按鈕和立即注册會使畫面跑版
+                        * 因此設置大小0的按鈕，替換原本的focus目標
+                        */
+                        //focus btn sync start
+                        $('.LoginForm #tab_sup_btn_Login').focusin(function(){
+                            $('.loginbtn').css("outline","-webkit-focus-ring-color auto 5px");
+                        });
+                        $('.LoginForm #tab_sup_btn_Login').focusout(function(){
+                            $('.loginbtn').css("outline","-webkit-focus-ring-color auto 0px");
+                        });
+                        $('.LoginForm #tab_sup_btn_Login').click(function(){
+                            $('.LoginForm .loginbtn').click();
+                        });
+                        $('.LoginForm #tab_sup_btn_Regedit').focusin(function(){
+                            $('#a_regedtbtn').css("outline","-webkit-focus-ring-color auto 5px");
+                        });
+                        $('.LoginForm #tab_sup_btn_Regedit').focusout(function(){
+                            $('#a_regedtbtn').css("outline","-webkit-focus-ring-color auto 0px");
+                        });
+                        $('.LoginForm #tab_sup_btn_Regedit').click(function(){
+                            $('.LoginForm #a_regedtbtn').click();
+                        });
+                        //focus btn sync end
+                }(jQuery));
+            </script>
+        </form>
+    <span class="regedtbtn"><a id="a_regedtbtn" tabindex="-1" href="regist.php?">立即注册</a></span>
+</div>
+
+
+
+  </div>
+</div>
+
+<div class="Topsnav">
+
+  <div class="Topsnavcon">
+
+    <span class="btnevent"><a href="promo.php">優惠活動</a></span>
+
+    <div class="subnav">
+      <a href="mobile_guide.php"><img src="//ap101.lxg365.com/images/mobileshop.png"  style="vertical-align: middle;"></a>
+<!--      <a href="sbf_goddess/index.php" target="_blank">
+            <img src="//ap101.lxg365.com/images/godess.png" style="vertical-align: middle;width: 56px;">
+            <span style="font-weight: bold;font-size: 15px;">女神专区</span>
+            女神专区 
+      </a> -->
+      <a href="vipindex.php" style="font-size: 14px; font-weight: bold;">
+          <!--<img src="//ap101.lxg365.com/images/btn-vip.png"  style="vertical-align: middle;width: 66px; margin-bottom: -1px;">-->
+          VIP商城
+      </a>
+      <a style="font-size: 14px; font-weight: bold;" href="./">老虎机</a>
+            <a style="font-size: 14px; font-weight: bold;" href="http://ag.vipsbf.com/" target="aff">合营计划</a>
+            <a style="font-size: 14px; font-weight: bold;" href="sbf_guide/index.php" target="_bank">新手教程</a>
+      
+      <a style="font-size: 14px; font-weight: bold;" href="javascript:showZopim()" >
+          <div class="sbfservice_icon"></div>在线客服
+      </a>
+      <!--<a href="desktop_url.php">桌面快捷</a>-->
+    </div>
+  </div>
+</div>
+
+  <div class="PTindexCenter">
+    <div class="indexCentercon">
+      <div class="indexBanner">
+        <div class="flexslider">
+          <ul class="slides"  style="cursor:pointer">
+            <!--li><img src="//ap101.lxg365.com/images/slide/slide-1.png" /></li-->
+             
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/c557418e-84a7-4595-acc6-ac21c4df5a59.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/e86e9f25-c34a-4a0e-9611-3b21d92c88dd.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/9b16f927-b07d-449b-9cee-89f1054989ae.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/5840ff43-92b6-41f3-af1d-81fc59f7c12e.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/00eaff1d-1232-4e8a-b81e-a38074cbb6ef.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/8ae447f8-30e6-4912-ab22-e0b5dda60180.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/f2afe472-b0c0-40dd-a685-246e837d9ee1.png" />
+                    </li> 
+                   
+                    <li onclick="javascript:location.href='promo.php'">
+                        <img src="https://pic.sbf339.com/Content/Upload/LinkImage/12046a09-c9ee-41c5-bdfd-848c1a494c20.png" />
+                    </li> 
+                            </ul>
+        </div>
+      </div>
+
+
+
+
+  <div class="Marquee">
+      <!-- div id="tickerContainer">
+                 <div class="tickerContent">
+          <p><a href="#">【重要】入款帐户：招商熊X已暂停使用</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】入款帐户：招商琚X枝已暂停使用</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】入款帐户 不定期更新</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【存款资讯】公司入款、支付宝入款方式更新</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】入款帐户：招商申X芳已暂停使用</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】优惠条例更新</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【优惠】入款红利 2% 回馈，优惠无上限</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】账户安全</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【重要】安全资讯</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【游戏】MG游戏馆-瑞维拉财宝游戏手机网页版无法开启</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【维护】广发银行-例行性维护(07月28日 18：30-07月29日06：00)		 		</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【优惠】公司入款、支付宝入款，享有限时100％红利回馈</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【功能】VIP独享尊荣礼遇 电话回拨功能</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【游戏】PT游戏馆-手机移动端游戏停用：五路财神 Wu Lu Cai Shen(wlcsh)</a></p>
+        </div>
+
+                 <div class="tickerContent">
+          <p><a href="#">【优惠】2017年07月17日-2017年07月23日发表意见回馈</a></p>
+        </div>
+
+        
+
+      </div-->
+
+	<div id="tickerContainer">
+		<ul id="ticker01">
+					<li><a href="Announce.php">【重要】入款帐户：招商熊X已暂停使用</a></li>
+        			<li><a href="Announce.php">【重要】入款帐户：招商琚X枝已暂停使用</a></li>
+        			<li><a href="Announce.php">【重要】入款帐户 不定期更新</a></li>
+        			<li><a href="Announce.php">【存款资讯】公司入款、支付宝入款方式更新</a></li>
+        			<li><a href="Announce.php">【重要】入款帐户：招商申X芳已暂停使用</a></li>
+        			<li><a href="Announce.php">【重要】优惠条例更新</a></li>
+        			<li><a href="Announce.php">【优惠】入款红利 2% 回馈，优惠无上限</a></li>
+        			<li><a href="Announce.php">【重要】账户安全</a></li>
+        			<li><a href="Announce.php">【重要】安全资讯</a></li>
+        			<li><a href="Announce.php">【游戏】MG游戏馆-瑞维拉财宝游戏手机网页版无法开启</a></li>
+        			<li><a href="Announce.php">【维护】广发银行-例行性维护(07月28日 18：30-07月29日06：00)		 		</a></li>
+        			<li><a href="Announce.php">【优惠】公司入款、支付宝入款，享有限时100％红利回馈</a></li>
+        			<li><a href="Announce.php">【功能】VIP独享尊荣礼遇 电话回拨功能</a></li>
+        			<li><a href="Announce.php">【游戏】PT游戏馆-手机移动端游戏停用：五路财神 Wu Lu Cai Shen(wlcsh)</a></li>
+        			<li><a href="Announce.php">【优惠】2017年07月17日-2017年07月23日发表意见回馈</a></li>
+                </ul>
+    </div>
+
+    	<div class="time">
+		<span id="t_clock">19:23:18</span> GMT+8
+	</div>
+   </div>
+   <script>
+
+      </script>
+
+<div  id="Jackpot-number" class="indexJackpot">
+    <iframe id="jackpotframe" src="inc_jackpot.php" frameborder="0" style="width:100% ; height:90px"></iframe>
+</div>
+<div class="Btndlclient"style="display:inline">
+<a href="http://cdn.a-gaming.net/sbf888/setupglx.exe?v=1" ><img src="//ap101.lxg365.com/images/btn-dlclient.jpg"></a>
+<!--<img src="images/btn-dlclient_1.jpg" usemap="#href_switch_map" >-->
+<!--<map name="href_switch_map">
+        <area shape="rect" coords="52,0,250,45" href="http://cdn.a-gaming.net/sbf888/setupglx.exe?v=1>">点击下载 
+        <area shape="rect" coords="52,46,250,90" href="http://cdn.a-gaming.net/sbf888/setup.exe?v=1">备用下载 
+</map>-->
+</div>
+<div class="Btndlmobile" style="display:inline; float: right;"><a href="http://mgames.a-gaming.net?v=1">下載移動端</a></div>
+<script>
+  // var jk = null;
+  // setInterval('getJockpot()', 50);
+  // function getJockpot(){
+  // 	if(jk == null) {
+  // 		jk = document.getElementById('Jackpot-number');
+  // 	}
+	 //  jk.innerHTML = jQuery('iframe#jackpotframe').contents().find('body div.Jackpot span#total-ticker').html() ;
+  // }
+</script>
+   <!--
+	<div class="CenterTopBar">
+		<div class="gametitle">
+			<img src="//ap101.lxg365.com/images/slotgametitle.png" width="270" height="75" />
+		</div>
+		<!-- <div class="Jackpot">¥12,345,678.00</div>
+		<div id="Jackpot-number" class="Jackpot"></div>
+		<iframe id="jackpotframe" src="inc_jackpot.php" frameborder="0" style=""></iframe>
+		<script>
+  var jk = null;
+  setInterval('getJockpot()', 50);
+  function getJockpot(){
+	if(jk == null) {
+		jk = document.getElementById('Jackpot-number');
+	}
+	  jk.innerHTML = jQuery('iframe#jackpotframe').contents().find('body div.Jackpot span#total-ticker').html() ;
+  }
+  </script>
+
+	</div>
+	  -->
+    <div class="search_div">
+<div class="serach_keywords">热搜排行:<a href="?type=search&word=古怪猴子">古怪猴子</a>
+                                    <a href="?type=search&word=高速公路之王">高速公路之王</a>
+                                    <a href="?type=search&word=船长宝藏">船长宝藏</a>
+                                    <a href="?type=search&word=湛蓝深海">湛蓝深海</a>
+                                    <a href="?type=search&word=招财进宝">招财进宝</a>
+                                    <a href="?type=search&word=万圣节宝藏">万圣节宝藏</a>
+                                    <a href="pt_game.php">胜博发水果老虎机</a></div>
+                                  </div>
+<div class="cetr_Lmod">
+         
+          <form style="height:30px;">
+              <input id="search_input" name="" type="text" class="gamesearch" value="" placeholder="请输入游戏名称" />
+              <input type="text" id="search_button" class="gamesearch_btn">
+          </form>
+
+			<div class="Chsgame" style="height: 269px">
+              <ul>
+					<li class="g1 "><a
+						href="pt_game.php?type=hot">热门游戏</a></li>
+					<li class="g2 "><a
+						href="pt_game.php?type=all">全部游戏</a></li>
+					<li class="g3 "><a
+						href="pt_game.php?type=new">最新游戏</a></li>
+					<li class="g4 "><a
+						href="pt_game.php?type=gods">诸神热门系列</a></li>
+					<li class="g5 "><a
+						href="pt_game.php?type=movie">电影老虎机</a></li>
+					<li style="display: none" class="g6 "><a
+						href="pt_game.php?type=lottery">乐透刮刮乐</a></li>
+					<li class="g7 "><a
+						href="pt_game.php?type=jpa">累积彩池</a></li>
+
+          <li class="g8 "><a
+            href="pt_game.php?type=favorite">我的收藏</a></li>
+				</ul>
+			</div>
+
+          <div class="dgBoard"><img src="//ap101.lxg365.com/images/rankboard/title.png" alt="龙虎榜title">
+<div class="dgMax">
+            <div class="MaxUser">SBFM*******ZI </div>
+        <div class="MaxPrice">¥ 118000</div>
+        <div class="MaxDate">2017/7/17</div>
+    </div>
+<div class="dgRoller" id="dgRoller">
+  <div class="dgRollerChildren" id="dgRollerChildren">
+    <div class="child gbb">
+来自重庆&nbsp;&nbsp;SBFN*****389 <br /> 圣诞小丑 <br /> 赢得 104000 元 <br> 2017/7/20
+</div><div class="child ">
+来自北京&nbsp;&nbsp;SBFLU*******22 <br /> 篮球巨星 <br /> 赢得 82858 元 <br> 2017/7/19
+</div><div class="child gbb">
+来自辽宁&nbsp;&nbsp;SBF19*****10 <br /> 古怪猴子 <br /> 赢得 55500 元 <br> 2017/7/17
+</div><div class="child ">
+来自上海&nbsp;&nbsp;SBFPG****7 <br /> 高速公路之王 <br /> 赢得 73500 元 <br> 2017/7/21
+</div><div class="child gbb">
+来自北京&nbsp;&nbsp;SBF11****10 <br /> 冰上曲棍球 <br /> 赢得 56060 元 <br> 2017/7/18
+</div><div class="child ">
+来自四川&nbsp;&nbsp;SBFYB*****99 <br /> 篮球巨星 <br /> 赢得 68000 元 <br> 2017/7/23
+</div><div class="child gbb">
+来自湖南&nbsp;&nbsp;SBFK****5 <br /> 高速公路之王 <br /> 赢得 50308 元 <br> 2017/7/22
+</div><div class="child ">
+来自广东&nbsp;&nbsp;SBFHAN*****1 <br /> 花花男孩 <br /> 赢得 48135 元 <br> 2017/7/19
+</div><div class="child gbb">
+来自陜西&nbsp;&nbsp;SBFD14****100 <br /> 捕蝇大赛 <br /> 赢得 57500 元 <br> 2017/7/22
+</div>  </div>
+</div>
+<script type="text/javascript">
+function slideLine(box,stf,delay,speed,h) {
+  var slideBox = document.getElementById(box);
+  var delay = delay||1000,speed = speed||20,h = h||30;
+  var tid = null,pause = false;
+  var s = function(){
+    tid=setInterval(slide, speed);
+  }
+  var slide = function(){
+    if(pause) return;
+    slideBox.scrollTop += 1;
+    if( slideBox.scrollTop >= 110) {
+        jQuery(".dgRollerChildren .child:nth(0)").appendTo( jQuery(".dgRollerChildren") );
+        slideBox.scrollTop = 0;
+    }
+  }
+  slideBox.onmouseover=function(){pause=true;}
+  slideBox.onmouseout=function(){pause=false;}
+  setTimeout(s, delay);
+}
+slideLine('dgRoller','div',2000,25,110);
+</script>
+</div>
+
+
+      
+
+
+<div class="Leftservice">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td class="SBFLoginer" style="background-position:0 -86px"><a href="./auth/SBF登录器.exe?v=7">登录器下载</a></td>
+    </tr>
+    <tr>
+      <td style="background-position:0 -34px"><a href="javascript:showZopim()">在线客服</a></td>
+    </tr>
+    <tr>
+      <td style="height:50px;line-height:1.2; background-position:0 -65px">
+          <a href="mailto:cs@sbf99.com">客服信箱<br />
+                cs@sbf99.com           </a>
+       </td>
+    </tr>
+    <tr>
+      <td style="background-position:0 -115px; height:33px;">联系电话<br>400-120-6689</td>
+    </tr>
+    <tr>
+      <td style="background-position:0 -148px;height:34px;"><a href="tencent://message/?uin=1148935525&Menu=yes">1148935525</a></td>
+    </tr>
+    <tr>
+      <td style="background-position:0 -182px;height:33px;"><a href="help.php">常见问题</a></td>
+    </tr>
+    <tr>
+      <td style="height:52px;line-height:1.2; vertical-align:middle;background-position:0 -215px">系统维护时间<br />每周一中午12点~1点</td>
+    </tr>
+  </table>
+
+</div>
+
+  <div style="width:160px;text-align:center;color: #5b5b5b;
+  font: 13px Arial, '新細明體'; background:#dedede;margin-top: -9px;">
+    <span>客服 WeChat</span>
+   <img width="148px" src="//ap101.lxg365.com/images/EventNp/wechat_qrcode.jpg">
+    <span>ID : sbfsbf888</span>
+  </div>
+    </div>
+		  <div class="cetr_Rmod">
+    <div id='GamePage1' class='GamePageBox' style='display:;'>					<div class="gamearea">
+			            <p>深海大赢家</p>
+			            <img src="//ap101.lxg365.com/images/games/cashfi.png" idth="240" height="93" />
+			                <p class="jackpot" id="All_cashfi">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cashfi')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cashfi&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>古怪猴子</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/slotgame028.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_fm">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=fm')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=fm&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>高速公路之王</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/highway.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_hk">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=hk')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=hk&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>船长宝藏</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/slotgame023.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_ct">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=ct')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=ct&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>湛蓝深海</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/slotgame031.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_bib">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=bib')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=bib&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>招财进宝</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/zhaocai.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_zcjb">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=zcjb')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=zcjb&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>招财童子</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/zctz.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_zctz">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=zctz')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=zctz&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>四象</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/sx.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_sx">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=sx')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=sx&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>万圣节宝藏</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/halloweenfortune.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_hlf">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=hlf')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=hlf&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>酷炫水果</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/slotgame-funkyfruits.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_fnfrj">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=fnfrj')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=fnfrj&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>宝石皇后</p>
+			            <img src="//ap101.lxg365.com/images/games/gemq.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_gemq">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=gemq')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=gemq&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>长隆龙</p>
+			            <img src="//ap101.lxg365.com/images/games/longlong.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_longlong">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=longlong')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=longlong&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>中国厨房</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/chinesekitchen.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_cm">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cm')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cm&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>甜蜜派对</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/slotgame-sweetparty.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_cnpr">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cnpr')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=cnpr&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>银弹</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/silverbullet.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_sib">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=sib')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=sib&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+							<div class="gamearea">
+			            <p>飞龙在天</p>
+			            <img src="//ap101.lxg365.com/images/games/MMGame/gtsflzt.jpg" idth="240" height="93" />
+			                <p class="jackpot" id="All_gtsflzt">&nbsp;</p>
+			            <div class="btnmod">
+			                <div class="container">
+												                    <div class="play"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=gtsflzt')">立即开始</a></div>
+				                    <div class="playfun"><a onclick="open_game('GameHall.php?ssoid=&game=PT&name=gtsflzt&free=1')">免费试玩</a></div>
+								
+
+
+
+	                            			                </div>
+			            </div>
+                        			        </div>
+		</div><div style="display: inline-block; width: 100%;padding-bottom: 12px;"><p style=" text-align: center">PT游戏是由PT TransPacific在<img style="width:75px;" src="./images/pagcorlogo2.png">的授权下部署</p></div>
+          </div>
+
+
+<script language="JavaScript" type="text/javascript"
+	src="//tickers.playtech.com/jackpots/new_jackpotjs.js"></script>
+<!-- <script src="js/GameScript.js"></script> -->
+<script>
+
+  var loadjp = [];
+  function loadJackpot(game_type) {
+      game_type = game_type || 'nothing';
+      if (game_type === 'nothing') { return 1;}
+      jQuery("iframe:hidden").remove();
+      var gameTypeList = GameIncludes[game_type];
+      var sliders = gameTypeList.slider;
+      for(var gc in sliders) {
+          var jpc = (typeof sliders[gc].jp !== "undefined")?sliders[gc].jp:"";
+          if(jpc==="") {
+              continue;
+          }
+          loadjp.push(jpc);
+
+          var ticker = new Ticker({info:1,casino:'sbf',game: jpc,currency:'cny'});
+          ticker.attachToTextBox(game_type + '_' + gc);
+          ticker.SetCurrencySign('¥');
+          ticker.SetCurrencyPos(0);
+          ticker.tick();
+      }
+      var hots = gameTypeList.hot;
+      for(var gc in hots) {
+          var jpc = (typeof sliders[gc].jp !== "undefined")?sliders[gc].jp:"";
+          if(jpc==="") {
+              continue;
+          }
+          loadjp.push(jpc);
+
+          var ticker = new Ticker({info:1,casino:'sbf',game: jpc,currency:'cny'});
+          ticker.attachToTextBox('hot_'+game_type + '_' + gc);
+          ticker.SetCurrencySign('¥');
+          ticker.SetCurrencyPos(0);
+          ticker.tick();
+      }
+
+      // setTimeout(hideUpdate,7000);
+  }
+  loadJackpot('');
+  </script>
+<script type="text/javascript">
+	(function($){
+		$(document).ready(function(){
+			$("body").on("click", "#fancybox-img", function (){
+			    // window.open('','_blank');
+			});
+		    		});
+		function OpenFancybox() {
+		    if ($.cookie('ad_pop') == 1) {return false;}
+		    $.fancybox({
+		        href: "//ap101.lxg365.com/images/popup_window/popup-window170523.jpg",
+		        centerOnScroll : "true",
+		        hideOnOverlayClick : "true" ,
+		        onClosed: function () {
+		            if ($.cookie('ad_pop') == null) {
+		                //沒有cookie的話
+		                var date = new Date();
+		                date.setTime(date.getTime() + (24 * 60 * 60 * 1000));  //設定時間
+		                $.cookie('ad_pop', 1, {expires: date});   //給cookie一個值,存活時間為 date
+		            }
+
+		        }
+		    });
+		}
+	}(jQuery));
+
+
+</script>
+  </div>
+</div>
+<div class="Topfooter">
+  <ul>
+      
+
+
+   <li>
+      <a href="help.php?tab=contact&stype=ct1">联系我们</a>&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="sbf_guide/about.php">关于我们</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=pay&stype=p1">银行</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=qa&stype=f1">帮助</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=resp&stype=rs1">博彩责任</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=resp&stype=rs2">条款与规则</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=resp&stype=rs3">隐私政策</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=resp&stype=rs4">Cookies政策</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="help.php?tab=resp&stype=rs5">公平赔付 ｜</a>
+             <a  href="http://ag.vipsbf.com/">合营计划</a>&nbsp;&nbsp;&nbsp;&nbsp;｜&nbsp;&nbsp;&nbsp;&nbsp;
+      　
+
+
+   </li>
+
+
+  </ul>
+  通过进入、继续使用或浏览此网站，您即被认定接受：我们将使用特定的浏览器cookies优化您的客户享用体验。
+  本网仅会使用优化您服务体验<br />
+  的cookies，而不是可侵犯
+  您隐私的cookies。关于我们使用cookies，以及您如何取消、管理cookies使用的更多详情，请参考我们的<a href="#">Cookies政策</a>。
+</div>
+
+<div class="Footer">
+  <ul>
+    <li class="f1">&nbsp;</li>
+    <li class="f2">&nbsp;</li>
+    <li class="f3">&nbsp;</li>
+    <li class="f4">&nbsp;</li>
+    <li class="f5">&nbsp;</li>
+    <li class="f6">&nbsp;</li>
+    <li class="f7">&nbsp;</li>
+    <li class="f8">&nbsp;</li>
+  </ul>
+ © 2010 - 2017 <a href="http://www.sbf55.com/" style="color:#52402A">SBF胜博发国际娱乐</a> All rights reserved
+</div>
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+  jQuery(function() {
+    jQuery('#slides').slidesjs({
+      width: 1066,
+      height: 366,
+      play: {
+        active: true,
+        auto: true,
+        interval: 4000,
+        swap: true
+      }
+    });
+
+  });
+</script>
+<script>
+jQuery(function(){
+    jQuery('.flexslider').flexslider();
+    jQuery('.loginpw').on("focus",function(){
+        jQuery('.loginpw').toggleClass('blur');
+    });
+    jQuery('.loginpw').on("change",function(){
+        jQuery('.loginpw').toggleClass('blur');
+    });
+    jQuery('.loginpw').on("blur",function(){
+    	jQuery('.loginpw').toggleClass('blur');
+    });
+    jQuery('div.btnmoregame').on("click",function(){
+    	jQuery('div.moregame').slideDown(800);
+    	jQuery('div.btnmoregame').fadeOut(200);
+    });
+    jQuery('div.gamearea').hover(function(){
+    	jQuery(this).find('div').fadeIn(200);
+    }, function(){
+    	jQuery(this).find('div').fadeOut(200);
+    });
+    jQuery('div.btnmod').hide();
+    jQuery('div.Chsgame li.g1').toggleClass('current');
+
+    function slideLine(box,stf,delay,speed,h)
+    {
+      var slideBox = document.getElementById(box);
+      var delay = delay||1000,speed = speed||20,h = h||30;
+      var tid = null,pause = false;
+      var s = function(){tid=setInterval(slide, speed);};
+      var slide = function(){
+        if(pause) return;
+        slideBox.scrollTop += 1;
+        if(slideBox.scrollTop%h == 0){
+          clearInterval(tid);
+          slideBox.appendChild(slideBox.getElementsByTagName(stf)[0]);
+          slideBox.scrollTop = 0;
+          setTimeout(s, delay);
+        }
+      };
+      slideBox.onmouseover=function(){pause=true;};
+      slideBox.onmouseout=function(){pause=false;};
+      setTimeout(s, delay);
+    }
+   // slideLine('tickerContainer','div',2000,25,30);
+
+//for 遊戲搜尋按鈕
+jQuery("#search_input").keypress(function(evt){
+    if(evt.keyCode == 13){
+
+       jQuery('#search_button').click();
+    }
+});
+
+
+jQuery('#search_button').click(function(){
+
+     var searchString = jQuery('#search_input').val();
+     var searchString_encode = encodeURI(searchString) ;
+     window.location.search = '?type=search&word='+searchString_encode;
+ });
+
+});
+
+</script>
+<div id="mail_modal" style="padding: 10px 20px;">
+	<span id="imail_topic"></span><span id="imail_date"></span>
+	<hr class="hr">
+	<p id="imail_content"></p>
+	<hr class="hr">
+	<div style="text-align: right">
+		<button onclick="ignore_imail()">忽略</button>
+		<button onclick="read_imail()">已阅读</button>
+	</div>
+</div>
+
+<!-- div id="float-right-box">
+  <a class="close-fb" href="javascript:float_box_hide()"></a>
+  <a href="promo.php"><img src="//ap101.lxg365.com/images/pagepromo.png" alt=""></a>
+</div>
+<script>
+  function float_box_hide() { jQuery('#float-right-box').hide(); }
+  jQuery(function(){
+    resetpos();
+    jQuery(window).resize(function() {
+      resetpos();
+    });
+    jQuery("#float-right-box").css("visibility","visible");
+  });
+  function resetpos() {
+    jQuery('#float-right-box').offset({ top: (jQuery(window).height()-jQuery("#float-right-box").height())/2 }  );
+  }
+
+</script-->
+<!--<span style="display:none">
+    計數器
+    <script src="http://v1.cnzz.com/z_stat.php?id=1253515406&web_id=1253515406" language="JavaScript"></script>
+</span>-->
+
+<script type="text/javascript">
+</script>
+    <!--登入器下載-->
+    <div class="leftop_icon"><a class="SBFLoginer_close" ></a><a class="SBFLoginer_img_download" href="./auth/SBF登录器.exe?v=7"></a><img  src="images/SBFLoginer_download_icon.png"></div>
+    <!-- Live800在线客服图标:在线客服[浮动图标] 开始-->
+    <!--<script language="javascript" src="https://sbfservice.livechatvalue.com/chat/chatClient/floatButton.js?jid=2890239454&companyID=451854&configID=54228&codeType=custom&ss=1"></script>-->
+    <!-- 在线客服图标:在线客服 结束-->
+    <!-- Live800默认功能代码: 开始-->
+    <script language="javascript" src="https://sbfservice.livechatvalue.com/chat/chatClient/monitor.js?jid=2890239454&companyID=451854&configID=54223&codeType=custom&ss=1"></script>
+    <!-- Live800默认功能代码: 结束-->
+    <div id="showlimIcon" class="showLiveCS"><img src="//ap101.lxg365.com/images/LiveCSicon.png"></div>
+
+    <div>
+        <div class="new_lim_float_icon" style="position: absolute; z-index: 2147480000; top: 125px; right: 5px;">
+            <div class="new_lim_float_icon_close_btn" style="background:transparent;overflow:visible;position:relative;z-index:2147480000;clear:both;">
+                <img src="./images/sbfservice_close.png"  style="cursor:pointer;position:absolute;top:-6px;left:-19px;">
+            </div>
+            <div style="position:relative;z-index:2147480000;">
+                <a id="live800iconlink" href="#" onclick="window.open('https://sbfservice.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=451854&configID=54228&jid=2890239454&s=1', 'SBF-對話窗口', config='height=500,width=700');">
+                    <img  src="./images/SBFLoginer_Server.gif" border="0" style="cursor:pointer;">  
+                </a>
+            </div>
+        </div>
+    </div>
+    
+<script type="text/javascript">
+    (function($){
+        var fishapp = $('.leftop_icon');
+        fishapp.css({
+            'position': "absolute",
+            'top': 135,
+            'z-index': "878787"
+        });
+        $('.leftop_icon a.SBFLoginer_close').click(function (){
+           $('.leftop_icon a').hide();
+            $('.leftop_icon img').attr('src','images/SBFLoginer_download_icon_close.png');
+            $('.leftop_icon img').css('z-index','0');
+            $('.leftop_icon img').css('zoom','.3');
+        });
+        $('.leftop_icon img').click(function (){
+           $('.leftop_icon a').show();
+           $('.leftop_icon img').attr('src','images/SBFLoginer_download_icon.png');
+            $('.leftop_icon img').css('z-index','-1');
+            $('.leftop_icon img').css('zoom','1');
+        });
+
+        var _moveSpeed = 2000;
+        $(window).bind("scroll resize", function(){
+            fishapp.stop().animate({
+                top: $(this).scrollTop()+135
+            }, _moveSpeed, "easeOutQuart");
+        }).scroll();
+    }(jQuery));
+  (function($){
+    
+    $('.new_lim_float_icon_close_btn').on('click',function(){
+        $('#showlimIcon').show();
+        jQuery('.new_lim_float_icon').css('visibility','hidden');
+    });
+    $('#showlimIcon').on('click',function(){
+        $('#showlimIcon').hide();
+        jQuery('.new_lim_float_icon').css('visibility','visible');
+    });
+    var sbfservice = $('.new_lim_float_icon');
+    var _moveSpeed = 2010;
+    $(window).bind("scroll resize", function(){
+        sbfservice.stop().animate({
+            top: $(this).scrollTop()+150
+        }, _moveSpeed, "easeOutQuart");
+    }).scroll();
+      
+//    // 覆寫原本穩藏的js
+//    var ori_limIconClose =  window.limIconClose ;
+//    window.limIconClose = function(){
+//        ori_limIconClose.apply(window, arguments);
+//        $('#showlimIcon').show();
+//    };
+//    $('#showlimIcon').on('click',function(){
+//        $('#showlimIcon').hide();
+//        jQuery('.lim_float_icon').css('visibility','visible');
+//    });
+  }(jQuery));
+</script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61255231-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

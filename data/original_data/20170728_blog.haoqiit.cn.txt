@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Cache-Control" content="no-transform"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta name="applicable-device" content="pc,mobile"/>
+		<title>皓琦小站-科技资讯博客</title>
+		<meta name="description" content="分享科技资讯，发表科技观点，带你畅游科技的海洋。皓琦小站-科技资讯博客提供：电脑知识，科技资讯，建站知识，SEO技巧，手机行情等前沿科技信息。QQ：632186662" />
+		<meta name="keywords" content="皓琦小站,科技小站,电脑,互联网,科技资讯,手机资讯,网络,网站,SEO" />
+		<link rel="stylesheet" type="text/css" href="images/main.css" media="screen"/>
+		<link rel="stylesheet" href="images/font/css/fontello.css"/>
+		<!--[if IE 7]><link rel="stylesheet" href="images/fontello-ie7.css"><![endif]-->
+		<link rel="stylesheet" href="images/animate.css"/>
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="images/html5-css3.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="images/jquery-1.11.0.min.js"></script>
+		<link href="images/prettify.css" rel="stylesheet" type="text/css" />
+		<script src="images/prettify.js" type="text/javascript"></script>
+		<script src="images/common_tpl.js" type="text/javascript"></script>
+		<script type="text/javascript" src="images/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="images/wow.js"></script>
+		<script>new WOW().init();</script>
+		<script type="text/javascript" src="images/leonhere.js"></script>
+		<link rel="stylesheet" href="images/font/css/bootstrap.min.css">
+		<link rel="stylesheet" href="images/font-awesome/css/font-awesome.min.css">
+		
+	</head>
+	<body>
+		<header class="header">
+			<div class="inner">
+				<div class="logo animated fadeInLeft"> 
+					<a href="http://blog.haoqiit.cn" title="皓琦小站-科技资讯博客"><img src="images/logo.png" alt="皓琦小站-科技资讯博客"/></a> 
+				</div>
+				<div class="top-other">
+					<ul>
+						<li><i class="icon-menu" class=""></i></li>
+						<li><i class="icon-search"></i></li>
+						<li><i class="icon-share"></i>
+								<div class="social-share" style="display: none;">
+									<div class="bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1498892494989"> <a href="#" class="bds_qzone" 	data-cmd="qzone" title="分享到QQ空间">QQ空间</a> <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a> <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a> <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a> <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a> </div>
+								</div>
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<nav class="nav">
+					<div class="menu">
+						<ul>
+							<li  class="current"><a href="http://blog.haoqiit.cn" >首页</a> </li>
+								<!-- <ul class="sub-nav">
+									<li><a href="/a/toutiao/">头条</a></li>
+								</ul> -->
+																					<li  class="common"><a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=lists&catid=6" >资讯</a></li>
+														<li  class="common"><a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=lists&catid=7" >互联网</a></li>
+														<li  class="common"><a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=lists&catid=8" >电脑</a></li>
+														<li  class="common"><a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=lists&catid=9" >手机</a></li>
+														<li  class="common"><a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=lists&catid=10" >软件</a></li>
+																				</ul>
+					</div>
+				</nav>
+				<div class="clear"></div>
+			</div>
+		</header>
+		<div class="search-bg" >
+			<div class="inner">
+				<div class="search-form">
+				<form name="myform" method="get" action="">
+					<input name="info[title]" class="s" type="text"  value="" placeholder="输入关键词搜索...">
+					
+					<button type="submit" name="s"><i class="icon-search"></i></button>
+					<input name="m" value="content" type="hidden">
+					<input name="c" value="search" type="hidden">
+					<input type="hidden" name="catid" value="6"/>
+					<input type="hidden" name="catid" value="7"/>
+					<input type="hidden" name="catid" value="8"/>
+					<input type="hidden" name="catid" value="9"/>
+					<input type="hidden" name="catid" value="10"/>
+					<input name="dosubmit" value="1" type="hidden">
+				  </form>
+				</div>
+				<div class="tagscloud"> 
+					<span>快捷搜索：</span> 　
+					<a href="http://blog.haoqiit.cn/index.php?info%5Btitle%5D=科技&s=&m=content&c=search&catid=6&catid=7&catid=8&catid=9&catid=10&dosubmit=1" >科技</a>
+				</div>
+			</div>
+		</div>
+		<div class="blank"></div>
+		<div class="inner topad animated fadeIn"><script language="javascript" src="http://blog.haoqiit.cn/index.php?m=poster&c=index&a=show_poster&id=11"></script></div>		<div class="inner container">
+			<main class="main">
+				<div class="focus wow fadeIn">
+					<div class="flexslider">
+						<ul class="slides">
+																			<li> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=12" title="无人零售业站上风口 仅加盟费一年或过亿"> 
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0712/20170712111947290.jpg" alt="无人零售业站上风口 仅加盟费一年或过亿"/>
+																		<p class="flex-caption">无人零售业站上风口 仅加盟费一年或过亿</p>
+								</a> 
+							</li>
+													<li> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场"> 
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114319466.jpg" alt="解禁在即，互联网彩票能否再次燃爆市场"/>
+																		<p class="flex-caption">解禁在即，互联网彩票能否再次燃爆市场</p>
+								</a> 
+							</li>
+													<li> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=8" title="李彦宏乘无人驾驶汽车装X，交管部门介入调查"> 
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707112143780.jpg" alt="李彦宏乘无人驾驶汽车装X，交管部门介入调查"/>
+																		<p class="flex-caption">李彦宏乘无人驾驶汽车装X，交管部门介入调查</p>
+								</a> 
+							</li>
+																		</ul>
+					</div>
+				</div>
+				<section class="top wow fadeIn">
+					<h3>头条推荐</h3>
+					<ul>
+																<li>
+							<h4>
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=8" title="李彦宏乘无人驾驶汽车装X，交管部门介入调查">李彦宏乘无人驾驶汽车装X，交管部门介入调查</a>
+							</h4>
+							<p>7月5日上午，百度AI开发者大会2017在北京国家...</p>
+						</li>
+											<li>
+							<h4>
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=5" title="马云自拍暴露iPhone">马云自拍暴露iPhone</a>
+							</h4>
+							<p>马云用什么手机？很多人以前猜测马云会使用搭...</p>
+						</li>
+											<li>
+							<h4>
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=4" title="广电总局要求新浪微博凤凰网等关闭视听节目服务">广电总局要求新浪微博凤凰网等关闭视听节目服务</a>
+							</h4>
+							<p>据国家新闻出版广电总局官方网站6月22日消息，...</p>
+						</li>
+															</ul>
+				</section>
+				<div class="clear"></div>
+				<section class="hots wow fadeInUp">
+					<div class="section-title">
+						<h3>人气推荐</h3>
+					</div>
+					<ul>
+																<li>
+							<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0713/20170713044950152.jpg" alt="【重装系统】傻瓜式安装系统的方法！简单爆了！"/>
+																	</a> 
+							</div>
+							<h4>
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！">【重装系统】傻瓜式安装系统的方法！简单爆了！</a>
+							</h4>
+							<p>电脑系统使用时间长了出现卡顿，自己不会安装...</p>
+						</li>
+											<li>
+							<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114319466.jpg" alt="解禁在即，互联网彩票能否再次燃爆市场"/>
+																	</a> 
+							</div>
+							<h4>
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场">解禁在即，互联网彩票能否再次燃爆市场</a>
+							</h4>
+							<p>中国彩票行业近年来发展速度迅猛，从2008年至...</p>
+						</li>
+															</ul>
+				</section>
+				<div class="mainad wow fadeIn"> </div>
+				<div class="content">
+					<div class="section-title">
+						<h3>最新资讯</h3>
+					</div>
+																												　　							　　							　　					<section class="section wow fadeIn">
+						<div class="thumbnail"> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！" target="_blank">
+																<img src="http://blog.haoqiit.cn/uploadfile/2017/0713/20170713044950152.jpg" alt="【重装系统】傻瓜式安装系统的方法！简单爆了！"/>
+															</a> 
+						</div>
+						<h2>
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！" target="_blank">【重装系统】傻瓜式安装系统的方法！简单爆了！</a>
+						</h2>
+						<div class="postmeta"> 
+							<span>
+								<i class="icon-user-circle-o"></i> 
+								<a>haoqi</a>
+							</span> 
+							<span>
+								<i class="icon-calendar"></i>
+								<time>2017-07-13</time>
+							</span>
+							<span>
+								<i class="icon-eye"></i>
+								13							</span>
+						</div>
+						<div class="excerpt">
+						  <p>电脑系统使用时间长了出现卡顿，自己不会安装，去电脑店安装系统要...</p>
+						</div>
+					</section>
+																		　　							　　							　　					<section class="section wow fadeIn">
+						<div class="thumbnail"> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=12" title="无人零售业站上风口 仅加盟费一年或过亿" target="_blank">
+																<img src="http://blog.haoqiit.cn/uploadfile/2017/0712/20170712111947290.jpg" alt="无人零售业站上风口 仅加盟费一年或过亿"/>
+															</a> 
+						</div>
+						<h2>
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=12" title="无人零售业站上风口 仅加盟费一年或过亿" target="_blank">无人零售业站上风口 仅加盟费一年或过亿</a>
+						</h2>
+						<div class="postmeta"> 
+							<span>
+								<i class="icon-user-circle-o"></i> 
+								<a>haoqi</a>
+							</span> 
+							<span>
+								<i class="icon-calendar"></i>
+								<time>2017-07-12</time>
+							</span>
+							<span>
+								<i class="icon-eye"></i>
+								0							</span>
+						</div>
+						<div class="excerpt">
+						  <p>无人零售店的风口，毫无征兆地来临了。这几天每天都能接到四五十个...</p>
+						</div>
+					</section>
+																		　　							　　							　　					<section class="section wow fadeIn">
+						<div class="thumbnail"> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=11" title="【建站知识】Phpcms V9自定义手机WAP模板新方法" target="_blank">
+																<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114625378.jpg" alt="【建站知识】Phpcms V9自定义手机WAP模板新方法"/>
+															</a> 
+						</div>
+						<h2>
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=11" title="【建站知识】Phpcms V9自定义手机WAP模板新方法" target="_blank">【建站知识】Phpcms V9自定义手机WAP模板新方法</a>
+						</h2>
+						<div class="postmeta"> 
+							<span>
+								<i class="icon-user-circle-o"></i> 
+								<a>haoqi</a>
+							</span> 
+							<span>
+								<i class="icon-calendar"></i>
+								<time>2017-07-07</time>
+							</span>
+							<span>
+								<i class="icon-eye"></i>
+								1							</span>
+						</div>
+						<div class="excerpt">
+						  <p>   近来越来越多手机WAP、自适应网站，可见移动网页是未来，响应...</p>
+						</div>
+					</section>
+																		　　							　　							　　					<section class="section wow fadeIn">
+						<div class="thumbnail"> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场" target="_blank">
+																<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114319466.jpg" alt="解禁在即，互联网彩票能否再次燃爆市场"/>
+															</a> 
+						</div>
+						<h2>
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场" target="_blank">解禁在即，互联网彩票能否再次燃爆市场</a>
+						</h2>
+						<div class="postmeta"> 
+							<span>
+								<i class="icon-user-circle-o"></i> 
+								<a>haoqi</a>
+							</span> 
+							<span>
+								<i class="icon-calendar"></i>
+								<time>2017-07-07</time>
+							</span>
+							<span>
+								<i class="icon-eye"></i>
+								1							</span>
+						</div>
+						<div class="excerpt">
+						  <p>中国彩票行业近年来发展速度迅猛，从2008年至今全社会彩票销售规模...</p>
+						</div>
+					</section>
+																		　　							　　							　　					<section class="section wow fadeIn">
+						<div class="thumbnail"> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=9" title="中国网络安全法对于互联网企业的影响" target="_blank">
+																<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114044318.jpg" alt="中国网络安全法对于互联网企业的影响"/>
+															</a> 
+						</div>
+						<h2>
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=9" title="中国网络安全法对于互联网企业的影响" target="_blank">中国网络安全法对于互联网企业的影响</a>
+						</h2>
+						<div class="postmeta"> 
+							<span>
+								<i class="icon-user-circle-o"></i> 
+								<a>haoqi</a>
+							</span> 
+							<span>
+								<i class="icon-calendar"></i>
+								<time>2017-06-03</time>
+							</span>
+							<span>
+								<i class="icon-eye"></i>
+								0							</span>
+						</div>
+						<div class="excerpt">
+						  <p>　　6月1日，《网络安全法》正式开始实施。作为我国第一部全面规范...</p>
+						</div>
+					</section>
+														</div>
+			</main>
+			<aside class="sidebar">
+				<section class="widget wow fadeInUp">
+					<div class="section-title">
+						<h3>热门文章</h3>
+					</div>
+					<ul>
+																					<li> 
+							<i class="a1">1</i> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=11" title="【建站知识】Phpcms V9自定义手机WAP模板新方法" target="_blank">【建站知识】Phpcms V9自定义手机WAP模板新方法</a> 
+						</li>
+																	<li> 
+							<i class="a1">2</i> 
+							<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场" target="_blank">解禁在即，互联网彩票能否再次燃爆市场</a> 
+						</li>
+																					</ul>
+				</section>
+				<section class="widget theme-widget wow fadeInUp">
+					<div class="section-title">
+						<h3>随机文章</h3>
+					</div>
+					<ul>
+																														<li class="list cur">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=8" title="李彦宏乘无人驾驶汽车装X，交管部门介入调查" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707112143780.jpg" alt="李彦宏乘无人驾驶汽车装X，交管部门介入调查"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=8" title="李彦宏乘无人驾驶汽车装X，交管部门介入调查" target="_blank">李彦宏乘无人驾驶汽车装X，交管部门介入调查</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=12" title="无人零售业站上风口 仅加盟费一年或过亿" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0712/20170712111947290.jpg" alt="无人零售业站上风口 仅加盟费一年或过亿"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=12" title="无人零售业站上风口 仅加盟费一年或过亿" target="_blank">无人零售业站上风口 仅加盟费一年或过亿</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=7" title="新浪微博回应广电总局整改要求：关闭长视频上传功能" target="_blank">
+																		<img src="images/wt.jpg" alt="新浪微博回应广电总局整改要求：关闭长视频上传功能"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=7" title="新浪微博回应广电总局整改要求：关闭长视频上传功能" target="_blank">新浪微博回应广电总局整改要求：关闭长视频上传功能</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=9" title="中国网络安全法对于互联网企业的影响" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114044318.jpg" alt="中国网络安全法对于互联网企业的影响"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=9" title="中国网络安全法对于互联网企业的影响" target="_blank">中国网络安全法对于互联网企业的影响</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0713/20170713044950152.jpg" alt="【重装系统】傻瓜式安装系统的方法！简单爆了！"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=10&id=13" title="【重装系统】傻瓜式安装系统的方法！简单爆了！" target="_blank">【重装系统】傻瓜式安装系统的方法！简单爆了！</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=11" title="【建站知识】Phpcms V9自定义手机WAP模板新方法" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114625378.jpg" alt="【建站知识】Phpcms V9自定义手机WAP模板新方法"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=11" title="【建站知识】Phpcms V9自定义手机WAP模板新方法" target="_blank">【建站知识】Phpcms V9自定义手机WAP模板新方法</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=5" title="马云自拍暴露iPhone" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707105305995.jpg" alt="马云自拍暴露iPhone"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=5" title="马云自拍暴露iPhone" target="_blank">马云自拍暴露iPhone</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=4" title="广电总局要求新浪微博凤凰网等关闭视听节目服务" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707105401918.jpg" alt="广电总局要求新浪微博凤凰网等关闭视听节目服务"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=4" title="广电总局要求新浪微博凤凰网等关闭视听节目服务" target="_blank">广电总局要求新浪微博凤凰网等关闭视听节目服务</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=6" title="新一轮勒索病毒席卷欧洲" target="_blank">
+																		<img src="images/wt.jpg" alt="新一轮勒索病毒席卷欧洲"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=6&id=6" title="新一轮勒索病毒席卷欧洲" target="_blank">新一轮勒索病毒席卷欧洲</a>
+							</p>
+						</li>
+																								<li class="list">
+													<div class="thumbnail"> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场" target="_blank">
+																		<img src="http://blog.haoqiit.cn/uploadfile/2017/0707/20170707114319466.jpg" alt="解禁在即，互联网彩票能否再次燃爆市场"/>
+																	</a>
+							</div>
+							<p>
+								<i class="icon-right-open-mini"></i> 
+								<a href="http://blog.haoqiit.cn/index.php?m=content&c=index&a=show&catid=7&id=10" title="解禁在即，互联网彩票能否再次燃爆市场" target="_blank">解禁在即，互联网彩票能否再次燃爆市场</a>
+							</p>
+						</li>
+																							</ul>
+				</section>
+				<!-- <section class="widget wow fadeInUp twitter">
+					<div class="section-title">
+						<h3>最新微语</h3>
+					</div>
+					<ul>
+						<div id="uyan_frame"></div>
+						<script type="text/javascript" src="images/uyan.js"></script>
+					</ul>
+				</section> -->
+				<div class="widget wow fadeInUp">
+					<div class="section-title">
+						<h3>关注我们</h3>
+					</div>
+					<div class="follow">
+						<p> 
+							<a href="https://jq.qq.com/?_wv=1027&k=4BOFlHd" target="_blank">
+								<img src="images/qq.jpg" alt="QQ群"/>
+							</a>
+							<img src="images/weixin.jpg" alt="扫描二维码关注"/> 
+						</p>
+						<p>关注官方QQ群微信有惊喜哦</p>
+					</div>
+				</div>
+			</aside>
+		</div>
+		<div class="inner mainad"> 
+			<script language="javascript" src="http://blog.haoqiit.cn/index.php?m=poster&c=index&a=show_poster&id=12"></script>
+		</div>
+				<div class="inner friendlinks wow fadeIn">
+			<div class="section-title"> 友情链接<span>申请要求：同属互联网资讯类网站，并内容充实，无作弊现象。</span> </div>
+			<ul>	
+												<li><a href="http://www.fenio.net/" target="_blank" title="蜂鸟科技">蜂鸟科技</a></li>
+											</ul>
+		</div>
+				<div class="fixed-widget">
+			<ul>
+				<li><i class="icon-up-open"></i></li>
+			</ul>
+		</div>
+		<footer class="footer">
+			<div class="inner">
+				<div class="copyright">
+					Copyright &copy; 2016-2018 皓琦小站 版权所有  
+				</div>
+				<div class="other"> 
+				合作伙伴：
+					<a rel="external nofollow" href="http://www.fenio.net" target="_blank">蜂鸟科技</a> 
+				</div>
+			</div>
+		</footer>
+		<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+		</script>
+		<script>prettyPrint();</script>
+	</body>
+</html>

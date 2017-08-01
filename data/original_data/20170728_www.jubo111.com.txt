@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">
+<!--[if lt IE 9]>
+	<script src="http://www.jubo111.com/wp-content/themes/customization/js/html5.js"></script>
+	<script src="http://www.jubo111.com/wp-content/themes/customization/js/css3-mediaqueries.js"></script>
+<![endif]-->
+<!--[if lt IE 7]>
+    <script src="http://www.jubo111.com/wp-content/themes/customization/js/css3-mediaqueries.js"></script>
+    <script src="http://www.jubo111.com/wp-content/themes/customization/js/IE7.js">var IE7_PNG_SUFFIX = ".png";</script>
+<![endif]-->
+
+<title>聚博幸运 _ 最佳博彩推荐网-拥有澳门金沙娱乐场,澳门新葡京,澳门威尼斯人官方网站,博彩游戏技巧,博彩行业资讯,黑庄公布等等赌博网！</title>
+<meta name="keywords" content="聚博幸运- 最佳博彩推荐网-拥有澳门金沙娱乐场,澳门新葡京,澳门威尼斯人官方网站,博彩游戏技巧,博彩行业资讯,黑庄公布等等赌博网！" />
+<meta name="description" content="" />
+<link rel="bookmark"  href="/wp-content/uploads/2017/01/bitbug_favicon-3.ico" />
+<link rel="shortcut icon" href="/wp-content/uploads/2017/01/bitbug_favicon-3.ico" />
+<link rel="alternate" type="application/rss+xml" title="聚博幸运 » RSS Feed" href="http://www.jubo111.com/feed" />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='style-css'  href='http://www.jubo111.com/wp-content/themes/customization/style.css?v=2017010209+&#038;ver=2017.01.01' type='text/css' media='all' />
+<link rel='stylesheet' id='style-common-css'  href='http://www.jubo111.com/wp-content/themes/customization/css/common.css?ver=2017.01.01' type='text/css' media='all' />
+<link rel='stylesheet' id='style-article-css'  href='http://www.jubo111.com/wp-content/themes/customization/css/article.css?ver=2017.01.01' type='text/css' media='all' />
+<link rel='stylesheet' id='style-page-css'  href='http://www.jubo111.com/wp-content/themes/customization/css/page.css?ver=2017.01.01' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.jubo111.com/wp-content/themes/customization/js/jquery-1.11.1.min.js?ver=4.7'></script>
+<script type='text/javascript' src='http://www.jubo111.com/wp-content/themes/customization/js/index.merge.min.js?ver=2017.01.01'></script>
+<script type='text/javascript' src='http://www.jubo111.com/wp-content/themes/customization/js/jquery.slides.js?ver=2017.01.01'></script>
+<script type='text/javascript' src='http://www.jubo111.com/wp-content/themes/customization/js/modernizr.js?ver=2017.01.01'></script>
+<script type='text/javascript' src='http://www.jubo111.com/wp-content/themes/customization/js/jquery.slicebox.js?ver=2017.01.01'></script>
+
+</head>
+
+<body class="home blog">
+
+<!-- 横幅 -->
+<script type="text/javascript">
+	function banner(i) {
+		
+		//头部横幅
+		if(i=='banner_top'){ 
+						document.write('<div class="middle gg"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/js31.html" title="澳门金沙娱乐场"><img width="730" height="55" src="/wp-content/uploads/2017/01/720x50.gif" alt="澳门金沙娱乐场" border="0"></a></div>');	
+                         
+		}
+		
+	}
+	
+	
+	
+	function s(i) {
+		
+		//头部
+		if(i==1){ 
+			document.write('<div class="middle gg"><a target="_blank" rel="nofollow" href=""  title="" ><img width="730" height="55" src="http://botuijian.vip//images/bc/youde/770x60.gif" alt="" border="0"></a></div>');	
+		}
+		if(i==2){ 
+			document.write('<div class="middle gg"><a target="_blank" rel="nofollow" href="" title=""><img width="398" height="50" src="http://botuijian.vip//images/bc/dw/468x60.gif" border="0" alt=""></a></div>');
+		}
+	
+		if(i==3){ 
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/nb88/1000x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/wdyz/980x60.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/qiangui/1000x60.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/youde/tb-960x60.gif" alt="" /></a></div>');
+		} 
+	
+		if(i==4){ 
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/amxj/980x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/dwj/1000x60xiugai.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/amjs/1000x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/ca88/960x60.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/bwin/bwin980x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/888zr/1000x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/amxpj/1000x50.gif" alt="" /></a></div>');
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/bet365/1000x60.gif" alt="" /></a></div>');				
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="1006" height="50" src="http://botuijian.vip/images/bc/amyhylc/980x50.gif" alt="" /></a></div>');
+		} 
+		   
+		if(i==5){ 
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="300" height="50" src="http://botuijian.vip//images/bc/bwin/400x60.gif" alt="" /></a></div>');				
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="300" height="50" src="http://botuijian.vip//images/bc/qiangui/492x55.gif" alt="" /></a></div>');
+		}  
+		
+		if(i==6){ 
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="300" height="50" src="http://botuijian.vip//images/bc/wdyz/468x60.jpg" alt="" /></a></div>');
+		}      
+		
+		if(i==7){ 
+			document.write('<div class="middle gg2"><a target="_blank" rel="nofollow" href="" title=""><img width="300" height="50" src="http://botuijian.vip//images/bc/youde/400x60.gif" alt="" /></a></div>');
+		}
+	
+	}
+</script>
+<!-- 顶部 -->
+<div id="container">
+    <div id="header">
+        <div class="usrbar" monkey="cool">
+            <div class="usrbar_bg"></div>
+            <div class="center clearfix">
+                <div class="forecaset" id="Forecast">
+                    <div style="float:left;line-height:36px;width:1010px;color:#fff;" >
+                        <strong style="color:#f00;display: block;float:left;">公告：</strong><strong style="width:950px;display: block;float:left;"><marquee scrollamount="3" onmouseout="this.start()" onmouseover="this.left()">您好！由于近期各大娱乐城网址在大陆地区经常被屏蔽或被劫持。如发现娱乐城被屏蔽或被劫持，请联系聚博幸运客服QQ：44100666---聚博幸运与金沙.新葡京.威尼斯人达成战略合作伙伴，任意玩家，只要是通过本站注册的会员，都可以享受博推荐提供的资金安全保障服务，若出现账户资金异常等问题，可与本站客服联系，我们将竭诚为您解答。</marquee></strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 头部 -->
+<div class="header">
+    <div id="logo">
+        <div class="logo-pic">
+            <a href="http://www.jubo111.com" target="_blank" class="logo pngfix" title="聚博幸运"><img src="/logo.gif" alt="聚博幸运" /></a>
+        </div> 
+        <div id="logo_right">
+            <div class="logo_right_top">
+                <span class="logo_right_top_title">热门推荐：</span>
+				                <a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">澳门金沙娱乐场</a> 
+                                            <a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">澳门新葡京</a> 
+                                            <a href="http://162.218.54.53:9999/jubo/wnsr.html" target="_blank">澳门威尼斯人</a> 
+                                            <a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">存1元送31元</a> 
+                                            <a href="/shortcut.php" target="_blank">【保存至桌面】</a> 
+                             
+            </div>
+            <div class="logo_right_bottom">
+            	<!-- 头部横幅 -->
+				                <div class="middle gg"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/js31.html" title="澳门金沙娱乐场"><img width="730" height="55" src="/wp-content/uploads/2017/01/720x50.gif" alt="澳门金沙娱乐场" border="0"></a></div>	
+                             
+            </div> 
+        </div>    
+    </div>
+</div>
+  
+<!-- 导航 -->  
+<div id="bct_menu">
+    <div id="nav">                                                                         
+        <ul class="menu" id="menu">
+			<li class="current-menu-item"><a href="http://www.jubo111.com/">首页</a></li>
+<li><a href="http://www.jubo111.com/pingji/cat_pingji/laohuji">老虎机</a></li>
+<li><a href="http://www.jubo111.com/pingji/cat_pingji/zhenrenyule">真人娱乐</a></li>
+<li><a href="http://www.jubo111.com/pingji/cat_pingji/tiyutouzhu">体育投注</a></li>
+<li><a href="http://www.jubo111.com/youhui">红利优惠</a></li>
+<li><a href="http://www.jubo111.com/pingji">公司评级</a></li>
+<li><a href="http://www.jubo111.com/bocaijiqiao">博彩技巧</a></li>
+<li><a href="http://www.jubo111.com/faq">新手指南</a></li>
+<li><a href="http://www.jubo111.com/tousu">玩家投诉</a></li>
+<li><a href="/lxjc/">备用域名</a></li>
+        </ul>                                                                               
+    </div>   
+</div> 
+
+<!-- 横幅 -->
+<div id="content" class="center">
+    <div id="head_gg">
+		        <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/js31.html" title="澳门金沙娱乐场"><img width="1006" height="100" src="/wp-content/uploads/2017/01/1000x100-3.gif" alt="澳门金沙娱乐场" /></a></div>
+					        <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/js31.html" title="恭喜"><img width="1006" height="100" src="http://162.218.54.53:9999/b.jpg" alt="恭喜" /></a></div>
+					        <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/xpj.html" title="澳门新葡京娱乐场"><img width="1006" height="100" src="/wp-content/uploads/2017/01/973x80-1-2.gif" alt="澳门新葡京娱乐场" /></a></div>
+					        <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/wnsr.html" title="澳门威尼斯人"><img width="1006" height="100" src="/wp-content/uploads/2017/01/900x80.gif" alt="澳门威尼斯人" /></a></div>
+					 
+    </div>
+</div>
+
+<div class="clear h20"></div>
+
+
+<!--// 首页主体 开始 -->
+<div id="content" class="center">
+
+    <div class="clear"></div>
+    
+    <!-- 主推列表 -->
+    <div class="zhutui">
+        <ul style="width:665px; overflow:visible;">
+		            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=31" rel="nofollow"><img width="60px" height="50px" src="/wp-content/uploads/2017/01/100x62js.gif" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/31.html" rel="nofollow">注册无需申请存1元自动送31元，存10元送10元，天天返水3.0%！</a></div>
+                <div class="zhutui_page">皇冠体育，沙巴体育，BBIN，AG，欧博，OG，GD，电子游艺，老虎机，彩票游戏</div>
+            </li>
+                            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=50" rel="nofollow"><img width="60px" height="50px" src="/wp-content/uploads/2017/01/100x62xpj.gif" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/50.html" rel="nofollow">澳门新葡京娱乐场 - 注册送30元.首存60送68元,电子游艺12惠.返水2.0%</a></div>
+                <div class="zhutui_page">皇冠，沙巴体育，BB，AG，MG，XTD，PT，GPI，EVO，电子游艺，老虎机，彩票游戏</div>
+            </li>
+                            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=51" rel="nofollow"><img width="60px" height="50px" src="/wp-content/uploads/2017/01/100x62vns.gif" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/51.html" rel="nofollow">澳门威尼斯人娱乐场 - 电子八大优惠，奖金奖不停，188888元奖金等你拿</a></div>
+                <div class="zhutui_page">皇冠，沙巴体育，BB，AG，MG，XTD，PT，GPI，EVO，电子游艺，老虎机，彩票游戏</div>
+            </li>
+                            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=64" rel="nofollow"><img width="60px" height="50px" src="/wp-content/uploads/2017/01/logo-01.jpg" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/64.html" rel="nofollow">伟德亚洲 - 70年历史，英国老牌博彩公司</a></div>
+                <div class="zhutui_page">4T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</div>
+            </li>
+                            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=71" rel="nofollow"><img width="60px" height="50px" src="/wp-content/uploads/2017/01/logo-03.jpg" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/71.html" rel="nofollow">优德W88-9大平台老虎机，比通宝娱乐更强大平台</a></div>
+                <div class="zhutui_page">5T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</div>
+            </li>
+                            <li class="ddxg">
+                <div class="zhutui_img"><a target="_blank" href="http://www.jubo111.com/go?url=76" rel="nofollow"><img width="60px" height="50px" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/logo-04.jpg" /></a></div>
+                <div class="zhutui_title"><img src="http://www.jubo111.com/wp-content/themes/customization/images/left-arrow.png" /><a target="_blank" href="http://www.jubo111.com/pingji/76.html" rel="nofollow">亚洲城-9大平台老虎机，比通宝娱乐更强大平台</a></div>
+                <div class="zhutui_page">6T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</div>
+            </li>
+                  
+        </ul>
+    </div>
+	<script type="text/javascript">
+        $('.ddxg').hover(function(){
+            $(this).animate({ width:675, height:75, marginLeft:0,}, 100 ).animate({ width:670, height:72, marginLeft:5,}, 100 ).animate({ width:675, height:72, marginLeft:0,}, 100 )
+        },function(){
+            $(this).stop(true).animate({ width:665, height:70, marginLeft:10,}, 100 );
+        });
+    </script>
+
+	<!-- 主推幻灯 -->
+    <div class="zhutuilbt">
+        <div class="wrapper">
+			<ul id="sb-slider" class="sb-slider slides">
+				                <li id="nav1">
+                    <div class="wrap">
+                        <a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" rel="nofollow"><img src="/wp-content/uploads/2017/01/250x250-5.gif" alt="澳门金沙" width="250" height="250"></a>
+                        <a href="http://162.218.54.53:9999/jubo/js31.html" title="澳门金沙" target="_blank" rel="nofollow"><span class="btn">开始游戏</span></a>
+                    </div>
+                </li>
+                                            <li id="nav2">
+                    <div class="wrap">
+                        <a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" rel="nofollow"><img src="/wp-content/uploads/2017/01/250X250-4.gif" alt="明星" width="250" height="250"></a>
+                        <a href="http://162.218.54.53:9999/jubo/js31.html" title="明星" target="_blank" rel="nofollow"><span class="btn">开始游戏</span></a>
+                    </div>
+                </li>
+                                            <li id="nav3">
+                    <div class="wrap">
+                        <a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank" rel="nofollow"><img src="/wp-content/uploads/2017/01/250X2501.gif" alt="澳门新葡京" width="250" height="250"></a>
+                        <a href="http://162.218.54.53:9999/jubo/xpj.html" title="澳门新葡京" target="_blank" rel="nofollow"><span class="btn">开始游戏</span></a>
+                    </div>
+                </li>
+                                            <li id="nav4">
+                    <div class="wrap">
+                        <a href="http://162.218.54.53:9999/jubo/wnsr.html" target="_blank" rel="nofollow"><img src="/wp-content/uploads/2017/01/140x140.gif" alt="澳门威尼斯人" width="250" height="250"></a>
+                        <a href="http://162.218.54.53:9999/jubo/wnsr.html" title="澳门威尼斯人" target="_blank" rel="nofollow"><span class="btn">开始游戏</span></a>
+                    </div>
+                </li>
+                             
+			</ul>
+            <div id="nav-arrows" class="nav-arrows">
+                <a href="">Next</a>
+                <a href="">Previous</a>
+            </div>
+            <div id="nav-dots" class="nav-dots">
+				                <span class="nav-dot-current"></span>
+                                            <span ></span>
+                                            <span ></span>
+                                            <span ></span>
+                             
+            </div>
+            
+        </div>
+        <div class="fltj">电子游艺<span id="fltj">
+			            <a href="http://162.218.54.53:9999/jubo/js33.html" title="澳门金沙" target="_blank" rel="nofollow">澳门金沙</a>
+                                    <a href="http://162.218.54.53:9999/jubo/js33.html" title="澳门新葡京" target="_blank" rel="nofollow">澳门新葡京</a>
+                                    <a href="http://162.218.54.53:9999/jubo/js33.html" title="威尼斯人" target="_blank" rel="nofollow">威尼斯人</a>
+                         
+        </span></div>
+        <div class="fltj">真人娱乐<span id="fltj">
+			            <a href="http://162.218.54.53:9999/jubo/js31.html" title="金沙赌场" target="_blank" rel="nofollow">金沙赌场</a>
+                                    <a href="http://162.218.54.53:9999/jubo/xpj.html" title="新葡京赌场" target="_blank" rel="nofollow">新葡京赌场</a>
+                                    <a href="http://162.218.54.53:9999/jubo/wnsr.html" title="威尼斯人" target="_blank" rel="nofollow">威尼斯人</a>
+                         
+        </span></div>
+        <div class="fltj">体育投注<span id="fltj">
+			            <a href="http://162.218.54.53:9999/jubo/js31.html" title="金沙体育" target="_blank" rel="nofollow">金沙体育</a>
+                                    <a href="http://162.218.54.53:9999/jubo/xpj.html" title="新葡京体育" target="_blank" rel="nofollow">新葡京体育</a>
+                                    <a href="http://162.218.54.53:9999/jubo/wnsr.html" title="威尼斯人" target="_blank" rel="nofollow">威尼斯人</a>
+                         
+        </span></div>
+    </div>
+    <script type="text/javascript">
+		$(function() {
+			var Page = (function() {
+				var $navArrows = $( '#nav-arrows' ).hide(),
+					$navDots = $( '#nav-dots' ).hide(),
+					$nav = $navDots.children( 'span' ),
+					$shadow = $( '#shadow' ).hide(),
+					slicebox = $( '#sb-slider' ).slicebox( {
+						onReady : function() {
+							$navArrows.show();
+							$navDots.show();
+							$shadow.show();
+						},
+						onBeforeChange : function( pos ) {
+							$nav.removeClass( 'nav-dot-current' );
+							$nav.eq( pos ).addClass( 'nav-dot-current' );
+						},
+						orientation : 'r',
+						cuboidsRandom : true,
+						disperseFactor : 30
+					} ),
+					init = function() {
+						initEvents();
+					},
+					initEvents = function() {
+						$navArrows.children( ':first' ).on( 'click', function() {
+							slicebox.next();
+							return false;
+						} );
+						$navArrows.children( ':last' ).on( 'click', function() {
+							slicebox.previous();
+							return false;
+						} );
+						$nav.each( function( i ) {
+							$( this ).on( 'click', function( event ) {
+								var $dot = $( this );
+								if( !slicebox.isActive() ) {
+									$nav.removeClass( 'nav-dot-current' );
+									$dot.addClass( 'nav-dot-current' );
+								}
+								slicebox.jump( i + 1 );
+								return false;
+							} );
+						} );
+					};
+					return { init : init };
+			})();
+			Page.init();
+		});
+    </script>
+    
+    <!-- 评价列表 -->
+    <div class="pingjia">
+        <div class="gongsiliebiao">
+            <span>以下公司均与本站深度合作，均缴纳保证金，本站承诺：若有公司拖欠或未如实支付款项一经查实，本站以该公司所支付的品牌信誉金先行赔付并终止合作</span>
+        </div>
+        <div class = "pingji">
+            <ul>
+                <li class="pj1 pj_tt"><span class="pingjia_px">序号</span><span>娱乐场</span><span>公司</span><span>评级</span><span class="pingjia_yh">首存优惠|公司优惠</span><span class="pingjia_pt">软件(平台)</span><span class="pingjia_yx">访问网站</span></li>
+			                <li class="pj1">
+                    <span class="pingjia_px">1</span>
+                    <span><a href="http://www.jubo111.com/pingji/31.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/100x62js.gif" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/31.html" target="_blank" >金沙</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_10.gif" alt="五星" title="五星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=31" target="_blank">注册无需申请存1元自动送31元，存10元送10元，天天返水3.0%，先到先得； 全网支持微信扫、支付宝一扫支付，单笔1元起，最高单笔5000元，扫一扫实时到账无需等待； 电子游艺十三惠，更多奖金奖不停，38888元奖金等你拿。电子游艺超高反水3.0%； 年度亿元现金回馈，月月赠送，送不停，您还等什么快快注册起来！</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">皇冠.沙巴.BBIN.AG.欧博.OG.GD</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=31" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">2</span>
+                    <span><a href="http://www.jubo111.com/pingji/50.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/100x62xpj.gif" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/50.html" target="_blank" >新葡京</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_10.gif" alt="五星" title="五星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=50" target="_blank">惊喜好礼：开户注册即可获赠30元开户彩金 首冲奖励100%、首存60元 赠送68元 下载绑定专属资讯端、获积分换彩金、及时获取最新网址快捷登陆 VIP新规则、人人皆为VIP、累积投注即可踏入新葡京VIP俱乐部成为尊贵的一员</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">IBC、AG、MG、BBIN、HG、XTD、OG、OBO</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=50" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">3</span>
+                    <span><a href="http://www.jubo111.com/pingji/51.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/100x62vns.gif" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/51.html" target="_blank" >澳门威尼斯人</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_10.gif" alt="五星" title="五星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=51" target="_blank">新老会员首存送100%，PT电子游戏超高返水2.0%</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">PT、GPI、PNG、MG、BS、TTG、NET、ISB、GOS、沙巴</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=51" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">4</span>
+                    <span><a href="http://www.jubo111.com/pingji/64.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/logo-01.jpg" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/64.html" target="_blank" >伟德亚洲</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_8.gif" alt="三星" title="三星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=64" target="_blank">9大平台老虎机,首存送100%,最高2888(PT最强老虎机)</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">PT、GPI、PNG、MG、BS、TTG、NET、ISB、GOS、沙巴</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=64" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">5</span>
+                    <span><a href="http://www.jubo111.com/pingji/71.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/logo-03.jpg" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/71.html" target="_blank" >钱柜娱乐</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_8.gif" alt="三星" title="三星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=71" target="_blank">首存优惠100% 再存优惠35%</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">PT、GPI、PNG、MG、BS、TTG、NET、ISB、GOS、沙巴</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=71" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">6</span>
+                    <span><a href="http://www.jubo111.com/pingji/76.html" target="_blank"><img width="80" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/logo-04.jpg" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/76.html" target="_blank" >亚洲城</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_8.gif" alt="三星" title="三星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=76" target="_blank">首存奖金100%，老虎机返水1.8%。</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">PT、GPI、PNG、MG、BS、TTG、NET、ISB、GOS、沙巴</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=76" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">7</span>
+                    <span><a href="http://www.jubo111.com/pingji/79.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/logo-05.jpg" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/79.html" target="_blank" >新博NB88</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_8.gif" alt="三星" title="三星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=79" target="_blank">首存红利100%,最高888元;老虎机次次存次次送!</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">PT、GPI、PNG、MG、BS、TTG、NET、ISB、GOS、沙巴</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=79" target="_blank">立即游戏</a></span>
+                </li> 
+                                    <li class="pj1">
+                    <span class="pingjia_px">8</span>
+                    <span><a href="http://www.jubo111.com/pingji/80.html" target="_blank"><img width="80" src="/wp-content/uploads/2017/01/250x250-5.gif" alt="" /></a></span>
+                    <span class="pingjia_pj"><a href="http://www.jubo111.com/pingji/80.html" target="_blank" >澳门金沙</a></span>
+                    <span class="pingjia_pj"><em>
+						                        <img src="http://www.jubo111.com/wp-content/themes/customization/images/star_10.gif" alt="五星" title="五星" style="padding-top:9px;">
+                                            </em></span>
+                    <span class="pingjia_yh" style="width:400px; overflow:hidden;"><a href="http://www.jubo111.com/go?url=80" target="_blank">皇冠体育，沙巴体育，BBIN真人娱乐，AG真人娱乐，欧博真人娱乐，OG真人娱乐，GD真人娱乐，四大电子游艺，老虎机，彩票游戏</a></span>
+                    <span class="pingjia_pt" style="width:220px; overflow:hidden;">皇冠.沙巴.BBIN.AG.欧博.OG.GD</span>
+                    <span class="pingjia_yx"><a href="http://www.jubo111.com/go?url=80" target="_blank">立即游戏</a></span>
+                </li> 
+                      
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- 三大推荐 -->
+    <div class="tuijian_index">
+        <div class="tuijian_dangez">		
+            <div class="tuijian_dange_title">老虎机推荐</div>		
+			            <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><img src="/wp-content/uploads/2017/01/logo-03.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span id="tuijian_name_title">钱柜娱乐</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank">5T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/71.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=76" target="_blank"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/logo-04.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=76" target="_blank"><span id="tuijian_name_title">亚洲城</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=76" target="_blank">6T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/76.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=76" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=76" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=79" target="_blank"><img src="/wp-content/uploads/2017/01/logo-05.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=79" target="_blank"><span id="tuijian_name_title">新博NB88</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=79" target="_blank">7T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/79.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=79" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=79" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><img src="/wp-content/uploads/2017/01/250x250-5.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span id="tuijian_name_title">澳门金沙</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank">注册无需申请存1元自动送31元，存10元送10元，天天返水3.0%！</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/80.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                      
+            <div class="tuijian_dange_bottom"></div>
+        </div>
+        <div class="tuijian_dangez tuijian_left">
+            <div class="tuijian_dange_title">真人娱乐推荐</div>			
+			            <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=51" target="_blank"><img src="/wp-content/uploads/2017/01/100x62vns.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=51" target="_blank"><span id="tuijian_name_title">澳门威尼斯人</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=51" target="_blank">皇冠，沙巴体育，BB，AG，MG，XTD，PT，GPI，EVO，电子游艺，老虎机，彩票游戏</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/51.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=51" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=51" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><img src="/wp-content/uploads/2017/01/100x62xpj.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span id="tuijian_name_title">新葡京</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank">皇冠，沙巴体育，BB，AG，MG，XTD，PT，GPI，EVO，电子游艺，老虎机，彩票游戏</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/50.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><img src="/wp-content/uploads/2017/01/logo-01.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span id="tuijian_name_title">伟德亚洲</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank">4T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/64.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=31" target="_blank"><img src="/wp-content/uploads/2017/01/100x62js.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=31" target="_blank"><span id="tuijian_name_title">金沙</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=31" target="_blank">皇冠体育，沙巴体育，BBIN，AG，欧博，OG，GD，电子游艺，老虎机，彩票游戏</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/31.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=31" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=31" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                      
+            <div class="tuijian_dange_bottom"></div>
+        </div> 	 
+        <div class="tuijian_dangez tuijian_left">
+            <div class="tuijian_dange_title">体育投注推荐</div>		
+			            <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><img src="/wp-content/uploads/2017/01/250x250-5.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span id="tuijian_name_title">澳门金沙</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank">注册无需申请存1元自动送31元，存10元送10元，天天返水3.0%！</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/80.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=80" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><img src="/wp-content/uploads/2017/01/logo-01.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span id="tuijian_name_title">伟德亚洲</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank">4T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/64.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=64" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><img src="/wp-content/uploads/2017/01/logo-03.jpg" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span id="tuijian_name_title">钱柜娱乐</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank">5T，MGS，NET，GPI，BS，AMS，CTXM老虎机。七大平台老虎机，比通宝娱乐更强大平</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/71.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=71" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                                <div class="tuijian_dange">			
+                <div class="tuijian_img"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><img src="/wp-content/uploads/2017/01/100x62xpj.gif" width="90px" height="90px"/></a></div>
+                <div class="tuijian_name"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span id="tuijian_name_title">新葡京</span></a><span id="tuijian_name_title">(老虎机最多)</span></div>
+                <div class="tuijian_dec"><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank">皇冠，沙巴体育，BB，AG，MG，XTD，PT，GPI，EVO，电子游艺，老虎机，彩票游戏</a></div>
+                <div class="tuijian_button"><a rel="nofollow" href="http://www.jubo111.com/pingji/50.html" target="_blank"><span>公司简介</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span>进入官网</span></a><a rel="nofollow" href="http://www.jubo111.com/go?url=50" target="_blank"><span>优惠活动</span></a></div>	
+            </div>
+                      
+            <div class="tuijian_dange_bottom"></div>
+        </div>
+        <div class="clear"></div> 
+    </div>
+
+	<!-- 新闻列表 -->
+    <div id="infoyh" class="infoyh">	
+        <div id="lstmenu" class="lstmenu">
+            <div class="lstmenuon0" onclick="iboxActive('lst', '0', 0, 3);return false"><a>红利优惠</a><span></span></div>
+            <div class="lstmenuoff" onclick="iboxActive('lst', '1', 1, 3);return false"><a>游戏介绍</a><span></span></div>
+            <div class="lstmenuoff" onclick="iboxActive('lst', '2', 2, 3);return false"><a>博彩技巧</a><span></span></div>
+        </div>
+        <div class="xszn_a lst0">
+			            <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=160" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/70103184027.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 18:38</span><a href="http://www.jubo111.com/youhui/160.html" target="_blank">首存50元赠送59元，只要您敢存 我们就敢送</a></li>
+                    <li class="list_pages_youhui"><span>
+						
+
+
+活动说明
+
+
+
+1.此活动与金沙娱乐场其它优惠活动不可同时进行。
+2.此活动仅限首次存款、任何二次存款、低于存款标准、下注后申请，概不受理。
+3.新注册会员需绑定银行卡并完成首次充值，才可以申请领取59元扶 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/160.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=160">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=164" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/Ys_20160919173231549.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 18:45</span><a href="http://www.jubo111.com/youhui/164.html" target="_blank">澳门威尼斯人：首存优惠</a></li>
+                    <li class="list_pages_youhui"><span>
+						优惠介绍
+
+新老会员，不论您是否领取过体验金，不管您是什么时候注册的，您只需完成100元的首次存款，即可获得125元的首存彩金。
+
+
+
+
+存款金额
+赠送优惠
+游戏类型
+流水要求
+
+
+100元
+125元
+MG电子游艺
+12倍
+
+
+此 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/164.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=164">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=166" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/131.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 18:49</span><a href="http://www.jubo111.com/youhui/166.html" target="_blank">新会员迎新礼金，首次存款1元，即可申请赠送31元开户礼金！！</a></li>
+                    <li class="list_pages_youhui"><span>
+						
+
+
+活动介绍
+
+
+
+2017年全新开户迎新礼金，首次存款1元，即可申请赠送31元开户礼金！！
+1.此优惠仅与返水优惠同时享有，其他优惠不得参与。
+2.领取首存彩金之后，因任何原因要求更改任何注册信息将收回首存彩金及 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/166.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=166">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=168" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/20161010122626_22719.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 18:54</span><a href="http://www.jubo111.com/youhui/168.html" target="_blank">澳门新葡京-首冲奖励 100%</a></li>
+                    <li class="list_pages_youhui"><span>
+						
+
+活动规则
+
+注册后绑定真实有效的银行资料并进行存款（60元起），即可前往活动自助端申请。
+首冲奖励仅限首次存款申请，如低于存款标准、下注后申请等，均不享有申请资格。
+首冲奖励仅限投注电子游艺老虎机，如 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/168.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=168">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=172" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/22323.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 18:58</span><a href="http://www.jubo111.com/youhui/172.html" target="_blank">澳门新葡京-注册无需申请自动送30元</a></li>
+                    <li class="list_pages_youhui"><span>
+						活动规则
+
+活动对象：所使用的IP地址和真实姓名首次注册于新葡京娱乐场的新会员。
+注册后1小时内绑定真实有效的会员信息及银行资料，如进行存款视为放弃红利。
+红利领取后，因任何原因要求更改任何注册信息及银 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/172.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=172">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=175" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/Ys_20160919172951753.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 19:01</span><a href="http://www.jubo111.com/youhui/175.html" target="_blank">澳门威尼斯人：忠实会员奖励</a></li>
+                    <li class="list_pages_youhui"><span>
+						优惠介绍
+
+即日起，澳门威尼斯人的所有会员连续5天存款100+,并全额进行投注，即可免费领取相应的游戏彩金，最高418元......
+
+
+
+
+每日存款金额
+累计存款天数
+可获彩金
+累计可获彩金
+流水要求
+
+
+≥100
+5天
+18
+18
+1 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/175.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=175">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=287" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/7.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-15 13:37</span><a href="http://www.jubo111.com/youhui/287.html" target="_blank">【威尼斯人】2017现金回馈【第1期】02月08日24点前派送！</a></li>
+                    <li class="list_pages_youhui"><span>
+						澳门威尼斯人（1253.com），追求极致，永不言休，2017年我们依然延续精彩！只要您在澳门威尼斯人存款娱乐，每月现金回馈准时派送到您手中。如果您还未注册存款，赶紧行动起来吧。
+鸡年贺岁
+
+
+
+统计周期
+红利标准 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/287.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=287">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=289" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/5133955.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-15 13:39</span><a href="http://www.jubo111.com/youhui/289.html" target="_blank">【金沙】2017现金回馈【第一期春节】02月03日 准时派送！</a></li>
+                    <li class="list_pages_youhui"><span>
+						
+
+
+
+活动介绍
+
+
+
+
+金沙娱乐场与时俱进的手机时代，会员可使用BBIN APP，合而~唯一，整合所有游戏，随心所欲、随时随地。无论何时，只要一机在手，精彩随行。界面操作直觉，让玩家享受最真实的临境体验，刺激感倍 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/289.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=289">立即注册</a></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/go?url=292" target="_blank" ref="nofollow"><img src="/wp-content/uploads/2017/01/63365434.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-15 13:43</span><a href="http://www.jubo111.com/youhui/292.html" target="_blank">【新葡京】2017现金回馈第1期：鸡惠葡京</a></li>
+                    <li class="list_pages_youhui"><span>
+						活动规则
+
+现金回馈仅适用于新葡京娱乐场实际玩家，任何套利个人/团队均不适用。
+统计数据将由美东时间每月1号至最后一天，数据统计以系统计算为准。
+派送时间将于美东时间次月8号24点之前，派送金额以每月的活 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/youhui/292.html" target="_blank">阅读全文  >></a></span><a class="togo abs" target="_blank" href="http://www.jubo111.com/go?url=292">立即注册</a></li>
+                </ul>
+            </div>
+                          
+        </div>
+        <div class="xszn_a lst1" style="display:none;">
+			            <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-03.png" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">百家乐</a></li>
+                    <li class="list_pages_youhui"><span>游戏概述 百家乐（Baccarat）是源起于法国的一种纸牌游戏，是世界上公认的最文明，最公平的娱乐项目，在各地赌场中也是最受欢迎的玩法之一。在澳门赌场中，百家乐赌桌的数目更是全球赌场之中最</span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">开始游戏  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-01.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">老虎机</a></li>
+                    <li class="list_pages_youhui"><span>老虎机、角子机或全名吃角子老虎机（slot machine），另称拉霸机或柏青嫂（日文），是一种经常在赌场见到的赌博机器，甚至有专玩角子机的娱乐场所，玩法是硬币投入，接着会随机出现不同图案，如</span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">开始游戏  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">龙虎</a></li>
+                    <li class="list_pages_youhui"><span>游戏概述 龙虎为扑克斗大游戏。龙虎游戏十分简单，荷官只派两门牌，即龙及虎。每门各派一只牌，双方斗大（不计花式，只计点数），最大为K，最小为A。 游戏玩法 本游戏采用8副牌（每副牌52张）来</span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">开始游戏  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-04.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">德州扑克</a></li>
+                    <li class="list_pages_youhui"><span>德州扑克 （ Texas hold'em Poker ，有时也简称为Hold'em或Holdem）是世界上最流行的公牌 扑克 衍生游戏，也是国际扑克比赛的正式竞赛项目之一。 世界扑克大赛 （World Series of Poker， WSOP</span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">开始游戏  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank" ref="nofollow"><img src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-05.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">温州牌九</a></li>
+                    <li class="list_pages_youhui"><span>玩法简介 温州牌九是古代中国传统游戏的一种，玩法是依据一副共32张牌，点数的不同组合来比较大小，以决胜负。 游戏玩法 - 理牌：以两张牌为一副，排列成一列 - 每副牌只玩两局即重新洗牌 - 发</span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">开始游戏  >></a></span></li>
+                </ul>
+            </div>
+                         
+        </div>
+        <div class="xszn_a lst2" style="display:none;">
+			            <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/1.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-01 20:59</span><a href="http://www.jubo111.com/1.html" target="_blank">怪怪健身房老虎机（Freaky Gym Slots）功能丰富的 30 条赔付线的</a></li>
+                    <li class="list_pages_youhui"><span>
+						没时间去健身？那么，就来访问 怪怪健身房老虎机（Freaky Gym Slots） 这款功能丰富的 30 条赔付线的电玩老虎机吧！
+本游戏带有 FreakyPot 功能。 这个游戏与标准 Jackpot 的区别就在于只有您的投注才能累积 Fre ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/1.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/22.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-02 12:09</span><a href="http://www.jubo111.com/22.html" target="_blank">给大家带来一点真东西&#8212;-龙</a></li>
+                    <li class="list_pages_youhui"><span>
+						直来直去。
+结合我这几年的经验，说说我对龙的看法及打法。
+看法：
+三粒及以上均称为龙，长连长跳均为龙。其它先不谈。
+构成龙的要素如下：
+一。长龙必须要有一样的胜出点数，，是必须。
+二。长龙的胜出点数必须 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/22.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/25.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-02 12:11</span><a href="http://www.jubo111.com/25.html" target="_blank">百家乐大数法则理论</a></li>
+                    <li class="list_pages_youhui"><span>
+						大數法則（Law of Large Numbers）
+
+又稱〔大數定律〕或〔平均法則〕。人們在長期的實踐中發現，在隨機現象的大量重復試驗和觀察中，出現某種幾乎必然的規律性的一類定理的總稱。如在擲錢幣時，每次出現正面或反 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/25.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/27.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-02 12:12</span><a href="http://www.jubo111.com/27.html" target="_blank">百家乐攻略《续》——顺势而行、永不执坳</a></li>
+                    <li class="list_pages_youhui"><span>
+						另类赌法
+在向大家介绍了有关「百家乐」的几种赌法之后，相信大家已经对如何在「百家乐」赌桌上取胜有较深的认识。
+在稍后的章节再为大家作一些总结，再会为一些不同级数的朋友设计可行的赌博方法，不过，在这里 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/27.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/188.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 21:47</span><a href="http://www.jubo111.com/188.html" target="_blank">【玩法】3路齐赢的轮盘玩法 可起到对冲的作用</a></li>
+                    <li class="list_pages_youhui"><span>
+						今天在这里公开一个3路齐赢的轮盘玩法，这是我一个朋友用来打分兼赢钱的方法，用在一倍一的游戏都可以，不过用来打轮盘可以3路一起打，不会浪费时间，还可以起到对冲的作用我虽然不玩轮盘，但是都觉得不错的，好 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/188.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/191.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 21:49</span><a href="http://www.jubo111.com/191.html" target="_blank">【技巧】如何灵活运用好老虎机技巧 克制吃分率</a></li>
+                    <li class="list_pages_youhui"><span>
+						有许多老虎机玩客花很多时间钻研如何掌握老虎机技巧，从而破解它，有甚至些人还会发明老虎机控制器或是计算法，这些人真是拿老虎机游戏没有办法，从老虎机身上下手。小编想说与其耗费时间在机器上，不如提升自己 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/191.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/193.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-03 21:51</span><a href="http://www.jubo111.com/193.html" target="_blank">【技巧】体育投注技巧：吾友赌球不败之谜</a></li>
+                    <li class="list_pages_youhui"><span>
+						足球投注是近数年的一项新兴游戏，大家在观看足球赛事之余，以金钱作为注码，猜测谁胜谁负。形式上有些和赛马博彩，或者二十一点算牌相似，只要你聪明及精确运用数据，理论上可立于不败之地。可惜世事往往事与愿 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/193.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/196.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-04 22:45</span><a href="http://www.jubo111.com/196.html" target="_blank">【经验】玩足彩赔率上升不可不知的原因</a></li>
+                    <li class="list_pages_youhui"><span>
+						玩足彩赔率是时常关注的，如果要下注的话，赔率是分析的一个重要参考数据，相信很多人玩足彩都想赢取利益，那么赔率的动态就要时常观察了，在赔率的观察中，赔率上升的原因是我们玩家应该要知道的。
+
+玩足彩赔率 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/196.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                                    <div class="youhui_dange">
+                <span class="list_img_youhui"><a href="http://www.jubo111.com/198.html" target="_blank" ref="nofollow"><img src="http://www.jubo111.com/wp-content/themes/customization/images/thumbnail-02.jpg" width="180" border="0" height="130"></a></span>
+                <ul class="list_page_youhui">
+                    <li class="list_title_youhui"><span>2017-01-04 22:47</span><a href="http://www.jubo111.com/198.html" target="_blank">【心得】高手在网上玩百家乐的打法心得分享</a></li>
+                    <li class="list_pages_youhui"><span>
+						网上百家乐打法看似简单，单总还是有出人意料之处的。经过众多玩家们的不断变通，总会研究出百家乐游戏制胜之招。但经过他们的灵活的变通，就是他们的百家乐制胜之招。百家乐高手，真不愧是高手，总会有一套自己 ...                    </span></li>
+                    <li class="list_qunwen_youhui"><span><a href="http://www.jubo111.com/198.html" target="_blank">阅读全文  >></a></span></li>
+                </ul>
+            </div>
+                          
+        </div>
+	</div>
+    
+	<!-- 首页侧边栏 -->
+    <div class="listnav">
+        <div class="lnco clearfix">
+            <div class="lntitle">
+                <a class="tabtitle lncur" href="">公司推荐</a>
+                <a class="tabtitle" href="">游戏介绍</a>
+            </div>	
+            <div class="lncon" style="display:block">
+                <ul class="boxstyle1 clearfix">
+				                    <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank"><img class="trans" src="/wp-content/uploads/2017/01/220x200.gif"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">最佳老虎机游戏公司</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">老虎机</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">Slot</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="/wp-content/uploads/2017/01/250X250-1.gif"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">真人百家乐娱乐场排行</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">真人百家乐</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">Casino</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/wnsr.html" target="_blank"><img class="trans" src="/wp-content/uploads/2017/01/200-200-1.gif"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/wnsr.html" target="_blank">体育滚盘博彩公司推荐</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">足球外围 波胆 心水 赔率</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/wnsr.html" target="_blank">Sport</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="/wp-content/uploads/2017/01/100x62js.gif"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">金沙娱乐场：综合娱乐平台</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">老虎机、体育、真人娱乐、快乐彩</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">W88</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/100x62xpj.gif"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">聚博幸运合作伙伴</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">iPhone投注 Android投注</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">HOT</a>
+                    </li>
+                             
+                </ul>
+            </div>	
+            <div class="lncon">
+                <ul class="boxstyle1 clearfix">
+				                    <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-03.png"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">百家乐</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">游戏概述 百家乐（Baccarat）是源起于法国的一种纸牌游戏，是世界上公认的最文明，最公平的娱乐项目，在各地赌场中也是最受欢迎的玩法之一。在澳门赌场中，百家乐赌桌的数目更是全球赌场之中最</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-01.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">老虎机</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">老虎机、角子机或全名吃角子老虎机（slot machine），另称拉霸机或柏青嫂（日文），是一种经常在赌场见到的赌博机器，甚至有专玩角子机的娱乐场所，玩法是硬币投入，接着会随机出现不同图案，如</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-02.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">龙虎</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">游戏概述 龙虎为扑克斗大游戏。龙虎游戏十分简单，荷官只派两门牌，即龙及虎。每门各派一只牌，双方斗大（不计花式，只计点数），最大为K，最小为A。 游戏玩法 本游戏采用8副牌（每副牌52张）来</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-04.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">德州扑克</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">德州扑克 （ Texas hold'em Poker ，有时也简称为Hold'em或Holdem）是世界上最流行的公牌 扑克 衍生游戏，也是国际扑克比赛的正式竞赛项目之一。 世界扑克大赛 （World Series of Poker， WSOP</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/youxi-05.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">温州牌九</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">玩法简介 温州牌九是古代中国传统游戏的一种，玩法是依据一副共32张牌，点数的不同组合来比较大小，以决胜负。 游戏玩法 - 理牌：以两张牌为一副，排列成一列 - 每副牌只玩两局即重新洗牌 - 发</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/xpj.html" target="_blank">查看</a>
+                    </li>
+                             
+                </ul>
+            </div>	
+		</div>
+  		<!-- 首页侧边横幅 -->
+        <div class="union u_sbar">
+			            <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/js31.html" title="澳门金沙"><img width="300" height="50" src="/wp-content/uploads/2017/01/450x70.gif" alt="澳门金沙" border="0"></a></div>	
+                         
+        </div>
+        <div class="lnco clearfix">
+            <div class="lntitle">
+                <a class="tabtitle lncur" href="">游戏平台</a>
+                <a class="tabtitle" href="">牌照机构</a>
+            </div>	
+            <div class="lncon" style="display:block">
+                <ul class="boxstyle1 clearfix">
+				                    <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/pingtai-01.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">PlayTech</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">值得信赖的供应商 PlayTech</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">PT</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/pingtai-02.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">沙巴体育/凌阳科技</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">沙巴平台ONEworks背景介绍</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">IBC</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/pingtai-03.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">波音BBIN</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">BBIN成立于1999年，为亚洲</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">BBIN</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/pingtai-04.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">Entertasia/财众科技</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">EntwineTech - 是世界上最</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">EA</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/pingtai-05.jpg"></a>
+                        <h5 class="textoverflow"><a href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">Asia Gaming</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">Asia Gaming於2012年创建的</p>
+                        <a class="view" href="http://162.218.54.53:9999/jubo/js31.html" target="_blank">AG</a>
+                    </li>
+                             
+                </ul>
+            </div>	
+            <div class="lncon">
+                <ul class="boxstyle1 clearfix">
+				                    <li>
+                        <a class="picture" href="" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/jigou-01.jpg"></a>
+                        <h5 class="textoverflow"><a href="" target="_blank">荷属安的列斯群岛博彩执照</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">英文名称： CIGA 中文名称</p>
+                        <a class="view" href="" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/jigou-02.gif"></a>
+                        <h5 class="textoverflow"><a href="" target="_blank">哥斯达黎加网络博彩执照</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">英文名称： Online Gamblin</p>
+                        <a class="view" href="" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/jigou-03.jpg"></a>
+                        <h5 class="textoverflow"><a href="" target="_blank">直布罗陀博彩委员会</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">英文名称： Gibraltar Inte</p>
+                        <a class="view" href="" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/jigou-04.gif"></a>
+                        <h5 class="textoverflow"><a href="" target="_blank">马恩岛博彩监督委员会</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">英属曼岛是世界上知名的向</p>
+                        <a class="view" href="" target="_blank">查看</a>
+                    </li>
+                                                <li>
+                        <a class="picture" href="" target="_blank"><img class="trans" src="http://www.juboxingyun.com/wp-content/uploads/2017/01/jigou-05.jpg"></a>
+                        <h5 class="textoverflow"><a href="" target="_blank">菲律宾娱乐及博彩公司</a></h5>
+                        <p class="textoverflow" style="width:180px; height:20px; overflow:hidden;">英文名称： Philippine Amu</p>
+                        <a class="view" href="" target="_blank">查看</a>
+                    </li>
+                             
+                </ul>
+            </div>	
+        </div>
+  		<!-- 首页侧边横幅 -->
+        <div class="union u_sbar">
+			            <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/xpj.html" title="澳门新葡京"><img width="300" height="50" src="/wp-content/uploads/2017/01/500x60.gif" alt="澳门新葡京" border="0"></a></div>	
+                         
+        </div>
+        <div class="lnco clearfix">
+            <div class="lntitle">
+                <a class="tabtitle lncur" href="http://www.jubo111.com/tousu">投诉处理</a>
+                <a class="tabtitle" href="http://www.jubo111.com/faq">新手指南</a>
+            </div>
+            <div class="lncon" style="display:block;">
+                <a class="tip" href="http://www.jubo111.com/tousu">more</a>
+                <ul class="boxstyle clearfix">
+				                    <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">成锋用户:</span><span>八骏国际http://www.6515.com/?intr=149462是黑公司乱黑钱的能帮的上忙的吗？？
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">张生用户:</span><span>你好，我本月2号在巴黎人娱乐城提款2139元已经20天还没到账，客服每天都说审核中，我是不是给骗了？麻烦你帮我处理下，会员账号355166 网站http://www.bali188.com/
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">陈洋用户:</span><span>我在黑金帝国注册了账号，现在登不上了，说是停止营业了，我在上面的余额怎么办？是不是合并到其他网站了呢？
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">yaomei用户:</span><span>我投诉澳门银河 http://www.0592100.com/?intr=1003 首存的300送300 我达到流水提款490账户上的钱给我下了没有到账还要我存490 我剩的反水下了130也给我黑了 我有和在线的交谈记录
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">师傅:</span><span>投诉：888娱乐城（骗子公司网址：www.330.net ） 不给出款
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">赵永宏:</span><span>我想解绑我的银行卡 从新建个号 绑宁外一个号 我以前那个号 全是输 不给我解绑
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">尤凤仁:</span><span>账户一直给冻结，说审核，审核半个多月了！www.yidali.com 客服 迟迟不给说法
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">kr8403:</span><span>五千一的反水不给发，说是系统自动核实不给派发任何优惠，客服的回答是她们也查不到原因，就是多了不给发，骗子网站，我又没违规，前一分钟还在还在发了优惠彩金，后面一分钟就说系统自动我的账号不参与任何优惠。
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">李文:</span><span>我在维尼斯人wns006.com输了几万块，就这回赢了13500.就说要审核 要我等待，这都二十多天了，现在和客服说话跟本不理你，各玩家千万注意
+</span></span></a></li>
+                                                <li><a href="http://www.jubo111.com/tousu" target="_blank"><span class="index_page"><span class="index_tousu_title">陈威:</span><span>http://yz6888.com/ 我在亚洲真人娱乐城的账户被恶意冻结，不让出款，客服也不肯答复．
+</span></span></a></li>
+                              
+                </ul>
+            </div>
+            <div class="lncon" style="display:none;">
+                <a class="tip" href="http://www.jubo111.com/faq">more</a>
+                <ul class="boxstyle clearfix">
+				                    <li><a href="http://www.jubo111.com/faq/6.html" target="_blank"><span class="index_page">优德W88再次推出新平台啦！6大平台娱乐游戏供你畅享！</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/7.html" target="_blank"><span class="index_page">长乐坊破产紧急通告</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/8.html" target="_blank"><span class="index_page">如何判断一个博彩公司的信誉</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/182.html" target="_blank"><span class="index_page">dns被劫持之后应该怎么设置</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/265.html" target="_blank"><span class="index_page">关于使用360浏览器登录被拦截处理办法</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/267.html" target="_blank"><span class="index_page">安全上网，只需2分钟 — 修改本机DNS方法</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/294.html" target="_blank"><span class="index_page">网页版活动申请大厅正式上线</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/295.html" target="_blank"><span class="index_page">AG手机客户端下载链接大攻略</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/297.html" target="_blank"><span class="index_page">博彩神技   备用网址 PT手机客户端已更新至最新版本</span></a></li>
+							                    <li><a href="http://www.jubo111.com/faq/302.html" target="_blank"><span class="index_page">如何查询各大银行订单号</span></a></li>
+							  
+                </ul>
+            </div>
+        </div>
+        <div class="union">
+			            <div class="middle gg2"><a target="_blank" rel="nofollow" href="http://162.218.54.53:9999/jubo/wnsr.html" title="澳门威尼斯人"><img width="300" height="50" src="/wp-content/uploads/2017/01/360-50.gif" alt="澳门威尼斯人" border="0"></a></div>	
+                         
+        </div>
+		<script type="text/javascript">
+            $(function(){		
+                //Right tabs
+                $(".lntitle .tabtitle").mouseover(function(event) {
+                    var num = $(this).index();
+                    var wrap = $(this).parent().parent();
+                    $(this).addClass("lncur").siblings(".tabtitle").removeClass("lncur");
+                    wrap.find(".lncon:eq("+num+")").show().siblings(".lncon").hide();
+                }); 
+            })(jQuery)    
+        </script>
+    </div>
+    
+</div>
+<!-- 首页主体 开始 //结束-->
+
+
+<div class="clear h20"></div>
+
+<div id="J_FooterCon" class="j_LazyloadCon fp-lazyload-con">
+	<div id="footer">
+        <div class="footer-info">
+            <div class="tmall-desc">
+                <dl id="tmall-beginner">
+                    <dt>真人娱乐 / Casino</dt>
+					                    <dd><a href="http://162.218.54.53:9999/jubo/js31.html" title="" target="_blank" rel="nofollow">1.澳门金沙</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/xpj.html" title="" target="_blank" rel="nofollow">2.澳门新葡京</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/wnsr.html" title="" target="_blank" rel="nofollow">3.澳门威尼斯人</a></dd>
+								 
+                </dl>
+                <dl id="tmall-beginner">
+                    <dt>老虎机 / Slot Game</dt>
+					                    <dd><a href="http://162.218.54.53:9999/jubo/js31.html" title="" target="_blank" rel="nofollow">1.老虎机平台</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/js31.html" title="" target="_blank" rel="nofollow">2.澳门金沙赌场</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/xpj.html" title="" target="_blank" rel="nofollow">3.澳门新葡京</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/wnsr.html" title="" target="_blank" rel="nofollow">4.澳门威尼斯人</a></dd>
+								 
+                </dl>
+                <dl id="tmall-beginner">
+                    <dt>体育投注 / Sport Bet</dt>
+					                    <dd><a href="http://162.218.54.53:9999/jubo/js31.html" title="" target="_blank" rel="nofollow">1.澳门金沙</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/xpj.html" title="" target="_blank" rel="nofollow">2.澳门新葡京</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/wnsr.html" title="" target="_blank" rel="nofollow">3.威尼斯人</a></dd>
+								 
+                </dl>
+                <dl id="tmall-beginner">
+                    <dt>快乐彩票 / Lottery</dt>
+					                    <dd><a href="http://162.218.54.53:9999/jubo/js31.html" title="" target="_blank" rel="nofollow">1.澳门金沙</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/xpj.html" title="" target="_blank" rel="nofollow">2.澳门新葡京</a></dd>
+								                    <dd><a href="http://162.218.54.53:9999/jubo/wnsr.html" title="" target="_blank" rel="nofollow">3.澳门威尼斯人</a></dd>
+								 
+                </dl>
+                <div class="tmall-contact">
+                    <span>联系我们 / Contact us</span>
+                    <div class="footer1 footerbj"><font>客服QQ：<a href="http://wpa.qq.com/msgrd?v=3&uin=1141145011&site=qq&menu=yes" target="blank">1141145011</a></font></div>
+                    <div class="footer2 footerbj"><font>联系邮箱：<a class="email" rel="nofollow" href="mailto:1141145011@qq.com">1141145011@qq.com</a></font></div>
+                    <div class="footer3 footerbj"><font>工作时间：周一至周日 10:00-20:00</font></div>
+                </div>
+            </div>
+            <div class="tmall-intro">
+                <p id="tmall-info">
+				特别声明：本站非赢利性网站，宣传"提倡健康博彩 远离病态赌博 探索博彩策略 选择信誉博彩公司投注"的理念，一切网上咨询只提供玩家自娱自乐活动。如果博彩影响到了您的正常生活，请立即停止 ！<a href="http://www.jubo111.com"><b>聚博幸运</b></a> 版权所有                </p>
+            </div>
+        </div>
+    </div>
+</div>	
+
+
+<div style="position:fixed; top:175px; left:15px;" class="altlay">
+    <a href="/903.html" target="_blank"><img src="/wp-content/uploads/2017/01/222.png" width="120" height="240" alt="快速" /></a>
+			 
+	<a href="javascript: $('.altlay').hide();" style="position:fixed; top:415px; left:60px; text-align:center; color:#999; text-decoration:none; font-size:12px;">关 闭</a>
+</div>
+
+<script type="text/javascript">
+	//加入收藏
+	function shoucang(sTitle,sURL){
+		try{
+			window.external.addFavorite(sURL, sTitle);
+		}
+		catch (e){
+			try{
+				window.sidebar.addPanel(sTitle, sURL, "");
+			}
+			catch (e){
+				alert("加入收藏失败，请使用Ctrl+D进行添加");
+			}
+		}
+	}
+
+	</script>
+        <div style="display:none;"><script language="javascript" src="http://count25.51yes.com/click.aspx?id=251324838&logo=1" charset="gb2312"></script>
+</div>
+</div>
+</body>
+</html>

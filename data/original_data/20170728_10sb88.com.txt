@@ -1,0 +1,952 @@
+
+          <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+        <!-- Landing Page 10BetChina -->
+
+<script>
+var isMobile = {
+        Android: function () {
+            return navigator.userAgent.match(/Android/i);
+        },
+        BlackBerry: function () {
+            return navigator.userAgent.match(/BlackBerry/i);
+        },
+        iOS: function () {
+            return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+        },
+        Opera: function () {
+            return navigator.userAgent.match(/Opera Mini/i);
+        },
+        Windows: function () {
+            return navigator.userAgent.match(/IEMobile/i);
+        },
+        any: function () {
+            return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+        }
+    };
+    var pureDomain = location.hostname.split('.').slice(-2).join('.');
+    var MobileCasinoRedirectURL = location.protocol + "//m." + pureDomain + "/";
+    if (isMobile.any()) window.location = MobileCasinoRedirectURL;
+</script>
+
+<style type="text/css">
+    @import url('/css/landing.css');
+    @import url('/css/landing-new.css');
+    #header {
+        height: 90px;
+    }
+    
+    #header #main_logo {
+        background-image: url("/img/30670/headerlogo.gif");
+    }
+    
+    #background {
+        background: transparent url(https://contentcdn.agent1818.com/root/background-1.jpg) no-repeat center top;
+    }
+    
+    #main #content {
+        padding-left: 0;
+    }
+    
+    .content p {
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    
+    #banner {
+        background: transparent url(https://contentcdn.agent1818.com/promotion-pages/sports-weekly-rebate/root-banner-weekly-rebate.png) no-repeat center bottom;
+        height: 342px;
+    }
+    
+    .small-box .greenPulseText {
+        font-weight: bold;
+    }
+    
+    #footer {
+        min-width: 0px;
+        max-width: 1000px;
+        overflow: hidden;
+    }
+    
+    #footer li a {
+        text-decoration: underline;
+        background: transparent;
+    }
+    
+    #footer li {
+        border-left: none;
+        height: auto;
+        line-height: normal;
+    }
+    
+    div#small-banners div a:hover {
+        text-decoration: none;
+    }
+    
+    #footer .bottom_logos {
+        background: none;
+    }
+    
+    #mainmenu1 li {
+        float: none;
+        height: auto;
+        background: none;
+    }
+    
+    #mainmenu1 li a {
+        height: auto;
+        font-weight: normal;
+    }
+    
+    #mainmenu1 li a:hover {
+        color: #fff;
+    }
+    
+    body.notlogged .btn.notlogged {
+        display: inline-block !important;
+    }
+    
+    #main .inr {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bg_base_layer,
+    .bg,
+    #main {
+        background: none;
+        background-color: none;
+    }
+    
+    #container,
+    #main {
+        width: 100%;
+        max-width: 1920px;
+        min-width: 1000px;
+    }
+    
+    #content .content {
+        padding: 0;
+        width: 100%;
+        background: none;
+    }
+    
+    <!-- FOOTER -->
+    /*Define Custom Fonts */
+    
+    #footer ul {
+        top: 10px;
+    }
+    
+    #footer {
+        padding: 0 !important;
+    }
+    
+    div#offerContainer a.homeBigButtons:hover,
+    div#offerContainer a.homeBigButtonsWhite:hover {
+        text-decoration: underline!important;
+    }
+    
+    #small-banners .gradient a:hover span.pseudo-btn {
+        text-decoration: underline!important;
+    }
+    
+    #s a:hover,
+    #footer a:hover {
+        color: #ffffff;
+    }
+    
+    #footer .licence_txt {
+        color: #b9c6d3;
+    }
+    
+    #footer .bottom_logos_last_line .licence_txt span,
+    #footer .bottom_logos_last_line .licence_txt a {
+        background: none;
+        border-right: medium none;
+        display: inline;
+        opacity: 1;
+        padding: 0px;
+        margin: 0px;
+        height: 0px;
+        font-size: 10px;
+    }
+    
+    #footer ul {
+        top: 0;
+    }
+    
+    #footer .license-line .license-left {
+        background: url(https://contentcdn.agent1818.com/root/logo_i_a5.png) no-repeat scroll 0 -2px transparent;
+        position: absolute;
+        left: 0;
+        height: 50px;
+        padding-left: 45px;
+    }
+    
+    .license-line {
+        margin: 0px 0 45px 0;
+        height: 5px;
+    }
+    
+    div#offerContainer {
+        padding: 40px 0 0 0;
+        text-align: left;
+        float: left;
+    }
+    
+    div#offerContainer a {
+        width: 250px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .lp-icon-holder {
+        width: 100%;
+        height: 89px;
+        background: url(https://contentcdn.agent1818.com/root/icon-bg.jpg);
+        margin-bottom: 30px;
+    }
+    
+    .lp-icon-holder:after {
+        content: url(https://contentcdn.agent1818.com/root/icon-box-shadow-sized.png);
+        display: block;
+        height: 10px;
+        width: 100%;
+        position: relative;
+        bottom: 3px;
+    }
+    
+    .lp-icon-chip:after,
+    .lp-icon-rotate:after,
+    .lp-icon-diamond:after,
+    .lp-icon-phone:after {
+        background: rgba(255, 255, 255, 0.1);
+        content: '';
+        position: absolute;
+        display: block;
+        width: 1px;
+        height: 80%;
+        top: 11px;
+        bottom: 0;
+        left: 0;
+        margin: -1px 0 -1px -2px;
+    }
+    
+    .lp-icon-chip {
+        position: relative;
+        display: inline-block;
+        width: 25%;
+        background: url(https://contentcdn.agent1818.com/root/icon-chip.png) no-repeat 20px 20px;
+        height: 89px;
+    }
+    
+    .lp-icon-rotate {
+        position: relative;
+        display: inline-block;
+        width: 25%;
+        background: url(https://contentcdn.agent1818.com/root/icon-rotate.png) no-repeat 20px 20px;
+        height: 89px;
+    }
+    
+    .lp-icon-diamond {
+        position: relative;
+        display: inline-block;
+        width: 25%;
+        background: url(https://contentcdn.agent1818.com/root/icon-diamond.png) no-repeat 20px 20px;
+        height: 89px;
+    }
+    
+    .lp-icon-phone {
+        position: relative;
+        display: inline-block;
+        width: 23%;
+        background: url(https://contentcdn.agent1818.com/root/icon-phone.png) no-repeat 35px 20px;
+        height: 89px;
+    }
+    
+    .lp-icon-title {
+        font-size: 16px;
+        font-weight: bold;
+        position: absolute;
+        top: 20px;
+        left: 100px;
+    }
+    
+    .lp-icon-text {
+        font-size: 14px;
+        position: absolute;
+        top: 40px;
+        left: 100px;
+    }
+    
+    .small-box {
+        width: 33%;
+        height: 240px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .small-box-title {
+        font-size: 23px;
+        font-weight: bold;
+    }
+    
+    .title-align-right {
+        float: right;
+        padding-right: 25px;
+    }
+    
+    .title-align-left {
+        float: left;
+        padding-left: 10px;
+    }
+    
+    .small-box-img-1 {
+        background: url(https://contentcdn.agent1818.com/root/row-1-img-1.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-2 {
+        background: url(https://contentcdn.agent1818.com/root/row-1-img-2.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-3 {
+        background: url(https://contentcdn.agent1818.com/root/row-1-img-3.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-4 {
+        background: url(https://contentcdn.agent1818.com/promotion-pages/sports-july-calendar/304x183.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-5 {
+        background: url(https://contentcdn.agent1818.com/root/row-2-img-2.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-6 {
+        background: url(https://contentcdn.agent1818.com/root/row-2-img-3.jpg) no-repeat top center;
+        height: 184px;
+        position: relative;
+    }
+    
+    .small-box-img-1:after,
+    .small-box-img-2:after,
+    .small-box-img-3:after,
+    .small-box-img-4:after,
+    .small-box-img-5:after,
+    .small-box-img-6:after {
+        content: url(https://contentcdn.agent1818.com/root/small-box-shadow.png);
+        display: block;
+        height: 10px;
+        width: 100%;
+        position: absolute;
+        bottom: 6px;
+        left: 0;
+    }
+    
+    .small-box-img-1,
+    .small-box-img-2,
+    .small-box-img-3,
+    .small-box-img-4,
+    .small-box-img-5,
+    .small-box-img-6 {
+        padding: 15px 0 0 15px;
+    }
+    
+    .btn--m {
+        padding: 0.6875em 1.25em 0.5em;
+        min-width: 208px;
+        font-size: 16px;
+    }
+    
+    .small-box-separator {
+        margin: 20px 0 40px 0;
+    }
+    
+    .payment_logos {
+        text-align: center;
+        margin: 35px 0 15px 0;
+    }
+    
+    .p-visa,
+    .p-visa_el,
+    .p-mastercard,
+    .p-maestro,
+    .p-switch,
+    .p-solo,
+    .p-skrill,
+    .p-neteller,
+    .p-webm,
+    .p-eco,
+    .p-paysafe,
+    .p-ukash,
+    .p-bankt,
+    .p-cheque {
+        background: url(https://contentcdn.agent1818.com/root/payments-sprite.png) !important;
+        height: 28px !important;
+        margin: 0 8px;
+    }
+    
+    .p-visa {
+        background-position: 0 0 !important;
+        width: 41px;
+    }
+    
+    .p-visa_el {
+        background-position: -61px 0 !important;
+        width: 35px;
+    }
+    
+    .p-mastercard {
+        background-position: -116px 0 !important;
+        width: 33px;
+    }
+    
+    .p-maestro {
+        background-position: -116px 0 !important;
+        width: 33px;
+    }
+    
+    .p-switch {
+        background-position: -217px 0 !important;
+        width: 22px;
+    }
+    
+    .p-solo {
+        background-position: -257px 0 !important;
+        width: 22px;
+    }
+    
+    .p-skrill {
+        background-position: -303px 0 !important;
+        width: 41px;
+    }
+    
+    .p-neteller {
+        background-position: -362px 0 !important;
+        width: 51px;
+    }
+    
+    .p-webm {
+        background-position: -429px 0 !important;
+        width: 70px;
+    }
+    
+    .p-eco {
+        background-position: -516px 0 !important;
+        width: 39px;
+    }
+    
+    .p-paysafe {
+        background-position: -577px 0 !important;
+        width: 78px;
+    }
+    
+    .p-ukash {
+        background-position: -672px 0 !important;
+        width: 47px;
+    }
+    
+    .p-bankt {
+        background-position: -737px 0 !important;
+        width: 73px;
+    }
+    
+    .p-cheque {
+        background-position: -828px 0 !important;
+        width: 50px;
+    }
+    
+    #s {
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    .license-right {
+        float: right;
+    }
+    
+    .gamblew,
+    .gamcare,
+    .imperva,
+    .age,
+    .ibas {
+        background: url(https://contentcdn.agent1818.com/root/gambling-sprite.png);
+        background-repeat: no-repeat;
+        height: 28px !important;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .gamblew {
+        background-position: -72px 0 !important;
+        width: 83px;
+    }
+    
+    .gamcare {
+        background-position: -175px 0 !important;
+        width: 23px;
+    }
+    
+    .imperva {
+        background-position: 0 0 !important;
+        width: 57px;
+        ;
+    }
+    
+    .age {
+        background-position: -211px 0 !important;
+        width: 21px;
+    }
+    
+    .ibas {
+        background-position: -244px 0 !important;
+        width: 50px;
+        margin-right: 0;
+    }
+    
+    .lp-icon-holder a {
+        display: inline;
+    }
+    
+    .lp-icon-holder a:hover {
+        text-decoration: none;
+    }
+    
+    #featureBlock {
+        width: auto;
+        height: 342px;
+        top: 25px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+    }
+    
+
+    #feature-pagination {
+        display: block;
+        position: absolute;
+        right: 43%;
+        bottom: 10px;
+        /*background: #1c4470;*/
+        z-index: 10;
+        height: auto;
+        width: auto;
+        padding: 1px 3px;
+        font-size: 0;
+        line-height: 0;
+        border-radius: 40px;
+    }
+    
+    #feature-pagination a {
+        display: inline-block;
+        position: relative;
+        text-indent: -9999px;
+        height: 13px;
+        width: 13px;
+        border-radius: 20px;
+        background: #1e2f5e;
+        margin: 4px;
+        border: 2px solid #222;
+    }
+    
+    .navArrows {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        height: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .navArrows .prevArrow {
+        float: left;
+    }
+    
+    .navArrows .nextArrow {
+        float: right;
+    }
+    
+    .left-arrow,
+    .right-arrow {
+        display: inline-block;
+        position: relative;
+        width: 10px;
+        height: 17px;
+        cursor: pointer;
+    }
+    
+    .headerLoginBtn {
+        float: right;
+        padding: 0px 32px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        color: #000000;
+        border: 1px solid transparent;
+        margin: 3px 16px;
+        box-shadow: 1px 1px 4px #000;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe600+0,ffc500+100 */
+        background: #ffe600;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #ffe600 0%, #ffc500 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #ffe600 0%, #ffc500 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #ffe600 0%, #ffc500 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffe600', endColorstr='#ffc500', GradientType=0);
+        /* IE6-9 */
+    }
+    
+    .headerLoginBtn:hover {
+        background: #f2bc00;
+    }
+    /* Slide In Right Banners Styles */
+    
+    #slide-live-casino,
+    #slide-chat {
+        position: fixed;
+        width: 199px;
+        height: 252px;
+        top: 109px;
+        right: -152px;
+        background-repeat: no-repeat;
+        transition: 2s;
+        -webkit-transition: 2s;
+        z-index: 6;
+    }
+    
+    #slide-chat {
+        top: 375px;
+    }
+    
+    #slide-live-casino a,
+    #slide-chat a {
+        width: 199px;
+        height: 252px;
+        text-decoration: none;
+        outline: none;
+    }
+    
+    #slide-chat:hover,
+    #slide-live-casino:hover {
+        right: 0px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+    }
+    /* New Skin Styles */
+    
+    body {
+        background: #0c1f35;
+    }
+    
+    div#offerContainer>a>span:first-child {
+        font-weight: bold;
+        line-height: 101px;
+    }
+    
+    div#offerContainer>a>span:first-child+span+span {
+        line-height: 26px;
+    }
+    
+    div#offerContainer span {
+        text-align: left;
+        text-shadow: 0 1px 15px #000;
+    }
+    
+    .btn.greenPulseBtn .greenPulseTextWrap:after {
+        display: none;
+    }
+    
+    .btn.greenPulseBtn {
+        box-shadow: none;
+    }
+</style>
+<div id="background">
+    <div id="wrap">
+        <div id="header" xmlns="">
+            <!--<a class="headerLoginBtn" href="/asianview/">登录</a>-->
+            <h1 id="main_logo"><a href="/asianview/">体育(亚)</a></h1>
+            <ul id="mainmenu1" class="newLanding cn">
+                <li class="first"><a href="/asianview/">体育</a></li>
+                <li><a href="/sports/">体育(欧版)</a></li>
+                <li><a href="/sports/virtual-sports/">虚拟体育</a></li>
+                <li><a href="/live-casino/">真人娱乐场</a></li>
+                <li><a href="/casino/">娱乐场</a></li>
+                <li><a href="/mobile/">手机投注</a></li>
+                <li><a href="/promotions/">优惠活动</a></li>
+                <li><a href="/vip/">VIP</a></li>
+            </ul>
+        </div>
+
+        <!-- Wide Banner Part -->
+        <div id="banner">
+            <div id="featureBlock">
+                <div id="featureBlock-1" class="subfeature" style="display: block;">
+                    <div id="offerContainer">
+                        <a href="/promotions/sports/welcome-bonus/">
+                            <span style="position: relative;">100%</span>
+                            <span style="font-size: 27px!important;">首存红利即时发放</span>
+                            <span style="font-size: 17px!important; font-weight: normal; padding: 5px 0 0 5px; margin: 0; height: auto; border: none;">2017年每月天天不同优惠，<br/>更有额外反水礼品赠送!</span>
+                        </a>
+                        <img src="../i/landingpage/offer-flash.png" alt="" style="display: none;" class="smallFlash" />
+                        <img src="../i/landingpage/offer-flash.png" alt="" style="top: 49px; left: 193px; width: 30px; height: auto;" class="smallFlash" />
+                        <a id="greenPulseAnimation" class="btn greenPulseBtn notlogged" href="/asianview/?register=true">
+                            <span class="greenPulseTextWrap">
+                                <span class="pulseCurtain"></span>
+                            <span class="arrowRight"></span>
+                            <span class="greenPulseText" style="text-align: center;">立即加入</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!-- /.offerContainer -->
+                </div>
+                <!-- /#featureBlock-1 -->
+
+
+
+            </div>
+
+        </div>
+        <!-- End Wide Banner Part -->
+        <div class="lp-icon-holder">
+            <a href="/information/deposit_methods/">
+                <div class="lp-icon-chip"><span class="lp-icon-title">存款</span>
+                    <br/><span class="lp-icon-text">有银联微信各种银行</span></div>
+            </a>
+            <a href="/casino/">
+                <div class="lp-icon-rotate"><span class="lp-icon-title">转账</span>
+                    <br/><span class="lp-icon-text">快速转帐娱乐场账户</span></div>
+            </a>
+            <a href="/vip/">
+                <div class="lp-icon-diamond"><span class="lp-icon-title">VIP</span>
+                    <br/><span class="lp-icon-text">尽享至尊服务</span></div>
+            </a>
+            <a href="/mobile/">
+                <div class="lp-icon-phone"><span class="lp-icon-title">手机投注</span>
+                    <br/><span class="lp-icon-text">随时随地进行投注</span></div>
+            </a>
+        </div>
+        <!-- /.lp-icon-holder -->
+
+        <div id="small-box-banners">
+            <div class="small-box">
+                <div class="small-box-img-1">
+
+                </div>
+                <a href="/asianview/" class="btn greenPulseBtn">
+                    <span class="greenPulseTextWrap" style="padding: 0 40px;">
+               <span class="pulseCurtain"></span>
+                    <span class="greenPulseText" style="font-size: 14px;">亚洲版投注</span>
+                    </span>
+                </a>
+            </div>
+            <div class="small-box">
+                <div class="small-box-img-2">
+
+                </div>
+                <a href="javascript: window.open('/livedealerlobby/ag/ag-baccarat/', '_blank', 'width=1200, height=800, left=100, top=100, menubar=no, scrollbars=yes, status=no, toolbar=no'); void(0)" class="btn greenPulseBtn">
+                    <span class="greenPulseTextWrap" style="padding: 0 40px;">
+               <span class="pulseCurtain"></span>
+                    <span class="greenPulseText" style="font-size: 14px;">真人娱乐场</span>
+                    </span>
+                </a>
+            </div>
+            <div class="small-box">
+                <div class="small-box-img-3">
+
+                </div>
+                <a href="/promotions/" class="btn greenPulseBtn">
+                    <span class="greenPulseTextWrap" style="padding: 0 40px;">
+                 <span class="pulseCurtain"></span>
+                    <span class="greenPulseText" style="font-size: 14px;">超级优惠</span>
+                    </span>
+                </a>
+            </div>
+
+            <div class="small-box-separator">
+                <div class="small-box">
+                    <div class="small-box-img-4">
+
+                    </div>
+                    <a href="/promotions/sports/july-calendar/" class="btn greenPulseBtn">
+                        <span class="greenPulseTextWrap" style="padding: 0 40px;">
+               <span class="pulseCurtain"></span>
+                        <span class="greenPulseText" style="font-size: 14px;">体育优惠日历</span>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="small-box">
+                    <div class="small-box-img-5">
+
+                    </div>
+                    <a href="javascript: window.open('/casino/slots1/starburst/', '_blank', 'width=1200, height=800, left=100, top=100, menubar=no, scrollbars=yes, status=no, toolbar=no'); void(0)" class="btn greenPulseBtn">
+                        <span class="greenPulseTextWrap" style="padding: 0 40px;">
+                 <span class="pulseCurtain"></span>
+                        <span class="greenPulseText" style="font-size: 14px;">娱乐场</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="small-box">
+                    <div class="small-box-img-6">
+
+                    </div>
+                    <a href="/news-and-tips/" class="btn greenPulseBtn">
+                        <span class="greenPulseTextWrap" style="padding: 0 40px;">
+                 <span class="pulseCurtain"></span>
+                        <span class="greenPulseText" style="font-size: 14px;">体育新闻与窍门</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <p>
+                10Bet.com 是在库拉索牌照 (牌照编号: 8048/JAZ) 之下运营。
+            </p>
+            <ul>
+                <li class="first">
+                    <a href="https://www.10bet108.com/" target="_blank">合营计划</a>
+                </li>
+                <li>
+                    <a href="/contactus/" target="_blank">联系我们</a>
+                </li>
+                <li>
+                    <a href="/help/terms-and-conditions/" target="_blank">规则与条款</a>
+                </li>
+                <li>
+                    <a href="/information/about10bet/">关于我们</a>
+                </li>
+            </ul>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<div id="s">
+    <p>
+        10Bet是世界领先的在线博彩游戏网站之一。我们拥有最大最好的优惠活动，并为新手准备了大量注册红利。想要得到注册红利吗？<a href="/asianview/?register=true">马上就注册吧</a>！
+    </p>
+    <p>
+        <strong>在线体育博彩</strong>
+        <br/> 体验每月超过20,000场的真人体育博彩，包括足球、网球锦标赛、篮球、冰球、手球、高尔夫球等等。在每项比赛开始时进行投注，这里不仅有几十种投注方法，而且真人足球下注比任何博彩公司都要多。现在就在60种不同的足球市场下注，在超级联赛、甲级联赛、西甲联赛和欧洲冠军联赛洲杯上获得最佳投注赔率。
+    </p>
+    <p>
+        <strong>第一的娱乐场存款红利</strong>
+        <br/> 没错，现在在10Bet娱乐场我们拥有最高的存款红利。现在就来注册，获取您的存款，玩百家乐、轮盘、二十一点，感受最近的娱乐场的轰动，体验另人惊喜的优惠活动，包括大量的再存款和返利。我们拥有最高的累计奖金，以及像Tomb Raider II、 Hellboy 和Hitman 以及其它有趣的老虎机。我们还有最完善的VIP服务团队，提供独特的服务。
+    </p>
+    <p>
+        <strong>选择您最佳的支付方法！包括微信！</strong>
+        <br/> 10Bet让您更容易根据自己选择的方式进行支付。选择您喜欢的支付方法，开始在您最爱的运动比赛上投注，玩最喜爱的娱乐场博彩，或是真人二十一点和轮盘。
+    </p>
+    <p>
+        我们100%安全稳固的财务工作意味着您的钱也绝对安全，如有需要，随时欢迎咨询寻求帮助。
+    </p>
+</div>
+
+</div>
+</div>
+<!--[if lt IE 7]><div style="border: 1px solid #F7941D; background: #FEEFDA; text-align: center; clear: both; height: 75px; position: relative;" xmlns=""><div style="position: absolute; right: 3px; top: 3px; font-family: courier new; font-weight: bold;"><a href="#" onclick="javascript:this.parentNode.parentNode.style.display="none"; return false;"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-cornerx.jpg" style="border: none;" alt="Close this notice" /></a></div><div style="width: 640px; margin: 0 auto; text-align: left; padding: 0; overflow: hidden; color: black;"><div style="width: 75px; float: left;"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-warning.jpg" alt="Warning!" /></div><div style="width: 275px; float: left; font-family: Arial, sans-serif;"><div style="font-size: 14px; font-weight: bold; margin-top: 12px;">You are using an outdated browser</div><div style="font-size: 12px; margin-top: 6px; line-height: 12px;">This site doesn't support your browser version, please upgrade to a modern web browser.</div></div><div style="width: 75px; float: left;"><a href="http://www.firefox.com" target="_blank"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-firefox.jpg" style="border: none;" alt="Get Firefox 3.5" /></a></div><div style="width: 75px; float: left;"><a href="http://www.browserforthebetter.com/download.html" target="_blank"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-ie8.jpg" style="border: none;" alt="Get Internet Explorer 8" /></a></div><div style="width: 73px; float: left;"><a href="http://www.apple.com/safari/download/" target="_blank"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-safari.jpg" style="border: none;" alt="Get Safari 4" /></a></div><div style="float: left;"><a href="http://www.google.com/chrome" target="_blank"><img src="http://www.ie6nomore.com/files/theme/ie6nomore-chrome.jpg" style="border: none;" alt="Get Google Chrome" /></a></div></div></div><![endif]-->
+
+<!--
+<script type='text/javascript'>
+(function ()
+{var sitedomain10bet1 = '10bet100.com'; document.cookie = 'first_visit' +'=init; Domain='+sitedomain10bet1+'; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'}
+)();
+</script>
+
+or
+<script type='text/javascript'>
+jsRequire('/JSComponents/Data/Arrays.js');
+
+(function () {
+var supportedDomains = ['10bet100.com', '10bet1010.com', '10bet1001.com', '10bo88.com', '10shibo.com', '10bet888.com', '10bo888.com'];
+var currentAsSupported = Array.find(supportedDomains, function(d)
+{ return window.location.hostname.indexOf(d) !== -1; }
+
+);
+
+if(currentAsSupported)
+{ document.cookie = 'first_visit' + '=init; Domain=' + currentAsSupported + '; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'; }
+
+})();
+</script>
+-->
+</div>
+</div>
+
+
+<script type='text/javascript'>
+    
+    (function () {
+        var sitedomain10bet1 = document.domain.substr(3);
+        document.cookie = 'first_visit' + '=init; Domain=' + sitedomain10bet1 + '; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;'
+    })();
+
+    function renderSlideBanners() {
+        var liveCasino = document.createElement('a');
+        liveCasino.setAttribute("id", "slide-live-casino");
+        liveCasino.setAttribute("href", "javascript: window.open('/livedealerlobby/ag/ag-baccarat/', '_blank', 'width=1200, height=800, left=100, top=100, menubar=no, scrollbars=yes, status=no, toolbar=no'); void(0)");
+        liveCasino.setAttribute("style", "background-image:url(https://contentcdn.agent1818.com/casino/live-casino-silde-in.png)");
+
+        document.body.appendChild(liveCasino);
+    }
+
+    window.addEventListener('load', renderSlideBanners);
+
+    //Chat Window Script
+    window.sbChatConfig = window.sbChatConfig || {
+        server: "https://pushservercrm-asia.sbtech.com",
+        chatHub: "https://pushservercrm-asia.sbtech.com/signalr",
+        skinName: "10bet",
+        enableTranscript: false,
+        useMin: true,
+        enableGuests: true,
+        enableEmailFormForGuests: true,
+        enableChatsForGuests: true,
+        defaultLanguage: "cn"
+    };
+
+    window.UserInfo = window.UserInfo || {
+        onLogin: [],
+        onNotLoggedIn: [],
+        onLogout: []
+    };
+    window.LangID = window.LangID || 24;
+    window.LanguageItemCache = window.LanguageItemCache || {
+        Items: [{
+            ID: 24,
+            Code: 'cn'
+        }]
+    };
+</script>
+<!-- Chat Slide Banner -->
+<a id="slide-chat" class="sbChat__mobile" href="/contactus" target="_blank" style="background-image:url(https://contentcdn.agent1818.com/blocks/chat-slide-in/contact_banner.png)"></a>
+
+<script type="text/javascript" src="https://pushservercrm.agent1818.com/public/0.0.2/main/js/chatLoader.min.js?v=11"></script>
+ <script type="text/javascript">
+    setTimeout(function() {
+        var chatFrameContext = document.getElementById(chatLoader.Containers.chatFrame).contentWindow;
+        chatFrameContext.document.addEventListener("sbCommunicator_Connected", function() {
+            chatFrameContext.PlayerOnlineTracker.LoginGuest();
+        });
+    }, 3000);
+</script>

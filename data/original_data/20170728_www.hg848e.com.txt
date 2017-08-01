@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>欢迎进入澳门皇冠国际，具有雄厚实力！24小时任意提款3-5分钟到账！官方域名为：www.177.cc</title>
+    <link rel="stylesheet" href="/Content/bootstrap.css" />
+    <link rel="stylesheet" href="/Content/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/ui-dialog.css">
+    <link rel="stylesheet" href="/styles/ezweb.css">
+    <link rel="stylesheet" href="/styles/ucenter.css">
+    <link href="/styles/style2.css" rel="stylesheet" />
+
+    <script src="/Scripts/jquery-2.1.4.js"></script>
+    <script src="/Scripts/Commen.js"></script>
+    <script src="/Scripts/linq.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/js/dialog-min.js"></script>
+    
+    <script src="/scripts/slider.js"></script>
+    <script src="/Scripts/bootbox.min.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="blackbar">
+            <div class="container">
+                <p class="pull-right" style="margin-top:5px;">
+
+                        <a href="/user/login" class="btn btn-green">登录</a>
+                        <a href="/user/register" class="btn btn-green">注册</a>
+                </p>
+                <p>
+                    <a id="tlogo" href="/home/index" data-slide="#J_p1" class="brand active"><img src="/images/logo.png"></a><font color="#FFFF00" size="3">177.cc   hg848.com   hg1994.com</font>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+<style type="text/css">
+    .flex-control-paging li a {
+        opacity: 0.6;
+    }
+</style>
+<div class="page-slide">
+    <div id="J_p1" class="page active index-page">
+        <div class="banner">
+            <div id="show" class="flexslider">
+                <ul class="slides">
+                    <li><div class="img"><a href="#"><img src="/images/flash/f1.jpg" data-src="/images/flash/f1.jpg" alt="娱乐城" /></a></div></li>
+                    <li><div class="img"><a href="http://www.hg848.biz/Event/Index" target="_blank"><img src="/images/flash/f2.jpg" data-src="/images/flash/f2.jpg" alt="娱乐城" /></a></div></li>
+                    <li><div class="img"><a href="http://www.hg848.biz/VideoGame/Index"><img src="/images/flash/f3.jpg" data-src="/images/flash/f3.jpg" alt="娱乐城" /></a></div></li>
+                    <li><div class="img"><a href="http://www.hg1994.com/CommenPart/CommHtmlPart1 
+"><img src="/images/flash/f4.jpg" data-src="/images/flash/f4.jpg" alt="娱乐城" /></a></div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <script type="text/javascript">
+		$(document).ready(function(e) {
+			// var wb = $('.banner').find('img:first').height();
+			// if(wb>0){$('.banner').height(wb);}
+			$('#show').flexslider({
+				animation: "slide",
+				direction:"horizontal",
+				easing:"swing",
+				slideshowSpeed: 5000
+			});
+		});
+        </script>
+        <div class="notice">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="broadcast"><!--<i class="fa fa-2x fa-volume-down"></i>--></div>
+                    <marquee class="marquee" behavior="scroll">
+                        <div id="pnotice">近期不法分子利用恶意非法手段拦截公司网址,跳转到非法网站,利用皇冠名义骗取会员存款或套取会员资料,公司郑重说明:声称澳门皇冠倒闭.改名.合并.被收购.转让等皆为虚假博彩诈骗网站,为您确保您的资金安全请您不要相信,请勿在非澳门皇冠现金网等透露您的个人资料信息.遇到上述情况,请联系我们客服QQ:785677888咨询处理,谢谢!!!</div>
+    <script type="text/javascript">
+    var daymessagelist=[{"id":324619,"title":"系统公告","body":"近期不法分子利用恶意非法手段拦截公司网址,跳转到非法网站,利用皇冠名义骗取会员存款或套取会员资料,公司郑重说明:声称澳门皇冠倒闭.改名.合并.被收购.转让等皆为虚假博彩诈骗网站,为您确保您的资金安全请您不要相信,请勿在非澳门皇冠现金网等透露您的个人资料信息.遇到上述情况,请联系我们客服QQ:785677888咨询处理,谢谢!!!","beginTime":"2017-05-24T00:00:00","endTime":"2018-04-02T23:59:57","createTime":"2017-05-24T15:28:24.963","type":"系统公告","userName":null,"isRead":true,"messType":"全部会员"}] ;
+    var showbody="";
+    for(var item in daymessagelist){  
+       showbody += daymessagelist[item].body+"|"; 
+    }
+    showbody=showbody.substr(0,showbody.length-1);
+    $(function(){
+        $("#pnotice").click(function(){
+            showPhoneContent(showbody);
+        });
+        $("#pnotice").width($("#pnotice").width());
+    });
+    </script>
+
+
+
+
+
+                    </marquee>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="fast-link">
+                    <div class="col-xs-4">
+                        <a href="/home/sports" data-slide="#J_p2">
+                            <span class="ty"></span>体育赛事
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/home/lottery" data-slide="#J_p3"><span class="cp"></span>彩票游戏</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/LotteryLHC/index" data-slide="#J_p4"><span class="hk"></span>香港彩票</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/VideoGame/Index"><span class="ag"></span>AG视讯</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/VideoGame/DisplayBBIN" target="_blank"><span class="bbin"></span>BBIN视讯</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/VideoGame/IndexMG" target="_blank"><span class="mg"></span>MG</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/VideoGame/IndexPT" target="_blank"><span class="pt"></span>电子游戏</a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/UserCenter/VideoGame" data-modal="#J_loginModal">
+                            <span class="me"></span>额度转换
+                        </a>
+                    </div>
+                    <div class="col-xs-4">
+                        <a href="/UserCenter/UserInfo" data-modal="#J_loginModal">
+                            <span class="me"></span>个人中心
+                        </a>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+        <div class="features">
+            <div class="container">
+                <div class="container">
+                    <div class="item">
+                        <i class="ico ico-safe"></i>
+                        <h2>安全保障</h2>
+                        <p class="nowrap">坚实、稳定与安全的安保系统</p>
+                    </div>
+                    <div class="item">
+                        <i class="ico ico-person"></i>
+                        <h2><a target="_blank" href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=752052&configID=3417&jid=1023098486&s=1" ><span class="kf"></span>联系客服</a></h2>
+                        <p class="nowrap">专业管理、服务千万客户</p>
+                    </div>
+                    <div class="item">
+                        <i class="ico ico-calc"></i>
+                        <h2><a href="/UserCenter/Deposit">存取便捷</a></h2>
+                        <p class="nowrap">存取款资金安全快捷到达</p>
+                    </div>
+                    <div class="item">
+                        <i class="ico ico-call"></i>
+                        <h2 class="nowrap">785677888   7859966</h2>
+                        <p class="nowrap">24小时客服QQ </p>
+                    </div>
+                    <div class="item" style="border-bottom:0px solid #eaeaea;border-top:1px solid #eaeaea;border-right:1px solid #eaeaea">
+                        <i class="ico ico-person"></i>
+                        <h2><a href="/user/regagent" ><span class="kf"></span>代理联盟</a></h2>
+                        <p class="nowrap">代理申请，成功后请等待审批通过</p>
+                    </div>
+                </div>
+                <div id="J_footerTrig" class="trig closed" data-target="#J_footerInfos"></div>
+            </div>
+        </div>
+    </div><!-- page1 -->
+
+
+</div>
+
+<script language="javascript">
+    function showContent() {
+        bootbox.dialog({
+            // dialog的内容
+            message: jQuery("#J_broadcast").html(),
+
+            // dialog的标题
+            title: "最新公告",
+
+            // 退出dialog时的回调函数，包括用户使用ESC键及点击关闭
+            onEscape: function () { },
+
+            // 是否显示此dialog，默认true
+            show: true,
+
+            // 是否显示body的遮罩，默认true
+            backdrop: true,
+
+            // 是否显示关闭按钮，默认true
+            closeButton: true,
+
+            // 是否动画弹出dialog，IE10以下版本不支持
+            animate: true,
+
+            // dialog的类名
+            className: "my-modal",
+
+            // dialog底端按钮配置
+            buttons: {
+                "确定": {
+                    className: "btn-success",
+                    callback: function () { }
+                }
+            }
+        });
+    }
+</script>
+    <div class="footer">
+        <div class="nav-links">
+            <div class="container">
+                © 欢迎进入澳门皇冠国际，具有雄厚实力！24小时任意提款3-5分钟到账！官方域名为：www.177.cc 版权所有
+            </div>
+        </div>
+    </div>	
+    
+
+    <script src="/scripts/base.js"></script>
+    <!-- <script src="/scripts/carousel.js"></script> -->
+    <!-- <script src="/scripts/carousel2.js"></script> -->
+    <script src="/scripts/page-slide.js"></script>
+    <script src="/scripts/nav.js"></script>
+    <script src="/scripts/common.js"></script>
+    <script type="text/javascript">
+        //余额自动刷新
+        function reloadUserinfo() {
+            jQuery.jsonPost("CommenPart", "GetLoginUser", { m: "ref" }, function (d) {
+                if (d == null) {
+                    //location.reload(true);
+                } else {
+                    jQuery("#user_money").html((d.balance - 0 + 0.0));
+                }
+            }, {});
+        }
+        setInterval(reloadUserinfo, 10000);
+
+    </script>
+</body>
+</html>

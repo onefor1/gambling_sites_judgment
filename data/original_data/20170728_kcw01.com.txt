@@ -1,0 +1,934 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+    
+    <title>快彩网</title>
+	<meta name="keywords" content="快3网，快三网，福彩快3，快3，福彩快三，江苏快3，上海福彩，广西快3，湖北快3"/>
+    <meta name="description" content="快3权威投注网，提供最优质的网上福彩快3购彩服务，精准直观的号码走势，准确无误的遗漏数据，为玩家提供标准的快3，上海快3，江苏快3等网上购买投注、福彩快3开奖规则和快3技巧，结合快3网领先技术，为广大玩家提供专业、标准的代购服务，让彩民淋漓尽致的享受快三购彩乐趣"/>
+
+
+        
+    
+    
+    <meta name="renderer" content="webkit" />
+    <link rel="stylesheet" type="text/css" href="/templates/SSC/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/SSC/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/SSC/css/artDialog.css" />
+    <link rel="stylesheet" type="text/css" href="/templates/SSC/css/style.css" />
+    <script type="text/javascript" src="/templates/SSC/js/jquery-1.9.1.min.js"></script>
+
+
+
+
+   
+
+
+
+
+
+
+</head>
+<body style="background: linear-gradient( #f3fff4, #fff) no-repeat;">
+    <!--top-->
+<link rel="stylesheet" type="text/css" href="/templates/SSC/css/artDialog.css" />
+<script type="text/javascript" src="/templates/SSC/js/artDialog.js"></script>
+
+    <div class="top">
+        <div class="w1000">
+
+            <div style="width:auto; float:left; height:16px; ">
+                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+            </div> 
+            <div class="fr" id="myaccount">
+                
+                <span class="fl">欢迎来到福彩快三网！<a href="http://kcw01.com/login.html" class="c_red">登录</a>
+                    <a href="javascript:void(0)" class="c_red register_btn">注册</a>
+                </span>
+                <em class="fl">|</em>
+                <span class="fl"><a href="http://kcw01.com/login.html">会员中心</a></span>
+                <em class="fl">|</em>
+                
+                <span class="fl"><a href="http://kcw01.com/helpCenter_list.html">帮助中心</a></span>
+                <em>|</em>
+                
+                <span><a target="_blank" href="https://messenger.providesupport.com/messenger/0x0n1kx3rts5h0q557chfs7o4p.html">
+                    <img src="/templates/SSC/images/index26.png" /></a></span>
+            </div>
+        </div>
+    </div>
+
+<!--top-->
+<!--banner-->
+<div class="top_nav">
+    <div class="w1001">
+        <a href="javascript:void(0);">
+            <img src="/templates/SSC/images/logo1.jpg" />
+        </a>
+    </div>
+</div>
+<!--baner-->
+<div class="banner">
+    <div class="w1000">
+        <!--hover效果加bann_hover-->
+        <div class="bann_dowm">
+            <span>全部彩票类型</span>
+            <ul style="display: block">
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1301.html?lottery=1301">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>安徽快三</i>
+                        
+                        <em>返奖高，出款快</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1305.html?lottery=1305">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>江苏快三</i>
+                        
+                        <em>老快三，最热门</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1306.html?lottery=1306">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>广西快三</i>
+                        
+                        <em>新快三，高赔率</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1308.html?lottery=1308">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>湖北快三</i>
+                        
+                        <em>高赔率，易中奖</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1311.html?lottery=1311">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>北京快三</i>
+                        
+                        <em>单双大小易中奖</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1312.html?lottery=1312">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>河北快三</i>
+                        
+                        <em>返奖高，出款快</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1313.html?lottery=1313">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>幸运快三</i>
+                        
+                        <em>一分钟，高频率</em>
+
+                    </a>
+                </li>
+                <!--彩票名称-->
+            <!--彩票代码-->
+                
+                <li>
+                    <a href="http://kcw01.com/gameBet_cqssc-1314.html?lottery=1314">
+                        <img src="/templates/SSC/images/img1.png" height="26" width="26" />
+                        <i>上海快三</i>
+                        
+                        <em>返奖高，出款快</em>
+
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+
+        <ul class="bann_list">
+            <li><a href="http://kcw01.com/index.html">首页</a></li>
+            <li><a href="http://kcw01.com/company_infos.html">福彩简介</a></li>
+            <li><a href="http://kcw01.com/game_rule.html">游戏规则</a></li>
+            <li>
+                <a href="javascript:void(0)">优惠活动</a>
+                
+                <dl>
+                    
+                    <dd><a href="http://kcw01.com/active5.html">打码回馈</a></dd>
+                    
+                </dl>
+            </li>
+            <li><a href="http://kcw01.com/cooperative_agent.html">合作代理</a></li>
+            <li><a href="http://kcw01.com/tender_chart/1301.html" target="_blank">走势图</a></li>
+            <li><a href="http://kcw01.com/appdown.html">手机端下载</a></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="/templates/SSC/js/jquery.kinMaxShow-1.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        if ($("#kinMaxShow").size() > 0) {
+            $("#kinMaxShow").kinMaxShow({
+                height: 225,
+                intervalTime: 2,
+                button: {
+                    showIndex: false,
+                    normal: { marginRight: '8px', border: '0', right: '50%', bottom: '10px', borderRadius: '7px', background: '#fff' },
+                    focus: { background: '#bd0d0d', border: '0' }
+                }
+            });
+        }
+        $(".bann_list li").mouseover(function () {
+            $(this).children("dl").show();
+        })
+        $(".bann_list li").mouseleave(function () {
+            $(this).children("dl").hide();
+        })
+    });
+</script>
+
+<!--用户名-->
+    <!--wapper-->
+    <div class="wapper ">
+        <div class="w1000 bg_wite">
+            <div class="wapp_top bg_wite">
+                <div class="all_sort fl"></div>
+                <div class="wapp_top_midle fl">
+                    <div id="kinMaxShow">
+                        <div><a href="javascript:void(0)"><img src="/templates/SSC/images/banner1.jpg" bgcolor="#f58500" height="225px" /></a></div>
+						<div><a href="javascript:void(0)"><img src="/templates/SSC/images/banner2.jpg" bgcolor="#f58500" height="225px" /></a></div>
+						<div><a href="javascript:void(0)"><img src="/templates/SSC/images/banner3.jpg" bgcolor="#f58500" height="225px" /></a></div>
+                    </div>
+                    <div class="down b1 ">
+                        <div class="list_tag bbt">
+                            <i class="curr">安徽快三</i>
+                            <em>|</em>
+                            <i>广西快三</i>
+                            <em>|</em>
+                            <i>江苏快三</i>
+                            <em>|</em>
+                            <i>湖北快三</i>
+                        </div>
+                        <div class="tag_det">
+                            <!--安徽快三-->
+                             <!--开奖号码-->
+                             <!--和值-->
+                             <!--期号-->
+                             <!--大小-->
+                             <!--单双-->
+                                <div class="tag_copy" style="display: block">
+                                <div class="tag_top">
+                                    <img src="/templates/SSC/images/img4.png" class="img1" />
+                                    <span>
+                                        
+                                        <img src="/templates/SSC/images/k3_2.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_3.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_5.jpg" />
+                                            
+                                            <i>=</i>
+                                            
+                                        <em>10</em>
+                                    </span>
+                                    <a href="http://kcw01.com/gameBet_cqssc-1301.html?lottery=1301" class="bg_red">立即投注</a>
+                                </div>
+                                <div class="tag_down">
+                                    <span>当前期：第 <i class="c_red">20170728063</i> 期</span>
+                                    <span>开奖号码：<i class="c_red">2,3,5</i></span>
+                                    <span>和值：<i class="c_red">10</i> </span>
+                                    <span>形态：<em class="bg_purple">小</em>&nbsp;|&nbsp;<em class="bg_blue">双</em></span>
+                                </div>
+                            </div>
+                            <div class="tag_copy">
+                             <!--广西快三-->
+                             <!--开奖号码-->
+                             <!--和值-->
+                             <!--期号-->
+                             <!--大小-->
+                             <!--单双-->
+                                <div class="tag_top">
+                                    <img src="/templates/SSC/images/img4.png" class="img1" />
+                                    <span>
+                                        
+                                        <img src="/templates/SSC/images/k3_1.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_2.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_4.jpg" />
+                                            
+                                            <i>=</i>
+                                            
+                                        <em>7</em>
+                                    </span>
+                                    <a href="http://kcw01.com/gameBet_cqssc-1306.html?lottery=1306" class="bg_red">立即投注</a>
+                                </div>
+                                <div class="tag_down">
+                                    <span>当前期：第 <i class="c_red">20170728058</i> 期</span>
+                                    <span>开奖号码：第 <i class="c_red">1,2,4</i></span>
+                                    <span>和值：<i class="c_red">7</i> </span>
+                                    <span>形态：<em class="bg_purple">小</em>&nbsp;|&nbsp;<em class="bg_green">单</em></span>
+                                </div>
+                            </div>
+                            <div class="tag_copy">
+                             <!--江苏快三-->
+                             <!--开奖号码-->
+                             <!--和值-->
+                             <!--期号-->
+                             <!--大小-->
+                             <!--单双-->
+                                <div class="tag_top">
+                                    <img src="/templates/SSC/images/img4.png" class="img1" />
+                                    <span>
+                                        
+                                        <img src="/templates/SSC/images/k3_1.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_4.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_4.jpg" />
+                                            
+                                            <i>=</i>
+                                            
+                                        <em>9</em>
+                                    </span>
+                                    <a href="http://kcw01.com/gameBet_cqssc-1305.html?lottery=1305" class="bg_red">立即投注</a>
+                                </div>
+                                <div class="tag_down">
+                                    <span>当前期：第 <i class="c_red">20170728064</i> 期</span>
+                                    <span>开奖号码：第 <i class="c_red">1,4,4</i></span>
+                                    <span>和值：<i class="c_red">9</i> </span>
+                                    <span>形态：<em class="bg_purple">小</em>&nbsp;|&nbsp;<em class="bg_green">单</em></span>
+                                </div>
+                            </div>
+
+
+                            <div class="tag_copy">
+                             <!--湖北快三-->
+                             <!--开奖号码-->
+                             <!--和值-->
+                             <!--期号-->
+                             <!--大小-->
+                             <!--单双-->
+                                <div class="tag_top">
+                                    <img src="/templates/SSC/images/img4.png" class="img1" />
+                                    <span>
+                                        
+                                        <img src="/templates/SSC/images/k3_2.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_3.jpg" />
+                                            
+                                            <i>+</i>
+                                            
+                                        <img src="/templates/SSC/images/k3_4.jpg" />
+                                            
+                                            <i>=</i>
+                                            
+                                        <em>9</em>
+                                    </span>
+                                    <a href="http://kcw01.com/gameBet_cqssc-1308.html?lottery=1308" class="bg_red">立即投注</a>
+                                </div>
+                                <div class="tag_down">
+                                    <span>当前期：第 <i class="c_red">20170728061</i> 期</span>
+                                    <span>开奖号码：第 <i class="c_red">2,3,4</i></span>
+                                    <span>和值：<i class="c_red">9</i> </span>
+                                    <span>形态：<em class="bg_purple">小</em>&nbsp;|&nbsp;<em class="bg_green">单</em></span>
+                                </div>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="wapp_r fr b1">
+                    
+                    <div class="please_login bbt">
+                        <p>HI,欢迎来到福彩快三网</p>
+                        <p>&nbsp;&nbsp;</p>
+                        <p><a href="http://kcw01.com/login.html" class="bg_red">登  录</a><a href="javascript:void(0);" class="bg_org register_btn">免费注册</a></p>
+                    </div>
+                    
+                    <div class="notice">
+                        <div class="tt bbt"><i class="curr">彩票公告</i></div>
+                        <div class="notice_set">
+                            
+                            <a href="http://kcw01.com/platform_announcement_details/225.html">07-20 网站赔率、打码回馈、提现变更通知！！！</a>
+                            
+                            <a href="http://kcw01.com/platform_announcement_details/215.html">01-22 2017年彩票市场春节休市公告</a>
+                            
+                        </div>
+                        <a href="javascript:void(0);">
+                            <img src="/templates/SSC/images/index_09.jpg" height="100" width="245" /></a>
+                    </div>
+                </div>
+            </div>
+            <!--中奖列表-->
+            <!--会员中奖名单滚动-->
+            <div class="srcoll_user b1">
+                <ul class="pict_list">
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 1********中奖 <i class="c_red">117.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 t****中奖 <i class="c_red">70.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 9****中奖 <i class="c_red">7.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 l****中奖 <i class="c_red">19.8000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 1********中奖 <i class="c_red">96.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 9****中奖 <i class="c_red">1.9800</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 a*********中奖 <i class="c_red">1.9800</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 1********中奖 <i class="c_red">63.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 j**********中奖 <i class="c_red">1980.0000</i> 元</a></li>
+                    <!--用户名-->
+                    <!--奖金-->
+                    
+                    <li><a href="javascript:void(0)">会员 5********中奖 <i class="c_red">396.0000</i> 元</a></li>
+                    
+                </ul>
+                <i class="checn" data-name="1"></i>
+            </div>
+            <div class="middle">
+                <div class="fl mid_fl">
+                    <ul>
+                        <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1301.html?lottery=1301">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>安徽快三</h4>
+                                        
+                                        <p>一天80期，返奖超高，出款快</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728063</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">2,3,5</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：10</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_blue">双</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1301.html?lottery=1301" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1301.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1305.html?lottery=1305">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>江苏快三</h4>
+                                        
+                                        <p>老快三，10分钟一期，高热门</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728064</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">1,4,4</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：9</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_green">单</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1305.html?lottery=1305" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1305.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1306.html?lottery=1306">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>广西快三</h4>
+                                        
+                                        <p>新快三，高赔率，最高赔率149</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728058</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">1,2,4</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：7</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_green">单</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1306.html?lottery=1306" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1306.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1308.html?lottery=1308">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>湖北快三</h4>
+                                        
+                                        <p>高赔率，易中奖，开奖速度快</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728061</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">2,3,4</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：9</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_green">单</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1308.html?lottery=1308" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1308.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1311.html?lottery=1311">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>北京快三</h4>
+                                        
+                                        <p>单双大小易中奖，赔率高</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">084152</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">3,4,4</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：11</span>
+                                        <span>形态：<em class="bg_zyell">大</em> | <em class="bg_green">单</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1311.html?lottery=1311" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1311.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1312.html?lottery=1312">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>河北快三</h4>
+                                        
+                                        <p>单双大小易中奖，赔率高</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728064</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">2,3,5</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：10</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_blue">双</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1312.html?lottery=1312" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1312.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1313.html?lottery=1313">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>幸运快三</h4>
+                                        
+                                        <p>一分钟高频率，中奖易提款快</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">201707281154</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">1,2,5</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：8</span>
+                                        <span>形态：<em class="bg_purple">小</em> | <em class="bg_blue">双</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1313.html?lottery=1313" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1313.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         <!--彩票名称-->
+                            <!--彩票代码-->
+                            <li>
+                                <a href="http://kcw01.com/gameBet_cqssc-1314.html?lottery=1314">
+                                <dl>
+                                    <dt>
+                                        <img src="/templates/SSC/images/img4.png" height="62" width="62" />
+
+                                    </dt>
+                                    <dd>
+                                        <h4>上海快三</h4>
+                                        
+                                        <p>单双大小易中奖，赔率高</p>
+                                    </dd>
+                                </dl>
+                                    </a>
+                                <div class="det">
+                                   <!--期号-->
+                                       <!--开奖号码-->
+                                    <p>当前期：第 <i class="c_red">20170728062</i> 期</p>
+                                    <p>开奖号码：<i class="c_red">3,3,5</i></p>
+                                    <p>
+                                        <!--和值-->
+                                        <!--大小-->
+                                        <!--单双-->
+                                        <span>和值：11</span>
+                                        <span>形态：<em class="bg_zyell">大</em> | <em class="bg_green">单</em></span></p>
+                                       
+                                       <div><a href="http://kcw01.com/gameBet_cqssc-1314.html?lottery=1314" class="bg_red">立即投注</a><a href="http://kcw01.com/tender_chart/1314.html" target="_blank" class="bg_org">走势详情</a></div>
+                               </div>
+                            </li>
+                         
+                    </ul>
+                </div>
+                <div class="fr mid_fr">
+                    <div class="ranking_list b1 bg_wite">
+                        <div class="tt bbt"><i class="icofont fz30">&#xe603;</i>中奖排行榜</div>
+                        
+                        <ul class="rangk">
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>1</em></span><a href="javascript:void(0);">k*********中奖 <i class="c_red">135360.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>2</em></span><a href="javascript:void(0);">2********中奖 <i class="c_red">75200.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>3</em></span><a href="javascript:void(0);">1*******中奖 <i class="c_red">75200.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>4</em></span><a href="javascript:void(0);">y******中奖 <i class="c_red">45120.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>5</em></span><a href="javascript:void(0);">3*******中奖 <i class="c_red">45120.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>6</em></span><a href="javascript:void(0);">1*********中奖 <i class="c_red">39600.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>7</em></span><a href="javascript:void(0);">d****中奖 <i class="c_red">34404.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>8</em></span><a href="javascript:void(0);">4*******中奖 <i class="c_red">27260.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>9</em></span><a href="javascript:void(0);">q*****中奖 <i class="c_red">26320.0000</i> 元</a></li>
+                            <!--用户名-->
+                               <!--奖金-->
+                                
+                            <li><span><em>10</em></span><a href="javascript:void(0);">q*****中奖 <i class="c_red">23562.0000</i> 元</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="mgt10 ">
+                        
+                        <a href="">
+                        <img src="/templates/SSC/images/baoma.jpg" />
+                        </a>
+                        
+                    </div>
+                    <div class="ranking_list b1 bg_wite mgt10">
+                        <div class="tt bbt"><i class="icofont fz30">&#xe601;</i>快三技巧攻略</div>
+                        <ul class="desc">
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3投注技巧：如何玩转三同号 高手为您来支招</a></li>
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3技巧攻略详解：心态很重要 切勿忘三心</a></li>
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3投注技巧与实战攻略分享：和值投注三原则</a></li>
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3投注技巧推荐：教您从公式中找选号玄机</a></li>
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3投注技巧与实战攻略分享：出球轨迹追踪法</a></li>
+                            
+                            <li><em>▪</em><a href="http://kcw01.com/helpCenter_list.html">快3遗漏投注技巧：二同号遗漏超350期可追号</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="l_code bg_wite b1 mgt10">
+                        <!--<img src="/templates/SSC/images/index_30.jpg" />-->
+                        <img src="/tools/ssc_ajax.ashx?action=get_qr_image" />
+                    </div>
+                </div>
+            </div>
+            <div class="wapper_bottom b1">
+                <ul>
+                    <li><i>1</i><span><h4>注册会员</h4>
+                        <p>简单几步，轻松注册</p>
+                    </span></li>
+                    <li><i>2</i><span><h4>账户充值</h4>
+                        <p>支持多种便捷支付</p>
+                    </span></li>
+                    <li><i>3</i><span><h4>投注购彩</h4>
+                        <p>官方平台支持，正规安全</p>
+                    </span></li>
+                    <li><i>4</i><span><h4>中奖派奖</h4>
+                        <p>中奖第一时间派奖</p>
+                    </span></li>
+                    <li><i>5</i><span><h4>奖金提现</h4>
+                        <p>支持多种方式，快捷到账</p>
+                    </span></li>
+                </ul>
+            </div>
+            <div class="mgt10"></div>
+        </div>
+    </div>
+    <!--wapper-->
+
+    
+<!--foot-->
+<div class="foot">
+    <div class="w1000">
+        <div class="foot_top">
+            <div class="foot_logo fl">
+                <a href="javascript:void(0);">
+                    <img src="/templates/SSC/images/logo1.png" /></a>
+                <a href="javascript:void(0);">
+                    <img src="/templates/SSC/images/logo.png" /></a>
+            </div>
+            <div class="foot_midle fl">
+                
+                <dl>
+                    <dt>新手指南</dt>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=31@6" data-name="31@6" category_id="31" channel_id="6">新手上路</a>
+                    </dd>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=32@6" data-name="32@6" category_id="32" channel_id="6">如何充值</a>
+                    </dd>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=33@6" data-name="33@6" category_id="33" channel_id="6">如何购彩</a>
+                    </dd>
+                    
+                </dl>
+                    
+                <dl>
+                    <dt>平台安全问题</dt>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=36@6" data-name="36@6" category_id="36" channel_id="6">平台安全</a>
+                    </dd>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=81@6" data-name="81@6" category_id="81" channel_id="6">安全中心</a>
+                    </dd>
+                    
+                </dl>
+                    
+                <dl>
+                    <dt>充值问题</dt>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=37@6" data-name="37@6" category_id="37" channel_id="6">在线充值</a>
+                    </dd>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=68@6" data-name="68@6" category_id="68" channel_id="6">快捷充值</a>
+                    </dd>
+                    
+
+                    <dd>
+                        <a href="http://kcw01.com/helpCenter_list.html?category_id__channel_id=78@6" data-name="78@6" category_id="78" channel_id="6">充值须知</a>
+                    </dd>
+                    
+                </dl>
+                    
+                
+            </div>
+            <div class="two_code fl">
+                <p>客户端扫一扫</p>
+                <img src="/tools/ssc_ajax.ashx?action=get_qr_image" height="105" width="105" />
+            </div>
+        </div>
+        <div class="foot_bottom">
+            
+            <p class="tc">快彩网 Copyright 2011 - 2016 www.kcw00.com/ All rights reserved.沪ICP备15030378号</p>
+        </div>
+    </div>
+</div>
+
+
+<!--
+<script>
+(function() {
+  var _53code = document.createElement("script");
+  _53code.src = "//tb.53kf.com/code/code/10151318/1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+-->
+
+<!-- Live800在线客服图标:客服[浮动图标] 开始-->
+<!--
+<div style='display:none;'><a href='http://www.live800.com'>在线聊天</a></div><script language="javascript" src="https://kf1.learnsaas.com/chat/chatClient/floatButton.js?jid=9152766475&companyID=720885&configID=60035&codeType=custom&ss=1"></script><div style='display:none;'><a href='http://en.live800.com'>live chat</a></div>
+-->
+<!-- 在线客服图标:客服 结束-->
+
+<script type="text/javascript" src="/templates/SSC/js/PageBasic.js"></script>
+<script type="text/javascript" src="/templates/SSC/js/index.js"></script>
+<script type="text/javascript" src="/templates/SSC/js/index2.js"></script>
+
+<!--foot-->
+ 
+
+
+
+
+
+</body>
+
+
+   
+
+
+</html>
+#

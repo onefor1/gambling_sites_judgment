@@ -1,0 +1,530 @@
+<html class="zh-cn "><head>
+    <meta charset="UTF-8">
+    <title>神话娱乐城</title>
+    <link href="/themes/355088/assets/css/standard.css?v=ver28.74" rel="stylesheet">
+    <link href="/themes/355088/assets/css/fckeditor.css?v=ver28.74" rel="stylesheet">
+    <link href="/themes/355088/assets/css/mythic.css?v=ver28.74" rel="stylesheet">
+    <link href="/themes/355088/assets/css/font-awesome.css?v=ver28.74" rel="stylesheet">
+    <link href="/themes/355088/assets/css/news.css?v=ver28.74" rel="stylesheet">
+    <link href="/themes/355088/assets/css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css">
+    <script src="/themes/355088/assets/js/jquery-1.7.2.min.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/jquery.easing.1.3.min.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/TweenMax.min.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/analytics.js"></script>
+    <script src="/themes/355088/assets/js/jquery-1.7.2.min.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/common.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/upup.js?v=ver28.74" data-ltl="Y" id="upupjs"></script>
+    <script src="/themes/355088/assets/js/float.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/swfobject.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/maqin.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/jquery.cookie.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/tween.slideshow.js?v=ver28.74"></script>
+    <script src="/themes/355088/assets/js/marquee.js"></script>
+    <script src="/themes/355088/assets/js/tween.slideshow.js?v=ver28.74"></script>
+    <style type="text/css" media="screen">#ele-logo-wrap {visibility:hidden}</style></head>
+<script language="JavaScript">
+    $(function () {
+            })
+    function AddAgentsInfo($intr) {
+         $.post("/?r=passport/user-api/add-agents", {
+            intr: $intr,
+            },
+            function (rst) {
+            },
+            "html");
+    }
+	function showMoible() {
+                document.cookie = "device=mobile;";
+                location.reload();
+            }
+</script>
+<body marginwidth="0" marginheight="0">
+<div id="mainBody">
+    <div id="page-header">
+        <div class="header">
+            <div class="header-top clearfix">
+                <!-- lang -->
+                <div class="lang-wrap floatR">
+                    <style>
+
+                    </style>
+                    <span class="ele-lang-wrap">
+        <a href="" target="mem_index" class="ele-lang-option ele-lang-zh-tw" title="繁體中文"></a>
+        <a href="" target="mem_index" class="ele-lang-option ele-lang-zh-cn" title="简体中文"></a>
+        <a href="" target="mem_index" class="ele-lang-option ele-lang-en" title="English"></a>
+    </span>
+            </div>
+                <div class="link-unit floatR">
+                    <a href="/?r=site/bywz" target="mem_index" data-color="#ECD713|#D71614" class="js-article-color" style="color: rgb(215, 22, 20);">
+                        线路检测
+                    </a>
+                    &nbsp;|&nbsp;                            <a href="/public/rule/Rule_Lq.html" title="篮球规则" target="_black"  data-color="#ECD713|#D71614" class="js-article-color" style="color: rgb(215, 22, 20);">
+                        篮球规则
+                    </a>
+                    &nbsp;|&nbsp;                            <a href="/public/rule/Rule_Zq.html"  title="足球规则" target="_black" data-color="#ECD713|#D71614" class="js-article-color" style="color: rgb(215, 22, 20);">
+                        足球规则
+                    </a>
+                    &nbsp;|&nbsp;                            <a href="javascript:openOnlineServiceWindow();" target="_blank" data-color="#ECD713|#D71614" class="js-article-color" style="color: rgb(215, 22, 20);">
+                        在线申请优惠
+                    </a>
+                </div>
+
+                <!-- est -->
+                <div class="est-wrap floatR">
+                </div>
+
+                <div class="header-slogan floatL" style="color:#fff;">7X24小时在线电话客服: &nbsp;<i class="flag-cn"></i> QQ:752212555&nbsp;  &nbsp;<i class="flag-ph"></i>&nbsp;QQ:752212555 </div>
+            </div>
+
+            <div class="header-middle clearfix">
+                <!-- LOGO -->
+                <div class="header-logo floatL">
+                    <object type="application/x-shockwave-flash" id="logo-flash" title="神话娱乐城 首页" onmousedown="window.location.href='/?r=site/index'" data="/themes/355088/assets/swf/logo.swf" width="260" height="85"><param name="wmode" value="transparent"><param name="quality" value="high"></object>
+                </div>
+                <!-- 主選單 -->
+                <div class="mainnav-wrap floatL">
+                    <div class="mainnav">
+                        <ul class="clearfix">
+                            <li id="LS-first" class="LS-first">
+                                <a href="/?r=site" class=" current" title="首页">首页</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-ball" class="LS-ball">
+                                <a href="/?r=site/sport" class=" " title="体育赛事">体育赛事</a>
+                                <!-- 子選單 -->
+
+                            </li>
+                            <li id="LS-live" class="LS-live">
+                                <a href="/?r=site/live"  class=" " title="视讯直播">视讯直播</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-game" class="LS-game">
+                                <a href="/?r=site/game" class="" title="电子游艺">电子游艺</a>
+                                <!-- 子選單 -->
+
+                            </li>
+                            <li id="LS-ltlottery" class="LS-ltlottery">
+                                <a href="/?r=site/lottery"  class=" " title="彩票游戏">彩票游戏</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-memberexclusiveii" class="LS-memberexclusiveii">
+                                <a href="/?r=site/activity"  class="js-article-color " title="优惠活动" data-color="#FFFFFF|#FF0000" style="color: rgb(255, 0, 0);">优惠活动</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-mobile" class="LS-mobile">
+                                <a href="javascript:void(0);" onclick="showMoible();" class=" " title="手机下注">手机下注</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-network" class="LS-network">
+                                <a href="/?r=site/six"  class=" " title="香港乐透">香港乐透</a>
+                                <!-- 子選單 -->
+                            </li>
+                            <li id="LS-service" class="LS-service">
+                                <a href="javascript:openOnlineServiceWindow();" class=" " title="在线客服">在线客服</a>
+                                <!-- 子選單 -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <![CDATA[YII-BLOCK-BODY-BEGIN]]><div id="page-container-bg" class="first">
+        <div id="page-container" class="pngfix">
+            <div id="page-body">
+                <div class="first-unit-top clearfix">
+                    <!-- 登入前 -->
+                    <div class="login-wrap pngfix floatR" id="loginArea">
+                        <div class="login-wrap-inner clearfix">
+                            <div class="login-wrap-title pngfix"></div>
+                            <div class="login-wrap-inner-se">
+                                <form name="LoginForm" id="LoginForm" class="clearfix" action="" method="POST" target="mem_index">
+                                    <p class="login-unit login-unit-user">
+                                        <input name="username" type="text" size="12" id="username" onfocus="if(value=='账号') {value=''}" onblur="if (value=='') {value='账号'}" maxlength="12" class="login-input" tabindex="1" pattern="[a-zA-Z0-9]{4,15}" value="账号" required=""><span class="acc-unicode">@sh</span>
+                                    </p>
+                                    <p class="login-unit login-unit-pwd">
+                                        <input name="passwd" type="password" autocomplete="off" size="13" id="passwd" title="请填写 6-12 位大小写英数字" maxlength="12" class="login-input" tabindex="2" pattern="[a-zA-Z0-9]{6,13}" required="" onfocus="if(value=='123456') {value=''}" onblur="if (value=='') {value='123456'}" value="123456">
+                                    </p>
+                                    <p class="login-unit login-unit-chk">
+                                        <input name="rmNum" type="text" id="rmNum" size="7" maxlength="4" onfocus="if(value=='验证码') {value=''}" onblur="if (value=='') {value='验证码'}" class="login-input" tabindex="3" pattern="\d{4}" value="验证码" required="">
+                                        <img src="/?r=site/captcha" id="vPic" alt="( 点选此处产生新验证码 )" title="( 点选此处产生新验证码 )" width="40" height="18">
+                                    </p>
+                                    <p class="login-unit-btn floatL">
+                                        <input name="Submit" type="button" value="" class="login-submit button floatL" tabindex="4" id="inputlogin">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login-wrap-btn-wrap">
+                            <a href="/?r=site/reg" class="joinus-btn link floatL">加入会员</a>
+                            <a href="javascript:void(0);" onclick="Go_forget_pwd()" class="forget-btn link floatL">忘记密码</a>
+                        </div>
+                        <div onclick="window.location.href='/?r=site/reg'" class="joinus-se-btn button pngfix"></div>
+                    </div>
+                    <!-- 登入后-->
+                    <div class="loginInfo-wrap floatR pngfix" id="loginAccount" style="display:none">
+                        <div class="loginInfo-wrap-inner clearfix">
+                            <div class="loginInfo-wrap-title pngfix"></div>
+                            <div class="mem-info">
+                                <style>
+                                    .ele-accinfo{
+                                        display: block;
+                                        padding-right: 5px;
+                                        padding-bottom: 4px;
+                                    }
+                                    .ele-accinfo .fa{
+                                        padding: 0 2px;
+                                        font-size: 14px;
+                                    }
+                                    .ele-first-balance{
+                                        display: inline-block;
+                                    }
+                                    .ele-acc-unit {
+                                        display: inline-block;
+                                    }
+                                    .ele-obalance-wrap{
+                                        position: relative;
+                                        display: inline-block;
+                                    }
+                                    .ele-other-balance{
+                                        cursor: pointer;
+                                    }
+                                </style>
+
+                                <div class="ele-accinfo ele-acc-name"><span>帐号：</span><strong id="user_name"></strong></div>
+                                <div class="ele-acc-unit">
+                                    <div id="_bbsportBalance" class="ele-accinfo ele-first-balance">
+                                        <span>账号余额：</span>
+                                        <strong id="user_money"></strong>
+                                    </div>
+                                </div>
+                                                   </div>
+                            <!--  sub  -->
+                            <div class="SU-Menual">
+                                <ul class="login-Menual clearfix">
+                                    <li>
+                                        <a id="su-macenter" onclick="openUCWindow('/?r=member/msg/index', '会员中心');" title="会员中心">会员中心</a>
+                                        |                            </li>
+                                    <li>
+                                        <a id="su-deposite" onclick="openUCWindow('/?r=member/deposit/index', '线上存款');" title="线上存款"><span style="color:red;">线上存款</span></a>
+                                        |                            </li>
+                                    <li>
+                                        <a id="su-withdraw" onclick="openUCWindow('/?r=member/withdraw/index', '线上取款');" title="线上取款"><span style="color:red;">线上取款</span></a>
+                                        |                            </li>
+                                    <li>
+                                        <a id="su-switch" onclick="openUCWindow('/?r=member/live/index', '额度转换');" title="额度转换">额度转换</a>
+                                        |                            </li>
+                                    <li>
+                                        <a id="su-switch" onclick="openUCWindow('/?r=member/msg/index', '未读讯息');" title="最新消息">最新消息(<span id="msg_num">0</span>)</a>
+                                        |                            </li>
+                                    <li>
+                                        <a id="su-logout" class="login_out" title="登出">登出</a>
+                                    </li>
+                                    <div id="audioWrap"></div>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="login-wrap-btn-wrap">
+                            <div class="welcome-info floatL">欢迎您光临</div>
+                            <div class="welcome-info floatL">WELCOME</div>
+                        </div>
+                    </div>
+                    
+                    <div class="scroll-ad floatL">
+                        <div id="js-ele-slideshow1" class="ele-slideshow-wrap" onselectstart="return false;">
+                            <div class="js-ele-slideshow-scroll ele-slideshow-scroll">
+                                <ul>
+                                    <li data-index="1" data-autoplaytime="1000" style="opacity: 1;">
+                                        <a href="/?r=site/reg" target="mem_index">
+                                            <img src="/themes/355088/assets/images/142685171305.png?488738" width="374" height="174">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="first-unit-bottom clearfix">
+                    <div class="left-unit floatL">
+                        <div class="first-game">
+                            <div class="ele-firstgame-wrap" onselectstart="return false">
+                                <div class="clearfix ele-firstgame" id="js-firstgame-slider">
+                                    <a href="/?r=site/sport" target="mem_index" class="ele-firstgame-1 js-ele-firstgame-fade" style="background-position-x: -246px;">
+                                        <span style="background-position-x: 0px;"></span>
+                                    </a>
+                                    <a href="/?r=site/live" target="mem_index" class="ele-firstgame-2 js-ele-firstgame-fade" style="background-position-x: -246px;">
+                                        <span style="background-position-x: 0px;"></span>
+                                    </a>
+                                    <a href="/?r=site/activity" target="mem_index" class="ele-firstgame-3 js-ele-firstgame-fade" style="background-position-x: -246px;">
+                                        <span style="background-position-x: 0px;"></span>
+                                    </a>
+                                    <a href="/?r=site/lottery" target="mem_index" class="ele-firstgame-4 js-ele-firstgame-fade">
+                                        <span></span>
+                                    </a>
+                                    <a href="/?r=site/game" target="mem_index" class="ele-firstgame-5 js-ele-firstgame-fade">
+                                        <span></span>
+                                    </a>
+                                    <a href="/?r=mobile/disp/index" target="mem_index" class="ele-firstgame-6 js-ele-firstgame-fade">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <script>
+                                $('.js-ele-firstgame-fade > span').hover(
+                                    function(){
+                                        $(this).css("background-position-x", "-246px")
+                                            .parent()
+                                            .css("background-position-x", "0");
+                                    }, function(){
+                                        $(this).css("background-position-x", "0")
+                                            .parent()
+                                            .css("background-position-x", "-246px");
+                                    }
+                                );
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="right-unit floatR">
+                        <!-- 最新消息 -->
+                        <div class="news-wrap pngfix">
+                            <div class="news-title"></div>
+                            <div class="news-item ele-msg-cp">
+                                <marquee id="msgNews" scrollamount="4" scrolldelay="1" direction="up" onclick="HotNewsHistory();" onmouseover="this.stop();" onmouseout="this.start();" style="height:100%"><span id="msg"></span></marquee>
+                                <style>
+                                    .ele-msg-cp{cursor: pointer;}
+                                </style>
+                            </div>
+                        </div>
+                        <div class="download-btn button pngfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+<!--<div class="ui-widget-overlay" style=" z-index: 1001;">
+    <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-js-notice-pop" style="display: block; z-index: 1002; outline: 0px; height: auto; width: 730px; left: calc(50% - 368px);">
+        <div id="js-notice-pop" style="width: auto; min-height: 0px; " class="ui-dialog-content ui-widget-content" scrolltop="0" scrollleft="0">
+           <img src="/themes/355088/assets/images/20170330171913.jpg" width="100%">
+        </div>
+        <div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix">
+            <div class="ui-dialog-buttonset">
+                <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text" onclick="close1()">关闭</span></button>
+            </div>
+        </div>
+    </div>
+</div>-->
+<style type="text/css">
+    .ui-widget-overlay{position: fixed;width: 100%;height: 100%;top:0;background: rgba(92,92,92,.80);opacity:1;}
+    .ui-widget-overlay .ui-dialog{opacity:1;position: absolute;top: calc(50% - 280px);}
+</style>
+<script type="text/javascript">
+function close1(){
+     $(".ui-dialog").hide();
+     $(".ui-widget-overlay").hide();
+}
+</script><![CDATA[YII-BLOCK-BODY-END]]>
+    <div id="page-footer">
+        <div class="footer">
+            <div class="fo-unit-top">
+                <div class="floatL">
+                    <div class="article-menu">
+                        <a href="/?r=site/aboutus" data-color="" class="js-article-color">
+                            关于神话
+                        </a>
+                        ｜                                            <a href="/?r=site/lxwm" data-color="" class="js-article-color">
+                            联系我们
+                        </a>
+                        ｜                                            <a href="/?r=site/dlhz" data-color="" class="js-article-color">
+                            代理合作
+                        </a>
+                        ｜                                            <a href="/?r=site/ck" data-color="" class="js-article-color">
+                            存款帮助
+                        </a>
+                        ｜                                            <a href="/?r=site/qk" data-color="" class="js-article-color">
+                            取款帮助
+                        </a>
+                        ｜                                            <a href="/?r=site/cjwt" data-color="" class="js-article-color">
+                            常见问题
+                        </a>
+                        ｜                                            <a href="/?r=site/problem" data-color="" class="js-article-color">
+                            负责任博彩
+                        </a>
+                        ｜                                            <a href="/public/rule/Rule_Lq.html" title="篮球规则" target="_black" data-color="" class="js-article-color">
+                            篮球规则
+                        </a>
+                        ｜                                            <a href="/public/rule/Rule_Zq.html" title="篮球规则" target="_black" data-color="" class="js-article-color">
+                            足球规则
+                        </a>
+						｜                                            <a href="/public/dns/dns.html" target="_black" data-color="" class="js-article-color">
+                            DNS访劫持
+                        </a>
+                    </div>
+                    <div class="article-unit-bottom clearfix">
+                        <a href="http://www.adobe.com/go/getflashplayer" target="_blank" class="flash-player floatL"></a>
+                        <div class="sys-req-info floatL">
+                            <span>系统要求:IE8 或以上,本站最佳浏览分辨率为1024x768</span>
+                            <span>用户必须安装Flash 10 viewer或以上</span>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="openOnlineServiceWindow();" class="server-btn button floatR"></div>
+            </div>
+
+            <div class="footer-info-img"></div>
+            <div class="fo-unit-middle">
+                <div class="footerTextBox clearfix">
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">责任博彩</div>
+                        <div class="footerBox_text"> 博弈游戏是以一种即可使得双方获得娱乐，又可获取盈利的游戏。但是，世界上没有常胜的将军。请玩家谨记责任，博彩坚持“小赌怡情，适度游戏”的原则，身心健康最重要。切勿沉迷。神话娱乐城温馨提醒18岁以下青年请远离博弈游戏。</div>
+                    </div>
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">体育投注</div>
+                        <div class="footerBox_text">神话娱乐城每周精彩呈献超过5000场的超高赔率的体育赛事投注，现场滚球，即时投注欧洲五大联赛，美国职业篮球NBA，神话娱乐城给您带来亲临现场的无与伦比的精彩刺激感受，最快最准的派彩，令您体验畅快淋漓的体育动感与刺激。</div>
+                    </div>
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">真人娱乐</div>
+                        <div class="footerBox_text">在神话娱乐城您可以一站登陆即可与近千名性感动人的专业荷官会面。所有的真人荷官游戏（各种真人百家乐、轮盘、骰子、21点、三公、牛牛、牌九等游戏）应有尽有，百家争艳。最佳的赔率，最完善的服务，最公平的游戏，千名佳丽与你相约神话娱乐城。</div>
+                    </div>
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">彩票游戏</div>
+                        <div class="footerBox_text">世界各地美轮美奂的彩票齐聚神话娱乐城，单画面，多平台，多地区，官方开奖，绝对真实。神话娱乐城不仅提高购彩的方便性与安全性，更加为玩家奉献更多购彩奖金与刺激好礼。人人争做大赢家，更高赔率，更高返奖，尽在神话娱乐城彩票。</div>
+                    </div>
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">电子游戏</div>
+                        <div class="footerBox_text">神话娱乐城聚全球最佳老虎机游戏，精致画面，动感效果，总计种类超过500余款，世界超强老虎机火力大比拼，超高赔率的老虎机游戏，一个好的游戏，伴随着一个经常的故事。保证令玩家爱不释手，兴致浓浓。</div>
+                    </div>
+                    <div class="footerBox">
+                        <div class="footerBoxTitle">优惠活动</div>
+                        <div class="footerBox_text">神话娱乐城开户的首笔存款可申请开户红利,单笔存款100元或以上可享受1%的转帐优惠, 不计输赢每天投注即可参与洗码优惠活动，洗码金额不限上限。老客户同样享有各种存款红利。更多优惠尽在神话娱乐城。</div>
+                    </div>
+                </div>
+
+                <div class="copyright-info">
+                    <div class="copyright-info-fi"><span>神话娱乐城</span>-与亚洲最大博彩软件提供商“BBIN”进行技术合作，共同打造高质量游戏平台，以及更多精彩在线游戏于一体的综合线上国际娱乐品牌。</div>
+                    <div class="copyright-info-se">神话赌场向广大玩家承诺保证提供种类齐全的世界一流安全公平有趣的在线博弈游戏。</div>
+                    <div class="copyright-info-th">如果您在游戏过程遇到任何问题，请随时与我们的24/7在线客服或着访问网站的 “联系我们”我们时刻为您准备着！</div>
+                </div>
+
+                <div class="footer-Infomation">
+                    <div class="copyright" style="color:yellow">Copyright © 神话娱乐城 Reserved&nbsp;&nbsp;客服QQ：752212555</div>
+                </div>
+            </div>
+
+            <div class="fo-unit-bottom">
+                <div class="footer-img-wrap floatL">
+                    <div class="footer-img pngfix">
+                        <a href="javascript:void(0);" target="_blank" id="bblogo" class="floatL pngfix"></a>
+                        <a id="browser-logo" href="javascript:void(0);"><img src="/themes/355088/assets/images/ublogo.png" border="0" width="100"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>        </div>
+
+
+
+<ul id="TplFloatPic_0" class="TplFloatSet"  picfloat="right">
+    <li><a href="javascript:openOnlineServiceWindow();" target="_blank" style="width: 128px; height: 179px;">
+            <img src="/themes/355088/assets/images/143738824860.png?488738" align="center" alt="" class="png_fix" width="128" height="179">
+            <img src="/themes/355088/assets/images/143738824860.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="179">
+        </a></li>
+    <li><a href="/?r=site/bywz" target="_blank" style="width: 128px; height: 39px;">
+            <img src="/themes/355088/assets/images/143738827046.png?488738" align="center" alt="" class="png_fix" width="128" height="39">
+            <img src="/themes/355088/assets/images/143738827697.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="39">
+        </a></li>
+    <li><a href="/?r=site/cjwt" target="_blank" style="width: 128px; height: 32px;">
+            <img src="/themes/355088/assets/images/143738828867.png?488738" align="center" alt="" class="png_fix" width="128" height="32">
+            <img src="/themes/355088/assets/images/143738829490.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="32">
+        </a></li>
+    <li><a href="javascript:void(0);" style="width: 128px; height: 125px;">
+            <img src="/themes/355088/assets/images/143738832693.png?488738" align="center" alt="" class="png_fix" width="128" height="125">
+            <img src="/themes/355088/assets/images/143738833385.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="125">
+        </a></li>
+    <li><a href="###" onclick="FloatClose(this);" style="width: 128px; height: 23px;">
+            <img src="/themes/355088/assets/images/143738835317.png?488738" align="center" alt="" class="png_fix" width="128" height="23" style="display: inline;">
+            <img src="/themes/355088/assets/images/143738835954.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="23">
+        </a></li>
+</ul>
+<ul id="TplFloatPic_1" class="TplFloatSet" picfloat="left">
+    <li><a href="http://sh577.com/" target="_blank" style="width: 128px; height: 179px;">
+            <img src="/themes/355088/assets/images/143738825814.png?488738" align="center" alt="" class="png_fix" width="128" height="179">
+            <img src="/themes/355088/assets/images/143738825814.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="179">
+        </a></li>
+    <li><a href="tencent://message/?uin=752212555&Site=web&Menu=yes" target="_self" style="width: 128px; height: 99px;">
+            <img src="/themes/355088/assets/images/left_qq1.png" align="center" alt="" class="png_fix" width="128" height="99">
+            <img src="/themes/355088/assets/images/left_qq1p.png" align="center" style="display: none;" alt="" class="png_fix" width="128" height="99">
+        </a></li>
+    <li><a href="tencent://message/?uin=1259579000&Site=web&Menu=yes" target="_self" style="width: 128px; height: 99px;">
+            <img src="/themes/355088/assets/images/left_qq2.png" align="center" alt="" class="png_fix" width="128" height="99">
+            <img src="/themes/355088/assets/images/left_qq2p.png" align="center" style="display: none;" alt="" class="png_fix" width="128" height="99">
+        </a></li>
+    <li><a href="###" onclick="FloatClose(this);" style="width: 128px; height: 23px;">
+            <img src="/themes/355088/assets/images/143738835317.png?488738" align="center" alt="" class="png_fix" width="128" height="23" style="display: inline;">
+            <img src="/themes/355088/assets/images/143738835954.png?488738" align="center" style="display: none;" alt="" class="png_fix" width="128" height="23">
+        </a></li>
+</ul>
+<style>
+    .TplFloatSet a{display:block;margin:0 auto;text-align:center;}
+    .TplFloatSet img{vertical-align:bottom;}
+    .TplFloatSet li{list-style: none;font-size:0px;}
+</style>
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 150, right_top = 150, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+        float_list['0'] = $('#TplFloatPic_0');
+		float_list['1'] = $('#TplFloatPic_1');
+        for (var i in float_list) {
+            if (float_list[i].attr == undefined) {
+                continue;
+            }
+            var self = float_list[i],
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                    $(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                    $(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+    $(function(){
+        $("#ele-float-top-up").click(function(){
+            $("html,body").animate({scrollTop:0}, 500);
+        })
+    })
+</script>
+
+<div id="ele-float-top-wrap" style="height: 0px;">
+    <div id="ele-float-top" style="display: block;">
+        <div id="ele-float-top-up" class="ele-float-top-btn" style="display: block;"></div>
+    </div>
+</div>
+</body></html>

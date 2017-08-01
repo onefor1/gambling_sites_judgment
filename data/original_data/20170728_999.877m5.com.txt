@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	 
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+    <title>M5彩票</title>
+    <link rel="shortcut icon" href="http://999.877m5.com/public/desktop/login_tpl/m5/images/favicon.ico" />
+    <link href="http://999.877m5.com/public/desktop/login_tpl/m5/css/login_s.min.css?ver=20170615114310" rel="stylesheet" type="text/css" />
+    <link href="http://999.877m5.com/public/desktop/login_tpl/m5/css/font-awesome.min.css?ver=20160803120938" rel="stylesheet" type="text/css" />
+	<noscript>
+        <div class="noScript">
+            <div>
+                <h2>请开启浏览器的Javascript功能</h2>
+                <p>亲，没它我们玩不转啊！求您了，开启Javascript吧！<br/>
+				不知道怎么开启Javascript？那就请<a href="http://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80Javascript%E5%8A%9F%E8%83%BD" rel="nofollow" target="_blank">猛击这里</a>！
+                </p>
+            </div>
+        </div>
+    </noscript>
+</head>
+<body>
+    <div class="noScript hide" id="NoSupport_IE67">
+        <div>
+            <h2>不支援的浏览器</h2>
+            <p>亲，您的浏览器为ie内核浏览器，我们不支援IE6、IE7！<br/><br/>
+                <a href="http://www.cdn9988.com:8088/m5/client_ap/setup.exe?1501240681.exe" rel="nofollow" target="_blank">请猛击这里下载客户端</a>！
+            </p>
+        </div>
+    </div>    <div class="container">
+      <div class="logo"></div>
+      <!--end logo-->
+      <div class="info-wrapper">
+        <div class="tip-wrapper">
+            <!--轮播-->
+          <div class="banner">
+              <div class="banner-btn">
+                  <a href="javascript:;" class="prevBtn"></a>
+                  <a href="javascript:;" class="nextBtn"></a>
+              </div>
+              <ul class="banner-img"></ul>
+              <ul class="banner-circle"></ul>
+          </div>
+          </div>
+        <!--end tips-wrapper-->
+        <form class="login_form" id="login_form">
+          <dl>
+            <dt class="w100 positionre">
+              <span class="i-user"></span>
+              <input name="login" id="login" class="required w70" type="text" autocomplete="off" autocapitalize="off" placeholder="会员帐号">
+            </dt>
+            <dt class="w100 positionre">
+              <span class="i-lock"></span>
+              <input name="pass" id="pass" class="required w70" type="password" autocomplete="off" placeholder="密码">
+            </dt>
+
+            <dt class="w100 positionre">
+              <span class="i-lock"></span>
+              <input name="authnum" type="text" id="authnum" class="required number w40" size="10" maxlength="5" placeholder="验证码">
+              <span class="w30 c-code">&nbsp;<img src="http://999.877m5.com/Login/authnum"/></span>
+            </dt>
+          </dl>
+          <div class="btn-wrapper login-btn-wrapper">
+            <button type="button" id="send-button" class="submit-btn"><img src="http://999.877m5.com/public/desktop/login_tpl/m5/images/login_btn.jpg" height="42" width="272" alt="" /></button>
+          </div>
+        </form>
+        <p id="f-login" class="bbn"><a href="javascript:;">会员登录</a></p>
+        <p id="f-service" class="webonlineservice bbn"><a href="Login">在线客服</a></p>
+
+        <span class="hide" id="windows">http://www.cdn9988.com:8088/m5/client_ap/setup.exe?1501240681.exe</span>
+				<span class="hide" id="ios">itms-services://?action=download-manifest&url=https://www.aa9988.net/m5cp/m5cp.plist</span>
+				<span class="hide" id="android">http://www.aa9988.net/m5cp/m5.apk</span>
+				<span class="customer_bg">
+	        <a id="f-phone" href="javascript:;" class="client">
+	        	<img src="http://999.877m5.com/public/desktop/login_tpl/m5/images/phone.png" height="66" width="66" alt=""/>
+	        </a>
+        </span>
+
+      </div>
+      <!--end info-wrapper-->
+      <div class="footer">
+        <div class="browsers">
+          <a target="_blank" href="https://www.google.com.tw/chrome"></a>
+          <a target="_blank" class="x2" href="https://www.mozilla.org"></a>
+          <a target="_blank" class="x3" href="http://www.apple.com/cn/safari/"></a>
+          <a target="_blank" class="x4" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie"></a>
+        </div>
+          <p>为了获得更好的操作体验，建议使用Google Chrome、Firefox 或 IE10 浏览器，点击图标立即下载。</p>
+      </div>
+    </div>
+	<script type="text/javascript">
+		var ddom = 'http://999.877m5.com/';
+		var tpl_path = 'http://999.877m5.com/public/desktop/login_tpl/m5/';
+	</script>
+	<script src="http://999.877m5.com/public/desktop/js/Simple.min.js?ver=20170704202259" type="text/javascript"></script>
+	<script>
+		 (function(a,b,c,d,e){function f(){var a=b.createElement("script");a.async=!0;
+		 a.src="//radar.cedexis.com/1/18518/radar.js";b.body.appendChild(a)}/\bMSIE 6/i
+		 .test(a.navigator.userAgent)||(a[c]?a[c](e,f,!1):a[d]&&a[d]("on"+e,f))})
+		 (window,document,"addEventListener","attachEvent","load");
+	</script>
+</body>
+</html>

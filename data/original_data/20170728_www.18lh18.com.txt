@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>大奖娱乐官方网站 www.dj18.vip</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="apple-touch-icon-precomposed" href="https://www.wdmsn.cn/Content/Images/favicon/apple-touch-icon-precomposed.png" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/colorbox.css" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/jquery.alerts.css" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/tipTip.css" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/tooltip.css?ver=20170527" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/main.css?ver=20170527" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Images/mobile/introduction/style.css" />
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/mascot.css">
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/MainFishGames/main-style.css">
+    
+    <link rel="stylesheet" href="https://www.wdmsn.cn/Content/Styles/home.css" />
+
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery-1.8.3.min.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/div-slider-1.0.3.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery.colorbox-min.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery.alerts.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery.tipTip.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery.cities.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Custom/common.js?ver=1"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/jquery.base64.js"></script>
+    <script src="https://www.wdmsn.cn/Scripts/Plugins/bootstrap-2.1.1.min.js"></script>
+    
+    <script type="text/javascript" src="https://www.wdmsn.cn/Scripts/Custom/main.js?ver=1"></script>
+    <script type="text/javascript" src="https://www.wdmsn.cn/Scripts/Custom/div-slider-1.0.3.js"></script>
+    <script type="text/javascript" src="https://www.wdmsn.cn/Scripts/Plugins/swfobjectv2_1.js"></script>
+    <script type="text/javascript">
+        var flashvars = { path: "https://www.wdmsn.cn/Scripts/Plugins/CasinoGame.swf" };
+        //	flashvars.embedParams = "false";
+        var params = { bgcolor: "#000000", allowfullscreen: 'true', allowscriptaccess: 'always' };
+        params.scale = "noscale";
+        params.wmode = "transparent";
+        params.bgcolor = "#000000";
+
+        var attributes = {};
+
+        swfobject.embedSWF("https://www.wdmsn.cn/Scripts/Plugins/CasinoGame.swf?nocache=1001", "flash_content", "1000", "185", "9.0.246", "js/expressInstall.swf", flashvars, params, attributes);
+    </script>
+
+    <script type="text/javascript">
+        function mobile_device_detect(url) {
+            var patm = GetQueryString("patm");
+            var isToH5 = "true";
+            if ((patm == null || patm.toString().length <= 0) && isToH5 == "true") {
+                if (url.indexOf("?") > 0) {
+                    url = url + "&djSite=" + window.location.host + "&sourceId=0";
+                } else {
+                    url = url + "?djSite=" + window.location.host + "&sourceId=0";
+                }
+                var thisOS = navigator.platform;
+                var os = new Array("iPhone", "iPod", "iPad", "android", "Nokia", "SymbianOS", "Symbian", "Windows Phone", "Phone", "Linux armv71", "MAUI", "UNTRUSTED/1.0", "Windows CE", "BlackBerry", "IEMobile");
+                for (var i = 0; i < os.length; i++) {
+                    if (thisOS.match(os[i])) {
+                        window.location = url;
+                    }
+                }
+                //因为相当部分的手机系统不知道信息,这里是做临时性特殊辨认
+                if (navigator.platform.indexOf('iPad') != -1) {
+                    window.location = url;
+                }
+                //做这一部分是因为Android手机的内核也是Linux
+                //但是navigator.platform显示信息不尽相同情况繁多,因此从浏览器下手，即用navigator.appVersion信息做判断
+                var check = navigator.appVersion;
+                if (check.match(/linux/i)) {
+                    //X11是UC浏览器的平台 ，如果有其他特殊浏览器也可以附加上条件
+                    if (check.match(/mobile/i) || check.match(/X11/i)) {
+                        window.location = url;
+                    }
+                }
+                //类in_array函数
+                Array.prototype.in_array = function (e) {
+                    for (i = 0; i < this.length; i++) {
+                        if (this[i] == e)
+                            return true;
+                    }
+                    return false;
+                }
+            }
+        }
+        //获取Url参数
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+
+        function convertCoreApiData(source) {
+            if(!source)
+                return [];
+
+            var sourceData=JSON.parse(source);
+            if(!sourceData.Datas||sourceData.length==0)
+                return [];
+            
+            var result=[];
+            for (var i in sourceData.Datas) {
+                var item=sourceData.Datas[i];
+                							                
+                result.push({id:item[0],title:item[1],isEnable:item[2],
+                    contentType:item[3],content:item[4],createTime:item[5],
+                    startTime:item[6],endTime:item[7]})
+            }
+
+            return result;
+        }
+
+        function bindReminder(data) {
+            $("#reminder-title").html(data.title);
+            var lines=[];
+            var value=data.content;
+            var isDecimal=true;
+
+            //如果找不到#分隔符，则证明是单独一行
+            if (value.indexOf("#") == -1) {
+                lines.push(value);
+                isDecimal=false;
+            }
+            else {
+                var values = [];
+
+                if (value.startsWith("##")) {
+                    values = value.split("#").filter(function (arg) {
+                        return arg.length > 0
+                    });
+                }
+                    //如果不是以##开头，则用默认它是用#，所以用#分割成字符数组，并显示
+                else {
+                    isDecimal=false;
+                    values = value.split("#").filter(function (arg) {
+                        return arg.length > 0
+                    });
+                }
+
+                values.forEach(function (it) {
+                    lines.push(it);
+                });
+            }
+
+            if (lines.length==0) {
+                return;
+            }
+
+            var content=$("#reminder-content");
+            for (var i = 0; i < lines.length; i++) {
+                var index=i+1;
+                
+                var item = $('<p  style="text-indent: 15px; padding-top: '+(index*5)+'px;"></p>');                
+                if(isDecimal)
+                    item.html(index+"."+lines[i]);
+                else
+                    item.html(lines[i]);
+
+                content.append(item);
+            }
+        }
+        
+        $(document).ready(function () {
+            //判断是否是手机设备，然后自动跳转到手机版首页
+            mobile_device_detect("http://m.idj168.com/home/index");
+
+            //判断是否展示新功能说明弹出层
+            $.ajax("/cn/getReminderContent").success(function (r) {
+                var result= convertCoreApiData(r);
+                var reminder=result.length==0?null:result[0];
+                var lastReminderId=getCookie("showReminderId");
+
+                var canShow=(reminder!=null)&&(reminder.id!=lastReminderId);
+
+                if(canShow){
+                    bindReminder(reminder);
+                    var m = (23 - new Date().getHours()) * 60 + (60 - new Date().getMinutes());
+                    setCookie("showReminderId", reminder.id,m / (24 * 60));
+                    $(".float").show();
+                    $(".float").animate({
+                        'bottom': '10px'
+                    }, "slow");
+                }
+            })
+            .error(function (r) {
+                console.log(r);
+            });
+
+            $(".wap_close").click(function () {
+                $(".float").hide();
+            });
+        });
+</script>
+
+</head>
+<body>
+		
+			<div id="popup_ads">
+			</div>
+		
+	<div class="container">
+		<a href="#"><img id="topButton" src="https://www.wdmsn.cn/Content/Images/arrow/BackToTopArrow.png" /></a>
+	</div>
+	
+	<!-- Header Start -->
+	<div id="header" >
+    <div class="container">
+        <div class="brown pullLeft">公告 | </div>
+        <div class="message slider pullLeft">
+            <div class="clearfix"></div>
+            <div id="sliderContainer">
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐手机WAP版MG平台全新上线，为您带来独一无二的现场体验，竭诚邀请您立即体验！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：手工存款招商银行账户郁占洋，汪国华已停用，请留意收款账号。网站的手工存款收款卡会不定期更换，请务必在存款前查看手工存款页面的银行卡信息，存入已停用的收款卡内将无法正常上分，请您务必注意。</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐官网已经更新：dj18.vip，请您收藏。</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员:北京时间2017年7月10日00:00至2017年8月20日23:59，使用大奖登录器登录游戏并在大奖平台有存款，即可乐享28元现金回馈。活动详情请点击：http://dj18.vip/CN/Promotions</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的客户：近期大奖娱乐发现有网站被劫持的情况，切勿相信任何虚假广告及联系方式，如遇到域名无法正常访问的情况，请及时联系7*24H 唯一指定在线客服或QQ（507718625），为您提供帮助！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员:北京时间2017年7月3日00:00至2017年7月30日23:59，每日点击签到按钮，当周达到累计签到天数与存款总额两项要求后，298元签到礼金触手可及。 
+活动详情请点击：http://dj18.vip/CN/Promotions</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐手机WAP版捕鱼新玩法“捕鱼多福”全新上线，竭诚邀请您立即体验！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐手机WAP版NETENT平台全新上线，为您带来独一无二的现场体验，竭诚邀请您立即体验！详情点击www.idj168.com/Game/Index?gameprovider=NETENT</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的客户：由于国内银行政策调整，自2016年12月1日起，凡是通过ATM机手工存款的交易将无法实时（24小时后）到账，大奖娱乐为了方便您的操作，暂时关闭ATM机手工存款，建议您使用其他方式存款，给您带来的不便，请谅解！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖手机WAP版最新功能已上线，新增BS游戏,优惠申请和历史记录查询，请扫描网站首页左边“二维码”或手动输入www.idj168.com  进行体验，竭诚邀请您前来体验，如有任何问题请随时联系7*24小时在线客服。</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐独家推出HB金币奖池游戏，投注越大，奖金越高，竭诚邀请您前来体验!</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的用户：即日起支付宝扫码支付最低金额已调整为20元，若不足20元将无法正常上分，请您务必注意！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的用户，为保障资金安全，网站的手工存款收款卡会不定期更换，请务必在存款前查看手工存款页面的银行卡信息，如无信息请联系在线客服，存入已停用的收款卡内将无法正常上分，请您务必注意。</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的用户：为了更及时处理您的手工存款，建议非整数存款，如123.45，以便核对， 注: 如果使用支付宝转入招行，金额必须添加特殊小数!</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员：大奖娱乐隆重推出HB老虎机平台，为您提供最流行的经典老虎机游戏以及特色老虎机游戏，投注即经典又新颖，更有1024玩法，竭诚邀请您立即体验！</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的会员:大奖娱乐已推出全新BS平台，3D游戏画面为您带来更畅快的游戏体验，期待您尝试游戏！详细内容请联系在线客服。</a></div>
+                <div><a href="/CN/Notice" target="_self">尊敬的用户，即日起手工存款最低金额已调整为100元，小额存款请选择在线支付或点卡支付，给您带来不便，请谅解。</a></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+	<link href="../../Content/Styles/signIn.css?ver=20170601" rel="stylesheet" type="text/css" />
+<div class="signEntrance">
+    <a id="signStart" href="javascript:;" class="startSign"></a>
+    <a href="/CN/Promotions#p0" class="moreInfo "><span class="moreInfoIcon"></span>活动详情</a>
+</div>
+
+<div class="popSign" id="popSign">
+    <span id="checkAmount" style="top:124px;left:238px;position: absolute;font-size:28px;color:White;"></span>
+    <div class="signMain">
+        <ul class="prizeList">
+                    <li class='iconDj' title=""><span class="flag"></span></li>
+                    <li class='iconDj' title=""><span class="flag"></span></li>
+                    <li class='iconBox' title=""><span class="flag"></span></li>
+                    <li class='iconDj' title=""><span class="flag"></span></li>
+                    <li class='iconBox' title=""><span class="flag"></span></li>
+                    <li class='iconDj' title=""><span class="flag"></span></li>
+                    <li class='iconBox' title=""><span class="flag"></span></li>
+        </ul>
+        <a class='signBtn' href="#">签到</a>
+        <a class="moreInfo moreInfo-next" style="top:340px;" href="/CN/Promotions#p0"><span class="moreInfoIcon"></span>活动详情</a>
+    </div>
+    <div class="popClose popClose-ext"></div>
+</div>
+<div class="popMask"></div>
+<script type="text/javascript">
+    $(function () {
+        var $main = $('#popSign'),
+            $start = $('#signStart'),
+            $mask = $('.popMask'),
+            $btn = $main.find('.signBtn'),
+            $close = $main.find('.popClose'),
+            $prize = $main.find('.prizeList li'),
+            $finish = $main.find('.prizeList .finish');
+        $start.click(function () {
+            if ('' != "" && '' != null) {
+                $.ajax({
+                    type: "post",
+                    url: "/CN/GetDepositAmount",
+                    data: {
+                    },
+                    complete: function () {
+                    },
+                    success: function (data) {
+                        if (data.IsLoggedIn == false) {
+                            jAlert("登录超时，请重新登录", "登录超时", function () {
+                                location.reload();
+                            });
+                        } else {
+                            if (data.Success == true) {
+                                $("#checkAmount").html(data.Result + " 元");
+                                //遮罩
+                                $mask.show();
+                                //主界面
+                                $main.fadeIn();
+                            } else {
+                                jAlert(data.Result, "每日签到");
+                            }
+                        }
+                    },
+                    error: function () {
+                        alert("获取存款信息失败");
+                    }
+                });
+            } else {
+                alert("抱歉，您暂时还未登录账号，请您登录后进行签到。");
+                $("#username").focus();
+            }
+        });
+        $btn.click(function () {
+            if ($(this).hasClass('disable')) return;
+            if ('' != "" && '' != null) {
+                $.ajax({
+                    type: "post",
+                    url: "/CN/UserCheckIn",
+                    data: {
+                    },
+                    complete: function () {
+                    },
+                    success: function (data) {
+                        if (data.IsLoggedIn == false) {
+                            jAlert("登录超时，请重新登录", "登录超时", function () {
+                                location.reload();
+                            });
+                        } else {
+                            if (data.Success == true) {
+                                var num = $finish.length;
+                                $prize.eq(num).addClass('finish');
+                                $prize.eq(num).attr("title", new Date().Format("yyyy-MM-dd"));
+                                $btn.addClass('disable');
+                            } else {
+                                jAlert(data.Result, "每日签到");
+                            }
+                        }
+                    },
+                    error: function () {
+                        alert("签到失败");
+                    }
+                });
+            } else {
+                alert("抱歉，您暂时还未登录账号，请您登录后进行签到。");
+                $("#username").focus();
+            }
+        });
+
+        $close.click(function () {
+            $mask.hide();
+            //主界面
+            $main.fadeOut();
+        });
+    });
+</script>
+
+	
+	
+	
+	
+	
+	
+<style>
+	/**
+	* modal.min.css
+	* Author: Ray Xue
+	* Version: 1.0.0
+	**/
+
+	.pop-modal {
+		margin: 0px auto;
+		opacity: 0;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		top: -50%;
+		visibility: hidden;
+		width: 65%;
+		box-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+		box-sizing: border-box;
+		transition: all .4s ease-in-out;
+		-moz-transition: all .4s ease-in-out;
+		-webkit-transition: all .4s ease-in-out;
+		z-index: 1000;
+	}
+
+		.pop-modal:target {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		.pop-modal .header,
+		.pop-modal .footer {
+			border-bottom: 1px solid #e7e7e7;
+			border-radius: 5px 5px 0 0;
+		}
+
+		.pop-modal .footer {
+			border: none;
+			border-top: 1px solid #e7e7e7;
+			border-radius: 0 0 5px 5px;
+		}
+
+		.pop-modal h2 {
+			margin: 0;
+			color: #333333;
+		}
+
+		.pop-modal .btn {
+			float: right;
+		}
+
+		.pop-modal .copy,
+		.pop-modal .header,
+		.pop-modal .footer {
+			padding: 5px;
+			color: #333333;
+		}
+
+	.modal-content {
+		background: #f7f7f7;
+		position: relative;
+		z-index: 20;
+		border-radius: 5px;
+		color: #333333;
+	}
+
+	.pop-modal .copy {
+		background: #fff;
+	}
+
+	.pop-modal .overlay {
+		background-color: #000;
+		background: rgba(0, 0, 0, .8);
+		height: 100%;
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10;
+	}
+
+	.copy ul li a {
+		color: #333333;
+		text-decoration: none;
+	}
+
+
+	/* Responsive Options */
+
+
+
+	.modalcss-button {
+		/* Structure */
+		display: inline-block;
+		zoom: 1;
+		line-height: normal;
+		white-space: nowrap;
+		vertical-align: middle;
+		text-align: center;
+		cursor: pointer;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+
+		/* Firefox: Get rid of the inner focus border */
+
+		.modalcss-button::-moz-focus-inner {
+			padding: 0;
+			border: 0;
+		}
+
+	.modalcss-button {
+		font-family: inherit;
+		font-size: 100%;
+		padding: 0.5em 1em;
+		color: #444;
+		/* rgba not supported (IE 8) */
+		color: rgba(0, 0, 0, 0.80);
+		/* rgba supported */
+		border: 1px solid #999;
+		/*IE 6/7/8*/
+		border: none rgba(0, 0, 0, 0);
+		/*IE9 + everything else*/
+		background-color: #E6E6E6;
+		text-decoration: none;
+		border-radius: 2px;
+	}
+
+		.modalcss-button-hover,
+		.modalcss-button:hover,
+		.modalcss-button:focus {
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.10)));
+			background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.10));
+			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.10));
+			background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.10));
+			background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.10));
+		}
+
+		.modalcss-button:focus {
+			outline: 0;
+		}
+
+		.modalcss-button-active,
+		.modalcss-button:active {
+			box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.20) inset;
+			border-color: #000;
+		}
+
+		.modalcss-button[disabled],
+		.modalcss-button-disabled,
+		.modalcss-button-disabled:hover,
+		.modalcss-button-disabled:focus,
+		.modalcss-button-disabled:active {
+			border: none;
+			background-image: none;
+			filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+			filter: alpha(opacity=40);
+			-khtml-opacity: 0.40;
+			-moz-opacity: 0.40;
+			opacity: 0.40;
+			cursor: not-allowed;
+			box-shadow: none;
+		}
+
+	.modalcss-button-hidden {
+		display: none;
+	}
+
+
+	/* Firefox: Get rid of the inner focus border */
+
+	.modalcss-button::-moz-focus-inner {
+		padding: 0;
+		border: 0;
+	}
+
+	.modalcss-button-primary,
+	.modalcss-button-selected,
+	a.modalcss-button-primary,
+	a.modalcss-button-selected {
+		background-color: rgb(0, 120, 231);
+		color: #fff;
+	}
+
+	.button-success,
+	.button-error,
+	.button-warning,
+	.button-secondary {
+		color: white;
+		border-radius: 4px;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	}
+
+	.button-success {
+		background: rgb(28, 184, 65);
+		/* this is a green */
+	}
+
+	.button-error {
+		background: rgb(202, 60, 60);
+		/* this is a maroon */
+	}
+
+	.button-warning {
+		background: rgb(223, 117, 20);
+		/* this is an orange */
+	}
+
+	.button-secondary {
+		background: rgb(66, 184, 221);
+		/* this is a light blue */
+	}
+
+
+	/* Close Button */
+
+	.box3 {
+		width: 25px;
+		right: 0px;
+		position: absolute;
+		margin: 0;
+	}
+
+	svg {
+		display: block;
+	}
+
+	.close-x {
+		stroke: white;
+		fill: transparent;
+		stroke-linecap: round;
+		stroke-width: 5;
+	}
+
+	.winning-model {
+		width: 650px;
+		box-shadow: none;
+	}
+
+		.winning-model:target {
+			top: 100px;
+		}
+
+		.winning-model .modal-content {
+			width: 650px;
+			height: 580px;
+			background: url('../../Content/Images/bg_Winning.png') center center no-repeat;
+			box-shadow: none;
+		}
+
+		.winning-model .header {
+			padding-top: 325px;
+			border: none;
+		}
+
+			.winning-model .header .box3 {
+				right: 130px;
+				width: 30px;
+				height: 30px;
+				-moz-transition: all .5s ease;
+				-o-transition: all .5s ease;
+				-webkit-transition: all .5s ease;
+				transition: all .5s ease;
+			}
+
+				.winning-model .header .box3:hover {
+					-moz-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					-o-transform: rotate(90deg);
+					-webkit-transform: rotate(90deg);
+					transform: rotate(90deg);
+				}
+
+		.winning-model .close-x {
+			stroke: rgb(250, 250, 200);
+		}
+
+		.winning-model .copy {
+			width: 360px;
+			height: 140px;
+			margin: 80px auto 0;
+			background-color: transparent;
+			color: #000;
+			font-size: 18px;
+			line-height: 1.5em;
+			overflow-x: hidden;
+			overflow-y: scroll;
+		}
+</style>
+
+<a href="#winning-popup">
+</a>
+<div id="winning-popup" class='pop-modal winning-model' role="dialog" aria-labelledby="Modal title" aria-describedby="Modal description">
+	<div class="modal-content">
+		<div class="header">
+			<a href="#" id="close-winning-popup">
+				<div class="box box3">
+					<svg viewbox="0 0 40 40">
+						<path class="close-x" d="M 10,10 L 30,30 M 30,10 L 10,30" />
+					</svg>
+				</div>
+			</a>
+		</div>
+		<div class="copy">
+					<p>
+						恭喜河北王先生（888***500）于7月28日在NETENT平台“极乐之光”喜中65000元大奖！
+					</p>
+					<p>
+						恭喜天津陈先生（888******TR5）于7月28日在PT平台“浮冰流”喜中57,000元大奖！
+					</p>
+					<p>
+						恭喜江苏林先生（888****M57）于7月28日在NETENT平台“荒野丛林”喜中72,000元大奖！
+					</p>
+
+		</div>
+	</div>
+	<a href="#">
+		<div class="overlay"></div>
+	</a>
+</div>
+
+
+<script>
+	$(function () {
+		var count=3;
+		var url = window.location.href;
+		if (url.indexOf("#") != -1)
+			return;
+		if(count<=0)
+			return;
+
+		var isShowAlready=getCookie("showWinningNotice");
+		if(isShowAlready)
+			return;
+
+		var m = (23 - new Date().getHours()) * 60 + (60 - new Date().getMinutes());
+		setCookie("showWinningNotice", 1,m / (24 * 60));
+		window.location.href = window.location.href + "#winning-popup";
+	})
+
+</script>
+	<div id="mainNav">
+		<div class="container">
+			<div class="leftNav pull-left">
+				<ul class="quickLink">
+					<li><a href="/CN/AboutUs" target="_self">集团优势</a></li>
+					<li class="separate">&nbsp;</li>
+					<li><a href="/CN/FAQ" target="_self">如何开始游戏</a></li>
+					<li class="separate">&nbsp;</li>
+					<li><a href="/CN/FAQ#deposit" target="_self">如何存取款</a></li>
+				</ul>
+				<div class="clearfix">
+				</div>
+			</div>
+			<a href="/">
+				<div class="logo pull-left">
+				</div>
+			</a>
+			<div class="rightNav pull-right">
+				<ul class="quickLink pull-right">
+					<li><a href="http://idj520.com/" target="_blank">下载大奖登录器</a></li>
+					<li class="separate">&nbsp;</li>
+					<li>QQ:507718625</li>
+				</ul>
+				<div class="clearfix">
+				</div>
+				<div class="customer-service-bar">
+					<div class="home-800-icon" style="right: 0">
+							<a id="live800link" href="https://v88.live800.com/live800/chatClient/chatbox.jsp?companyID=17819&configID=750&jid=&" target="_blank">&nbsp;</a>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix">
+			</div>
+		</div>
+	</div>
+	<div id="subNav">
+		<div class="container">
+			<ul class="navigation clearfix">
+				<li class="button home active">
+					<a href="/" target="_self" class="buttonLink">
+					</a>
+				</li>
+				<li class="button about">
+					<a href="/CN/AboutUs" target="_self" class="buttonLink"></a>
+					<div class="listContainer">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/AboutUs" target="_self">专业资质</a></li>
+							<li class="listItem"><a href="/CN/Safe" target="_self">资金安全</a></li>
+							<li class="listItem"><a href="/CN/FAQ" target="_self">客户帮助</a></li>
+							<li class="listItem"><a href="/CN/Contact" target="_self">联系我们</a></li>
+							<li class="listItem"><a href="/CN/Notice" target="_self">最新公告</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button dealer">
+					<a href="/CN/PTGames" target="_self" class="buttonLink"></a>
+					<div class="listContainer">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/PTGames" target="_self">经典老虎机</a></li>
+							<li class="listItem"><a href="/CN/PTGames" target="_self">电动角子老虎机</a></li>
+							<li class="listItem"><a href="/CN/PTGames" target="_self">累积游戏</a></li>
+							<li class="listItem"><a href="/CN/PTGames" target="_self">深海大赢家</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button sports ">
+					<a href="/CN/BSGames" target="_self" class="buttonLink"></a>
+					<div class="listContainer">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/BSGames#slogGames" target="_self">热门老虎机</a></li>
+							<li class="listItem"><a href="/CN/BSGames#tableGames" target="_self">经典老虎机</a></li>
+							<li class="listItem"><a href="/CN/BSGames#games" target="_self">3D老虎机</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button egame">
+					<a href="/CN/HBGames" target="_self" class="buttonLink"></a>
+					<div class="listContainer">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/HBGames#glodGames" target="_self">金币奖池</a></li>
+							<li class="listItem"><a href="/CN/HBGames#slogGames" target="_self">热门推荐</a></li>
+							<li class="listItem"><a href="/CN/HBGames#games" target="_self">经典老虎机</a></li>
+							<li class="listItem"><a href="/CN/HBGames#tableGames" target="_self">特色老虎机</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button vipclub ">
+					<a href="/CN/VIPClub" target="_self" class="buttonLink"></a>
+					<div class="listContainer">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/VIPClub" target="_self">贵宾福利</a></li>
+							<li class="listItem"><a href="/CN/VIPPrivilege" target="_self">贵宾特权</a></li>
+							<li class="listItem"><a href="/CN/VIPFAQ" target="_self">常见问题</a></li>
+							<li class="listItem"><a href="/CN/VIPTerms" target="_self">规则条款</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button promotions no-sublist">
+					<a href="/CN/Promotions" target="_self" class="buttonLink"></a>
+					<!--
+						<div class="listContainer">
+							<ul class="list">
+								<li class="listItem"><a href="promotion/index.html" target="_self">优惠活动 Promotion</a></li>
+							</ul>
+						</div>
+					-->
+				</li>
+				<li class="button affiliate">
+					<a href="/CN/Affiliate" target="_self" class="buttonLink"></a>
+					<div class="listContainer" style="left:-7px;">
+						<ul class="list">
+							<li class="listItem"><a href="/CN/Affiliate" target="_self">大奖优势</a></li>
+							<li class="listItem"><a href="/CN/AffiliateCommission" target="_self"></a></li>
+							<!-- <li class="listItem"><a href="/CN/AffiliateGift" target="_self">回馈礼金 Cash Gift</a></li> -->
+							<li class="listItem"><a href="/CN/AffiliateAgreement" target="_self"></a></li>
+							<li class="listItem"><a href="/CN/AffiliateFAQ" target="_self">常见问题</a></li>
+						</ul>
+					</div>
+				</li>
+				<li class="button end"></li>
+			</ul>
+		</div>
+	</div>
+	<!-- Header End -->
+	
+
+
+<!-- Modal -->
+<!-- Endorsement Start -->
+
+
+<!--11-->
+<div id="wrapper">
+    <div class="container">
+        <div class="leftRightContent">
+            <div class="leftContent">
+                <div class="slideshowWrap">
+                    <div id="sliderLeftArrow">
+                    </div>
+                    <div id="sliderRightArrow">
+                    </div>
+                    <div id="slideshow">
+                        <div class="slides">                            
+                                    <div class="slide">
+                                        <a href="/CN/MobileIntroduction" target="_self"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-85.jpg" alt=""></a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="/CN/Promotions#vp10" target="_self"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-84.jpg" alt=""></a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="/CN/Promotions#vs8" target="_self"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-83.jpg" alt=""></a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="/CN/MobileIntroduction" target="_self"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-77.jpg" alt=""></a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="http://djportal.ptpt8.asia/" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-71.jpg" alt=""></a>
+                                    </div>
+                                    <div class="slide">
+                                        <a href="/CN/MobileIntroduction" target="_self"><img src="https://www.wdmsn.cn/Content/Images/home/slideshow-33.jpg" alt=""></a>
+                                    </div>
+
+                       </div>
+                        <div class="clearfix">
+                        </div>
+                    </div>
+                    <div class="slideDesc transparent black">
+                        <div class="slideDescLeft pull-left">
+                            <ul class="slideDescList">
+                                <li>港澳集团管理</li>
+                                <li>政府牌照监管</li>
+                                <li>专业赔率认证</li>
+                                <li>在岸离岸现金流保护</li>
+                                <li class="clearfix"></li>
+                            </ul>
+                        </div>
+                        <div class="slideDescRight pull-right">
+                            <div id="slideshowNav" class="dots"></div>
+                            <div class="clearfix">
+                            </div>
+                            <!--<div class="redArrow pull-right"><a style="color: #e4272a;" href="/CN/AboutUs">点击查看详情</a></div>-->
+                        </div>
+                        <div class="clearfix">
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightContent">
+                
+    <div class="block noBorder">
+        <a id="registrationButton" href="/Member/Register" target="_self"></a>
+    </div>
+    <div class="block">
+        <a id="freeTrialButton" href="/CN/Mobile" target="_self"></a>
+    </div>
+    <div class="block loginWrap">
+        <ul class="loginPanel">
+            <li>
+                <input type="text" placeholder="账户" name="username" id="username" onkeyup="value='888'+value.substring(3);value=value.replace(/[^a-zA-Z0-9]/g,'')" autocomplete="off" value="888" /></li>
+            <li>
+                <input type="password" placeholder="密码" name="password" id="password" autocomplete="off" /></li>
+            <li>
+                <div id="index_login" class="redArrow pull-left">
+                    <a href="javascript: void(0);" id="index_login_link">登录</a>
+                </div>
+                <div id="index_login_loader" class="pull-left" style="color: Red; display: none;">
+                    <img src="https://www.wdmsn.cn/Content/Images/ajax-loader.gif" style="vertical-align: baseline;" alt="" />
+                    
+                </div>
+                <div class="forgot pull-right">
+                    <a href="/Member/ForgetPassword" target="_self">忘记密码</a>
+                </div>
+                <div class="clearfix">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+                <a href="/CN/PTGames">
+                    <div class="block downloadClient">
+                        <script type="text/javascript" language="javascript">
+    $(document).ready(function () {
+
+        getJackpot();
+
+        function getJackpot() {
+            $.ajax({
+                type: "post",
+                url: "/CN/GetJackpot",
+                data: {
+                    name: "Home"
+                },
+                beforeSend: function () {
+                },
+                complete: function () {
+                    setTimeout(getJackpot, 60000);
+                },
+                success: function (data) {
+                    if (data.Result == true) {
+                        $("#showAmount").html("¥" + data.Amount);
+                    }
+                },
+                error: function () {
+                }
+            });
+        }
+    });
+</script>
+    <input type="text" id= "submit" style="display: none"/>
+        <span id="showAmount">¥511,015,320.88</span>
+
+
+
+
+
+                    </div>
+                </a>
+            </div>
+            <div class="clearfix">
+            </div>
+        </div>
+
+        <ul class="zoneBtn horizontalList clearfix">
+            <div class="transparent black overlay"></div>
+            <li class="subGameMenu">
+                <a href="/CN/PTGames" class="subGameMenuItem">PT老虎机</a>
+                <div class="hoverContent">
+                    <img src="https://www.wdmsn.cn/Content/Images/home/hover-1.jpg" alt="" />
+                    <div class="btnGroup transparent black">
+                            <a style="width:auto; float:left;" href="/Member/Register"><span class="redArrow pull-left">免费开户</span></a>
+                        <a style="width:auto; display:inline-block;" href="/CN/Mobile" target="_self"><span class="redArrow pull-left">下载客户端</span></a>
+                        <div class="clearfix">
+                        </div>
+                    </div>
+                </div>
+            </li>
+			<li class="subGameMenu">
+                <a href="/CN/BSGames" class="subGameMenuItem">BS老虎机</a>
+                 <div class="hoverContent">
+                    <img src="https://www.wdmsn.cn/Content/Images/home/hover-6.jpg" alt="" style="width:248px;height:150px;"/>
+                    <div class="btnGroup transparent black">
+                            <a href="/Member/Register"><span class="redArrow pull-left">免费开户</span></a>
+						<a href="/CN/BSGames" target="_self"><span class="redArrow pull-right">详细介绍</span></a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="subGameMenu">
+                <a href="/CN/HBGames" class="subGameMenuItem">HB老虎机</a>
+                <div class="hoverContent">
+                    <img src="https://www.wdmsn.cn/Content/Images/home/hover-7.jpg" alt="" />
+                    <div class="btnGroup transparent black">
+                            <a href="/Member/Register"><span class="redArrow pull-left">免费开户</span></a>
+                        <a href="/CN/GDIntro" target="_self"><span class="redArrow pull-right">详细介绍</span></a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </li>
+            <li class="subGameMenu borderLeft">
+                <img src="https://www.wdmsn.cn/Content/Images/home/moble.png" style="position:absolute;height:30px;left:62px;top:15px;"/>
+                <a href="/CN/MobileIntroduction" class="subGameMenuItem subGameMenuLast">手机投注</a>
+                <div class="hoverContent">
+                    <img src="https://www.wdmsn.cn/Content/Images/home/hover-3.jpg" alt="" />
+                    <div class="btnGroup transparent black">
+                            <a href="/Member/Register"><span class="redArrow pull-left">免费开户</span></a>
+                        <a href="/CN/AGIntro" target="_self"><span class="redArrow pull-right">详细介绍</span></a>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="homeFourButton">
+            <div class="gameIntro pull-left">
+                <a href="/CN/FAQ#intro" target="_self"></a>
+            </div>
+            <div class="saveMoney pull-left">
+                <a href="/CN/FAQ#deposit" target="_self"></a>
+            </div>
+            <div class="getMoney pull-left">
+                <a href="/CN/FAQ#withdraw" target="_self"></a>
+            </div>
+            <div class="faq pull-left">
+                <a href="/CN/FAQ#faq" target="_self"></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div class="entertainment">
+            <!-- <div class="leftBtn"></div> -->
+            <!-- <div class="rightBtn"></div> -->
+            <div class="title">
+                <a href="javascript:void(0)" style="cursor:default"></a>
+            </div>
+            
+            <div class="content">
+                <div class="contentContain">
+                    <div class="col highlight">
+                        <div class="img">
+                            <a href="/CN/PTGames">
+                                <img src="https://www.wdmsn.cn/Content/Images/home/entertainment-7.jpg" alt="">
+                            </a>
+                            <a href="/CN/Mobile"><div class="downloadClientButton"></div></a>
+                        </div>
+                        <div class="desc">
+                            <div style="font-size: 18px;margin-bottom:10px;">PT老虎机</div>
+                            <div class="sub">
+                                千万元奖池<br />老虎机第一品牌</div>
+                            <div class="details">
+                                    <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <span class="redArrow"><a href="/CN/Mobile">下载客户端</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="col">
+                        <div class="img">
+                            <a href="/CN/BSGames">
+                                <img src="https://www.wdmsn.cn/Content/Images/home/entertainment-3.jpg" alt=""></a></div>
+                        <div class="desc">
+                            <div style="font-size: 18px;margin-bottom:10px;">BS老虎机</div>
+                            <div class="sub">
+                                3D老虎机王者<br />强势入驻大奖</div>
+                            <div class="details">
+                                    <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <a href="/CN/HBGames">
+                                <img src="https://www.wdmsn.cn/Content/Images/home/entertainment-1.jpg" alt=""></a></div>
+                        <div class="desc">
+                            <div style="font-size: 18px;margin-bottom:10px;">HB老虎机</div>
+                            <div class="sub">
+                                特色玩法老虎机<br />经典觉醒</div>
+                            <div class="details">
+                                    <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-187 end">
+                        <div class="img">
+                            <a href="/cn/aggames" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/home/entertainment-5.jpg" alt=""></a></div>
+                        <div class="desc">
+                            <div style="font-size: 18px;margin-bottom:10px;">AG捕鱼王</div>
+                            <div class="sub">最强线上捕鱼<br />引领视觉盛宴</div>
+                            <div class="details">
+                                <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <a href="/CN/AGIntro"><img src="https://www.wdmsn.cn/Content/Images/home/entertainment-3.jpg" alt=""></a></div>
+                        <div class="desc">
+                            <div class="main">
+                                澳门厅 - AG旗舰厅</div>
+                            <div class="sub">
+                                百万限红迎天下豪客</div>
+                            <div class="details">
+                                    <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="img">
+                            <a href="/CN/GDIntro"><img src="https://www.wdmsn.cn/Content/Images/home/entertainment-6.jpg" alt=""></a></div>
+                        <div class="desc">
+                            <div class="main">
+                                广东厅 - AG实地厅</div>
+                            <div class="sub">
+                                真实再现陆地赌场实景</div>
+                            <div class="details">
+                                    <span class="redArrow"><a href="/Member/Register" target="_blank">免费开户</a></span>
+                                <div class="clearfix">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="float" style="background: rgba(0,0,0,0.7); height: 240px; width:350px; position: fixed; left: 10px; bottom: -215px; color: #fff; z-index: 999; border-radius: 5px; display: none;">
+    <div style="margin: 20px;">
+        <h5 id="reminder-title"></h5>
+        <div id="reminder-content" style="background:rgba(255,255,255,0.2); font-size: 12px;">
+                       
+        </div>
+    </div>
+    <input class="wap_close" style="background-color: #dfaf47; width: 80px; height: 30px; border-style: none;margin-left: 128px; border-radius: 3px;" type="button" value="关闭" />
+</div>
+
+	<div class="qr-code">
+		<img src="https://www.wdmsn.cn/Content/Images/mobile/introduction/qrCodept.png">
+		<div style="height: 90px;width: 90px;margin-left: 11px;margin-top: -121px;position:absolute;overflow: hidden;">
+			<img src="https://chart.googleapis.com/chart?cht=qr&amp;chs=131x131&amp;choe=UTF-8&amp;chld=L|4&amp;chl=m.idj168.com/home/index" style="margin-left:-20px;margin-top:-20px;">
+		</div>
+		<a class="qr-close" href="javascript:;">关闭</a>
+	</div>
+	<div class="fishingEntrance" style="z-index:997;">
+		<div class="entranceCommonTips" id="toolTips" style="display:none;">
+			<p id="mascotTips">温馨提示：申请优惠红利后，请勿进行捕鱼游戏。</p>
+			<span class="arrow"></span>
+		</div>
+		<a href="/cn/allfishgames" id="signStart" target="_blank" class="fishingStart" onmouseover="$('#toolTips').show();" onmouseout="$('#toolTips').hide();"></a>
+	</div>
+	
+
+    <style>
+        .phone-verify-modal {
+            width: 580px;
+            box-shadow: none;
+            background-color: transparent;
+            border: 0px;
+            top: 200px;
+        }
+
+            .phone-verify-modal:target {
+                top: 100px;
+            }
+
+            .phone-verify-modal .modal-content {
+                width: 580px;
+                height: 700px;
+                overflow-x: hidden;
+                overflow-y: hidden;
+                background: url('../../Content/Images/bg_phone_verify.png') center center no-repeat;
+                box-shadow: none;
+            }
+
+            .phone-verify-modal .header {
+                padding-top: 325px;
+                border: none;
+            }
+
+            .phone-verify-modal .phone-verify-modal-body {
+                width: 510px;
+                height: 385px;
+                margin: 120px auto 0;
+                /*background-color: blue;*/
+                /* background-color: transparent; */
+                color: #000;
+                font-size: 16px;
+                line-height: 1.5em;
+                overflow-x: hidden;
+                max-height: 400px;
+            }
+
+                .phone-verify-modal .phone-verify-modal-body table td {
+                    padding: 5px;
+                }
+
+            .phone-verify-modal .phone-verify-modal-footer {
+                text-align: center;
+                margin-top: 35px;
+            }
+
+                .phone-verify-modal .phone-verify-modal-footer img {
+                    width: 170px;
+                    height: 40px;
+                }
+
+            .phone-verify-modal table tr td, .phone-verify-modal table tr th {
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .phone-verify-modal ol li {
+                margin-top: 7px;
+                margin-bottom: 7px;
+                margin-left: 5px;
+                line-height: 23px;
+            }
+
+        .horizontalList {
+            padding: 0;
+            list-style: none;
+        }
+    </style>
+
+    <div id="phone-verify-popup" class="modal fade phone-verify-modal" role="dialog" style="top: 40%;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="height: 36px; border: 0">
+                    <a href="#" id="close-phone-verify-popup" data-dismiss="modal">
+                        <img src="../../Content/Images/bg_phone_verify_close.png" style="float: right; margin-top: 90px; margin-right: 15px;">
+
+                    </a>
+                </div>
+                <div class="modal-body phone-verify-modal-body">
+                    <table class="table table-bordered">
+                        <thead> <tr> <th>星级分部</th> <th>奖金</th> <th>提款上限</th> <th>流水要求</th> </tr> </thead>
+                        <tbody>
+                            <tr>  <td rowspan="2">1</td> <td>HB雷鸟8次免费旋转</td> <td>120元</td>  <td>10倍</td> </tr>
+                            <tr>  <td>8 元</td>  <td rowspan="5">无</td> <td rowspan="5">18倍</td> </tr>
+                            <tr>  <td>2</td> <td>38 元</td> </tr>
+                            <tr>  <td>3</td> <td>128 元</td> </tr>
+                            <tr>  <td>4</td> <td>288 元</td> </tr>
+                            <tr>  <td>5</td> <td>588 元</td> </tr>
+                        </tbody>
+                    </table>
+                    申请方式<br />
+                    <span style="margin-left: 5px;">会员登录账号后在会员中心—修改资料处进行手机验证即可获得奖励</span><br /><br />
+
+                    优惠细则<br />
+                    <ol>
+                        <li>会员手机验证成功后系统自动派发对应星级奖励；</li>
+                        <li>1星会员免费旋转奖励将于手机验证成功后次日16点前发放，如遇节假日奖励将顺延至下个工作日发放(注：免费旋转派发至账号4天后过期);</li>
+                        <li>免费游戏需完成奖金的10倍流水即可取款，最高取款上限为120元；</li>
+                        <li>同一账号或同一手机号只可验证一次，不可以重复验证；</li>
+                        <li>每天同一账号或同一手机号码只能提交5次；</li>
+                        <li>本优惠只适用于老虎机游戏，完成流水要求即可申请提款，投注其他游戏为无效流水；</li>
+                        <li>大奖有权延长、缩短或修改本活动；</li>
+                        <li>本活动适用大奖娱乐优惠通用条款。</li>
+                    </ol>
+                </div>
+                <div class="modal-body phone-verify-modal-footer">
+                    <a href="/Member/InfoVerifyPhone">
+                        <img src="../../Content/Images/bg_phone_verify_button.png" width="170" height="40">
+                    </a>
+                </div>
+            </div>
+            <a href="#">
+                <div class="overlay"></div>
+            </a>
+        </div>
+    </div>
+
+        <script>
+            $(function () {
+                $("#phone-verify-popup").remove();
+            });
+        </script>
+
+	<!-- Footer Start -->
+	<div id="footer">
+		<div class="container">
+			<ul class="browser quickLink clearfix">
+				<li>官方推荐浏览器</li>
+				<li><a href="http://windows.microsoft.com/zh-HK/internet-explorer/download-ie" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_10.png" alt=""><span class="desc">V.9</span></a></li>
+				<li><a href="http://browser.qq.com/index_m.html" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_12.png" alt=""><span class="desc">V.7</span></a></li>
+				<li class="separate"><a href="http://mozilla.com.tw/firefox/new/" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_01.png" alt=""><span class="desc">V.15</span></a></li>
+				<li class="separate"><a href="http://cdn.chaofan88.com/flashsetup8.exe" target="_blank"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_03.png" alt=""><span class="desc">V.10</span></a></li>
+				<li class="separate"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_04.png" alt=""><span class="desc">1024x768</span></li>
+				<li class="lessMargin"><a href="#" target="_self"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_05.png" alt=""></a></li>
+				<li class="lessMargin"><a href="#" target="_self"><img src="https://www.wdmsn.cn/Content/Images/footer/browser_social/bs_11.png" alt=""></a></li>
+			</ul>
+			<ul class="footerLogoWrap horizontalList clearfix">
+				<li>
+					<div class="logoTitle">政府牌照</div>
+					<!-- <div class="lineBlock"></div> -->
+					<ul class="footerLogo horizontalList">
+						<li>
+							<a href="javascript:void(0)">
+								<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_1.png" alt="" />
+								<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_1_hover.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">
+								<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_8.png" alt="" />
+								<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_8_hover.png" alt="" />
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="split">&nbsp;</li>
+				<li>
+					<div class="logoTitle">合作伙伴</div>
+					<!-- <div class="lineBlock"></div> -->
+					<ul class="footerLogo horizontalList">
+						<li>
+							<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_2.png" alt="" />
+							<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_2_hover.png" alt="" />
+						</li>
+						<li>
+							<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_3.png" alt="" />
+							<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_3_hover.png" alt="" />
+						</li>
+					</ul>
+				</li>
+				<li class="split">&nbsp;</li>
+				<li>
+					<div class="logoTitle">认证</div>
+					<!-- <div class="lineBlock"></div> -->
+					<ul class="footerLogo horizontalList">
+						<li>
+							<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_5.png" alt="" />
+							<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_5_hover.png" alt="" />
+						</li>
+						<li>
+							<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_6.png" alt="" />
+							<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_6_hover.png" alt="" />
+						</li>
+						<li>
+							<img class="normal" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_7.png" alt="" />
+							<img class="hover" src="https://www.wdmsn.cn/Content/Images/footer/logo/logo_7_hover.png" alt="" />
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="footerMenu quickLink" style="font-size:12px;">
+				<li><a href="/CN/AboutUs" target="_self">关于我们</a></li>
+				<li class="separate">|</li>
+				<li><a href="/CN/FAQ#faq" target="_self">常见问题</a></li>
+				<li class="separate">|</li>
+				<li><a href="/CN/Affiliate" target="_self">加盟合作</a></li>
+				<li class="separate">|</li>
+				<li><a href="/CN/Contact" target="_self">联系我们</a></li>
+				<li class="separate">|</li>
+				<li><a href="/CN/Duty" target="_self">隱私保护</a></li>
+				<!-- <li class="separate">|</li> -->
+				<!-- <li><a href="quicklink/sitemap.html" target="_self">网站地图</a></li> -->
+			</ul>
+			<div class="allRightReserved" style="font-size:12px;">
+				大奖娱乐官方网站 Copyright © 2010-2017 ptpt8 Online Game. All rights reserved.
+			</div>
+		</div>
+	</div>
+	<!--[if lt IE 7]>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('ul.navigation .button').hover(function () {
+				$(this).children('.listContainer').show();
+			}, function () {
+				$(this).children('.listContainer').hide();
+			});
+		});
+	</script>
+	<![endif]-->
+	<script>
+		$(function () {
+			$('.qr-code .qr-close').click(function () {
+				$(this).parent().hide();
+			});
+		});
+	</script>
+        <!-- Live800默认跟踪代码: 开始
+        <script language="javascript" src="http://v88.live800.com/live800/chatClient/monitor.js?companyID=17819&configID=747&codeType=custom"></script>-->
+		<!-- Live800默认跟踪代码: 结束-->
+    <!-- Google Analytics -->
+    <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-79843029-1', 'auto');
+            ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    
+    
+    
+</body>
+</html>

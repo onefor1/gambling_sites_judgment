@@ -1,0 +1,1292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>澳门银河</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="澳门银河|澳门银河官网|银河国际|澳门银河有限公司">
+<meta name="description" content="澳门银河有限公司为您提供银娱一系列线上游戏。全方位服务，诚信、共赢、欢乐带给每位尊贵的客户。">
+ 
+<link rel="shortcut icon" href="/yhh/favicon.ico?v=1">
+ 
+<link rel="stylesheet" type="text/css" href="/css/agent/tooltip.css">
+<link rel="stylesheet" type="text/css" href="/css/agent/jquery-ui.min.css"/>
+<link rel="stylesheet" type="text/css" href="/yhh/css/Stylespage.css?v=1.1">
+<link rel="stylesheet" type="text/css" href="/yhh/css/layer.css" id="skinlayercss">
+<link rel="stylesheet" type="text/css" href="/yhh/css/preferential_box.css">
+<link rel="stylesheet" type="text/css" href="/css/www/custom.css?v=1.08">
+<link href="/plugins/sweetalert.css?20170428102" rel="stylesheet"/>
+ 
+ 
+<script src="/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="/js/www/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/www/jquery.cookie.js"></script>
+<script type="text/javascript" src="/yhh/js/Incapsula_Resource.js?v=1.0"></script>
+<script type="text/javascript" src="/yhh/js/layer.js?v=1"></script>
+<script type="text/javascript" src="/yhh/js/Scriptspage.js?v=5"></script>
+<script type="text/javascript" src="/yhh/js/dt.js?v=2.36"></script>
+<script type="text/javascript" src="/yhh/js/artDialog.js"></script>
+<script type="text/javascript" src="/js/www/Util.js?v=1.7" type="text/javascript"></script>
+<script type="text/javascript" src="/js/www/main.js"></script>
+<script src="/plugins/sweetalert.min.js?201704281007" type="text/javascript"></script>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<style>.float-left-bg{display:block;}.bar2{transition-duration:0.5s;}.index-marquee{padding-top:11px;position:absolute;}</style>
+<style>.denglu_tc{font-family:'Helvetica Neue',arial,'Microsoft Yahei','微软雅黑','Hiragino Sans GB';position:fixed;z-index:999999999;display:none;overflow:hidden;overflow-x:hidden;overflow-y:auto;width:653px;max-height:100%;color:#999;background:#fff;}.denglu_tc .denglu_tc_tit{line-height:66px;height:68px;padding:0 30px 0 30px;}.denglu_tc .zhuce{padding:20px 40px 30px 40px;}.denglu_tc .loginbox{line-height:28px;}.baibg{position:fixed;z-index:99999999;top:0;left:0;width:100%;height:100%;opacity:.64;background:#000;filter:alpha(opacity=64);}.loginbox .ibtn{line-height:28px;height:28px;padding:0 10px;cursor:pointer;color:#fff;border:0;outline:none;background:#7e7ef6;}.icon-zhaohui{width:25px;height:29px;margin-top:-3px;margin-right:8px;background-position:-124px -3px;}.icon{display:inline-block;vertical-align:middle;background-image:url(/yhh1/images/login.png);background-repeat:no-repeat;}.icon-close{width:17px;height:16px;background-position:-8px -143px;}.denglu_tc_tit p{font-size:18px;line-height:66px;float:right;padding-top:27px;padding-right:10px;}.f-l{float:left;}</style>
+</head>
+<body>
+ 
+ 
+<!--[if lt IE 9]>
+<div class="browser fullwidth">
+    <div class="browser-center container">
+    系统检测到您浏览器版本太低，黑客容易利用其植入木马或病毒，从而对您的游戏体验和资金管理构成威胁。建议您下载&nbsp;<a href="http://chrome.360.cn/" target="_blank" class="brow">360极速浏览器</a>，并保持打开右上角
+        <span>极速模式</span>
+        <div class="closed">关闭</div>
+    </div>
+</div>
+<![endif]-->
+ 
+<div class="header">
+<div class="head_top">
+<div class="container">
+<div class="left">
+<span class="min_logo"></span>
+ 
+澳门银河
+ 
+</div>
+<div class="right">
+<div class="login-info">
+<a href="/login" class="login-Link" style="margin-right:10px;">登陆</a>
+<a href="/signup">注册</a>
+ 
+</div>
+<div class="Language">
+<span id="Language">
+<span class="chinese"></span>简体
+</span>
+<span class="arrow"></span>
+<ul class="Language_Ul">
+<li class="sel sel_jf lang_j" onclick="StranBody()">
+<span class="chinese"></span>简体
+</li>
+<li class="sel sel_jf lang_f" onclick="StranBody()">
+<span class="taiwan"></span>繁体
+</li>
+<li>
+<span class="engligsh"></span>English
+</li>
+</ul>
+ 
+ 
+ 
+</div>
+<a href="javascript:void(0);" onclick="AddFavorite(window.location,document.title)" class="collection">收藏本站</a>
+<a href="/download" class="color-fff" style="margin-right: 15px;"><span class="homeimg"></span>手机</a>
+<a href="//www.11878.com" class="color-fff">导航页</a>
+</div>
+</div>
+</div>
+<div class="container head_bd clear">
+<a href="/">
+<img src="/yhh/images/logo.png?v=20161205" class="logo">
+</a>
+<img src="/yhh/images/slogan.gif?v=2.5" class="slogan" style="left: 216px;">
+ 
+<div class="tips fontst">
+<a href="/help?tab=8" target="help">【新手指南】一分钟教您玩转银河！</a>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="fullwidth navbg">
+<div class="head-v3">
+<div class="navigation-up">
+<div class="navigation-inner">
+<div class="navigation-v3">
+<ul>
+<li class="" _t_nav="index">
+                    <h2>
+                        <a href="/index">首页</a>
+                    </h2>
+                </li>
+
+                <li class="" _t_nav="casino">
+                    <h2>
+                        <a href="/casino">娱乐场</a>
+                    </h2>
+                    <span></span>
+                </li>
+
+                <li class="" _t_nav="slot">
+                    <h2>
+                        <a href="/egame/MG2">电子游艺</a>
+                    </h2>
+                </li>
+                <li _t_nav="ptslot">
+                    <h2>
+                        <a href="/egame/PT2">PT老虎机</a>
+                    </h2>
+                </li>
+                <li class="" _t_nav="sport">
+                    <h2>
+                        <a href="/sport/T188" >188体育</a>
+                    </h2>
+                </li>
+                <li class="" _t_nav="lottery">
+                    <h2>
+                        <a href="/lottery">彩票区</a>
+                    </h2>
+                </li>
+                        <li _t_nav="mobile">
+                  <h2>
+                    <a href="/download">手机投注</a>
+                  </h2>
+                </li>
+                        <li _t_nav="promo">
+                  <h2>
+                    <a href="/promotion">优惠活动</a>
+                  </h2>
+                            <span></span>
+                </li>
+                        <li _t_nav="proxy">
+                  <h2>
+                    <a href="/agent/index">代理合作</a>
+                  </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="navigation-down">
+          <div id="casino" class="nav-down-menu sport_w1" style="display: none;" _t_nav="casino">
+            <div class="sport_i">
+                    <ul>
+                    																<li>
+								<a href="javascript:void(0);" class="ag" onclick="Util.loadGame('AG','17022');">AG 女优厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="ag" onclick="Util.loadGame('AG','17038');">AG 极速厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="mg2" onclick="Util.loadGame('MG2','22000');">MG2 欧美厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="allbet" onclick="Util.loadGame('ALLBET','17020');">欧博厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="bbin" onclick="Util.loadGame('BBIN','17023');">BBIN 旗舰厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="hg" onclick="Util.loadGame('HG','17063');">HG 厅</a>
+								</li>
+															<li>
+								<a href="javascript:void(0);" class="pt2" onclick="Util.loadGame('PT2','17035');">PT 厅</a>
+								</li>
+													                    </ul>
+              <span class="i600">澳门银河娱乐场</span>
+            </div>
+          </div>
+
+
+          <div id="slot" class="nav-down-menu sport_w2" style="left:100px;display: none;" _t_nav="slot">
+            <div class="sport_i">
+                    <ul>
+                                                                                
+                            <li>
+                                <a href="/egame/PT2" class="pt2">PT电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/MG2" class="mg2">MG2 电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/BBIN" class="bbin">BBIN电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/QT" class="qt">QT电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/NT" class="nt">NT电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/HB" class="hb">HB电子</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/AG" class="ag">AG捕鱼王</a>
+                            </li>
+                                                        
+                            <li>
+                                <a href="/egame/XIN" class="xin">XIN电子</a>
+                            </li>
+                                                                                <li>
+                                <a href="javascript:void(0)" onclick="Util.loadGame('AG','1180');" class="ag">AG捕鱼王</a>
+                            </li>
+                    </ul>
+              <span class="i600">澳门银河电子游艺</span>
+            </div>
+          </div>
+          <div class="navigation-down">
+          <div id="casino" class="nav-down-menu sport_w1" style="display: none;" _t_nav="casino">
+            <div class="sport_i">
+                    <ul>
+                                                                                    <li>
+                                <a href="javascript:void(0);" class="ag" onclick="Util.loadGame('AG','17022');">AG 女优厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="ag" onclick="Util.loadGame('AG','17038');">AG 极速厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="mg2" onclick="Util.loadGame('MG2','22000');">MG2 欧美厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="allbet" onclick="Util.loadGame('ALLBET','17020');">欧博厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="bbin" onclick="Util.loadGame('BBIN','17023');">BBIN 旗舰厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="hg" onclick="Util.loadGame('HG','17063');">HG 厅</a>
+                                </li>
+                                                            <li>
+                                <a href="javascript:void(0);" class="pt2" onclick="Util.loadGame('PT2','17035');">PT 厅</a>
+                                </li>
+                                                                        </ul>
+              <span class="i600">澳门银河娱乐场</span>
+            </div>
+          </div>
+
+          <!-- 体育 -->
+          <div id="sport" class="nav-down-menu sport_w2" style="left:100px;display: none;" _t_nav="sport">
+            <div class="sport_i">
+                    <ul>
+                                                         
+                                               
+                            <li>
+                                <a href="/sport/BBIN/22501" class="bbin">BBIN new体育</a>
+                            </li>
+                                 
+                                                                 
+                                               
+                            <li>
+                                <a href="/sport/SB/17152" class="sb">沙巴体育</a>
+                            </li>
+                                 
+                                               
+                            <li>
+                                <a href="/sport/BBIN/18172" class="bbin">BBIN 体育</a>
+                            </li>
+                                                                        </ul>
+              <span class="i600">澳门银河电子游艺</span>
+            </div>
+          </div>
+          <!-- 体育 -->
+        </div>
+    </div>        
+</div>
+<!--导航栏 End-->
+<!-- header 结束-->
+    <body>
+	<div id="msg01" style="margin-top: 288px;position: fixed;z-index: 999;display: block;">
+  	<div style="position: absolute;">
+  		<button id="close" style="margin-left: 142px;margin-top: 7px;width: 20px;height: 20px;">X</button>
+  	</div>
+	<a href="http://11878hb.com/Web/Packet/Main#" target="_blank"><img src="yhh/red.png" style="width: 200px;"></a>
+	</div>
+    <div class="" style="display: none; position: absolute;">
+        <div class="aui_outer">
+            <table class="aui_border">
+                <tbody>
+                    <tr>
+                        <td class="aui_nw"></td>
+                        <td class="aui_n"></td>
+                        <td class="aui_ne"></td>
+                    </tr>
+                    <tr>
+                        <td class="aui_w"></td>
+                        <td class="aui_c">
+                            <div class="aui_inner">
+                                <table class="aui_dialog">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2" class="aui_header">
+                                                <div class="aui_titleBar">
+                                                    <div class="aui_title" style="cursor: move; display: block;"></div>
+                                                    <a class="aui_close" href="javascript:/*artDialog*/;" style="display: block;">×</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="aui_icon" style="display: none;">
+                                                <div class="aui_iconBg" style="background: none;"></div>
+                                            </td>
+                                            <td class="aui_main" style="width: auto; height: auto;">
+                                                <div class="aui_content" style="padding: 20px 25px;"></div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="aui_footer">
+                                                <div class="aui_buttons" style="display: none;"></div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                        <td class="aui_e"></td>
+                    </tr>
+                    <tr>
+                        <td class="aui_sw"></td>
+                        <td class="aui_s"></td>
+                        <td class="aui_se" style="cursor: se-resize;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<input type="hidden" value="http://img.3680358.com/" id="hiddenImageServer">
+<!--幻灯片start-->
+<div class="fullwidth Banner">
+    <ul class="Banner_Ul left" style="position: relative; width: 100%; height: 395px;">
+                        <li style="position: absolute; width: 100%; left: 0px; top: 0px; display: block;">
+            <a href="http://www.yh277888.com/promotion#" >
+                <img src="/common/storage/cms/cms_26.png?v=1491649253">
+            </a> 
+        </li>
+                <li style="position: absolute; width: 100%; left: 0px; top: 0px; display: block;">
+            <a href="/promotion" >
+                <img src="/common/storage/cms/cms_2.jpg?v=1501160200">
+            </a> 
+        </li>
+                <li style="position: absolute; width: 100%; left: 0px; top: 0px; display: block;">
+            <a href="/promotion" >
+                <img src="/common/storage/cms/cms_3.png?v=1489636199">
+            </a> 
+        </li>
+                    </ul>
+    <div class="container Banner_div">
+        <a href="javascript:void(0)" class="prev"></a>
+        <a href="javascript:void(0)" class="next"></a>
+        <div class="num">
+            <ul><li class="on"><a></a></li><li class=""><a></a></li><li class=""><a></a></li><li class=""><a></a></li><li class=""><a></a></li><li class=""><a></a></li></ul>
+        </div>            
+        <div class="login_div1">
+        </div>
+        <!-- 登录前 -->
+<div class="Login_Div fontst">
+	<form action="/login_action" method="post" class="">
+	<div align="center" class="mt10">
+	    <img src="/yhh/images/login_logo.png">
+	</div>
+    <div class="mt10 input_div">
+        <span>帐号</span>&nbsp;|
+        <input type="text" class="userInput" name="fr_username" id="fr_username" placeholder="用户名">
+    </div>
+    <div class="input_div">
+        <span>密码</span>&nbsp;|
+        <input type="password" class="userInput" name="fr_password" id="fr_password" placeholder="请输入密码">
+    </div>
+        <div class="clear loginTips">
+        <div class="left">
+            
+        </div>
+        <div class="right">
+            <a href="javascript:void(0);" class="color_39c" onclick="tanchu('#zhaohui1')">忘记密码？</a>
+        </div>
+    </div>
+    <div class="clear">
+        <input type="submit" class="LoginBtn" value="登录" />
+        <a href="/signup" class="AccountBtn" target="_blank">免费开户</a>
+    </div>
+    </form>
+</div>
+<script>
+$('#gdcode_img').click(function(){
+    this.src = '/gdcode.jpg?_='+Math.random();
+});
+$(document).ready(function(){
+    $('#gdcode_img').attr('src','/gdcode.jpg?_='+Math.random());
+})
+</script>
+<!-- 登录前 - END  -->
+  </div>
+</div>
+<!--幻灯片 End-->
+<div class="fullwidth Index_Box">
+    <div class="container">
+        <!--精品推荐 start-->
+        <div class="Recommend">
+            <div class="Recommend_titlet">
+              <div class="Recommend_title">
+                <span class="Recommend_titsp"></span>
+                  <div class="right newsDiv" style="width:800px;">
+                  <span class="newsImg left"></span><span class="more left">公告详情滚动：</span>
+                      <marquee class="index-marquee" scrollamount="4" onmouseover="stop();" onmouseout="start();">
+                          <ul id="ele-Notices">
+                                                            <li>您好，尊敬的会员！现我司在线微信支付全面优化【最低存款51.1元,最高无上限】更新哦，方便客户更快捷更方便的进行存款哦。谢谢您的支持与理解！</li>
+                                                      </ul>
+                      </marquee>
+                  </div>  
+              </div>
+            </div>
+            <div class="Recommend_bd">
+                <div class="div330 fl m5">
+                    <div class="Recommend_div w163 h163 m4 third-effect">
+                        <img src="/yhh/images/icon-04.png">
+                        <span class="bbin">BBIN 旗舰厅<br><i>4729人在玩</i></span>
+                        <div class="mask w163 h163">
+                                                <a class="info"  href="javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600)" >进入游戏</a>
+                                                    <!-- <a href="javascript:void(0);" onclick="load_game_link('BBIN', 'casino', '');" class="info" title="进入游戏">进入游戏</a> -->
+                        </div>
+                    </div>
+                    <div class="Recommend_div w163 h163 third-effect">
+                        <img src="/yhh/images/icon-06.png">
+                        <span class="pt">MG老虎机<br><i>4573人在玩</i></span>
+                        <div class="mask w163 h163">
+                            <!-- <a href="/slot" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info" href=" javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600) ">进入游戏</a>
+                        </div>
+                    </div>                    
+                    <div class="Recommend_div w330 h163 third-effect">
+                        <img src="/yhh/images/icon-05.png">
+                        <span class="ag">PT老虎机&nbsp;<i>4757人在玩</i></span>
+                        <div class="mask w330 h163">
+                            <!-- <a href="javascript:void(0);" onclick="load_game_link('PT', 'slot', '');" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info" href=" javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600) ">进入游戏</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div330 fl m5">  
+                                        <div class="Recommend_div w330 h163 third-effect">
+                        <img src="/yhh/images/icon-11.png">
+                        <span class="ag"><!-- 银河厅.AG&nbsp; -->AG 极速厅<i>4681人在玩</i></span>
+                        <div class="mask w330 h163">
+                            <!-- <a href="javascript:void(0);" onclick="load_game_link('AG', 'casino', '');" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info"  href="javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600)" >进入游戏</a>
+                        </div>
+                    </div>
+                                        <div class="Recommend_div w163 h163 m4 third-effect">
+                        <img src="/yhh/images/icon-13.png">
+                        <span class="ty2">188体育<br><i>4643人在玩</i></span>
+                        <div class="mask w163 h163">
+                            <!-- <a href="/sport.html?game=T188" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info" href=" javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600) ">进入游戏</a>
+                        </div>
+                    </div>
+                    <div class="Recommend_div w163 h163 third-effect">
+                        <img src="/yhh/images/icon-14.png">
+                        <span class="pt">澳洲厅.PT<br><i>3142人在玩</i></span>
+                        <div class="mask w163 h163">
+                            <a href="javascript:void(0);" onclick="Util.loadGame('PT2','17035');" class="info" title="进入游戏">进入游戏</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div330 fl">
+                                        <div class="Recommend_div w163 h163 m4 third-effect">
+                        <img src="/yhh/images/icon-08.png">
+                        <span class="gd"><!-- 美洲厅.MG --><br><i>4560人在玩</i></span>
+                        <div class="mask w163 h163">
+                            <!-- <a href="javascript:void(0);" onclick="load_game_link('MG', 'casino', '');" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info"  href="javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600)" >进入游戏</a>
+                        </div>
+                    </div>
+                                                            <div class="Recommend_div w163 h163 third-effect">
+                        <img src="/yhh/images/icon-10.png">
+                        <span class="gd"><!-- 澳门厅.HG -->HG 厅<br><i>4113人在玩</i></span>
+                        <div class="mask w163 h163">
+                            <!-- <a href="javascript:void(0);" onclick="load_game_link('HG', 'casino', '');" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info"  href="javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600)" >进入游戏</a>
+                        </div>
+                    </div>
+                                        <div class="Recommend_div w330 h163 third-effect">
+                        <img src="/yhh/images/icon-12.png">
+                        <span class="ty"><!-- 快乐彩&nbsp;时时彩&nbsp; -->&nbsp;时时彩&nbsp;<i>3229人在玩</i></span>
+                        <div class="mask w330 h163">
+                            <!-- <a href="javascript:void(0);" onclick="load_game_link('KG', 'lottery', '');" class="info" title="进入游戏">进入游戏</a> -->
+                            <a class="info"  href="javascript:Util.windowOpen('http://yhh.bestgame888.net/login',1100,600)" >进入游戏</a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <!--精品推荐 End-->
+        <!--精彩视频 start-->
+        <!-- <div class="Video">
+            <div class="Recommend_title">
+           	    <span class="Video_title"></span>
+            </div>
+            <div class="Video_main">
+                <span class="Video_l" style="background-color: #000;width: 249px;"><img src="http://img.3680358.com/upload/ad/201610/675/edbeab9de1f648bb8b0133c8eb28a13b.png"></span>
+                <embed src="/yhh/swf/yinhe5.swf" quality="high" width="502" height="235" align="middle" allowscriptaccess="always" allowfullscreen="true" wmode="transparent" type="application/x-shockwave-flash" style="width: 502px;">
+                <span class="Video_r" style="background-color: #000;width: 249px;"><img src="http://img.3680358.com/upload/ad/201605/975/913e359b8b4a4406ae6d5af05ad1d6e6.png"></span>
+            </div>
+        </div> -->
+        <!--精彩视频 end-->
+        <!--优惠活动 start-->
+        <!--<div class="Promotions">
+            <div class="Recommend_title">
+                <span class="Promotions_titsp"></span>
+            </div>
+            <div class="Promotions_Div">
+                <div style="width:1000px; overflow:hidden">
+                <ul class="Promotions_Ul" id="Promotions_Ul"></ul>
+                </div>
+                    <a href="javascript:void(0)" class="prev"></a>
+            	    <a href="javascript:void(0)" class="next"></a>
+            </div>
+        </div>-->
+        <!--精品推荐 End-->
+        <!--游戏彩池 start-->
+        <div class="Gamepot">
+            <div class="Recommend_title">
+                <span class="Gamepot_titsp"></span>
+            </div>
+            <div class="Gamepot_Div">
+                <div class="Ranking left">
+                    <div class="Ranking-title">
+                    </div>
+                    <ul class="RankingUl" id="jackpotList"><li><div class="li-left"><span class="First"></span></div><img class="left" src="/yhh/img/djph_01-1.png" width="95" height="60"><div class="RankingInfo"><div class="RankingName">罗马角斗士</div><span style="font-size:22px;color:rgb(128, 91, 15);">￥<span id="jpt_0" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=1&amp;currency=cny&amp;casino=playtech&amp;game=glr" class="jackpotC">157,493.46</span></span></div></li><li class="bc-ed"><div class="li-left"><span class="Second"></span></div><img class="left" src="/yhh/img/djph_02-1.png" width="95" height="60"><div class="RankingInfo"><div class="RankingName">炼金术士实验室　</div><span style="font-size:22px;color:rgb(128, 91, 15);">￥<span id="jpt_1" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=1&amp;currency=cny&amp;casino=playtech&amp;game=al" class="jackpotC">176,722.72</span></span></div></li><li><div class="li-left"><span class="Third"></span></div><img class="left" src="/yhh/img/djph_03-1.png" width="95" height="60"><div class="RankingInfo"><div class="RankingName">钢铁侠</div><span style="font-size:22px;color:rgb(128, 91, 15);">￥<span id="jpt_2" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=1&amp;currency=cny&amp;casino=playtech&amp;game=mrj-1" class="jackpotC">235,532.73</span></span></div></li><li class="bc-ed"><div class="li-left"><span class="Fourth"></span></div><img class="left" src="/yhh/img/djph_04-1.png" width="95" height="60"><div class="RankingInfo"><div class="RankingName">钢铁侠3 </div><span style="font-size:22px;color:rgb(128, 91, 15);">￥<span id="jpt_3" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=1&amp;currency=cny&amp;casino=playtech&amp;game=irmn3" class="jackpotC">183,941.62</span></span></div></li><li><div class="li-left"><span class="Fifth"></span></div><img class="left" src="/yhh/img/djph_05-1.png" width="95" height="60"><div class="RankingInfo"><div class="RankingName">好运连连</div><span style="font-size:22px;color:rgb(128, 91, 15);">￥<span id="jpt_4" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=5&amp;currency=cny&amp;casino=playtech&amp;group=sol-1" class="jackpotC">151,301.20</span></span></div></li></ul>
+                </div>
+                <div class="Lottery left" id="winnerUl"><div class="tempWrap" style="overflow:hidden; position:relative; height:468px"><ul class="LotteryUl" style="height: 1872px; position: relative; padding: 0px; margin: 0px; top: -619.753px;"><li class="clone" style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_01.jpg?2016" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜李**先生在水果老虎机游戏中喜获 <strong class="color-fco">582,123,1元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_02.jpg?2016" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜summ**we在188体育足球中喜获 <strong class="color-fco">1871,123元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_03.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜王**先生在HG百家乐游戏中喜获 <strong class="color-fco">211,333,5元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_04.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜**00在时时彩游戏中喜获 <strong class="color-fco">721,346元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_05.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜numm**12在古怪猴子游戏中喜获 <strong class="color-fco">656,237元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_06.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜何**女士在古墓丽影游戏中喜获 <strong class="color-fco">655,862,1元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_07.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜陈**先生在皇冠体育足球游戏中喜获 <strong class="color-fco">213,12元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_08.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜kkld**cd在雷霆万钧游戏中喜获 <strong class="color-fco">852,22元</strong> 
+		</div>
+</a> 
+	</li>
+	<li style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_01.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜李**先生在水果老虎机游戏中喜获 <strong class="color-fco">582,123,1元</strong> 
+		</div>
+</a> 
+	</li>
+<li class="clone" style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_02.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜summ**we在188体育足球中喜获 <strong class="color-fco">1871,123元</strong> 
+		</div>
+</a> 
+	</li><li class="clone" style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_03.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜王**先生在HG百家乐游戏中喜获 <strong class="color-fco">211,333,5元</strong> 
+		</div>
+</a> 
+	</li><li class="clone" style="height: 147px;">
+		<a href="javascript:void(0)"><img src="/yhh/img/hj_04.jpg" alt=""><br>
+		<div class="LotteryUl-div">
+			恭喜林**在时时彩游戏中喜获 <strong class="color-fco">721,346元</strong> 
+		</div>
+</a> 
+	</li></ul></div></div>
+                <div class="DateList left">
+                    <div class="DateList-div">
+                        <div class="DateList-top">
+                            <div class="size">银河最近<strong>24H</strong>数据</div>
+                            <div class="size2">THE 24 HOURS</div>
+                        </div>
+                        <div class="DateListBd">
+                            <ul class="DateListBdUl">
+                                <li>
+                                    <div>
+                                        <span class="DateList01"></span>24小时活跃用户数
+                                    </div>
+                                    <div class="progressbar"> 
+                                        <div id="bd1" class="bar" style="width: 60%;">
+                                            <span id="Num-1" isnum="true" rel="24555" type="integer" now="24555" time="82">24,555</span>
+                                        </div> 
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="DateList02"></span>24小时累计注单量
+                                    </div>
+                                    <div class="progressbar"> 
+                                        <div id="bd2" class="bar" style="width: 40%;">
+                                            <span id="Num-2" isnum="true" rel="839734" type="integer" now="839734" time="2800">839,734</span>
+                                        </div> 
+                                    </div> 
+                                    
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="DateList03"></span>24小时累计存提款
+                                    </div>
+                                    <div class="progressbar"> 
+                                        <div id="bd3" class="bar" style="width: 80%;">
+                                            <span id="Num-3" isnum="true" rel="71175" type="integer" now="71175" time="238">71,175</span>笔/<span isnum="true" rel="393" isdate="true" now="393" time="2.965">6分33秒</span>每笔
+                                        </div> 
+                                    </div> 
+                                </li>
+                                <li>
+                                    <div>
+                                        <span class="DateList04"></span>24小时累计派奖
+                                    </div>
+                                    <div class="progressbar"> 
+                                        <div id="bd4" class="bar" style="width: 70%;">
+                                            <span id="Num-4" isnum="true" rel="42565543" type="currency" now="42565543" time="141886">42,565,543.00</span>元
+                                        </div> 
+                                    </div> 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="DateList-Banner">
+                        <div class="tempWrap" style="overflow:hidden; position:relative; width:304px">
+                            <ul class="DateListUl" style="width: 1216px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -304px;">
+                                <li class="clone" style="float: left; width: 304px;">
+                                    <a href="lottery">
+                                        <img src="/yhh/images/icon-data01.png">
+                                    </a>
+                                </li>
+                                <li style="float: left; width: 304px;">
+                                    <a href="/sport/T188" target="T188">
+                                        <img src="/yhh/images/icon-data.png">
+                                    </a>
+                                </li>
+                                <li style="float: left; width: 304px;">
+                                    <a href="/lottery">
+                                        <img src="/yhh/images/icon-data01.png">
+                                    </a>
+                                </li>
+                                <li class="clone" style="float: left; width: 304px;">
+                                    <a href="/sport/T188" target="T188">
+                                        <img src="/yhh/images/icon-data.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0)" class="prev"></a>
+                        <a href="javascript:void(0)" class="next"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--游戏彩池 End-->
+        
+        <!--游戏流程 start-->
+        <div class="procedure-div">
+            <div class="procedure-div-pro left">
+                <div class="procedure-top">
+                    <span class="procedure-tit left"></span>
+                    <span class="procedure-div-pro-wel right">
+                        <span class="icon-round"></span>澳门银河欢迎你的到来！<a href="/signup">点我加入</a>
+                    </span>
+                </div>
+                <div class="procedure-div-pro-p clear">
+                    <div class="procedure-list">
+                        <div><img src="/yhh/images/procedure-list01.png"></div>
+                        免费开户
+                    </div>
+                    <span class="rt_arrow"></span>
+                    <div class="procedure-list">
+                        <div><img src="/yhh/images/procedure-list02.png"></div>
+                        绑定资料
+                    </div>
+                    <span class="rt_arrow"></span>
+                    <div class="procedure-list">
+                        <div><img src="/yhh/images/procedure-list03.png"></div>
+                        存款入账
+                    </div>
+                    <span class="rt_arrow"></span>
+                    <div class="procedure-list">
+                        <div><img src="/yhh/images/procedure-list04.png"></div>
+                        游戏投注
+                    </div>
+                    <span class="rt_arrow"></span>
+                    <div class="procedure-list">
+                        <div><img src="/yhh/images/procedure-list05.png"></div>
+                        提款到账
+                    </div>
+                    
+                </div>
+                <!--游戏下载 start-->
+                <div class="download-div">
+                    <span class="download-tit left"></span>
+                    <div class="left" style="margin-top:17px;">
+                        <a href="/download"><span class="icon-AG"></span>AG下载</a>
+                        <a href="/download"><span class="icon-PT"></span>PT下载</a>
+                        <a href="/download"><span class="icon-MG"></span>MG下载</a>
+                        <a href="/download"><span class="icon-YH"></span>YH下载</a>
+                    </div>
+                </div>
+                <!--游戏下载 End-->
+            </div>
+            <div class="right DepositTime ">
+                <div class="DepositTime-div">
+                    <div class="DepositTime-top">
+                        <div class="left">
+                            <div class="DepositTime-name">存款到账</div>
+                            <div class="average ">平均时间</div>
+                        </div>
+                        <div class="right martop">
+                            <span isnum="true" rel="23" isdate="true" now="23" time="1.135" class="time">秒</span><span class="time2" style="display:none;">秒</span>
+                        </div>
+                    </div>
+                    <div class="progressbar2 clear"> 
+                        <div id="bd5" class="bar2" style="width: 0%;">
+                        </div> 
+                    </div> 
+                </div>
+                <div class="DepositTime-div">
+                    <div class="DepositTime-top">
+                        <div class="left">
+                            <div class="DepositTime-name">取款到账</div>
+                            <div class="average ">平均时间</div>
+                        </div>
+                        <div class="right martop">
+                            <span isnum="true" rel="148" isdate="true" now="148" time="1.7149999999999999" class="time">秒</span><span class="time2" style="display:none;">分</span>
+                        </div>
+                    </div>
+                    <div class="progressbar2 clear"> 
+                        <div id="bd6" class="bar2" style="width: 60%;">
+                        </div> 
+                    </div> 
+                </div>
+                <div class="Bank">
+                    <div class="left">
+                        <span class="DepositTime-name">支持主流支付与银行</span>
+                        <span class="time">36</span><span class="time2">家</span>
+                    </div>
+                    <a href="javascript:void(0);" class="right more2">更多</a>
+                </div>
+                <div class="BankList clear">
+                    <img src="/yhh/img/bank01.png">
+                    <img src="/yhh/img/bank02.png">
+                    <img src="/yhh/img/bank03.png">
+                    <img src="/yhh/img/bank04.png">
+                    <img src="/yhh/img/bank05.png">
+                    <img src="/yhh/img/bank06.png">
+                    <img src="/yhh/img/bank07.png">
+                </div>
+            </div>
+        </div>
+        <!--游戏流程 End-->
+        
+        <!--安全保障 start-->
+        <div class="safe-div clear">
+            <div class="safe-div-safe">
+                <span class="safe-div-safe-span">安全保障</span>
+                <span class="safe-div-info">全程数据加密，海岸门博彩监管，保障你的账户安全。</span>
+            </div><div class="safe-div-tec">
+                <span class="safe-div-safe-span">技术领先</span>
+                <span class="safe-div-info">以全网主流平台接入为主要特点，整合全网最优资源。</span>
+            </div><div class="safe-div-pt">
+                <span class="safe-div-safe-span">最大博彩平台</span>
+                <span class="safe-div-info">亚洲起步最早，用户基数最大，交易量最高，用户首选的博彩交易平台。</span>
+            </div>
+        </div>
+        <!--安全保障 End-->
+    </div>
+</div>
+<div id="dialogAd" style="display:none;">xx</div>
+<!-- <script type="text/javascript">var _cometUrl = 'http://comet.3680358.com/';</script> -->
+
+    <!-- 公告start -->
+<div class="gonggao">
+    <div class="gonggao-bg"></div>
+    <div class="gonggao-main">
+        <div class="gonggao-bt">
+            网站公告
+            
+            <span class="gonggao-closed"></span>
+        </div>
+        <div class="gonggao-main-nr">
+            <ul id="noticesDialog">
+                                <li>
+                    <span>2017-04-24</span>
+                    <p>
+                        <br>
+                           您好，尊敬的会员！现我司在线微信支付全面优化【最低存款51.1元,最高无上限】更新哦，方便客户更快捷更方便的进行存款哦。谢谢您的支持与理解！
+                        <br>
+                    </p>
+                </li>
+                                <!-- <li>
+                    <span>2016-09-30</span>
+                    <p>尊贵的会员，现在银行入款卡【钟雨辰】已停用，请各位会员选择在线支付或支付宝付款，带来不便请您谅解！</p>
+                </li>-->
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 公告end -->
+    <!-- footer 开始-->
+<div id="page-footer"><div class="bottom-top fullwidth clear">
+  <div class="container bottom-topdiv">
+    <img class="bottomBg" src="/yhh/images/icon-bottom.png?v=1.0"> 
+  </div>
+</div>
+<div class="bottom-div">
+  <div class="container">
+    <div class="bottom-about left">
+      关于我们
+      <ul>
+        <li>
+          <a href="/help/us">关于我们</a> 
+        </li>
+        <li>
+          <a href="/help/culture">企业文化</a> 
+        </li>
+        <li>
+          <a href="/help/attribute">社会贡献</a> 
+        </li>
+        <li>
+          <a href="/help/responsibility">负责博彩</a> 
+        </li>
+        <li>
+          <a href="/help/article">使用条款</a> 
+        </li>
+        <li>
+          <a href="/help/relief">免责声明</a> 
+        </li>
+        <li>
+          <a href="/help/privacy">隐私政策</a> 
+        </li>
+        <li>
+          <a href="/help/recruitment">人才招聘</a> 
+        </li>
+      </ul>
+    </div>
+    <div class="bottom-member left">
+      会员操作
+      <ul>
+        <li>
+          <a href="/help/guide#tab0">新手指南</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab1">常见问题</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab2">如何存款</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab3">如何取款</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab4">规则参考</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab5">合作伙伴</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab6">VIP中心</a> 
+        </li>
+        <li>
+          <a href="/help/guide#tab7">合作代理</a> 
+        </li>
+      </ul>
+    </div>
+    <div class="bottom-contact left">
+      联系我们
+      <ul>
+        <li>
+          <a href="javascript:Util.windowOpen(&#039;https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=863075&amp;configID=70508&amp;jid=6569239456&amp;s=1&#039;)" target="_blank"><span class="icon-service"></span>在线客服 </a> 
+        </li>
+        <!-- <li>
+          <a href="tencent://message/?uin=70177680&amp;Site=163164.cn&amp;Menu=yes"><span class="icon-QQ"></span>QQ客服</a> 
+        </li>
+        <li>
+          <a href="javascript:void(0)"><span class="icon-wx"></span>微信<i></i></a> 
+        </li>
+        <li>
+          <a href="http://weibo.com/p/1005055703105410" target="_blank"><span class="icon-wb"></span>微博</a> 
+        </li> -->
+	<li style="width: 135px;">
+	  <a target="_blank" href="//wpa.qq.com/msgrd?v=3&uin=862291111&site=qq&menu=yes"><span class="icon-QQ"></span>QQ：862291111</a>
+	</li>
+  <li style="width: 130px;"><a href="https://www.google.com.tw/chrome/browser/desktop/" target="_blank"><span class="Google"></span>Google浏览器</a>
+      </ul>
+      <div class="complaints">
+        <p class="title">投诉方式</p>
+        <p>QQ：1276751844</p>
+        <p>微信：vip2018168168</p>
+      </div>
+    </div>
+    <div class="bottom-card-div right">
+      <div class="bottom-card-web-div">
+        记住澳门银河易记网址 <span>http://11878.com</span> 
+      </div>
+      <div class="bottom-card-pad-div">
+        <div class="bottom-card-pad-ewm">
+          <img src="/yhh/images/ewm_bottom-3.png?v1"> 
+        </div>
+        <div class="bottom-card-pad-msg">
+          <div class="bottom-card-pad-msg-bold">
+            手机平板电脑
+          </div>
+          <div>
+            扫描网站二维码快速访问网站
+          </div>
+        </div>
+        <div class="bottom-card-pad-pad">
+          <img src="/yhh/images/pad_bottom.png"> 
+        </div>
+      </div>
+      <div class="bottom-card-tel-div fontst">
+        <div>
+          <span class="icon-tel"></span>0063-9052917888
+        </div>
+        <div>
+          <span class="icon-addr"></span>澳门银河亚洲网投事业部
+        </div>
+      </div>
+      <div align="center">
+        <img src="/yhh/images/slogan.png?v=1.02"> 
+      </div>
+    </div>
+  </div>
+</div>
+<div class="copyright">
+  <div>
+    澳门银河网站属于菲律宾卡格杨(Cagayan)授权和监管 所有版权归澳门银河所有，违者必究。 请使用IE8以上浏览器观看本站
+  </div>
+  <div>
+    2004-2015Galaxy Macau by GALAXY Mayfair LIMITED.RCBC Plaza,6819Sen.Gil Puyat corner Ayala Avenue,Mak
+  </div>
+</div></div>
+<!-- footer 结束-->
+    <!--左浮动窗 start-->
+<style type="text/css">
+	.services-left{
+		position: fixed;
+		top: 180px;
+		z-index: 99;
+	}
+</style>
+<div class="float-left-bg" style="top: 250px;display: none;">
+  <div class="float-left-info" style="margin-top: 32px;">
+  		<span style="font-size: 28px;">福利區</span>
+  </div>
+  <div class="float-left-info-address" style="width: 142px;margin-top: 20px;">
+    <span style="font-size: 19px;"><a href="http://11878zx.com/" target="_blank">11878zx.com</a></span>
+  </div>
+  	<!-- <center>
+  	  					<img class="ewm" src="/common/storage/cms/cms_29.png?v=1493108290" style="width: 105px;height:105px;">
+					<img class="ewm" src="/common/storage/cms/cms_30.png?v=1493108278" style="width: 105px;height:105px;">
+			  	</center> -->
+	<div class="float-left-close-div" style="margin-top: 20px;">
+		<span class="float-close"></span>关闭
+	</div>
+</div>
+<aside class="services-left">
+        <ul class="girl">
+                        <li>
+               <a href="http://11878zx.com/" target="_blank"><img src="/common/storage/cms/cms_29.png?1493108290" style="margin-top: -3px;" /></a>
+            </li>
+                                <li class="closed" service-closed><img src="/common/storage/cms/cms_30.png?1493108278" style="margin-top: -3px;" /></li>
+                       
+        </ul>
+    </aside>
+<!--<div class="float-left-bg" style="top: 280px;">
+	<div class="float-left-div">
+		<div class="float-left-div-tab-div">
+			<span class="float-left-div-span-selected">微信支付</span><span class="float-left-div-span">官方微信</span> 
+		</div>
+		<div id="weixin" style="display: none;">
+			<center>
+				<img class="ewm" src="/yhh/images/ewm.png" style="width: 105px;height:105px;"> 
+			</center>
+			<div class="float-left-msg-div">
+				关注银河公众平台
+			</div>
+			<div class="float-left-msg-div">
+				掌握最新优惠信息
+			</div>
+		</div>
+		<div id="wz" style="display: block;">
+			<center>
+				<img class="ewm" src="http://img.3680358.com/upload/editor/image/20161030/20161030054236_7505.png" style="width: 105px;height:105px;"> 
+			</center>
+			<div class="float-left-msg-div">
+				银河微信快捷支付
+			</div>
+			<div class="float-left-msg-div">
+				为您开启快捷时代
+			</div>
+		</div>
+	</div>
+	<div class="float-left-close-div">
+		<span class="float-close"></span>关闭
+	</div>
+</div>-->
+<!--左浮动窗 End-->
+    <!--右浮动窗start-->
+<div class="service-bg" style="top: 280px;">
+	<div class="service-main" style="display: none;">
+		<div class="float-right-close-div">
+			<span class="float-close right-close"></span> 
+		</div>
+		<center>
+			<span class="service-logo"></span> 
+		</center>
+		<div class="service-c">
+			在线客服
+		</div>
+		<div class="service-e">
+			Customer Service
+		</div>
+		<div class="service-content-div">
+			<div class="service-1">
+				<div class="service-icon-1 left">
+				</div>
+				<div class="right service-span">
+					<a href="javascript:Util.windowOpen(&#039;https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=863075&amp;configID=70508&amp;jid=6569239456&amp;s=1&#039;)" title="中文客服" target="_blank"> <span>中文客服&nbsp;<label style="color:#0649A4;">24H</label></span> </a> 
+				</div>
+			</div>
+			<div class="service-2 ">
+				<div class="service-icon-1 left">
+				</div>
+				<div class="right service-span">
+					<a href="javascript:Util.windowOpen(&#039;https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=863075&amp;configID=70508&amp;jid=6569239456&amp;s=1&#039;)" title="中文客服" target="_blank"> <span>中文客服&nbsp;<label style="color:#0083b0;">24H</label></span> </a> 
+				</div>
+			</div>
+			<!-- <div class="service-3">
+				<div class="service-icon-1 left">
+				</div>
+				<div class="service-span right">
+					<a href="tencent://message/?uin=70177680&amp;Site=163164.cn&amp;Menu=yes" title="Customer" target="_blank"> <span>QQ客服<label style="color:#B37800;">24H</label></span> </a> 
+				</div>
+			</div> -->
+		</div>
+		<div class="servcie-tel-word">
+			24小时服务电话
+		</div>
+		<div class="servcie-tel">
+			0063-9052917888
+		</div>
+	</div>
+	<div class="extend">
+	</div>
+</div>
+<!--右浮动窗end-->
+    <!-- 返回顶部start -->
+<div class="scroll" id="scroll" style="display: none;"></div>
+<!-- 返回顶部end -->
+
+    <!-- 找回密码-弹出 -->
+    <div class="denglu_tc" id="zhaohui1">
+        <div class="denglu_tc_tit">
+            <div class="bb1">
+                <h2 class="f-l">
+                    <span class="icon icon-zhaohui"></span><span class="tit">联系在线客服协助修改密码</span>
+                </h2>
+                <p>
+                    <a href="javascript:void(0);" class="icon icon-close"></a>
+                </p>
+            </div>
+        </div>
+        <div class="zhuce loginbox" style="text-align:center">
+            <a href="javascript:Util.windowOpen(&#039;https://f18.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=863075&amp;configID=70508&amp;jid=6569239456&amp;s=1&#039;)" class="ibtn op" style="padding:10px;">联系客服</a>
+        </div>
+    </div>
+    <!-- 找回密码-弹出 -->
+    <script type="text/javascript">
+  jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,interTime:"3000",effect:"leftLoop"});
+</script>
+    <script src="/yhh/js/index.js?v=1"></script>
+    <script type="text/javascript">
+                    if(location.hash.split('#').pop()=='success'){
+                alert("您好，尊敬的会员！现我司在线微信支付全面优化【最低存款51.1元,最高无上限】更新哦，方便客户更快捷更方便的进行存款哦。谢谢您的支持与理解！");
+                location.hash='';
+            }
+                var children = $(".jackpotC");
+        var interval = setInterval(function () {
+            for (i = 0; i < children.length; i++) { 
+                var d = $('#jpt_'+i).html();
+                d = d.replace(/,/g,'');
+                var el = Math.floor(Math.random() * 10);
+                var total = parseInt(d)+parseInt(el);
+                total = String(total).replace(/(.)(?=(\d{3})+$)/g,'$1,')+'.00';
+                $('#jpt_'+i).html(total);
+            }
+        }, Math.floor((Math.random() * 50) + 500));
+        $(function(){
+      // window_width=$(window).width();
+      // msg_width=$('#msg01').width();
+      // window_height=$(window).height();
+      // msg_height=$('#msg01').height();
+      // margin_top_center=(window_height-msg_height)/2;
+      // margin_center=(window_width-msg_width)/2;
+      // $('#msg01').css('margin-left',margin_center);
+      //  $('#msg01').css('margin-top',margin_top_center);
+      //  $('#msg01').css('top','0px');
+      // window.setTimeout(function(){
+      //   $("#msg01").hide();
+      // },10000)
+        $("#close").click(function(){
+          $("#msg01").hide();
+        });
+    });
+
+    </script>
+    <script>
+        if(location.hash.split('#').pop()=='loginError'){ alert('密码错误或者是账号不存在'),location.hash=''; }
+        if(location.hash.split('#').pop()=='yzmError'){ alert('验证码不正确，请重新登录'),location.hash='' ; }
+    </script>
+    <script type="text/javascript">
+        // 公告
+        $('#ele-Notices li span').click(function() {
+            $(".gonggao-bg").fadeIn(200);
+            $(".gonggao-main").fadeIn(200);
+        });
+        $(".gonggao-closed").click(function() {
+            $(".gonggao-bg").hide();
+            $(".gonggao-main").hide()
+        });
+
+        $(".float-left-div-tab-div span").click(function() {
+            $(this).addClass("float-left-div-span-selected").removeClass("float-left-div-span").siblings().removeClass("float-left-div-span-selected").addClass("float-left-div-span");
+            $(this).index() == 0 ? ($("#wz").show(), $("#weixin").hide()) : ($("#weixin").show(), $("#wz").hide())
+        });
+
+        $(".float-left-close-div").click(function() {
+            $(".float-left-bg").hide();
+        });
+
+        $(window).scroll(function () {
+            var scrollValue = $(window).scrollTop();
+            scrollValue > 100 ? $('div[class=scroll]').fadeIn() : $('div[class=scroll]').fadeOut();
+        });
+        $('#scroll').click(function () {
+            $("html,body").animate({ scrollTop: 0 }, 200);
+        });
+
+        /*累计奖池*/
+        $(function() {
+            // var jackpotStyleHtml = $(".jackpotStyle1");
+            var jackpotStyleHtml = $("#jackpotBonus");
+            var webFuny = {
+                    init: function() {
+                        //显示分页
+                        $(".page").show();
+                        //奖池金额随时间增加
+                        var $Num1Rel = [(new Date().getTime() - new Date("2015/1/1 00:00").getTime()) / 1000] / 60,
+                            $Num1Rel1 = $Num1Rel / 60,
+                            $Num1Rel2 = Math.round($Num1Rel1) * 1230 + 85696500;
+                        jackpotStyleHtml.html("<b>" + webFuny.AngelMoney($Num1Rel2.toString()) + "</b>.00");
+                        //每300毫秒添加一次金额
+                        setInterval(webFuny.addNum, 300);
+                    },
+                    //三位数加,
+                    AngelMoney: function(val) {
+                        return val.split('').reverse().join('').replace(/(\d{3})/g, '$1,').replace(/\,$/, '').split('').reverse().join('');
+                    },
+                    //随机数
+                    GetRandomNum: function(Min, Max) {
+                        var Range = Max - Min;
+                        var Rand = Math.random();
+                        return (Min + Math.round(Rand * Range));
+                    },
+                    //添加金额
+                    addNum: function() {
+                        var me = this,
+                            addNum = webFuny.GetRandomNum(1, 10) + Number(jackpotStyleHtml.find("b").text().replace(/,/g, ""));
+                        jackpotStyleHtml.html("<b>" + webFuny.AngelMoney(addNum.toString()) + "</b>.00");
+                    }
+                }
+                //执行函数
+            webFuny.init();
+        });  
+        $(function(){
+            location.hash.split('#').pop()=='loginError' && alert('密码错误或者是账号不存在'),location.hash='' || 
+            location.hash.split('#').pop()=='yzmError'   && alert('验证码不正确，请重新登录'),location.hash='' ;
+        });
+    </script>
+    <!-- <script type="text/javascript" src="/js/www/jquery.qrcode.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+            getQrcode('http://yhh.bestgame888.net', 'vnn_qr');
+        });
+        function getQrcode(txt, id) {
+          if(txt != ""){
+              $('#' + id).qrcode({
+                width: 74,
+                height: 74,
+                text: txt
+              });
+          }
+        }
+    </script> -->
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?17da73f1256b741cf1b9848732489b54";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+$('.closed').click(function(event) {
+    if ($(this).parent('aside').hide() ) {
+        $(this).parent().parent('aside').hide();
+    }
+});
+</script>
+
+  </body>
+</html>

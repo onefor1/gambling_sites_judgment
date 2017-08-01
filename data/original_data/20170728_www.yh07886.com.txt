@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+       <title>澳门银河官方，澳门银河官方网，澳门银河官网，欢迎您的光临！hg0088.com,hg0088,hg0088注册,hg0088开户,hg0088皇冠www.7769.com</title>
+       <meta name="description" content="www.7769.com是亚洲区唯一指定2016欧洲杯官方网站,www.hg0088.com开户,hg0088,hg0088.com,hg0088注册,hg0088开户,hg0088皇冠,hg0088如何注册,hga008.com,hga018.com注册开户,皇冠新2网址,新2网址,新2,澳门银河官方，澳门银河官方网，澳门银河官网为广大客户提高超给力回馈方便广大客户咨询。">                         
+<meta name="keywords" content="澳门银河官方.com，hg0088,hg0088.com,hg0088注册,hg0088开户,hg0088皇冠,hg0088如何注册,hga008.com,hga018.com,皇冠新2网址,新2网址,新2
+
+" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le styles -->
+        <link href="//static1.dnsppdd.com/style/aomenyinhez/reset.css" media="screen" rel="stylesheet" type="text/css">
+<link href="//static1.dnsppdd.com/style/share/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="//static1.dnsppdd.com/style/aomenyinhez/css.css?v=1501240767" media="screen" rel="stylesheet" type="text/css">
+<link href="/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+        <!-- Scripts -->
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/style/share/tab.js"></script>
+<script type="text/javascript" src="/style/share/jquery.superslide.2.1.1.js"></script>
+    </head>
+    <body>
+    <div id="mainall">
+<div id="mainBody">
+
+
+    <div id="page-header">
+        <div class="page-top">
+            <div class="inner">
+                <div class="h5"></div>
+                <span class="time">美东时间：<em id="nowTime">2017/06/03 04:46:31</em></span>
+                <div class="fr">
+					<span class=" fl">
+					    <a href="http://50883hd.com" target="_blank" class="zongse">活动大厅  </a>|
+					    <a href="http://kc7769.com" target="_blank" class="zongse"><font color="#FF33CC">快速入款
+					</font> </a>|<font color="#CCFF99"> </font>
+					    <a href="/vg" class="zongse"><font color="#00FFFF">AG捕鱼王
+					</font>  </a>|
+						<a href="/vg" class="lvse">VG斗地主  </a>|
+						<a href="http://7769hb.com" target="_blank" class="red">天天抢红包  </a>|
+						<a href="http://messenger3.providesupport.com/messenger/1ejx795tazs8i06pdrb2y5d717.html" target="_blank" class="zongse"><font color="#FF9933">投诉与建议
+					</font>  </a>|
+						<a href="http://7769.sx" target="_blank" class="yellow">线路检测  </a>|
+						语言选择：
+					</span>
+                    <a href="#" class="db fl pl5"><img src="//static1.dnsppdd.com/style/aomenyinhez/qi1.png" alt=""></a>
+                    <a href="#" class="db fl pl5"><img src="//static1.dnsppdd.com/style/aomenyinhez/qi2.png" alt=""></a>
+                    <a href="#" class="db fl pl5"><img src="//static1.dnsppdd.com/style/aomenyinhez/qi3.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+<div id="header">
+   <div id="headtop">
+       <div id="header-logo"><a href="/"><img src="/upload/223/image/170607030814.png" width="372" height="80" border="0" /></a></div>
+       <div class="fl pt14 pl20"><img src="//static1.dnsppdd.com/style/aomenyinhez/pin.png" alt=""></div>
+		  <div id="headright">
+		          				  <div id="loginbox">
+				       <form name="LoginForm" action="/cn" method="POST" onSubmit="return inputCheck();" style="margin:0" autocomplete="off" >
+                           <input name="username" style="margin-left: 144px;" tabindex="1" type="text" class="za_text" id="username" maxlength="20" value="帐号" onFocus="if(this.value=='帐号')this.value=''" onBlur="if(this.value =='') this.value ='帐号'"   />
+				           <input name="password" tabindex="2" type="password" class="za_text" id="password" maxlength="20" onFocus="if(this.value=='密码123')this.value=''" onBlur="if(this.value =='') this.value ='密码123'" value="密码123"/>
+                           <div class="cl h7"></div>
+				        <div class="logintxt1">
+                            <input class="Loginbtn"  name="Submit" type="submit" value="" />
+                           <a id="Loginbtnreg"  href="/cn/register"></a>
+                           <a href="/cn/forget" id="Loginbtnpwd"   title="忘记密码">忘记密码</a>
+				        </div>		
+				  </form>
+				  </div>
+                  	       </div>
+	 </div>
+    <div class="cl h5"></div>
+	 		<div id="L-Menual"> 
+			<ul id="main-Menual">
+                <li class="LS-home fuli"><a id="n1" href="/" class="current"><p class="big"><b>网站首页</b></p><p class="small">Home</p></a></li>
+                <li class="LS-game fuli"><a id="n4" href="/game"  ><p class="big" style="color: #00ffff" ><b>电子游艺</b></p><p class="small">Casino</p></a>
+                    <div class="xiala" >
+                        <div class="inner" style="width: 1180px;">
+                            <div class="h7"></div>
+                            <ul class="xiaul">
+                                <li class="ulli"><img src="//static1.dnsppdd.com/style/aomenyinhez/dians.png" alt="" /></li>
+                                <li><a href="/pt"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann1.png" alt="" /></a></li>
+                                <li><a href="/mg/index"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann2.png" alt="" /></a></li>
+                                <li><a href="/visaul/bbin-game"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann3.png" alt="" /></a></li>
+                                <li><a href="/hb"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann4.png" alt="" /></a></li>
+                                <li><a href="/yg"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann5.png" alt="" /></a></li>
+                                <li><a href="/mw" target="_blank"><img src="//static1.dnsppdd.com/style/aomenyinhez/diann6.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="LS-reg fuli"><a id="n8" href="/mg/index" ><p class="big" style="color: #ff0000"><b>MG电子</b></p><p class="small">MG Casino</p></a>
+                    <div class="xiala">
+                        <div class="inner">
+                            <div class="h7"></div>
+                            <ul class="xiaul">
+                                <li class="ulli"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgs.png" alt="" /></li>
+                                <li><a href="/mg/play/103"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgn1.png" alt="" /></a></li>
+                                <li><a href="/mg/play/11"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgn2.png" alt="" /></a></li>
+                                <li><a href="/mg/play/7"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgn3.png" alt="" /></a></li>
+                                <li><a href="/mg/play/18"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgn4.png" alt="" /></a></li>
+                                <li><a href="/mg/play/20"><img src="//static1.dnsppdd.com/style/aomenyinhez/mgn5.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="LS-live fuli"><a id="n3" href="/visual" ><p class="big " style="color: #00ff00"><b>视讯直播</b></p><p class="small">Live casino</p></a>
+                    <div class="xiala"  >
+                        <div class="inner">
+                            <div class="h2"></div>
+                            <ul class="xiaul">
+                                <li class="ulli"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhens.png" alt="" /></li>
+                                <li><a href="/visual/bbin/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn1.png" alt="" /></a></li>
+                                <li><a href="/visual/ag/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn2.png" alt="" /></a></li>
+                                <li><a href="/visual/hg/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn3.png" alt="" /></a></li>
+                                <li><a href="/ds/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn4.png" alt="" /></a></li>
+                                <li><a href="/visual/og/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn5.png" alt="" /></a></li>
+                                <li><a href="/visual/ab/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn6.png" alt="" /></a></li>
+                                <li><a href="/eb/info"><img src="//static1.dnsppdd.com/style/aomenyinhez/zhenn7.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="LS-lottery fuli" ><a id="n5" href="/cn/caipiao" ><p class="big" style="color: #ffff00"><b>彩票游戏</b></p><p class="small">Lottery</p></a>
+                    <div class="xiala">
+                        <div class="inner">
+                            <div class="h7"></div>
+                            <ul class="xiaul">
+                                <li class="ulli"><img src="//static1.dnsppdd.com/style/aomenyinhez/cais.png" alt="" /></li>
+                                <li><a href="/jl"><img src="//static1.dnsppdd.com/style/aomenyinhez/cain1.png" alt="" /></a></li>
+                                <li><a href="/jl"><img src="//static1.dnsppdd.com/style/aomenyinhez/cain2.png" alt="" /></a></li>
+                                <li><a href="/dc/lottery#dc"><img src="//static1.dnsppdd.com/style/aomenyinhez/cain3.png" alt="" /></a></li>
+                                <li><a href="/vr" target="_blank"><img src="//static1.dnsppdd.com/style/aomenyinhez/cain4.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="LS-ball fuli"><a id="n2" href="/hg_sports" ><p class="big"><b>体育赛事</b></p><p class="small">Sports</p></a>
+                    <div class="xiala" >
+                        <div class="inner">
+                            <div class="h7"></div>
+                            <ul class="xiaul">
+                                <li class="ulli"><img src="//static1.dnsppdd.com/style/aomenyinhez/tis.png" alt="" /></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin1.png" alt="" /></a></li>
+                                <li><a href="/visual/sp-sport"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin2.png" alt="" /></a></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin3.png" alt="" /></a></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin4.png" alt="" /></a></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin5.png" alt="" /></a></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin6.png" alt="" /></a></li>
+                                <li><a href="/hg_sports"><img src="//static1.dnsppdd.com/style/aomenyinhez/tin7.png" alt="" /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="LS-lines fuli"><a id="n7" href="/cn/mobile"><p class="big"><b>手机投注</b></p><p class="small">Mobile bet</p></a></li>
+                <li class="LS-youhui fuli" ><a id="n6" href="/cn/youhui" class="textGlitter"><p class="big"><b>优惠活动</b></p><p class="small">Promotions</p></a></li>
+                <li class="LS-kefu fuli"><a href="https://messenger.providesupport.com/messenger/1dcfi769tw86a183qfqzg2apgj.html" target="_blank"><p class="big"><b>在线客服</b></p><p class="small">Online service</p></a></li>
+                <style>.xiala li a:hover{ background: none;}</style>
+			</ul>
+			<!--<div id="L-Sub">
+				<div class="LS-ball"> 
+					 <span class="subbg-left"></span> 
+					     					 <span class="subbg-right"></span>
+				</div>
+				<div class="LS-live"> 
+					<span class="subbg-left"></span>
+					    					<span class="subbg-right"></span>
+				</div>
+				<div class="LS-game">
+					<span class="subbg-left"></span> 
+					    					<span class="subbg-right"></span>
+			   </div>
+			   <div class="LS-lottery">
+					<span class="subbg-left"></span> 
+					    					<span class="subbg-right"></span>
+			   </div>		  
+		  </div>-->
+	  </div>
+</div>
+    </div>
+<script language="javascript">
+    $(".fuli").hover(function(){
+        $(this).find(".xiala").stop().slideDown(200)
+    },function(){
+        $(this).find(".xiala").stop().slideUp(200)
+    })
+
+    function getTime() {
+        var nowDate = new Date(new Date().getTime() - 43200000),
+            nY = nowDate.getFullYear(),
+            nM = nowDate.getMonth() + 1,
+            nD = nowDate.getDate(),
+            nH = nowDate.getHours(),
+            nMi = nowDate.getMinutes(),
+            nS = nowDate.getSeconds();
+        nM = nM < 10 ? '0' + nM : nM;
+        nD = nD < 10 ? '0' + nD : nD;
+        nH = nH < 10 ? '0' + nH : nH;
+        nMi = nMi < 10 ? '0' + nMi : nMi;
+        nS = nS < 10 ? '0' + nS : nS;
+
+        var fullTime = nY + '/' + nM + '/' + nD + ' ' + nH + ':' + nMi + ':' + nS;
+        $('#nowTime').text(fullTime);
+    }
+    getTime();
+    setInterval(getTime, 1000);
+    $("li.LS-ball, li.LS-live, li.LS-game, li.LS-lottery").subTabs();
+new toggleColor('.textGlitter', ['#FFFFFF', '#FF0000'], 600);
+new toggleColor('.textGlitter1', ['#FFFFFF', '#00FFFF'], 600);
+new toggleColor('.textGlitter2', ['#FFFFFF', '#00FF00'], 600);
+new toggleColor('.textGlitter3', ['#FFFFFF', '#FFFF00'], 600);
+</script>
+<!-- head end  --> 
+<div id="center"> 
+  <div class="wrapc" id="wrapc">
+            <style>
+          #wrapc{background:#011c34 url(//static1.dnsppdd.com/style/aomenyinhez/subbg6.jpg) no-repeat center 456px ; }
+      </style>
+
+      <div id="hdpublic" style="background:url(//static1.dnsppdd.com/style/aomenyinhez/subban6.jpg) no-repeat center top; height: 456px;position: relative;">
+          <div id="news-outer">
+              <div class="first_news inner">
+                  <marquee scrollamount="8" scrolldelay="150" direction="left"  id="msgNews"  onmouseover="this.stop();" onMouseOut="this.start();"  style="cursor:pointer;" onClick="alert('喜讯：亿万彩金，悬赏公告，所有会员玩家只要您在各大论坛网站有账号，轻轻松松“头条奖”1888元属于你！澳门银河专属域名，私人订制火热进行中，彰显您的尊贵身份！详情敬请查看【优惠活动】，畅玩经典刺激的老虎机游戏，尽在澳门银河《www.7769.com》!');">喜讯：亿万彩金，悬赏公告，所有会员玩家只要您在各大论坛网站有账号，轻轻松松“头条奖”1888元属于你！澳门银河专属域名，私人订制火热进行中，彰显您的尊贵身份！详情敬请查看【优惠活动】，畅玩经典刺激的老虎机游戏，尽在澳门银河《www.7769.com》!</marquee>
+              </div>
+          </div>
+      </div>
+		   <div style="clear:both;"></div>
+		   <div id="wrapbox">
+			    <div id="wrapw">
+			      <div id="wrapwhead" style='background:url(//static1.dnsppdd.com/style/aomenyinhez/regpng.png) no-repeat 277px center; height:180px;' ></div>
+				  <div id="wrapwcent">			 
+                     <div id="main" class="reg">
+<div id="left"><div id="cwrapleft">
+	<div id="page-left">
+	   <div id="left_center">
+			<div id="Game-Menual">
+			   <div class="Game-Menual-box">
+				<a href="/cn/forget" target="_self">忘记密码</a>   
+				<a href="/cn/register">免费注册</a>
+								<a href="/agent" target="_self">代理注册</a>
+								<a href="/hg_sports" target="_self">体育投注</a>
+				<a href="/visual/" target="_self">真人娱乐</a>
+				<a href="/game" target="_self">电子游艺</a>
+				<a href="/cn/caipiao" target="_self">彩票游戏</a>
+								    <a href="/cn/lines" target="_self">备用网址</a>
+										    
+				    <a href="/cn/youhui" target="_self">优惠活动</a>				
+                				</div>		
+			</div>	
+	        <div id="left_down"><img src="//static1.dnsppdd.com/style/aomenyinhez/left_down.png" border="0"></div>
+	   </div>		
+    </div>
+</div></div>
+<div id="middle">
+<div class="reg_bg" id="registerbg"></div>
+<div class="form">
+<form action="" method="post" name="register" id="register"><div class='reg_top' id='reg_top'></div><div class='reg_add'>  <div class='reg_add_top_left'><img src='//static1.dnsppdd.com/style/aomenyinhez/favicon.ico' width='48' height='48' /></div>  <div class='reg_add_top_right'>立即加入</div></div><h2>账户信息</h2><div class='use'><label><span>用户名:</span><input name="username" type="text" value=""> * 6-12个英文和数字组成,至少一个字母  </label></div><div class='pass'><label><span>密    码:</span><input name="password" type="password" value=""> * 6-20个任意字符组成 </label></div><div class='rep'><label><span>确认密码:</span><input name="repassword" type="password" value=""> * 6-20个任意字符组成 </label></div><div class='reg_bottom'></div><h2>个人资料</h2><div><label><span>真实姓名:</span><input type="text" name="realname" value=""> * 名字必须与您的银行户口所用名字相同 </label></div><div><label><span>取款密码:</span><input name="qkmm" type="password" value=""> * 6-12个任意字符组成 </label></div><div><label><span>确认取款密码:</span><input name="reqkmm" type="password" value=""> * 提款认证必须，请务必记住!</label></div><div><label><span>密码提示问题:</span><select name="question"><option value="">请选择</option>
+<option value="&#x60A8;&#x7684;&#x8F66;&#x724C;&#x53F7;&#x7801;">您的车牌号码</option>
+<option value="&#x60A8;&#x6240;&#x5728;&#x7684;&#x57CE;&#x5E02;">您所在的城市</option>
+<option value="&#x60A8;&#x7684;&#x751F;&#x65E5;">您的生日</option>
+<option value="&#x60A8;&#x7684;&#x540D;&#x5B57;">您的名字</option>
+<option value="&#x60A8;&#x7236;&#x4EB2;&#x7684;&#x540D;&#x5B57;">您父亲的名字</option>
+<option value="&#x60A8;&#x6BCD;&#x4EB2;&#x7684;&#x540D;&#x5B57;">您母亲的名字</option>
+<option value="&#x60A8;&#x513F;&#x5973;&#x7684;&#x540D;&#x5B57;">您儿女的名字</option>
+<option value="&#x60A8;&#x59BB;&#x5B50;&#x7684;&#x540D;&#x5B57;">您妻子的名字</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x6570;&#x5B57;">您喜欢的数字</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x54C1;&#x724C;">您喜欢的品牌</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x8FD0;&#x52A8;">您喜欢的运动</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x989C;&#x8272;">您喜欢的颜色</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x7403;&#x961F;">您喜欢的球队</option>
+<option value="&#x60A8;&#x559C;&#x6B22;&#x7684;&#x7403;&#x661F;">您喜欢的球星</option></select> * </label></div><div><label><span>密码提示答案:</span><input type="text" name="answer" value=""> * 取回密码的重要依据，请牢记</label></div><div><label><span>推荐ID:</span><input name="tjid" type="text" value=""> 没有推荐人可以不填</label></div><div class='check'><input type='checkbox' value='Y' checked='checked'>我已届满合法博彩年龄﹐且同意各项开户条约。<a href='/html/readme.html' target='_blank'>开户协议</a></div><div class='submitDiv verifyRandom'><input name="submit" type="submit" id="submitbutton" value="&#x20;&#x63D0;&#x20;&#x4EA4;&#x20;"></div><div class='reg_bottom'></div></form>
+<dl>
+ <dt>备注：</dt>
+ <dd>1.标记有<span> *</span> 者为必填项目。</dd>
+ <dd>2.手机与取款密码为取款金额时的凭证,请会员务必填写详细资料。</dd>
+ <dd>3.若公司有其它活动会E-MAIL通知，请客户填写清楚。</dd>
+</dl>
+</div>
+<script type="text/javascript">
+$(function(){
+	$('#register').find("input[name=username]").first().blur(function(){
+		var val = $(this).val();
+		if( val.length <6){
+			alert('用户名必须不少于6个字符');
+			return false;
+		}else{
+			checkUsername( val);
+
+		}
+	});
+})
+function checkUsername( val){
+	$.ajax({
+		type: "POST",
+		url: "/cn/check-username/"+val,
+		dataType: "json",
+		cache:false,
+		success: function(msg){
+			if( msg.result){
+				alert(val + " 已经被注册,请更换!");
+			}
+		}
+	});
+}
+function getCaptcha(){    
+    var img = document.getElementById("imgCap");    
+    img.src = "/cn/captcha?cap=" + new Date().getTime();    
+}  
+</script>
+</div>
+<div class="clear"></div>
+</div>				  </div>	 
+				  <div id="wrapwfoot"></div>  
+			    </div>
+		  </div>
+			     
+  </div>
+            <style>
+            .form .reg_add{ display: none;}
+        </style>
+    </div>
+<!-- foot -->
+<div style="clear:both;"></div>
+<div id="page-footer">
+    <div class="tac"><img src="//static1.dnsppdd.com/style/aomenyinhez/ft.png" alt=""></div>
+    <div class="h17"></div>
+    <div class="foot">
+        <div class="h11"></div>
+        <p>
+            <a href='/cn/nav/38909'>安全上网指南</a>&nbsp;|&nbsp;<a href='/cn/nav/38888'>关于我们</a>&nbsp;|&nbsp;<a href='/cn/nav/38882'>规则说明</a>&nbsp;|&nbsp;<a href='/cn/nav/38883'>常见问题</a>&nbsp;|&nbsp;<a href='/cn/nav/38884'>代理加盟</a>&nbsp;|&nbsp;<a href='/cn/nav/38885'>存款帮助</a>&nbsp;|&nbsp;<a href='/cn/nav/38886'>取款帮助</a>&nbsp;|&nbsp;<a href='/cn/nav/38887'>联系我们</a>        </p>
+        <p>Copyright © 澳门银河官方 2006-2017 (The Milky Way casino Macao) Reserved</p>
+    </div>
+</div>
+
+
+    <style>#wrapbox{background:#083859}</style>
+    
+
+</div>
+</div>
+
+
+    <style type="text/css">
+        #floatc{ width:130px; height:360px; background:url("//static1.dnsppdd.com/style/aomenyinhez/kefuright.png") no-repeat left top; overflow:hidden; cursor:pointer; position:absolute; top:153px; right:10px;z-index:10000; }
+        #floatdiv1 { margin:0; height:92px; overflow:hidden; }
+        #floatdiv1 a { display:block; width:126px;height:92px;  overflow:hidden; cursor:pointer;}
+        #floatdiv2 { margin:0; height:73px; overflow:hidden; }
+        #floatdiv2 a { display:block; width:126px;height:73px;  overflow:hidden; cursor:pointer;}
+        #floatdiv3 { margin:0; height:28px; overflow:hidden; }
+        #floatdiv3 a { display:block; width:126px;height:28px;  overflow:hidden; cursor:pointer;}
+        #floatdiv4 { margin:0; height:136px; overflow:hidden; }
+        #floatdiv4 a { display:block; width:126px;height:136px;  overflow:hidden; cursor:pointer;}
+        #floatclose { margin:0;  height:25px; overflow:hidden;  }
+        #floatdown{ width:130px; height:360px;background:url("//static1.dnsppdd.com/style/aomenyinhez/kefuleft.png?v=071001") no-repeat top left; overflow:hidden; cursor:pointer; position:absolute; top:153px; left:5px; cursor:pointer; z-index:10000; }
+        #floatdd1 { margin:0; height:57px; overflow:hidden;}
+        #floatdd1 a { display:block; width:126px;height:57px;  overflow:hidden; cursor:pointer;}
+        #floatdd2 { margin:0; height:133px; overflow:hidden;}
+        #floatdd2 a { display:block; width:126px;height:133px;  overflow:hidden; cursor:pointer;}
+        #floatdd3 { margin:0; height:137px; overflow:hidden;}
+        #floatdd3 a { display:block; width:126px;height:137px;  overflow:hidden; cursor:pointer;}
+        #floatdownclose { margin:0;  height:26px; overflow:hidden;}
+    </style>
+    <script type="text/javascript" src="/style/share/movefloat.js"></script>
+    <script type="text/javascript" src="/style/share/jquery.cookies.min.js"></script>
+    <div id="floatc" class="pngclass">
+        <div id="floatdiv1"><a href="https://messenger.providesupport.com/messenger/1dcfi769tw86a183qfqzg2apgj.html" class="popupkefu" target="_blank"></a></div>
+        <div id="floatdiv2"><a href="tencent://message/?uin=782899777&Menu=yes" class="popupkefu" target="_blank"></a></div>
+        <div id="floatdiv3"><a href="/cn/register"></a></div>
+        <div id="floatdiv4"></div>
+        <div id="floatclose"></div>
+    </div>
+    <div id="floatdown" class="pngclass">
+        <div id="floatdd1"><a href="/mg/index"></a></div>
+        <div id="floatdd2"><a href="http://kc7769.com/" target="_blank"></a></div>
+        <div id="floatdd3"></div>
+        <div id="floatdownclose"></div>
+    </div>
+    <script language="javascript">
+        function showRdKfAd(){
+            var isClose=$.cookie("rdAd1");
+            if(isClose=="hide11"){
+                $("#floatc").hide();
+            }else{
+                $("#floatc").show();
+            }
+        }
+        function showRdDoAd(){
+            var issClose=$.cookie("rdAd2");
+            if(issClose=="hide22"){
+                $("#floatdown").hide();
+            }else{
+                $("#floatdown").show();
+            }
+        }
+        $("#floatclose").click(function(){
+            $("#floatc").hide();
+            $.cookie("rdAd1", "hide11",{expires: 7200});
+        });
+        moveTips("floatc",153,5,"right");
+        showRdKfAd();
+        $("#floatdownclose").click(function(){
+            $("#floatdown").hide();
+            $.cookie("rdAd2", "hide22",{expires: 7200});
+        });
+        moveTips("floatdown",153,10,"left");
+        showRdDoAd();
+    </script>
+
+    <div style="position: fixed; right: 0px; bottom: 0px; z-index: 100"><a href="/mw" target="_blank"><img src="//static1.dnsppdd.com/style/aomenyinhez/newgame.png"></a></div>
+
+<!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+<div id="ciU3zo" style="z-index:100;position:absolute"></div><div id="sdU3zo" style="display:none"></div><script type="text/javascript">var seU3zo=document.createElement("script");seU3zo.type="text/javascript";var seU3zos=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/1dcfi769tw86a183qfqzg2apgj/safe-monitor.js?ps_h=U3zo&ps_t="+new Date().getTime();setTimeout("seU3zo.src=seU3zos;document.getElementById('sdU3zo').appendChild(seU3zo)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=1dcfi769tw86a183qfqzg2apgj"><img src="http://image.providesupport.com/image/1dcfi769tw86a183qfqzg2apgj.gif" style="border:0px" alt=""/></a></div></noscript>
+<!-- END ProvideSupport.com Visitor Monitoring Code -->
+ <script language="javascript" src="http://count20.51yes.com/click.aspx?id=200063332&logo=1" charset="gb2312"></script> 
+</body>
+</html>
+<!--[if (IE 6)]>
+<script>
+    var downloadNewIE;
+    if('undefined' != typeof downloadvwin){
+        downloadNewIE = downloadvwin;
+    }else{
+        downloadNewIE = function(){
+            window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8');
+        }
+    }
+    </script>
+    <div id="ie6-alertBox">
+        <div id="ie6-infoBar">
+                            系统侦测到您使用旧版浏览器,<span class="alert">本站预计已停止对 IE6 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadNewIE();">「下载区」</a>升级您的浏览器。
+                    </div>
+            </div>
+    <div id="ie6-overlay"></div>
+    <style type="text/css">
+        html{overflow-y:hidden;}
+        .alert{color: red;}
+        #ie6-overlay{
+            background:#777777;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+            /*展示用*/
+            -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+            -moz-opacity:0.5;
+            opacity: 0.5;
+            /*展示用*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        #ie6-alertBox{
+            position:absolute;
+            font-size: 13px;
+            width:300px;
+            height:auto;
+            padding:10px 10px 30px;
+            left:50%;
+            top:40%;
+            line-height: 25px;
+            margin-left:-160px;
+            z-index: 11;
+            color: #000;
+            border:1px solid #777;
+            background-color: #CCCCCC;
+            /*展示用*/
+            background-image: -moz-linear-gradient(top,white,#CCCCCC);
+            background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#CCCCCC));
+            background-image: -webkit-linear-gradient(top,white,#CCCCCC);
+            background-image: -o-linear-gradient(top,white,#CCCCCC);
+            background-image: linear-gradient(to bottom,white,#CCCCCC);
+            background-repeat: repeat-x;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            /*展示用*/
+            border: 1px solid #D4D4D4;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);
+            display:none;
+        }
+        #ie6-infoBar a,#ie6-alertBoxClose{color: #F57900;text-decoration: none;}
+        #ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color: #FF9A37;}
+        #ie6-alertBoxClose{
+            position:absolute;
+            right:5px;
+            bottom:5px;
+            display: none;
+        }
+    </style>
+    <script>
+
+        
+        function showalert(){
+            $("#ie6-overlay").height($(window).height()).width($(window).width());
+                            $("#ie6-alertBox").slideToggle();
+                    }
+
+
+        $(function(){
+                            showalert();
+                    });
+</script>
+<!-->
+<!--<![endif]-->

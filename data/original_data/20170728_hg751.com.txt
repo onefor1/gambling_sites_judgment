@@ -1,0 +1,716 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome</title>
+    <link href="/Content/css/global.css" rel="stylesheet"/>
+<link href="/Content/css/main.css" rel="stylesheet"/>
+
+    <link href="/Content/themes/base/jquery.ui.core.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.resizable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.selectable.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.accordion.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.autocomplete.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.button.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.dialog.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.slider.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.tabs.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.datepicker.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.progressbar.css" rel="stylesheet"/>
+<link href="/Content/themes/base/jquery.ui.theme.css" rel="stylesheet"/>
+
+    <script src="/Scripts/jquery-1.8.2.js"></script>
+<script src="/Scripts/Commen.js"></script>
+<script src="/Scripts/frontSiteBegin.js"></script>
+
+    <script src="/Scripts/jquery-ui-1.8.24.js"></script>
+
+    <script src="/Scripts/Json2/json2.js"></script>
+    <script src="/Scripts/javascriptlinq.js"></script>
+    
+    <link rel="icon" href="/favicon1.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon1.ico" type="image/x-icon" />
+
+
+
+
+<link href="/skin/images/layout.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="/skin/images/float.js"></script>
+</head>
+<body>
+    
+    
+     <ul id="TplFloatPic_0" class="TplFloatSet" style="position: absolute; cursor: pointer; z-index: 1000; top: 331.95px; left: 5px; width: 182px; height:431px;" picfloat="left">
+      
+      <img src="/rkf.png" border="0" usemap="#Map11" width="100%" height="100%">
+<map name="Map11" id="Map11">
+  <area shape="rect" coords="20,0,165,265" href="https://messenger.providesupport.com/messenger/0i0hj2lzglzbt1vp4qmiafwhx2.html" target="_blank">
+  <area shape="rect" coords="20,265,165,335" href="http://wpa.qq.com/msgrd?v=3&uin=9993020&site=qq&menu=yes" target="_blank">
+   <area shape="rect" coords="20,335,165,410" href="http://hg751.com/" target="_blank">
+  <area shape="rect" coords="20,410,165,430" href="#" onclick="FloatClose(this);">
+</map>
+    </ul>
+    
+<table width="988" border="0" cellpadding="0" cellspacing="0" bgcolor="#242001" style="margin:0 auto; position:relative; " class="ccc">
+  <tbody><tr>
+    <td height="62" align="center"><table width="100" border="0" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td><img src="/skin/images/headerBg.jpg" width="978" height="126">
+        <div style="position:absolute; right:0px; top:5px;">
+             <!--<object type="application/x-shockwave-flash" data="/skin/images/logo.swf" width="320" height="105"  id="logo-flash">
+<param name="movie" value="/skin/images/logo.swf" />
+<param name="wmode" value="transparent" />
+</object>-->    
+        </div>
+        
+        </td>
+      </tr>
+      <tr>
+        <td height="27" align="center" bgcolor="#242307">
+<table width="975" border="0" cellpadding="0" cellspacing="1" bgcolor="#35351B">
+            <tbody><tr align="center" bgcolor="#35351B">
+              <td width="151" height="27" bgcolor="#242307"><span class="style155">美东时间
+                    <label id="ddate">3:28:47</label>
+<script language="javascript">
+				var ddate=document.getElementById("ddate");
+				function updatedate(){
+					var dd1=new Date();
+					dd1.setMinutes(dd1.getMinutes()+dd1.getTimezoneOffset()-239); 
+					var tmin=dd1.getHours();
+					ddate.innerHTML=tmin+":"+dd1.getMinutes()+":"+dd1.getSeconds();
+					 var t=setTimeout("updatedate()",1000);
+				}
+				updatedate();
+			</script>
+              </span></td>
+            
+              <td width="97" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/home/index">首页</a></span></td>
+              <td width="101" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1"><b>
+				<a href="/user/regist"><font color="#FF0000">立即开户</font></a></b></span></td>
+                <td width="99" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/BallHome/Index">皇冠体育</a></span></td>
+                <td width="102" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/VideoGame/Index">真人娱乐</a></span></td>
+                <td width="99" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/LHC/index2?ty=六合彩">六合彩</a></span></td>
+                <td width="102" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+			  <a href="/LotteryHome/Index">彩票游戏</a></span></td>
+                <td width="102" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/Event/Index"><font color="#FF0000">优惠活动</font></a></span></td>
+                <td width="102" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="/EleGame/Index">电子游戏</a></span></td>
+                <td width="101" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1"><b>
+				<a href="http://m.hg751.com"  target="_blank"><font color="#FF0000">手机投注</font></a></b></span></td>
+            <td width="102" bgcolor="#242307" onmouseover="javascript:this.style.backgroundColor =&#39;#121203&#39;" onmouseout="javascript:this.style.backgroundColor = &#39;&#39;"><span class="style1">
+				<a href="https://messenger.providesupport.com/messenger/0i0hj2lzglzbt1vp4qmiafwhx2.html" target="_blank"> 在线客服</a></span></td>
+           
+          </tr></tbody></table>        </td>
+      </tr>
+    </tbody></table>
+    <div class="cp_style">
+        <center>
+            
+
+<div id="wraper" style="background:#EFE697 ) 800px top no-repeat;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tbody>
+            <tr>
+                <td valign="top">
+                    <table width="775" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="174" height="247" background="/skin/images/ggBg.jpg">
+                                    <marquee behavior="scroll" direction="up" class="gg" scrollamount="1" onmouseover="this.stop()" onmouseout="this.start()" vspace="1" style="margin-top:40px; margin-bottom: 1px;">
+                                        <span class="messageSpan">
+                                                        <a href="javascript:showmess('1')" class="daymessage_a">尊敬的皇冠国际会员：您好，网站升级改版工作预计在7月15号新旧版共享，届时皇冠国际将会以全新的面貌与广大会员见面！敬请期待！在此期间，若有任何问题，请随时咨询24/H在线客服。感谢各位新老会员的支持！</a>
+
+    <script type="text/javascript">
+        function showmess(id) {
+            jQuery.post("/Message/Detil/" + id, {}, function (data) {
+                jQuery("#dialog4").html(data);
+                $("#dialog4").dialog({
+                    zIndex: 3000,
+                    resizable: false,
+                    width: 850,
+                    height: "auto",
+                    modal: false,
+                    buttons: {
+                        '关闭': function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+            });
+        }
+    </script>
+    <style>
+        .daymessage_a{
+            color:#FF0;
+        }
+		a:hover {
+			color: #FF0;
+		}
+    </style>
+                                        </span>
+                                    </marquee>
+                                </td>
+                                <td width="4">&nbsp;</td>
+                                <td width="595" align="right" class="bannerArea">
+
+                                    <script type="text/javascript" src="/skin/images/swfobject.js"></script>
+                                    <div id="first-ad">
+                                        <div id="loop_flash">
+                                        </div>
+<script type="text/javascript">
+var flashvars = {};
+var params = {};
+    params.wmode = 'transparent';
+    params.quality = 'high';
+    params.FlashVars = 'xml_url=/skin/images/banner.xml';
+var attributes = {};
+attributes.id = 'header-flash';
+swfobject.embedSWF('/skin/images/loop2011.swf', 'loop_flash', '596', '247', '8.0.35.0', '"/skin/images/expressInstall.swf"', flashvars, params, attributes);
+</script>
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="775" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px">
+                        <tbody>
+                            <tr>
+                                <td width="254"><img src="/skin/images/livedealer.gif" tppabs="livedealer.gif" width="254" height="29"></td>
+                                <td width="6">&nbsp;</td>
+                                <td width="254"><img src="/skin/images/casino.gif" tppabs="casino.gif" width="254" height="29"></td>
+                                <td width="6">&nbsp;</td>
+                                <td><img src="/skin/images/sportsbook.gif" tppabs="sportsbook.gif" width="254" height="29"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="774" border="0" cellspacing="0" cellpadding="0" height="308" style="cursor:pointer;">
+                        <tbody>
+                            <tr>
+                                <td width="254" height="308" valign="top" background="/skin/images/liveDealerBg.jpg" tppabs="liveDealerBg.jpg" onClick="location.href='/ballHome/index';">
+                                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" height="307">
+                                        <tbody>
+                                            <tr>
+                                                <td height="180">　</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="127" class="game style19"><span class="game style19">我们提供您最喜爱的体育赛事，如足球五大联赛、世界杯、NBA、WNBA、NFL、MLB、NCAA，以及四大网球公开赛！</span></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="6">&nbsp;</td>
+                                <td width="254" height="308" valign="top" onClick="location.href='/VideoGame/Index';" background="/skin/images/casinoBg.jpg">
+                                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" height="307">
+                                        <tbody>
+                                            <tr>
+                                                <td height="180">　</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="127" class="game style19"><span class="game style19">我们的游戏包括百家乐，连环百家乐、骰宝、轮盘、龙虎、温州牌九、二八杠，并独创6张牌先发及免佣百家乐玩法！</span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td width="6">&nbsp;</td>
+                                <td width="254" valign="top" onClick="location.href='/LotteryHome/Index';" background="/skin/images/sportBg.jpg" tppabs="sportBg.jpg">
+                                    <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" height="305">
+                                        <tbody>
+                                            <tr>
+                                                <td height="180">　</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="127" class="game style19"> <span class="game style19">彩票游戏丰富，提供最高赔率，所有注单依据官方开奖结果结算，在这里我们将为您提供一个公平，公正的游戏平台！</span></span></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" height="5">
+                        <tbody>
+                            <tr>
+                                <td height="5"><img src="/skin/images/000.gif" tppabs="000.gif" width="12" height="5"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td width="6"></td>
+                <td valign="top" bgcolor="#EFE697" id="sideBar">
+<script language="JavaScript" type="text/javascript">
+		var divheight =100;
+		var speed=11;
+		var i=0;
+		var s;
+		var p=0;
+		function big(n){
+			if(document.getElementById("bbb"+n).offsetHeight<11){
+			i=0;
+		    inc(n);
+		    document.getElementById("ico"+n).className="opened";
+			}
+			else if(document.getElementById("bbb"+n).offsetHeight>divheight){
+				p=divheight;
+			    inc2(n);
+				document.getElementById("ico"+n).className="";
+			}
+		}
+		function inc(x){
+		i=i+10;
+		document.getElementById("bbb"+x).style.height=i+"px";
+
+				if(i>divheight){
+
+					i=divheight-5;
+
+				}
+					var s=setTimeout("inc("+x+")",speed);
+			if(i==95){
+				window.clearTimeout(s);
+
+			}
+
+		}
+		function inc2(x){
+		if(p>1){
+		p=p-10;
+			document.getElementById("bbb"+x).style.height=p +"px";
+
+		}
+		var s=setTimeout("inc2("+x+")",speed);
+		if(p==0){
+
+				window.clearTimeout(s);
+		}
+		}
+                    </script>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="leftBtn">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="abslut" style="background:url(/skin/images/btn_kh.gif) no-repeat;" onClick="location.href='/user/regist';" id="botton1"><span id="ico1"></span></div>
+                                    <div class="bb" id="bbb1">
+                                        <div class="intro">
+                                            开户简单，快捷，安全，在线开户只需1分钟完成.<br>
+                                            <a href="/user/regist"><img src="/skin/images/btn_kh_s.gif" tppabs="btn_kh_s.gif" border="0"></a><a href="#" target="_blank"><img src="/skin/images/t_khhelp.gif" tppabs="t_khhelp.gif" border="0"></a>
+                                        </div>
+                                    </div>
+                                    <div class="abslut" style="background:url(/skin/images/btn_cz.gif) no-repeat;" onclick="big(2)" id="botton2"><span id="ico2"></span></div>
+                                    <div class="bb" id="bbb2">
+                                        <div class="intro">
+                                            在线充值完成后自动添加额度,即可投注.<br>
+                                            <a href="/Help/Deposit"><img src="/skin/images/btn_cz_s.gif" tppabs="btn_cz_s.gif" border="0"></a><a href="#"><img src="/skin/images/t_czhelp.gif" tppabs="t_czhelp.gif" border="0"></a>
+                                        </div>
+                                    </div>
+                                    <div class="abslut" style="background:url(/skin/images/btn_tk.gif) no-repeat;" onclick="big(3)"><span id="ico3"></span></div>
+                                    <div class="bb" id="bbb3">
+                                        <div class="intro">
+                                            取款次数无限制。在线提款无须人工操作，5分钟到达指定银行。
+                                            <br>
+                                            <a href="/Help/WithDrawal"><img src="/skin/images/123456.gif" tppabs="123456.gif" border="0"></a>
+                                        </div>
+                                    </div>
+                                    <div class="abslut" style="background:url(/skin/images/btn_sw.gif) no-repeat;" onclick="big(4)"><span id="ico4"></span></div>
+                                    <div class="bb" id="bbb4">
+                                        <div class="intro">
+                                            请向在线客服索取免费参观账号。<br>
+                                            <a href="https://messenger.providesupport.com/messenger/0i0hj2lzglzbt1vp4qmiafwhx2.html" target="_blank"><img src="/skin/images/btn_kf_s.gif" tppabs="btn_kf_s.gif" border="0"></a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" bgcolor="#242001" style="padding-top:2px;">
+
+                                    <a href="http://www.hg721.com/" target="_blank"><img src="/skin/images/btn_dl.gif" width="188" height="47" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center">
+                                                    <table width="100" border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="188" height="210" valign="middle" bgcolor="#efe697" style="font-size: 12px">
+                                                                    <a href="#">
+                                                                        <img src="/skin/images/kf2.jpg" usemap="#testmap" width="188" height="210" />
+                                                                        <map name="testmap" id="testmap">
+                                                                            <area shape="rect" coords="0,0,188,80" href="#" alt="test1" />
+                                                                            <area shape="rect" coords="0,80,180,142" href="http://wpa.qq.com/msgrd?v=3&uin=9993020&site=qq&menu=yes" target="_blank" alt="test2" />
+                                                                            <area shape="rect" coords="0,142,180,200" href="http://wpa.qq.com/msgrd?v=3&uin=9993020&site=qq&menu=yes" target="_blank" alt="test2" />
+                                                                        </map>
+                                                                        <!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="188" height="210">
+                                                                           <param name="movie" value="/skin/images/kf2.jpg">
+                                                                            <param name="quality" value="High">
+                                                                            <embed src="/skin/images/kf2.jpg" quality="High" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="188" height="210">
+                                                                        </object>-->
+                                                                    </a>
+                                                                    <div style="z-index:99999;"><img src="/skin/images/vip.jpg" width="188" height="208" border="0"></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" bgcolor="#242100">	<a href="http://wpa.qq.com/msgrd?v=3&uin=9993020&site=qq&menu=yes" target="_blank"></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
+
+
+<!--<div id="floatDiv" style="float:left;position:fixed !important; top:150px;position:absolute; z-index:300; top:expression(offsetParent.scrollTop+150);right:0px">
+  <a href="https://messenger.providesupport.com/messenger/0i0hj2lzglzbt1vp4qmiafwhx2.html" target="_blank">
+    <img src="/skin/images/hgleft.png" border="0">
+  </a>
+</div>
+-->
+
+<!--新首页弹出框设置1begin-->
+
+<script language="javascript">
+    $(function () {
+        var iwidth=8+643;
+        var iheight=8+141;
+        if (false) {
+            $('<iframe frameborder="0" style="padding:0;"/>').dialog({
+                resizable: false,
+                width: iwidth,
+                height:iheight,
+                modal: false,
+                title: "重要通知",
+                buttons: {
+                    '关闭': function () {
+                        $(this).dialog("close");
+                    }
+                }
+        }).width(iwidth).height(iheight).attr("src","/CommPart/IndexDialog");
+        }
+    });
+</script>
+<!--新首页弹出框设置1end-->
+            <div style="clear:both;"></div>
+        </center>
+    </div>
+<div id="footer" style="background:url(/skin/images/foot.jpg) no-repeat;"><table width="200" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td height="74"><!--<div align="center"><img src="/skin/images/bottom.jpg" tppabs="/skin/images/bottom.jpg" width="920" height="44"></div>--></td>
+  </tr>
+  <tr>
+    <td height="34"><div align="center"><li class="style55"><a href="/Help/AboutUs">关于我们</a> ｜
+            <a href="/Help/ContractUs">联系我们</a> ｜
+            <a href="/User/RejectAgent">代理合作</a> ｜
+            <a href="/Help/Deposit">如何存款</a> ｜
+            <a href="/Help/WithDrawal">如何取款</a> ｜
+            <a href="/Help/CommonQuestions">常见问题</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- ｜
+            <a href="/Rules/Sports" target="_blank">玩法规则</a>--></li><br><span class="style18">Copyright ® 皇冠现金网 Reserved
+          </span></div>&nbsp;</td>
+  </tr>
+</tbody></table></div>
+
+
+</td></tr></tbody></table>
+<style type="text/css">
+    .firstJoin{
+	background: url('/skin/images/btn_joinus.png') top left no-repeat;
+}
+.firstJoin:hover{
+	background: url('/skin/images/btn_joinus.png') bottom left no-repeat;
+}
+.firstWelcome{
+	background: url('/skin/images/btn_welcome.png') top left no-repeat;
+}
+.btn_download{
+	background: url('/skin/images/btn_download.png') top left no-repeat;
+}
+.btn_download:hover{
+	background: url('/skin/images/btn_download.png') bottom left no-repeat;
+}
+.btn_service{
+	background: url('/skin/images/btn_service.png') top left no-repeat;
+}
+.btn_service:hover{
+	background: url('/skin/images/btn_service.png') bottom left no-repeat;
+}
+#page-news {
+	background: url('/skin/images/newsbg02.png') no-repeat;
+}
+#loginbg-account{
+	background: url('/skin/images/title_view_account.png') no-repeat;
+}
+.ele-ltlottery-rule-btn{
+	background: url('/skin/images/btn_rule.png') top left no-repeat;
+}
+.menual-list-top{
+    background: url('/skin/images/sidebar_top.png') no-repeat;
+}
+/* 各頁標題背景 */
+.pageTitleBg{
+                background-image: url('/skin/images/title_welcome_bg.png');
+    }
+.pageTitle{
+                background-image: url('/skin/images/title_welcome.png');
+    }
+/* 搶先看 */
+.GameIcon-First{
+    background-image:url('/skin/images/First_zh-cn.png');
+}
+.cdfloater01holder { width:160px; padding:0; margin:0; position:absolute; right:0px; top:150px; z-index:500; background:url(kefu.png?=1) no-repeat; overflow:hidden; }
+</style>
+
+
+
+
+
+
+
+
+<script>
+    //關閉效果
+    function FloatClose(t){ event.cancelBubble = true;$(t).parents('.TplFloatSet').hide(); }
+    var left_top = 150, right_top = 150, float_list = [], float_side = 5;
+    $(window).load(function() {
+        // 廳主自改 - 浮動圖V2 -2013.7.19
+                    float_list['0'] = $('#TplFloatPic_0');
+                    //float_list['1'] = $('#TplFloatPic_1');
+                for (var i in float_list) {
+            var self = float_list[i], 
+                picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+            self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), side: float_side});
+            var w = 0;        
+            $.each(self.find('img'), function(){
+                var width = $(this).width();
+                w = (width > w) ? width : w;//取圖片最大寬度
+                $(this).attr({
+                    'width' : width,
+                    'height': $(this).height()
+                });
+            });
+            self.css('width', w);
+            if (picfloat) {
+                right_top = right_top + 10 + (self.height() || 250);
+            } else {
+                left_top = left_top + 10 + (self.height() || 250);
+            }
+
+            $('a', self).each(function(){
+                $(this).css({'width' : $(this).find('img:first').width(),'height' : $(this).find('img:first').height()});
+                $(this).hover(function() {
+                	$(this).find('img:first').hide();
+                    $(this).find('img:last').show();
+                }, function() {
+                	$(this).find('img:last').hide();
+                    $(this).find('img:first').show();
+                });
+            });
+        }
+    });
+</script>
+
+
+
+
+
+    <script type="text/javascript">
+        //文字闪烁
+        setInterval(function(){
+            try
+            {
+                blinkff.color=blinkff.color=='#00ff00'?'#ff0000':'#00ff00';
+            }catch(e){}
+        },100)
+        //刷新验证码
+        function reLoadCode() {
+            jQuery("#code2").attr("src", "/IdentifyingCode/index?t=" + unixtime());
+            //alert(jQuery("#code2").attr("src"));
+        }
+        function Login() {
+            var name = jQuery("input[name=name_]").val();
+            var pwd = jQuery("input[name=pwd_]").val();
+            var code = jQuery("input[name=code_]").val();
+            jQuery.jsonPost("user", "Login", {
+                name: name, pwd: pwd, code: code
+            }, function (data) {
+                alert("登陆成功");
+                window.location = "/Commpart/relief";
+            }, {});
+        }
+        jQuery(function () {
+            reLoadCode();
+            loaduserinfo();
+        });
+        var userInfo=null;
+        var loaduserinfo = function () {
+            jQuery.jsonPost("Commpart", "GetLoginUser", { m: "ref" }, function (d) {
+                if (d == null) {
+                } else {
+                    jQuery("#yuee").html("￥" + (d.balance - 0 + 0.0));
+
+                    if(jQuery("#bbin_money")!=null){
+                        jQuery("#bbin_money").html(d.BBIN_Money);
+                    }
+                    if(jQuery("#pt_money")!=null){
+                        jQuery("#pt_money").html(d.PT_Money);
+                    }
+                    if(jQuery("#dj_money")!=null){
+                        jQuery("#dj_money").html(d.DJ_Money);
+                    }
+                    if(jQuery("#allbet_money")!=null){
+                        jQuery("#allbet_money").html(d.ALLBET_Money);
+                    }
+                    if(jQuery("#hg_money")!=null){
+                        jQuery("#hg_money").html(d.HG_Money);
+                    }
+                    if(jQuery("#ag_money")!=null){
+                        jQuery("#ag_money").html(d.AG_Money);
+                    }
+                    if(jQuery("#og_money")!=null){
+                        jQuery("#og_money").html(d.OG_Money);
+                    }
+                    if(jQuery("#newCount")!=null){
+                        jQuery("#newCount").html(d.Msg);
+                    }
+
+                    userInfo=d;
+                }
+            }, {});
+        };
+
+        //刷新用户信息
+        setInterval(loaduserinfo, 10000);
+
+        function checkMobile(str) {
+            str = jQuery(str).val();
+            var re = /^1\d{10}$/
+            if (re.test(str)) {
+            } else {
+                alert("请输入正确的手机号码");
+                jQuery("input[name='phone']").focus();
+            }
+        }
+
+        function go_next(event, step){
+            event = event || window.event;
+            var keyCode = event.keyCode;
+            if(keyCode == 13){
+                if(step=="1"){
+                    jQuery('#password').focus();
+                }
+                if(step=="2"){
+                    var code2=jQuery('#txt_code');
+                    if(code2!=null){
+                        code2.focus();
+                    }else{
+                        Login();
+                    }
+                }
+                if(step=="3"){
+                    Login();
+                }
+            }
+        }
+		
+		
+var left_top = 115, right_top = 140, float_list = [];
+$(function(){
+  var page = "first";
+  var otherPage = "";
+  if( page=="MAdvertis"){
+    if(otherPage == "MemberExclusiveII"){
+      $("#LS-pre").addClass("on");
+    }else if(otherPage.substr(0, 2) == "AT"||otherPage==""||otherPage=="test_reg"||otherPage=="JoinAgent"){
+      $("#LS-first").addClass("on");
+    }
+  }else{    
+    $("#LS-"+page).addClass("on");
+  }
+  if(page!='first'){
+    $('.indexbottom').hide();
+  }
+  // 廳主自改 - 浮動圖
+  $(".floatDiv").each(function(i){
+    float_list[i] = $(this);
+  });
+  $(".kf-close").click(function() {
+    $(this).parents(".floatDiv").slideUp(900);
+  });
+   $(".close").click(function() {
+    $(this).parents("#fl_left").slideUp(900);
+  });
+  for (var i in float_list) {
+      var self = float_list[i];   
+      var picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
+      self.show().Float({'floatRight' : picfloat, 'topSide' : ((picfloat == 1) ? right_top : left_top), 'side':0});
+      
+      // ie6 png bug
+      if (navigator.userAgent.toLowerCase().indexOf('msie 6') != -1) {
+        $.each(self.find('span'), function(){
+          $(this).css({'width':$(this).width(),'height' : $(this).height()});
+        });
+      }     
+      if (picfloat) {
+          right_top = right_top + (self.find('a > span').height() || 300);
+      } else {
+          left_top = left_top + (self.find('a > span').height() || 300);
+      }
+      }
+
+      //nav
+  var $el, leftPos, newWidth;
+    var $move = $(".move");
+    $move
+        .css("left", $(".on").position().left)
+        .data("origLeft", $(".on").position().left);
+    $(".nav li a").hover(function () {
+        $el = $(this);
+        leftPos = $el.parent().position().left;
+        newWidth = $el.parent().width();
+        $move.stop().animate({
+            left: leftPos 
+        }, "200")
+    }, function () {
+        $move.stop().animate({
+            left: $move.data("origLeft")
+        }, "200");
+    });
+  
+   
+  
+});
+</body>
+
+
+
+</html>

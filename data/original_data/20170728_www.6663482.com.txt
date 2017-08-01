@@ -1,0 +1,3164 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 	var ctx="";
+ 	var loginStatus='';	//登录状态，"0"为已登录
+ 	var pageUrl = window.location.href;
+</script>
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/jsp/member/default/css/jquery-ui-1.9.1.custom.min.css">
+<script src="/common/js/me_common.js"></script>
+<!-- 公告js,css -->
+<script type="text/javascript" src="/common/js/announment.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ann.css" />
+<!-- 会员中心公用js -->
+<script type="text/javascript" src="/jsp/member/default/js/common.js"></script>
+<!-- 会员登录后刷新余额和展示各个api的余额 -->
+<link href="/jsp/member/default/css/refreshBalance.css" rel="stylesheet" type="text/css" />
+
+
+
+<!-- 新版本设计替换js css -->
+<link rel="shortcut icon" href="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="stylesheet" href="//cdnfss.ruirobot.com/v3/stc/bt/a06/css/header_footer.css" type="text/css"></link>
+<script type="text/javascript" src="//cdnfss.ruirobot.com/v3/stc/bt/a06/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript" src="//cdnfss.ruirobot.com/v3/stc/bt/a06/js/jquery.SuperSlide.2.1.js"></script>
+<script type="text/javascript" src="//cdnfss.ruirobot.com/v3/stc/bt/a06/js/siqiji.js"></script>
+
+
+<script type="text/javascript" src="/common/js/float.js"></script>
+<link rel="stylesheet" href="//cdnfss.ruirobot.com/v3/stc/bt/a06/css/index.css" type="text/css"></link>
+<link rel="stylesheet" href="//cdnfss.ruirobot.com/v3/stc/bt/a06/css/buyu.css" type="text/css"></link>
+<script type="text/javascript" src="//cdnfss.ruirobot.com/v3/stc/bt/a06/js/SuperSlide.js"></script>
+<script type="text/javascript">
+$().ready(function(){
+	selMenu("menu_01");
+	
+	jQuery(".tab-wrap").slide({
+        trigger: "click"
+    });
+
+    var top_num = $('.random-num .num');
+    var random_num = new Array();
+    for (var i = 0; i < top_num.length; i++) {
+        random_num[i] = parseInt(Math.random() * 10000000);
+    }
+
+    random_num[1] > random_num[2] ? random_num[0] = random_num[1] + parseInt(Math.random() * 1000000) : random_num[0] = random_num[2] + parseInt(Math.random() * 1000000);
+
+    random_num[0] = 17288393;
+
+    random_num[1] = 45223321;
+
+    random_num[2] = 45223321;
+
+    setInterval(function() {
+        for (var i = 0; i < top_num.length; i++) {
+            top_num.eq(i).html( (random_num[i] += parseInt(Math.random() * 100)) + ".00 元");
+        } 
+    }, 1000); 
+    
+    $(".middle-text").slide({mainCell:"ul",autoPlay:true,effect:"topMarquee",vis:4,interTime:50,trigger:"click"});
+    $(".right-text").slide({mainCell:"ul",autoPlay:true,effect:"topMarquee",vis:4,interTime:50,trigger:"click"});
+});
+</script>
+
+<style>
+	/* 	*{
+			margin:0;
+			padding: 0;
+			list-style-type: none;
+			font-family: "Microsoft yahei";
+		}
+		a , img {
+			display: block;
+		} */
+		.fl{
+			float:left;
+		}
+		.fr{
+			float: right;
+		}
+		.clearfix:after{
+			content:".";
+			display:block;
+			height:0;
+			clear:both;
+			visibility:hidden;
+		}
+		.main{
+			width: 1031px;
+			margin: 0 auto;
+		}
+		.new-add{
+			width:100%;
+			background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/4.jpg');
+		}
+		.new-add .container{
+			padding: 8px;
+			background: rgba(69,0,3,0.39);
+			border-radius: 30px;
+			position: relative;
+		}
+		.container .content{
+			background: #3e0005;
+			border-radius: 25px;
+		}
+		.container .content .menu ul li{
+			width: 255px;
+			border-right: 1px solid #5b090f;
+			border-bottom: 1px solid #5b090f;
+			height: 105px;
+			position: relative;
+			cursor: pointer;
+		}
+		.container .content .menu ul li i{
+			height: 100%;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 	13px;
+			background: url("//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/right_active.png") no-repeat;		
+			transition: all .5s;
+			display: none;
+		}
+		.container .content .menu ul li.active i{
+			display: block;
+		}
+		.container .content .menu ul li:last-child{
+			border-bottom: 0;
+		}
+		.container .content .menu ul li img{
+			padding-left: 29px;
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			margin-top: -30px;
+		}
+		.container .content .menu ul li:nth-child(2) img{
+			margin-top: -21px;
+		}
+		.container .content .menu ul li:nth-child(3) img{
+			margin-top: -12px;
+		}
+		.container .content .menu ul li:nth-child(4) img{
+			margin-top: -20px;
+		}
+		.container .content .menu ul li:nth-child(5) img{
+			margin-top: -18px;
+		}
+		.container .content .menu ul li h3{
+			display: inline-block;
+			padding-left: 110px;
+			font-size: 18px;
+			color: white;
+		}
+		.container .content .menu ul li p{
+			padding-top: 33px;
+		}
+		.container .content .menu ul li h3 span{
+			color: #661017;
+			font-size: 14px;
+		}
+		
+		.picture-container{
+			padding: 20px;
+			/*height: 400px;*/
+			width: 720px;
+		}
+		.picture-container > div{
+			width: 100%;
+			height: 100%;
+		}
+		.picture-container ul{
+			margin-bottom: 18px;
+		}
+		.picture-container ul:last-child{
+			margin-bottom: 0;
+		}
+		.picture-container ul li{
+			float: left;
+			width: 168px;
+			height: 191px;
+			background: #60070e;
+			margin-left: 16px;
+			cursor: pointer;
+		}
+		.picture-container ul li:first-child{
+			margin-left: 0;
+		}
+		.picture-container ul li div.pic{
+			height: 139px;
+			border-bottom: 1px solid #8a1f28;
+		}
+		.picture-container ul li:hover {
+		    background-color: #7a0102;
+		}
+		.container .content .menu ul li:hover{
+			background-color: #7a0102;
+		}
+		.picture-container ul li div.text{
+			height: 46px;
+			text-align: center;
+			font-size: 16px;
+			padding-top: 5px;
+			/*padding: 8px 0;*/
+			color: #e1aeb2;
+		}
+		.picture-container ul li div.text img {
+			display: inline-block;
+			margin: 0 1px;
+		}
+		.content .info{
+			margin: 20px;
+			/*background: green;*/
+			/*height: 400px;*/
+			width: 720px;
+			text-align: center;
+		}
+		.cover{
+			height: 0;
+		}
+		.cover img{
+			position: relative;
+			left: -100px;
+			/*transition: .5s all;*/
+		}
+		.content .info p{
+			width: 543px;
+			height: 62px;
+			background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/money_03.png') no-repeat;
+			margin: 0 auto;
+			position: relative;
+			line-height: 30px;
+		}
+		.content .info p span{
+			display: block;
+		}
+		.content .info p span a{
+			white-space:nowrap;
+		}
+		.content .info p span.title{
+			font-size: 18px;
+		}
+		.content .info p span.title a{
+			padding:0 8px;
+			background-image: linear-gradient( to bottom ,#ded67a , #d2d258 , #fffdd1 );
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		    font-size: 16px;
+		}
+		.content .info p span.money{
+			color: #dbd5a0;
+			font-size: 23px;
+		}
+
+		.ad{
+			padding: 30px 0px;
+			width: 1047px;
+		}
+		.ad > div{
+			width: 403px;
+			height: 198px;
+			padding: 8px;
+			background: rgba(69,0,3,0.39);
+			border-radius: 30px;
+		}
+		.ad .ad-right{
+			width: 572px;
+			position: relative;
+		}
+		.ad > div > div{
+			width: 100%;
+			height: 100%;
+			background: #3e0005;
+			border-radius: 25px;
+		}
+		.ad .ad-content{
+			overflow: hidden;
+		}
+		.ad .ad-content ul.ad-slide{
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		.ad .ad-content ul.ad-slide li{
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: #3e0005;
+			width: 100%;
+			height: 100%;
+			z-index:100;
+		}
+		.ad .ad-content ul.ad-slide li:last-child{
+			display: none;
+		}
+		.ad .ad-content ul.ad-slide li .slideContainer{
+			padding: 32px 0 32px 18px;
+		}
+		.ad .ad-content ul.ad-slide li .info{
+			font-size: 22px;
+			padding-top: 20px;
+			padding-left: 12px;
+			text-align: center;
+		}
+		.ad .ad-content ul.ad-slide li .info p {
+			background-image: linear-gradient( to right ,#ddaa3f , #fcf580 , #ddaa3f );
+		    -webkit-background-clip: text;
+		    -webkit-text-fill-color: transparent;
+		}
+		.ad .ad-content ul.ad-slide li i {
+			display: inline-block;
+			margin-top: 10px;
+			width: 46px;
+			height: 46px;
+			background: #310004 url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/icon_ios.png') no-repeat center center; 
+			border-radius: 50%;
+		}
+		.ad .ad-content ul.ad-slide li i:last-child{
+			background: #310004 url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/icon_android.png') no-repeat center center; 
+		}
+		.ad .ad-right .slide{
+			width: 440px;
+			height: 120px;	
+			border-bottom: 1px dashed #580b11;
+			margin-left: 20px;
+			padding: 10px 0;
+			line-height: 26px;
+			overflow: hidden;
+		}
+		.ad .ad-right .slide ul {
+			position: relative;
+			top: 0;
+			height: auto;
+		}
+		.ad .ad-right .slide span:first-child{
+			padding: 0;
+		}
+		.ad .ad-right .slide span{
+			padding-left: 40px;
+			color: white;
+			font-size: 16px; 
+		}
+		.ad .ad-right .slide span:nth-child(3){
+			color:#dbd5a0;
+			text-align: left;
+			display: inline-block;
+			width: 84px;
+		}
+		.ad .ad-right .slide span:nth-child(4){
+			color:#ffeb5d;
+		}
+		.ad .ad-right .ad-bottom{
+			padding: 13px 0 0 20px;
+		}
+		.ad .ad-right .ad-bottom img{
+			display: inline-block;
+		}
+		.ad .ad-right .ad-bottom span{
+			font-size: 12px;
+			color: #dbd5a0;
+			display: inline-block;
+			position: relative;
+			top: -6px;
+			padding-left: 20px;
+		}
+		.ad .ad-right .hot{
+			position: absolute;
+			right: -74px;
+			top: 20px;
+		}
+.content .info p span.mwdz {
+    color: #dbd5a0;
+    font-size: 23px;
+}
+.content .info p span.ptdz {
+    color: #dbd5a0;
+    font-size: 23px;
+}
+.content .info p span.bbdz {
+    color: #dbd5a0;
+    font-size: 23px;
+}
+.content .info p span.agdz {
+    color: #dbd5a0;
+    font-size: 23px;
+}
+.ad .ad-right .slide span:nth-child(2) {
+    /* text-align: center; */
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+}
+	</style>
+	
+</head>
+<body>
+	
+<style>
+#box1 a{cursor: pointer;display: block;}
+#box2 a{cursor: pointer;display: block;}
+</style>	
+<div id="box1" picfloat="left"
+	style="position: absolute;  z-index: 1000; top: 150px;left: 5px;float:left;">
+	 <div style="background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/float_left_out.png') no-repeat;width:155px;height:465px;"
+	 	 >
+			<a style="height: 196px;margin-top: 3px;" href="javascript:openWin3('/member/flex?key=ag&type=playgame&gameType=6')" target="_blank"></a>
+			<a style="height: 45px;" href="http://4440335.com/" target="_blank"></a>
+			<a style="height: 45px; margin-top: 0px;"
+				 href="http://www.29818hd.net/" target="_blank"></a>
+			<a style="height: 45px;" href="http://7770984.com/dns/" target="_blank"></a>
+			<a style="height: 45px; " href="javascript:void(0);"
+				onclick="window.open('http://www.29818pay.com','_blank')"></a>
+			<a style="height: 45px;" href="javascript:void(0);"
+				onclick="window.open('http://7770984.com','_blank')"></a>				
+		   <a style="height: 30px;margin-top: 8px;" 
+				onclick="document.getElementById('box1').style.display='none'"></a>
+		</div>
+</div>
+
+<div id="box2" picfloat="right"
+	style="position: absolute; z-index: 1000; top: 150px; right: 5px; float: right;">
+	 <div style="background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/float_right_in.png') no-repeat;width:158px;height:462px;"
+	 	 >
+			<a style="height:68px;" href="javascript:openWin3('/member/flex?key=ag&type=playgame&gameType=6')" target="_blank"></a>
+			<a style="height:118px;"  href="http://23.27.167.89:8000/" target="_blank"></a>
+			<a style="height: 35px;" href="https://messenger.providesupport.net/messenger/01kgv84psbrhq070wwwqdta3gk.html" target="_blank"></a>
+			<a style="height: 35px;margin-top: 10px;" href="http://www.516366.com" target="_blank"></a>
+			<a style="height: 35px;margin-top: 10px;" href="http://sun366.com" target="_blank"></a>
+			<a style="height: 35px;margin-top: 10px;" href="/jsp/member/space.jsp"></a>
+			<a style="height: 52px;margin-top: 10px;" onclick="returnSavaMember()" href="javascript:void(0);"></a>
+			<a style="height: 30px;margin-top: 3px;" 
+				onclick="document.getElementById('box2').style.display='none'"></a>
+	</div>
+</div>
+	
+<script type="text/javascript">
+	if (self.location != top.location)
+		top.location = self.location;
+	var left_top = 150, right_top = 150, float_list = [];
+	$(window)
+			.load(
+					function() {
+						// 廳主自改 - 浮動圖
+						float_list['1'] = $('#box1');
+						float_list['2'] = $('#box2');
+						for ( var i in float_list) {
+							var self = float_list[i], picfloat = (self
+									.attr('picfloat') == 'right') ? 1 : 0;
+							self
+									.show()
+									.Float(
+											{
+												'floatRight' : picfloat,
+												'topSide' : ((picfloat == 1) ? right_top
+														: left_top),
+												close : "closebox" + (i)
+											});
+							// ie6 png bug
+							if (navigator.userAgent.toLowerCase().indexOf(
+									'msie 6') != -1) {
+								$.each(self.find('img'), function() {
+									$(this).css({
+										'width' : $(this).width(),
+										'height' : $(this).height()
+									});
+								});
+							}
+
+							if (picfloat) {
+								right_top = right_top + 10
+										+ (self.height() || 250);
+							} else {
+								left_top = left_top + 10
+										+ (self.height() || 250);
+							}
+
+							/* self.hover(function() {
+								$(this).find('a > img:first').css('display',
+										'none');
+								$(this).find('a > img:last').css('display',
+										'block');
+							}, function() {
+								$(this).find('a > img:last').css('display',
+										'none');
+								$(this).find('a > img:first').css('display',
+										'block');
+							}); */
+							self.show();
+						}
+					});
+	
+	
+</script>
+
+
+	
+<style type="text/css">
+	#mobileDescription{
+		display:none;
+	}
+	@keyframes goldToBlue {
+		0% {color : blue;}
+		50% {color : gold;}
+		100% {color : blue;}
+	}
+	.goldToBlue {
+		animation : goldToBlue 2.5s infinite;
+		-webkit-animation: goldToBlue 2.5s infinite; /* Safari 和 Chrome */
+	}
+	/* 白色-绿色切换 */
+	@keyframes whiteToGreen {
+		0% {color : green;}
+		50% {color : white;}
+		100% {color : green;}
+	}
+	.whiteToGreen {
+		animation : whiteToGreen 1.25s infinite;
+		-webkit-animation: whiteToGreen 1.25s infinite; /* Safari 和 Chrome */
+	}
+	/* 紫色-粉色切换 */
+	@keyframes purpleToPink {
+		0% {color : pink;}
+		50% {color : purple;}
+		100% {color : pink;}
+	}
+	.purpleToPink {
+		animation : purpleToPink 1.25s infinite;
+		-webkit-animation: purpleToPink 1.25s infinite; /* Safari 和 Chrome */
+	}
+	/* 棕色-蓝色切换 */
+	@keyframes brownToBlue {
+		0% {color : blue;}
+		50% {color : brown;}
+		100% {color : blue;}
+	}
+	.brownToBlue {
+		animation : brownToBlue 2.5s infinite;
+		-webkit-animation: brownToBlue 2.5s infinite; /* Safari 和 Chrome */
+	}
+	/* 蓝色-绿色切换 */
+	@keyframes blueToGreen {
+		0% {color : green;}
+		50% {color : blue;}
+		100% {color : green;}
+	}
+	.blueToGreen {
+		animation : blueToGreen 2.5s infinite;
+		-webkit-animation: blueToGreen 2.5s infinite; /* Safari 和 Chrome */
+	}
+	
+	
+	/* 粉色-白色切换 */
+	@keyframes pinkToWhite {
+		0% {color : white;}
+		50% {color : pink;}
+		100% {color : white;}
+	}
+	.pinkToWhite {
+		animation : pinkToWhite 2.5s infinite;
+		-webkit-animation: pinkToWhite 2.5s infinite; /* Safari 和 Chrome */
+	}
+	/* 绿色-金色切换 */
+	@keyframes greenToGold {
+		0% {color : gold;}
+		50% {color : green;}
+		100% {color : gold;}
+	}
+	.greenToGold {
+		animation : greenToGold 2.5s infinite;
+		-webkit-animation: greenToGold 2.5s infinite; /* Safari 和 Chrome */
+	}
+</style>
+	
+<script type="text/javascript">
+	$(function(){
+		var el = $('#menuPromotion a');
+		setInterval(function() {
+		   el.toggleClass('space');
+		}, 500);
+		SecondMenu($('#menu_03'),$('#liveMenu'));
+		SecondMenu($('#menu_02'),$('#sportMenu'));
+		SecondMenu($('#menu_05'),$('#lotteryMenu'));
+		SecondMenu($('#menu_07'),$('#gameMenu'));
+		SecondMenu($('#menu_11'),$('#zhuceMenu'));
+		SecondMenu($('#menu_04'),$('#mgMenu'));
+		SecondMenu($('#menu_10'),$('#ptMenu'));
+		SecondMenu($('#menu_06'),$('#spaceMenu'));
+		SecondMenu($('#menu_08'),$('#serviceMenu'));
+		
+		GetMemberLatestAnnouncement();
+	});
+	
+	var setActiveColor=true;
+	$().ready(function(){
+		setInterval(function(){
+			if(setActiveColor){
+				
+				$(".yellowToBlue").css("color","yellow");
+				setActiveColor=false;
+			}else{
+				
+				$(".yellowToBlue").css("color","#3991ef;");
+				setActiveColor=true;
+			}
+		},1500);
+	});
+</script>
+
+	
+<!--  对IE6、IE7不兼容提示框  -->
+
+
+<script type="text/javascript">
+
+//--------------------------------------------cookie 框架----------------------------------------------------
+jQuery.cookie = function(name, value, options) {
+  if (typeof value != 'undefined') { // name and value given, set cookie
+      options = options || {};
+      if (value === null) {
+          value = '';
+          options.expires = -1;
+      }
+      var expires = '';
+      if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+          var date;
+          if (typeof options.expires == 'number') {
+              date = new Date();
+              date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+          } else {
+              date = options.expires;
+          }
+          expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+      }
+      var path = options.path ? '; path=' + options.path : '';
+      var domain = options.domain ? '; domain=' + options.domain : '';
+      var secure = options.secure ? '; secure' : '';
+      document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+  } else { // only name given, get cookie
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+              if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                  cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                  break;
+              }
+          }
+      }
+      return cookieValue;
+  }
+};
+//--------------------------------------------cookie 框架----------------------------------------------------
+
+
+	//沙巴体育维护页面调用  -放这里是不想每个站点分别调用，必须先执行
+	function NoDataTime(){
+	    var NoDate={
+	   		'startDate':"",
+	   		'endDate':"",
+	   		'apiName':""
+	    };
+	
+	    window.callParentNoData = function(child){
+			child(NoDate);
+	    };
+	}
+	NoDataTime();
+	
+	$(document).ready(function() {
+		var browser=navigator.appName;
+		var b_version=navigator.appVersion;
+		var version=b_version.split(";"); 
+		if(version&&version.length>1){
+			var trim_Version=version[1].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer"&&(trim_Version=="MSIE6.0"||trim_Version=="MSIE7.0" || trim_Version == "MSIE8.0" || trim_Version == "MSIE9.0")){
+				$("#iealert").show();
+				$("#iealertX").click(function(){
+					$("#iealert").hide();
+				});
+			}
+		}
+	 	var ua = navigator.userAgent || " "; 
+	    var pageType= $.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+		 if ((ua.match(/(iPhone|iPod|Android|ios)/i))
+			&& ! ((ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	)))  {
+			 if(pageType2!="pc"){
+				  padJumpToPage('mobile');
+			 }
+		 } 
+	});
+
+	//打开即时聊天窗口
+	function openChatWin() {
+		var onlineservice = 'id:3718,ddgdId:28528,type:onlinedoc,createUser:null,createTime:Thu Jul 13 05:56:10 GMT-04:00 2017,updateUser:kf0011,updateTime:Thu Jul 13 05:56:46 GMT-04:00 2017,titleBig:null,titleSim:null,titleEng:null,docId:17661,status:0,docName:在线客服,contextBig:null,contextSim:null,contextEng:null,junctionBig:https://messenger.providesupport.net/messenger/01kgv84psbrhq070wwwqdta3gk.html,junctionSim:https://messenger.providesupport.net/messenger/01kgv84psbrhq070wwwqdta3gk.html,junctionEng:https://messenger.providesupport.net/messenger/01kgv84psbrhq070wwwqdta3gk.html,isLocal:0,isWindow:1,windowHeight:850,windowWidth:818,contact:null,agentLogin:null,pageMark:null';
+		if(onlineservice!=''){
+			var isLocal ='0';
+			var isWindow = '1';
+			var windowHeight = '850';
+			var windowWidth = '818';
+			var url = 'https://messenger.providesupport.net/messenger/01kgv84psbrhq070wwwqdta3gk.html';
+			if (isWindow == '1') {
+				var params = 'height='
+						+ windowHeight
+						+ ',width='
+						+ windowWidth
+						+ ',top=0,left=0,toolbar=no,menubar=no,scrollbars='
+						+ scroll
+						+ ', resizable=yes,location=yes, status=yes';
+				window.open(url, '即时聊天', params);
+			} else {
+				if (isLocal == '0') {
+					window.location.href = url;
+				} else {
+					window.location.href = ctx + url;
+				}
+			}
+		}else{
+			alert('客服繁忙，请联系上级');
+		}
+		return;
+	}
+	
+</script>
+<style type="text/css"> /* IE提示框CSS */
+ body 
+ {
+	 _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	 _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+ }
+ .iealertMain 
+ {
+ 	 font-family: Arial, Helvetica, sans-serif, Verdana, "SimSun", "Microsoft YaHei", "SimHei", "STHeiti";
+	 color:white;
+	 width: 100%;
+	 z-index: 9999;                                                     /*设置浮动层次*/
+	 overflow: visible;
+	 position: fixed;
+	 line-height:normal;
+	 top: 0px;                                                         /* 其他浏览器下定位，在这里可设置坐标*/
+	 _position: absolute;                                       /*IE6 用absolute模拟fixed*/
+	 _top: expression(documentElement.scrollTop + "px"); /*IE6 动态设置top位置*/
+	 /* documentElement.scrollTop 设置浮动元素始终在浏览器最顶，可以加一个数值达到排版效果 */
+	 background-color:gold;
+	 height: 25px;
+	 text-align: center;
+	 font-size: 18px;
+	 padding-top: 2px;
+ }
+ .iealertMain a
+ {
+ 	font-size: 18px;
+ }
+ .select-pop {
+	width:360px;
+	height:333px;
+	position:fixed!important;/* FF IE7*/
+	left:50%;
+	top:50%;
+	z-index:10999;
+	margin:-166px 0 0 -180px;
+}
+.select-pop2 {
+	width:360px;
+	height:280px;
+	background:url(pop1.png);
+}
+a.select-pop2 {
+	display:block;
+	width:181px;
+	height:53px;
+	background:url(/jsp/member/images/pop2.png);
+	float:left;
+}
+a.select-pop2:hover {
+	background:url(/jsp/member/images/pop2-hover.png);
+}
+a.select-pop3 {
+	display:block;
+	width:179px;
+	height:53px;
+	background:url(/jsp/member/images/pop3.png);
+	float:left;
+}
+a.select-pop3:hover {
+	background:url(/jsp/member/images/pop3-hover.png);
+}
+#lotteryAd{
+	width:280px; 
+	height:318px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+	display:none;
+	left:0px;
+}
+#lotteryAdMin{
+	width:110px; 
+	height:110px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	left:0px;
+	z-index: 9000;
+	display: none;
+}
+.mobile-img{
+	width:300px; 
+	height:219px;
+	cursor:pointer;
+	background-size:100%;
+}
+#mobile-close{
+	position:absolute;
+	bottom:13px;
+	left:2px;
+	cursor:pointer;
+}
+#mobile-close2{
+	position:absolute; 
+	top:-2px; 
+	right:-2px;
+	cursor:pointer;
+}
+#mobileDescription{
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+}
+.popBg,.popIframe {
+background-color: #000;
+display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:10998;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+ </style>
+ <!--  IE提示框  -->
+<div id="iealert"  style="display:none;">
+	<div class="iealertMain">
+		您所使用的浏览器不能被网站很好的支持,为了您能获得更好的浏览体验推荐您使用 <a href="http://www.uc.cn/" target="_blank" >UC 浏览器</a> 访问本网站。
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+
+<!-- 手机端提示框 -->
+<div id="mobilealert"  style="display:none;">
+	<div class="iealertMain">
+		 <a href="/PageChange?type=mobile">访问手机端</a>
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+<!-- 判断设置是否需要显示微信登录的图标 -->
+
+	<!-- 判断会员是否登录,如果没有登录才显示微信登录的图标 -->
+	
+		<!-- 微信登录图片 -->
+		<div style="position: fixed;top:0px;right:0px;z-index:100000;">
+			<a href="javascript:showWx('972D6688B6858DA932289F88D06CDF0D', 'weloginbwt1.continuefind.com')">
+				<img src="/common/images/icon64_appwx_logo.png" style="widht:50px;height:50px">
+			</a>
+		</div>
+	
+
+
+
+<!--  移动版提示框 
+<div id="mobileToPcAlert"  style="display:none;">
+	<div class="iealertMain" style="display:none;"> 
+		前往<a href="/PageChange?type=mobile" target="_top">移动版</a>
+		<div id="mobileAlertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+</div>
+ -->
+<!-- 广告部分 -->
+<div id="ad_div_main" style="display:none;overflow-x:hidden;"></div>
+<style>.ui-dialog .ui-dialog-content{padding: 3px;}</style>
+
+
+<!-- 平板提示 -->
+<div id="popDiv" class="select-pop" style="display:none;">
+   	<div class="select-pop1"><img src="/jsp/member/images/pop1.png" /></div>
+       <div>
+       	<a href="javascript:padJumpToPage('mobile');" class="select-pop2"></a>
+           <a href="javascript:padJumpToPage('pc');" class="select-pop3"></a>
+   	</div>
+</div>
+<div id="popBg" class="popBg" style="display:none;"></div>
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+
+<script type="text/javascript">
+	(function(){
+		var ua = navigator.userAgent  || " "; 
+	    var pageType=$.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+	    if ( (ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	) && !pageType
+	    	){
+			if(pageType2!="pc"){
+				padJumpToPage('mobile');
+			}
+	    }
+	})();
+	function padJumpToPage(type){
+		$.cookie('pageType', type);
+		top.window.location.href = "/PageChange?type=" + type;
+	}
+</script>
+
+<!-- 服务器监控使用，不能去掉 -->
+<div style="display: none">
+	<span style="display: none">fwkae5ldVj78cQE0U7ab3Y5O6zyl3SwK</span>
+</div>
+<!-- 弹层登录 -->
+<div id="login-tc"></div>
+<!-- 登录协议 -->
+<div id="loginProtocol"></div>
+<!-- 弹层验证吗 -->
+<div id="verificationCode_tc"></div>
+<!--头部 -->
+	<div class="page_header">
+		<div class="header_container" style="position: relative;">
+			<div class="header_container_background">
+				<div class="header_up">
+					<div class="header_left" >
+						<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/logo.png"  width="360" height="142">
+					</div>
+					<div class="header_middle" >
+						<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/word_header.png"  width="158" height="26">
+						<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/btn_AD.png"  width="126" height="28" style="padding-left:15px;">
+					</div>
+					<div class="header_right" >
+						<div class="header_right_top">
+							<div class="header_right_top_content" style="width: 630px;">
+								<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/language.png" />
+									<a class="header_link" style="color:gold;" href="http://9990749.com/" target="_blank">太阳城贵宾会</a>
+								<span>｜</span>
+								<a class="header_link" style="color:gold;" target="_blank" href="http://6662894.com/">专属域名</a>
+								<span>｜</span>
+								<a class="header_link" style="color:gold;" href="http://7770961.com/" target="_blank">金管家</a>
+								<span>｜</span>
+								<a class="header_link" style="color:white;" href="http://4440335.com/" target="_blank">【微信/支付宝】大额支付</a>
+								<span>｜</span>
+								<a class="header_link" style="color:gold;" href="http://sun5678.com/jsp/member/help/mobileDescription.html" target="_blank">手机投注</a>
+								<span>｜</span>
+								<a class="header_link" style="color:white;" href="http://7770984.com/dns/" target="_blank">防劫持教程</a>
+								<span>｜</span>							
+								<a class="header_link" style="color:white;" href="http://7770984.com/" target="_blank">备用域名</a>
+							</div>
+						</div>
+						<!-----登录前start----->
+						
+							<div class="header_right_center">
+								<input type="text" tabindex="1" 
+						      		value="用户名" maxlength="12"
+									onkeydown="enterLogin(event)" id="hd_account"
+									onFocus="OnFocusFun(this,'用户名')" 
+									onBlur="OnBlurFun(this,'用户名')"
+									class="accountPsw">
+						      	<input type="password" tabindex="2"
+									value="******" maxlength="12"
+									onkeydown="enterLogin(event)"
+									onFocus="OnFocusFun(this,'******')"
+									onBlur="OnBlurFun(this,'******')" id="hd_passwd"
+									class="accountPsw">
+								
+							    <a class="btn_login" href="javascript:dengRu();" style="margin-left: 140px;"></a>
+								<a class="btn_join" onclick="returnSavaMember()"></a>
+							    <a class="forgot_psw" href="javascript:openForgetPassword()">忘记密码</a>
+							</div>
+						
+						<!-----登录前end----->
+						
+						<!-----登录后------>
+						
+						
+						<!-----登录后end------>
+					</div>
+				</div>
+				<!---------菜单---------->
+				<div class="header_down" style="margin-top: 11px!important;">
+					<div class="header_down_menu">
+						<ul id="header_down_ul">
+							<li class="menu_first">
+								<a id="menu_01" href="/index.jsp"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">返回首页</font><font class="letter">HOME</font></a>
+							</li>
+							<li>
+								<a href="javascript:;"  onclick="returnSavaMember()" id="menu_11"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;color:#ff0;">注册送28元<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" style="margin-top: -13px;position: absolute;"></font><font class="letter">FREE	</font></a>
+								
+								<div class="secondMenu_game" id="zhuceMenu">
+									<a href="http://29818hd.com/active/active6.html" target="_blank">存10送18元<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="http://29818hd.com/active/active19.html" target="_blank">多存多送<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="http://www.7770974.com" target="_blank">98倍神秘特码<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="http://4440328.com" target="_blank">电子竞技榜<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="http://7770961.com" target="_blank">电子金管家<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="http://29818hd.com/active/active7.html" target="_blank">周周负利大回馈<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="/jsp/member/space.jsp">首存优惠<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									
+								</div>
+							</li>
+							
+							<li>
+								<a id="menu_04" href="javascript:;" onClick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">捕鱼大厅<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" style="margin-top: -13px;position: absolute;"></font><font class="letter">SLOTS</font></a>
+
+								<div class="secondMenu_game" id="mgMenu" style="margin-left: -125px;">
+									<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)" class="beijing">1元返水1.6%</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=50');">千炮捕鱼<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onClick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')">AG捕鱼王二代<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+								</div>
+							</li>
+
+							<li>
+								<a id="menu_07" href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">电子游艺<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" style="margin-top: -13px;position: absolute;"></font><font class="letter">SLOTS</font></a>
+
+								<div class="secondMenu_game" id="gameMenu" style="margin-left: -220px;">
+									<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)" class="beijing">1元返水1.5%</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)" >MG电子<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)" >PT电子<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:openWin3('/member/flex?key=ag&type=playgame&gameType=6')" target="_blank">AG捕鱼王<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">MW电子<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/new.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')" >BBIN电子</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')" >AG电子</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=hg', 'HG平台', 'no')" >HG电子</a>
+								</div>
+							</li>
+							
+							<li>
+								<a id="menu_05" href="/jsp/member/lottery/lotteryList.jsp"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">彩票投注<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" style="margin-top: -13px;position: absolute;"></font><font class="letter">LOTTERY</font></a>
+								<div class="secondMenu_game" id="lotteryMenu" style="margin-left: -200px;">
+									<a href="javascript:;" onclick="targetLottery('LT24')">六合彩<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="targetLottery('LT6')" >北京PK拾<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="targetLottery('LT2')">重庆时时彩<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="targetLottery('LT3')">天津时时彩</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="targetLottery('LT7')">江苏骰宝</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="targetLottery('LT17')">广东11选5</a>
+
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN彩票</a>
+								</div>
+							</li>
+							<li>
+								<a id="menu_03" href="/member/flex?type=init0"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">真人百家乐<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" style="margin-top: -13px;position: absolute;"></font><font class="letter">CASINO</font></a>
+								<div class="secondMenu_game" id="liveMenu" style="margin-left: -394px;">
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')" class="beijing">1元返水1.2%</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')" >AG贵宾厅<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')" >BBIN旗舰厅<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=og', 'OG平台', 'no')" >OG旗舰厅<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=mg', 'MG平台', 'no')">MG旗舰厅</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ab', 'ALLBET平台', 'no')" >欧博旗舰厅</a>
+									<span class="line_menu"></span>
+
+<!-- 									<span class="line_menu"></span> -->
+
+
+<!-- 									<span class="line_menu"></span> -->
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=lebo', 'LEBO平台', 'no')" >LEBO视讯厅</a>
+<!-- 									<span class="line_menu"></span> -->
+
+								</div>
+							</li>
+
+							<li>
+								<a id="menu_02" href="/FootBall"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">皇冠体育</font><font class="letter">SPORTS</font></a>
+
+								<div class="secondMenu_game" id="sportMenu" style="margin-left: -150px;">
+									<a href="/FootBall">半场实时结算<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" class="hot"></a>
+									<span class="line_menu"></span>
+									<a href="/FootBall">皇冠体育</a>
+									<span class="line_menu"></span>
+									<a href="/member/flex?type=loginapi&amp;key=ibc" >沙巴体育</a>
+									<span class="line_menu"></span>
+									<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')" >BBIN体育</a>
+								</div>
+							</li>
+							
+						
+							<li> 
+								<a id="menu_06" href="/jsp/member/space.jsp"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">优惠专区</font><font class="letter"> PROMOTIONS</font></a>
+								<div class="secondMenu_game" id="spaceMenu" style="margin-left: -260px;">
+									<a href="http://www.29818hd.net" target="_blank">优惠活动大厅</a>
+									<span class="line_menu"></span>
+									<a href="http://sun365vip.com" target="_blank">VIP贵宾会</a>
+									<span class="line_menu"></span>
+									<a href="http://6662894.com" target="_blank">VIP专属域名</a>
+									<span class="line_menu"></span>
+									<a href="http://7770961.com" target="_blank">电子金管家</a>
+									<span class="line_menu"></span>
+									<a href="http://4440328.com" target="_blank">电子竞技榜</a>
+									<span class="line_menu"></span>
+									<a href="http://222098.com/" target="_blank">捕鱼竞技榜</a>
+								</div>
+							</li>
+							<li>
+								<a id="menu_08" href="javascript:void();" onclick="openChatWin()"><font style="display: block;line-height: 26px;font-size: 14px;font-weight:bold;">在线客服</font><font class="letter">SERVICE</font></a>
+								<div class="secondMenu_game" id="serviceMenu" style="margin-left: -5px;">
+									<a href="http://23.27.167.88:8000" target="_blank">自助客服</a>
+								</div>
+							</li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>	
+
+	
+<!---------中间 --------->
+	<div class="page_middle">
+		<div class="slideBox">
+        <div class="bd">
+            <ul>
+                
+		        
+	          		
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          					
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/69eccb53-4284-4bb3-8a9f-5b97780bffa2.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/952b48fd-8ff7-4ddf-b0c4-4061bae55ebe.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/ca4921f6-faeb-4665-81af-e9be2b3dce8f.jpg) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/d69ebdd3-fa19-47b1-832e-4eb18f69cea5.jpg) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/dd6e2177-5fd4-4c44-9295-c50f03a39508.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/57bd4129-528c-4fd9-9f2c-6228d88450b0.jpg) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/d83a748a-97bf-4cad-857b-15acc4747c36.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/b3085f16-22a3-408d-8bad-eb567f357fb4.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/e986847e-2f88-40e2-91ce-14df9f8e1e7f.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/d32d7ac0-4db5-4d06-a985-5cdc34eca8e1.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/95c804ab-afc8-4f00-bc33-496e5abdf680.jpg) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+      	 								<li><a  style="background: url(//cdnfss.ruirobot.com/v3/uploads/images/interim/a06/412ac14a-cf1a-46ee-af2d-727f4cb8bb33.png) no-repeat center center;"
+													
+													>
+												</a></li>
+	          						
+	          					
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          		
+	          		
+            </ul>
+        </div>
+        <div class="bannerBox">
+            
+            <!-- 前后按钮 -->
+            <a href="javascript:void(0)" class="prev"></a>
+            <a href="javascript:void(0)" class="next"></a>
+            <!-- 轮播点 -->
+            <div class="hd">
+            <ul>
+                
+		        
+	          		
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          					
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+      	 								<li></li>
+	          						
+	          					
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          				
+	          			
+	          		
+	          	
+            </ul>
+        </div>
+        </div>
+        <div class="ban-bot"></div>
+        <script type="text/javascript">
+            jQuery(".slideBox").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,delayTime:2000,interTime:6000});
+        </script>
+    </div>
+		<div class="middle_center">
+			<div class="middle_center_up">
+				<a class="ADsports" href="/FootBall"></a>
+				<a class="ADlive"  href="/member/flex?type=init0"></a>
+				<a class="ADelectronics" href="javascript:void();" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"></a>
+				<a class="ADlottery" href="/jsp/member/lottery/lotteryList.jsp"></a>
+			</div>
+			<div class="middle_center_down">
+				<span>最新消息：</span>
+				<div id="memberLatestAnnouncement" style="cursor: pointer;">
+					
+		 		</div>
+			</div>
+		</div>	
+	    <div class="middle_bottom">
+			
+			<div class="btns">
+				<a href="javascript:void(0);" onclick="returnSavaMember()"> <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/btn01.png">
+				</a>
+			</div>
+			<div class="btns">
+				<a href="javascript:void(0);" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"> <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/btn02.png">
+				</a>
+			</div>
+			<div class="btns">
+				<a href="http://7770983.com/" target="_blank"> <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/btn03.png">
+				</a>
+			</div>
+			<div class="btns">
+				<a href="/jsp/member/space.jsp"> <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/btn04.png">
+				</a>
+			</div>
+		</div>
+		
+		<!-- 现在的位置 -->
+	<div>
+		<div class="cover main"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/cover.png" alt="" ></div>
+		<div class="container main" id="container" style="margin-bottom: 30px;padding: 8px;background: rgba(69,0,3,0.39);border-radius: 30px;position: relative;">
+			<div class="content clearfix">
+				<div class="menu fl">
+					<ul>
+						<li>
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/MW.png" alt="">
+							<h3 class="fl">
+								<p>MW电子</p>
+								<span>MEGAGAMING</span>
+							</h3>
+							<i></i>
+							 <img class="hot-game"
+							src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" alt=""
+							style="margin-left: 133px;margin-top: -33px;">
+						</li> 
+						
+						<li class="active">
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/MG.png" alt="">
+								
+							<h3 class="fl">
+								<p>MG电子</p>
+								<span>MICROGAMING</span>
+							</h3>
+							<i></i> <img class="hot-game"
+							src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" alt=""
+							style="margin-left: 133px;">
+						</li>
+						
+						<li>
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/PT.png" alt="">
+							<h3 class="fl">
+								<p>PT电子</p>
+								<span>PLAYTECH</span>
+							</h3>
+							<i></i>
+							 <img class="hot-game"
+							src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/hot.gif" alt=""
+							style="margin-left: 130px;margin-top: -34px;">
+						</li>
+						<li>
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/BBIN.png" alt="">
+							<h3 class="fl">
+								<p>BBIN电子</p>
+								<span>BBINGAMING</span>
+							</h3>
+							<i></i>
+						</li>
+						<li>
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/AG.png" alt="">
+							<h3 class="fl">
+								<p>AG电子</p>
+								<span>ASIAGAMING</span>
+							</h3>
+							<i></i>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="picture-container fr">
+					
+					<div style="display:none;">
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_01.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>千炮捕鱼</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_02.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>超级斗地主</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_03.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>森林舞会</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_04.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>水浒传</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_05.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>五龙争霸</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_06.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>经典水果机</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_07.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>明星97</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mw_08.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>魔豆</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<div class="info fr">
+							<p>
+								<span class="title"><a>MW超级奖池</a></span><span class="mwdz">116800000
+									元</span>
+							</p>
+						</div>
+					</div>
+				
+					<div style="display: none;">
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_01.png" alt="" width="100%">									
+								</div>
+								<div class="text">
+									<span>冰上曲棍球</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_02.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>淑女派对</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_03.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>篮球巨星</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_04.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>银行抢匪</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_05.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>狂欢节</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_06.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>比基尼派对</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_07.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>阿瓦隆</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/mg_08.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>宝石之轮</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<div class="info fr">
+							<p>
+								<span class="title"><a>MG超级奖池</a></span><span class="money">17210000
+									元</span>
+							</p>
+						</div>
+					</div>
+					
+					<div style="display: none;">
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_01.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>三个小丑</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_02.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>船长的宝藏</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_03.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>疯狂水果</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_04.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>百变小女巫</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<ul class="clearfix">
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_05.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>疯狂之七</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_06.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>古怪猴子</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_07.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>标准老虎机</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/pt_08.jpg" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>百慕大三角</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<div class="info fr">
+							<p>
+								<span class="title"><a>PTjackpot彩池</a></span><span class="ptdz">25800000
+									元</span>
+							</p>
+						</div>
+					</div>
+					<div style="display: none;">
+						<ul class="clearfix">
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_01.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>五行</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_02.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>糖果派对</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_03.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>糖果派对2</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_04.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>连环夺宝</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<ul class="clearfix">
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_05.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>斗鸡</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_06.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>圣兽传说</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_07.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>沙滩排球</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/bb_08.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>金鸡报喜</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<div class="info fr">
+							<p>
+								<span class="title"><a>BBIN Grand jackpot彩池</a></span><span class="bbdz">45200000
+									元</span>
+							</p>
+						</div>
+					</div>
+					<div style="display: none;">
+						<ul class="clearfix">
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_01.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>捕鱼王二代</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_02.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>灵猴献瑞</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_03.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>水果拉霸</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_04.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>性感女仆</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<ul class="clearfix">
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_05.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>冰河世界</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_06.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>齐天大圣</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_07.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>复古花园</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+							<li onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"><div class="pic">
+									<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ag_08.png" alt="" width="100%">
+								</div>
+								<div class="text">
+									<span>太空漫游</span>
+									<p>
+										<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt=""><img
+											src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/score.png" alt="">
+									</p>
+								</div></li>
+						</ul>
+						<div class="info fr">
+							<p>
+								<span class="title"><a>AGjackpot彩池</a></span><span class="agdz">13230000
+									元</span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+		
+		<div class="buyu-main">
+		    <div class="buyu">
+				<div class="bubbles">
+					<div class="buyu-left">
+						<div>
+							<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/buyu-left-title.png">
+						</div>
+						<div class="buyu-text">
+							全新手机服务体验，新颖的设计更好玩更便捷，汇聚了诸多精彩游戏为您呈现，各国博彩精英，世界博彩服务团队，享受随时随地，足不出户的博彩，游戏新人生！
+						</div>
+						<div class="buyu-btn">
+							<a href="javascript:;" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"></a>
+						</div>
+					</div>
+
+					<div class="buyu-mid"></div>
+					<div class="buyu-right">
+						<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/buyu-qr.png">
+					</div>
+					<div class="bubble-container"
+						style="left: 42%; animation-duration: 5s; animation-delay: 7s; filter: blur(1px);">
+						<div class="bubble" style="width: 3px; height: 3px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 15%; animation-duration: 5s; animation-delay: 8s; filter: blur(1px);">
+						<div class="bubble" style="width: 9px; height: 9px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 34%; animation-duration: 6s; animation-delay: 10s; filter: blur(1px);">
+						<div class="bubble" style="width: 12px; height: 12px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 41%; animation-duration: 4s; animation-delay: 11s; filter: blur(2px);">
+						<div class="bubble" style="width: 6px; height: 6px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 63%; animation-duration: 2s; animation-delay: 7s; filter: blur(2px);">
+						<div class="bubble" style="width: 8px; height: 8px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 73%; animation-duration: 6s; animation-delay: 0s; filter: blur(1px);">
+						<div class="bubble" style="width: 5px; height: 5px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 0%; animation-duration: 4s; animation-delay: 12s; filter: blur(1px);">
+						<div class="bubble" style="width: 13px; height: 13px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 88%; animation-duration: 2s; animation-delay: 6s; filter: blur(1px);">
+						<div class="bubble" style="width: 3px; height: 3px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 73%; animation-duration: 2s; animation-delay: 12s; filter: blur(2px);">
+						<div class="bubble" style="width: 5px; height: 5px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 42%; animation-duration: 8s; animation-delay: 12s; filter: blur(0px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 63%; animation-duration: 2s; animation-delay: 1s; filter: blur(1px);">
+						<div class="bubble" style="width: 4px; height: 4px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 63%; animation-duration: 5s; animation-delay: 9s; filter: blur(2px);">
+						<div class="bubble" style="width: 9px; height: 9px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 68%; animation-duration: 10s; animation-delay: 13s; filter: blur(2px);">
+						<div class="bubble" style="width: 6px; height: 6px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 88%; animation-duration: 8s; animation-delay: 14s; filter: blur(1px);">
+						<div class="bubble" style="width: 6px; height: 6px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 92%; animation-duration: 2s; animation-delay: 12s; filter: blur(0px);">
+						<div class="bubble" style="width: 7px; height: 7px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 10%; animation-duration: 3s; animation-delay: 7s; filter: blur(0px);">
+						<div class="bubble" style="width: 3px; height: 3px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 1%; animation-duration: 10s; animation-delay: 13s; filter: blur(2px);">
+						<div class="bubble" style="width: 8px; height: 8px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 85%; animation-duration: 8s; animation-delay: 9s; filter: blur(1px);">
+						<div class="bubble" style="width: 9px; height: 9px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 13%; animation-duration: 4s; animation-delay: 5s; filter: blur(1px);">
+						<div class="bubble" style="width: 13px; height: 13px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 39%; animation-duration: 10s; animation-delay: 11s; filter: blur(1px);">
+						<div class="bubble" style="width: 11px; height: 11px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 64%; animation-duration: 7s; animation-delay: 0s; filter: blur(1px);">
+						<div class="bubble" style="width: 12px; height: 12px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 26%; animation-duration: 3s; animation-delay: 9s; filter: blur(1px);">
+						<div class="bubble" style="width: 13px; height: 13px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 99%; animation-duration: 2s; animation-delay: 9s; filter: blur(2px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 40%; animation-duration: 6s; animation-delay: 10s; filter: blur(0px);">
+						<div class="bubble" style="width: 5px; height: 5px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 49%; animation-duration: 10s; animation-delay: 11s; filter: blur(2px);">
+						<div class="bubble" style="width: 8px; height: 8px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 83%; animation-duration: 4s; animation-delay: 6s; filter: blur(1px);">
+						<div class="bubble" style="width: 11px; height: 11px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 8%; animation-duration: 10s; animation-delay: 12s; filter: blur(1px);">
+						<div class="bubble" style="width: 4px; height: 4px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 55%; animation-duration: 6s; animation-delay: 4s; filter: blur(2px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 79%; animation-duration: 8s; animation-delay: 10s; filter: blur(0px);">
+						<div class="bubble" style="width: 11px; height: 11px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 28%; animation-duration: 2s; animation-delay: 3s; filter: blur(1px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 63%; animation-duration: 3s; animation-delay: 0s; filter: blur(2px);">
+						<div class="bubble" style="width: 3px; height: 3px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 49%; animation-duration: 6s; animation-delay: 2s; filter: blur(1px);">
+						<div class="bubble" style="width: 13px; height: 13px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 11%; animation-duration: 8s; animation-delay: 7s; filter: blur(0px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 54%; animation-duration: 6s; animation-delay: 10s; filter: blur(1px);">
+						<div class="bubble" style="width: 7px; height: 7px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 13%; animation-duration: 9s; animation-delay: 6s; filter: blur(0px);">
+						<div class="bubble" style="width: 7px; height: 7px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 87%; animation-duration: 10s; animation-delay: 11s; filter: blur(1px);">
+						<div class="bubble" style="width: 7px; height: 7px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 75%; animation-duration: 7s; animation-delay: 1s; filter: blur(2px);">
+						<div class="bubble" style="width: 8px; height: 8px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 26%; animation-duration: 7s; animation-delay: 0s; filter: blur(1px);">
+						<div class="bubble" style="width: 13px; height: 13px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 90%; animation-duration: 9s; animation-delay: 2s; filter: blur(2px);">
+						<div class="bubble" style="width: 10px; height: 10px;"></div>
+					</div>
+					<div class="bubble-container"
+						style="left: 27%; animation-duration: 8s; animation-delay: 0s; filter: blur(2px);">
+						<div class="bubble" style="width: 3px; height: 3px;"></div>
+					</div>
+				</div>
+			</div>
+		    <div class="buyu-fish">
+		        <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/buyu-fish.png">
+		    </div>
+		</div>
+		
+		
+		
+    <div class="middle_append">
+      <div class="middle_append_top">
+        <div class="middle_append_game">
+              <a href="javascript:void (0)" onclick="targetLottery('LT24')">
+                  <h5>香港六合彩</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/liuhe.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT2')">
+                  <h5>重庆时时彩</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/shishi.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT6')">
+                  <h5>北京 PK 拾</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/pksh.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT9')">
+                  <h5>幸运 28</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/xingyun.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT5')">
+                  <h5>广东快乐十分</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/kuaile.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT13')">
+                  <h5>幸运农场</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/muc.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT15')">
+                  <h5>北京快乐 8</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/le8.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              <a href="javascript:void (0)" onclick="targetLottery('LT14')">
+                  <h5>广西快 3</h5>
+                  <img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/gxx.png" alt=""/>
+                  <p>立即游戏</p>
+              </a>
+              
+          </div>
+        <div class="middle_append_game1" onclick="targetLottery('LT24')">
+            <p class="ion_3">
+                <a href="javascript:void (0)"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/text1.png" alt=""/></a>
+            </p>
+            <div class="middle_text">
+                <p class="ion_1">香港六合彩</p>
+                <p class="ion_2">特码赔率48.5倍，承诺永不降倍</p>
+            </div>
+
+        </div>
+        <div class="middle_append_game1" onclick="targetLottery('LT2')">
+            <p class="ion_3">
+                <a href="javascript:void (0)"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/text3.png" alt=""/></a>
+            </p>
+            <div class="middle_text">
+                <p class="ion_1">重庆时时彩</p>
+                <p class="ion_2">全网赔率最高1.98</p>
+            </div>
+        </div>
+        <div class="middle_append_game1" onclick="window.open('/member/flex?type=init0','_self')">
+            <p class="ion_3">
+                <a href="javascript:void (0)"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/index/text2.png" alt=""/></a>
+            </p>
+            <div class="middle_text">
+                <p class="ion_1">AG女优视讯</p>
+                <p class="ion_2">轻松包桌，单注可以下30万</p>
+            </div>
+        </div>
+      </div>
+        
+			
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" href="//cdnfss.ruirobot.com/v3/stc/bt/a06/css/style.css"/>
+</head>
+<body style="background: #1E0103">
+
+<div class="page_middle">
+
+<style>
+	/*随机跳转数字样式*/
+/*数字滚动插件的CSS可调整样式*/
+.mt-number-animate{ font-family: 'Microsoft YaHei';color: #F5CB42; line-height:53px; height: 53px;/*设置数字显示高度*/; font-size: 36px;/*设置数字大小*/ overflow: hidden; display: inline-block; position: relative; }
+.mt-number-animate .mt-number-animate-dot{ width: 15px;/*设置分割符宽度*/ line-height: 53px; float: left; text-align: center;}
+.mt-number-animate .mt-number-animate-dom{ width: 25px;/*设置单个数字宽度*/ text-align: center; float: left; position: relative; top: 0;}
+.mt-number-animate .mt-number-animate-dom .mt-number-animate-span{ width: 100%; float: left;font-size:36px;}
+/*结束*/
+</style>
+<div class="middle_append" style="padding-top: 0;padding-bottom: 0">
+    <div class="middle_append_ad" style="margin-top: 20px; margin-bottom: -20px;">
+       <div class="mg-num">
+             <!--这里添加随机跳转数字-->
+           <div class="numberRun2"></div>
+              <!--结束-->
+           <!--添加脚本-->
+           <script>
+               /**
+                *  by Mantou qq:676015863
+                *  数字滚动插件 v1.0
+                */
+               ;(function($) {
+                   $.fn.numberAnimate = function(setting) {
+                       var defaults = {
+                           speed : 1000,//动画速度
+                           num : "", //初始化值
+                           iniAnimate : false, //是否要初始化动画效果
+                           symbol : '',//默认的分割符号，千，万，千万
+                           dot : 0 //保留几位小数点
+                       }
+                       //如果setting为空，就取default的值
+                       var setting = $.extend(defaults, setting);
+                       //如果对象有多个，提示出错
+                       if($(this).length > 1){
+                           alert("just only one obj!");
+                           return;
+                       }
+                       //如果未设置初始化值。提示出错
+                       if(setting.num == ""){
+                           alert("must set a num!");
+                           return;
+                       }
+                       var nHtml = '<div class="mt-number-animate-dom" data-num="{{num}}">\
+            <span class="mt-number-animate-span">0</span>\
+            <span class="mt-number-animate-span">1</span>\
+            <span class="mt-number-animate-span">2</span>\
+            <span class="mt-number-animate-span">3</span>\
+            <span class="mt-number-animate-span">4</span>\
+            <span class="mt-number-animate-span">5</span>\
+            <span class="mt-number-animate-span">6</span>\
+            <span class="mt-number-animate-span">7</span>\
+            <span class="mt-number-animate-span">8</span>\
+            <span class="mt-number-animate-span">9</span>\
+            <span class="mt-number-animate-span">.</span>\
+          </div>';
+
+                       //数字处理
+                       var numToArr = function(num){
+                           num = parseFloat(num).toFixed(setting.dot);
+                           if(typeof(num) == 'number'){
+                               var arrStr = num.toString().split("");
+                           }else{
+                               var arrStr = num.split("");
+                           }
+                           //console.log(arrStr);
+                           return arrStr;
+                       }
+
+                       //设置DOM symbol:分割符号
+                       var setNumDom = function(arrStr){
+                           var shtml = '<div class="mt-number-animate">';
+                           for(var i=0,len=arrStr.length; i<len; i++){
+                               if(i == 0 && (len-i)%3 == 0 && setting.symbol != "" && arrStr[i]!="."){
+                                   shtml += '<div class="mt-number-animate-dot">'+setting.symbol+'</div>'+nHtml.replace("{{num}}",arrStr[i]);
+                               }else{
+                                   shtml += nHtml.replace("{{num}}",arrStr[i]);
+                               }
+                           }
+                           shtml += '</div>';
+                           return shtml;
+                       }
+
+                       //执行动画
+                       var runAnimate = function($parent){
+                           $parent.find(".mt-number-animate-dom").each(function() {
+                               var num = $(this).attr("data-num");
+                               num = (num=="."?10:num);
+                               var spanHei = $(this).height()/11; //11为元素个数
+                               var thisTop = -num*spanHei+"px";
+                               if(thisTop != $(this).css("top")){
+                                   if(setting.iniAnimate){
+                                       //HTML5不支持
+                                       if(!window.applicationCache){
+                                           $(this).animate({
+                                               top : thisTop
+                                           }, setting.speed);
+                                       }else{
+                                           $(this).css({
+                                               'transform':'translateY('+thisTop+')',
+                                               '-ms-transform':'translateY('+thisTop+')',   /* IE 9 */
+                                               '-moz-transform':'translateY('+thisTop+')',  /* Firefox */
+                                               '-webkit-transform':'translateY('+thisTop+')', /* Safari 和 Chrome */
+                                               '-o-transform':'translateY('+thisTop+')',
+                                               '-ms-transition':setting.speed/1000+'s',
+                                               '-moz-transition':setting.speed/1000+'s',
+                                               '-webkit-transition':setting.speed/1000+'s',
+                                               '-o-transition':setting.speed/1000+'s',
+                                               'transition':setting.speed/1000+'s'
+                                           });
+                                       }
+                                   }else{
+                                       setting.iniAnimate = true;
+                                       $(this).css({
+                                           top : thisTop
+                                       });
+                                   }
+                               }
+                           });
+                       }
+
+                       //初始化
+                       var init = function($parent){
+                           //初始化
+                           $parent.html(setNumDom(numToArr(setting.num)));
+                           runAnimate($parent);
+                       };
+
+                       //重置参数
+                       this.resetData = function(num){
+                           var newArr = numToArr(num);
+                           var $dom = $(this).find(".mt-number-animate-dom");
+                           if($dom.length < newArr.length){
+                               $(this).html(setNumDom(numToArr(num)));
+                           }else{
+                               $dom.each(function(index, el) {
+                                   $(this).attr("data-num",newArr[index]);
+                               });
+                           }
+                           runAnimate($(this));
+                       }
+                       //init
+                       init($(this));
+                       return this;
+                   }
+               })(jQuery);
+
+               $(function(){
+
+                   // 初始化
+                   nums3 = parseInt(Math.random()*14500);
+                   console.log(nums3);
+                   var numRun2 = $(".numberRun2").numberAnimate({num:82356648 + nums3, speed:2000, symbol:","});
+                   var nums2 = 82356648 + nums3;
+                   console.log(nums2);
+                   setInterval(function(){
+                       //每次滚动相加的值
+                       nums2+= parseInt(Math.random()*500);
+                       numRun2.resetData(nums2);
+                   },2000);
+
+
+               });
+           </script>
+           <!--结束-->
+       </div>
+        <div class="ad_top">
+            <div class="conqwe">
+                <ul>
+                    <li>
+                        <p>
+                            <span>sd***78</span><br/><span class="span_col">5800元</span>
+                        </p>
+                        <p>
+                            <span>mf***</span><br/><span class="span_col">2570元</span>
+                        </p>
+                        <p>
+                            <span>oh***s</span><br/><span class="span_col">478元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>min***</span><br/><span class="span_col">4707元</span>
+                        </p>
+                        <p>
+                            <span>asj**</span><br/><span class="span_col">871元</span>
+                        </p>
+                        <p>
+                            <span>zx***a</span><br/><span class="span_col">423元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sdf***</span><br/><span class="span_col">48789元</span>
+                        </p>
+                        <p>
+                            <span>joi***s</span><br/><span class="span_col">20035元</span>
+                        </p>
+                        <p>
+                            <span>ja***</span><br/><span class="span_col">415元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sq***</span><br/><span class="span_col">4267元</span>
+                        </p>
+                        <p>
+                            <span>aj***7</span><br/><span class="span_col">4065元</span>
+                        </p>
+                        <p>
+                            <span>asd***5</span><br/><span class="span_col">782元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sad***78</span><br/><span class="span_col">4500元</span>
+                        </p>
+                        <p>
+                            <span>ms***5</span><br/><span class="span_col">2457元</span>
+                        </p>
+                        <p>
+                            <span>oas***7</span><br/><span class="span_col">742元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sd***78</span><br/><span class="span_col">5800元</span>
+                        </p>
+                        <p>
+                            <span>mf***</span><br/><span class="span_col">2570元</span>
+                        </p>
+                        <p>
+                            <span>oh***s</span><br/><span class="span_col">478元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>myt***j</span><br/><span class="span_col">7827元</span>
+                        </p>
+                        <p>
+                            <span>a***2</span><br/><span class="span_col">4519元</span>
+                        </p>
+                        <p>
+                            <span>zfx***8</span><br/><span class="span_col">423元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sdg***7</span><br/><span class="span_col">4789元</span>
+                        </p>
+                        <p>
+                            <span>jh***1</span><br/><span class="span_col">2035元</span>
+                        </p>
+                        <p>
+                            <span>fr***</span><br/><span class="span_col">1115元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>sg***</span><br/><span class="span_col">42167元</span>
+                        </p>
+                        <p>
+                            <span>dr***g</span><br/><span class="span_col">40615元</span>
+                        </p>
+                        <p>
+                            <span>afd***g</span><br/><span class="span_col">7282元</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>d***7sd</span><br/><span class="span_col">77800元</span>
+                        </p>
+                        <p>
+                            <span>dfg***d</span><br/><span class="span_col">4222元</span>
+                        </p>
+                        <p>
+                            <span>odf***</span><br/><span class="span_col">872元</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <script type="text/javascript">
+//                jQuery(".ad_top").slide({ mainCell:".conqwe ul",effect:"topMarquee",vis:1,interTime:50,autoPlay:true});
+             var num=1;
+             var time3=null;
+             var t=true;
+             $(".ad_top").scrollTop($(".ad_top .conqwe ul li").height());
+             //console.log($(".slide_item").height());
+             //自动走
+             function run(){
+                 clearInterval(time3);
+                 time3=setInterval(function(){
+                     num++;
+                     if(num>=$(".ad_top .conqwe ul li").length){
+                         num=2;
+                         $(".ad_top").scrollTop($(".ad_top .conqwe ul li").height());
+                     }
+                     move1();
+                 },3500)
+             };
+             function move1(){
+                 $(".ad_top").stop().animate({"scrollTop":$(".ad_top .conqwe ul li").height()*num},250,function(){
+                     t=true;
+                 });
+             };
+              run();
+            </script>
+        </div>
+
+
+    </div>
+</div>
+
+</div>
+
+
+</body>
+</html>
+        </div>		
+	</div>
+	
+	
+
+
+
+
+<div class="new-add">
+		<!-- 原来的位置 -->
+		<div class="clearfix ad main">
+			<div class="ad-left fl">
+				<div class="ad-content">
+					<ul class="ad-slide">
+						<li onclick="window.open('http://7770984.com/app/')" style="display:block;cursor: pointer;"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/ad.png" alt=""></li>
+					
+					
+					</ul>
+				</div>
+			</div>
+			<div class="ad-right fr">
+				<div class="ad-content">
+					<div class="slide"> 
+						<ul>
+							<li><span>上海</span><span>   ttx****899</span><span>   疯狂之七</span><span>   27648元</span></li>
+							<li><span>山东</span><span>   wux****555</span><span>   古怪猴子</span><span>    45648元</span></li>
+							<li><span>广州</span><span>   tyc****321</span><span>   捕鱼王二代</span><span>  26036元</span></li>
+							<li><span>重庆</span><span>    lqj***249</span><span>  篮球巨星 </span><span>    24896元</span></li>
+							<li><span>山西</span><span>   116****tyc</span><span>   灵猴献瑞</span><span>    37564元</span></li>
+							<li><span>吉林</span><span>   liu****608 </span><span>  性感女仆</span><span>    24528元</span></li>
+							<li><span>广西</span><span>   che****888</span><span>   复古花园 </span><span>   25906元</span></li>
+							<li><span>重庆</span><span>   fen****204</span><span>   森林舞会  </span><span>  18620元</span></li>
+							<li><span>河北</span><span>   lao****753 </span><span>  经典水果机</span><span>  35288元</span></li>
+							<li><span>江西</span><span>    yue***me</span><span>   冰上曲棍球 </span><span>  26459元</span></li>
+							<li><span>四川</span><span>    gou***33</span><span>   淑女派对 </span><span>    48536元</span></li>
+							<li><span>湖南</span><span>    qaz***46 </span><span>  篮球巨星 </span><span>    52354元</span></li>
+							<li><span>湖北</span><span>   hon****903</span><span>   古怪猴子</span><span>    19452元</span></li>
+							<li><span>广东</span><span>    pka***88</span><span>  篮球巨星 </span><span>    39874元</span></li>
+							<li><span>广西</span><span>    mdf***021</span><span>  银行抢匪</span><span>    46783元</span></li>
+							<li><span>吉林</span><span>    yan***ig</span><span>   冰上曲棍球</span><span>   16583元</span></li>
+							<li><span>广东</span><span>    qwe***788</span><span>   阿瓦隆 </span><span>     57860元</span></li>
+							<li><span>福建</span><span>    aaa***456</span><span>   雷神2</span><span>       35468元</span></li>
+							<li><span>江西</span><span>    qq1***852</span><span>   空手道猪</span><span>    28764元</span></li>
+							<li><span>北京</span><span>    den***258</span><span>   水浒传 </span><span>     19808元</span></li>
+							<li><span>四川</span><span>   865****752</span><span>   捕鱼王二代</span><span>  17860元</span></li>
+							<li><span>湖南</span><span>    fuy***985</span><span>   圣兽传说</span><span>    37658元</span></li>
+							<li><span>北京</span><span>    pan***16</span><span>   淑女派对</span><span>     18453元</span></li>
+							<li><span>江苏</span><span>    qhz***26 </span><span>  冰上曲棍球</span><span>   37651元</span></li>
+							<li><span>湖北 </span><span>   lke***452 </span><span>  银行抢匪</span><span>    24866元</span></li>
+						</ul>
+					</div>
+					<div class="ad-bottom">
+						<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/text.png" alt="">
+						<span>就在太阳城集团，仅此一家，您值得拥有！</span>
+					</div>
+				</div>
+				<img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/newindex/hot.png" alt="" class="hot">
+			</div>
+		</div>
+
+	</div>
+	
+	
+	
+<!---------底部 --------->
+	<div class="page_footer" >
+		<div class="footer_up" >
+			<div class="footer_up_container">
+				<div class="footer_up_left">
+					<div class="officialAddress"></div>
+					<div class="bank"></div>
+					<div class="brand"></div>
+				</div>
+				<div class="footer_up_right">
+					<a class="footerCopy" href="javascript:void(0);" onclick="openHelp('/help')">帮助</a>
+					<span>|</span>
+					<a class="footerCopy" href="/sysProposalServlet?type=1">投诉建议</a>
+					<span>|</span>
+					<a class="footerCopy" href="javascript:void(0);" onclick="openHelp('/help?type=1253605')" >常见问题</a>
+					
+						
+							
+						
+							
+								
+									<span>|</span>
+									<a class="footerCopy" href="javascript:void(0);"
+										onclick="toEditDocDetails(16373)">
+											关于我们 </a>
+								
+							
+						
+							
+						
+							
+						
+							
+						
+							
+								
+									<span>|</span>
+									<a class="footerCopy" href="javascript:void(0);"
+										onclick="toEditDocDetails(17806)">
+											联络我们 </a>
+								
+							
+						
+							
+						
+							
+						
+							
+						
+							
+								
+									<span>|</span>
+									<a class="footerCopy" href="javascript:void(0);"
+										onclick="toEditDocDetails(9787)">
+											代理加盟 </a>
+								
+							
+						
+							
+						
+							
+								
+									<span>|</span>
+									<a class="footerCopy" href="javascript:void(0);"
+										onclick="toEditDocDetails(15900)">
+											存款帮助 </a>
+								
+							
+						
+							
+						
+							
+								
+									<span>|</span>
+									<a class="footerCopy" href="javascript:void(0);"
+										onclick="toEditDocDetails(16886)">
+											取款帮助 </a>
+								
+							
+						
+							
+						
+							
+						
+							
+						
+					
+					<br/>
+					<a class="copyright"><span class="copyrightSpan"><font style="font-family:Arial;">Copyrights (c)</font> </span><font style="font-size: 14px;font-weight:bold;color:#c37733">客服邮箱：</font><font style="font-family:Arial;font-size: 14px;font-weight:bold;color:#c37733">kf@sun365.com</font></a>
+					<br/>
+				</div>	
+			</div>
+		</div>				
+		<div class="footer_down">
+			<div class="col">
+				<h3>信息中心</h3>
+				<hr>
+				<h4><a>优惠活动 </a></h4>
+				<p>Sun Game会员均可享有各投注產品定期推出的存款红利优惠及返水优惠。</p>
+				<h4><a>常见问题</a></h4>
+				<p>通过常见问题可即时解答您建立 Sun Game 账户、存款、提款，有关于投注和游戏玩法等等问题。</p>
+				<h4><a >联系我们 </a></h4>
+				<p>您可通过24/7小时在线客服、邮箱或电话方式联系我们。每名客户的资讯保密性对我们来说是最重要的。我们承诺，将继续不遗余力地坚持严格实行保密和隐私制度。 </p>
+				<h4><a>合作伙伴</a></h4>
+				<p>加入Sun Game合作伙伴，您可以利用您的人际网络每月简单赚取高额佣金，轻松实现成功与财富的梦想！</p>
+				<h4><a>注册</a></h4>
+				<p>您只需要在我们的网页上方点击「立即加入」，花数分钟时间填写账户登记表，便可以成功建立 Sun Game 个人账户。</p>
+				<h4><a>存款及提款</a></h4>
+				<p>您可以通过我们建议的方法轻鬆进行存款及提款到您的账户中。 </p>
+			</div>
+			  <div class="col">
+			  	<h3>产品</h3>
+			  	<hr>
+				<h4><a>体育博彩 </a></h4>
+				<p >Sun Game网罗各类体育赛事，玩家可以选择其喜爱项目进行游戏。Sun Game开出盘口多，高水赔率，选择丰富。</p>
+				<h4><a>体育博彩项目</a></h4>
+				<p >种类包括足球、网球、篮球、棒球、排球、乒乓球、羽毛球、高尔夫球、冰球、手球、美式足球、榄球、桌球/台球、赛车及飞镖等等。</p>
+				<h4><a>滚球</a></h4>
+				<p >推出全新体育博彩滚球页面后，滚球选择更多达每月5,000多场，是全行之冠。当然少不了英超、意甲、西甲、德甲、冠军联赛等。 </p>
+				<h4><a>真人娱乐场 </a></h4>
+				<p >拥有多个最受欢迎的真人娱乐场系统的Sun Game娱乐场，包括真人百家乐、轮盘、骰宝、廿一点及斗牛等游戏。通过现场视频，让您感受到现场实况下注的体验。 </p>
+				<h4><a>老虎机及电子游戏</a></h4>
+				<p>多款富有传统民间色彩的主题老虎机及电子游戏，打造一个精彩多变，极受欢迎的新热点。 </p>
+				<h4><a>扑克王游戏</a></h4>
+				<p>Sun Game诚意呈献专为德州扑克玩家而设之扑克馆。在这里，您可与世界顶级高手即场一决高下。  </p>
+			  </div>
+			  <div class="col3">
+			  	<h3>投注资料</h3>
+			  	<hr>
+				<h4><a>赛果 </a></h4>
+				<p >可即时了解Sun Game所有体育赛事的即时及完场赛果。</p>
+				<h4><a>体育博彩规则 </a></h4>
+				<p >所有在Sun Game进行的一切体育博彩投注都需要遵从我们体育博彩规则条款。</p>
+				<h4><a>真人娱乐场游戏介绍</a></h4>
+				<p >提供各娱乐场馆游戏平台的详尽游戏介绍，如百家乐、骰宝、轮盘、廿一点等。 </p>
+				<h4><a>扑克游戏规则</a></h4>
+				<p >所有在Sun Game进行的一切扑克游戏投注都需要遵从扑克游戏的规则条款。 </p>
+				<h4><a>投注记录 </a></h4>
+				<p >透过游戏系统或用户中心，您可以随时随地查询一切投注记录。</p>
+				<h4><a>责任博彩 </a></h4>
+				<p >我们积极推行负责任博彩，并极力拒绝未成年玩家使用我们的软件进行网上娱乐。同时，我们更透过专业人员及各种有效方法，以防止问题博彩的发生。</p>	
+				
+			  </div>
+			</div>			
+		</div>	 
+		
+<style type="text/css">
+#og_board_phoneId  ul, #og_board_phoneId li{
+	margin: 0px;
+	padding: 0px;
+    position: relative;
+}
+.og_board_phoneClass_left {
+    position: fixed;
+    bottom: 1px;
+  	left: 8px; 
+    z-index: 9999;
+}
+ #og_board_phoneId .og_board_phone{
+	width: 200px;
+	height: 200px;
+	z-index:900;
+}
+#og_board_phoneId .og_board_phone .bd {
+    height: 200px;
+    margin-top: 0px;
+}
+#og_board_phoneId .og_board_phone .hd {
+    position: relative;
+    margin-left: 24px;
+    overflow:visible;
+    height: 21px;
+    left: 20px;
+    bottom: 1px;
+    z-index: 1;
+}
+#og_board_phoneId .og_board_phone .hd ul li {
+    float: left;
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    margin-right: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/phone-hd.png') no-repeat;
+    padding-right:5px;
+}
+#og_board_phoneId .og_board_phone .hd ul li.on {
+    background-position: 0 -20px;
+}
+#og_board_phoneId .og_board_phone .bd img{
+    height: 200px;
+}
+#og_board_phoneId .og_board_dv-colse{
+	margin-left: 15px;
+	margin-bottom: -85px;
+	cursor: pointer;
+	display:none;
+	z-index:9998;
+	position:absolute;
+}
+#og_board_phoneId .og_board_dv-colse:hover {
+  display: block;
+  z-index:9998;
+}
+
+
+
+
+#phoneId_right .board_phone_right{
+	width: 200px;
+	height: 200px;
+	z-index:900;
+}
+.phoneClass_right {
+    position: fixed;
+    bottom: 1px;
+    right: 8px;
+    z-index: 9999;
+}
+#phoneId_right .board_phone_right .bd_right {
+    height: 200px;
+    margin-top: 0px;
+}
+#phoneId_right .board_phone_right .hd_right {
+    position: relative;
+    margin-left: 76px;
+    overflow:visible;
+    height: 21px;
+    right: 20px;
+    bottom: 1px;
+    z-index: 1;
+}
+#phoneId_right ul, #phoneId_right li {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#phoneId_right .board_phone_right .hd_right ul li {
+    float: left;
+    width: 21px;
+    height: 21px;
+    overflow: hidden;
+    margin-right: 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: url('//cdnfss.ruirobot.com/v3/stc/bt/a06/images/phone-hd.png') no-repeat;
+    padding-right:5px;
+}
+#phoneId_right .board_phone_right .hd_right ul li.on {
+    background-position: 0 -20px;
+}
+#phoneId_right .og_board_dv-colse{
+	margin-left: 15px;
+	margin-bottom: -85px;
+	cursor: pointer;
+	display:none;
+	z-index:9998;
+	position:absolute;
+}
+#phoneId_right .og_board_dv-colse:hover {
+  display: block;
+  z-index:9998;
+}
+</style>
+<div id="og_board_phoneId" class="og_board_phoneClass_left"> 
+	<div class="og_board_phone">
+		<a href="javascript:void(0);" onclick="document.getElementById('og_board_phoneId').style.display='none'" target="_blank" style="position: absolute;bottom: 220px;left: 167px;width: 24px;"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/rightg.png"></a>					
+		<div class="bd" id="lbt" >
+			<ul>
+				<li><a href="http://4440342.com" target="_blank"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/left1.png"
+						style="width: 200px; height: 200px;"></a></li>
+				<li><a href="javascript:void(0);" onClick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/left2.png"
+						style="width: 200px; height: 200px"></a></li>
+				<li><a href="http://7770961.com" target="_blank"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/left3.png"
+						style="width: 200px; height: 200px"></a></li>
+			</ul>
+		</div>
+		<div class="hd">
+			<ul><li class="on"></ul> 
+		</div>
+	</div>						
+</div>
+<div id="phoneId_right" class="phoneClass_right"> 
+	<div class="board_phone_right">
+		<a href="javascript:void(0);" onclick="document.getElementById('phoneId_right').style.display='none'" target="_blank" style="position: absolute;bottom: 220px;right: 172px;width: 24px;"><img src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/rightg.png"></a>					
+		<div class="bd_right" id="lbt_right" >
+			<ul>
+				<li><a href="http://4440335.com" target="_blank"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/right_01.png"
+						style="width: 200px; height: 200px"></a></li>
+				<li><a href="http://6662894.com" target="_blank"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/right_02.png"
+						style="width: 200px; height: 200px"></a></li>
+				<li><a href="http://7770984.com/app/" target="_blank"><img
+						src="//cdnfss.ruirobot.com/v3/stc/bt/a06/images/right_03.png"
+						style="width: 200px; height: 200px;"></a></li>
+			</ul>
+		</div>
+		<div class="hd_right">
+			<ul><li class="on"></ul> 
+		</div>
+	</div>						
+</div>
+<script src="/jsp/member/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script> 
+<script type="text/javascript">
+	jQuery("#phoneId_right .board_phone_right").slide({titCell:".hd_right ul",mainCell:".bd_right ul",autoPage:true,effect:"leftLoop",autoPlay:true,scroll:1,easing:"easeInQuint",trigger:"click",interTime:3000});
+	jQuery("#og_board_phoneId .og_board_phone").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"leftLoop",autoPlay:true,scroll:1,easing:"easeInQuint",trigger:"click",interTime:3000});
+</script>	
+		
+<!--站点左下方轮播图广告 END-->
+
+	<script>
+	function lunTopFn(obj,time){
+		time = time ? time: 30;
+		$(obj).children('ul').append($(obj).children('ul').children().clone(true))
+		var len = $(obj).children('ul').height()/2;
+		var times = null;
+		times = window.setInterval(function(){
+			var t = $(obj).children('ul').css('top');
+			t = t.replace('px','');
+			
+			if(t > -len){
+				t--;
+				$(obj).children('ul').css({top: t})
+			}else{
+				$(obj).children('ul').css({top: 0})
+			}
+			
+		},time)
+		
+		$(obj).children('ul').hover(function(){
+			window.clearInterval(times);
+		},function(){
+			times = window.setInterval(function(){
+				var t = $(obj).children('ul').css('top');
+				t = t.replace('px','');
+				
+				if(t > -len){
+					t--;
+					$(obj).children('ul').css({top: t})
+				}else{
+					$(obj).children('ul').css({top: 0})
+				}
+				
+			},time)
+		})
+	}
+		$(function(){
+
+			new lunTopFn($('.ad-content .slide'));
+
+			// $('.info span').each(function(){
+			// 	$(this).css('marginLeft' , - $(this).width() / 2)
+			// });
+
+			$('.picture-container > div').eq(0).show();
+
+
+
+			
+			$('.menu ul li').hover(function(){
+				var index = $(this).index();
+				
+				
+				if( !$(this).hasClass('active') ){
+					$('.picture-container > div').hide();
+					$('.picture-container > div').eq(index).stop().fadeIn();
+				}
+				$(this).addClass('active').siblings().removeClass('active');
+			})
+
+			$('#container').mouseenter(function(){
+				$('.cover img').stop().animate({'left':-170} , 500);
+				$(this).mouseleave(function() {
+					$('.cover img').stop().animate({'left':-100} , 500);
+				});
+			})
+
+
+			var _index = 0;
+			var timer = null;
+			function autoPlay(){
+				timer = setInterval(function(){
+					_index ++;
+
+					_index %= 2;
+					$('.ad-content ul.ad-slide li').eq(_index).stop().fadeIn().siblings().stop().hide();
+				} , 2000);
+			}
+			
+			$('.ad-content').hover(function(){
+				clearInterval(timer);
+			},function(){
+				autoPlay();
+			});
+			autoPlay();
+			var y = 17210000;
+			setInterval(function(){
+				y = (y+Math.random() * 80);
+				var x = y.toFixed(2) + ' 元' ;
+				$('.money').html(x);
+
+				
+			} , 1000);
+			
+			var mw = 116800000;
+			setInterval(function(){
+				mw = (mw+Math.random() * 80);
+				var x = mw.toFixed(2) + ' 元' ;
+				$('.mwdz').html(x);
+
+				
+			} , 1000);
+			var pt = 25800000;
+			setInterval(function(){
+				pt = (pt+Math.random() * 80);
+				var x = pt.toFixed(2) + ' 元' ;
+				$('.ptdz').html(x);
+
+				
+			} , 1000);
+			var bb = 45200000;
+			setInterval(function(){
+				bb = (bb+Math.random() * 80);
+				var x = bb.toFixed(2) + ' 元' ;
+				$('.bbdz').html(x);
+
+				
+			} , 1000);
+			
+			var ag = 13230000;
+			setInterval(function(){
+				ag = (ag+Math.random() * 80);
+				var x = ag.toFixed(2) + ' 元' ;
+				$('.agdz').html(x);
+
+				
+			} , 1000);
+			
+
+		});
+	</script>
+</body>
+</html>

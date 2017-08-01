@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>美高梅 CASINO 亚洲博彩领跑者</title>
+    <meta name="keywords"/>
+    <meta name="description" />
+    <style type="text/css">
+        .buttonSubmit {
+            width: 130px;
+            height: 42px;
+            display: block;
+            float: left;
+            background: url(/content/images/vip_CardLeftBg.jpg) repeat-x;
+            font: 18px/42px "微软雅黑";
+            color: #000;
+            text-align: center;
+            border-style: none;
+            cursor: pointer;
+        }
+    </style>
+    <link type="text/css" rel="stylesheet" href="/content/style/window.css?v=26"/>
+    <link type="text/css" rel="stylesheet" href="/Content/style/global.css?v=26"/>
+    <link type="text/css" rel="stylesheet" href="/Content/style/style.css?v=26"/>
+    <link type="text/css" rel="stylesheet" href="/scripts/lib/sticky/sticky.css?v=26"/>
+    <script type="text/javascript"  src="/Scripts/lib/jquery.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/json2.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/sticky/sticky.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/sticky-lucky/sticky-lucky.js?v=26" ></script>
+    <script type="text/javascript"  src="/scripts/lib/jquery.signalR-2.0.1.min.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/jquery.cookie.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/jquery.SuperSlide.2.1.1.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/jquery.jslides.js?v=26" ></script>
+    <script type="text/javascript"  src="/Scripts/lib/layer/layer.min.js?v=26" ></script>
+    
+<script type="text/javascript">
+    //配置时区的当前时间字符串
+    var CONFIGTIMENOWSTRING = "2017/07/28 07:15:48";
+    //Web服务器的时区
+    var WEBSERVERTIMEZONE = 0;
+    //Web服务器的时区当前是为夏令时
+    var ISDAYLIGHTSAVINGTIME ='False'.toLowerCase()=='true'.toLowerCase();
+</script>
+    <script type="text/javascript"  src="/Scripts/page/core.js?v=26" ></script>
+    <script type="text/javascript"  src="/scripts/page/validator.js?v=26" ></script>
+    
+    <script>
+        var HRLOO_ISLOGIN = 'False';
+    </script>
+</head>
+<body>
+         <script type="text/javascript">
+		$(document).ready(function(c) {
+			$('.abgne_close').on('click', function(c){
+				$(this).parent().fadeOut('slow', function(c){
+				});
+			});	
+		});
+	</script>
+    <!-- FLOAT JS -->
+    <script type="text/javascript">
+	// 當網頁載入完
+		$(window).load(function(){
+			var $win = $(window),
+				$ad = $('#abgne_float_ad_R').css('opacity', 0).show(),	// 讓廣告區塊變透明且顯示出來
+				_width = $ad.width(),
+				_height = $ad.height(),
+				_diffY = 150, _diffX = 20,	// 距離右及上方邊距
+				_moveSpeed = 800;	// 移動的速度
+			
+			// 先把 #abgne_float_ad 移動到定點
+			$ad.css({
+				top: _diffY,	// 往上
+				left: $win.width() - _width - _diffX,
+				opacity: 1
+			});
+			
+			// 幫網頁加上 scroll 及 resize 事件
+			$win.bind('scroll resize', function(){
+				var $this = $(this);
+				
+				// 控制 #abgne_float_ad 的移動
+				$ad.stop().animate({
+					top: $this.scrollTop() + _diffY,	// 往上
+					left: $this.scrollLeft() + $this.width() - _width - _diffX
+				}, _moveSpeed);
+			}).scroll();	// 觸發一次 scroll()
+		});
+		
+		// 當網頁載入完
+		$(window).load(function(){
+			var $win = $(window),
+				$ad = $('#abgne_float_ad_L').css('opacity', 0).show(),	// 讓廣告區塊變透明且顯示出來
+				_width = $ad.width(),
+				_height = $ad.height(),
+				_diffY = 150, _diffX = 20,	// 距離左及上方邊距
+				_moveSpeed = 800;	// 移動的速度
+			
+			// 先把 #abgne_float_ad 移動到定點
+			$ad.css({
+				top: _diffY,	// 往上
+				left:  _diffX,	// 往左
+				opacity: 1
+			});
+			
+			// 幫網頁加上 scroll 及 resize 事件
+			$win.bind('scroll resize', function(){
+				var $this = $(this);
+				
+				// 控制 #abgne_float_ad 的移動
+				$ad.stop().animate({
+					top: $this.scrollTop() + _diffY,	// 往上
+					left: $this.scrollLeft() + _diffX	// 往左
+				}, _moveSpeed);
+			}).scroll();	// 觸發一次 scroll()
+		});
+	</script>
+<style>
+	.duilian_top
+	{
+		width:139px;
+		position:fixed;
+		top:160px;
+z-index:99999;
+		right:30px;
+		overflow:hidden;
+	}
+	.duilian_top img
+	{
+		display:block;
+		margin:auto;
+	}
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@-webkit-keyframes rubberBand {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+	.duilian_top a
+	{
+		display:block;
+		margin:auto;
+		width:120px;
+		margin-bottom:5px;
+	}
+	.weixin_top
+	{
+		width:120px;
+		height:135px;
+		position:relative;
+		margin:auto;
+		background:url("https://img.m666mm.com/upload/ad/201606/213/fd25a41fc0a14408be75b5e96e044d3d.png");
+	}
+	.weixiner
+	{
+		width:104px;
+		margin:auto;
+		position:relative;
+		top:7px;
+	}
+	.closeduilian
+	{
+		cursor:pointer;
+	}
+	.weixin_top1
+	{
+		width:120px;
+	 	overflow:hidden;
+		display:none;
+		margin:auto;
+		background:url("https://img.m666mm.com/upload/ad/201606/531/83bde92dc9f142558410971746ea17d1.png");
+		background-size:100% 100%;
+	}
+	.kefu1234
+	{
+		cursor:pointer;
+	}
+	.fadeIn
+	{
+	}
+	</style>
+<div class="duilian_top">
+	<img src="https://img.m666mm.com/upload/ad/201606/411/8a91a6b5f69b4e11bc0800356d4dcbff.png" /> <img src="https://img.m666mm.com/upload/ad/201606/568/4289e0905f2244c3abb15fb535216375.png" style="width:121px;margin-bottom:1px;cursor:pointer;" class="vip changewant" data-change="https://img.m666mm.com/upload/ad/201606/787/f51366b1fbc04e80bca1728e74ebc4e4.png" data-origin="https://img.m666mm.com/upload/ad/201606/568/4289e0905f2244c3abb15fb535216375.png" /> <!--
+	<div class="weixin_top" style="margin-bottom:1px;">
+		<img src="https://img.m666mm.com/upload/ad/201606/652/d6d2dd84cf7c47fb8a8bb4eee1775cdc.png" class="weixiner" /> 
+	</div>
+-->
+	<div class="weixin_top1" style="margin-bottom:1px;">
+		<a href="tencent://message/?uin=50311171&Menu=yes" target="_blank" style="margin-top:12px;"><img src="https://img.m666mm.com/upload/ad/201606/037/6cfc27a3339143248dd7602a418bc252.png" data-change="https://img.m666mm.com/upload/ad/201606/803/a142461a19df4bdb97c2fca6dd3787cc.png" data-origin="https://img.m666mm.com/upload/ad/201606/037/6cfc27a3339143248dd7602a418bc252.png" /></a> <a href="/signal-detect.htm"><img src="https://img.m666mm.com/upload/ad/201606/897/beb636d6b5c34bd68bdbea8bd5b44065.png" data-change="https://img.m666mm.com/upload/ad/201606/835/f3530e6720c646f198998d504f348146.png" data-origin="https://img.m666mm.com/upload/ad/201606/897/beb636d6b5c34bd68bdbea8bd5b44065.png" /></a> <a href="/download.html" target="_blank"><img src="https://img.m666mm.com/upload/ad/201606/413/7be426c751654a5694dcd00ddd09b854.png" data-change="https://img.m666mm.com/upload/ad/201606/538/46c01e9b1f6f46fc8809fb080fa19726.png" data-origin="https://img.m666mm.com/upload/ad/201606/413/7be426c751654a5694dcd00ddd09b854.png" /></a> <a href="#" target="_blank"><img src="https://img.m666mm.com/upload/ad/201606/387/0197c551daeb41968fc02324831679ea.png" data-change="https://img.m666mm.com/upload/ad/201606/747/267af9e22f1646328b39ca7112e25238.png" data-origin="https://img.m666mm.com/upload/ad/201606/387/0197c551daeb41968fc02324831679ea.png" /></a> 
+	</div>
+<img src="https://img.m666mm.com/upload/ad/201606/023/edee179a839d4c26aa9611bf145be4c7.png" style="width:120px;" class="kefu1234 changewant" data-change="https://img.m666mm.com/upload/ad/201606/929/c0f319b25a034b55a81e1fb28fbf0bc1.png" data-origin="https://img.m666mm.com/upload/ad/201606/023/edee179a839d4c26aa9611bf145be4c7.png" /> <img src="https://img.m666mm.com/upload/ad/201606/216/bc46a260979946978ddadf7b828e7f77.png" style="width:58px;" class="closeduilian changewant" data-change="https://img.m666mm.com/upload/ad/201606/045/4e1b6e0a110b4d35bb10bb2f136c22d1.png" data-origin="https://img.m666mm.com/upload/ad/201606/216/bc46a260979946978ddadf7b828e7f77.png" /> 
+</div>
+<script>
+	function getstart()
+	{
+		$(".closeduilian").click(function(){
+			$(".duilian_top").fadeOut("fast");
+		})
+		// $(".duilian_top").mouseenter(function(){
+		// 	$(".weixin_top,.weixin_top1").stop();
+		// 	$(".weixin_top").hide().removeClass("fadeIn");
+		// 	$(".weixin_top1").show().addClass("fadeIn");
+		// })
+		// $(".duilian_top").mouseleave(function(){
+		// 	$(".weixin_top,.weixin_top1").stop();
+		// 	$(".weixin_top").show().addClass("fadeIn");
+		// 	$(".weixin_top1").hide().removeClass("fadeIn");
+		// })
+		$(".weixin_top1").find("img").mouseenter(function(){
+			var datachange=$(this).attr("data-change");
+			$(this).attr("src",datachange);
+		})
+		$(".weixin_top1").find("img").mouseleave(function(){
+			var dataorigin=$(this).attr("data-origin");
+			$(this).attr("src",dataorigin);
+		})
+	}
+	$(".changewant").mouseenter(function(){
+			var datachange=$(this).attr("data-change");
+			$(this).attr("src",datachange);
+		})
+	$(".changewant").mouseleave(function(){
+			var dataorigin=$(this).attr("data-origin");
+			$(this).attr("src",dataorigin);
+		})
+	$(".kefu1234").click(function(){
+		window.open("http://szzero.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=513402&configID=50411&jid=6749175254","","width=1200,height=600,top=40,left=100");
+	})
+		$(".weixin_top").hide();
+		$(".weixin_top1").show();
+		// window.setTimeout(function(){
+		// 	$(".weixin_top").show();
+		// $(".weixin_top1").hide();
+		// getstart();
+		// }, 2000)
+		getstart()
+		$(".vip").click(function(){
+			window.open("http://www.m50222.com/vip/","_blank");
+		})
+	</script>
+    <div class="top">
+        <div class="topN">
+            <div class="Logo">
+                <a href="/index.html">
+                    <object type="application/x-shockwave-flash" data="/Content/images/flash/mgm_logo.swf" width="375" height="125">
+                        <param name="movie" value="/content/images/flash/mgm_logo.swf"/>
+                        <param name="quality" value="high" />
+                        <param name="wmode" value="transparent" />
+                        <img src="/Content/images/logo.png" width="375" height="125" alt="MGM Logo" />
+                    </object>
+                </a>
+            </div>
+            <div class="topRight">
+                <ul class="RightUl" style="width:auto;">
+                    <li style="width:80px">
+                    	<table border="0">
+                          <tr>
+                            <td><a href="#"><img src="/content/images/flag-TW.png" /></a></td>						
+                            <td><a href="#"><img src="/content/images/flag-CN.png" /></a></td>
+                            <td><a href="#"><img src="/content/images/flag-US.png" /></a></td>
+                          </tr>
+                        </table>
+                    </li>
+                    <li><a href="javascript:void(0);" onclick="SetHome(this,window.location)">设为首页</a></li>
+                    <li><a href="javascript:void(0);" onclick="addToFav();">收藏我们</a></li>
+                    <li style="border-right: 0px;"><a href="/signal.html" target="_blank">线路检测</a></li>
+                </ul>
+                    <span class="RightSpan">
+                        <a href="javascript:void(0);" id="login_btn" class="RightSpanLj" style="margin-left: 0px;"><img src="/Content/images/RightSpanLj1.png" width="104" height="36" /></a>
+                        <input name="username" id="username" type="text" class="SpanText" placeholder=" 帐号：" value=""  tabindex="1"/>
+                        <input name="password" id="password" type="password" class="SpanText" placeholder=" 密码：" value=""  tabindex="2"/>
+                        
+                    </span>
+                    <span class="RightSpanb">
+                        <a href="/user/forgetpwd.html" class="RightSpanLj">
+                            <img src="/Content/images/RightSpanLj2.png" width="104" height="36" /></a>
+                        <a href="/user/register.html" class="RightSpanLj">
+                            <img src="/Content/images/RightSpanLj3.png" width="104" height="36" /></a>
+                        <a href="javascript:showDiv()" class="RightSpanLj">
+                            <img src="/Content/images/RightSpanLj4.png" width="104" height="36" /></a>
+                    </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popDiv" class="mydiv" style="display:none;">
+     <div class="mydivTop">
+      <span></span><em>会员登录</em><a href="javascript:closeDiv()"></a>
+     </div>
+     <div class="mydivBottom">
+      <ul>
+       <li><input name="popUserName" id="popUserName" type="text" placeholder="帐号：" class="mydivBottom_text" /></li>
+       <li><input name="popPassword" id="popPassword" type="password" placeholder="密码：" class="mydivBottom_text" /></li>
+       
+       <li><a href="javascript:;" id="popLogin" class="mydivBottom_Dl">登 录</a><a href="/user/register.html" class="mydivBottom_Zc">免费加入</a></li>
+      </ul>
+     </div>
+   </div>
+    <div id="bg" class="bg" style="display: none;"></div>
+    <div class="xian"></div>
+
+    
+<a class="window03" style="display: none;"></a>
+
+<div class="banner">
+    <div id="full-screen-slider">
+        <ul id="slides">
+                    <li style="background: url('https://img.m666mm.com/upload/ad/201707/919/129dcd5bb01b452694fe76000f365304.png') no-repeat center top"><a href="http://yh.m50222.com" target="_blank"></a></li>
+        </ul>
+     </div>
+    <div class="bannerb">
+    
+<div class="menu">
+    <ul>
+    <li><a href="/index.html" class="active">首页</a></li>
+    <li id="t1"><a href="/casino.html" class="">娱乐场</a></li>
+        <!--<div id="div1">
+            <ul class="DIV1uL">
+                <div class="center">
+                
+                <li><a href="javascript:void(0);" onclick="load_game_link('HG','casino','');"><img src="/Content/images/HG.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('EA','casino','');"><img src="/Content/images/EA.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('AB','casino','');"><img src="/Content/images/AB.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('AG','casino','');"><img src="/Content/images/AGlhj.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('BBIN','casino','');"><img src="/Content/images/BBIN.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('MG','casino','');"><img src="/Content/images/MGlhj.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('PT','casino','7bal');"><img src="/Content/images/PT.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('OG','casino','');"><img src="/Content/images/OG.png" width="166" height="130" /></a></li>
+                <li><a href="javascript:void(0);" onclick="load_game_link('OPUS2','casino','');"><img src="/Content/images/OPUS.png" width="166" height="130" /></a></li>
+                </div>
+            </ul>
+        </div>-->
+     <li id="t2"><a href="/sport.html" class="">体育赛事</a></li>
+        <!--<div id="div2">
+            <ul class="DIV1uL">
+                <div class="center">
+                    <li><a href="javascript:void(0);" onclick="load_game_link('TB','sport','')"><img src="/Content/images/sport_CROWN.png" /></a></li>
+                    <li><a href="javascript:void(0);" onclick="window.open('/game/launchsport.html?game=OW&type=sport','OW','width=1070,height=700')"><img src="/Content/images/sport_SABA.png" /></a></li>
+                    <li><a href="javascript:void(0);" onclick="load_game_link('BBIN','sport','')"><img src="/Content/images/sport_BBIN.png" /></a></li>
+                    <li><a href="javascript:void(0);" onclick="load_game_link('OPUS','sport','')"><img src="/Content/images/sport_OPUS.png" /></a></li>
+                </div>
+            </ul>
+        </div>-->
+    <li id="t3"><a href="/slot.html" class="">电子游艺</a></li>
+        <!--<div id="div3">
+            <ul class="DIV1uL">
+                <div class="center">
+               <li><a href="javascript:void(0);" onclick="load_game_link('BBIN','slot','');"><img src="/Content/images/BBINlhj.png" width="166" height="130" /></a></li>              
+               <li><a href="/ptslot.html"><img src="/Content/images/PTlhj.png" width="166" height="130" /></a></li>
+               <li><a href="/slot.html" target="_blank"><img src="/Content/images/MG.png" width="166" height="130" /></a></li>
+               <li><a href="/ttgslot.html" target="_blank"><img src="/Content/images/TTG.png" width="166" height="130" /></a></li>
+               <li><a href="/agslot.html" target="_blank"><img src="/Content/images/AG.png" width="166" height="130" /></a></li>
+               <li><a href="/mtslot.html" target="_blank"><img src="/Content/images/MT.png" width="166" height="130" /></a></li>
+                </div>
+            </ul>
+        </div>-->
+    <li><a href="/ptslot.html" class="">PT老虎机</a></li>
+
+    <li id="t2"><a href="/lottery.html" class="">彩票游艺</a></li>
+        <!--<div id="div2">
+            <ul class="DIV1uL">
+                <div class="center">
+               <li><a id="lotterySS" href="javascript:void(0);" onclick="load_game_link('BBIN','lottery','');"><img src="/Content/images/SScp.png" width="166" height="130" /></a></li>
+               <li><a id="lotteryBBIN" href="javascript:void(0);" onclick="load_game_link('BBIN','lottery','');"><img src="/Content/images/bbinCp.png" width="166" height="130" /></a></li>
+               <li><a id="loteryKG" href="javascript:void(0);" onclick="load_game_link('KG','lottery','');"><img src="/Content/images/KGcp.png" width="166" height="130" /></a></li>
+                </div>
+            </ul>
+        </div>-->
+    <li><a href="http://yh.m50222.com/" class="">天天激情</a></li>
+    <li><a href="/promo.html" class="menuYs">促销活动</a><span class="menuYsP"><img src="/Content/images/hot.png" width="23" height="14" /></span></li>
+    <li style="background:0px;"><a href="javascript:void(0);" name="top_livechat" class="menuYs">在线客服</a></li>
+    </ul>
+</div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="contentb">
+        <div class="News">
+            <div class="txtMarquee-left">
+	<div class="bd" id="nc_content">
+	</div>
+</div>
+
+
+<script type="text/javascript">
+    // 顶部公告列表
+    var notices = function () {
+        var $list1 = $('#nc_content');
+        $.post('/news/getnoticelist.html?r=' + new Date().getTime(), { pageIndex: 0, pageSize: 10 }, function (data) {
+            if (data.success == false || data.count == 0) {
+                $list1.html('<ul class="infoList"><li><a>暂无新公告</a></li></ul>');
+                return;
+            }
+            var html = [];
+            var html2 = [];
+            $.each(data.list, function (index, item) {
+                if (data.count == 1) {
+                    html.push('<marquee width="720px" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="4" style="width:720px;"><li><a href="javascript:void(0);" onclick="showDivb();">' + item.Content + '</a></li></marquee>');
+                } else {
+                    
+                    html.push('<li><a href="javascript:void(0);" onclick="showDivb();">' + item.Content + '</a></li>');
+                }
+                
+                html2.push('<li><b>', Date.fromJson(item.CreateTime).format("yyyy-MM-dd"), '</b><strong>' + item.Title + '</strong><em>' + item.Content_RemoveHtml + '</em></li>');
+            });
+            var notices = '<ul class="infoList">' + html.join('') + '</ul>';
+            $('#nc_content').html(notices);
+            $('#noticelist').html(html2.join(''));
+
+            jQuery(".txtMarquee-left").slide({ mainCell: ".bd ul", autoPlay: true, effect: "leftMarquee", vis: 2, interTime: 50 });
+        });
+    };
+
+    $(function() {
+        notices();
+    });
+</script>
+        </div>
+  
+
+        <div class="contentRd">
+            <a href="/sport.html" class="hgty"></a>
+            <a href="/slot.html" class="dzyy"></a>
+            <a href="/lottery.html" class="cpyy"></a>
+            <a href="/sport.html" class="ty118"></a>
+            <a href="/slot.html" class="mglhg"></a>
+            <a href="/slot.html" class="ptlhg"></a>
+            <a href="/slot.html" class="amaya"></a>
+            <span class="contentRdText" id="jackpotBonus" url="http://tickers.playtech.com/jackpots/new_jackpotxml.php?info=4&amp;currency=cny"></span>
+  
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript"  src="/Scripts/page/home/index.js?v=26" ></script>
+
+
+    <div class="bottom">
+        <div class="bottomb">
+            <div class="bottomUl">
+                <ul>
+                    <li><a href="/help/about.html" >關於我們</a></li>
+                    <li><a href="/help/contact.html" >聯絡我們</a></li>
+                    <li><a href="/help/partner.html" >合作夥伴</a></li>
+                    <li><a href="/help/deposit.html" >存款幫助</a></li>
+                    <li><a href="/help/withdraw.html" >取款幫助</a></li>
+                    <li><a href="/help/question.html" >常見問題</a></li>
+                    <li style="border: 0px;"><a href="/help/responsibility.html">负责任博彩</a></li>
+                </ul>
+            </div>
+            <span></span>
+            <em>Copyright © 美高梅赌场 Reserved</em>
+        </div>
+    </div>
+    <div id="popDivb" class="mydivb" style="display: none;z-index:9999;">
+        <div class="mydivTopb">
+            <span></span><em>网站公告</em><a href="javascript:closeDivb()"></a>
+        </div>
+        <div class="mydivbottomb" style="overflow: auto; width: auto; height: 490px; margin-left: 50px;">
+            <ul id="noticelist">
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function showDivb() {
+            document.getElementById('popDivb').style.display = 'block';
+            document.getElementById('bg').style.display = 'block';
+        }
+
+        function closeDivb() {
+            document.getElementById('popDivb').style.display = 'none';
+            document.getElementById('bg').style.display = 'none';
+        }
+
+    </script>
+    <script type="text/javascript"  src="/Scripts/page/shared/site.js?v=26" ></script>
+    <script> var _cometUrl = 'https://comet.m666mm.com/';</script>
+<script type="text/javascript"  src="/Scripts/page/home/comet.js?v=26" ></script>
+<!--custom service-->
+<script type="text/javascript">
+    $(function () {
+        $('[name=top_livechat]').click(function () {
+            var charUrl = '//szzero.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=513402&configID=50411&jid=6749175254&s=1';
+
+            var chat;
+            if (parent == undefined) {
+                chat = window.open(charUrl, 'service', 'width=465,height=400,toolbar=0,resizable=1,location=no');
+            }
+            else {
+                chat = parent.window.open(charUrl, 'service', 'width=465,height=400,toolbar=0,resizable=1,location=no');
+            }
+            return chat;
+        });
+    });
+</script>
+
+<!-- Live800在线客服图标:默认图标[浮动图标]开始-->
+<div style='display:none;'><a href='https://www.live800.com'>客户服务</a></div>
+<script language="javascript" src="https://szzero.livechatvalue.com/chat/chatClient/floatButton.js?jid=6749175254&companyID=513402&configID=50411&codeType=custom&ss=1"></script><div style='display:none;'><a href='https://en.live800.com'>live chat</a></div>
+<!-- 在线客服图标:默认图标结束-->
+<!-- Live800默认功能代码: 开始-->
+<script language="javascript" src="https://szzero.livechatvalue.com/chat/chatClient/monitor.js?jid=6749175254&companyID=513402&configID=50410&codeType=custom&ss=1"></script>
+<!-- Live800默认功能代码: 结束-->
+
+
+<script async type="text/javascript" src="https://www.518813.club/voip2/vp_key.php?sip_id=800899988002108&style_id=9"></script>
+
+<script src="https://s22.cnzz.com/z_stat.php?id=1262049098&web_id=1262049098" language="JavaScript" defer></script>
+
+
+</body>
+</html>

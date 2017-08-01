@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+       <title>Www.4776.coM</title>
+       <meta name="description" content="新濠天地(The City of Dreams) 是新濠博亚娱乐有限公司的娱乐旗舰计划，位处澳MEN路氹城金光大道区域，毗邻澳MEN科技大学，项目第一期于2009年6月1日在澳MEN路氹城开幕，内设娱乐设施、夜总会、酒店、餐厅、购物商场及娱乐等多元化设施。新濠天地首阶段项目包括提供约300间客房的度假酒店和提供380间客房的Hard Rock酒店。而澳MEN君悦酒店已在2009年第四季完成，设有约800间客房。" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Le styles -->
+         <link href="https://static1.tbk-app.net/style/share/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="https://static1.tbk-app.net/style/xhtdylc/css.css?v=17044214401" media="screen" rel="stylesheet" type="text/css">
+<link href="https://static1.tbk-app.net/style/xhtdylc/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+        <!-- Scripts -->
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+<script type="text/javascript" src="/style/share/tab.js"></script>
+<script type="text/javascript" src="/style/share/jquery.superslide.2.1.1.js"></script>
+<script type="text/javascript" src="/style/share/jquery.SuperSlide.2.1.1.js"></script>
+    </head>
+    <body>
+    <div id="mainall">
+<div id="mainBody">
+<div id="page-header">
+<div id="header">
+   <div id="headtop">
+       <div id="header-logo"><object width="298" height="108" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" onmousedown="location.href='/'" ><param value="/upload/764/flash/160715043117.swf" name="movie" /><param value="transparent" name="wmode"/><param value="high" name="quality"/><embed width="298"  wmode="transparent" height="108" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" loop="true" autostart="true" src="/upload/764/flash/160715043117.swf"></object></div>
+       <div id="headright">
+	      <div id="hdselect">	
+			   <a href="/cn/lines">线路检测</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+               <a href="/agent">代理加盟</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			   <a href="http://agent.47767878.com" target="_blank">代理登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			   <a href="javascript:void(0)" onClick="SetHomePage('http://'+window.location.host)">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			   <a href="javascript:void(0)" onClick="AddFavorite('http://'+window.location.host,document.title)">加入收藏</a>&nbsp;&nbsp;|&nbsp;&nbsp;	
+               <a href="javascript:;" onMouseOver="showLicense();" style="color:#f00;" class="license">合法牌照展示
+                   <div class="paizhao" style="display: none;"><img src="https://static1.tbk-app.net/style/xhtdylc/license_img.png?v=5555" alt=""></div>
+               </a>
+		  </div>
+          <script>
+		     $('.license').mouseenter(function(){
+				 $('.paizhao').show();	 
+			}).mouseleave(function(){
+				$('.paizhao').hide();
+			})
+		  </script>
+          <div id="yiji" style="width: 162px;  height: 25px;   background: url('/style/xhtdylc/yiji.png') no-repeat center top;  margin-top:52px; margin-left:5px;
+          float: left;">
+          </div>
+	      		  <div id="loginbox">
+			   <form name="LoginForm" action="/cn" method="POST" onSubmit="return inputCheck();" style="margin:0" autocomplete="off" >
+			   <div id="loginarea">		  
+					<div class="logintxt">
+					   <span class="login-user-icon"></span>
+					   <input name="username" tabindex="1" type="text" class="za_text" id="username" maxlength="20" value="帐号" onFocus="if(this.value=='帐号')this.value=''" onBlur="if(this.value =='') this.value ='帐号'"   />
+					</div>
+					<div class="logintxt">
+					  <span class="login-pwd-icon"></span>
+					  <input id="txtFacade" type="text" value="密码" readonly class="za_text" tabindex="2" onFocus="$('#txtPasword').val('');$('#txtFacade').css('display', 'none');$('#txtPasword').css('display', '');$('#txtPasword').focus();" style="">
+							<input id="txtPasword" name="password" tabindex="3" type="password" class="za_text" onBlur="if ($('#txtPasword').val() === ''){$('#txtFacade').css('display', '');$('#txtPasword').css('display', 'none');}" value="" style="display: none; " />
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="logintxt1">
+				   <input class="Loginbtn"  name="Submit" type="submit" value="" />
+				   <div class="clear"></div>
+				   <div id="Loginbtnpwd"><a href="/cn/forget"   title="忘记密码">忘记密码</a></div>
+				</div>	
+				<a href="/cn/register" class="btnreg"></a>	
+		  </form>
+		  </div>
+		  	   </div> 
+	 </div>	  
+	 <div class="clear"></div>
+	 		<div id="L-Menual"> 
+			<ul id="main-Menual">
+				<li class="LS-home"><a id="n1" href="/" class="current">首页</a></li>
+				<li class="LS-ball"><a id="n2" href="/hg_sports" >体育赛事</a></li>
+				<li class="LS-live"><a id="n3" href="/visual" >视讯直播</a></li>
+				<li class="LS-game"><a id="n4" href="/yg" >电子游艺</a></li>
+				<li class="LS-lottery" style="position:relative; z-index:200;"><a id="n5" href="/cn/caipiao" >彩票游戏</a></li>
+                <li class="LS-lines"><a id="n7" href="/vg">棋牌游戏</a></li>
+				<li class="LS-youhui" ><a id="n6" href="/cn/youhui">优惠活动<span></span></a></li>
+				
+				<li class="LS-lines"><a id="n8" href="/cn/mobile">手机投注</a></li>
+				<li class="LS-kefu"><a href="/member/weixin#showTable" class="textGlittera" target="_blank">微信支付</a></li>
+			</ul>
+			<div id="L-Sub">
+				<div class="LS-ball"> 
+					 <span class="subbg-left"></span> 
+					     <a href="/hg_sports" class="nsp" >皇冠体育</a><a href="/ts" class="nts">三昇体育</a><a href="/visual/sp-sport" class="nsb" target="_blank">沙巴体育</a><a href="/ug" class="nug">新皇冠</a>					 <span class="subbg-right"></span>
+				</div>
+				<div class="LS-live"> 
+					<span class="subbg-left"></span>
+					    <a href="/visual/ag/info" class="nag">AG国际厅</a><a href="/visual/bbin/info" class="nbbin">BBIN波音厅</a><a href="/visual/ab/info" class="nab">AB亚洲厅</a><a href="/visual/ho/info" class="nhg">HG名人厅</a><a href="/ds/info" class="nds">DS贵宾厅</a><a href="/visual/og/info" class="nog">OG东方厅</a><a href="/gc/info" class="ngc">GC黄金厅</a><a href="/bv/info" class="nbg">BG视讯厅</a>					<span class="subbg-right"></span>
+				</div>
+				<div class="LS-game">
+					<span class="subbg-left"></span> 
+					    <a href="/mg/index" class="dzmg">MG电子</a><a href="/pt" class="dzpt">PT电子</a><a href="/yg" class="dztbk">YG电子</a><a href="/hb" class="dzhb">HB电子</a><a href="/visual/bbin-game" class="dzbbin">BBIN电子</a>					<span class="subbg-right"></span>
+			   </div>
+               <div class="LS-lottery">
+                            <span class="subbg-left"></span> 
+                                <a href="/tt" class="ntt">天天彩票</a><a href="/jl" class="njl" >吉利彩票</a>                            <span class="subbg-right"></span>
+                       </div>	
+               		  
+		  </div>
+	  </div>
+</div>
+</div>
+		
+<script language="javascript">
+$("li.LS-ball, li.LS-live, li.LS-game, li.LS-lottery").subTabs();
+new toggleColor('.textGlitter', ['#3729B5', '#FFFF00'], 600);
+new toggleColor('.textGlittera', ['#ff0000', '#ffffff'], 600);
+</script>
+<!-- head end  --> 
+<style type="text/css">
+body {   background: url(https://static1.tbk-app.net/style/xhtdylc/bg01_x.png) center top repeat-x #2C0085; }
+#mainall { background: url(https://static1.tbk-app.net/style/xhtdylc/bg01.jpg) center top no-repeat; }
+</style>
+<div id="wrapindex">
+  <div id="flashbox">
+     <div id="ad-flash">
+	    <div class="focusBox">
+<ul class="pic">
+<li><img src="https://static1.tbk-app.net/upload/764/image/170531041318.jpg"  /></li>
+<li><img src="https://static1.tbk-app.net/upload/764/image/170531041333.jpg"  /></li>
+<li><img src="https://static1.tbk-app.net/upload/764/image/170531041348.jpg"  /></li>
+<li><img src="https://static1.tbk-app.net/upload/764/image/170531041400.jpg"  /></li>
+</ul>
+<ul class="hd">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+</ul>
+</div>
+<script type="text/javascript">
+  jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold",  autoPlay:true, delayTime:1000, interTime:7000 , trigger:"click"});
+</script>
+<style type="text/css">
+ .focusBox { position: relative; width:2560px; height:512px;overflow: hidden; }
+ .focusBox .pic{ position:relative; z-index:0;}
+ .focusBox .pic img { width:2560px; height:512px; display: block; }
+ .focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+ .focusBox .hd li{margin: 0 5px;  height: 14px; overflow: hidden; width: 14px; background: #fff; cursor: pointer;border-radius: 50%;
+    display:inline-block; *display:inline; zoom:1;}
+ .focusBox .hd .on{ background-position:0 0; background: #eb5502; }
+</style>
+	 </div>
+  </div>
+  <div id="idxmain">
+	   <div id="newsbox">
+		  <marquee scrollamount="3" scrolldelay="150" direction="left"  onmouseover="this.stop();" onMouseOut="this.start();"  style="cursor:pointer;" onClick="alert('尊敬的会员：您好，秉承诚信为本,信誉第一的理念,一直坚持着会员存取款无论金额大小3-5分钟绝对到账,保证所有会员玩的放心,赢的开心.新濠天地官方温馨提示：每日12:40天天返水优惠已发放，敬请各位会员注意查收!！  更多优惠敬请关注新濠天地.www.4776.com!
+');">尊敬的会员：您好，秉承诚信为本,信誉第一的理念,一直坚持着会员存取款无论金额大小3-5分钟绝对到账,保证所有会员玩的放心,赢的开心.新濠天地官方温馨提示：每日12:40天天返水优惠已发放，敬请各位会员注意查收!！  更多优惠敬请关注新濠天地.www.4776.com!
+</marquee>
+	   </div>
+	   <div class="clear"></div>
+	   <div id="indexbox">
+		 <div id="fs1"><a href="/visual"></a></div>
+		 <div id="fs2"><a href="/hg_sports"></a></div>
+		 <div id="fs3"><a href="/yg"></a></div>
+		 <div id="fs4"><a href="/cn/caipiao"></a></div>
+	   </div>
+	   <div class="clear"></div>
+	   <div class="page-body-bottom">
+	      <div class="first-jp-wrap">
+		    <div class="ele-jackpot-wrap"   ><a href="/cn/mobile" style="width:218px; height:25px; display:block;"></a>
+			</div>
+		  </div>
+	      <div class="first-phone"></div>
+		  <div class="first-mail"></div>
+	   </div>
+  </div>
+  
+
+
+</div>	
+<script language="javascript">
+function supercj(){
+   $.get("/game/jackpot",{'time':'1501241039'},function(data) {												  
+     $("#prizeshow").html(data);
+   });
+}
+supercj();
+</script>
+  
+ 
+<!-- foot -->
+<div style="clear:both;"></div>
+<div id="page-footer">
+  <div class="footer">
+    	<div class="footer-text clearfix">
+	   <div class="footer-text-box">
+			<div class="box-title-left"></div>
+			<div class="text-box-live">
+				<a class="box-link-open" href="/visual" target="mem_index"></a>
+			</div>
+			<div class="box-detail"><img src="https://static1.tbk-app.net/style/xhtdylc/detail_visual.png"></div>
+			<div class="text-box-sports">
+				<a class="box-link-open" href="/hg_sports" target="mem_index"></a>
+			</div>
+			<div class="box-detail"><img src="https://static1.tbk-app.net/style/xhtdylc/detail_sports.png"></div>
+			<div class="text-box-lottery">
+				<a class="box-link-open" href="/cn/caipiao"></a>
+			</div>
+			<div class="box-detail"><img src="https://static1.tbk-app.net/style/xhtdylc/detail_caipiao.png"></div>
+		</div>
+		<div class="footer-text-center">
+			<div class="box-title-center"></div>
+			<div class="text-box-logo"></div>
+			<div class="text-box-bet"></div>
+			<div class="box-detail"><img src="https://static1.tbk-app.net/style/xhtdylc/detail_reps.png"></div>
+		</div>
+		<div class="footer-text-box">
+			<div class="box-title-right"></div>
+			<div class="text-box-service"></div>
+		</div>
+     </div>
+     <div class="clear"></div>
+	 	 <div class="footer-logo-img clearfix">
+		<a id="bblogo" href="https://bb-in.com/" target="_blank"></a>
+		<a id="browser-logo" href="http://ub66.com/?lang=zh-cn" target="_blank">
+			<img src="https://static1.tbk-app.net/style/xhtdylc/ublogo.png" border="0" width="121">
+		</a>
+     </div>
+     <div class="clear"></div>
+     <div id="ArticleList"><a href='/cn/nav/128445'>关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128444'>联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128440'>常见问题</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128441'>加盟代理</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128442'>存款帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128443'>取款帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href='/cn/nav/128465'>规则说明</a></div>
+	 <div class="clear"></div>
+	 <div id="footermsg">Copyrights (c) 新濠天地4776.com . All rights reserved. </div>
+  </div>	  
+</div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+<style type="text/css">
+.chou_box { margin-left:120px;}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$("#aFloatTools_Show").click(function(){
+			$('#divFloatToolsView').animate({width:'show',opacity:'show'},100,function(){$('#divFloatToolsView').show();});
+			$('#aFloatTools_Show').hide();
+			$('#aFloatTools_Hide').show();				
+		});
+		$("#aFloatTools_Hide").click(function(){
+			$('#divFloatToolsView').animate({width:'hide', opacity:'hide'},100,function(){$('#divFloatToolsView').hide();});
+			$('#aFloatTools_Show').show();
+			$('#aFloatTools_Hide').hide();	
+		});
+	});
+</script>
+<div id="floatTools" class="rides-cs">
+  <div class="floatL">
+  	<a style="display:block" id="aFloatTools_Show" class="btnOpen" title="查看在线客服" href="javascript:void(0);">展开</a>
+  	<a style="display:none" id="aFloatTools_Hide" class="btnCtn" title="关闭在线客服" href="javascript:void(0);">收缩</a>
+  </div>
+  <div id="divFloatToolsView" class="floatR" style="display: none;height:369px;width: 143px; background: url('https://static1.tbk-app.net/style/xhtdylc/cn_bg1.png?v=876') no-repeat bottom;">
+    <div class="cn">
+     <ul>
+      <li><a href="/cn/register" class="cnLia"></a></li>
+      <li><a href="https://messenger.providesupport.com/messenger/0pqty5qprp03f0hdnu8atu6g80.html#ywh" class="popupkefu cnLia" target="_blank"></a></li>
+      <li><a href="/cn/mobile" class="cnLic"></a></li>
+      <li><a href="tencent://message/?uin= 800145336&Menu=yes" class="popupkefu cnLib" target="_blank"></em></a></li>
+      <a href="" class="cn_Lj"></a>
+     </ul>
+     
+    </div>
+  </div>
+</div>
+
+
+
+<style type="text/css">
+#floatc{ width:130px; height:365px; background:url(https://static1.tbk-app.net/style/xhtdylc/right.png) no-repeat left top; overflow:hidden; cursor:pointer; position:absolute; top:220px; right:10px;z-index:10000; }
+#floatkf { margin:0; height:76px; overflow:hidden;}
+#floatkf a { display:block; width:130px;height:76px;  overflow:hidden; cursor:pointer;}
+
+#floatkh { margin:0; height:91px; overflow:hidden;}
+#floatkh a { display:block; width:130px;height:91px;  overflow:hidden; cursor:pointer;}
+
+#floatdw { margin:0; height:33px; overflow:hidden;}
+#floatdw a { display:block; width:130px;height:33px;  overflow:hidden; cursor:pointer;}
+
+#floatsw { margin:0; height:141px; overflow:hidden;}
+#floatsw a { display:block; width:130px;height:141px;  overflow:hidden; cursor:pointer;}
+
+#floatclose { margin:0;  height:23px; overflow:hidden;  }
+</style>
+<script type="text/javascript" src="/style/share/movefloat.js"></script>
+<div id="floatc">
+  <div id="floatkf"> </div>
+  <div id="floatkh"><a href="/cn/nav/128441"></a></div>
+  <div id="floatdw"><a href="/cn/mobile" ></a></div>
+  <div id="floatsw"> </div>
+  <div id="floatclose"></div>
+</div>
+<script language="javascript">
+$("#floatclose").click(function(){
+  $("#floatc").hide();
+});
+moveTips("floatc",220,5,"left");
+</script>
+<style type="text/css">
+</style>
+<script type="text/javascript" src="https://static1.tbk-app.net/style/share/movefloat.js"></script>
+<script type="text/javascript" src="https://static1.tbk-app.net/style/share/jquery.cookies.min.js"></script>
+<script language="javascript">
+ function showRdKfAd(){
+   var isClose=$.cookie("rdAd1");
+   if(isClose=="hide11"){
+      $("#floatc").hide();
+   }else{
+      $("#floatc").show();
+   }
+}
+ function showRdDoAd(){
+   var issClose=$.cookie("rdAd2");
+   if(issClose=="hide22"){
+      $("#floatdown").hide();
+   }else{
+      $("#floatdown").show();
+   }
+}
+</script>
+<body ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false"> 
+
+</body>
+</html>
+<!--[if (IE 6)]>
+<script>
+    var downloadNewIE;
+    if('undefined' != typeof downloadvwin){
+        downloadNewIE = downloadvwin;
+    }else{
+        downloadNewIE = function(){
+            window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8');
+        }
+    }
+    </script>
+    <div id="ie6-alertBox">
+        <div id="ie6-infoBar">
+                            系统侦测到您使用旧版浏览器,<span class="alert">本站预计已停止对 IE6 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadNewIE();">「下载区」</a>升级您的浏览器。
+                    </div>
+            </div>
+    <div id="ie6-overlay"></div>
+    <style type="text/css">
+        html{overflow-y:hidden;}
+        .alert{color: red;}
+        #ie6-overlay{
+            background:#777777;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+            /*展示用*/
+            -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+            -moz-opacity:0.5;
+            opacity: 0.5;
+            /*展示用*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        #ie6-alertBox{
+            position:absolute;
+            font-size: 13px;
+            width:300px;
+            height:auto;
+            padding:10px 10px 30px;
+            left:50%;
+            top:40%;
+            line-height: 25px;
+            margin-left:-160px;
+            z-index: 11;
+            color: #000;
+            border:1px solid #777;
+            background-color: #CCCCCC;
+            /*展示用*/
+            background-image: -moz-linear-gradient(top,white,#CCCCCC);
+            background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#CCCCCC));
+            background-image: -webkit-linear-gradient(top,white,#CCCCCC);
+            background-image: -o-linear-gradient(top,white,#CCCCCC);
+            background-image: linear-gradient(to bottom,white,#CCCCCC);
+            background-repeat: repeat-x;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            /*展示用*/
+            border: 1px solid #D4D4D4;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);
+            display:none;
+        }
+        #ie6-infoBar a,#ie6-alertBoxClose{color: #F57900;text-decoration: none;}
+        #ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color: #FF9A37;}
+        #ie6-alertBoxClose{
+            position:absolute;
+            right:5px;
+            bottom:5px;
+            display: none;
+        }
+    </style>
+    <script>
+
+        
+        function showalert(){
+            $("#ie6-overlay").height($(window).height()).width($(window).width());
+                            $("#ie6-alertBox").slideToggle();
+                    }
+
+
+        $(function(){
+                            showalert();
+                    });
+</script>
+<!-->
+<!--<![endif]-->

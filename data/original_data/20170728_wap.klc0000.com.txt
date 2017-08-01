@@ -1,0 +1,933 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+    <link rel="shortcut icon" href="/Images/ICO/kuailecai/favicon.ico" type="image/x-icon" />
+    <link rel="Bookmark" href="/Images/ICO/kuailecai/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    
+    <link href="/Res/font/font.css?f28148a84b" rel="stylesheet" />
+
+
+
+<link href="https://zy1imageqt.lixin101.com//Content/mobile/main.min.css?edf6d2d587" rel="stylesheet" id="MainCss" />
+<link href="https://zy1imageqt.lixin101.com//Content/mapping/mobile-kuailecai/main.min.css?6d6e838bee" rel="stylesheet" id="MainCss" />
+    <script src="https://zy1imageqt.lixin101.com//Scripts/dist/m.$.ko.js?3802519c11"></script>
+    <script src="https://zy1imageqt.lixin101.com//Scripts/dist/m-official/utils.min.js?0351932026"></script>
+    <script src="https://zy1imageqt.lixin101.com//Scripts/officialMobile/ui.common.js?8ae171c29b"></script>
+    
+
+</head>
+<body class="bg">
+    <div class="wrap">
+        <div class="content">
+            <div class="page">
+                <header>
+                    <div class="head_main">
+                        
+                            <span class="home-logo"></span>
+                    </div>
+                    
+                                            <div class="fl">
+                            <a href="/login" style="display:none;" class="show-500">登录</a>
+                        </div>
+                        <div class="fr loginWrap lto89-hide">
+                                                                                    <a href="/Mobile" style="display:none;">APP下载&nbsp;/&nbsp;</a>
+                            <a href="/login" class="hide-500">登录</a>
+<a href="/Register" class=""><font class="hide-500">&nbsp;/&nbsp;</font>注册</a>
+                        </div>
+                        <div class="fr loginWrap lto89-show" style="display:none;">
+                            <span>
+                                <a href="/login" class="hide-500">登录</a>
+<a href="/Register" class=""><font class="hide-500">&nbsp;/&nbsp;</font>注册</a>
+                            </span>
+                            <span>
+                                <a href="/Recharge/Index">充值</a>
+                            </span>
+                            <span>
+                                <a id="jGetMoney">提现</a>
+                            </span>
+
+                        </div>
+                </header>
+                <div class="view-main">
+                    <div class="main">
+                        <div class="slide_wrap" id="slide">
+                                <img class="slide-placeholder-img" data-src="https://zy1imageqt.lixin101.com//Content/images/banner/352146/M_20170410131546.jpg" />
+                                <div class="slide-box">
+                                            <img data-src="https://zy1imageqt.lixin101.com//Content/images/banner/352146/M_20170410131546.jpg" />
+                                            <img data-src="https://zy1imageqt.lixin101.com//Content/images/banner/352146/M_20170601170229.jpg" />
+
+                                </div>
+                                <div class="slide-bars"></div>
+                        </div>
+                        <div class="news_wrap">
+                            <i class="horn"></i>
+                            <div class="news_in">
+                                <a href="/UserCenter/Notice" id="notices"></a>
+                            </div>
+                            <i class="iconfont icon-anglebottom"></i>
+                        </div>
+                        <div class="hot-game-tab" id="gameTabNav" vocab="0">
+                            <a href="javascript:;" data-type="official" class='btn active'><i class="icon icon-official"></i><span>官方玩法</span></a>
+                            <a href="javascript:;" data-type="credit" class='btn '><i class="icon icon-credit"></i><span>信用玩法</span></a>
+                            
+                        </div>
+
+                        <!---游戏选区--->
+                        <!--分类--->
+                                    <div class="hot-game hot-game-0" data-type='credit' style="display:none">
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_LHC"><i></i></a>
+                                                        <div>⑥合彩</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/Six/Index" class="icon-1">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/⑥HC.png" /></label></span>
+                                                                        <div>⑥合彩</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_SSC"><i></i></a>
+                                                        <div>时时彩</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/7" class="icon-7">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/ZQSSC.png" /></label></span>
+                                                                        <div>重庆时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/9" class="icon-9">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TJSSC.png" /></label></span>
+                                                                        <div>天津时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/10" class="icon-10">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJSSC.png" /></label></span>
+                                                                        <div>新疆时时彩</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_FFC"><i></i></a>
+                                                        <div>分分彩</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/75" class="icon-75">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TXFFC.png" /></label></span>
+                                                                        <div>腾讯分分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/77" class="icon-77">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/QQFFC.png" /></label></span>
+                                                                        <div>QQ分分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/55" class="icon-55">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/BJSSC.png" /></label></span>
+                                                                        <div>北京时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/53" class="icon-53">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HGKLC.png" /></label></span>
+                                                                        <div>韩式1.5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/57" class="icon-57">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TW5FC.png" /></label></span>
+                                                                        <div>台湾5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/60" class="icon-60">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JND3.5F.png" /></label></span>
+                                                                        <div>加拿大3.5分</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/65" class="icon-65">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SLFK5FC.png" /></label></span>
+                                                                        <div>斯洛伐克5分</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/69" class="icon-69">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AZ3FC.png" /></label></span>
+                                                                        <div>澳洲3分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/95" class="icon-95">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/DJ1.5FC.png" /></label></span>
+                                                                        <div>东京1.5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/96" class="icon-96">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJP2FC.png" /></label></span>
+                                                                        <div>新加坡2分彩</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_PKS"><i></i></a>
+                                                        <div>PK拾</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/15" class="icon-15">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/BJPKS.png" /></label></span>
+                                                                        <div>北京PK拾</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/98" class="icon-98">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XYFT.png" /></label></span>
+                                                                        <div>幸运飞艇</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_PCDD"><i></i></a>
+                                                        <div>PC蛋蛋</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/102" class="icon-102">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XY28.png" /></label></span>
+                                                                        <div>幸运28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/103" class="icon-103">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/DJ28.png" /></label></span>
+                                                                        <div>东京28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/104" class="icon-104">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TW28.png" /></label></span>
+                                                                        <div>台湾28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/105" class="icon-105">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HS28.png" /></label></span>
+                                                                        <div>韩式28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/106" class="icon-106">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JND28.png" /></label></span>
+                                                                        <div>加拿大28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/107" class="icon-107">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AZ28.png" /></label></span>
+                                                                        <div>澳洲28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/108" class="icon-108">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SLFK28.png" /></label></span>
+                                                                        <div>斯洛伐克28</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_KLC"><i></i></a>
+                                                        <div>快乐彩</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/5" class="icon-5">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GDKS.png" /></label></span>
+                                                                        <div>广东快十</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/6" class="icon-6">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GXKS.png" /></label></span>
+                                                                        <div>广西快十</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/13" class="icon-13">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/ZQKS.png" /></label></span>
+                                                                        <div>幸运农场</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_11X5"><i></i></a>
+                                                        <div>11选5</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/4" class="icon-4">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GD11X5.png" /></label></span>
+                                                                        <div>广东11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/63" class="icon-63">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JS11X5.png" /></label></span>
+                                                                        <div>江苏11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/71" class="icon-71">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJ11X5.png" /></label></span>
+                                                                        <div>新疆11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/73" class="icon-73">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SH11X5.png" /></label></span>
+                                                                        <div>上海11选5</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="CREDIT_K3"><i></i></a>
+                                                        <div>快三</div><span>信</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/22" class="icon-22">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JSKS.png" /></label></span>
+                                                                        <div>江苏快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/79" class="icon-79">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HEBEIKUAI3.png" /></label></span>
+                                                                        <div>河北快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/84" class="icon-84">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AHK3.png" /></label></span>
+                                                                        <div>安徽快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/86" class="icon-86">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HNK3.png" /></label></span>
+                                                                        <div>河南快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/88" class="icon-88">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HUBEIKUAI3.png.png" /></label></span>
+                                                                        <div>湖北快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/90" class="icon-90">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SHK3.png" /></label></span>
+                                                                        <div>上海快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/92" class="icon-92">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GXK3.png" /></label></span>
+                                                                        <div>广西快三</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                    </div>
+                                    <div class="hot-game hot-game-3" data-type='official' style="display:block">
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_SSC"><i></i></a>
+                                                        <div>时时彩</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/26" class="icon-26">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/ZQSSC.png" /></label></span>
+                                                                        <div>重庆时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/40" class="icon-40">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJSSC.png" /></label></span>
+                                                                        <div>新疆时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/42" class="icon-42">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TJSSC.png" /></label></span>
+                                                                        <div>天津时时彩</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_FFC"><i></i></a>
+                                                        <div>分分彩</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/76" class="icon-76">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TXFFC.png" /></label></span>
+                                                                        <div>腾讯分分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/78" class="icon-78">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/QQFFC.png" /></label></span>
+                                                                        <div>QQ分分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/56" class="icon-56">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/BJSSC.png" /></label></span>
+                                                                        <div>北京时时彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/51" class="icon-51">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HGKLC.png" /></label></span>
+                                                                        <div>韩式1.5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/58" class="icon-58">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TW5FC.png" /></label></span>
+                                                                        <div>台湾5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/61" class="icon-61">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JND3.5F.png" /></label></span>
+                                                                        <div>加拿大3.5分</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/66" class="icon-66">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SLFK5FC.png" /></label></span>
+                                                                        <div>斯洛伐克5分</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/68" class="icon-68">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AZ3FC.png" /></label></span>
+                                                                        <div>澳洲3分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/94" class="icon-94">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/DJ1.5FC.png" /></label></span>
+                                                                        <div>东京1.5分彩</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/97" class="icon-97">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJP2FC.png" /></label></span>
+                                                                        <div>新加坡2分彩</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_PKS"><i></i></a>
+                                                        <div>PK拾</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/29" class="icon-29">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/BJPKS.png" /></label></span>
+                                                                        <div>北京PK拾</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/99" class="icon-99">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XYFT.png" /></label></span>
+                                                                        <div>幸运飞艇</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_PCDD"><i></i></a>
+                                                        <div>PC蛋蛋</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/102" class="icon-102">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XY28.png" /></label></span>
+                                                                        <div>幸运28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/103" class="icon-103">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/DJ28.png" /></label></span>
+                                                                        <div>东京28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/104" class="icon-104">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TW28.png" /></label></span>
+                                                                        <div>台湾28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/105" class="icon-105">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HS28.png" /></label></span>
+                                                                        <div>韩式28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/106" class="icon-106">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JND28.png" /></label></span>
+                                                                        <div>加拿大28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/107" class="icon-107">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AZ28.png" /></label></span>
+                                                                        <div>澳洲28</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-credit">
+                                                                    <a href="/OtherGame/Index/108" class="icon-108">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SLFK28.png" /></label></span>
+                                                                        <div>斯洛伐克28</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_KLC"><i></i></a>
+                                                        <div>快乐彩</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/28" class="icon-28">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/BJKL8.png" /></label></span>
+                                                                        <div>北京快乐8</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/59" class="icon-59">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/TWBG.png" /></label></span>
+                                                                        <div>台湾宾果</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/64" class="icon-64">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AZKL8.png" /></label></span>
+                                                                        <div>澳洲快乐8</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/67" class="icon-67">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SLFK.png" /></label></span>
+                                                                        <div>斯洛伐克</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_DPC"><i></i></a>
+                                                        <div>低频彩</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/30" class="icon-30">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/FC3D.png" /></label></span>
+                                                                        <div>福彩3D</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/44" class="icon-44">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/PLSW.png" /></label></span>
+                                                                        <div>排列三、五</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/81" class="icon-81">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SHSSL.png" /></label></span>
+                                                                        <div>上海时时乐</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_TYC"><i></i></a>
+                                                        <div>11选5</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/32" class="icon-32">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SD11X5.png" /></label></span>
+                                                                        <div>山东11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/45" class="icon-45">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GD11X5.png" /></label></span>
+                                                                        <div>广东11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/46" class="icon-46">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JX11X5.png" /></label></span>
+                                                                        <div>江西11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/50" class="icon-50">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HLJ11X5.png" /></label></span>
+                                                                        <div>黑龙江11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/62" class="icon-62">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JS11X5.png" /></label></span>
+                                                                        <div>江苏11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/70" class="icon-70">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/XJ11X5.png" /></label></span>
+                                                                        <div>新疆11选5</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/72" class="icon-72">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SH11X5.png" /></label></span>
+                                                                        <div>上海11选5</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>
+
+                                                    <div class="list-item">
+                                                        <a href="javascript:;" class="OFFICIAL_K3"><i></i></a>
+                                                        <div>快三</div><span>官</span>
+                                                    </div>
+                                                </dt>
+                                                <dd>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/39" class="icon-39">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/JSKS.png" /></label></span>
+                                                                        <div>江苏快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/80" class="icon-80">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HEBEIKUAI3.png" /></label></span>
+                                                                        <div>河北快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/83" class="icon-83">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/AHK3.png" /></label></span>
+                                                                        <div>安徽快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/85" class="icon-85">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HNK3.png" /></label></span>
+                                                                        <div>河南快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/87" class="icon-87">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/HUBEIKUAI3.png.png" /></label></span>
+                                                                        <div>湖北快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/89" class="icon-89">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/SHK3.png" /></label></span>
+                                                                        <div>上海快三</div>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="list-item list-official">
+                                                                    <a href="/OffcialOtherGame/Index/91" class="icon-91">
+                                                                        <span><label><img src="https://zy1imageqt.lixin101.com//Content/mobile/images/game-icon/GXK3.png" /></label></span>
+                                                                        <div>广西快三</div>
+                                                                    </a>
+                                                                </div>
+
+                                                </dd>
+                                            </dl>
+                                    </div>
+
+                        <!--分类 end--->
+                        <!--不分类--->
+
+                        <!--不分类 end--->
+                        <!---游戏选区  end--->
+                    </div>
+                </div>
+
+                <div class="mask"></div>
+            </div>
+
+            <footer>
+                <div class="menu-item active" id="MenuLottery">
+                    <a href="/">
+                        <i class="iconfont icon-lettery"></i>
+                        <span>彩票大厅</span>
+                    </a>
+                </div>
+                <div class="menu-item" id="MenuChat">
+                        <a href="javascript:;" class="service" onclick="utils.hotLine('https://chat7.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=612083&amp;configID=58970&amp;jid=1924678303&amp;s=1')">
+                            <i class="iconfont icon-service"></i>
+                            <span>在线客服</span>
+                        </a>
+                </div>
+                <div class="menu-item" id="MenuActivity">
+                    <a href="/Activity">
+                        <!--完整地址： /home/Activity -->
+                        <i class="iconfont icon-promotion"></i>
+                        <span>优惠活动</span>
+                    </a>
+                </div>
+                <div class="menu-item" id="MenuMerber">
+                    <a href="/Result/index">
+                        <i class="iconfont icon-result"></i>
+                        <span>开奖结果</span>
+                    </a>
+                </div>
+                <div class="menu-item" id="MenuMerber">
+                    <a href="/Member/Index">
+                        <i class="iconfont icon-user"></i>
+                        <span>会员中心</span>
+                    </a>
+                </div>
+            </footer>
+
+
+
+
+<div class="userMenu">
+    <div class="userMenu-wrap">
+        <div class="userName">
+            <span><a href="javascript:;" class="refresh"></a></span>
+            <span data-bind="tap:$data.refreshBalance" tag="RefreshBalanceBtn">余额<label tag="BalancePlaceholder"></label>元<a href="javascript:;" class="refresh-btn"><i class="iconfont icon-refresh"></i></a></span>
+        </div>
+    </div>
+    <div class="userMenu-list" id="sideMenuList">
+            <a href="/Recharge/Index" class="btn btn-deposit"><span><i class="iconfont icon-deposit"></i>充值</span></a>
+            <a id="jGetMoney" class="btn btn-withdraw"><span><i class="iconfont icon-withdraw"></i>提现</span></a>
+        <dl>
+            <dt class="btn btn-Bet"><i class="iconfont icon-bet"></i>投注记录<i class="iconfont icon-anglebottom"></i></dt>
+            <dd>
+                <a href="/Report/Bet" class="">购彩查询</a>
+                <a href="/Report/Track" class="">追号查询</a>
+            </dd>
+        </dl>
+            <dl>
+                <dt class="btn btn-repost"><i class="iconfont icon-individualreport"></i>报表管理<i class="iconfont icon-anglebottom"></i></dt>
+                <dd>
+                    <a href="/Report/IndividualReport">个人报表</a>
+                    <a href="/Report/AccountChange">帐变报表</a>
+                    <a href="/UserCenter/UserJoinActivity">优惠活动详情</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="btn btn-userinfo"><i class="iconfont icon-user"></i>帐户管理<i class="iconfont icon-anglebottom"></i></dt>
+                <dd>
+                    <a href="/UserCenter/UserInfo">个人总览</a>
+                    <a href="/UserCenter/EditPwd">修改密码</a>
+                    <a href="/UserCenter/SecretQuestion">密保设定</a>
+                    <a href="/UserCenter/CardsList">银行卡管理</a>
+                        <a href="/UserCenter/Emails">资料修改</a>
+                    <a href="/UserCenter/GameInformation?gameID=0">彩种信息</a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="btn btn-Notice"><i class="iconfont icon-meila"></i>短信公告<i class="iconfont icon-anglebottom"></i></dt>
+                <dd>
+                    <a href="/UserCenter/Messge">站内短信</a>
+                    <a href="/UserCenter/Notice">网站公告</a>
+                </dd>
+            </dl>
+            <a href="/"><span class="btn btn-logut"><i class="iconfont icon-lettery"></i>返回大厅</span></a>
+            <a href="javascript:;" tag="logout"><span class="btn btn-logut"><i class="iconfont icon-logout"></i>退出登录</span></a>
+    </div>
+
+</div>
+            
+            <div class="d-mask" id="agreement" style="display:none">
+                <div class="Protocol dialog-wrap">
+                    <div class="d-head">
+                        <div class="tab">
+                            <a href="javascript:;" class="active">协议</a>
+                            <a href="javascript:;">致谢</a>
+                        </div>
+                        
+                    </div>
+                    <div class="d-content">
+                        <!-- 用户协议 start -->
+                        <div class="dc-main">
+                            <div class="dc-protocol">
+                                <p>本公司是合法互联网路交易机构，现提醒有意参与本公司所有游戏之客户，应注意其国家或居所住地区的相关法律规则，如有疑问，应就相关问题寻求当地法律意见</p>
+                                <p>1. 用户在进行游戏前应该核实起所在地区进行线上游戏是否符合当地法律。</p>
+                                <p>2. 本网站只向符合法定年龄的用户提供服务，用户须注意其居住地区地区的法律年龄限制，在不违反年龄限制之下才可使用本公司的服务。</p>
+                                <p>3. 本公司将不承担任何用户因违反当地相关法律而引起之任何责任。</p>
+                                <p>4. 任何用户在参与本公司所有游戏而引起导致违反当地法律之任何责任，本公司概不负责。</p>
+                                <p>5. 用户有义务保障本身的用户名称和密码的隐私安全，并且不应允许第三方以任何形式，通过该用户名称和密码使用本公司之所有的游戏，否则一切责任需由该用户全部承担。</p>
+                                <p>6. 安装、使用或参与本软件所有游戏之用户，均被视为符合该用户当地之法定年龄，以及该用户完全明白并且同意本协议之内容。</p>
+                                <p>7. 本公司有权拒绝或不接受任何用户以任何不正当方式登入或参与本公司所有游戏之权利。</p>
+                            </div>
+                        </div>
+                        <!-- 用户协议 end --->
+                        <!-- 致谢 start --->
+
+                        <div class="dc-main" style="display:none;">
+                            <div class="dc-info">
+                                <div class="logo"><a ></a></div>
+                                <p>我们致力于在手机平台上为合作伙伴提供一款一流的游戏产品于服务，利用我们在业界领先技术，消除合作伙伴的技术壁垒，在迅速变化的竞争中走在创新的最前沿。</p>
+                            </div>
+                        </div>
+                        <!-- 致谢 end --->
+                    </div>
+                    <div class="dc-foot">
+                        <a class="btn getout" href="/login">不同意</a>
+                        <a class="btn" id="agreementClose" href="javascript:;">同意</a>
+                    </div>
+                    <div class="d-footer"></div>
+                </div>
+            </div>
+            
+            
+            <script type="text/html" id="tpl-message">
+                <div class="d-mask">
+                    <div class="d-inner">
+                        <div class="d-top">
+                            <div class="d-title">平台公告</div>
+                            <a class="d-close" href="javascript:;" data-bind="click:close">×</a>
+                        </div>
+                        <div class="d-main">
+                            <div class="notice-main" data-bind="foreach:dialogNotice">
+                                <div class="notice-item">
+                                    <a class="ni-head" href="javascript:;" data-bind="click:$parent.toggle.bind($data,$index())"><i></i><p data-bind="text:FNoticeTitle"></p><span data-bind="text:FLastEditTime"></span></a>
+                                    <div class="ni-body" data-bind="visible:$index() === $parent.active()">
+                                        <p style="word-break: break-all; padding: 10px;" data-bind="html:FNoticeContent"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </script>
+            
+        </div>
+
+    </div>
+
+    <input type="hidden" id="accountId" value="0" />
+    <input type="hidden" id="IsShowMobileAgreement" value="True" />
+    <script src="https://zy1imageqt.lixin101.com//Scripts/officialMobile/Home/index.js?3c47304c55"></script>
+</body>
+
+</html>

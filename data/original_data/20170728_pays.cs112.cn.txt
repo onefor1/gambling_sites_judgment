@@ -1,0 +1,516 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>
+        红韵彩票</title>
+    <style>
+        /* 鍏ㄥ眬*/
+        body
+        {
+            margin: 0px;
+            padding: 0px;
+            font-size: 12px;
+            line-height: 1.8;
+            font-family: "Arial" , "瀹嬩綋";
+            background-color: #eeeeee;
+        }
+        
+        *
+        {
+            font-size: 12px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        form, ul, li, ol, li, dl, dt, dd, img, p, h1, h2, h3, h4, h5, h6, input
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        h1, h2, h3, h4, h5, h6
+        {
+            font-size: 12px;
+            font-weight: normal;
+        }
+        
+        input, select
+        {
+            font-size: 12px;
+            vertical-align: middle;
+        }
+        
+        img
+        {
+            display: block;
+            border: 0px;
+            vertical-align: middle;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        ul, li
+        {
+            list-style-type: none;
+        }
+        
+        strong, b
+        {
+            font-weight: bold;
+        }
+        
+        em, i
+        {
+            font-style: normal;
+        }
+        
+        form, ul, li, ol, li, dl, dt, dd, img, p, h1, h2, h3, h4, h5, h6, input
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        /* Link 鍏ㄥ眬閾炬帴鏍峰紡 */
+        a
+        {
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+            outline: none;
+        }
+        a:hover
+        {
+            text-decoration: none;
+            color: #8e0101;
+        }
+        input
+        {
+            color: #999;
+        }
+        
+        /* 閫氱敤鏍峰紡 */
+        .header_center, .body_center, .footbox
+        {
+            width: 990px;
+            margin: 0 auto;
+        }
+        .header_center, .footbox
+        {
+            overflow: hidden;
+        }
+        .color_red
+        {
+            color: #8e0101;
+        }
+        .color_gay
+        {
+            color: #d8d8d8;
+        }
+        .color_sgay
+        {
+            color: #999;
+        }
+        .show
+        {
+            display: block;
+        }
+        .hide
+        {
+            display: none;
+        }
+        .font
+        {
+            font-size: 16px;
+            font-family: "寰蒋闆呴粦";
+        }
+        .b
+        {
+            font-weight: bold;
+        }
+        .font14
+        {
+            font-size: 14px;
+        }
+        .border
+        {
+            border: 0 !important;
+        }
+        .float_l
+        {
+            float: left;
+        }
+        .float_r
+        {
+            float: right;
+        }
+        .ml
+        {
+            margin-left: 10px;
+        }
+        .mr
+        {
+            margin-right: 10px;
+        }
+        .mt
+        {
+            margin-top: 20px;
+        }
+        .mo
+        {
+            margin-right: 0;
+        }
+        /* 鍑ゅ嚢 */
+        /* 澶撮儴 */
+        .headerbox
+        {
+            background: rgb(255, 255, 255);
+            width: 100%;
+        }
+        .header_center
+        {
+            height: 90px;
+            background: #fff;
+            border-bottom: 10px solid #ff0000;
+        }
+        .header_center .logo
+        {
+            height: 90px;
+            width: 260px;
+        }
+        .header_center .cell
+        {
+            margin: 22px 0 0 10px;
+            color: #ff0000;
+        }
+        /* 浼樹紭 */
+        /* 澶撮儴 */
+        .header_centery
+        {
+            height: 70px;
+            border-bottom: 10px solid #0078ce;
+            margin-bottom: 30px;
+        }
+        .header_center .logoy
+        {
+            height: 70px;
+            width: 312px;
+        }
+        .header_center .cell
+        {
+            margin: 22px 0 0 10px;
+            color: #576b8a;
+        }
+        .header_center .cell p
+        {
+            margin-right: 20px;
+        }
+        /* 楦胯繍 */
+        /* 澶撮儴 */
+        .header_centerc
+        {
+            background: rgb(255, 255, 255);
+            border: 0;
+            height: 60px;
+            margin-bottom: 30px;
+        }
+        .logocenter
+        {
+            margin: 0 auto;
+        }
+        .header_centerc .cell
+        {
+            color: #fff;
+        }
+        /*鍑ゅ嚢*/
+        /*body */
+        .conta h3
+        {
+            height: 38px;
+            line-height: 38px;
+            background: #333333;
+            color: #fff;
+            padding-left: 30px;
+        }
+        .conta ul
+        {
+            overflow: hidden;
+            padding: 30px 10px 30px 30px;
+        }
+        .conta li
+        {
+            width: 136px;
+            height: 53px;
+            line-height: 53px;
+            background: #fff;
+            text-align: center;
+            float: left;
+            margin: 10px 20px 10px 0;
+            border: 1px solid #d9d9d9;
+        }
+        .conta li.on
+        {
+            background: #ff0000;
+        }
+        .conta li.on a
+        {
+            color: #fff;
+        }
+        .conta li a
+        {
+            font-size: 14px;
+        }
+        /*浼樹紭*/
+        .contb h4
+        {
+            background-image: url(../images/youtit.gif);
+            width: 793px;
+            height: 36px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 14px;
+            color: #3a8ad2;
+            line-height: 36px;
+            margin-top: 30px;
+        }
+        .contb li.on
+        {
+            background: #3a8ad2;
+        }
+        /*楦胯繍*/
+        .contc h5
+        {
+            width: 140px;
+            height: 28px;
+            color: #fff;
+            background: #b7170f;
+            line-height: 28px;
+            text-align: center;
+            margin-left: 30px;
+        }
+        .contc li.on
+        {
+            background: #b7170f;
+        }
+        .red_line
+        {
+            width: 930px;
+            height: 1px;
+            background: #b7170f;
+            margin: 10px 0 0 30px;
+        }
+        #docHeadWrap
+        {
+            width: 990px;
+            height: 70px;
+            margin: 0 auto;
+            background: 0 0;
+            position: relative;
+        }
+        
+        #docHeadWrap {
+	width:990px;
+	height:70px;
+	margin:0 auto;
+	background:0 0;
+	position:relative
+}
+#docHead a:link,#docHead a:visited {
+	color:#323232
+}
+#docHead a,#docHead a:hover {
+	color:#323232;
+	display:block;
+	position:absolute;
+	text-decoration:none;
+	overflow:hidden
+}
+#docHead a span,#docHead a h1 {
+	visibility:hidden
+}
+#docHead .guideLnk,#docHead .guideLnk:hover {
+	width:300px;
+	height:70px;
+	left:210px;
+	top:0;
+	line-height:30px;
+	outline:0
+}
+#docHead .logoLnk,#docHead .logoLnk:hover {
+	/* position:absolute; */
+	/* width:169px; */
+	/* height:42px; */
+	/* left:32px; */
+	/* top:15px; */
+	/* background:url() 0 0 no-repeat; */
+	/* outline:0; *//* zoom:1
+ */
+}
+
+
+#docHead p {
+	position:absolute;
+	z-index:10;
+	right:0;
+	bottom:1px;
+	width:300px;
+	text-align:right
+}
+#docHead p .serviceTel {
+	text-align:left;
+	white-space:nowrap;
+	float:right;
+	width: 52%;
+}
+#docHead p .serviceTel .serviceTel_icon {
+	display:inline-block;
+	width:26px;
+	height:33px;
+	background:url(/Image/361/headfoot_4f7e92e.png) no-repeat 0 -204px;
+	margin-right:4px;
+	float:left;
+	margin-top:4px
+}
+#docHead p .serviceTel .serviceTel_tel {
+	/*display:none;*/
+	line-height:20px;
+	margin-right:3px;
+	text-align:left;
+	width:143px;
+	white-space:nowrap;
+	float:left
+}
+#docHead p .serviceTel .serviceTel_tel span {
+	color:#acacac;
+	font-family:simsun
+}
+#docHead p .serviceTel .serviceTel_tel strong {
+	font-size:22px;
+	line-height:22px
+}
+#docHead p .serviceTel .onlineService, #docHead p .serviceTel .onlineService:hover {
+    background: url(/Image/361/service-24_17ff2ca.png) no-repeat 0 0;
+    _background: 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='image', src='/Image/361/service-24.png');
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    text-indent: 52px;
+    position: static;
+    display: block;
+    font: 14px/55px Microsoft YaHei,simsun;
+    color: #717171;
+}
+    </style>
+</head>
+<body>
+    <header id="docHead" rel="" style="background: #fff url(/Image/2014110120TT30738653.jpg) no-repeat 50% 0;">   
+    <div id="docHeadWrap">	<a href="/" class="logoLnk" title=" " hidefocus="true"><h1> 
+    <img src="/image/caipiao.png?2016082515221472109747" alt="网易彩票" title="网易彩票网"></h1></a>	<a href="/" rel="nofollow" class="guideLnk" target="_blank" hidefocus="true" title="全站推广"><span></span></a>	<p>		<span class="serviceTel">            <a class="onlineService " style="line-height: 27px;padding-left: 53px;font-size: 17px;color: black;font-weight: bold;" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3163995334　　　　　　　　　　　　　　　.&amp;site=qq&amp;menu=yes" target="_blank"><br/>&nbsp;3163995334　　　　　　　　　　　　　　　.</a></span>	</p></div></header>
+    <div class="body_center">
+        <div class="conta contc">
+            <h5>
+                网上购彩登陆</h5>
+            <div class="red_line">
+            </div>
+            <ul>
+                <li class=""><a href="index.aspx" target="_blank">线路一</a></li>
+                <li><a href="index.aspx" target="_blank">线路二</a></li>
+                <li><a href="index.aspx" target="_blank">线路三</a></li>
+                <li class=""><a href="index.aspx" target="_blank">线路四</a></li>
+                <li><a href="index.aspx" target="_blank">线路五</a></li>
+                <li><a href="index.aspx" target="_blank">线路六</a></li>
+                <li><a href="index.aspx" target="_blank">线路七</a></li>
+                <li><a href="index.aspx" target="_blank">线路八</a></li>
+                <li><a href="index.aspx" target="_blank">线路九</a></li>
+                <li class=""><a href="index.aspx" target="_blank">线路十</a></li>
+                <li><a href="index.aspx" target="_blank">线路十一</a></li>
+                <li><a href="index.aspx" target="_blank">线路十二</a></li>
+            </ul>
+        </div>
+        <!--conta1-->
+        <div class="conta contc">
+            <h5>
+                常用网址</h5>
+            <div class="red_line">
+            </div>
+            <ul>
+                <li><a href="http://www.baidu.com/" target="_blank">百 度</a></li>
+                <li class="on"><a href="http://www.qq.com/" target="_blank">腾讯QQ</a></li>
+                <li class=""><a href="http://www.ifeng.com/" target="_blank">凤凰网</a></li>
+                <li class=""><a href="http://www.sohu.com/" target="_blank">搜 狐</a></li>
+                <li class=""><a href="http://www.163.com/" target="_blank">网 易</a></li>
+                <li><a href="http://www.taobao.com/" target="_blank">淘 宝</a></li>
+                <li class=""><a href="http://www.xinhuanet.com/" target="_blank">新华网</a></li>
+                <li class=""><a href="http://www.people.com.cn/" target="_blank">人民网</a></li>
+                <li class=""><a href="http://www.youku.com/" target="_blank">优 酷</a></li>
+                <li class=""><a href="http://www.google.com.hk/" target="_blank">谷 歌</a></li>
+                <li><a href="http://www.12306.cn/" target="_blank">12306</a></li>
+                <li><a href="http://www.tmall.com/" target="_blank">天 猫</a></li>
+            </ul>
+        </div>
+        <!--conta2-->
+        <div class="conta contc">
+            <h5>
+                新闻网站</h5>
+            <div class="red_line">
+            </div>
+            <ul>
+                <li><a href="http://news.sina.com.cn/" target="_blank">新浪新闻</a></li>
+                <li><a href="http://news.sohu.com/" target="_blank">搜狐新闻</a></li>
+                <li><a href="http://news.cntv.cn/" target="_blank">CCTV新闻</a></li>
+                <li><a href="http://huanqiu.com/" target="_blank">环球时报</a></li>
+                <li><a href="http://xinhuanet.com/" target="_blank">新华网</a></li>
+                <li><a href="http://news.ifeng.com/" target="_blank">凤凰资讯</a></li>
+                <li><a href="http://news.qq.com/" target="_blank">腾讯新闻</a></li>
+                <li><a href="http://news.163.com/" target="_blank">网易新闻</a></li>
+                <li><a href="http://zaobao/" target="_blank">联合早报</a></li>
+                <li><a href="http://people.com.cn/" target="_blank">人民网</a></li>
+                <li><a href="http://china.com/" target="_blank">中华网</a></li>
+                <li><a href="http://news.baidu.com/" target="_blank">百度新闻</a></li>
+            </ul>
+        </div>
+        <!--conta3-->
+        <div class="conta contc">
+            <h5>
+                常用银行</h5>
+            <div class="red_line">
+            </div>
+            <ul>
+                <li><a href="http://www.boc.cn/" target="_blank">中国银行</a></li>
+                <li><a href="http://www.icbc.com.cn/icbc/" target="_blank">工商银行</a></li>
+                <li><a href="http://www.ccb.com/cn/home/index.html" target="_blank">建设银行</a></li>
+                <li><a href="http://www.95599.cn/cn/" target="_blank">农业银行</a></li>
+                <li><a href="http://www.psbc.com/portal/zh_CN/index.html" target="_blank">邮政银行</a></li>
+                <li><a href="http://www.cmbc.com.cn/" target="_blank">民生银行</a></li>
+                <li><a href="http://www.cmbchina.com/" target="_blank">招商银行</a></li>
+                <li><a href="http://www.cebbank.com/" target="_blank">光大银行</a></li>
+                <li><a href="http://www.cib.com.cn/" target="_blank">兴业银行</a></li>
+                <li><a href="http://www.hxb.com.cn/" target="_blank">华夏银行</a></li>
+                <li><a href="http://www.bankcomm/" target="_blank">交通银行</a></li>
+                <li><a href="http://www.cgbchina.com.cn/" target="_blank">广发银行</a></li>
+            </ul>
+        </div>
+        <!--conta4-->
+        <div class="conta contc">
+            <h5>
+                视频网站</h5>
+            <div class="red_line">
+            </div>
+            <ul>
+                <li><a href="http://www.iqiyi.com/" target="_blank">爱奇艺</a></li>
+                <li><a href="http://www.youku.com/" target="_blank">优酷</a></li>
+                <li><a href="http://www.kankan.com/" target="_blank">迅雷看看</a></li>
+                <li><a href="http://www.letv.com/" target="_blank">乐视网</a></li>
+                <li><a href="http://www.pptv.com/" target="_blank">PPTV</a></li>
+                <li><a href="http://www.pps.tv/" target="_blank">PPS</a></li>
+            </ul>
+        </div>
+        <!--conta45-->
+    </div>
+    <!--body_center-->
+</body>
+</html>

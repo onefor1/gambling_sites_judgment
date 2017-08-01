@@ -1,0 +1,921 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 8]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <title>好运彩</title>
+    <meta content="origin-when-cross-origin" name="referrer" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="keywords" content="好运彩" />
+    <meta name="description" content="好运彩" />
+    <link rel="Shortcut Icon" href="/Images/ICO/haoyuncai/favicon.ico" />
+    <link rel="Bookmark" href="/Images/ICO/haoyuncai/favicon.ico" />
+    <link rel="stylesheet" href="http://zy4imgqt.ly-cdn.com//Content/mapping/haoyuncai/home/css/main.css?d1967d38b7" />
+    <link rel="stylesheet" href="http://zy4imgqt.ly-cdn.com//Content/Default/home/css/jquery.rondell.css?d15ce96fe0" />
+    <link href="http://zy4imgqt.ly-cdn.com//Scripts/Common/artDialog6/ui-dialog.css?d5ae6b06eb" rel="stylesheet" />
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/dist/$.ko.js?a876144a3a"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Common/artDialog6/dialog-plus-min.js?4786a25c83"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/dist/official/utils.min.js?8341539d27"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Common/modernizr.custom.js?b597cb018d"></script>
+</head>
+<body class="official-site" x-ms-format-detection="none">
+    
+    <!-- container -->
+    <div class="container">
+        <!-- header -->
+
+            <div class="top-box">
+                <div class="main clear">
+                    <div class="bar-left"><span>您好,欢迎来到好运彩!现在是</span><label id="nowTime" class="now-time">--</label></div>
+                    <div class="bar-left">
+                        <div class="fright">
+                                <div><a href="/login">请登录</a>
+                                        <a href="/Register?Intr=" class="agent-tit">免费注册</a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="bar-right">
+                        <a href="http://www.kj35679.com" target="_blank">极速开奖网</a>|
+                        <a href="http://www.35679.com" target="_blank">线路检测</a>|
+                        <a href="/AgentApply" class="agent-tit">代理</a>|
+                        <a href="/Help/Techq">帮助</a>|
+                        <a href="http://messenger.providesupport.net/messenger/031kc3c92kc010ajmvwodbpmzt.html" target="_blank">在线客服</a>|<a href="javascript:;" onclick="AddFavorite('好运彩')">添加收藏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="header-main ">
+                    <div class="header-in clear">
+                        <div class="logo fleft"></div>
+                        <div class="header-right clear">
+                                                    <div id="LOGIN-FORM">
+                                                        <form action="/Home/login" method="post" autocomplete="off" data-bind="submit:submit">
+                                                            <div class="login-area">
+                                                                <div class="logo_tit"></div>
+                                                                <div class="login-cent-box">
+                                                                    <div class="login-cent">
+                                                                        <span class="login-mane">
+                                                                            <input class="input_tip" type="text" value="" maxlength="20" data-bind="textinput:fields.username,placeholder:'用户名|tip_form'" needed />
+                                                                        </span>
+                                                                        <span class="login-password">
+                                                                            <input class="input_tip" type="password" maxlength="20" data-bind="textinput:fields.password,placeholder:'密码|tip_form'" needed />
+                                                                        </span>
+                                                                        <span class="login-code">
+                                                                            <input type="text" class="input_tip input_tip_45" data-bind="textinput:fields.validateCode,placeholder:'验证码|tip_form tip_forms'" needed />
+                                                                            <img width="58" height="24" src="" style="background-color:white;" data-bind="attr:{src:'/Home/ValidateCode?'+random()},click:refreshCode" />
+                                                                        </span>
+                                                                    </div>
+                                                                    <a title="登录" href="javascript:void(0)" class="btn btn-login" style="position:relative">
+                                                                        <span data-bind="text:isSubmitting()?'登录中...':'登录'">登录</span>
+                                                                        <input type="submit" value="" class="btn-login" />
+                                                                    </a>
+                                                                    
+                                                                        <a title="免费开户" href="/Register?Intr=" class="btn bnt-register">免费开户</a>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-box">
+                <div class="menu clear">
+                    <div class="lottery-plus" id="lotterys">
+                        <h2 class="all-games">
+                            全部彩种<a class="dropdown-desc"><i class="icon arrow"></i></a>
+                        </h2>
+                        <div class="lotterys-list-hd" id="lotterysList">
+                            <ul class="lottery-list-box" id="lottery-list-box">
+                                <li class="mainGame"><a href="/OtherGame/Index/15"><i class="icon nav01"></i><span class="color333">北京PK拾</span></a></li>
+                                <li class="mainGame"><a href="/OffcialOtherGame/Index/26"><i class="icon nav02"></i><span class="color333">重庆时时彩</span></a></li>
+                                <li class="mainGame"><a href="/OffcialOtherGame/Index/78"><i class="icon nav03"></i><span class="color333">腾讯分分彩</span></a></li>
+                                <li class="mainGame"><a href="/OffcialOtherGame/Index/28"><i class="icon nav04"></i><span class="color333">北京快乐8</span></a></li>
+                                <li class="mainGame"><a href="/OtherGame/Index/22"><i class="icon nav05"></i><span class="color333">江苏快3</span></a></li>
+                                <li class="mainGame"><a href="/OtherGame/Index/4"><i class="icon nav06"></i><span class="color333">广东11选5</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav-plus clear" id="head_menu">
+                        <li>
+                            <a href="/" class="UserCenter">
+                                <div>首页</div>
+                            </a>
+                        </li>
+                        <li data-item="lot_hall" id="lot_hall">
+                            <a href="javascript:;" class="lottery" data-item="lot_hall">
+                                <div>购彩大厅</div>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/Mobile" class="mobile">
+                                <div>手机购彩</div>
+                            </a>
+                            <em class="hot-icon"></em>
+                        </li>
+                        <li>
+                            <a href="/Result/index?game=7" target="_blank"class="result">
+                                <div>开奖公告</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/result/index?game=26" target="_blank" class="result">
+                                <div>走势图表</div>
+                            </a>
+                        </li>
+                        <li >
+                            <a href="/Activity" class="Activity">
+                                <div>优惠活动</div>
+                            </a>
+                            <em class="hot-icon"></em>
+                        </li>
+                        <li>
+                            <a href="/home/NewsList" class="Information">
+                                <div>资讯</div>
+                            </a>
+                        </li>
+                        <li class="qq_service">
+                            <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=198335588&amp;site=qq&amp;menu=yes" target="_blank" class="Information"></a>
+                        </li>
+                    </ul>
+                </div>
+                        <div class="menu-child1" style="display:none;" id="lot_sec_menu">
+                            <div class="gamelist-1 clear">
+                                <div class="credit_play">
+                                    <div class="gamelist_tit clear">
+                                        <h1 class="orange_style">信用玩法</h1>
+                                        <div class="color">信</div>
+                                    </div>
+                                    <div class="high_wrap">
+                                        <div class="gamelist_r">
+                                            <ul>
+                                                        <li>
+                                                            <a class="game_1" href="/six/index"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/⑥HC.png?_=20160805" /><span class="hot"><font>⑥合彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_7" href="/OtherGame/Index/7"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/ZQSSC.png?_=20160805" /><span class="hot"><font>重庆时时彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_15" href="/OtherGame/Index/15"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/BJPKS.png?_=20160805" /><span class="hot"><font>北京PK拾</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_9" href="/OtherGame/Index/9"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TJSSC.png?_=20160805" /><span class="hot"><font>天津时时彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_96" href="/OtherGame/Index/96"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/XYFT.png?_=20160805" /><span class="hot"><font>幸运飞艇</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_79" href="/OtherGame/Index/79"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TXFFC.png?_=20160805" /><span class="hot"><font>腾讯分分彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_92" href="/OtherGame/Index/92"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/DJ1.5FC.png?_=20160805" /><span class="hot"><font>东京1.5分彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_53" href="/OtherGame/Index/53"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/HGKLC.png?_=20160805" /><span class="hot"><font>韩式1.5分彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_69" href="/OtherGame/Index/69"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/AZ3FC.png?_=20160805" /><span class="hot"><font>澳洲3分彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_60" href="/OtherGame/Index/60"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/JNDKLC.png?_=20160805" /><span class="hot"><font>加拿大3.5分</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_57" href="/OtherGame/Index/57"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TW5FC.png?_=20160805" /><span class="hot"><font>台湾5分彩</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_22" href="/OtherGame/Index/22"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/JSKS.png?_=20160805" /><span class="hot"><font>江苏快3</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_82" href="/OtherGame/Index/82"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805" /><span class="hot"><font>河北快3</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_5" href="/OtherGame/Index/5"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/GDKS.png?_=20160805" /><span class="hot"><font>广东快十</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_6" href="/OtherGame/Index/6"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/GXKS.png?_=20160805" /><span class="hot"><font>广西快十</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_13" href="/OtherGame/Index/13"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/ZQKS.png?_=20160805" /><span class="hot"><font>幸运农场</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_105" href="/OtherGame/Index/105"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/AZ28.png?_=20160805" /><span class="hot"><font>澳洲28</font></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_55" href="/OtherGame/Index/55"><img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/BJSSC.png?_=20160805" /><span class="hot"><font>北京时时彩</font></span></a>
+                                                        </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="official_play">
+                                    <div class="gamelist_tit clear">
+                                        <h1 class="red_style">官方玩法</h1>
+                                        <div class="color">官</div>
+                                    </div>
+                                    <div class="high_wrap">
+                                        <div class="gamelist_l">
+                                            <ul>
+                                                        <li>
+                                                            <a class="game_26" href="/OffcialOtherGame/Index/26">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/ZQSSC.png?_=20160805" />
+                                                                <span class="hot"><font>重庆时时彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_29" href="/OffcialOtherGame/Index/29">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/BJPKS.png?_=20160805" />
+                                                                <span class="hot"><font>北京PK拾</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_40" href="/OffcialOtherGame/Index/40">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/XJSSC.png?_=20160805" />
+                                                                <span class="hot"><font>新疆时时彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_42" href="/OffcialOtherGame/Index/42">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TJSSC.png?_=20160805" />
+                                                                <span class="hot"><font>天津时时彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_78" href="/OffcialOtherGame/Index/78">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TXFFC.png?_=20160805" />
+                                                                <span class="hot"><font>腾讯分分彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_97" href="/OffcialOtherGame/Index/97">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/XYFT.png?_=20160805" />
+                                                                <span class="hot"><font>幸运飞艇</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_51" href="/OffcialOtherGame/Index/51">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/HGKLC.png?_=20160805" />
+                                                                <span class="hot"><font>韩式1.5分彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_61" href="/OffcialOtherGame/Index/61">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/JNDKLC.png?_=20160805" />
+                                                                <span class="hot"><font>加拿大3.5分</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_68" href="/OffcialOtherGame/Index/68">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/AZ3FC.png?_=20160805" />
+                                                                <span class="hot"><font>澳洲3分彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_58" href="/OffcialOtherGame/Index/58">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/TW5FC.png?_=20160805" />
+                                                                <span class="hot"><font>台湾5分彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_44" href="/OffcialOtherGame/Index/44">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/PLSW.png?_=20160805" />
+                                                                <span class="hot"><font>排列三、五</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_30" href="/OffcialOtherGame/Index/30">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/FC3D.png?_=20160805" />
+                                                                <span class="hot"><font>福彩3D</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_39" href="/OffcialOtherGame/Index/39">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/JSKS.png?_=20160805" />
+                                                                <span class="hot"><font>江苏快三</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_83" href="/OffcialOtherGame/Index/83">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/HEBEIKUAI3.png?_=20160805" />
+                                                                <span class="hot"><font>河北快3</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_50" href="/OffcialOtherGame/Index/50">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/HLJ11X5.png?_=20160805" />
+                                                                <span class="hot"><font>黑龙江11选5</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_32" href="/OffcialOtherGame/Index/32">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/SD11X5.png?_=20160805" />
+                                                                <span class="hot"><font>山东11选5</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_46" href="/OffcialOtherGame/Index/46">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/JX11X5.png?_=20160805" />
+                                                                <span class="hot"><font>江西11选5</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_56" href="/OffcialOtherGame/Index/56">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/BJSSC.png?_=20160805" />
+                                                                <span class="hot"><font>北京时时彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_93" href="/OffcialOtherGame/Index/93">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/DJ1.5FC.png?_=20160805" />
+                                                                <span class="hot"><font>东京1.5分彩</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_66" href="/OffcialOtherGame/Index/66">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/SLFK5F.png?_=20160805" />
+                                                                <span class="hot"><font>斯洛伐克5分</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_64" href="/OffcialOtherGame/Index/64">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/AZKL8.png?_=20160805" />
+                                                                <span class="hot"><font>澳洲快乐8</font></span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="game_28" href="/OffcialOtherGame/Index/28">
+                                                                <img src="http://zy4imgqt.ly-cdn.com//Content/default/images/gameIcon/BJKL8.png?_=20160805" />
+                                                                <span class="hot"><font>北京快乐8</font></span>
+                                                            </a>
+                                                        </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="triangles_back"></div>
+                        </div>
+
+            </div>
+        <!-- header end -->
+        <!--  插入内容  -->
+        
+
+<style>
+    .menu .lotterys-list-hd, .lottery-plus:hover .lotterys-list-hd { display: none; }
+    .menu-box .dropdown-desc i { display: none; }
+</style>
+
+
+<div class="wrap-bg" >
+
+    <div class="wrapper">
+        <div class="wrap_l">
+            <div class="row_l my_col">
+                <div class="subnav_ul">
+                    <ul>
+                        <li>
+                            <div class="cz_box f1 icon_shishicai">
+                                <a class="" href="/OffcialOtherGame/Index/26">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 psr" href="/OffcialOtherGame/Index/26">
+                                        <b>重庆时时彩</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/OffcialOtherGame/Index/26">易操作，回单快</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cz_box f1 ico_pk10">
+                                <a class="" href="/OtherGame/Index/15">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 fsr" href="/OtherGame/Index/15">
+                                        <b>北京PK拾</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/OtherGame/Index/15">2串1中奖率高</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cz_box f1 ico_lihecai">
+                                <a class="" href="/six/index">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 fsr" href="/six/index">
+                                        <b>六合彩</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/six/index">73%返奖率</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cz_box f1 ico_xyft">
+                                <a class="" href="/OtherGame/Index/96">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 fsr" href="/OtherGame/Index/96">
+                                        <b>幸运飞艇</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/OtherGame/Index/96">激情飞艇 快速</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cz_box f1 ico_hgklc">
+                                <a class="" href="/OffcialOtherGame/Index/51">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 fsr" href="/OffcialOtherGame/Index/51">
+                                        <b>韩国1.5分彩</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/OffcialOtherGame/Index/51">轻松中奖</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="cz_box f1 ico_fenfencai 78">
+                                <a class="" href="/OffcialOtherGame/Index/78">&nbsp;</a>
+                            </div>
+                            <div class="subnav">
+                                <div class="subnav_bar f1">
+                                    <a class="c333 f1 fsr" href="/OffcialOtherGame/Index/78">
+                                        <b>腾讯分分彩</b>
+                                    </a>
+                                    <p class="f1 m15">
+                                        <a class="c999" href="/OffcialOtherGame/Index/78">高额中奖</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row_mobile clear">
+                <div id="J_subnav_list">
+                    <div class="subnav_uk">
+                        <ul class="lotterys-title clear">
+                            <li class="hover" data-target="#JGameListHigh">高频</li>
+                            <li class="" data-target="#JGameListCredit">信用</li>
+                            <li class="" data-target="#JGameListOfficial">官方</li>
+                        </ul>
+                    </div>
+                            <!-- 高频 -->
+                            <div class="subnav_ad JGameList" id="JGameListHigh" style="display:block">
+                                <ul>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/26">重庆时时彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/29">北京PK拾</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/40">新疆时时彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/42">天津时时彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/78">腾讯分分彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/97">幸运飞艇</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/51">韩式1.5分彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/61">加拿大3.5分</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/68">澳洲3分彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/58">台湾5分彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/39">江苏快三</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/83">河北快3</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/50">黑龙江11选5</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/32">山东11选5</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/46">江西11选5</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/56">北京时时彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/93">东京1.5分彩</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/66">斯洛伐克5分</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/64">澳洲快乐8</a></div></li>
+                                                <li><div class="mywidth"><a class="psr" href="/OffcialOtherGame/Index/28">北京快乐8</a></div></li>
+
+                                </ul>
+                            </div>
+                            <!-- 信用 -->
+                                        <div class="subnav_ad JGameList" id="JGameListCredit">
+                                            <ul>
+                                                                <li><div class="mywidth"><a class="psr" href="/six/index">⑥合彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/7">重庆时时彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/15">北京PK拾</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/9">天津时时彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/96">幸运飞艇</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/79">腾讯分分彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/92">东京1.5分彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/53">韩式1.5分彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/69">澳洲3分彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/60">加拿大3.5分</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/57">台湾5分彩</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/22">江苏快3</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/82">河北快3</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/5">广东快十</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/6">广西快十</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/13">幸运农场</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/105">澳洲28</a> </div> </li>
+                                                                <li><div class="mywidth"><a class="psr" href="/OtherGame/Index/55">北京时时彩</a> </div> </li>
+
+                                            </ul>
+                                        </div>
+                            <!-- 官方 -->
+                                                    <div class="subnav_ad JGameList" id="JGameListOfficial">
+                                                        <ul>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/26">重庆时时彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/29">北京PK拾</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/40">新疆时时彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/42">天津时时彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/78">腾讯分分彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/97">幸运飞艇</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/51">韩式1.5分彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/61">加拿大3.5分</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/68">澳洲3分彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/58">台湾5分彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/39">江苏快三</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/83">河北快3</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/50">黑龙江11选5</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/32">山东11选5</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/46">江西11选5</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/56">北京时时彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/93">东京1.5分彩</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/66">斯洛伐克5分</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/64">澳洲快乐8</a> </div></li>
+                                                                        <li><div class="mywidth"> <a class="psr" href="/OffcialOtherGame/Index/28">北京快乐8</a> </div></li>
+
+                                                        </ul>
+                                                    </div>
+
+                </div>
+                <div class="lotterys-cont">
+
+                </div>
+            </div>
+            <div class="wrap_l mt12">
+                <div class="row_focus_event">
+                    <!--新手指导-->
+                    <h3 class="row_focus_event_h3">
+                        <b class="f1">新手指导</b>
+                        <a href="/Help/Techq" class="th"></a>
+                    </h3>
+                    <div class="help-box">
+                        <ul class="user-help-box help-ul" id="cont_help_newer">
+                            <li><a href="/Register?Intr=">如何注册成为网站会员？</a></li>
+                            <li><a href="javascript:;" id="forgetBtn">忘记登录密码了怎么办？</a></li>
+                            <li><a href="/Help/Teller">怎么取款？</a></li>
+                            <li><a href="/Help/Generalq">为什么我们无法撤单？</a></li>
+                            <li><a href="/Recharge/Index">如何充值？</a></li>
+                            <li><a href="/Help/Techq">如何下注？</a></li>
+                        </ul>
+                    </div>
+                    <!--新手指导 end-->
+                </div>
+            </div>
+        </div>
+        <div class="wrap_t clear">
+            <!---跑马灯--->
+            <div class="row_news_scroll">
+                <div class="row_scroll_newsL" id="notices" data-nojump="1"></div>
+            </div>
+            <!---跑马灯--->
+            <div class="wrap_c clear">
+                <!---幻灯--->
+                <div class="device">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705211043.jpg"> </div>
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705210153.jpg"> </div>
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705212441.png"> </div>
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705213133.jpg"> </div>
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705220112.jpg"> </div>
+                                    <div class="swiper-slide" style="width: 534px; height: 220px;"> <img src="http://zy4imgqt.ly-cdn.com//Content/images/banner/276857/W_20170705213749.jpg"> </div>
+                        </div>
+                    </div>
+                    <div class="controller">
+                        <div class="arrow-left" id="prev_btn"></div>
+                        <div class="arrow-right" id="next_btn"></div>
+                    </div>
+                    
+                </div>
+                <!---幻灯--->
+                <!---推荐游戏--->
+                <div class="row_switch_col" id="lotteryResultContainer">
+                    <div class="row_switch_top">
+                        <ul class="tab_menu" data-bind="foreach: allGameInfos">
+                            <li class="link_row5">
+                                <a href="javascript:;" data-bind="text: GameName,click:$parent.gameTab, css:{on:$parent.tab().gameMultiID==gameMultiID}"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-bind="visible:!tab() || !tab().isOpen()">
+                        <div class="lott-item-con">
+                            <h3>此游戏当前在维护中或者没有开启</h3>
+                        </div>
+                    </div>
+                    <div data-bind="visible:tab() && tab().isOpen()">
+                        <div data-bind="foreach:allResultList">
+                            <div class="row_switch_box tab_box" data-bind="visible:$parent.tab().gameMultiID == gameMultiID">
+                                <div class="row_klc_sk">
+                                    <ul class="qb-info clear">
+                                        <li>
+                                            <span>第<span name="issue" data-bind="text:NumberofPeriod">614693</span>期</span>
+                                            <span data-bind="visible:status()"><span data-bind="text: status() == 1?'截止：':'距离下期开盘还有：'"></span><label data-bind="text:hourStr">0</label>时<label data-bind="text:minuteStr">00</label>分<label data-bind="text:secondsStr">07</label>秒</span>
+                                            <span data-bind="visible:!status()">已封盘, 等待下期开盘</span>
+                                        </li>
+                                        <li class="top-btn">
+                                            <span><a data-bind="attr:{href:betUrl}">手动选号</a>|<a data-bind="attr:{href:resultUrl}">走势图</a></span>
+                                        </li>
+                                    </ul>
+                                    <dl class="row_sk_dl clear">
+                                        <dt>
+                                            <a href="" data-bind="attr:{href:betUrl}">
+                                                <b class="dlt_logo64x64">
+                                                    <img style="width:100%;" data-bind="attr:{title:GameName,src:'http://zy4imgqt.ly-cdn.com//Content/mobile/images/game-icon/'+ Abbreviation +'.png'}" src="" />
+                                                </b>
+                                            </a>
+                                        </dt>
+                                        <dd>
+                                            <div class="row_sk_dd" data-bind="foreach: machineSelection">
+                                                <div class="red_qiu" data-bind="visible:$data || $data == 0">
+                                                    <input type="text" data-bind="value:$data" readonly="readonly" />
+                                                </div>
+                                            </div>
+                                        </dd>
+                                    </dl>
+                                    <div class="row_sk_bottom clear">
+                                        <div class="row_box">
+                                            <span class="add-bar clear">
+                                                <a class="left" href="javascript: ;" data-bind="click:$parent.addOrMinusMultiple.bind($data, -1, true)">-</a>
+                                                <input type="text" name="input" value="1" data-bind="textinput:times" />
+                                                <a class="right" href="javascript: ;" data-bind="click:$parent.addOrMinusMultiple.bind($data, 1, true)">+</a>
+                                            </span>
+                                            <span>倍&nbsp;&nbsp;&nbsp;&nbsp;共<label class="col-red" data-bind="text: totalMoney">2</label>元</span>
+                                        </div>
+                                        <div class="btn_box">
+                                            <a href="javascript:;" data-bind="click:$parent.machineSelect.bind($parent, true)"><i class="luck-icon"></i>换一注</a>
+                                            <a class="row_sk_pay" href="javascript:;" data-bind="click: $parent.betNow.bind($parent, true), css:{disabled:!(status() == 1)}">立即投注</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---推荐游戏--->
+                <!---走势图表--->
+                <div class="chart">
+                    <div class="chart_title">走势图表	</div>
+                    <div class="chart_zs"></div>
+                    <div class="allGames Games_color clear">
+                        <ul class="clear" id="highfreqlottery">
+                            <li><a href="/Result/Index?game=29" target="_blank"><i class="icon nav01"></i><span class="color333">北京PK拾</span></a></li>
+                            <li><a href="/result/index?game=26" target="_blank"><i class="icon nav02"></i><span class="color333">重庆时时彩</span></a></li>
+                            <li><a href="/Result/Index?game=78" target="_blank"><i class="icon nav03"></i><span class="color333">腾讯分分彩</span></a></li>
+                            <li><a href="/Result/Index?game=28" target="_blank"><i class="icon nav04"></i><span class="color333">北京快乐8</span></a></li>
+                            <li><a href="/Result/Index?game=39" target="_blank"><i class="icon nav05"></i><span class="color333">江苏快3</span></a></li>
+                            <li><a href="/Result/Index?game=45" target="_blank"><i class="icon nav06"></i><span class="color333">广东11选5</span></a></li>
+                            <li><a href="/Result/Index?game=30" target="_blank"><i class="icon nav07"></i><span class="color333">福彩3D</span></a></li>
+                            <li><a href="/result/index?game=1" target="_blank"><i class="icon nav08"></i><span class="color333">六合彩</span></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <!---走势图表--->
+            </div>
+            <div class="wrap_r">
+                <!---下载--->
+                <div class="lott-ewm1">
+                    <ul class="nav clear">
+                        <li class="on"><a class="ios" href="#"><i class="x016-icon"></i>IOS版</a></li>
+                        <li><a class="android" href="#"><i class="x016-icon"></i>Android版</a></li>
+                    </ul>
+                    <ul class="con">
+                        <li class="on">
+                            <h3>适用于ios6.0及以上平台</h3>
+                            <div><img width="120" height="120" src="/Home/QrcodeImage?fID=2" alt="二维码" /></div>
+                            <p class="col-red">扫一扫二维码下载ios版</p>
+                        </li>
+                        <li>
+                            <h3>适用于Android4.0及以上平台</h3>
+                            <div><img width="120" height="120" src="/Home/QrcodeImage?fID=1" alt="二维码" /></div>
+                            <p class="col-red">扫一扫二维码下载Android版</p>
+                        </li>
+                    </ul>
+                </div>
+                <!---下载--->
+                <!----右侧 资讯----->
+                <div class="part-2-cont-right part-right pa-xq">
+                    <div class="part-cont-title">
+                        <i></i>好运彩推荐<a href="/home/NewsList" class="th"></a>
+                    </div>
+                    <div class="lottery-news-box p-tj">
+                        <div class="news-bar">
+                            <div class="news-bar-content" id="news-bar-content1">
+                                <ul class="news-bar-list news-bar-left clear">
+                                            <li><a href="/home/NewsDetails?id=26" class="red-blue">1</a><a href="/home/NewsDetails?id=26" title="中福奖金玩快3 彩民击中热豹子斩获2万4">中福奖金玩快3 彩民击中热豹子斩获2万4</a></li>
+                                            <li><a href="/home/NewsDetails?id=27" class="red-blue">2</a><a href="/home/NewsDetails?id=27" title="买豹子号买出“技巧” 两天连中揽金6万元">买豹子号买出“技巧” 两天连中揽金6万元</a></li>
+                                            <li><a href="/home/NewsDetails?id=28" class="red-blue">3</a><a href="/home/NewsDetails?id=28" title="吉林福彩“快3”大派奖 2600万奖金等您抢">吉林福彩“快3”大派奖 2600万奖金等您抢</a></li>
+                                            <li><a href="/home/NewsDetails?id=29" class="red-blue">4</a><a href="/home/NewsDetails?id=29" title="跟号3期中排列五 内蒙古阿拉善彩民领300万元">跟号3期中排列五 内蒙古阿拉善彩民领300万元</a></li>
+                                            <li><a href="/home/NewsDetails?id=30" class="red-blue">5</a><a href="/home/NewsDetails?id=30" title="“老彩民”擒时时彩10万元大奖 谈投注时的心声">“老彩民”擒时时彩10万元大奖 谈投注时的心声</a></li>
+                                            <li><a href="/home/NewsDetails?id=31" class="red-blue">6</a><a href="/home/NewsDetails?id=31" title="三位得主各用奇招中福彩大奖 却有一个共同点">三位得主各用奇招中福彩大奖 却有一个共同点</a></li>
+                                            <li><a href="/home/NewsDetails?id=32" class="red-blue">7</a><a href="/home/NewsDetails?id=32" title="不打无准备之仗 美女复式选号收获福彩3D大奖">不打无准备之仗 美女复式选号收获福彩3D大奖</a></li>
+                                            <li><a href="/home/NewsDetails?id=33" class="red-blue">8</a><a href="/home/NewsDetails?id=33" title="沭阳老彩民灵感浮现 喜中福彩3D大奖四万多元">沭阳老彩民灵感浮现 喜中福彩3D大奖四万多元</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!----右侧 资讯----->
+                <div class="give"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="http://zy4imgqt.ly-cdn.com//Scripts/Common/swiper2.7.6/css/idangerous.swiper.css?594fc7a57f" rel="stylesheet" />
+
+<script src="http://zy4imgqt.ly-cdn.com//Scripts/Common/swiper2.7.6/js/idangerous.swiper.min.js?2073ab22ec"></script>
+<script>
+    //首页机选下注会用到
+    var serverTime = new Date('2017/07/28 19:18:07') - 0;// fff
+    var localTime = new Date() - 0;
+    $('.lott-ewm1 .nav li').hover(function () {
+        var i = $(this).index();//下标第一种写法
+        //var i = $('tit').index(this);//下标第二种写法
+        $(this).addClass('on').siblings().removeClass('on');
+        $('.lott-ewm1 .con li').eq(i).show().siblings().hide();
+    });
+    $(function () {
+        var intervals = [];
+        var bannerItems = $('.swiper-container .swiper-slide');
+
+        //弹窗初始化
+        homeFn.message();
+        //只有一张图片时不操作
+        if (bannerItems.length > 1) {
+            //轮播图
+            if (window.Swiper) {
+                var $pagination = $('.swiper-pagination');
+                var mySwiper = new Swiper('.swiper-container', {
+                    pagination: $pagination.length > 0 ? $pagination[0] : undefined,
+                    loop: true,
+                    grabCursor: true,
+                    paginationClickable: true,
+                    autoplay: 3000,
+                    autoplayDisableOnInteraction: false,
+                    speed: 300
+                })
+                $('#prev_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipePrev();
+                })
+                $('#next_btn').on('click', function (e) {
+                    e.preventDefault();
+                    mySwiper.swipeNext();
+                });
+            }
+        } else {
+            $(".controller,.pagination").hide();
+        }
+        var gameListTabs = $("#J_subnav_list [data-target]");
+        gameListTabs.on("mouseover", function (evt) {
+            var evtTarget = $(this);
+            evtTarget.addClass("hover").siblings().removeClass("hover");
+            var target = $(this).attr("data-target");
+            $("#J_subnav_list .JGameList").css("display", "none");
+            $("#J_subnav_list " + target).css("display", "block");
+        });
+
+        //开奖结果
+        ///获取游戏期数信息
+        var lotteryResultIds = [
+            //游戏缩写---------------官方或信用--游戏名称---------------机选下注--玩法项ID[公共]-生成号码个数-号码范围-选号是否可重复[默认为false]
+            { Abbreviation: "ZQSSC", GroupID: 0, GameName: "重庆时时彩", betInfos: { SI: 0, count: 5, range: [0, 9], canRepeat: false } }   //整合
+            , { Abbreviation: "BJPKS", GroupID: 0, GameName: "北京PK拾", betInfos: { SI: 1, count: 5, range: [1, 10], canRepeat: false } }   //第1-5名
+            , { Abbreviation: "⑥HC", GroupID: 0, GameName: "六合彩", betInfos: { SI: 0, count: 7, range: [1, 40] }, canRepeat: false }  //特码
+            , { Abbreviation: "XYFT", GroupID: 3, GameName: "幸运飞艇", betInfos: { SI: 21294, count: 5, range: [1, 10], canRepeat: false } }   //猜前五复式
+            , { Abbreviation: "HGKLC", GroupID: 3, GameName: "韩国1.5分彩", betInfos: { SI: 20953, count: 5, range: [0, 9], canRepeat: false } }   //五星复式
+            //, { Abbreviation: "TXFFC", GroupID: 0, GameName: "腾讯分分彩", betInfos: { SI: 0, count: 5, range: [0, 9], canRepeat: false } }   //整合
+        ];
+        homeFn.getGamePeriodsInfo({
+            dom: $("#lotteryResultContainer")[0],   //要绑定的元素
+            refreshTime: 10,   //数据刷新时间间隔
+            gameInfos: lotteryResultIds, //获取开奖结果的游戏id列表
+            isRereshMulti: false   //是否刷新多个
+        });
+        $(window).unload(function () {
+            $.each(intervals, function (idx, ele) {
+                clearInterval(ele);
+            })
+        });
+    });
+</script>
+            <div class="jc-footer">
+
+                <div class="foot_box">
+                    <div class="about_box">
+                        <div class="about_title">
+                            <a href="/"><span>网站首页</span></a>|
+                            <a href="/Mobile"><span>手机购彩</span></a>|
+                            <a href="/Activity"><span>优惠活动</span></a>|
+                            <a href="/Result/index?game=7" target="_blank"><span>开奖公告</span></a>|
+                            <a href="/result/index?game=26" target="_blank"><span>走势图表</span></a>|
+                            <a href="/home/NewsList"><span>资讯</span></a>|
+                            <a href="http://messenger.providesupport.net/messenger/031kc3c92kc010ajmvwodbpmzt.html" target="_blank"><span>在线客服</span></a>
+                        </div>
+                        <div class="foot_info"></div>
+                        <p>
+                            Copyright 2009-2017©<span>好运彩  保留所有权利</span>
+                            <br><span class="c-grey">好运彩郑重提示：购买彩票有风险，在线投注需谨慎，不向未满18周岁的青少年出售彩票！</span>
+                        </p>
+
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="clear nospace"></div>
+            </div>
+        <!-- footer end -->
+    </div>
+    <!-- container end -->
+    <!--公告-->
+    <script type="text/html" id="tpl-message">
+        <div>
+            <div>
+                <div class="side_left" data-bind="foreach:dialogNotice">
+                    <div class="side_item">
+                        <a href="javascript:;" data-bind="click:$parent.active.bind($data,$index()),css:$parent.activeIndex() == $index() ? 'active' : ''">
+                            <span data-bind="text:FNoticeTitle"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="notice_main" data-bind="with:activeMessage">
+                    <div class="notice_title"><h1 data-bind="text:FNoticeTitle"></h1></div>
+                    <div class="notice_text">
+                        <div class="fleft notice_item" style="text-align:left;word-break:break-all;" data-bind="html:FNoticeContent"></div>
+                        <div class="fright">【<span data-bind="text:FLastEditTime"></span>】</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <!--公告  end--->
+        <div class="ui-md-box" id="pendant_wrap" style="left:0.6%;right:auto;">
+            <div href="javascript:;" class="cols" onclick="popclose('pendant_wrap')"></div>
+            <a class="top1_btn" href="/Recharge/Index"></a>
+            <a class="top2_btn" href="http://wpa.qq.com/msgrd?v=3&amp;uin=198335588&amp;site=qq&amp;menu=yes" target="_blank" title="客服QQ"></a>
+            <div class="two_img"><img src="/Home/QrcodeImage?fID=1" alt="ANDROID" width="95" height="95"></div>
+        </div>
+        <div class="ui-md-box ui-right" id="pendant_wrap1">
+            <div href="javascript:;" class="cols" onclick="popclose('pendant_wrap1')"></div>
+            <a class="top1_btn" href="http://messenger.providesupport.net/messenger/031kc3c92kc010ajmvwodbpmzt.html" target="_blank"></a>
+            <a class="top2_btn" href="/AgentApply"></a>
+            <div class="two_img"><img src="/Home/QrcodeImage?fID=2" alt="IOS" width="95" height="95"></div>
+        </div>
+    <input type="hidden" id="accountId" value="0" />
+    <!-- sideBar end -->
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Common/jquery.md5.min.js?b9a2f4d724"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Home/WG.Home.Common.js?71d540cf21"></script>
+    <script type="text/javascript" src="http://zy4imgqt.ly-cdn.com//Scripts/Home/WG.Home.UnRember.js?5054a976ce"></script>
+    
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Home/WG.Home.Fn.js?06a0b1306a"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Home/reg.common.js?4780998c24"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/WG.RegisterUser.js?12837911f1"></script>
+    <script src="http://zy4imgqt.ly-cdn.com//Scripts/Common/jquery.signalR-2.1.1.min.js?b4c4ed930a"></script>
+    <script type="text/javascript">
+        var SignalrSite = 'https://zycccppp.websocketcdn.com:8812/signalr', st = '2017-07-28 19:18:07', iis = 'http://zy4imgqt.ly-cdn.com/';
+        function popshow(showId) { document.getElementById(showId).style.display = 'block'; }
+        function popclose(showId) { document.getElementById(showId).style.display = 'none'; }
+
+        //收藏本站
+        function AddFavorite(title) {
+            var url = "http://" + location.hostname + "/";
+            try {
+                window.external.addFavorite(url, title);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel(title, url, "");
+                }
+                catch (e) {
+                    dialog({ title: '提示', content: "抱歉，您所使用的浏览器无法完成此操作。<br />加入收藏失败，电脑请使用Ctrl+D进行添加", okValue: '确定', ok: function () { } }).show();
+                }
+            }
+        }
+    </script>
+    <!--公告  end--->
+    <!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+    <!-- END ProvideSupport.com Visitor Monitoring Code -->
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>脑动脉瘤治疗网是由河北医科大学第一医院众多脑动脉瘤治疗专家创办，脑动脉瘤治疗已经成为现实，为脑动脉瘤患者创造第二次生命。</title>
+    <link type="text/css" rel="stylesheet" href="css/pagestyle.css" />
+    <script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="/js/flash.js"></script>
+    <script type="text/javascript" src="/js/xxk.js"></script>
+	<meta name="keywords" content="脑动脉瘤，脑动脉瘤治疗，河北脑动脉瘤治疗，石家庄脑动脉瘤治疗" />
+<meta name="description" content="脑动脉瘤治疗在河北省神经介入治疗中心最知名专家、医学博士侯凯教授的带领下，石家庄脑动脉瘤治疗最佳选择，治疗颅内动脉瘤，前交通动脉动脉瘤，颈内动脉后交通动脉动脉瘤等技术先进，价格合理。" />
+</head>
+<body>
+    <form name="form1" method="post" action="index.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTcxNzM2ODExNWRkw3u6css1mYlql5bsuz8tFOKfQu8=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+</div>
+    
+<div class="area">
+    <div class="top">
+        <div class="top_l left">
+            <img src="images/logo.gif" width="400" height="80" /></div>
+        <div class="top_r right">
+            <div class="top_r_hot">
+                <a href="#" class="hrefs" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.hbndml.com');">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://www.hbndml.com', '河北脑动脉瘤')">加入收藏</a> | <a href="/content_2.htm">联系我们</a></div>
+            <div class="top_r_tel">
+                咨询热线：400-800-8048</div>
+        </div>
+    </div>
+    <div class="flash clear"><img src="images/flash.jpg" width="1000" height="300" /></div>
+    <div class="nav">
+        <ul>
+            <li><a href="/">首 页</a></li>
+            <li><a href="/content_1.htm">科室介绍</a></li>
+            <li><a href="/zhuanjia.htm">专家介绍</a></li>
+            <li><a href="/news_4.htm"">脑动脉瘤常识</a></li>
+            <li><a href="/news_5.htm"">脑动脉瘤诊断</a></li>
+            <li><a href="/news_6.htm"">脑动脉瘤治疗</a></li>
+            <li><a href="/news_7.htm"">脑动脉瘤护理</a></li>
+            <li><a href="/news_8.htm"">脑动脉瘤并发症</a></li>
+            <li><a href="/news_9.htm"">神经介入治疗</a></li>
+            <li><a href="/news_10.htm"">典型病例</a></li>
+            <li><a href="/content_2.htm">联系我们</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="area clear">
+        <div class="move left">
+            <div class="title">
+            <h1>科室介绍</h1>
+            <a href="content_1.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="hos_img"><img src="images/pic1.gif" width="250" height="148" /></div>
+            <div class="hos_depict"> 河北医科大学第一医院神经外科暨河北省神经介入治疗中心，在知名专家、医学博士侯凯教授带领下，拥有术中自动导航系统、大 C 型臂数字减影机（ DSA ）、莱佧ＭＳ－２手术显微镜等一系列国内领先的大型医疗设备。采用国际先进的神经介入和显微神经外科技术，开展颅内动脉瘤的血管内栓塞和手术夹闭治疗，脑、脊髓血管畸形的血管内栓塞和手术切除治疗，急性脑血栓的动脉内局部溶栓，颈动脉狭窄的经皮球囊扩张术......<a href="content_1.htm" target="_blank" id="red">[阅读全文]</a></div>
+        </div>
+        <div class="box right">
+            <div class="ad left"><script type="text/javascript" src="/Tools/Advert_js.ashx?id=1"></script></div>
+            <div class="new right">
+            <div class="title">
+            <h1>科室动态</h1>
+            <a href="/news_2.htm" target="_blank">more >> </a></div>
+            <ul>
+            <li><a target="_blank" title="医大一院神经外科――让老白重新微笑的地方" href="News_View_219.htm">医大一院神经外科――让老白重新微笑的地方</a></li><li><a target="_blank" title="我科再次成功挽救一名颈内动脉高度狭窄老年患者" href="News_View_210.htm">我科再次成功挽救一名颈内动脉高度狭窄老年患</a></li><li><a target="_blank" title="单纯弹簧圈栓塞治疗未破裂基底动脉顶端动脉瘤一例" href="News_View_207.htm">单纯弹簧圈栓塞治疗未破裂基底动脉顶端动脉瘤</a></li><li><a target="_blank" title="河北省神经介入治疗中心主任侯凯教授再获殊荣         --荣获2014年国家卫生计生委脑卒中筛查与防治“优秀中青年专家”称号" href="News_View_193.htm">河北省神经介入治疗中心主任侯凯教授再获殊荣</a></li><li><a target="_blank" title="医大一院举行心脑血管疾病大型义诊讲座活动" href="News_View_192.htm">医大一院举行心脑血管疾病大型义诊讲座活动</a></li><li><a target="_blank" title="急性脑动脉栓塞超早期介入溶栓，血管内取栓治疗一例" href="News_View_188.htm">急性脑动脉栓塞超早期介入溶栓，血管内取栓治</a></li><li><a target="_blank" title=""重获新生"__记我科近日成功治愈患基底动脉狭窄的高龄患者一例" href="News_View_187.htm">"重获新生"__记我科近日成功治愈患基底动脉狭</a></li><li><a target="_blank" title="一枚金球囊治愈“搏动性突眼” ,我科近日又成功治愈一例颈动脉海绵窦瘘患者." href="News_View_186.htm">一枚金球囊治愈“搏动性突眼” ,我科近日又成</a></li><li><a target="_blank" title="神经外科施介入治疗高度颈内动脉狭窄患者获救治" href="News_View_180.htm">神经外科施介入治疗高度颈内动脉狭窄患者获救</a></li>
+            </ul>
+            </div>
+            <div class="clear"></div>
+            <div id="tabBox2" class="clinic">
+                <ul class="tszl">
+                    <h2>特色诊疗</h2>
+                    <li class="active"><a href="/content_3.htm" target="_blank">弹簧圈栓塞术</a></li>
+                    <li><a href="/content_4.htm" target="_blank">脑动脉瘤栓塞术</a></li>
+                    <li><a href="/content_5.htm" target="_blank">支架、球囊辅助瘤颈成型动脉瘤栓塞技术</a></li>
+                </ul>
+                <div class="tabCon">
+                    <div class="tCon" style="display: block">
+                        <p class="detail">
+                            <img alt="特色诊疗" align="left" src="images/pic2.gif" width="200" height="130" />
+                            <span>脑血管造影明确的脑动脉瘤可以行栓塞治疗。手术路径同脑血管造影，将指引导管放置于载瘤动脉近端颅外段，各种栓塞导管及辅助材料（微导管、球囊导管及支架输送系统）均通过指引导管到达靶动脉瘤，栓塞材料主要为弹簧圈，按解脱方式分为水解和电解，按结构可分为普通弹簧圈和3D弹簧圈。<br />
+                                栓塞动脉瘤有两个关键，第一是微导管准确到位并能稳定于瘤腔，第二是选择合适型号及大小的弹簧圈。如何才能使微导管准确到位并稳定于瘤腔内 .....<a href="/content_3.htm" target="_blank" id="red">[详细]</a></span>
+                        </p>
+                    </div>
+                    <div class="tCon">
+                        <p class="detail">
+                            <img alt="特色诊疗" align="left" src="images/tszl2.gif" width="200" height="130" />
+                            <span>1．动脉瘤理想的栓塞需要达到囊内的致密填塞，疏松栓塞不能达到防止动脉瘤再出血。<br />
+2．动脉瘤颈需要利用各种技术和技巧进行致密填塞，尽量防止动脉瘤的复发。<br />
+3．单纯填塞假性动脉瘤和一般动脉瘤的假性动脉瘤部分不能起到防止动脉瘤再次破裂出血。<br />
+4・动脉瘤栓塞过程中，要尽量预防血栓形成，一般要求全身抗凝和同轴系统的持续滴注。<br />5. 术中动脉瘤破裂一旦破裂，应立即中和肝素并降低血压，如果微导管头端已到位，应继续输送弹簧圈填塞动脉瘤至填实， .....<a href="/content_4.htm" target="_blank" id="red">[详细]</a></span>
+                        </p>
+                    </div>
+                    <div class="tCon">
+                        <p class="detail">
+                            <img alt="特色诊疗" align="left" src="images/pic2.gif" width="200" height="130" />
+                            <span>对于宽颈动脉瘤、梭形动脉瘤、夹层动脉瘤，弹簧圈不易牢固成型在瘤腔内，此时就需借助辅助材料，如球囊、支架等，将瘤颈再塑形，使宽颈动脉瘤变成“窄颈动脉瘤”后，再行栓塞治疗。而对于有些梭形动脉瘤或夹层动脉瘤，有时亦可仅仅使用支架覆盖瘤颈，瘤颈周围血管内膜藉支架生长，瘤内血流动力学改变，血栓形成，以达到消除动脉瘤的目的。.....<a href="/content_5.htm" target="_blank" id="red">[详细]</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div class="ad1"><img src="images/ad1.gif" width="1000" height="120" /></div>
+    <div class="area clear">
+    <div class="doctor">
+        <div class="title"><h1>专家介绍</h1><a href="zhuanjia.htm" target="_blank">more &gt;&gt;</a></div>
+        <div class="arrow left"> <a onmouseover="setspeed(3);setfangxiang(1)" onmouseout="setspeed(1)" href="#"><img src="images/arrow_l.gif" width="9" height="18"></a></div>
+        <div class="left" style="width: 962px; height: 200px; overflow: hidden" id="demo5" onmouseover="ii=1" onmouseout="ii=0">
+            <table cellspacing="0" cellpadding="0" width="96%">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div id="demo6">
+                                <div onmouseover="setspeed(3);setfangxiang(2)" onmouseout="setspeed(1)">
+                                    <table width="100%" cellspacing="4" cellpadding="0">
+                                        <tr>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_49.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316023376.gif' align="left" /></a> <span>姓名：侯凯<br />职称:主任医师 教授河北省神经介入治疗中心主任，河北医科大学第一医院神经外科主任，主任医师、教授、硕士研究生导师河北省神经介入治疗中心...<a href="/News_View_49.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_82.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316181006.gif' align="left" /></a> <span>姓名：刘玉亭<br />职称：神经外科主任医师。专长：神经系统先天性疾病、脊髓疾病、脑血管病、颅内肿瘤、颅脑损伤的诊断和治疗。门诊时间：周四全天...<a href="/News_View_82.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_83.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316263409.gif' align="left" /></a> <span>姓名：刘建峰<br />职称：主治医师  医学硕士，专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血管疾病的诊断和治疗。...<a href="/News_View_83.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_84.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316283223.gif' align="left" /></a> <span>姓名：李辉<br />职称：主治医师  医学硕士，专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血管疾病的诊断和治疗。...<a href="/News_View_84.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_85.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316291375.gif' align="left" /></a> <span>姓名：张峰<br />职称：主治医师  医学硕士。专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血管疾病的诊断和治疗。...<a href="/News_View_85.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_86.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316310923.gif' align="left" /></a> <span>姓名：赵迪<br />职称：主治医师  医学硕士，专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血管疾病的诊断和治疗。...<a href="/News_View_86.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_87.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316321960.gif' align="left" /></a> <span>姓名：李鹏<br />职称：主治医师  医学硕士                                   专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血...<a href="/News_View_87.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_88.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316324953.gif' align="left" /></a> <span>姓名：井山泉<br />职称：主治医师  医学硕士                                   专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血...<a href="/News_View_88.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                             <td>
+                                                <div class="detail">
+                                            <a href="/News_View_89.htm" target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=120&h=150&gurl=/UpLoadFiles/20120523/2012052316331192.gif' align="left" /></a> <span>姓名：吴国彪<br />职称：主治医师  医学硕士                                   专长：自发性蛛网膜下腔出血、颅内动脉瘤、动静脉畸形、烟雾病、脑出血等脑血...<a href="/News_View_89.htm" target="_blank" id="red">[详细]</a></span>
+                                        </div>
+                                            </td>
+                                            
+                                            
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div id="demo7">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="arrow left"> <a onmouseover="setspeed(3);setfangxiang(2)" onmouseout="setspeed(1)" href="#"><img src="images/arrow_r.gif" width="9" height="18" /></a></div>
+        <script type="text/javascript" src="js/newzp.js"></script>
+    </div>
+    </div>
+    <div class="area clear">
+	<div class="volume_l left">
+      <ul>
+      <li class="box_l">
+        <div class="box_mod">
+   			<div class="title"><h1>脑动脉瘤常识</h1><a href="/news_4.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_4.htm" target="_blank"><img alt="" align="left" src="images/pic6.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_69.htm" target="_blank">颅内动脉瘤简介</a></b><br />颅内动脉瘤系颅内动脉壁的囊性膨出 是造成蛛网膜下腔出血的首位病因 在脑血管意外中 仅次于脑血栓...<a target="_blank" href="news_view_69.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+            <li><span>[08-03-2014]</span><a target="_blank" title="简介脑动脉瘤" href="News_View_212.htm">简介脑动脉瘤</a></li><li><span>[08-03-2014]</span><a target="_blank" title="脑动脉瘤的危害" href="News_View_211.htm">脑动脉瘤的危害</a></li><li><span>[06-16-2014]</span><a target="_blank" title="发生动脉瘤性蛛网膜下腔出血（aSAH）的危险因素防控" href="News_View_195.htm">发生动脉瘤性蛛网膜下腔出血（aSAH）的危险因</a></li><li><span>[06-13-2014]</span><a target="_blank" title="脑动脉瘤栓塞治疗中的“双微导管”技术" href="News_View_194.htm">脑动脉瘤栓塞治疗中的“双微导管”技术</a></li>
+            </ul>
+            </div>
+            </div>
+      </li>
+      <li class="box_r">
+        <div class="box_mod">
+   			<div class="title"><h1>脑动脉瘤诊断</h1>
+   			<a href="/news_5.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_5.htm" target="_blank"><img alt="脑动脉瘤诊断" align="left" src="images/pic7.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_68.htm" target="_blank">中老年剧烈头痛的防治</a></b><br />晚上 8点多，王阿姨和老伴夫妇俩晚饭后到楼下健身。突然，正在进行器械锻炼的王阿姨大叫：“头好痛...<a target="_blank" href="news_view_68.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+            <li><span>[03-27-2014]</span><a target="_blank" title="如何确定多发动脉瘤患者导致出血的“元凶”" href="News_View_184.htm">如何确定多发动脉瘤患者导致出血的“元凶”</a></li><li><span>[10-18-2012]</span><a target="_blank" title="脑动脉瘤的常见诊断方法" href="News_View_138.htm">脑动脉瘤的常见诊断方法</a></li><li><span>[10-09-2012]</span><a target="_blank" title="如何确诊“颅内动脉瘤”" href="News_View_119.htm">如何确诊“颅内动脉瘤”</a></li><li><span>[10-08-2012]</span><a target="_blank" title="河北脑动脉瘤治疗告诉您脑动脉瘤得分类。" href="News_View_114.htm">河北脑动脉瘤治疗告诉您脑动脉瘤得分类。</a></li>
+            </ul>
+            </div>
+            </div>
+      </li>
+      </ul>
+      <div class="clear"></div>
+      <ul>
+      <li class="box_l" style="margin-top:7px;">
+        <div class="box_mod">
+   			<div class="title"><h1>脑动脉瘤治疗</h1>
+   			<a href="/news_6.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_6.htm" target="_blank"><img alt="脑动脉瘤治疗" align="left" src="images/pic8.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_58.htm" target="_blank">脑动脉瘤患者怎么治疗？</a></b><br />大多数脑动脉瘤可选择神经外科手术治疗。最常见的方法是应用钛夹夹闭动脉瘤。还有一部分可行介入治...<a target="_blank" href="news_view_58.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+            <li><span>[06-29-2014]</span><a target="_blank" title="腰椎穿刺治疗蛛网膜下腔出血的技术要点" href="News_View_201.htm">腰椎穿刺治疗蛛网膜下腔出血的技术要点</a></li><li><span>[06-21-2014]</span><a target="_blank" title="非动脉瘤性蛛网膜下腔出血的治疗方案" href="News_View_198.htm">非动脉瘤性蛛网膜下腔出血的治疗方案</a></li><li><span>[03-25-2014]</span><a target="_blank" title="蛛网膜下腔出血的Hunt和Hess分级" href="News_View_182.htm">蛛网膜下腔出血的Hunt和Hess分级</a></li><li><span>[03-25-2014]</span><a target="_blank" title="蛛网膜下腔出血（SAH）后脑积水的治疗" href="News_View_181.htm">蛛网膜下腔出血（SAH）后脑积水的治疗</a></li>
+            </ul>
+            </div>
+            </div>
+      </li>
+      <li class="box_r" style="margin-top:7px;">
+        <div class="box_mod">
+   			<div class="title"><h1>脑动脉瘤护理</h1>
+   			<a href="/news_7.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_7.htm" target="_blank"><img alt="脑动脉瘤护理" align="left" src="images/pic9.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_70.htm" target="_blank">介入治疗颅内动脉瘤的护理指导</a></b><br />1、术前护理(1)对神志清醒者讲解手术的必要性及手术中需要患者配合的事项,消除其恐惧心理,对有意识...<a target="_blank" href="news_view_70.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+            <li><span>[03-14-2016]</span><a target="_blank" title="吞咽障碍的康复训练" href="News_View_218.htm">吞咽障碍的康复训练</a></li><li><span>[09-20-2014]</span><a target="_blank" title="重症蛛网膜下腔出血患者的亚低温治疗护理" href="News_View_215.htm">重症蛛网膜下腔出血患者的亚低温治疗护理</a></li><li><span>[09-20-2014]</span><a target="_blank" title="腰大池置管患者的护理要点" href="News_View_214.htm">腰大池置管患者的护理要点</a></li><li><span>[08-10-2014]</span><a target="_blank" title="脑动脉瘤患者的术前护理" href="News_View_213.htm">脑动脉瘤患者的术前护理</a></li>
+            </ul>
+            </div>
+            </div>
+      </li>
+      </ul>
+      <div class="clear"></div>
+      <div class="ad2"><img src="images/ad2.gif" width="748" height="120" /></div>
+      <ul>
+      <li class="box_l" style="margin-top:7px;">
+        <div class="box_mod">
+   			<div class="title"><h1>脑动脉瘤并发症</h1>
+   			<a href="/news_8.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_8.htm" target="_blank"><img alt="脑动脉瘤并发症" align="left" src="images/pic10.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_74.htm" target="_blank">脑动脉瘤术后并发症</a></b><br />颅内动脉瘤多因脑动脉管壁局部的先天性缺陷和腔内压力增高的基础上引起。高血压、脑动脉硬化、血管...<a target="_blank" href="news_view_74.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+            <li><span>[09-20-2014]</span><a target="_blank" title="脑动脉瘤的并发症都有哪些" href="News_View_216.htm">脑动脉瘤的并发症都有哪些</a></li><li><span>[06-29-2014]</span><a target="_blank" title="脑室一腹腔分流术后注意要点" href="News_View_202.htm">脑室一腹腔分流术后注意要点</a></li><li><span>[06-21-2014]</span><a target="_blank" title="蛛网膜下腔出血后脑血管痉挛的临床表现" href="News_View_199.htm">蛛网膜下腔出血后脑血管痉挛的临床表现</a></li><li><span>[10-18-2012]</span><a target="_blank" title="脑动脉瘤术后并发症有哪些？" href="News_View_141.htm">脑动脉瘤术后并发症有哪些？</a></li>
+            </ul>
+            </div>
+            </div>
+      </li>
+      <li class="box_r" style="margin-top:7px;">
+        <div class="box_mod">
+   			<div class="title"><h1>神经介入治疗</h1>
+   			<a href="/news_9.htm" target="_blank">more &gt;&gt;</a></div>
+            <div class="box_detail">
+            <a href="/news_9.htm" target="_blank"><img alt="神经介入治疗" align="left" src="images/pic11.gif" width="100" height="90"/></a>
+            <span> <b><a href="news_view_76.htm" target="_blank">什么是神经介入</a></b><br />神经介入治疗是通过股动脉（或股静脉）穿刺，利用特殊的导管到达颈部或者颅内血管，治疗颈部或者颅...<a target="_blank" href="news_view_76.htm" id="red">详细 >> </a></span>
+            </div>
+            <div class="box_list">
+            <ul> 
+                 <li><span>[07-13-2014]</span><a target="_blank" title="全脑血管造影术中超选血管造影的技术要点" href="News_View_209.htm">全脑血管造影术中超选血管造影的技术要点</a></li><li><span>[07-13-2014]</span><a target="_blank" title="全脑血管造影术中的导管选择" href="News_View_208.htm">全脑血管造影术中的导管选择</a></li><li><span>[07-06-2014]</span><a target="_blank" title="支架辅助弹簧圈栓塞动脉瘤技术" href="News_View_206.htm">支架辅助弹簧圈栓塞动脉瘤技术</a></li><li><span>[06-29-2014]</span><a target="_blank" title="弹簧圈栓塞动脉的技术要点" href="News_View_203.htm">弹簧圈栓塞动脉的技术要点</a></li>
+            </ul>
+            </div>
+            </div>
+        </li>
+      </ul>
+  </div>
+	<div class="volume_r right">
+	<div class="new1 right">
+    <div class="title"><h1>在线答疑</h1>
+    <a href="/ask.aspx" target="_blank">more &gt;&gt;</a></div>
+    <ul class="askl">
+        
+          <li><a href="/ask.aspx#ask_29" target="_blank">脑动脉瘤术后复查[2014-1-8 20:45]</a></li>
+        
+          <li><a href="/ask.aspx#ask_28" target="_blank">好几个动脉瘤怎么办？[2013-11-10 12:00]</a></li>
+        
+          <li><a href="/ask.aspx#ask_25" target="_blank">蛛网膜下腔出血造影阴性[2012-11-25 21:06]</a></li>
+        
+          <li><a href="/ask.aspx#ask_24" target="_blank">脑动脉瘤是否可以尽快手术【脑动脉瘤】[2012-5-23 17:51]</a></li>
+        
+          <li><a href="/ask.aspx#ask_23" target="_blank">脑动脉瘤吃什么好？[2012-5-23 17:49]</a></li>
+        
+          <li><a href="/ask.aspx#ask_22" target="_blank">脑动脉瘤破裂，大面积脑溢血。[2012-5-23 17:49]</a></li>
+        
+          <li><a href="/ask.aspx#ask_21" target="_blank">脑动脉瘤的问题[2012-5-23 17:48]</a></li>
+        
+          <li><a href="/ask.aspx#ask_20" target="_blank">脑动脉瘤破裂了离现在已有三年多了，还会破吗？[2012-5-23 17:45]</a></li>
+        
+                
+                </ul>
+    </div>
+	<div class="new right">
+    <div class="title"><h1>典型病例</h1>
+    <a href="/news_10.htm" target="_blank">more &gt;&gt;</a></div>
+    <ul>
+    <li><a target="_blank" title="蛛网膜下腔出血的注意事项" href="News_View_217.htm">蛛网膜下腔出血的注意事项</a></li><li><a target="_blank" title="重获新生――神经外科又成功救治1例基底动脉狭窄高龄患者" href="News_View_191.htm">重获新生――神经外科又成功救治1例基底动脉</a></li><li><a target="_blank" title="积极救治脑动静脉畸形破裂出血患者一例" href="News_View_179.htm">积极救治脑动静脉畸形破裂出血患者一例</a></li><li><a target="_blank" title="成功采用“生物膜弹簧圈”介入治疗一脑出血患者" href="News_View_178.htm">成功采用“生物膜弹簧圈”介入治疗一脑出血患</a></li><li><a target="_blank" title="神经外科为一高危颈内动脉重度狭窄患者成功实施介入治疗" href="News_View_166.htm">神经外科为一高危颈内动脉重度狭窄患者成功实</a></li><li><a target="_blank" title="一次神经介入手术清除两颗“颅内炸弹”" href="News_View_151.htm">一次神经介入手术清除两颗“颅内炸弹”</a></li><li><a target="_blank" title="球囊成型弹簧圈栓塞术成功治疗高龄颅内动脉瘤破裂患者一例" href="News_View_148.htm">球囊成型弹簧圈栓塞术成功治疗高龄颅内动脉瘤</a></li><li><a target="_blank" title="神经介入栓塞治疗颅内邻近部位多发动脉瘤一例" href="News_View_143.htm">神经介入栓塞治疗颅内邻近部位多发动脉瘤一例</a></li><li><a target="_blank" title="河北医大一院施精湛医术--成功采用“生物膜弹簧圈”介入治疗一脑出血患者" href="News_View_109.htm">河北医大一院施精湛医术--成功采用“生物膜弹</a></li><li><a target="_blank" title="脑动脉瘤合并动静脉畸形一例" href="News_View_108.htm">脑动脉瘤合并动静脉畸形一例</a></li>
+    </ul>
+    </div>
+	<div class="new right">
+    <div class="title"><h1>联系我们</h1><a href="/content_2.htm" target="_blank">more &gt;&gt;</a></div>
+	<div class="contact">
+    联系电话：400-800-8048 <br />
+    E-mail：houk@jyyy.com.cn<br />
+    联系地址：河北石家庄市裕华区东岗路89号<br />
+    乘车路线：市内乘坐6路、12路、32路、43路、73路，医大一院站下车。
+	<div class="map"><img src="images/map.gif" width="220" height="120" /></div>
+    </div>
+    </div>
+	</div>
+    <div class="clear"></div>
+    </div>
+    
+<div class="area clear">
+    <div class="xjsb">
+        <div class="title left">
+            <h1>先进设备</h1>
+        </div>
+        <div id="colee_left" style="overflow: hidden; width: 960px; margin: 0 auto;">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td id="colee_left1" valign="top" align="center">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr align="center">
+                                
+                                        <td style="width: 190px;">
+                                            <a href='news_view_165.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20131112/2013111222012343.jpg' style="margin: 8px;" /></a> <span><a href='news_view_165.htm' target="_blank">
+                                                    飞利浦Allura Xper FD-20血管造影机</a></span>
+                                        </td>
+                                    
+                                        <td style="width: 190px;">
+                                            <a href='news_view_23.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20120521/2012052116282090.gif' style="margin: 8px;" /></a> <span><a href='news_view_23.htm' target="_blank">
+                                                    GE64排128层螺旋CT</a></span>
+                                        </td>
+                                    
+                                        <td style="width: 190px;">
+                                            <a href='news_view_22.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20120521/2012052116280823.gif' style="margin: 8px;" /></a> <span><a href='news_view_22.htm' target="_blank">
+                                                    1.5T双梯度核磁共振机</a></span>
+                                        </td>
+                                    
+                                        <td style="width: 190px;">
+                                            <a href='news_view_21.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20120521/2012052116275368.gif' style="margin: 8px;" /></a> <span><a href='news_view_21.htm' target="_blank">
+                                                    大C型臂数字减影血管造影机</a></span>
+                                        </td>
+                                    
+                                        <td style="width: 190px;">
+                                            <a href='news_view_20.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20120521/2012052116273753.gif' style="margin: 8px;" /></a> <span><a href='news_view_20.htm' target="_blank">
+                                                    莱卡ＭＳ－２手术显微镜</a></span>
+                                        </td>
+                                    
+                                        <td style="width: 190px;">
+                                            <a href='news_view_19.htm' target="_blank">
+                                                <img src='/Tools/Http_ImgLoad.ashx?w=180&h=120&gurl=/UpLoadFiles/20120521/2012052116265857.gif' style="margin: 8px;" /></a> <span><a href='news_view_19.htm' target="_blank">
+                                                    高压氧舱</a></span>
+                                        </td>
+                                    
+                                
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="colee_left2" valign="top">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+            var speed = 30
+            var colee_left2 = document.getElementById("colee_left2");
+            var colee_left1 = document.getElementById("colee_left1");
+            var colee_left = document.getElementById("colee_left");
+            colee_left2.innerHTML = colee_left1.innerHTML
+            function Marquee3() {
+                if (colee_left2.offsetWidth - colee_left.scrollLeft <= 0)
+                    colee_left.scrollLeft -= colee_left1.offsetWidth
+                else {
+                    colee_left.scrollLeft++
+                }
+            }
+            var MyMar3 = setInterval(Marquee3, speed)
+            colee_left.onmouseover = function () { clearInterval(MyMar3) }
+            colee_left.onmouseout = function () { MyMar3 = setInterval(Marquee3, speed) }
+        </script>
+    </div>
+</div>
+<div class="area clear">
+    <div class="links">
+        <div class="nTxt">
+            <b>友情链接：</b>
+            <a target="_blank" href="http://www.jyyy.com.cn/">河北医科大学第一医院</a>&nbsp;&nbsp;
+        </div>
+        <div class="nImg">
+            <ul>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="nav"><a href="/content_1.htm">科室介绍</a> | <a href="/zhuanjia.htm">专家介绍</a> | <a href="/news_4.htm">脑动脉瘤常识</a> | <a href="/news_5.htm">脑动脉瘤诊断</a> | <a href="/news_6.htm">脑动脉瘤治疗</a> | <a href="/news_7.htm">脑动脉瘤护理</a> | <a href="/news_8.htm">脑动脉瘤并发症</a> | <a href="/news_9.htm">神经介入治疗</a> | <a href="/content_2.htm">联系我们</a></div>
+        <p>
+            联系电话：400-800-8048 &nbsp;&nbsp;&nbsp;&nbsp;E-mail：houk@jyyy.com.cn<br />
+            联系地址：河北石家庄市裕华区东岗路89号&nbsp;&nbsp;&nbsp;&nbsp;乘车路线：市内乘坐6路、12路、32路、43路、73路，医大一院站下车。<br />
+            Copyright &#169; 2012 - 2013 河北脑动脉瘤诊疗网 Reserved&nbsp;&nbsp;&nbsp;&nbsp;技术支持：<a target="_blank" href="http://www.sjztya.com/">天涯网络</a>     
+        </p>
+    </div>
+</div>
+<!-- Baidu Button BEGIN -->
+    <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+        <a class="bds_qzone"></a>
+        <a class="bds_tsina"></a>
+        <a class="bds_tqq"></a>
+        <a class="bds_renren"></a>
+        <span class="bds_more">更多</span>
+		<a class="shareCount"></a>
+    </div>
+
+
+
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+<!-- Baidu Button END -->
+
+    </form><div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.xiaoyanseo.com/" title="武汉中原医院">武汉中原医院</A>
+<A href="http://master-of-g.com/" title="武汉抑郁医院">武汉抑郁医院</A>
+<A href="http://whzyyy.investhd.gov.cn" title="武汉失眠医院">武汉失眠医院</A>
+<A href="http://www.tzava.net/" title="ブランドコピ">ブランドコピ</A>
+<A href="http://kodify.net/" title="スパコピ">スパコピ</A>
+<A href="http://www.30ok.co/" title="3000ok">3000ok</A>
+<A href="http://www.sxinew.com" title="陕西新闻">陕西新闻</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.xiaoyanseo.com/" title="武汉精神病医院">武汉精神病医院</A>
+<A href="http://www.huabeitaoxian.com/" title="花呗">花呗</A>
+<A href="http://www.yaohuabei.com/" title="花呗">花呗</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://ty27w.cn/" title="太原开发票">太原开发票</A>
+<A href="http://nl67w.cn/" title="昆明发票">昆明发票</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.dw4422.com/" title="皇冠现金">皇冠现金</A>
+<A href="http://gz74w.cn/" title="广州开发票">广州开发票</A>
+<A href="http://bj63w.cn/" title="北京开发票">北京开发票</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.plq-china.com" title="娱乐城">娱乐城</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.8888y.com/" title="黑链">黑链</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.368116.com/" title="返利网">返利网</A>
+<A href="http://www.hg0088.gp/" title="hg0088.com">hg0088.com</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.ewvip.cc/" title="恩威道源商城">恩威道源商城</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://money.163.com/15/1127/10/B9E2D5J400253B0H.html" title="百家乐">百家乐</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.zhuamawang.com/" title="抓码王">抓码王</A>
+<A href="http://www.jeb88.com/" title="www.jeb88.com">www.jeb88.com</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.dgwellink.com/xjek/" title="广州代孕">广州代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.solidfx.top/" title="坚固环球">坚固环球</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.lef1688.com/" title="乐丰国际娱乐平台">乐丰国际娱乐平台</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://iqzwx.gov.cn/" title="博彩网">博彩网</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hlssdz.com/" title="恒隆盛世官网">恒隆盛世官网</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.9sodu.com/" title="免费小说">免费小说</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.bazhongol.com/xinwen/www.baike.com/" title="百科">百科</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.yuleyizu.com/" title="娱乐一族">娱乐一族</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hydcgxlyj.com/2016888/" title="www.hydcgxlyj.com/2016888">www.hydcgxlyj.com/2016888</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.zsits.cn/" title="南京代孕">南京代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.ydyunliuliang.com/" title="移动云流量">移动云流量</A>
+<A href="http://www.pc28ww.com/" title="pc蛋蛋群">pc蛋蛋群</A>
+<A href="http://0755dy.jimdo.com/" title="深圳代孕">深圳代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.cx-ca.com/" title="广州代孕">广州代孕</A>
+<A href="http://www.kormanv.com/" title="澳门赌场">澳门赌场</A>
+<A href="http://www.qdwkm.com/" title="卡盟">卡盟</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://m.mx189.com/" title="窝窝影院">窝窝影院</A>
+<A href="http://www.whsj178.com/" title="管道坡口机">管道坡口机</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://auto.sohu.com/20150422/n411664669.shtml" title="一嗨租车">一嗨租车</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.jnmingze.com/" title="水泥隔离墩">水泥隔离墩</A>
+<A href="http://www.fxt1.com/" title="外汇论坛">外汇论坛</A>
+<A href="http://www.0570slj.gov.cn/" title="博彩网">博彩网</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://raybans-australia.tumblr.com/" title="ray bans australia">ray bans australia</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.69kankan.com/" title="69影院">69影院</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://alishangshang.com/" title="1号站平台">1号站平台</A>
+<A href="http://www.bolicnc.com/" title="玻璃机械配件">玻璃机械配件</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.ourmanutd.com/" title="华山论剑足球吧">华山论剑足球吧</A>
+<A href="http://www.mysenz.com/" title="365体育投注">365体育投注</A>
+<A href="http://www.henanqxj.com/" title="代孕">代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.mafengwo.cn/u/92833001.html" title="申博开户">申博开户</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.bocailou.com/" title="博彩楼">博彩楼</A>
+<A href="http://www.caa0050312.org/" title="澳门赌场">澳门赌场</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.bazhongol.com/xinwen" title="巴中新闻">巴中新闻</A>
+<A href="http://www.jnmingze.com/" title="水泥隔离墩">水泥隔离墩</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.duhouganhome.com/29798/76729.html/" title="明升88">明升88</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.duhouganhome.com/29798/76729.html" title="明升88">明升88</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://733400.com/" title="六合资料">六合资料</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.500go.com/bjl/oei38/" title="沙龙365">沙龙365</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.cc9788.com/" title="情趣用品加盟代理">情趣用品加盟代理</A>
+<A href="http://www.aihuodao.com/" title="成人性用品">成人性用品</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://daiyun.bytyl.com/" title="代孕">代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.henanqxj.com/" title="代孕">代孕</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.zsits.cn/" title="南京代孕">南京代孕</A>
+<A href="http://www.sr.jx.cn/" title="捐卵">捐卵</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://5216333.cc/" title="同城美女上门">同城美女上门</A>
+<A href="http://lhbet.cc/" title="线上百家乐">线上百家乐</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.91pron.co/" title="91pron free videos">91pron free videos</A>
+<A href="http://www.uuzyz.net/" title="悠悠资源网">悠悠资源网</A>
+<A href="http://www.99re.me/" title="久久热这里只有精品">久久热这里只有精品</A>
+<A href="http://www.caoporn4.com/" title="caoporn">caoporn</A>
+<A href="http://www.riyelu.cc/" title="影音先锋资源站日夜撸">影音先锋资源站日夜撸</A>
+<A href="http://www.anqulu5.com/" title="我去撸影音先锋">我去撸影音先锋</A>
+<A href="http://www.avxcl5.com/" title="av小次郎">av小次郎</A>
+<A href="http://www.97caoporn.cc/" title="超碰视频">超碰视频</A>
+<A href="http://lujuji.cc/" title="千百撸最新网站">千百撸最新网站</A>
+<A href="http://www.99re.tv/" title="99re">99re</A>
+<A href="http://www.caoporn.ws/" title="caoporn免费视频">caoporn免费视频</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.shjtw.com/ouzhoubeitouzhu/" title="欧洲杯投注">欧洲杯投注</A>
+<A href="http://www.cbtml.com/" title="三国群英传私服">三国群英传私服</A>
+<A href="http://www.hj-jinkouche.com/" title="黄江二手车行">黄江二手车行</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hg0088.gf/" title="hg0088.com开户">hg0088.com开户</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.salomontrainerssale.co.uk/" title="salomon trainer sale">salomon trainer sale</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.zhiboting.net/" title="足球直播">足球直播</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hj-jinkouche.com/" title="黄江镇二手车">黄江镇二手车</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hj-tools.com/" title="锯片">锯片</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.haokantu.com/" title="美女图片">美女图片</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.bocailou.com/" title="博彩楼">博彩楼</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.2016mmqp.com/" title="名门2016棋牌">名门2016棋牌</A>
+<A href="http://www.ybhcsyy.com/" title="澳门百家乐">澳门百家乐</A>
+<A href="http://www.ty0718.com/" title="bt樱桃磁力搜索">bt樱桃磁力搜索</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hxs5.net/" title="人体艺术网">人体艺术网</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.hfgear.com.cn/" title="人气排行榜">人气排行榜</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.sjlama.com/" title="代孕">代孕</A>
+<A href="http://www.touxiangmao.com/" title="微信刷票">微信刷票</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.0792yhzs.com/" title="大发888">大发888</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.yeyeludy.com/" title="夜夜撸在线影院">夜夜撸在线影院</A>
+<A href="http://www.ye321.co/" title="龙年快乐电影">龙年快乐电影</A>
+<A href="http://www.anqulu.tv/" title="青青草">青青草</A>
+<A href="http://www.zhangku.cc/" title="掌酷">掌酷</A>
+<A href="http://www.8090kk.cc/" title="99re久久热在线视频">99re久久热在线视频</A>
+<A href="http://www.taitailu8.com/" title="太太撸">太太撸</A>
+<A href="http://www.luluhei123.com/" title="luluhei">luluhei</A>
+<A href="http://www.99redz.com/" title="久久热最新地址获取">久久热最新地址获取</A>
+<A href="http://www.qingqingcao.tv/" title="青青草视频">青青草视频</A>
+<A href="http://www.dedelu.cc/" title="得得撸">得得撸</A>
+<A href="http://www.a9avhongfange.cc/" title="红番阁">红番阁</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.027hfzsjt.com/" title="w88">w88</A>
+<A href="http://www.hydcgxlyj.com/2016888" title="2016新闻">2016新闻</A>
+<A href="http://www.lndlm.com/haosou/1049.html" title="大发888">大发888</A>
+<A href="http://www.jy-xili.com/2016" title="2016最新动态">2016最新动态</A>
+<A href="http://www.hnytrq.com/12betguanwang" title="12bet">12bet</A>
+<A href="http://www.sykysm.com/360/2016-06-18-96.html" title="365bet娱乐场">365bet娱乐场</A>
+<A href="http://www.ycjlxny.com/haosou360/356.html" title="澳门银河官网">澳门银河官网</A>
+<A href="http://www.ycjlxny.com/haosou360/814.html" title="网上赌场">网上赌场</A>
+<A href="http://www.ca88189.com/" title="Ca88亚洲城">Ca88亚洲城</A>
+<A href="http://www.hshy188.com/" title="大发888">大发888</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.w123h.com/" title="武汉信用卡套现">武汉信用卡套现</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.13798484844.com/" title="深圳信用卡代还">深圳信用卡代还</A>
+<div style="position: absolute; top: -999px;left: -999px;">
+<A href="http://www.sdjinbeier.com/" title="澳门百家乐">澳门百家乐</A>
+<A href="http://tech.hexun.com/2016-06-13/184358023.html" title="互联网理财平台">互联网理财平台</A>

@@ -1,0 +1,990 @@
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="一起发开奖现场">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta name="wap-font-scale" content="no">
+<meta name="aplus-touch" content="1">
+<meta name="msapplication-tap-highlight" content="no">
+  <title id="htmltitle">牛蛙彩票开奖现场 15700.COM 彩票现场直播彩票开奖结果/开奖记录,百家乐图库,彩票网址大全,800000人已选择这里!|牛蛙彩票</title> 
+  <meta name="keywords" content="六合,开奖,结果,六和彩,港台,直播,走势图,开奖时间,现场直播,特码走势图,开奖结果,历史开奖记录,百家乐,图库,博彩网址,导航,牛蛙开奖,牛蛙六合开奖" /> 
+  <meta name="description" content="www.15700.com开奖报码中心 - 与本港电视台同步播出。更有开奖结果(最清晰)、开奖记录(最齐全)、历史记录可查找一肖,一码公式规律、开奖时间(最准确)、走势图(特码、波色等)、开奖软件(免管理),百家乐投注站,博彩网址大全,六合彩图库等 www.15700.COM" />
+  <link rel="icon" href="https://www.niuwa022.cc/themes/qy/new/images/ico.ico" type="image/x-icon"><link rel="stylesheet" href="https://www.niuwa022.cc/themes/qy/Public/css/index.css" />
+
+
+<style>
+@media screen and (min-width: 720px) {
+		.go6h_header,.top_bar{
+			width: 720px;
+			left:50%;
+			margin-left: -360px;
+		}
+
+		body {
+		max-width: 720px;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+}
+</style>
+
+<style>
+	  .shade{
+	  	position: fixed;
+	  	left:0;
+	  	top:0;
+	  	width: 100%;
+	  	height: 100%;
+	  	background: rgba(0,0,0,.8);
+	  	z-index:9000;
+	  }
+		.dialog{
+			width: 320px;
+			height: 450px;
+			background: url('https://www.niuwa022.cc/themes/qy/Public/img/hongbao.png') center no-repeat;
+			-webkit-background-size: cover;
+			background-size: cover;
+			position: fixed;
+			z-index:9001;
+			left:50%;
+			top:50%;
+			margin-left: -160px;
+			margin-top: -225px;
+			padding-top: 140px;
+			box-sizing: border-box;
+		}
+		.golink{
+			position: absolute;
+			left:0;
+			bottom:50px;
+			width: 100%;
+			z-index:4;
+			font-size: 16px;
+			text-align: center;
+			color:#4a17ee;
+			line-height: 2em;
+		}
+		.close{
+			position: absolute;
+			right: 0;
+			top:30px;
+			width: 60px;
+			height: 40px;
+			z-index:10;
+		}
+		
+		input, button, textarea{
+			  border: 0;
+			border-radius: 0;
+			background: transparent;
+			-webkit-appearance: none;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		.con-wrap{
+		  display: -moz-box;
+		  display: -webkit-box;
+		  display: box;
+		  width: 100%;
+		}
+		.se-input{
+			  display: block;
+			-moz-box-flex: 1;
+			-webkit-box-flex: 1;
+			-webkit-border-radius: 0;
+			border-radius: 0;
+			margin: 0;
+			padding: 7px 42px 7px 6px;
+			height: 42px;
+			line-height: 28px;
+			resize: none;
+			overflow: hidden;
+			font-family: Arial, Helvetica, sans-serif;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+		}
+		.index-form{
+			display:none;
+			margin: 10px;
+			height: 42px;
+			background: #fff;
+			border: 1px solid #949494;
+			border-bottom-color: #bcbcbc;
+		}
+		.se-inner{
+		  width: 160px;
+		  position: relative;
+		}
+		.se-select{
+			width: 82px;
+			height: 40px;
+			outline: none;
+			border: none;
+			overflow: hidden;
+			background-color: transparent;
+			font-size: 14px;
+			padding-left: 1em;
+		}
+		.se-bn{
+			position: absolute;
+			top: -1px;
+			right: -1px;
+			width: 82px;
+			height: 42px;
+			background: #38f;
+			color: #fff;
+			white-space: nowrap;
+			line-height: 42px;
+			letter-spacing: -1px;
+			font-size: 16px;
+			border-top: 1px solid #38f;
+			border-bottom: 1px solid #38f;
+			box-sizing: inherit;
+		}
+
+	</style>
+	
+	<link rel="stylesheet" href="https://www.niuwa022.cc/themes/qy/new/js/swiper.min.css">
+</head>
+<body onload="checkCookie()">
+<div class="spinnerbox" style="display: none;">
+	<div class="spinner">
+		<div class="bounce1">
+		</div>
+		<div class="bounce2">
+		</div>
+		<div class="bounce3">
+		</div>
+	</div>
+</div>
+<header>
+<style>
+.go6h_header .go6h_header_li.go6h_header_logo span{
+    width: 120px;
+    background-size: contain;
+    background-position: 50%;
+}
+</style>
+<div class="go6h_header">
+	<div class="go6h_header_ul" style="width:auto;">
+		<a href="https://www.niuwa022.cc" >
+		<div class="go6h_header_li go6h_header_logo">
+			<span></span>
+			<i></i>
+		</div>
+		</a>
+	</div>
+	<div class="go6h_header_right">
+		<a class="link go6h_header_rightUserIcon" href="https://www.niuwa022.cc/attribute.html" >生肖对照表</a>
+	</div>
+	<div class="clear">
+	</div>
+</div>
+</header>
+
+<script src="https://www.niuwa022.cc/themes/qy/Public/wap/src/jquery.min.js"  type="text/javascript"></script>
+
+<script src="https://www.niuwa022.cc/themes/qy/Public/layer/jquery.cookie.js"  type="text/javascript"></script>
+<script src="https://www.niuwa022.cc/themes/qy/Public/layer/layer.js"  type="text/javascript"></script>
+<script type="text/javascript" src="https://www.niuwa022.cc/themes/qy/paogou/src/slick.min.js"></script>
+<script src="https://www.niuwa022.cc/themes/qy/new/js/swiper.jquery.min.js"></script>
+<script src="https://www.niuwa022.cc/themes/qy/Public/wap/jQuery-jcMarquee.js"  type="text/javascript"></script> 
+<div class="ng-scope">
+	<div class="go6h_webContentColorBg_f6">
+		<div class="go6h_navBlock go6h_navOpen">
+			<ul class="go6h_ShrinkFrom ">
+				<li><a href="https://www.niuwa022.cc/history.html"  target=""><span class="go6h_navicon go6h_webKIcon01"></span><span class="go6h_navFont">开奖记录</span></a></li>
+				<li><a href="https://www.niuwa022.cc/color.html"  target=""><span class="go6h_navicon go6h_webKIcon06"></span><span class="go6h_navFont">彩色图库</span></a></li>
+				<li><a href="https://www.niuwa022.cc/kj.html"  target=""><span class="go6h_navicon go6h_webKIcon07"></span><span class="go6h_navFont">开奖直播</span></a></li>
+				<li><a href="https://www.niuwa022.cc/news.html"  target=""><span class="go6h_navicon go6h_webKIcon08"></span><span class="go6h_navFont">免费资料</span></a></li>
+				<li><a href="https://www.niuwa022.cc/black.html"  target=""><span class="go6h_navicon go6h_webKIcon02"></span><span class="go6h_navFont">黑白图库</span></a></li>
+				<li><a href="https://www.niuwa022.cc/charts.html"  target=""><span class="go6h_navicon go6h_webKIcon10"></span><span class="go6h_navFont">走势图</span></a></li>
+				<li><a href="https://www.niuwa022.cc/date.html" ><span class="go6h_navicon go6h_webKIcon05"></span><span class="go6h_navFont">开奖日期</span></a></li>
+				<li><a href="https://www.niuwa022.cc/attribute.html" ><span class="go6h_navicon go6h_webKIcon03"></span><span class="go6h_navFont">生肖属性</span></a></li>
+				<li><a href="https://www.niuwa022.cc/newslist-45707.html" ><span class="go6h_navicon go6h_webKIcon04"></span><span class="go6h_navFont">香港挂牌</span></a></li>
+				<li><a href="https://www.niuwa022.cc/charts.html" ><span class="go6h_navicon go6h_webKIcon11"></span><span class="go6h_navFont">统计图表</span></a></li>
+				<li><a href="https://www.niuwa022.cc/tools.html" ><span class="go6h_navicon go6h_webKIcon09"></span><span class="go6h_navFont">辅助工具</span></a></li>	
+
+				<li><a href="javascript:showsearch();" ><span class="go6h_navicon "><img src="https://www.niuwa022.cc/themes/qy/Public/img/sousuo.png"/></span><span class="go6h_navFont">搜索</span></a></li>	
+				
+			</ul>
+		</div>
+		
+		
+		<div class="index-form">
+		  <form method="get" id="search_form" action="https://www.niuwa022.cc/search.html">
+			<div class="con-wrap">
+			  <input type="text" name="keywords" class="se-input">
+			  <div class="se-inner">
+				  <select  id="app" class="se-select">
+					<option value="ziliao">资料</option>
+					<option value="image">图库</option>
+				  </select>
+				  <button class="se-bn" type="submit">搜索</button>
+				</div>
+			</div>
+		  </form>
+		 <script type="text/javascript">
+            var app = document.getElementById("app");
+            app.onchange=function(){
+                if(this.value=="ziliao"){
+                    document.getElementById("search_form").action="https://www.niuwa022.cc/search.html";
+                }else if(this.value=="image"){
+                    document.getElementById("search_form").action="https://www.niuwa022.cc/color.html";
+                }
+            }
+		 </script>
+		</div>
+
+		
+			<!--首页-广告开始-->
+			
+			
+			
+			
+			
+			
+						<!--首页-结束-->
+			<div class="go6h_openBonus">			
+				<div class="go6h_resultTitle">
+					<span class="go6h_resultTitleCenter">
+					<span class="go6h_resultTitle_leftFont01">最新开奖：</span>
+					<span class="go6h_resultTitle_leftFont02">
+					<span>2017年 第</span>
+					<i class="go6h_orangeFont" id="q">000</i><span>  期</span></span><a class="go6h_resultTitle_btn" href="https://www.niuwa022.cc/kj.html" ></a></span>
+				</div>
+				<div class="go6h_resultBall_List">
+					<div class="go6h_num">
+						<span class="" id="w1"><p id="m1"></p></span><span class="go6h_sqBlock" id="m1x"></span>
+					</div>
+					<div class="go6h_num">
+						<span class="" id="w2"><p id="m2"></p></span><span class="go6h_sqBlock" id="m2x"></span>
+					</div>
+					<div class="go6h_num">
+						<span class="" id="w3"><p id="m3"></p></span><span class="go6h_sqBlock" id="m3x"></span>
+					</div>
+					<div class="go6h_num">
+						<span class="" id="w4"><p id="m4"></p></span><span class="go6h_sqBlock" id="m4x"></span>
+					</div>
+					<div class="go6h_num">
+						<span class="" id="w5"><p id="m5"></p></span><span class="go6h_sqBlock" id="m5x"></span>
+					</div>
+					<div class="go6h_num">
+						<span class="" id="w6"><p id="m6"></p></span><span class="go6h_sqBlock" id="m6x"></span>
+					</div>
+					<div class="go6h_add">
+					</div>
+					<div class="go6h_num go6h_delMargin">
+						<span class="" id="w7"><p id="s1"></p></span><span class="go6h_sqBlock" id="s1x"></span>
+					</div>
+					<a class="go6h_rightJtou" href="https://www.niuwa022.cc/history.html" ></a>
+				</div>
+			</div>
+			<div class="go6h_nextOpenBonus">
+				<span class="go6h_nextFont"><span>下期开奖时间：</span><i class="go6h_nextRedFont">2017年<span id="nextMonth"></span>月<span id="nextDay"></span>日 <span id="nextQiShu"></span>期</i></span>
+			</div>
+
+
+                <div>
+                <h3 style="color: blue;">
+	<a href="https://pujing025.cc/?intr=22964" target="_blank"><img alt="" src="https://niuwa023.cc/upload/images/1501043721.png" style="width: 950px; height: 180px;" /></a></h3>
+			</div>
+	<link rel="stylesheet"  href="https://www.niuwa022.cc/themes/qy/Public/wap/src/css/lightslider.css" />
+			
+		<div class="go6h_6hackPhoto">
+			
+			
+			
+			
+			<div class="go6h_6hackFontList">
+			
+			<table width="100%" border="0">
+ <tr>
+  <td width="50%" class="fleft">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">资料专区</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015710.html" >088期绝杀半波</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000907.html" >087期精品24码特围</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000906.html" >088期波色中特</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000905.html" >088期尾数中特</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000904.html" >088期特码合数</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000903.html" >088期特码五行</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000902.html" >088期特码大小</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000901.html" >088期特码头数</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000900.html" >088期特码家野</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1000899.html" >088期每期禁肖</a></li>
+               
+   </ul>
+   <div class="clear"></div>
+ </td>
+</tr>
+</table>
+</td>
+<td width="50%" class="fright">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">图解专区</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015278.html" >087期：香港挂牌</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015131.html" >087期：发财报</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015130.html" >088期：老版跑狗图</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015129.html" >088期：新版跑狗图</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015128.html" >088期：四不像</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015127.html" >087期：30码期期必中</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015126.html" >088期：谜语解生肖</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1015125.html" >087期：平特一肖</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-1002502.html" >088期：无错36码</a></li>
+                                <li><a href="https://www.niuwa022.cc/newsinfo-999483.html" >087期：财神报</a></li>
+                
+   </ul>
+   <div class="clear"></div>
+   </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table width="100%" border="0">
+ <tr>
+  <td width="50%" class="fleft">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">马经系列</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                <li><a href="https://www.niuwa022.cc/images/1005868.html" >伯乐相马经（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005867.html" >马经精版料（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005866.html" >马经救世报（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005865.html" >香港马经（新版）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005864.html" >马经平特图（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005856.html" >马经发财报（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005855.html" >马经王牌料（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005854.html" >马经玄机图（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005853.html" >马经龙头报（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005515.html" >另版凤凰马经</a></li>
+               
+   </ul>
+   <div class="clear"></div>
+ </td>
+</tr>
+</table>
+</td>
+<td width="50%" class="fright">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">挂牌系列</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                       <li><a href="https://www.niuwa022.cc/images/1005847.html" >九龙挂牌解特码A</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005846.html" >九龙挂牌解特码B</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005834.html" >香港正版挂牌</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005823.html" >正版香港数码挂牌</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005572.html" >手写马会挂牌</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005537.html" >香港挂牌宝典</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005405.html" >马经挂牌系列A(新图)</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005404.html" >马经挂牌系列B(新图)</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005403.html" >马经挂牌系列C(新图)</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005402.html" >马经挂牌系列D(新图)</a></li>
+              
+   </ul>
+   <div class="clear"></div>
+   </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<table width="100%" border="0">
+ <tr>
+  <td width="50%" class="fleft">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">管家婆系列</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                       <li><a href="https://www.niuwa022.cc/images/1005827.html" >管家婆新传密</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005826.html" >管家婆财经版</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005825.html" >管家婆</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005619.html" >(新版)管家婆</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005519.html" >管家婆抓特码A</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005518.html" >管家婆抓特码B</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005506.html" >管家婆心水报A</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005505.html" >管家婆心水报B</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005177.html" >新一代管家婆</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1004940.html" >管家婆内部透密-新图</a></li>
+              
+   </ul>
+   <div class="clear"></div>
+ </td>
+</tr>
+</table>
+</td>
+<td width="50%" class="fright">
+   <table width="100%" border="0">
+<tr class="header2">
+<td><span class="fleft">平特系列</span></td>
+</tr>
+<tr>
+ <td width="100%">
+  <ul class="list2">
+                                        <li><a href="https://www.niuwa022.cc/images/1005864.html" >马经平特图（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005863.html" >平特精版料（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005862.html" >平特心水报（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005861.html" >平特内幕精选（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005860.html" >平特王日报（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005859.html" >平特乾坤卦（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005858.html" >平特藏宝图（荐）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005857.html" >宝宝平特图（热）</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005852.html" >金钥匙平特报</a></li>
+                                <li><a href="https://www.niuwa022.cc/images/1005821.html" >一肖平特图</a></li>
+              
+   </ul>
+   <div class="clear"></div>
+   </td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+			</div>
+			
+			
+			
+			<div class="go6h_6hackPhoto_title">
+				<span class="go6h_6hackPhoto_title_left">六合图库</span><a class="go6h_moreBtn" href="https://www.niuwa022.cc/color.html" >更多</a>
+			</div>	
+			<div class="go6h_6hackphotoList">
+				<div class="go6h_6hackphotoListScroll">
+					<ul id="content-slider"  style="width: 770px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+                        						<li><a href="https://www.niuwa022.cc/images/1005864.html" ><img src="http://ls.lbyfw.net//col/87/pt00.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1005851.html" ><img src="http://ls.lbyfw.net//col/87/j01.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1005835.html" ><img src="http://ls.lbyfw.net//col/87/8888.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1005825.html" ><img src="http://ls.lbyfw.net//col/87/805.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1005040.html" ><img src="http://www.tkcp021.cc/upload/20170726/597863e453c43.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1004867.html" ><img src="http://www.tkcp021.cc/upload/20170726/597863c2a05cc.jpg" ></a></li>
+												<li><a href="https://www.niuwa022.cc/images/1004855.html" ><img src="http://www.tkcp021.cc/upload/20170726/5978637268781.jpg" ></a></li>
+											
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="go6h_zjTuiJianBlock">
+			<div class="go6h_zjTuiJianBlock_title">
+				<span class="go6h_selectedPosts_titleLeft">高手帖</span><a class="go6h_moreBtn" href="https://www.niuwa022.cc/bbs.html" >更多</a>
+			</div>
+			<div class="go6h_zjTuiJianList">
+				<ul>
+								<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/92016.html" >088期：【乐极悲生】〔平特1肖｜7期中6期〕打造论坛最高连准记录,细水长流！准！</a></span><span class="rightName">3054人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/92270.html" >088期：【过意不去】〔6肖中特｜10期中9期〕资料准不准,看了就知道！赚！</a></span><span class="rightName">2674人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/93191.html" >088期：【生死未卜 】〔平特1肖｜7期中6期〕打造论坛最高连准记录,细水长流！准！</a></span><span class="rightName">2046人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/93499.html" >088期：【七孔八洞】〔6肖中特｜10期中9期〕资料准不准,看了就知道！赚！</a></span><span class="rightName">1795人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/91192.html" >088期：【对天发誓】〔6肖中特｜10期中8期〕资料准不准,看了就知道！赚！</a></span><span class="rightName">1978人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/91264.html" >088期：【王八羔子】〔18码中特｜10期中8期〕生活赚钱两不误,发财的请进！准！</a></span><span class="rightName">3098人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/91302.html" >088期：【手慌脚忙】〔18码中特｜10期中8期〕生活赚钱两不误,发财的请进！准！</a></span><span class="rightName">2230人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/91711.html" >088期：【满面春风】〔双波中特｜10期中8期〕资料准就等于,钱生钱 准！准！准！</a></span><span class="rightName">1519人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/91806.html" >088期：【细嚼慢咽】〔6肖中特｜10期中8期〕资料准不准,看了就知道！赚！</a></span><span class="rightName">1772人气</span></li>
+            				<li><span class="leftContent"><a class="wenzhang" href="https://www.niuwa022.cc/bbs/92014.html" >088期：【临去秋波】〔3头中特｜10期中8期〕实力才是最好的赢家,准备好了吗？准！</a></span><span class="rightName">1567人气</span></li>
+                            </ul>
+			</div>
+		</div>
+		
+		
+
+
+<style>
+.home-urls {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #fff;
+	background: #f1592a;
+    text-align: center;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide img{
+	max-height:100%;
+	max-width:100%;
+}
+</style>
+
+<div class="home-urls">
+  牛蛙心水报
+</div>
+			<!-- Swiper -->
+
+
+    <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+        
+                   			<div class="swiper-slide">
+      			<img src="https://www.niuwa022.cc/themes/qy/new/images/ripple.svg" data-src="https://www.niuwa022.cc/upload/20170726/597872a5a4a53.jpg" alt="" class="swiper-lazy">
+                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+                    			<div class="swiper-slide">
+      			<img src="https://www.niuwa022.cc/themes/qy/new/images/ripple.svg" data-src="https://www.niuwa022.cc/upload/20170723/59747f489bc1c.jpg" alt="" class="swiper-lazy">
+                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+                    			<div class="swiper-slide">
+      			<img src="https://www.niuwa022.cc/themes/qy/new/images/ripple.svg" data-src="https://www.niuwa022.cc/upload/20170721/5971b00719f2d.jpg" alt="" class="swiper-lazy">
+                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+                    			<div class="swiper-slide">
+      			<img src="https://www.niuwa022.cc/themes/qy/new/images/ripple.svg" data-src="https://www.niuwa022.cc/upload/20170719/596ec626c7b7f.jpg" alt="" class="swiper-lazy">
+                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+                    			<div class="swiper-slide">
+      			<img src="https://www.niuwa022.cc/themes/qy/new/images/ripple.svg" data-src="https://www.niuwa022.cc/upload/20170716/596b789182920.jpg" alt="" class="swiper-lazy">
+                 <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+               </div>
+              		</div>
+    </div>
+	
+		<div class="go6h_zjTuiJianBlock">
+			<div class="go6h_zjTuiJianBlock_title">
+				<span class="go6h_selectedPosts_titleLeft">免费资料大全</span><a class="go6h_moreBtn" href="https://www.niuwa022.cc/news.html" >更多</a>
+			</div>
+			<div class="go6h_zjTuiJianList">
+				<ul>
+
+       <div class="ycgs_box_inner ulleft">
+          <ul>
+                            <li><a href="https://www.niuwa022.cc/newslist-45707.html" >灯笼挂牌</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45712.html" >跑狗玄机</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45711.html" >老版跑狗</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45724.html" >惠泽社群</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45759.html" >蓝月亮料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45781.html" >管家婆料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45765.html" >天线宝宝</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45762.html" >黄大仙料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45761.html" >凤凰马经</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45722.html" >白小姐料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45720.html" >马会绝杀</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45769.html" >特区天顺</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45721.html" >赛马会料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45797.html" >特码诗</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45796.html" >图解专区</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45795.html" >资料专区</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45793.html" >正版资料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45770.html" >藏宝图</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45767.html" >各坛高手</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45766.html" >十虎权威</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45764.html" >精选玄机</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45763.html" >刘伯温料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45760.html" >官方供料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45758.html" >彩券公司</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45757.html" >鬼谷子网</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45756.html" >金明世家</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45754.html" >看图解码</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45751.html" >各坛精料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45750.html" >顶尖高手</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45749.html" >博发世家</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45748.html" >彩坛至尊</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45747.html" >任我发料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45746.html" >镇坛之宝</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45745.html" >香港赌圣</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45743.html" >本站推荐</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45742.html" >百万富翁</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45740.html" >综合挂牌</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45738.html" >高手解挂</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45734.html" >幸运彩图</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45733.html" >精选彩图</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45732.html" >宝宝内幕</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45731.html" >小龙人坛</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45730.html" >平肖平码</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45729.html" >报刊大全</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45723.html" >曾道人料</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45718.html" >彩图诗句</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45717.html" >九龙内幕</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45714.html" >今旺信箱</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45713.html" >六皇信箱</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45705.html" >正版</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45709.html" >权威</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45786.html" >函数公式</a></li>	
+                            <li><a href="https://www.niuwa022.cc/newslist-45788.html" >全年资料</a></li>	
+                      </ul>
+
+    </div>				
+				</ul>
+			</div>
+		</div>
+			<div class="go6h_selectedPosts">
+			<div class="go6h_selectedPosts_title">
+				<span class="go6h_zjTuiJianBlock_titleLeft">欢迎您参与讨论</span><a class="go6h_moreBtn">更多</a>
+			</div>
+						<!--PC和WAP自适应版-->
+
+<style>
+#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w .service-wrap-w a {
+display: none!important;
+}
+#powerby_sohu a{font-size:0!important;line-height:0!important}
+</style> 
+<!--PC和WAP自适应版-->
+<div id="SOHUCS" sid="index" ></div> 
+<script type="text/javascript"> 
+(function(){ 
+var appid = 'cyt4LP2tb'; 
+var conf = 'prod_c9575f8fc75b00c877edb1990be9d70d'; 
+var width = window.innerWidth || document.documentElement.clientWidth; 
+if (width < 960) { 
+window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })(); </script>
+
+		</div>	
+		
+	</div>
+
+
+</div>
+<div id="tmpinfo" style="display:none;"></div>
+<footer>
+    
+ <p><p>香港特别行政区六合彩彩票发行管理中心唯一指定网络信息发布媒体</p>
+        <p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261300620'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1261300620%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>牛蛙彩票|手机开奖|手机报码|牛蛙彩票顶呱呱|易记域名WWW.15700.COM
+       </p></p>
+</footer>
+<!-- <script src="https://www.niuwa022.cc/themes/qy/Public/wap/jquery-1.8.3.min.js" ></script>  -->
+<div class="gotop backtop" style="display:none;"></div>
+<script type="text/javascript">
+//返回顶部
+$(document).ready(function(){
+	$(window).scroll(function () {
+		var scrollHeight = $(document).height();
+		var scrollTop = $(window).scrollTop();
+		var $windowHeight = $(window).innerHeight();
+		scrollTop > 75 ? $(".gotop").fadeIn(200).css("display","block") : $(".gotop").fadeOut(200).css({"background-image":"url(https://www.niuwa022.cc/themes/qy/Public/wap/iconfont-fanhuidingbu_up.png)"});
+	});
+	$('.backtop').click(function (e) {
+		$(".gotop").css({"background-image":"url(https://www.niuwa022.cc/themes/qy/Public/wap/iconfont-fanhuidingbu.png)"});
+		e.preventDefault();
+		$('html,body').animate({ scrollTop:0});
+	});
+});
+</script>
+<style type="text/css">
+body { margin-bottom:48px !important; }
+a, button, input { -webkit-tap-highlight-color:rgba(255, 0, 0, 0); }
+ul, li { list-style:none; margin:0; padding:0 }
+.top_bar { position: fixed; z-index: 900; bottom: 0; left: 0; right: 0; margin: auto; font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif; }
+.top_menu { display:-webkit-box; border-top: 1px solid #3D3D46; display: block; width: 100%; background: rgba(255, 255, 255, 0.7); height: 48px; display: -webkit-box; display: box; margin:0; padding:0; -webkit-box-orient: horizontal; background: -webkit-gradient(linear, 0 0, 0 100%, from(#524945), to(#48403c), color-stop(60%, #524945)); box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1) inset; }
+.top_bar .top_menu>li { -webkit-box-flex:1; position:relative; text-align:center; }
+.top_menu li:first-child { background:none; }
+.top_bar .top_menu>li>a { height:48px; margin-right: 1px; display:block; text-align:center; color:#FFF; text-decoration:none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); -webkit-box-flex:1; }
+.top_bar .top_menu>li.home { max-width:70px }
+.top_bar .top_menu>li.home a { height: 66px; width: 66px; margin: auto; border-radius: 60px; position: relative; top: -22px; left: 2px; background: url("https://www.niuwa022.cc/themes/qy/Public/wap/home.png") no-repeat center center; background-size: 100% 100%; }
+.top_bar .top_menu>li>a label { overflow:hidden; margin: 0 0 0 0; font-size: 12px; display: block !important; line-height: 18px; text-align: center; }
+.top_bar .top_menu>li>a img { padding: 3px 0 0 0; height: 24px; width: 24px; color: #fff; line-height: 48px; vertical-align:middle; }
+.top_bar li:first-child a { display: block; }
+.menu_font { text-align:left; position:absolute; right:10px; z-index:500; background: -webkit-gradient(linear, 0 0, 0 100%, from(#524945), to(#48403c), color-stop(60%, #524945)); border-radius: 5px; width: 120px; margin-top: 10px; padding: 0; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
+.menu_font.hidden { display:none; }
+.menu_font { top:inherit !important; bottom:60px; }
+.menu_font li a { height:40px; margin-right: 1px; display:block; text-align:center; color:#FFF; text-decoration:none; text-shadow: 0 1px rgba(0, 0, 0, 0.3); -webkit-box-flex:1; }
+.menu_font li a { text-align: left !important; }
+.top_menu li:last-of-type a { background: none; overflow:hidden; }
+.menu_font:after { top: inherit!important; bottom: -6px; border-color: #48403c rgba(0, 0, 0, 0) rgba(0, 0, 0, 0); border-width: 6px 6px 0; position: absolute; content: ""; display: inline-block; width: 0; height: 0; border-style: solid; left: 80%; }
+.menu_font li { border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+.menu_font li:first-of-type { border-top: 0; }
+.menu_font li:last-of-type { border-bottom: 0; }
+.menu_font li a { height: 40px; line-height: 40px !important; position: relative; color: #fff; display: block; width: 100%; text-indent: 10px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.menu_font li a img { width: 20px; height:20px; display: inline-block; margin-top:-2px; color: #fff; line-height: 40px; vertical-align:middle; }
+.menu_font>li>a label { padding:3px 0 0 3px; font-size:14px; overflow:hidden; margin: 0; }
+#menu_list0 { right:0; left:10px; }
+#menu_list0:after { left: 20%; }
+#sharemcover { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); display: none; z-index: 20000; }
+#sharemcover img { position: fixed; right: 18px; top: 5px; width: 260px; height: 180px; z-index: 20001; border:0; }
+.top_bar .top_menu>li>a:hover, .top_bar .top_menu>li>a:active { background-color:#333; }
+.menu_font li a:hover, .menu_font li a:active { background-color:#333; }
+.menu_font li:first-of-type a { border-radius:5px 5px 0 0; }
+.menu_font li:last-of-type a { border-radius:0 0 5px 5px; }
+#plug-wrap { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0); z-index:800; }
+#cate18 .device {bottom: 49px;}
+#cate18 #indicator {bottom: 240px;}
+#cate19 .device {bottom: 49px;}
+#cate19 #indicator {bottom: 330px;}
+#cate19 .pagination {bottom: 60px;}
+.showNav{
+	position:fixed;
+	z-index:1000;
+	width:66px;
+	height:66px;
+	left:50%;
+	margin-left:-33px;
+	bottom:0;
+	background: url('https://www.niuwa022.cc/themes/qy/Public/img/home.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+.top_bar dl{
+	display:none;
+	background:#524945;
+}
+.top_bar dl dd{
+	width:20%;
+	float:left;
+	text-align:center;
+	color:#fff;
+}
+.top_bar dl dd a{
+	color:#fff;
+	line-height:3em;
+}
+.top_bar.show dl{
+	display:block
+}
+.row:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+</style>
+
+
+
+<div class="top_bar">
+	<div class="showNav"></div>
+  <nav>
+	<dl class="row">
+		
+		
+		
+		
+
+
+
+
+
+		<dd><a href="https://niuwa023.cc">牛蛙彩票</a></dd>
+		<dd><a href="https://www-paogou.cc">跑狗</a></dd>
+		<dd><a href="https://www-guapai.cc">挂牌</a></dd>
+		<dd><a href="https://caishenbao.cc">财神报</a></dd>
+		<dd><a href="https://www-temashi.cc">特码诗</a></dd>
+		<dd><a href="https://www-cangbaotu.cc">藏宝图</a></dd>
+		<dd><a href="https://www-guanjiapo.cc">管家婆</a></dd>
+		<dd><a href="#">&nbsp;</a></dd>
+		<dd><a href="https://www-zengdaoren.cc">曾道人</a></dd>
+		<dd><a href="https://www-baixiaojie.cc">白小姐</a></dd>
+		
+		
+		
+		
+		
+	</dl>
+    <ul id="top_menu" class="top_menu">
+		<li><a href="https://www.niuwa022.cc/" ><img src="https://www.niuwa022.cc/themes/qy/Public/wap/plugmenu1.png" ><label>首页</label></a></li>
+		<li><a href="https://www.niuwa022.cc/kj.html" ><img src="https://www.niuwa022.cc/themes/qy/Public/wap/plugmenu2.png" ><label>开奖</label></a></li>    
+		<li class="home" style="visibility: hidden;"><a href="https://www.niuwa022.cc"	></a></li>
+		<li><a href="https://www.niuwa022.cc/color.html" ><img src="https://www.niuwa022.cc/themes/qy/Public/wap/plugmenu3.png" ><label>图库</label></a></li>
+		<li><a href="https://www.niuwa022.cc/charts.html" ><img src="https://www.niuwa022.cc/themes/qy/Public/wap/plugmenu4.png" ><label>图表</label></a></li>
+	</ul>
+  </nav>
+</div>
+
+<script>
+	$('.showNav').on('click',function(){
+		$('.top_bar').toggleClass('show')
+	})
+
+</script><script language="javascript"> 
+
+function reload(secs)
+{  
+var hand_reload=getCookie('hand_reload');
+var ischecked=document.getElementById("reloadCheckbox");
+if(!ischecked.checked||hand_reload=="yes"){
+ischecked.checked=false;
+var view=document.getElementById("remainingTime");
+view.innerHTML="当前处于手动刷新模式";
+return
+}
+var view=document.getElementById("remainingTime");
+view.innerHTML=secs+"秒后刷新页面";
+if(secs>0){
+secs=secs-1;
+setTimeout("reload("+secs+")",1000);  
+}else{
+location.reload();
+}
+}
+
+function setCookie(c_name,value,expiredays)
+{
+var exdate=new Date()
+exdate.setDate(exdate.getDate()+expiredays)
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+}
+
+function getCookie(c_name)
+{
+if(document.cookie.length>0)
+{
+c_start=document.cookie.indexOf(c_name + "=")
+if (c_start!=-1)
+{ 
+c_start=c_start + c_name.length+1 
+c_end=document.cookie.indexOf(";",c_start)
+if (c_end==-1) c_end=document.cookie.length
+return unescape(document.cookie.substring(c_start,c_end))
+}
+}
+return ""
+}
+
+function checkCookie()
+{
+secs=getCookie('secs')
+if(secs!=null && secs!="")
+{ 
+document.getElementById("reloadTime").value=secs;
+reload(secs);
+}
+}
+
+function setTime()
+{   setCookie('hand_reload','no',365);
+secs=document.getElementById("reloadTime").value;
+setCookie('secs',secs,365);
+location.reload();
+}
+
+function changeType(){
+var ischecked=document.getElementById("reloadCheckbox")
+if(ischecked.checked){
+setCookie('hand_reload','no',365);
+location.reload();
+}
+}
+function reload_hand(){
+setCookie('hand_reload','yes',365);
+location.reload();	
+}
+</script>
+
+<script> 
+$(function(){ 
+    $('#Marquee_x').jcMarquee({ 'marquee':'x','margin_right':'10px','speed':20 }); 
+}); 
+</script> 	
+	<script src="https://www.niuwa022.cc/themes/qy/Public/wap/src/js/lightslider.js" ></script> 
+    <script>
+    	 $(document).ready(function() {
+			$("#content-slider").lightSlider({
+                loop:true,
+                keyPress:true
+            });
+
+		});
+    </script> 
+
+			<script src="https://www.niuwa022.cc/themes/qy/Public/JavaScript/bmjs-wap00.js"  type="text/javascript"></script>	
+			
+    			
+	<div class="shade" style="display:none;"></div>
+	<div class="dialog" style="display:none;">
+		<div class="close"></div>
+		<div style="text-align: center;">	
+			<div style="line-height: 24px;">
+			<p style="text-align: center;">
+	<strong><span style="font-size:20px;"><span style="color:#0000ff;"><span style="background-color:#ff0000;">六合精英交流群</span></span></span></strong></p>
+<p style="text-align: center;">
+	<span style="color:#0000ff;"><span style="background-color:#ffd700;">六合交流群：</span></span><span style="background-color:#ffd700;">418781067</span></p>
+<p style="text-align: center;">
+	<a href="//shang.qq.com/wpa/qunwpa?idkey=d26be55c3b8e638cd9abaa7b9fe3e1a9db53757dac3dfa0f51c452b22fb4fa6c" target="_blank"><img alt="四海老表132群" border="0" src="//pub.idqqimg.com/wpa/images/group.png" title="四海老表132群" /></a></p>
+<p style="text-align: center;">
+	<span style="color:#0000ff;"><span style="background-color:#ffd700;">六合专家群：545407976</span></span></p>
+<p style="text-align: center;">
+	<a href="//shang.qq.com/wpa/qunwpa?idkey=16130f368186690c7b22a574721f65e4761c5f9fb7d3d4ef976949be2aa248b5" target="_blank"><img alt="蹦沙卡拉卡" border="0" src="//pub.idqqimg.com/wpa/images/group.png" title="蹦沙卡拉卡" /></a></p>
+<p style="text-align: center;">
+	<span style="color:#0000ff;"><span style="background-color:#ff8c00;">精英高手，等待你的加入</span></span></p>
+
+		</div></div>
+
+		<a href="http://shang.qq.com/wpa/qunwpa?idkey=4962b4d2b34e8922be03bf793a74d39dbe3c82264566195e55e5592f86c46dfa" class="golink">申请加群</a>
+	</div>
+	
+	
+	
+    <script>
+      	 
+      
+      
+	 $(function(){
+		 if($.cookie('layer')==undefined){
+                $('.shade').show();
+                $('.dialog').show();
+		 
+             $.cookie('layer', '11', { expires: 7 }); 
+		 }
+		  
+		  $('.shade').on('click',function(){
+                $('.shade').hide();
+                $('.dialog').slideUp();
+          })
+          $('.close').on('click',function(){
+                $('.shade').hide();
+                $('.dialog').slideUp();
+          })
+		  
+	  });
+	  
+	  </script>
+	  
+	  	   <script>
+	  function  showsearch(){
+		$('.index-form').toggle();
+	  }
+	  
+	  
+	function  showsearch(){
+		$('.index-form').toggle();
+	  }
+	  
+	  
+	  var swiper = new Swiper('.swiper-container',{
+		preloadImages: !1,
+		lazyLoading: !0
+	  });
+
+		  
+    </script>
+		
+</body>
+</html>

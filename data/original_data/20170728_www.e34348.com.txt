@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="system zh-cn  first  isLoginN">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="澳门银河官方网-实力巨献-携手葡京娱乐场、金沙娱乐场，永利娱乐场联营，百亿打造顶级线上娱乐平台" />
+<link rel="shortcut icon" href="/skin/images/favicon.ico" type="image/x-icon" />
+<title>澳门银河官方网-世界上第一个球彩网站</title>
+<link rel="stylesheet" href="/skin/css/standard.css" />
+<link href="/skin/css/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/skin/css/css.css" media="screen" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/skin/script/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="/skin/script/float.js"></script> 
+<script type="text/javascript" src="/skin/script/tab.js?v=66"></script> 
+<script type="text/javascript" src="/skin/script/intr_pageto.js"></script>
+</head>
+<body>
+
+<div id="mainall">
+  <div id="mainBody">
+    <script>
+var now_version="pc";
+if(window.location.href.toLowerCase().indexOf("/mobile/")!=-1)
+{
+  now_version="mobile";
+}
+var pc_url="http://"+window.location.host+"/index.aspx";
+var mobile_url="http://"+window.location.host+"/mobile/index.aspx";//手机版地址
+
+//取cookies函数   
+    function getCookieM(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+	//存cookie
+function setCookieM(name, value)
+{
+	expires = new Date();
+	expires.setTime(expires.getTime() + (1000 * 86400 * 365));
+	document.cookie = name + "=" + value + "; expires=" + expires.toGMTString() + "; path=/";
+}
+//取Url参数
+function GetQueryStringM(name)
+{    
+	var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");
+	var r=window.location.search.substr(1).match(reg);
+	if(r!=null)
+	{
+		return unescape(r[2])
+	}
+	return null;     
+}
+
+var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+            weixin: u.indexOf('MicroMessenger') > -1, //是否微信
+            qq: u.match(/\sQQ/i) == " qq" //是否QQ
+        };
+    }(),
+    language:(navigator.browserLanguage || navigator.language).toLowerCase()
+}
+var intr=GetQueryStringM("intr");
+if (intr == null||intr=="") 
+{
+    intr=getCookieM("intr");
+}
+var ignore=GetQueryStringM("ignore");//是否忽略判断是否手机 1忽略 其它不忽略
+if (ignore == null||ignore=="") 
+{
+    ignore=getCookieM("ignore");
+}
+if (ignore=="1") 
+{
+    setCookieM("ignore","1");
+}
+
+
+if(ignore!="1")
+{
+	if(browser.versions.mobile||browser.versions.android||browser.versions.ios)
+	{
+		if(now_version=="pc")
+		{
+			if (intr == null||intr=="") {
+				location.href=mobile_url;
+			}
+			else
+			{
+				location.href=mobile_url+"?intr="+intr;
+			}
+		}
+	}
+	else
+	{
+		if(now_version=="mobile")
+		{
+			if (intr == null||intr=="") {
+				location.href=pc_url;
+			}
+			else
+			{
+				location.href=pc_url+"?intr="+intr;
+			}
+		}
+	}
+}
+</script>
+<script type="text/javascript" src="/member/skin/script/language_cn.js"></script>
+<script type="text/javascript" src="/member/skin/script/login_bbin.js?v=1"></script>
+<div id="header">
+  <div id="headtop">
+    <div id="header-logo">
+      <object width="356" height="120" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" onmousedown="location.href='/'">
+        <param value="/skin/images/logo.swf" name="movie" />
+        <param value="transparent" name="wmode" />
+        <param value="high" name="quality" />
+        <embed width="356" wmode="transparent" height="120" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/skin/images/logo.swf">
+      </object>
+    </div>
+    <div id="headright">
+      <div id="hdselect"> <!--<a href="http://www..com" target="_blank"><strong>易记域名：www..com </strong></a>--><a href="/app.aspx" style="color:red;">APP下载</a>&nbsp;&nbsp;|<!--&nbsp;&nbsp; <a href="/agent.aspx">代理加盟</a>&nbsp;&nbsp;|-->&nbsp;&nbsp; <a href="###" onclick="$('#mname').focus()">代理登入</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/line.aspx">线路检测</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:void(0)" onclick="setfirst('http://'+window.location.host)">设为首页</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:void(0)" onclick="bookmarksite('http://'+window.location.host,document.title)">加入收藏</a> </div>
+      <div class="clear"></div>
+      <div id="loginbox"> 
+        <!--登录前-->
+        <div id="loginDiv" style="display:none1">
+          <form name="LoginForm" method="POST" style="margin:0" autocomplete="off">
+            <div id="loginarea">
+              <div class="logintxt">
+                <input name="username" tabindex="1" type="text" class="za_text" id="mname" maxlength="20" value="帐号" onfocus="if(this.value=='帐号')this.value=''" onblur="if(this.value =='') this.value ='帐号'" />
+              </div>
+              <div class="logintxt">
+                <input name="passwd" tabindex="2" type="password" class="za_text" id="mpass" maxlength="13" onfocus="if(this.value=='密码123')this.value=''" onblur="if(this.value =='') this.value ='密码123'" value="密码123" />
+              </div>
+              <div class="logintxt">
+                <input name="rmNum" tabindex="3" type="text" class="za_text" id="mcode" maxlength="4" value="验证码" onfocus="getCode();if(this.value=='验证码')this.value=''" onblur="if(this.value =='') this.value ='验证码'" />
+                <img style="position: absolute; margin-left: -80px; margin-top: 5px;" border="1" width="70" height="20" onclick="getCode();" alt="( 点选此处产生新验证码 )" src="/skin/images/no.png" id="codeImg"> </div>
+              <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="logintxt1">
+              <input class="Loginbtn" name="Submita" type="button" value="" onclick="checkLogin()" />
+              <div id="Loginbtnpwd"><a onclick="Go_forget_pwd()" href="###"></a></div>
+              <div id="Loginbtnreg"><a href="/reg.aspx"></a></div>
+              <div id="Loginagshiwan"><a href="/trylive/index.aspx" target="_blank"></a></div>
+            </div>
+          </form>
+        </div>
+        <!--登录前--> 
+        <!--登录后-->
+        <style type="text/css">
+                                    .headers .mfzc {
+                                        display: none;
+                                    }
+
+                                    .mCenter {
+                                        height: 65px;
+                                    }
+
+                                    #loginedAcc {
+                                        color: #fff;
+                                        font-size: 12px;
+                                        margin-top: 0px;
+                                        margin-left: 20px;
+                                        float: right;
+                                        margin-right: 5px;
+                                        width: 418px;
+										line-height:20px;
+                                    }
+									#loginedAcc font{color:yellow}
+
+                                    #SU-Menual {
+                                        float: right;
+                                        font-size: 12px;
+                                        margin-top: 5px;
+                                    }
+
+                                        #SU-Menual ul li {
+                                            color: #fff;
+                                            float: left;
+                                            height: 18px;
+                                            padding-right: 3px;
+                                            white-space: nowrap;
+                                        }
+
+                                            #SU-Menual ul li a {
+                                                color: #fff;
+                                                line-height: 18px;
+                                                text-decoration: none;
+                                            }
+
+                                                #SU-Menual ul li a:hover {
+                                                    color: #ff3;
+                                                }
+                                </style>
+        <div id="loginAfterDiv" class="mCenter" style="display:none">
+          <div id="loginedAcc">帐号:<font size="2" id="myname"></font>&nbsp;&nbsp;&nbsp;主帐户:<font size="2" id="mymoney"></font>&nbsp;&nbsp;&nbsp;沙龙:<font size="2" id="mysl"></font><br />BBIN:<font size="2" id="mybbinlive"></font>&nbsp;&nbsp;&nbsp;AG:<font size="2" id="myag"></font>&nbsp;&nbsp;&nbsp;HG:<font size="2" id="myhglive"></font>&nbsp;&nbsp;&nbsp;GD:<font size="2" id="mygd"></font>
+           <!-- <a style="text-decoration: none; margin-left: 5px" href="#"> <img src="/skin/images/x.png" border="0"></a>--> </div>
+          <div style="clear:both;"></div>
+          <div class="SU-Menual" id="SU-Menual">
+            <ul class="login-Menual">
+              <li><a id="su-macenter" href="javascript: f_com.MGetPager2('memberProfile.aspx');" title="会员中心">会员中心</a> </li>
+              <li>｜<a id="su-deposite" href="javascript: f_com.MGetPager2('memberDeposit1.aspx')" title="线上存款">线上存款</a> </li>
+              <li>｜<a id="su-withdraw" href="javascript: f_com.MGetPager2('memberWithdraw.aspx')" title="线上取款">线上取款</a> </li>
+              <li>｜<a id="su-switch" href="javascript: f_com.MGetPager2('memberFundtransfer.aspx')" title="额度转换">额度转换</a> </li>
+              <li>｜<a id="su-account" href="javascript: f_com.MGetPager2('memberAccount.aspx');" title="往来纪录" >往来纪录</a></li>
+              <li>｜<a id="su-msg" href="javascript: f_com.MGetPager2('memberInboxList.aspx')" title="未读讯息">未读讯息</a> (<span id="mymsg" style="color:yellow"></span>) </li>
+              <li>｜<a href="javascript:logout('/index.aspx');" title="登出">登出</a></li>
+            </ul>
+          </div>
+          <!--<div id="look"></div>-->
+        </div>
+        <!--登录后--> 
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <style>
+   #L-Menual ul li a{ width:110px;}
+   #L-Menual{background:url("/skin/images/nav.png?v=1000")  no-repeat;}
+  </style>
+  <div id="L-Menual">
+    <ul id="main-Menual">
+      <li class="LS-home" style="width:110px;"><a id="n1" href="/" class="current" style="padding-left:55px;">首页</a></li>
+      <li class="LS-ball" id="LS-ball" style="width:111px;"><a id="n2" href="/sport.aspx">体育赛事</a></li>
+      <li class="LS-live" id="LS-live" style="width:111px;"><a id="n3" href="/live.aspx">视讯直播</a></li>
+      <li class="LS-game" id="LS-game" style="width:111px;"><a id="n4" href="/game.aspx">电子游艺</a></li>
+      <li class="LS-lottery" style="width:111px;"><a id="n5" href="/lottery.aspx?game=CQ">彩票游戏</a></li>
+      <li class="LS-lottery" style="width:111px;"><a id="n8" href="/lottery.aspx?game=LT">六合彩</a></li>
+      <li class="LS-youhui" style="width:111px;"><a id="n6" href="/offer.aspx" class="textGlitter">优惠活动</a></li>
+      <li class="LS-lines" style="width:107px;"><a id="n7" href="/agent.aspx">代理合作</a></li>
+      <li class="LS-kefu" style="width:100px;"><a onclick="OnlineService()" href="#">在线客服</a></li>
+    </ul>
+    <div id="L-Sub">
+      <div class="LS-ball" id="LS-ball_" style="margin-left: 118px; display: none;"> <span class="subbg-left"></span> <a href="/sport.aspx" title="皇冠体育">皇冠体育</a> <a href="/ts_sport.aspx"  title="体育投注">体育投注</a>  <span class="subbg-right"></span> </div>
+      <div class="LS-live" id="LS-live_" style="margin-left: 148px;display: none;"> <span class="subbg-left"></span> <a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙真人娱乐">沙龙视讯</a> <a href="###" onclick="openBBIN()" title="BBIN真人娱乐">BBIN视讯</a> <a href="/gdlive/index.aspx?act=reg" target="_blank" title="GD真人娱乐">GD视讯</a> <a href="/aglive/index.aspx?act=reg" target="_blank" title="AG真人娱乐">AG视讯</a> <a href="/hylive/index.aspx?act=reg" target="_blank" title="好盈真人娱乐">好盈视讯</a> <a href="/ebetlive/index.aspx?act=reg" target="_blank" title="ebet真人娱乐">ebet视讯</a> <a href="/belive/index.aspx?act=reg" target="_blank" title="必易真人娱乐">必易视讯</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG真人娱乐">HG视讯</a> <a href="/oblive/index.aspx?act=reg" target="_blank" title="欧博真人娱乐">欧博视讯</a> <a href="/gpilive/index.aspx?act=reg" target="_blank" title="GPI真人娱乐">GPI视讯</a>  <span class="subbg-right"></span> </div>
+      <div class="LS-game" id="LS-game_" style="margin-left: 268px; display: none;"> <span class="subbg-left"></span> <a href="/elggame/index.aspx?type=buyu" target="_blank" title="皇家捕鱼">皇家捕鱼</a><a href="/elggame/index.aspx" target="_blank" title="ELG电子游戏">ELG电子</a> <a href="/aglive/index.aspx?type=buyu" target="_blank" title="捕鱼王">捕鱼王</a> <a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙电子游艺">沙龙电子</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG电子游艺">HG电子</a> <a href="/aglive/index.aspx" target="_blank" title="AG电子游艺">AG电子</a> <a href="###" onclick="openBBIN2()" title="BBIN电子游艺">BBIN电子</a>  <span class="subbg-right"></span> </div>
+    </div>
+  </div>
+</div>
+<div class="clear"></div>
+<script language="javascript">
+              $("#LS-ball").hover(function () { try { window.parent.document.getElementById("LS-ball_").style.display = ""; } catch (e) { $("#LS-ball_").css("display", ""); } }, function () { try { window.parent.document.getElementById("LS-ball_").style.display = "none"; } catch (e) { $("#LS-ball_").css("display", "none"); } });
+                $("#LS-ball_").hover(function () { $("#LS-ball_").css("display", ""); }, function () { $("#LS-ball_").css("display", "none"); });
+                $("#LS-game").hover(function () { try { window.parent.document.getElementById("LS-game_").style.display = ""; } catch (e) { $("#LS-game_").css("display", ""); } }, function () { try { window.parent.document.getElementById("LS-game_").style.display = "none"; } catch (e) { $("#LS-game_").css("display", "none"); } });
+                $("#LS-game_").hover(function () { $("#LS-game_").css("display", ""); }, function () { $("#LS-game_").css("display", "none"); });
+                $("#LS-live").hover(function () { try { window.parent.document.getElementById("LS-live_").style.display = ""; } catch (e) { $("#LS-live_").css("display", ""); } }, function () { try { window.parent.document.getElementById("LS-live_").style.display = "none"; } catch (e) { $("#LS-live_").css("display", "none"); } });
+                $("#LS-live_").hover(function () { $("#LS-live_").css("display", ""); }, function () { $("#LS-live_").css("display", "none"); });
+            </script> 
+<!-- head end  -->
+    
+    <div id="wrapindex">
+      <div id="flashbox">
+        <div id="ad-flash">
+          <object width="690" height="408" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+            <param value="/skin/images/ban.swf" name="movie" />
+            <param value="transparent" name="wmode" />
+            <param value="high" name="quality" />
+            <embed width="690" wmode="transparent" height="408" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/skin/images/ban.swf">
+          </object>
+        </div>
+      </div>
+      <div id="indexbox">
+        <div id="indexwrap">
+          <div id="indexnewsbox">
+            <marquee scrollamount="3" scrolldelay="150" direction="left" onmouseover="this.stop();" onmouseout="this.start();" style="cursor: pointer;" id="ele-msgNews">
+            </marquee>
+          </div>
+          <script>
+$(function() {
+    // 最新消息跑馬燈
+    $.ajax({
+        type:'POST',
+        url:'/getmsg.aspx?_r='+Math.random(),
+        data:{},
+        cache: false,
+        error: function() { return false;},
+        success: function(data) {
+                $('#ele-msgNews').html(data).click(function(){HotNewsHistory();});;
+        }
+    });
+});
+</script>
+          <div id="indexfirst">
+            <div id="indexkefu"><a onclick="OnlineService()" href="#" class="popupkefu"></a></div>
+            <div id="indexdown"><a href="http://www.339738.com/app" target="_blank"></a></div>
+            <div id="f1"><a href="/live.aspx"></a></div>
+            <div id="f2"><a href="/sport.aspx"></a></div>
+            <div id="f3"><a href="/lottery.aspx"></a></div>
+            <div id="f4"><a href="/game.aspx"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+        <!-- foot -->
+    <div style="clear:both;"></div>
+    <div id="page-footer">
+      <div class="footer">
+        <div id="footertop">
+          <ul>
+            <li>信息中心</li>
+            <li>产品介绍</li>
+            <li>优惠信息</li>
+            <li>投注资料</li>
+          </ul>
+        </div>
+        <div id="footercenter">
+          <ul>
+            <li>
+              <div class="fctitle">注册</div>
+              <div class="fcinfo">澳门银河赌场致力于为客户提供高品质、高赔率的在线娱乐投注游戏，定期还推出各类存款红利及返水优惠，我们真诚欢迎您加入。</div>
+              <div class="fctitle">合作伙伴</div>
+              <div class="fcinfo">加入澳门银河赌场合作伙伴计划，开始介绍新客户，每月您将获取丰厚的酬金。</div>
+            </li>
+            <li>
+              <div class="fctitle">真人娱乐</div>
+              <div class="fcinfo">澳门银河赌场拥有多个最受欢迎的真人娱乐场，您可以饱览整个游戏大厅和靓丽美女荷官。游戏众多，如真人百家乐，真人骰宝，德州扑克，龙虎斗以及真人轮盘，通过现场视频，您能感受到现场投注的乐趣，或者您也可以选择容易上手的线上老虎机，就有机会获得我们的超级累计大奖。</div>
+            </li>
+            <li>
+              <div class="fctitle">优惠活动</div>
+              <div class="fcinfo">澳门银河赌场为新客户定制各类优惠活动，老客户可享有现金返水及再次存款红利优惠。</div>
+              <div class="fctitle">帮助中心</div>
+              <div class="fcinfo">您可以通过我们的在线客服或者帮助中心获得有关开户、存款、提款及游戏玩法等各方面的帮助。</div>
+            </li>
+            <li>
+              <div class="fctitle">投注记录</div>
+              <div class="fcinfo">通过游戏系统，您可以随时随地查询一切投注纪录。</div>
+              <div class="fctitle">责任博彩</div>
+              <div class="fcinfo">我们积极推行负责任博彩，并极力拒绝未成年玩家使用我们的软件进行网上娱乐。游戏之前，请您遵守自己当地法律。</div>
+            </li>
+          </ul>
+        </div>
+        <div id="ArticleList"><a href='/about.aspx'>关于我们</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href='/deposit.aspx'>存款帮助</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href='/withdraw.aspx'>取款帮助</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href='/faq.aspx'>常见问题</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href='/agent.aspx'>代理合作</a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href='/contact.aspx'>联系我们</a></div>
+        <div id="footermsg">Copyright © 澳门银河赌场线上娱乐城 Reserved</div>
+      </div>
+    </div>
+<!-- Live800默认跟踪代码: 开始-->
+<script language="javascript" src="http://chat7.livechatvalue.com/chat/chatClient/monitor.js?jid=8214529402&companyID=339188&configID=42534&codeType=custom"></script>
+<!-- Live800默认跟踪代码: 结束-->
+        
+        <script type="text/javascript">
+       // $("#LoginForm label").InputLabels();
+    </script>
+  </div>
+</div>
+
+
+    <style type="text/css">
+                #leftfloat a, #rightfloat a {
+                    display: block;
+                    width: 100%;
+                    margin-top: 1px;
+                    /*background-color:#ccc;*/
+                }
+
+                #rightfloat {
+                    width: 155px;
+                    height: 440px;
+                    background: url(/skin/images/kf.png?v=1000);
+                }
+
+                #leftfloat {
+                    width: 127px;
+                    height: 419px;
+                    background: url(/skin/images/kf1.png);
+                }
+            </style>
+    <div id="rightfloat"> <a style="height: 280px; border:red solid 0px;" href="javascript:OnlineService();"></a> <a style="height: 72px; border:red solid 0px;" href="http://wpa.qq.com/msgrd?v=3&uin=984209999&site=澳门银河&menu=yes"></a><a style="height: 38px; border:red solid 0px;" href="http://wpa.qq.com/msgrd?v=3&uin=984029999&site=澳门银河&menu=yes"></a> <a style="height: 37px; border:red solid 0px;" href="#" onclick="document.getElementById('rightfloat').style.display='none'"></a> </div>
+    <!--<div id="leftfloat"> <a style="height: 287px;" href="javascript:OnlineService();"></a> <a style="height: 77px;" href="http://wpa.qq.com/msgrd?v=3&uin=984209999&site=澳门银河&menu=yes"></a> <a style="height: 37px;" href="#" onclick="document.getElementById('leftfloat').style.display='none'"></a> </div>-->
+    
+    <script type="text/javascript">
+            /*$("#leftfloat").Float({ topSide: 130, floatRight: 0, side: 5, close: 'colseleft' });*/
+            $("#rightfloat").Float({ topSide: 130, floatRight: 1, side: 5, close: 'colserigth' });
+        </script> 
+
+		<!--样式1-->
+<div class="mask"></div>
+<div class="mess" style="display: none">
+  <p class="Poptop"> <span class="Poptitle"></span><span class="closePopbtn">关闭</span> </p>
+  <p class="Popcontent"> </p>
+</div>
+<link rel="stylesheet" type="text/css" href="newajax/skin/pop_style1.css" />
+<!--样式1-->
+
+<!--样式2-->
+<script type="text/javascript" src="newajax/skin/jquery-ui-1.8.21.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="newajax/skin/jquery-ui-1.8.21.custom.css" />
+<div id="js-notice-pop" style="display:none;"></div>
+<!--样式2-->
+
+<!--样式3-->
+<script type="text/javascript" src="newajax/skin/jquery.colorbox.js"></script>
+<link href="newajax/skin/colorbox.css" rel="stylesheet" />
+<div style="display:none">
+  <div id="ShowPopup" style="padding-top:5px"> 
+  </div>
+</div>
+<!--样式3-->
+
+<!--样式4-->
+<script type="text/javascript" src="newajax/layer/layer.js"></script>
+<!--样式4-->
+
+<script type="text/javascript" src="newajax/skin/all_pop.js?v=1000"></script>
+ 
+        
+            <!--左下角-->
+  <script type="text/javascript" src="/skin/script/index_left_pop.js?v=1000"></script>
+    <script>
+NationalDayA("<div id='NationalDayA' style=' width: 280px;height:298px;position:fixed;left: 0px;bottom: 0;z-index: 9999;background: url(/skin/images/phone-down.png) no-repeat bottom;_background: url(/skin/images/phone-down.png) no-repeat bottom;'><div id='NationalDayA-title' style='height: 30px;width:30px;cursor: pointer;background: url(/skin/images/close2.png) 0 -30px no-repeat;_background: url(/skin/images/close.png) 0 -30px no-repeat;'></div><div id='NationalDayA-con' style='height: 100%; cursor:pointer'></div></div>", true, "/app.aspx");
+    </script>
+    <!--左下角-->
+</body>
+</html>

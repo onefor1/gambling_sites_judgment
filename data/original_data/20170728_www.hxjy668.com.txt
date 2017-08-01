@@ -1,0 +1,956 @@
+ <!DOCTYPE html>
+<html class="mq-xs mq-sm mq-md mq-lg mq-gfb">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta charset="UTF-8" /> 
+<title>汇信聚业</title> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+<meta name="description" content="汇信聚业-您身边的理财专家" /> 
+<meta name="keywords" content="汇信聚业-您身边的理财专家" />
+<link rel="stylesheet" type="text/css" href="/public/Front2/css/base.css">
+<link rel="stylesheet" type="text/css" href="/public/Front2/css/style.css">
+
+
+
+<script type="text/javascript" src="/public/Front2/js/jquery.min.js"></script>
+<script type="text/javascript" src="/public/Front2/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+// JavaScript Document
+function urlredirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase(); 
+    if ((sUserAgent.match(/(ipod|iphone os|midp|ucweb|android|windows ce|windows mobile)/i))) {
+        // PC跳转移动端
+        var thisUrl = window.location.href;
+        window.location.href = thisUrl.substr(0,thisUrl.lastIndexOf('/')+1)+'mobile/';
+         
+    }
+}
+urlredirect();
+</script>
+<link rel="stylesheet" type="text/css" href="/public/Front/css/default.css">
+<link rel="stylesheet" href="/public/Front/css/liMarquee.css">
+<link rel="stylesheet" href="/public/Front2/css/jqcool.css">
+<script type="text/javascript" src="/public/Front2/js/sl.js"></script>
+   <link rel="stylesheet" href="/public/style/css/indexcss.css" />
+   <link rel="stylesheet" href="/public/style/css/indexstyle.css" />
+     <script type="text/javascript" src="/public/Front/js/json-eps.js"></script> 
+  <script type="text/javascript" charset="utf-8" src="/public/Front/user/user.js"></script>
+   <style>
+	.bd .conWrap .con{
+		width:895px!important;
+		height:1210px!important;
+		overflow:hidden;
+		position:relative!important;
+		
+	}
+	.bd .conWrap{
+		height:1210px!important;
+		    overflow: hidden;
+	}
+</style>
+<style type="text/css">
+.str_wrap{
+  padding-left: 3em;
+  padding-right: 3em;
+ margin-top-: -10px;
+  height: 3em;
+  line-height: 3em;
+  font-size:1.3em;
+  color: white;
+}
+</style>
+<script type="text/javascript">
+// JavaScript Document
+function urlredirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase(); 
+    if ((sUserAgent.match(/(ipod|iphone os|midp|ucweb|android|windows ce|windows mobile)/i))) {
+        // PC跳转移动端
+        var thisUrl = window.location.href;
+        window.location.href = thisUrl.substr(0,thisUrl.lastIndexOf('/')+1)+'mobile/';
+         
+    }
+}
+urlredirect();
+</script>
+</head>
+<body >
+  <div class="top" id="top" style="    width: 100%;    margin: 0 auto;">
+    <div class="kf">
+      <p style="float:left;"><i></i><span>服务热线:021-2324234-0</span></p>
+            <p style="float:right;">欢迎您来到汇信聚业<a href="/login.php">登录</a><a href="/register.php">注册</a></p>
+          </div>
+  </div>
+<div class="menu-wrap">
+  <div class="menu">
+    <img src="/public/Front2/images/logo.png" />
+	<!--<img style="height:100px;width:100px;" src="/img/qr.png" border="0px">-->
+    <ul>
+            <li><a href="/">首页</a></li>
+      <li ><a href="/projectlist.php?type=rt">投资项目</a></li>
+      <li ><a href="/user/index.php">会员中心</a></li>
+      <li ><a href="/safety.php">安全保障</a></li>
+      <li ><a href="/service/jr.php?type=about">帮助中心</a></li>
+      <li ><a href="/aboutus/jianjie.php">关于我们</a></li>
+    </ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+//播放提示音
+function playSound(name,str){  
+$("#"+name+"").html('<embed width="0" height="0"  src="/public/Front/sound/'+str+'" autostart="true" loop="false">');
+}
+
+function total() {
+$.get("/action/user.php?action=msg_Unread",function(data){
+  top_msg = parseInt($("#top_msg").text()); //统计未读短信
+  
+  //赋值到模板
+  $("#top_msg").html(data); //统计未读短信
+  
+  //未读站内短信提示
+  if (data > 0) {
+    //playSound('top_playSound','msg.mp3');
+  }
+});
+}
+total();
+setInterval("total()",3000000);
+</script>   <div class="banner">
+    <div class="trigger">
+          <div class="bd">
+            <ul>
+			<!--<li><a href="/register.php" target="_blank"><img src="/public/Front2/images/38.png"></a></li>-->
+			
+                 <li><a href="/register.php" target="_blank"><img src="/public/Front2/images/3.jpg"></a></li>
+                <li><a href="/register.php" target="_blank"><img src="/public/Front2/images/1.jpg"></a></li>
+                <li><a href="/register.php" target="_blank"><img src="/public/Front2/images/2.jpg"></a></li>
+				
+				  <li><a href="/register.php" target="_blank"><img src="/public/Front2/images/4.jpg"></a></li>
+				  <li><a href="/register.php" target="_blank"><img src="/public/Front2/images/banner5888.jpg"></a></li>
+            </ul>
+          </div>
+          <div class="hd">
+            <ul>
+                <li class="on"></li>
+                <li></li>
+                <li></li>
+				 <li></li>
+                <li></li>
+            </ul>
+          </div>
+		
+      </div>
+	  
+	    <div class="picshow-main">
+		<div class="picshow-box">
+			<!--<h3 ><span>519,389,156</span>投资者</h3>-->
+			
+			
+			<div class="bd">
+                				<div class="bd_title">最高日化收益率</div>
+<div class="average"><span>2.19%</span></div>
+<div class="bd_content">本息保障</div>                 
+ <ul >
+                  	 
+					  <li class="loginfont"><a href="/login.php"  target="_blank" class="sub02">立即登录</a></li>
+					  <li><a href="/register.php" class="sub01"  target="_blank">注册送红包</a></li>
+                  </ul>
+							 </div>
+							 
+							 
+			
+			
+			
+			
+		</div>
+	</div>
+      <div class="focus">
+        <div class="focus-news">
+          <span>最新公告:</span>
+            <div class="str3 str_wrap">
+               
+    <a target="_blank" style="color:#333;font-size:16px;" href="/aboutus/newsinfo.php?id=286">互联网理财规划</a>
+             </div>
+        </div>
+      </div>
+  </div>
+   <div class="w1180">
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tbody><tr>
+			<td height="250">
+				<div class="w1180  fn_cle ">
+					<div class="mainLeadList">
+						<ul>
+							<li><strong><i class="i-pb1"></i></strong><b>360°安全保证</b><span>【本息保障】<br>
+								线下实体风控<br>
+								 资金托管体系</span></li>
+							<li><strong><i class="i-pb2"></i></strong><b>高收益低门槛</b><span>100元起投<br>
+								45倍银行活期存款收益<br>
+								10秒开户闪电投资</span></li>
+							<li><strong><i class="i-pb3"></i></strong><b>分红提现</b><span>5分钟到账<br>
+								操作简单，方便快捷</span></li>
+							<li><strong><i class="i-pb4"></i></strong><b>新手指引</b><span>从这里开始，加入工业投资<br>
+								轻松体验互联网金融<br>
+								理财新方式</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+<div class="defaultcommanded clearfix" style="width:1200px;margin:auto;">
+	<!--<table border="0" cellpadding="0" cellspacing="0" class="ke-zeroborder" style="text-align: center;">
+		<tbody>
+			<tr>
+				<th>操盘产品</th>
+				<th>操作方式</th>
+				<th>操盘时间</th>
+				<th>买入点位</th>
+				<th>出货时间</th>
+				<th>成交点位</th>
+				<th>投资收益</th>
+			</tr>
+					</tbody>
+	</table>-->
+</div>
+  <div class="main" style="background-color: #f1f1f1;">
+ <div class="clearfix w1180 pt_20 index_main">
+
+ 
+
+
+
+  
+    <div class="data">
+      <div class="data-left">
+	  
+	  <div class="module mb_10  numTong" style="margin-top:0px;">
+					<h3 class="fs_18 ind_tit">新手起航<span class="fc_6 fr fs_14 mr_5">规范.专业.透明</span></h3>
+					<div class="shujutime clearfix"><span class="fl fc_9"><span class="f">数据统计</span></span></div>
+					<div class="shujuClass fc_9" id="usertzze"> 
+						<span class="NumlineCon Num1"><i>768</i>今日融资(元)</span> 
+						<span class="NumlineCon Num2"><i>178902</i>会员总数(个)</span> 
+						<span class="NumlineCon Num1 mt_20"><i>6263783908</i>累计融资(元)</span> 
+						<span class="NumlineCon Num2 mt_20"><i>519389156</i>累计返息(元)</span> 
+					</div>
+				</div>
+		<div class="module mb_10 new_box holiday_r_no2" style="height:255px; overflow:hidden"> <img src="/public/Front2/images/left.png"> </div>	
+
+<div class="module mb_5 new_box holiday_r_no2" style="height:365px; overflow:hidden">
+					<h3 class="fs_16 ind_tit fl">公司简介</h3>
+					<a class="blue more fr" style="line-height:40px; padding-right:10px;" title="更多" target="_blank" href="/aboutus/jianjie.php">更多</a>
+					<div class="cle"></div>
+					<div class="clearfix tab_content">
+						<div class="clearfix nr">
+							<ul  class="news_list" style="padding:10px;">
+							<p  style="margin: 10px;margin-top:40px;height: 300px; line-height: 25px;   font-size: 13px;color:#666;">汇信聚业全力打造的金融服务平台(汇信聚业平台）是一家大型国际投资公司。公司集团是国内超大型的资产管理机构，现资产管理规模约100亿元，拥有信托、财富管理、并购、新金融、矿业、几大板块。本公司注册资本5亿人民币。我们秉承用知识服务社会，为企业创造价值的宗旨，倡导创新、责任、分享、团队的理念。 公司通过市场化运作组建形成，核心管理团队合作共事长达7余年，具备高科技领域投资及基金管理行业的丰富经验和杰出业绩。
+								</p>
+							
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+		<div class="module mb_5 new_box holiday_r_no2" style="height:350px; overflow:hidden">
+					<h3 class="fs_16 ind_tit fl">最新动态</h3>
+					<a class="blue more fr" style="line-height:40px; padding-right:10px;" title="更多" href="/aboutus/news.php" target="_blank">更多</a>
+					<div class="cle"></div>
+					<div class="clearfix tab_content">
+						<!--1 s-->
+						<div class="clearfix nr">
+							<ul class="news_list" style="margin: 10px;margin-top:40px;height: 300px;">
+							
+								  
+								<li><a href="/aboutus/newsinfo.php?id=304"  class="fs_14">2017百姓投资何去何从？ </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=303"  class="fs_14">为创业者大开方便之门 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=301"  class="fs_14">上海汇信聚业投资管理有限公司：做客户资金需求的坚强后盾 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=300"  class="fs_14">提供创业扶持 成就精彩人生 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=299"  class="fs_14">合规经营成就企业长远发展 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=298"  class="fs_14">上海汇信聚业投资管理有限公司秉承合规经营，树立行业典范 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=183"  class="fs_14">要在上海过得体面，该怎样理财 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=182"  class="fs_14">外媒：中国或上调2016年赤字率至逾50年最高 </a></li>
+								  
+								<li><a href="/aboutus/newsinfo.php?id=181"  class="fs_14">为什么说“穷人”都是省出来的？免费的才是最贵的 </a></li>
+								 								
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			
+			
+				
+       
+      
+        
+      </div>
+      <div class="data-right">
+	  
+        
+		 <div class="licaibox">
+  <div class="hd" style="display:none;width:100% !important;">
+    <ul class="clearfix">
+            <li>短期项目(9)</li>
+	  
+            <li>定期项目(0)</li>
+	  
+            <li>尊贵特区(0)</li>
+	  
+       
+	   <li style="float:right"><a href="projectlist.php?type=rt">查看更多
+	   </a></li>
+    </ul>
+  </div>
+  <div class="bd">
+    <div class="conWrap">
+      <div class="con" >
+      
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=187">
+				  <img width="130" height="140" src="/public/Project/59744ab9cb21f.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=187" title="汇信智投ASL9839-1新手标产品aa"><img src="/img/credit.gif">汇信智投ASL9839-1新手标产品aa</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥2000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">1.38%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">1</span>个自然日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">101</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd47">47%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=187" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=188">
+				  <img width="130" height="140" src="/public/Project/58333218f2edb.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=188" title="幼小教育投资项目"><img src="/img/credit.gif">幼小教育投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥2000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">0.8%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">5</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">1000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd73">73%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=188" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=189">
+				  <img width="130" height="140" src="/public/Project/58333269b6255.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=189" title="医疗设备投资项目"><img src="/img/credit.gif">医疗设备投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥3500万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">1.0%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">10</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">5000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd61">61%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=189" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=190">
+				  <img width="130" height="140" src="/public/Project/583332c64b9fa.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=190" title="大型钨矿开发项目"><img src="/img/credit.gif">大型钨矿开发项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥5000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">1.2%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">20</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">10000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd60">60%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=190" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=191">
+				  <img width="130" height="140" src="/public/Project/5833332b350cf.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=191" title="瑞士苏黎世国际黄金合约产品"><img src="/img/credit.gif">瑞士苏黎世国际黄金合约产品</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥6500万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">1.6%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">30</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">50000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd62">62%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=191" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=192">
+				  <img width="130" height="140" src="/public/Project/583333852db3d.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=192" title="新能源开发投资项目"><img src="/img/credit.gif">新能源开发投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥8000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">1.9%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">50</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">100000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd58">58%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=192" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=193">
+				  <img width="130" height="140" src="/public/Project/5833366d656f1.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=193" title="高新4维技术开发投资项目"><img src="/img/credit.gif">高新4维技术开发投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥9000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">2.3%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">60</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">300000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd71">71%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=193" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=185">
+				  <img width="130" height="140" src="/public/Project/58332d57b216e.jpg"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=185" title="境外博彩投资项目"><img src="/img/credit.gif">境外博彩投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥10000万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">2.5%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">70</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">500000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd77">77%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+									<a class="finabtn bluebtn" href="/project.php?id=185" title="立即投资">立即投资</a></p>
+							  </div>
+			</div>
+                     <div class="fina-list">
+			  <div class="finaimg">
+				<a href="/project.php?id=186">
+				  <img width="130" height="140" src="/public/Project/58332e3d6e249.png"></a>
+			  </div>
+			  <div class="fina-content">
+				<h4>
+				  <a  class="blue fs_18" href="/project.php?id=186" title="化妆品行业投资项目"><img src="/img/credit.gif">化妆品行业投资项目</a>  <span class="pai">项目规模：<em class="fs_14"><b>￥2500万</b></em>元</span></h4>
+				
+				<div class="row">
+				  <span>日化利率：</span>
+				  <span class="yellow fs">0.9%</span></div>
+				<div class="row">
+				  <span>投资期限：</span>
+				  <span class="fs">
+					<span class="yellow fs" style="color:#666;">7</span>个交易日</span></div>
+				<div class="row">
+				  <span>起投金额：</span>
+				  <span class="fs">
+					<span class="yellow fs">1000</span>元</span></div>
+				
+				
+				<div class="row fina_plan" >
+				 
+				 
+				  <span class="b_jingdu b_jd100">100%</span>
+					
+				 
+				 </div>
+				<div class="row fina_plansy" style="width:200px; float:right">
+				  <span style="width:auto;height: 20px;
+    line-height: 20px;">还款方式：</span>
+				  <span class="fs" style="width:auto;height: 20px;
+    line-height: 20px;">
+				  					按日付收益，到期还本
+				  				  </span></div>
+				<p class="rowbtn">
+								    <a class="finabtn bluebtn" href="/project.php?id=186" title="已投满" style='background:#ff9000;'>已投满</a></p>
+							  </div>
+			</div>
+                
+      </div>
+      <div class="con" style="display:none">
+        
+              
+                
+        
+      </div>
+      
+      <div class="con" style="display:none">
+      
+                
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">jQuery(".licaibox").slide({ mainCell:".conWrap", effect:"fold"});</script>
+  
+       
+      </div>
+    </div>
+   <div class="clearfix fluid" style="height:200px;">
+			<div class="module ind_media s_holidy_main_no6">
+				<h3 class="ind_tit"> <span class="fs_18">合作保障机构</span> </h3>
+				<ul class="clearfix ind_media_box" style="height:100px;">
+					<li><img alt="中保财富融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402119354.jpg" width="98" height="38" title="中保财富融资担保有限公司"></li>
+			<li><img alt="中鸿基融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402118764.jpg" width="98" height="38" title="中鸿基融资担保有限公司"></li>
+			<li><img alt="中诚润通投资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402118655.jpg" width="98" height="38" title="中诚润通投资担保有限公司"></li>
+			<li><img alt="江苏中地投资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402148613.jpg" width="98" height="38" title="江苏中地投资担保有限公司"></li>
+			<li><img alt="中源盛祥融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402118435.jpg" width="98" height="38" title="中源盛祥融资担保有限公司"></li>
+			<li><img alt="北京海大富林融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402118303.jpg" width="98" height="38" title="北京海大富林融资担保有限公司"></li>
+			<li><img alt="金达融资担保有限责任公司" class="lazy" src="/img/tmp_guarantor_1402118206.jpg" width="98" height="38" title="金达融资担保有限责任公司"></li>
+			<li><img alt="兴融融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402118048.jpg" width="98" height="38" title="兴融融资担保有限公司"></li>
+			<li><img alt="北京同益达融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402117907.jpg" width="98" height="38" title="北京同益达融资担保有限公司"></li>
+			<li><img alt="国瑞泰融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402117768.jpg" width="98" height="38" title="国瑞泰融资担保有限公司"></li>
+			<li><img alt="恩义融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402117668.jpg" width="98" height="38" title="恩义融资担保有限公司"></li>
+			<li><img alt="云南兴业融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402117234.jpg" width="98" height="38" title="云南兴业融资担保有限公司"></li>
+			<li><img alt="北京华夏兴业融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402117120.jpg" width="98" height="38" title="北京华夏兴业融资担保有限公司"></li>
+			<li><img alt="融正五岳信用担保有限公司" class="lazy" src="/img/tmp_guarantor_1402116984.jpg" width="98" height="38" title="融正五岳信用担保有限公司"></li>
+			<li><img alt="财和融资租赁（上海）有限公司" class="lazy" src="/img/tmp_guarantor_1402116718.jpg" width="98" height="38" title="财和融资租赁（上海）有限公司"></li>
+			<li><img alt="中桥融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402116608.jpg" width="98" height="38" title="中桥融资担保有限公司"></li>
+			<li><img alt="汇民融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402116117.jpg" width="98" height="38" title="汇民融资担保有限公司"></li>
+			<li><img alt="四川新安融资担保有限公司" class="lazy" src="/img/tmp_guarantor_1402116003.jpg" width="98" height="38" title="四川新安融资担保有限公司"></li>
+				</ul>
+			</div>
+		</div>
+	
+
+			
+    <div class="leader" style="display:none">
+      <div class="leader-left">
+        <div><h5>新手必读</h5><a class="more" target="_blank" href="/service/jr.php?type=about">更多</a></div>
+        <img class="l-l-img" src="/public/Front2/images/xszy.png" />
+        <ul class="l-l-note">
+            
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">电子合同是不是具有法律效应？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">汇信聚业门槛是什么？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">服务协议</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">法律声明</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">汇信聚业网站服务附加协议</a></li>
+                  </ul>
+      </div>
+
+      <div class="leader-right">
+        <div><h5>充值引导</h5><a target="_blank" class="more" href="/service/jr.php?type=explain">更多</a></div>
+        <img class="l-l-img" src="/public/Front2/images/help.jpg" />
+        <ul class="l-l-note">
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">为什么申请提现失败了？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">如何进行充值？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">能用信用卡充值吗？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about"> 充值/提现是否有限额？是否有次数限制？</a></li>
+           
+          <li><i></i><a target="_blank" href="/service/jr.php?type=about">如何进行提现？</a></li>
+                  </ul>
+      </div>
+    </div>
+	 </div>
+  </div>
+  <div class="footer">
+	<div class="w1190">
+		<ul>
+			<li>
+				<a class="til">关于我们</a>
+				<a href="/aboutus/jianjie.php" target="_blank">关于我们</a>
+				<a href="/aboutus/quali.php" target="_blank">公司资质</a>
+				<a href="/aboutus/contactus.php" target="_blank">联系我们</a>
+			</li>
+			<li>
+				<a class="til">帮助中心</a>
+				<a href="service/jr.php?type=about" target="_blank">常见问题</a>
+				<a href="/safety.php" target="_blank">安全保障</a>
+				<a href="/trial.html" target="_blank">收益试算</a>
+			</li>
+			<li>
+				<a class="til">新手指引</a>
+				<a href="/service/jr.php?type=hosting" target="_blank">新手指南</a>
+				<a href="/projectlist.php?type=rt" target="_blank">投资项目</a>
+				<a href="/aboutus/news.php" target="_blank">网站公告</a>
+			</li>
+			<li><a class="til">安全保障</a> <a>第三方担保</a> <a>帐户专业监管</a> <a>24小时投资跟踪管理</a></li>
+			<li class="last">
+				<p class="til-ic">全国理财热线：</p>
+				<p class="bd" style="font-size:20px;">021-2324234-0</p>
+				<p>周一到周日 09：00 - 23：00</p>
+			</li>
+		</ul>
+	</div>
+	<div class="f" style=" background:#555555; width:100%; text-align:center;"> 汇信聚业官网:www.abcdefg.com 全国免费服务热线：021-2324234-0 在线客服qq：333555666  备案号:吉ICP备16003653号-1<br> 金融信息服务业专业委员会理事单位 | 信息服务业行业协会会员单位 | 网络信贷服务业企业联盟单位&nbsp;&nbsp;&nbsp;<script language="javascript" src="http://count18.51yes.com/click.aspx?id=183183183&logo=12" charset="gb2312"></script><br>
+	<a href="#"><img border="0" width="273" style="margin:0 auto;" src="/img/renzheng.png"></a>
+	
+	
+
+		
+	</div>
+</div>
+<LINK rel=stylesheet type=text/css href="/public/Front/qq/css/common.css">
+<SCRIPT type=text/javascript src="/public/Front/qq/js/kefu.js"></SCRIPT>
+
+<div id="floatTools" class="float0831">
+  <div class="floatL"><a style="display:block" id="aFloatTools_Show" class="btnOpen" title="查看在线客服" onclick="javascript:$('#divFloatToolsView').animate({width: 'show', opacity: 'show'}, 'normal',function(){ $('#divFloatToolsView').show();kf_setCookie('RightFloatShown', 0, '', '/', 'www.xfdata.com'); });$('#aFloatTools_Show').attr('style','display:none');$('#aFloatTools_Hide').attr('style','display:block');" href="javascript:void(0);">展开</a> <a id="aFloatTools_Hide" class="btnCtn" title="关闭在线客服" onclick="javascript:$('#divFloatToolsView').animate({width: 'hide', opacity: 'hide'}, 'normal',function(){ $('#divFloatToolsView').hide();kf_setCookie('RightFloatShown', 1, '', '/', 'www.xfdata.com'); });$('#aFloatTools_Show').attr('style','display:block');$('#aFloatTools_Hide').attr('style','display:none');" href="javascript:void(0);" style="display:none">收缩</a> </div>
+  <div id="divFloatToolsView" class="floatR" style="display: none;">
+    <div class="tp"></div>
+    <div class="cn">
+      <ul>
+        <li class="topkefu">
+          <h3 class="titZx">QQ咨询</h3>
+        </li>
+        <li><span class="icoZx">在线咨询</span> </li>
+        <li><a class="icoTc" href="http://wpa.qq.com/msgrd?v=3&amp;uin=333555666&amp;site=qq&amp;menu=yes" target="_blank">333555666</a> </li>
+       
+      </ul>
+      <ul class="webZx" style="display:none;">
+        <li class="webZx-in"><a href="#" target="_blank" style="FLOAT: left"><img src="/public/Front/qq/images/right_float_web.png" border="0px"></a> </li>
+      </ul>
+      <ul>
+        <li>
+          <h3 class="titDh"></h3>
+        </li>
+        <li class="bot" style="height:25px;"><span class="icoTl" >021-2324234-</span></li>
+		<span style="margin-left:65px;margin-top:0px;"> 转 </span>
+		 <li class="app" style="height:100px;padding-left:10px;"><img src="/img/qr.png" border="0px"></li>
+		  <li style="text-align:center" >扫码下载APP</li>
+      </ul>    
+    </div>
+  </div>
+</div>
+
+
+<script language="javascript" src="http://api.pop800.com/800.js?n=298095&s=01&l=cn"></script><div style="display:none;"><a href="http://www.pop800.com">在线客服</a></div>
+
+
+
+<div class="tc" style="width: 100%; height: 2121px;display:none" id="xinhuancontent_scroll">
+			    <div class="tc-zz"></div>
+			    <div class="tc-content">
+			        <a class="tc-guanbi" id="closebtn"></a>
+                      <a class="tc-xgvc" onclick="window.location.href='http://汇信聚业.com/aboutus/newsinfo.php?id=367'"></a>
+				</div>
+			</div>
+			
+		<script type="text/javascript">
+  $("#closebtn").click(function(){document.cookie="isshow=";$("#xinhuancontent_scroll").hide();});
+  $("#closebtn_").click(function(){document.cookie="isshow=true";$("#xinhuancontent_scroll").hide();location.href=location.href;});
+</script>
+
+			
+<script type="text/javascript">document.getElementById("menu1").className=" active";</script>
+
+</body>
+<script src="http://down.admin5.com/demo/code_pop/19/802/js/jquery.liMarquee.js"></script>
+<script>
+$(window).load(function(){
+  $('.str1').liMarquee();
+  $('.str2').liMarquee({
+    direction: 'right'  
+  });
+  var stringEl = $('.str3').liMarquee();
+  $('.speedChange').on('click',function(){
+    var speedChange = $(this);
+    var dataSpeed = speedChange.data('scrollamount');
+
+    stringEl.trigger('mouseenter');
+    stringEl.data({scrollamount:dataSpeed});
+    stringEl.trigger('mouseleave');
+    
+    return false; 
+  });
+  $('.str4').liMarquee({
+    drag: false 
+  });
+  $('.str5').liMarquee({  
+    hoverstop: false
+  });
+  $('.str6').liMarquee();
+  $('.btnPause').on('click',function(){
+    $('.str6').liMarquee('pause');
+  });
+  $('.btnPlay').on('click',function(){
+    $('.str6').liMarquee('play');
+  })
+  });
+
+</script>
+
+
+<script type="text/javascript">
+  $(function(){
+    $(".hd").css('width', $(".hd li").length*($(".hd li:first").width()+10)+'px');
+    $(".f-slides ul").css('width', $(".slide-news ul li").length*$(".slide-news ul li:first").width()+'px');
+    jQuery(".trigger").slide({ mainCell:".bd ul",effect:"left",autoPlay:true });
+
+    $(".data-right ul li").click(function(event) {
+      $(this).addClass('on').siblings('li').removeClass('on');
+      var ix = $(".data-right ul li").index(this);
+      $(".d-r-bottom>div").eq(ix).show().siblings('div').hide();
+      $(".d-r-top span").text($(this).attr("data-name"));
+    });
+    $(".step-f").mouseover(function(event) {
+      $(this).addClass('overs');
+    });
+    $(".step-f").mouseout(function(event) {
+      $(this).removeClass('overs');
+    });
+    $(".slide-top table").css('height', $(".slide-top table tr").length*$(".slide-top table tr:first").height()+'px');
+    var slideTop = function(){
+      $(".data-left table").animate({
+        "top": -$(".slide-top table tr:first").height()+"px"},
+        500, function() {
+        $(".slide-top table").css('top', '0');
+        $(".slide-top table").append($(".slide-top table tr:first").remove());
+      });
+    }
+    var idtop = setInterval(slideTop,2000);
+    $(".slide-top table tr").on('mouseover', function(event) {
+      event.preventDefault();
+      clearInterval(idtop);
+    });
+    $(".slide-top table tr").on('mouseout', function(event) {
+      event.preventDefault();
+      clearInterval(idtop);
+      idtop = setInterval(slideTop,2000);
+    });
+    var slideLeft = function(){
+      $(".f-slides ul").animate({
+        'left': -$(".slide-news ul li:first").width()+'px'},
+        500, function() {
+        $(".f-slides ul").css('left', '0');
+        $(".f-slides ul").append($(".f-slides ul li:first").remove());
+      });
+    }
+    var id = setInterval(slideLeft, 4500);
+    $(".f-slides ul li").on('mouseover',function(event) {
+      clearInterval(id);
+    });
+    $(".f-slides ul li").on('mouseout',function(event) {
+      clearInterval(id);
+      id = setInterval(slideLeft, 4500);
+    });
+    $(".prev").click(function(event) {
+      clearInterval(id);
+      slideLeft();
+      id = setInterval(slideLeft, 4500);
+    });
+    $(".next").click(function(event) {
+      clearInterval(id);
+      slideLeft();
+      id = setInterval(slideLeft, 4500);
+    });
+  })
+</script>
+</html>

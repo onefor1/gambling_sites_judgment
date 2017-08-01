@@ -1,0 +1,1131 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 	var ctx="";
+ 	var loginStatus='';	//登录状态，"0"为已登录
+ 	var pageUrl = window.location.href;
+</script>
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/jsp/member/default/css/jquery-ui-1.9.1.custom.min.css">
+<script src="/common/js/me_common.js"></script>
+<!-- 公告js,css -->
+<script type="text/javascript" src="/common/js/announment.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ann.css" />
+<!-- 会员中心公用js -->
+<script type="text/javascript" src="/jsp/member/default/js/common.js"></script>
+<!-- 会员登录后刷新余额和展示各个api的余额 -->
+<link href="/jsp/member/default/css/refreshBalance.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- o051专用 -->
+<link rel="shortcut icon" href="//cdnszs.ruirobot.com/v2/stc/og/o051/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link href="//cdnszs.ruirobot.com/v2/stc/og/o051/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="//cdnszs.ruirobot.com/v2/stc/og/o051/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/jsp/member/js/swfobject.js"></script>
+
+
+
+
+<script type="text/javascript" src="/jsp/ogmember/js/float.js"></script>
+<script type="text/javascript">
+$().ready(function(){
+	selMenu("menu_01");
+});
+</script>
+</head>
+<body>
+	<div id="main">
+		
+<style>
+	#memberLatestAnnouncement marquee {
+		cursor : pointer;
+		font-size: 14px;
+	    font-weight: 400;
+	    color: #FFF;
+	    line-height: 24px;
+	}
+	.firstRow {
+		position : absolute;
+		top : -31px;
+		left : -1px;
+	}
+</style>
+<script type="text/javascript">
+$().ready(function(){
+	GetMemberLatestAnnouncement();
+	
+
+	var setActiveColor = "1";
+		setInterval(function(){
+			if(setActiveColor == "1"){
+	            $("#kscz").css("color","red");
+	            $("#xljc").css("color","red"); 
+	            $("#jrsc").css("color","red"); 
+	            $("#swsy").css("color","red"); 
+				setActiveColor="2";
+			}
+			else if(setActiveColor == "2"){
+	            $("#kscz").css("color","yellow");
+	            $("#xljc").css("color","yellow");
+	            $("#jrsc").css("color","yellow");
+	            $("#swsy").css("color","yellow");
+	            
+				setActiveColor="3";
+			}else if(setActiveColor == "3"){
+	            $("#kscz").css("color","blue");
+	            $("#xljc").css("color","blue");
+	            $("#jrsc").css("color","blue");
+	            $("#swsy").css("color","blue");
+	            
+				setActiveColor="1";
+			}
+		},500);
+});
+</script>
+
+
+<script type="text/javascript">
+
+//--------------------------------------------cookie 框架----------------------------------------------------
+jQuery.cookie = function(name, value, options) {
+  if (typeof value != 'undefined') { // name and value given, set cookie
+      options = options || {};
+      if (value === null) {
+          value = '';
+          options.expires = -1;
+      }
+      var expires = '';
+      if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+          var date;
+          if (typeof options.expires == 'number') {
+              date = new Date();
+              date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+          } else {
+              date = options.expires;
+          }
+          expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+      }
+      var path = options.path ? '; path=' + options.path : '';
+      var domain = options.domain ? '; domain=' + options.domain : '';
+      var secure = options.secure ? '; secure' : '';
+      document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+  } else { // only name given, get cookie
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+              if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                  cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                  break;
+              }
+          }
+      }
+      return cookieValue;
+  }
+};
+//--------------------------------------------cookie 框架----------------------------------------------------
+
+
+	//沙巴体育维护页面调用  -放这里是不想每个站点分别调用，必须先执行
+	function NoDataTime(){
+	    var NoDate={
+	   		'startDate':"",
+	   		'endDate':"",
+	   		'apiName':""
+	    };
+	
+	    window.callParentNoData = function(child){
+			child(NoDate);
+	    };
+	}
+	NoDataTime();
+	
+	$(document).ready(function() {
+		var browser=navigator.appName;
+		var b_version=navigator.appVersion;
+		var version=b_version.split(";"); 
+		if(version&&version.length>1){
+			var trim_Version=version[1].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer"&&(trim_Version=="MSIE6.0"||trim_Version=="MSIE7.0" || trim_Version == "MSIE8.0" || trim_Version == "MSIE9.0")){
+				$("#iealert").show();
+				$("#iealertX").click(function(){
+					$("#iealert").hide();
+				});
+			}
+		}
+	 	var ua = navigator.userAgent || " "; 
+	    var pageType= $.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+		 if ((ua.match(/(iPhone|iPod|Android|ios)/i))
+			&& ! ((ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	)))  {
+			 if(pageType2!="pc"){
+				  padJumpToPage('mobile');
+			 }
+		 } 
+	});
+
+	//打开即时聊天窗口
+	function openChatWin() {
+		var onlineservice = 'id:3051,ddgdId:1428806,type:onlinedoc,createUser:null,createTime:2016-11-26 09:56:02.23,updateUser:dfjto051,updateTime:2016-11-26 09:56:37.55,titleBig:null,titleSim:null,titleEng:null,docId:8745,status:0,docName:在线客服,contextBig:null,contextSim:null,contextEng:null,junctionBig:https://messenger.providesupport.com/messenger/0n76t0nthoey51oeax5u2n83k9.html,junctionSim:https://messenger.providesupport.com/messenger/0n76t0nthoey51oeax5u2n83k9.html,junctionEng:https://messenger.providesupport.com/messenger/0n76t0nthoey51oeax5u2n83k9.html,isLocal:0,isWindow:1,windowHeight:800,windowWidth:600,contact:null,agentLogin:null,pageMark:null';
+		if(onlineservice!=''){
+			var isLocal ='0';
+			var isWindow = '1';
+			var windowHeight = '800';
+			var windowWidth = '600';
+			var url = 'https://messenger.providesupport.com/messenger/0n76t0nthoey51oeax5u2n83k9.html';
+			if (isWindow == '1') {
+				var params = 'height='
+						+ windowHeight
+						+ ',width='
+						+ windowWidth
+						+ ',top=0,left=0,toolbar=no,menubar=no,scrollbars='
+						+ scroll
+						+ ', resizable=yes,location=yes, status=yes';
+				window.open(url, '即时聊天', params);
+			} else {
+				if (isLocal == '0') {
+					window.location.href = url;
+				} else {
+					window.location.href = ctx + url;
+				}
+			}
+		}else{
+			alert('客服繁忙，请联系上级');
+		}
+		return;
+	}
+	
+</script>
+<style type="text/css"> /* IE提示框CSS */
+ body 
+ {
+	 _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	 _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+ }
+ .iealertMain 
+ {
+ 	 font-family: Arial, Helvetica, sans-serif, Verdana, "SimSun", "Microsoft YaHei", "SimHei", "STHeiti";
+	 color:white;
+	 width: 100%;
+	 z-index: 9999;                                                     /*设置浮动层次*/
+	 overflow: visible;
+	 position: fixed;
+	 line-height:normal;
+	 top: 0px;                                                         /* 其他浏览器下定位，在这里可设置坐标*/
+	 _position: absolute;                                       /*IE6 用absolute模拟fixed*/
+	 _top: expression(documentElement.scrollTop + "px"); /*IE6 动态设置top位置*/
+	 /* documentElement.scrollTop 设置浮动元素始终在浏览器最顶，可以加一个数值达到排版效果 */
+	 background-color:gold;
+	 height: 25px;
+	 text-align: center;
+	 font-size: 18px;
+	 padding-top: 2px;
+ }
+ .iealertMain a
+ {
+ 	font-size: 18px;
+ }
+ .select-pop {
+	width:360px;
+	height:333px;
+	position:fixed!important;/* FF IE7*/
+	left:50%;
+	top:50%;
+	z-index:10999;
+	margin:-166px 0 0 -180px;
+}
+.select-pop2 {
+	width:360px;
+	height:280px;
+	background:url(pop1.png);
+}
+a.select-pop2 {
+	display:block;
+	width:181px;
+	height:53px;
+	background:url(/jsp/member/images/pop2.png);
+	float:left;
+}
+a.select-pop2:hover {
+	background:url(/jsp/member/images/pop2-hover.png);
+}
+a.select-pop3 {
+	display:block;
+	width:179px;
+	height:53px;
+	background:url(/jsp/member/images/pop3.png);
+	float:left;
+}
+a.select-pop3:hover {
+	background:url(/jsp/member/images/pop3-hover.png);
+}
+#lotteryAd{
+	width:280px; 
+	height:318px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+	display:none;
+	left:0px;
+}
+#lotteryAdMin{
+	width:110px; 
+	height:110px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	left:0px;
+	z-index: 9000;
+	display: none;
+}
+.mobile-img{
+	width:300px; 
+	height:219px;
+	cursor:pointer;
+	background-size:100%;
+}
+#mobile-close{
+	position:absolute;
+	bottom:13px;
+	left:2px;
+	cursor:pointer;
+}
+#mobile-close2{
+	position:absolute; 
+	top:-2px; 
+	right:-2px;
+	cursor:pointer;
+}
+#mobileDescription{
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+}
+.popBg,.popIframe {
+background-color: #000;
+display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:10998;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+ </style>
+ <!--  IE提示框  -->
+<div id="iealert"  style="display:none;">
+	<div class="iealertMain">
+		您所使用的浏览器不能被网站很好的支持,为了您能获得更好的浏览体验推荐您使用 <a href="http://www.uc.cn/" target="_blank" >UC 浏览器</a> 访问本网站。
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+
+<!-- 手机端提示框 -->
+<div id="mobilealert"  style="display:none;">
+	<div class="iealertMain">
+		 <a href="/PageChange?type=mobile">访问手机端</a>
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+<!-- 判断设置是否需要显示微信登录的图标 -->
+
+
+
+<!--  移动版提示框 
+<div id="mobileToPcAlert"  style="display:none;">
+	<div class="iealertMain" style="display:none;"> 
+		前往<a href="/PageChange?type=mobile" target="_top">移动版</a>
+		<div id="mobileAlertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+</div>
+ -->
+<!-- 广告部分 -->
+<div id="ad_div_main" style="display:none;overflow-x:hidden;"></div>
+<style>.ui-dialog .ui-dialog-content{padding: 3px;}</style>
+
+
+<!-- 平板提示 -->
+<div id="popDiv" class="select-pop" style="display:none;">
+   	<div class="select-pop1"><img src="/jsp/member/images/pop1.png" /></div>
+       <div>
+       	<a href="javascript:padJumpToPage('mobile');" class="select-pop2"></a>
+           <a href="javascript:padJumpToPage('pc');" class="select-pop3"></a>
+   	</div>
+</div>
+<div id="popBg" class="popBg" style="display:none;"></div>
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+
+<script type="text/javascript">
+	(function(){
+		var ua = navigator.userAgent  || " "; 
+	    var pageType=$.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+	    if ( (ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	) && !pageType
+	    	){
+			if(pageType2!="pc"){
+				padJumpToPage('mobile');
+			}
+	    }
+	})();
+	function padJumpToPage(type){
+		$.cookie('pageType', type);
+		top.window.location.href = "/PageChange?type=" + type;
+	}
+</script>
+
+<!-- 服务器监控使用，不能去掉 -->
+<div style="display: none">
+	<span style="display: none">fwkae5ldVj78cQE0U7ab3Y5O6zyl3SwK</span>
+</div>
+<!-- 弹层登录 -->
+<div id="login-tc"></div>
+<!-- 登录协议 -->
+<div id="loginProtocol"></div>
+<!-- 弹层验证吗 -->
+<div id="verificationCode_tc"></div>
+
+
+
+
+<div id="header">
+	<div class="custom-width">
+		<img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/venice.png" class="logo">
+		<div class="header-menu-form-container" style="width: 365px;">
+			<p><a id="kscz" href="https://v52088.com" target="_blank">快速充值</a> | 
+			<a id="xljc" href="javascript:;" onClick="window.open('/netLineCheck');">线路检测</a> | 
+				<a id="jrsc" href="javascript:;" onclick="setHomepage()">加入收藏</a> | 
+				<a id="swsy" href="javascript:;" onclick="setHomepage()">设为首页</a></p>
+			
+			<form class="login-form">
+				<input type="text" tabindex="1" class="username"
+					value="账号" maxlength="12"
+					onkeydown="enterLogin(event)" id="hd_account"
+					onFocus="OnFocusFun(this,'账号')" 
+					onBlur="OnBlurFun(this,'账号')"
+					/>
+		        <input type="password" tabindex="2" class="password"
+					value="******" maxlength="12" 
+					onkeydown="enterLogin(event)"
+					onFocus="OnFocusFun(this,'******')"
+					onBlur="OnBlurFun(this,'******')" id="hd_passwd"
+					/>	
+				<a href="javascript:;" class="btn-02" onclick="dengRu()"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/login/btn-02.png"></a> 
+				<a href="javascript:;" class="btn-01" onclick="returnSavaMember()"></a>
+				<span>
+					<a href="javascript:openForgetPassword();" class="forgot-pwd">忘记密码？</a>
+					<a href="javascript:;" class="free-trial" onclick="trialGame()">免费试玩</a>
+				</span>
+			</form>
+			
+			
+		</div>
+	</div>
+</div>
+<div id="menu">
+	<div class="custom-width">                                                                         
+		<ul>
+			<li><a href="/index.jsp">首页</a></li>
+			<li><a href="/FootBall">体育赛事</a>
+				<div class="sub-menu sports" style="left:-42px;">
+					<a href="/FootBall">皇冠体育</a>  | 
+					<a href="javascript:;" onclick="window.open('/member/flex?type=loginapi&amp;key=ibc','_self')">沙巴体育</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BB体育</a>
+				</div>
+			</li>
+			<li><a href="/member/flex?type=init0">真人娱乐</a>
+				<div class="sub-menu live" style="left:-213px;">
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">AG视讯厅</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')">BBIN视讯厅</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=og', 'OG平台', 'no')">OG旗舰厅</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=mg', 'MG平台', 'no')">MG视讯厅</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ab', 'ALLBET平台', 'no')">欧博视讯厅</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=opus', 'OPUS平台', 'no')">OPUS旗舰厅</a>  |
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=lebo', 'LEBO平台', 'no')">LEBO旗舰厅</a>
+				</div>				
+
+			</li>
+			<li><a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">电子游艺 </a>
+				<div class="sub-menu slotss" style="left:-160px;">
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')">AG电子游艺</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BB电子游艺</a>  |  
+					<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)">MG电子游艺</a>  |  
+					<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">PT电子游艺</a>  |
+					<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">MW电子游艺</a>  
+				</div>					
+
+			</li>
+			<li><a  href="/jsp/ogmember/fishing.jsp"
+				>捕鱼达人</a></li>
+			<li><a href="/jsp/ogmember/lottery/lotteryList.jsp">彩票游戏</a>
+				<div class="sub-menu lotterys" style="left:-10px;">
+					<a href="/jsp/ogmember/lottery/lotteryList.jsp">OG彩票</a>  |  
+					<a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN彩票</a>
+				</div>					
+
+			</li>
+			<li><a href="/jsp/ogmember/space.jsp">优惠活动</a></li>
+			<li><a href="javascript:;" onclick="toEditDocDetails('8750')">代理联盟 </a></li>
+			<li><a href="javascript:;" onclick="openChatWin()">在线客服 </a></li>
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+</div>
+
+
+
+	
+		<div id="index-banner">
+		<div class="custom-width">
+		<div id="flash-jdt1"></div>
+		<script>
+		   swfobject.embedSWF("/jsp/member/images/banner.swf", 
+				"flash-jdt1", "600", "230", "9.0.0", null, null, {wmode:"transparent",quality:"high"}); 
+		</script>
+		</div>
+	</div>
+	<div id="news">
+		<div class="custom-width ctr-content">
+			<div class="marquee" id="memberLatestAnnouncement"></div>
+		</div>
+	</div>
+	<div id="inner-content">
+		<div class="custom-width inner-column-holder">
+			<div class="column1">
+				<a href="/FootBall"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/sports-tab.png"></a>
+				<a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/game-tab.png"></a>
+			</div>
+			<div class="column2">
+				<a href="javascript:;" onclick="openChatWin()" class="img-1in"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/online-service.png"></a>
+				<a href="javascript:;" onclick="returnSavaMember()" class="img-2in"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/join.png"></a>
+				<a href="/jsp/ogmember/space.jsp" class="img-3in"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/preferential.png"></a>
+			</div>
+			<div class="column3">
+				<a href="/member/flex?type=init0"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/live-casino-tab.png"></a>
+				<a href="/jsp/ogmember/lottery/lotteryList.jsp"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/index/lottery-tab.png"></a>
+			</div>
+		</div>
+	</div>
+	
+		
+
+ 	<div id="footer">
+		<div class="custom-width">
+			<img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/partners-img.png" class="partner-img">
+			<p class="footerlink">
+				
+					
+						
+					
+						
+							
+				                    <a href="javascript:;" onclick="toEditDocDetails(8740)" >
+				                       关于我们
+				                    </a> | 
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+				                    <a href="javascript:;" onclick="toEditDocDetails(8741)" >
+				                       联络我们
+				                    </a> | 
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+				                    <a href="javascript:;" onclick="toEditDocDetails(8750)" >
+				                       合作伙伴
+				                    </a> | 
+							
+						
+					
+						
+							
+				                    <a href="javascript:;" onclick="toEditDocDetails(8743)" >
+				                       存款帮助
+				                    </a> | 
+							
+						
+					
+						
+							
+				                    <a href="javascript:;" onclick="toEditDocDetails(8744)" >
+				                       取款帮助
+				                    </a> | 
+							
+						
+					
+			    
+				<a href="javascript:void(0);" onclick="openHelp('/help?type=1253605')">常见问题</a> | 
+				<a href="javascript:void(0);">游戏规则</a><br/>
+				 Copyright © 威尼斯人娱乐城 Reserved
+			</p>
+		<div class="most-footer">
+				<div class="links-ftr">
+					<a href="javascript:;"
+						
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+									
+										onclick="toEditDocDetails(8743)"
+									
+								
+							
+								
+							
+						><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">如何存款</a>
+					<a href="javascript:;"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">游戏帮助</a>
+					<a href="javascript:;"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">隐私保护</a>
+					<a href="javascript:;"
+						
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+									
+										onclick="toEditDocDetails(8744)"
+									
+								
+							
+						><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">如何提款</a>
+					<a href="javascript:;"><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">责任条款</a>
+					<a href="javascript:;"
+						
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+							
+								
+									
+										onclick="toEditDocDetails(8750)"
+									
+								
+							
+								
+							
+								
+							
+						><img src="//cdnszs.ruirobot.com/v2/stc/og/o051/images/play-btn.png" class="p-btn">合作代理</a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+
+
+    
+        
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    
+                        
+                    
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+    
+    
+
+
+
+    
+        
+		 
+<style>
+	#box1 a {display: block}
+	#box2 a {display: block}
+</style>
+
+<div id="box1" picfloat="left" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; float:left;">	
+ 	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+			
+		
+			
+		
+			
+		
+		
+	
+	
+	
+	
+		
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:trialGame()"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/45dd2d52-3a30-44eb-8796-0bc47d8a2086.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+															href="javascript:;" onclick="window.open('https://v52088.com', '扫码 ', 'height=768,width=1024,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no')"		
+														
+														
+													
+												
+												
+												
+											
+												
+												
+													href="https://v52088.com"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/89c978a6-ecf6-4cc5-9143-108ec64d9f42.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box1')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/89aaa9de-a9b5-442b-b1d4-00a0a5f1641c.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+</div>
+
+<div id="box2" picfloat="right" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; right: 0; float: right;">
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="https://messenger.providesupport.com/messenger/0n76t0nthoey51oeax5u2n83k9.html"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/16f8c13f-70ef-47a9-906d-eacddbcf0cea.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openChatWin()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/946cb68f-a2de-4365-b21f-5aac9e82c02d.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box2')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o051/b6f87843-351e-4f31-b732-7e1fe594ff63.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+	</div>
+
+
+
+<script type="text/javascript">
+	if (self.location != top.location)
+		top.location = self.location;
+	var left_top = 170, right_top = 170, float_list = [];
+	$(window)
+			.load(
+			function() {
+				// 廳主自改 - 浮動圖
+				float_list['1'] = $('#box1');
+				float_list['2'] = $('#box2');
+				for ( var i in float_list) {
+					var self = float_list[i], picfloat = (self
+							.attr('picfloat') == 'right') ? 1 : 0;
+					self
+							.show()
+							.Float(
+							{
+								'floatRight' : picfloat,
+								'topSide' : ((picfloat == 1) ? right_top
+										: left_top),
+								close : "closebox" + (i)
+							});
+					// ie6 png bug
+					if (navigator.userAgent.toLowerCase().indexOf(
+									'msie 6') != -1) {
+						$.each(self.find('img'), function() {
+							$(this).css({
+								'width' : $(this).width(),
+								'height' : $(this).height()
+							});
+						});
+					}
+
+					if (picfloat) {
+						right_top = right_top + 10
+								+ (self.height() || 250);
+					} else {
+						left_top = left_top + 10
+								+ (self.height() || 250);
+					}
+					self.show();
+				}
+				//点击背景遮罩移除iframe和背景
+			    $("#YuFrame1Bg").click(function() {
+			        $("#YuFrame1").remove();
+			        $("#YuFrame1Bg").remove();
+			    });
+			});
+			
+			function closePic(i) {
+				document.getElementById(i).style.display = 'none';
+			}
+/*
+			function wxLogin()
+			{
+				var wxSrc=$("#YuFrame1").attr("src");
+				console.log(wxSrc);
+				if(wxSrc.indexOf("#ok") > 0)
+				{
+					console.log('stop');
+					clearInterval(ref);
+					///请求地址
+					$.ajax({
+				        type: "post",
+				        async: false,//false代表只有在等待ajax执行完毕后才执行 也就是同步
+				        url: "/Weixin/Login",
+				        contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+				        dataType: "json",
+				        success: function (data) {
+				            if(data.status)
+				            {
+				            	location.reload();
+				            }else
+				            {
+				            	alert("登录出现问题，请重新扫码登录！");
+				            	showWx(sessionId);
+				            }
+				        }
+				    }); 
+				}
+				console.log('jixu');
+			} */
+</script>
+    
+    
+
+		
+	</div>
+</body>
+</html>

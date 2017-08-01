@@ -1,0 +1,2947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EDGE">
+	<title>和记娱乐：怡情博娱</title>
+	<link rel="shortcut icon" href="favicon.ico"/>
+	<script>
+        var xy_type = "https://";
+	/*判断是pc还是mobile访问start*/
+	//平台、设备和操作系统
+	var system ={
+		win : false,
+		mac : false,
+		xll : false
+	};
+	//检测平台
+	var p = navigator.platform;
+	system.win = p.indexOf("Win") == 0;
+	system.mac = p.indexOf("Mac") == 0;
+	system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+	var _address = window.location.hostname;
+	if(system.win||system.mac||system.xll){
+	}else{
+	//  var ua=navigator.userAgent.toLowerCase();
+	// if(!(/ipad/i.test(ua))){
+		if(_address.indexOf('123h88.com')!=-1||_address.indexOf('heji880.com')!=-1||_address.indexOf('heji098.com')!=-1||_address.indexOf('heji198.com')!=-1){
+
+		}else if(_address.indexOf('www.')!=-1){//手机端访问自动加上m.当前域名
+			_address = _address.replace('www.','m.');
+			window.location.href = 'http://' + _address;
+		}else{
+			_address = 'http://m.' + _address;
+			window.location.href = _address;
+		};
+	//   }
+
+	}
+	/*判断是pc还是mobile访问end*/
+	</script>
+	<link href="https://e04-static.agg044.com/style/E04P/_default/__css/layui.css?b132ecc1609bfcf302615847c1caa69a" rel="stylesheet" type="text/css" />
+	<link href="https://e04-static.agg044.com/style/E04P/_default/__css/common.css?b132ecc1609bfcf302615847c1caa69a" rel="stylesheet" type="text/css" />
+	<link href="https://e04-static.agg044.com/style/E04P/_default/__css/index.css?b132ecc1609bfcf302615847c1caa69a" rel="stylesheet" type="text/css" />
+
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/jquery.min.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/jquery.cycle2.min.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/game/countUp.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/game/use.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/common.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/public.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/index.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/haibo/socket.io-1.2.0.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+	<script type="text/javascript" src="https://e04-static.agg044.com/script/E04P/_default/__js/AGin.js?b132ecc1609bfcf302615847c1caa69a" charset="utf-8"></script>
+</head>
+<body>
+	<!-- 全局通用的参数 -->
+    <div id="js-global-hiddens">
+        <!-- 图片的前缀 -->
+        <input type="hidden" name="static_content_prefix" value="https://e04-static.agg044.com/static/E04P"/>
+        <input type="hidden" name="customerType" value="-1"/>
+        <input type="hidden" name="globalsFormatPhone" value=""/>
+        <input type="hidden" name="callReturnTimeRemaining" value="0"/>
+        <input type="hidden" class="returncalldowntime"/>
+		<input type="hidden" name="infoValue" value="" id="tomInfoValue"/>
+    </div>
+<div class="publicvar" style="display:none; text-indent:-999em;">
+	<span id="_realName"></span>
+	<span id="_verifyCode"></span>
+</div>
+
+<!-- service start -->
+<!-- service star -->
+<div class="service_small">在线客服</div>
+<div class="service">
+	<div class="smaller" title="收起"></div>
+	<div class="service-bg">
+		<a href="javascript:void(0);" class="service-btn" onclick="javascript:prj.openOnlineChat();"></a>
+		<!-- <p class="service-number">021-51268682<br />021-51268683</p> -->
+    </div>
+	<div class="service-link clearfix">
+		<a href="jsq.htm" target="_blank">登录器</a>
+		<a href="dloadpc.htm" target="_blank">客户端</a>	
+		<a href="javascript:void(0)" class="js-openreturnback">电话回拨</a>	
+	</div> 
+	
+
+</div>
+<!-- service end -->
+<!-- 连赢奖上奖start -->
+<!-- <div class="newwin_pop">
+  <div class="close_nw"></div>
+  <p class="t"><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/nw_tit.png" /></p>
+  <p>活动结束倒计时</p>
+  <p class="d" id="pop_day">0天</p>
+  <p>今日送出</p>
+  <p class="d">￥</p>
+  <p>累计送出</p>
+  <p class="d">￥</p>
+  <p class="btn"><a href="newwin.htm">查看详情</a></p>
+</div> -->
+<!-- 连赢奖上奖end -->
+
+<div id="popwindow" style="position:absolute;z-index:8888;"></div>
+<div id="masktop" class="masktop"></div>
+<div id="header" class="header" attr-loginname="">
+	<!-- notice start -->
+	<div class="notice">
+		<div class="wrap">
+			<div class="tit">最新公告</div>
+			<div class="cont">
+				<marquee id="marquee1" direction="left" scrollamount=6 onmouseover="this.stop()" onmouseout="this.start()">
+						<a href="musermsg.htm">和记娱乐备用域名：h88858.com或h88890.com</a>
+				</marquee>
+				<!-- <div class="marquee">
+					<span class="marquee-content-items">
+							<a href="musermsg.htm">和记娱乐备用域名：h88858.com或h88890.com</a>
+					</span>
+				</div> -->
+			</div>
+			<!-- <div class="links">
+			  <a href="license.htm" class="l1">牌照认证</a>
+			  <a href="dloadpc.htm" class="l2">客户端下载</a>
+			  <a href="registerpartner.htm" class="l3">合作代理</a>
+			  <a href="jsq.htm" class="l4">加速登录器</a>
+			</div> -->
+		</div>
+	</div>
+	<!-- notice end -->
+	<!-- top start -->
+	<div class="top">
+	  	<div class="wrap clearfix">
+			<a class="logo" href="index.htm"><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/common/logo.jpg" /></a>
+			<!-- <a class="slogn" href="#"><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/slogn.jpg" /></a> -->
+			<a class="logo-bremen" href="bremenTidbits.htm"><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/common/logo-bremen.jpg" /></a>
+			<a class="btn-bremen-verification" href="https://www.werder.de/aktuell/news/business/20172018/heji18-wird-co-sponsor-03072017/" target="_blank">官网</a>
+			<!-- <a class="logo-wolfsburg" href="wolfsburg_ticket.htm"><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/common/logo-wolfsburg.jpg" /></a>
+			<a class="btn-wolfsburg-verification" href="https://www.vfl-wolfsburg.de/cn/info/wolfsburg-united.html" target="_blank">官网</a> -->
+			<!-- login start -->
+			<div class="login">
+				<label class="name"><i>d</i><input class="inp" id="username" type="text" maxlength="11" name="username" /><span class="tips">会员账号</span></label>
+				<label class="psd"><input class="inp" id="password" type="password" maxlength="16" name="password" /><span class="tips">密码</span></label>
+				<!-- <label class="l1 l2" id="captchacode">
+				<input class="inp" type="text" id="captcha" maxlength="4" />
+				<span class="tips">验证码</span>
+				<span class="code"><img src="https://www.heji2017.com/genCaptcha.htm" width="43" height="38" onclick="refreshCaptcha(this,'https://www.heji2017.com/genCaptcha.htm')" id="captchaImg" /></span>
+				</label> -->
+				<a class="btn-login" href="javascript:;" id="login_btn">登 录</a>
+				<a class="btn-login-phone btn-primary" href="javascript:void(0);" id="btnLoginPhone"><i></i>登录</a>
+				<a class="btn-reg" href="register.htm">免费开户</a>
+				
+			</div>
+			<a href="loginError.htm" class="login-error">登录遇到问题？</a>
+			<!-- login end -->
+										  	</div>
+	</div>
+	<!-- top end -->
+	<!-- nav start -->
+	<div class="nav">
+		<div id="navDropBg" class="nav-bg"></div>
+	  	<ul id="navlist" class="wrap" attr-flag="1">
+			<li>
+				<div class="line"></div>
+				<a href="index.htm">首页</a>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="casino.htm">真人视讯</a>
+				<dl class="dropinfo">
+					<!-- AG旗舰 -->
+							<dd><a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04003');">AG旗舰厅</a></dd>
+					<!--AG国际  -->
+							<dd><a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04026');">AG国际厅</a></dd>
+					<!-- AG电投 -->
+							<dd><a href="telintro.htm" target="_blank">AG电投厅</a></dd>
+				  	<!-- BBIN平台 -->
+							<dd><a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04006','1');">BBIN平台</a></dd>
+					<!-- Ebet平台 -->
+							<dd><a href="http://heji.sdfd.rocks/h5/j489fh?mode=trial" target="_blank">EBET平台</a></dd>
+					<!-- MG平台 -->
+							<dd><a href="javascript:void(0);" class="needlogin">MG平台</a></dd> 
+
+					<!-- OPUS平台 -->
+							<dd><a href="javascript:void(0);" class="needlogin">OPUS平台</a></dd> 
+
+					        
+					<!-- 
+							<dd><a href="javascript:void(0);" class="needlogin">PT平台</a></dd>
+ -->
+				</dl>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="game.htm">电子游艺</a>
+				<dl class="dropinfo">
+					
+					<dd><a href="game.htm?type=ttglhj">TTG电子</a></dd>
+					
+					<dd><a href="game.htm?type=ptlhj">PT电子</a></dd>
+					
+					<dd><a href="game.htm?type=opuslhj">OPUS电子</a></dd>
+					  
+					<dd><a href="game.htm?type=aglhj" >XIN电子</a></dd>
+					  
+					<dd><a href="game.htm?type=mglhj">MG电子</a></dd> 
+					  
+					<dd><a href="game.htm?type=bbinlhj">BBIN电子</a></dd>
+			  	</dl>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="actgame.htm">体育投注</a>
+			</li>
+			<li>
+				<div class="line"></div>
+					<a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04026',6);">捕鱼王</a>        
+			</li>
+			<li>
+				<div class="line"></div>
+					<a href="javascript:;" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04004');">AG快乐彩</a>          
+				<dl class="dropinfo">
+						<dd><a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04004');">进入游戏</a></dd>     
+					<dd><a href="aglottery.htm">平台介绍</a></dd>
+				</dl>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="promotions.htm">优惠活动<i class="hot"></i></a>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="history.htm">和记历程</a>
+			</li>
+			<li>
+				<div class="line"></div>
+				<a href="mobileapp.htm">手机投注<i class="hot"></i></a>
+			</li>
+		</ul>
+	</div>
+	<!-- nav end -->
+</div>
+<!-- 百家乐大事，结束后可删除  -->
+<div class="pop-bac">
+	<div class="bg-top animation"></div>
+	<div class="bg-bottom animation"></div>
+	<div class="content">
+		<a href="javascript:void(0);" class="close"></a>
+		<div class="hd">比赛日期 2017年1月16日 18:00 ~ 21:00</div>
+		<div class="bd"></div>
+		<a href="bac-newyear.htm" class="btn">查看详情</a>
+	</div>
+</div>
+<div class="pop pop-small">
+	<div class="bg-top animation"></div>
+	<div class="bg-bottom animation"></div>
+	<div class="content">
+		<a href="javascript:void(0);" class="close"></a>
+		<div class="bd"></div>
+		<div class="btn">
+			<a href="javascript:void(0);" class="confirm"></a>
+			<a href="javascript:void(0);" class="cancel"></a>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+    var isBac = "";
+   	var fixcountDown = "";
+$(document).on('click','.close_nw',function(){
+  $(this).parent().hide();
+})
+$(function(){
+  pop_countDown("2016/6/26 23:59:59","#pop_day");
+  	$("#getBanance").click(function(){
+	  getBanance();
+	});
+	popBac();
+});
+function pop_countDown(time,id){
+  var day_elem1 = $(id);
+  var end_time1 = new Date(time).getTime(),//月份是实际月份-1
+  sys_second1 = (end_time1-new Date().getTime())/1000;
+  var timer1 = setInterval(function(){
+	if (sys_second1 > 1) {
+	  sys_second1 -= 1;
+	  var day1 = Math.floor((sys_second1 / 3600) / 24);
+	  day_elem1 && $(day_elem1).text(day1+'天');//计算天
+	}else{
+	  clearInterval(timer1);
+	}
+  }, 1000);
+}
+
+function getBanance(){
+	var preBalance = $('#show_balance').html();
+	$('#show_balance').html('查询中');
+	$.ajax({
+		type:'POST',
+		data:{flag:2},
+		url:"getGameCredit.htm",
+		success:function(data){
+			$('#show_balance').html(data);
+		},
+		error:function(data){
+			$('#show_balance').html(preBalance);
+			prj.pop('查询余额出现异常,请联系在线客服');
+		}
+	});
+}
+//中秋弹窗
+//中秋悬浮窗
+</script>
+<!-- menu start -->
+<div class="menu"> 
+	<!-- banner start -->
+	<div class="banner">
+		<div id="sliderBanner">
+				<a class="link" href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04026',6);">
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner-byw.jpg" />
+				</a>        
+			<a class="link" target="_blank" href="bacWin.htm">
+				<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner-bac.jpg" />
+			</a>
+
+			<a class="link" target="_blank" href="history.htm">
+				<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner-yj.jpg" />
+			</a>
+			<a class="link" target="_blank" href="bremen.htm">
+				<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner-bremen.jpg" />
+			</a>
+			<a class="link" target="_blank" href="game.htm">
+				<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner-as.jpg" />
+			</a>
+			<a class="link" href="certification.htm">
+				<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/banner_drawing.jpg" />
+			</a>
+		</div>
+		<div class="slider-banner-pager"></div>
+		<div class="slider-banner-prev"></div>
+		<div class="slider-banner-next"></div>
+	</div>
+	<!-- banner end --> 
+</div>
+<!-- menu end -->
+<div class="body">
+	<div class="wrap">
+		<div class="clearfix">
+		<!-- brand-strength start -->
+		<div class="brand-strength">
+			<div id="sliderBrand" class="slider-brand cycle-slideshow"
+				data-cycle-slides = 'a'
+				data-cycle-pager = '.slider-brand-pager'
+				data-cycle-pager-template =  ''
+				data-cycle-speed = '300'
+				data-cycle-timeout = '4000'
+				data-cycle-pager-event = 'mouseenter'
+				data-cycle-pause-on-hover = 'true'
+				data-cycle-log = 'false'
+			>
+				<a href="bremen.htm">
+					<i class="links-mask-bg"></i>
+					<span class="link-text"><strong>2017年</strong>德甲云达不莱梅俱乐部 亚洲唯一博彩赞助商</span>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-1.jpg" >
+				</a>
+				<a href="wolfsburg_index.htm">
+					<i class="links-mask-bg"></i>
+					<span class="link-text"><strong>2016年</strong>和记娱乐赞助沃尔夫斯堡征战德甲</span>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-3.jpg" >
+				</a>
+				<a href="singer.htm">
+					<i class="links-mask-bg"></i>
+					<span class="link-text"><strong>2016年</strong>独家赞助罗志祥台湾小巨蛋演唱会</span>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-2.jpg" >
+				</a>
+				<a href="javascript:void(0);">
+					<i class="links-mask-bg"></i>
+					<span class="link-text"><strong>2008年</strong>合法赌博牌照</span>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-4.jpg" >
+				</a>
+			</div>
+			<div id="sliderBrandPager" class="slider-brand-pager">
+				<a href="bremen.htm" class="cycle-pager-active">
+					<i class="progress"></i>
+					<i class="mask"></i>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-s1.jpg" >
+				</a>
+				<a href="wolfsburg_index.htm">
+					<i class="progress"></i>
+					<i class="mask"></i>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-s3.jpg" >
+				</a>
+				<a href="singer.htm">
+					<i class="progress"></i>
+					<i class="mask"></i>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-s2.jpg" >
+				</a>
+				<a href="javascript:void(0);">
+					<i class="progress"></i>
+					<i class="mask"></i>
+					<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-brand-s4.jpg" >
+				</a>
+			</div>
+		</div>
+		<!-- brand-strength end -->
+		<!-- bet-info start -->
+		<div class="bet-info">
+								<div class="bet-info-tab"  id="betTab">
+						<h3><span class="more" id="zxrs"><strong>VIP专区</strong>当前人数：1430</span>AG 旗舰有好路</h3>
+						<ul class="tab-title">
+							<li>百万桌台</li>
+							<li>B02</li>
+							<li>B03</li>
+							<li>B04</li>
+						</ul>
+						<ul class="tab-content">
+							<li>
+								<iframe width="470" height="166" frameborder="0" scrolling="no" title="test" style="background-color:transparent;" allowtransparency="true" src="/home.htm" marginheight="0px" id=""></iframe>
+							</li>
+							<li>
+								<iframe width="470" height="166" frameborder="0" scrolling="no" title="test" style="background-color:transparent;" allowtransparency="true" src="/home2.htm" marginheight="0px" id=""></iframe>
+							</li>
+							<li>
+								<iframe width="470" height="166" frameborder="0" scrolling="no" title="test" style="background-color:transparent;" allowtransparency="true" src="/home3.htm" marginheight="0px" id=""></iframe>
+							</li>
+							<li>
+								<iframe width="470" height="166" frameborder="0" scrolling="no" title="test" style="background-color:transparent;" allowtransparency="true" src="/home4.htm" marginheight="0px" id=""></iframe>
+							</li>
+						</ul>
+					</div>
+					<div class="bet-info-tab bet-tab-mobile" id="betTabM" style="display: none">
+						<h3>手机投注 - 客户端下载</h3>
+						<ul class="tab-title">
+							<li>手机网页</li>
+							<li>真人视讯</li>
+							<li>电子游艺</li>
+							<li>捕鱼王</li>
+							<li>AG快乐彩</li>
+						</ul>
+						<ul class="tab-content">
+							<li>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/bet-mobile-1.png" >
+							</li>
+							<li>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/bet-mobile-2.png" >
+							</li>
+							<li>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/bet-mobile-3.png" >
+							</li>
+							<li>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/bet-mobile-4.png" >
+							</li>
+							<li>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/bet-mobile-5.png" >
+							</li>
+						</ul>
+					</div>
+							<div class="bet-info-table">
+				<div class="table-title clearfix">
+					<span class="w1">时间</span>
+					<span class="w2">会员</span>
+					<span class="w3">投注金额</span>
+					<span class="w4">盈利</span>
+				</div>
+				<div id="betInfoText" class="table-content">
+					<ul>
+							<li>
+								<span class="w1">18:53</span>
+								<span class="w2">***69</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">18:52</span>
+								<span class="w2">***69</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">18:51</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;17</span>
+								<span class="w4">MG美国酒吧 | 盈利&yen;1732</span>
+							</li>
+							<li>
+								<span class="w1">18:51</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">18:51</span>
+								<span class="w2">***02</span>
+								<span class="w3">&yen;19000</span>
+								<span class="w4">AG国际 | 盈利&yen;19000</span>
+							</li>
+							<li>
+								<span class="w1">18:50</span>
+								<span class="w2">***7l</span>
+								<span class="w3">&yen;15</span>
+								<span class="w4">TTG147* | 盈利&yen;6966</span>
+							</li>
+							<li>
+								<span class="w1">18:49</span>
+								<span class="w2">***26</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">18:48</span>
+								<span class="w2">***69</span>
+								<span class="w3">&yen;14250</span>
+								<span class="w4">AG旗舰 | 盈利&yen;14250</span>
+							</li>
+							<li>
+								<span class="w1">18:45</span>
+								<span class="w2">***02</span>
+								<span class="w3">&yen;15200</span>
+								<span class="w4">AG国际 | 盈利&yen;15200</span>
+							</li>
+							<li>
+								<span class="w1">18:45</span>
+								<span class="w2">***01</span>
+								<span class="w3">&yen;10600</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10600</span>
+							</li>
+							<li>
+								<span class="w1">18:43</span>
+								<span class="w2">***12</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;24500</span>
+							</li>
+							<li>
+								<span class="w1">18:42</span>
+								<span class="w2">***12</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;14500</span>
+							</li>
+							<li>
+								<span class="w1">18:42</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">18:41</span>
+								<span class="w2">***22</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">18:41</span>
+								<span class="w2">***02</span>
+								<span class="w3">&yen;14250</span>
+								<span class="w4">AG国际 | 盈利&yen;14250</span>
+							</li>
+							<li>
+								<span class="w1">18:39</span>
+								<span class="w2">***12</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;14950</span>
+							</li>
+							<li>
+								<span class="w1">18:39</span>
+								<span class="w2">***17</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;4800</span>
+							</li>
+							<li>
+								<span class="w1">18:32</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">18:30</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;134</span>
+								<span class="w4">MG卷筒宝石 | 盈利&yen;1865</span>
+							</li>
+							<li>
+								<span class="w1">18:27</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;300</span>
+								<span class="w4">AG国际 | 盈利&yen;3300</span>
+							</li>
+							<li>
+								<span class="w1">18:27</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;133</span>
+								<span class="w4">MG卷筒宝石 | 盈利&yen;1866</span>
+							</li>
+							<li>
+								<span class="w1">18:26</span>
+								<span class="w2">***hx</span>
+								<span class="w3">&yen;1000</span>
+								<span class="w4">AG国际 | 盈利&yen;11000</span>
+							</li>
+							<li>
+								<span class="w1">18:12</span>
+								<span class="w2">***yj</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">17:56</span>
+								<span class="w2">***yj</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">17:38</span>
+								<span class="w2">***13</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">17:37</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;2990</span>
+							</li>
+							<li>
+								<span class="w1">17:35</span>
+								<span class="w2">***7l</span>
+								<span class="w3">&yen;25</span>
+								<span class="w4">TTG蜜蜂王国 | 盈利&yen;1225</span>
+							</li>
+							<li>
+								<span class="w1">17:35</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">17:33</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">17:31</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;150</span>
+								<span class="w4">AG国际 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">17:30</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;150</span>
+								<span class="w4">AG国际 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">17:30</span>
+								<span class="w2">***75</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">17:22</span>
+								<span class="w2">***75</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:55</span>
+								<span class="w2">***qi</span>
+								<span class="w3">&yen;48000</span>
+								<span class="w4">BBIN真人 | 盈利&yen;45600</span>
+							</li>
+							<li>
+								<span class="w1">16:55</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:54</span>
+								<span class="w2">***22</span>
+								<span class="w3">&yen;16000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;16000</span>
+							</li>
+							<li>
+								<span class="w1">16:53</span>
+								<span class="w2">***qi</span>
+								<span class="w3">&yen;30000</span>
+								<span class="w4">BBIN真人 | 盈利&yen;30000</span>
+							</li>
+							<li>
+								<span class="w1">16:51</span>
+								<span class="w2">***qi</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">BBIN真人 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">16:51</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:50</span>
+								<span class="w2">***67</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:49</span>
+								<span class="w2">***26</span>
+								<span class="w3">&yen;10300</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10300</span>
+							</li>
+							<li>
+								<span class="w1">16:47</span>
+								<span class="w2">***si</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:44</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;43858</span>
+								<span class="w4">AG旗舰 | 盈利&yen;43858</span>
+							</li>
+							<li>
+								<span class="w1">16:41</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">16:39</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">16:38</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1750</span>
+							</li>
+							<li>
+								<span class="w1">16:37</span>
+								<span class="w2">***si</span>
+								<span class="w3">&yen;150</span>
+								<span class="w4">AG国际 | 盈利&yen;1650</span>
+							</li>
+							<li>
+								<span class="w1">16:35</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1750</span>
+							</li>
+							<li>
+								<span class="w1">16:34</span>
+								<span class="w2">***si</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">16:33</span>
+								<span class="w2">***75</span>
+								<span class="w3">&yen;18088</span>
+								<span class="w4">AG国际 | 盈利&yen;18088</span>
+							</li>
+							<li>
+								<span class="w1">16:31</span>
+								<span class="w2">***26</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">16:28</span>
+								<span class="w2">***li</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">16:27</span>
+								<span class="w2">***li</span>
+								<span class="w3">&yen;10050</span>
+								<span class="w4">AG国际 | 盈利&yen;10050</span>
+							</li>
+							<li>
+								<span class="w1">16:27</span>
+								<span class="w2">***hx</span>
+								<span class="w3">&yen;1000</span>
+								<span class="w4">AG国际 | 盈利&yen;11000</span>
+							</li>
+							<li>
+								<span class="w1">16:27</span>
+								<span class="w2">***22</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">16:17</span>
+								<span class="w2">***69</span>
+								<span class="w3">&yen;250</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2750</span>
+							</li>
+							<li>
+								<span class="w1">16:16</span>
+								<span class="w2">***58</span>
+								<span class="w3">&yen;11400</span>
+								<span class="w4">AG旗舰 | 盈利&yen;11400</span>
+							</li>
+							<li>
+								<span class="w1">16:10</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;3</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1097</span>
+							</li>
+							<li>
+								<span class="w1">16:09</span>
+								<span class="w2">***58</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">16:03</span>
+								<span class="w2">***58</span>
+								<span class="w3">&yen;16900</span>
+								<span class="w4">AG旗舰 | 盈利&yen;16900</span>
+							</li>
+							<li>
+								<span class="w1">15:47</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;28642</span>
+								<span class="w4">AG旗舰 | 盈利&yen;28642</span>
+							</li>
+							<li>
+								<span class="w1">15:46</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;15075</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15075</span>
+							</li>
+							<li>
+								<span class="w1">15:46</span>
+								<span class="w2">***50</span>
+								<span class="w3">&yen;12</span>
+								<span class="w4">MG侠盗罗宾汉 | 盈利&yen;1842</span>
+							</li>
+							<li>
+								<span class="w1">15:43</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;20</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;4980</span>
+							</li>
+							<li>
+								<span class="w1">15:41</span>
+								<span class="w2">***22</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">15:41</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;2990</span>
+							</li>
+							<li>
+								<span class="w1">15:36</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;140</span>
+								<span class="w4">AG国际 | 盈利&yen;1540</span>
+							</li>
+							<li>
+								<span class="w1">15:27</span>
+								<span class="w2">***yb</span>
+								<span class="w3">&yen;26200</span>
+								<span class="w4">BBIN真人 | 盈利&yen;26200</span>
+							</li>
+							<li>
+								<span class="w1">15:19</span>
+								<span class="w2">***22</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">15:15</span>
+								<span class="w2">***un</span>
+								<span class="w3">&yen;10927</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10927</span>
+							</li>
+							<li>
+								<span class="w1">14:59</span>
+								<span class="w2">***ao</span>
+								<span class="w3">&yen;45000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;45000</span>
+							</li>
+							<li>
+								<span class="w1">14:57</span>
+								<span class="w2">***ao</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">14:56</span>
+								<span class="w2">***ao</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">14:54</span>
+								<span class="w2">***78</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">14:50</span>
+								<span class="w2">***ei</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">14:47</span>
+								<span class="w2">***ei</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">14:42</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">14:39</span>
+								<span class="w2">***ei</span>
+								<span class="w3">&yen;11400</span>
+								<span class="w4">AG旗舰 | 盈利&yen;11400</span>
+							</li>
+							<li>
+								<span class="w1">14:31</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;50000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;50000</span>
+							</li>
+							<li>
+								<span class="w1">14:25</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">PT湛蓝深海 | 盈利&yen;1674</span>
+							</li>
+							<li>
+								<span class="w1">14:16</span>
+								<span class="w2">***26</span>
+								<span class="w3">&yen;250</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2750</span>
+							</li>
+							<li>
+								<span class="w1">14:14</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;15000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;15000</span>
+							</li>
+							<li>
+								<span class="w1">14:12</span>
+								<span class="w2">***78</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG旗舰 | 盈利&yen;5500</span>
+							</li>
+							<li>
+								<span class="w1">14:08</span>
+								<span class="w2">***ei</span>
+								<span class="w3">&yen;300</span>
+								<span class="w4">AG旗舰 | 盈利&yen;3300</span>
+							</li>
+							<li>
+								<span class="w1">13:53</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">13:47</span>
+								<span class="w2">***18</span>
+								<span class="w3">&yen;11544</span>
+								<span class="w4">AG旗舰 | 盈利&yen;11544</span>
+							</li>
+							<li>
+								<span class="w1">13:41</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;11400</span>
+								<span class="w4">AG旗舰 | 盈利&yen;11400</span>
+							</li>
+							<li>
+								<span class="w1">13:35</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1750</span>
+							</li>
+							<li>
+								<span class="w1">13:31</span>
+								<span class="w2">***l5</span>
+								<span class="w3">&yen;10925</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10925</span>
+							</li>
+							<li>
+								<span class="w1">13:06</span>
+								<span class="w2">***16</span>
+								<span class="w3">&yen;5</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1095</span>
+							</li>
+							<li>
+								<span class="w1">12:58</span>
+								<span class="w2">***16</span>
+								<span class="w3">&yen;3</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1097</span>
+							</li>
+							<li>
+								<span class="w1">12:45</span>
+								<span class="w2">***in</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1990</span>
+							</li>
+							<li>
+								<span class="w1">12:40</span>
+								<span class="w2">***44</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">12:33</span>
+								<span class="w2">***yj</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">12:33</span>
+								<span class="w2">***re</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2000</span>
+							</li>
+							<li>
+								<span class="w1">12:23</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;1</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1099</span>
+							</li>
+							<li>
+								<span class="w1">12:18</span>
+								<span class="w2">***16</span>
+								<span class="w3">&yen;2</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1148</span>
+							</li>
+							<li>
+								<span class="w1">12:10</span>
+								<span class="w2">***44</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">12:08</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;24</span>
+								<span class="w4">PT幸运爱尔兰 | 盈利&yen;2568</span>
+							</li>
+							<li>
+								<span class="w1">12:05</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;24</span>
+								<span class="w4">PT幸运爱尔兰 | 盈利&yen;1535</span>
+							</li>
+							<li>
+								<span class="w1">11:55</span>
+								<span class="w2">***38</span>
+								<span class="w3">&yen;140</span>
+								<span class="w4">BBIN真人 | 盈利&yen;1660</span>
+							</li>
+							<li>
+								<span class="w1">11:54</span>
+								<span class="w2">***63</span>
+								<span class="w3">&yen;5</span>
+								<span class="w4">TTG财神到 | 盈利&yen;1393</span>
+							</li>
+							<li>
+								<span class="w1">11:51</span>
+								<span class="w2">***28</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">11:43</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">11:32</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;12975</span>
+								<span class="w4">AG旗舰 | 盈利&yen;12975</span>
+							</li>
+							<li>
+								<span class="w1">11:32</span>
+								<span class="w2">***44</span>
+								<span class="w3">&yen;13300</span>
+								<span class="w4">AG国际 | 盈利&yen;13300</span>
+							</li>
+							<li>
+								<span class="w1">11:25</span>
+								<span class="w2">***34</span>
+								<span class="w3">&yen;14820</span>
+								<span class="w4">AG旗舰 | 盈利&yen;14820</span>
+							</li>
+							<li>
+								<span class="w1">11:21</span>
+								<span class="w2">***34</span>
+								<span class="w3">&yen;38000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;38000</span>
+							</li>
+							<li>
+								<span class="w1">11:20</span>
+								<span class="w2">***34</span>
+								<span class="w3">&yen;50000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;50000</span>
+							</li>
+							<li>
+								<span class="w1">11:10</span>
+								<span class="w2">***13</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">11:10</span>
+								<span class="w2">***13</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">10:49</span>
+								<span class="w2">***28</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">10:42</span>
+								<span class="w2">***in</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1900</span>
+							</li>
+							<li>
+								<span class="w1">10:39</span>
+								<span class="w2">***in</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;2990</span>
+							</li>
+							<li>
+								<span class="w1">10:33</span>
+								<span class="w2">***yk</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">10:27</span>
+								<span class="w2">***hx</span>
+								<span class="w3">&yen;1000</span>
+								<span class="w4">AG国际 | 盈利&yen;11000</span>
+							</li>
+							<li>
+								<span class="w1">10:25</span>
+								<span class="w2">***yk</span>
+								<span class="w3">&yen;19798</span>
+								<span class="w4">AG旗舰 | 盈利&yen;19798</span>
+							</li>
+							<li>
+								<span class="w1">10:12</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1990</span>
+							</li>
+							<li>
+								<span class="w1">10:10</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;120</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1320</span>
+							</li>
+							<li>
+								<span class="w1">10:08</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">10:01</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">09:59</span>
+								<span class="w2">***o9</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">AG国际 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">09:58</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">PT孙悟空 | 盈利&yen;5760</span>
+							</li>
+							<li>
+								<span class="w1">09:57</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">09:57</span>
+								<span class="w2">***80</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">09:53</span>
+								<span class="w2">***o9</span>
+								<span class="w3">&yen;30000</span>
+								<span class="w4">AG国际 | 盈利&yen;30000</span>
+							</li>
+							<li>
+								<span class="w1">09:43</span>
+								<span class="w2">***ub</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">BBIN糖果* | 盈利&yen;2475</span>
+							</li>
+							<li>
+								<span class="w1">09:42</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">PT孙悟空 | 盈利&yen;1080</span>
+							</li>
+							<li>
+								<span class="w1">09:29</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">09:29</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">09:28</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">09:24</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">PT孙悟空 | 盈利&yen;1062</span>
+							</li>
+							<li>
+								<span class="w1">09:05</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;11400</span>
+								<span class="w4">AG国际 | 盈利&yen;11400</span>
+							</li>
+							<li>
+								<span class="w1">09:00</span>
+								<span class="w2">***o9</span>
+								<span class="w3">&yen;14250</span>
+								<span class="w4">AG国际 | 盈利&yen;14250</span>
+							</li>
+							<li>
+								<span class="w1">08:41</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;14730</span>
+								<span class="w4">沙巴体育 | 盈利&yen;16792</span>
+							</li>
+							<li>
+								<span class="w1">08:41</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;2555</span>
+								<span class="w4">AG旗舰 | 盈利&yen;20440</span>
+							</li>
+							<li>
+								<span class="w1">08:41</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;14000</span>
+								<span class="w4">沙巴体育 | 盈利&yen;16240</span>
+							</li>
+							<li>
+								<span class="w1">08:36</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;13300</span>
+								<span class="w4">AG旗舰 | 盈利&yen;13300</span>
+							</li>
+							<li>
+								<span class="w1">08:31</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;2500</span>
+								<span class="w4">AG旗舰 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">08:14</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">07:52</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;12369</span>
+								<span class="w4">AG国际 | 盈利&yen;12369</span>
+							</li>
+							<li>
+								<span class="w1">07:44</span>
+								<span class="w2">***yk</span>
+								<span class="w3">&yen;10051</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10051</span>
+							</li>
+							<li>
+								<span class="w1">07:44</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;19095</span>
+								<span class="w4">AG国际 | 盈利&yen;19095</span>
+							</li>
+							<li>
+								<span class="w1">07:35</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">07:14</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">06:23</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;25</span>
+								<span class="w4">PT奖金熊 | 盈利&yen;1080</span>
+							</li>
+							<li>
+								<span class="w1">05:52</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;20000</span>
+							</li>
+							<li>
+								<span class="w1">05:48</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">05:48</span>
+								<span class="w2">***00</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">05:42</span>
+								<span class="w2">***ak</span>
+								<span class="w3">&yen;2</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1148</span>
+							</li>
+							<li>
+								<span class="w1">05:33</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">MG26730 | 盈利&yen;2418</span>
+							</li>
+							<li>
+								<span class="w1">05:24</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">MG26730 | 盈利&yen;1966</span>
+							</li>
+							<li>
+								<span class="w1">05:18</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">MG26730 | 盈利&yen;1256</span>
+							</li>
+							<li>
+								<span class="w1">05:00</span>
+								<span class="w2">***21</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1140</span>
+							</li>
+							<li>
+								<span class="w1">04:52</span>
+								<span class="w2">***ak</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1990</span>
+							</li>
+							<li>
+								<span class="w1">04:35</span>
+								<span class="w2">***03</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:45</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:43</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:41</span>
+								<span class="w2">***98</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">03:35</span>
+								<span class="w2">***98</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">03:34</span>
+								<span class="w2">***98</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">03:19</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;6</span>
+								<span class="w4">MG侠盗罗宾汉 | 盈利&yen;1575</span>
+							</li>
+							<li>
+								<span class="w1">03:19</span>
+								<span class="w2">***en</span>
+								<span class="w3">&yen;45</span>
+								<span class="w4">MG狂欢节 | 盈利&yen;1655</span>
+							</li>
+							<li>
+								<span class="w1">03:18</span>
+								<span class="w2">***25</span>
+								<span class="w3">&yen;127</span>
+								<span class="w4">AG国际 | 盈利&yen;1397</span>
+							</li>
+							<li>
+								<span class="w1">03:16</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:16</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:13</span>
+								<span class="w2">***87</span>
+								<span class="w3">&yen;20</span>
+								<span class="w4">TTG捕蝇大赛 | 盈利&yen;1612</span>
+							</li>
+							<li>
+								<span class="w1">03:03</span>
+								<span class="w2">***l5</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">03:01</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">02:52</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">02:49</span>
+								<span class="w2">***51</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">02:49</span>
+								<span class="w2">***51</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">02:37</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;30000</span>
+								<span class="w4">AG国际 | 盈利&yen;30000</span>
+							</li>
+							<li>
+								<span class="w1">02:35</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;30806</span>
+								<span class="w4">AG国际 | 盈利&yen;30806</span>
+							</li>
+							<li>
+								<span class="w1">02:32</span>
+								<span class="w2">***25</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">02:26</span>
+								<span class="w2">***25</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">02:25</span>
+								<span class="w2">***en</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">TTG飞龙在天 | 盈利&yen;2700</span>
+							</li>
+							<li>
+								<span class="w1">02:12</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">02:03</span>
+								<span class="w2">***ng</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">01:37</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;20000</span>
+								<span class="w4">沙巴体育 | 盈利&yen;18400</span>
+							</li>
+							<li>
+								<span class="w1">01:31</span>
+								<span class="w2">***en</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">TTG飞龙在天 | 盈利&yen;10450</span>
+							</li>
+							<li>
+								<span class="w1">01:24</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;40</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1400</span>
+							</li>
+							<li>
+								<span class="w1">01:17</span>
+								<span class="w2">***01</span>
+								<span class="w3">&yen;42</span>
+								<span class="w4">MG侠盗罗宾汉 | 盈利&yen;1386</span>
+							</li>
+							<li>
+								<span class="w1">01:07</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;25</span>
+								<span class="w4">TTG疯狂猴子 | 盈利&yen;1180</span>
+							</li>
+							<li>
+								<span class="w1">01:07</span>
+								<span class="w2">***un</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">00:50</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">MG幸运龙宝贝 | 盈利&yen;1410</span>
+							</li>
+							<li>
+								<span class="w1">00:49</span>
+								<span class="w2">***47</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">00:48</span>
+								<span class="w2">***47</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">00:45</span>
+								<span class="w2">***47</span>
+								<span class="w3">&yen;10000</span>
+								<span class="w4">AG国际 | 盈利&yen;10000</span>
+							</li>
+							<li>
+								<span class="w1">00:43</span>
+								<span class="w2">***87</span>
+								<span class="w3">&yen;171978</span>
+								<span class="w4">AG旗舰 | 盈利&yen;171978</span>
+							</li>
+							<li>
+								<span class="w1">00:43</span>
+								<span class="w2">***ve</span>
+								<span class="w3">&yen;30</span>
+								<span class="w4">MG侠盗罗宾汉 | 盈利&yen;1470</span>
+							</li>
+							<li>
+								<span class="w1">00:42</span>
+								<span class="w2">***87</span>
+								<span class="w3">&yen;143374</span>
+								<span class="w4">AG旗舰 | 盈利&yen;143374</span>
+							</li>
+							<li>
+								<span class="w1">00:41</span>
+								<span class="w2">***87</span>
+								<span class="w3">&yen;143374</span>
+								<span class="w4">AG旗舰 | 盈利&yen;143374</span>
+							</li>
+							<li>
+								<span class="w1">00:41</span>
+								<span class="w2">***en</span>
+								<span class="w3">&yen;12</span>
+								<span class="w4">MG花花公子 | 盈利&yen;1082</span>
+							</li>
+							<li>
+								<span class="w1">00:40</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;80</span>
+								<span class="w4">MG26601 | 盈利&yen;22780</span>
+							</li>
+							<li>
+								<span class="w1">00:40</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;80</span>
+								<span class="w4">MG26601 | 盈利&yen;22780</span>
+							</li>
+							<li>
+								<span class="w1">00:38</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;19414</span>
+								<span class="w4">沙巴体育 | 盈利&yen;18055</span>
+							</li>
+							<li>
+								<span class="w1">00:35</span>
+								<span class="w2">***51</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">00:35</span>
+								<span class="w2">***65</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">00:34</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG麻将老虎机 | 盈利&yen;1950</span>
+							</li>
+							<li>
+								<span class="w1">00:29</span>
+								<span class="w2">***65</span>
+								<span class="w3">&yen;40000</span>
+								<span class="w4">AG旗舰 | 盈利&yen;40000</span>
+							</li>
+							<li>
+								<span class="w1">00:14</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;300</span>
+								<span class="w4">AG旗舰 | 盈利&yen;3300</span>
+							</li>
+							<li>
+								<span class="w1">00:06</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;6</span>
+								<span class="w4">MG爱的罗曼史 | 盈利&yen;1484</span>
+							</li>
+							<li>
+								<span class="w1">00:06</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;300</span>
+								<span class="w4">AG旗舰 | 盈利&yen;3300</span>
+							</li>
+							<li>
+								<span class="w1">00:02</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">23:59</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">23:47</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">23:47</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">23:46</span>
+								<span class="w2">***52</span>
+								<span class="w3">&yen;17</span>
+								<span class="w4">MG青龙出海 | 盈利&yen;1480</span>
+							</li>
+							<li>
+								<span class="w1">23:41</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;6</span>
+								<span class="w4">MG爱的罗曼史 | 盈利&yen;15384</span>
+							</li>
+							<li>
+								<span class="w1">23:39</span>
+								<span class="w2">***23</span>
+								<span class="w3">&yen;6</span>
+								<span class="w4">MG爱的罗曼史 | 盈利&yen;1121</span>
+							</li>
+							<li>
+								<span class="w1">23:36</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">23:15</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">沙巴体育 | 盈利&yen;1000</span>
+							</li>
+							<li>
+								<span class="w1">23:15</span>
+								<span class="w2">***11</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">沙巴体育 | 盈利&yen;1000</span>
+							</li>
+							<li>
+								<span class="w1">23:13</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;130</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1430</span>
+							</li>
+							<li>
+								<span class="w1">23:08</span>
+								<span class="w2">***77</span>
+								<span class="w3">&yen;130</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1430</span>
+							</li>
+							<li>
+								<span class="w1">23:08</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG国际 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">23:01</span>
+								<span class="w2">***32</span>
+								<span class="w3">&yen;3</span>
+								<span class="w4">MG押韵卷-* | 盈利&yen;1525</span>
+							</li>
+							<li>
+								<span class="w1">22:23</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;11</span>
+								<span class="w4">MG美国酒吧 | 盈利&yen;1122</span>
+							</li>
+							<li>
+								<span class="w1">22:12</span>
+								<span class="w2">***en</span>
+								<span class="w3">&yen;25</span>
+								<span class="w4">OPUSmo* | 盈利&yen;1590</span>
+							</li>
+							<li>
+								<span class="w1">22:04</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">22:02</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG国际 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">22:01</span>
+								<span class="w2">***33</span>
+								<span class="w3">&yen;150</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1650</span>
+							</li>
+							<li>
+								<span class="w1">21:58</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;50</span>
+								<span class="w4">AG国际 | 盈利&yen;1500</span>
+							</li>
+							<li>
+								<span class="w1">21:56</span>
+								<span class="w2">***hu</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">21:54</span>
+								<span class="w2">***99</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG国际 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">21:47</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;60</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1800</span>
+							</li>
+							<li>
+								<span class="w1">21:47</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;20</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;2380</span>
+							</li>
+							<li>
+								<span class="w1">21:34</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;4</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;2296</span>
+							</li>
+							<li>
+								<span class="w1">21:30</span>
+								<span class="w2">***66</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG旗舰 | 盈利&yen;5500</span>
+							</li>
+							<li>
+								<span class="w1">21:04</span>
+								<span class="w2">***2a</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;3500</span>
+							</li>
+							<li>
+								<span class="w1">20:37</span>
+								<span class="w2">***55</span>
+								<span class="w3">&yen;15</span>
+								<span class="w4">TTG荣耀罗马 | 盈利&yen;1008</span>
+							</li>
+							<li>
+								<span class="w1">20:33</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;40</span>
+								<span class="w4">AG竞技狂热 | 盈利&yen;1020</span>
+							</li>
+							<li>
+								<span class="w1">20:22</span>
+								<span class="w2">***68</span>
+								<span class="w3">&yen;10</span>
+								<span class="w4">AG捕鱼 | 盈利&yen;1140</span>
+							</li>
+							<li>
+								<span class="w1">20:21</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;100</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1100</span>
+							</li>
+							<li>
+								<span class="w1">20:14</span>
+								<span class="w2">***85</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;6000</span>
+							</li>
+							<li>
+								<span class="w1">20:00</span>
+								<span class="w2">***81</span>
+								<span class="w3">&yen;250</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2750</span>
+							</li>
+							<li>
+								<span class="w1">19:58</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;300</span>
+								<span class="w4">AG国际 | 盈利&yen;3300</span>
+							</li>
+							<li>
+								<span class="w1">19:45</span>
+								<span class="w2">***88</span>
+								<span class="w3">&yen;150</span>
+								<span class="w4">AG国际 | 盈利&yen;1650</span>
+							</li>
+							<li>
+								<span class="w1">19:31</span>
+								<span class="w2">***89</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG国际 | 盈利&yen;5500</span>
+							</li>
+							<li>
+								<span class="w1">19:12</span>
+								<span class="w2">***98</span>
+								<span class="w3">&yen;500</span>
+								<span class="w4">AG旗舰 | 盈利&yen;5500</span>
+							</li>
+							<li>
+								<span class="w1">19:07</span>
+								<span class="w2">***98</span>
+								<span class="w3">&yen;200</span>
+								<span class="w4">AG旗舰 | 盈利&yen;2200</span>
+							</li>
+							<li>
+								<span class="w1">19:06</span>
+								<span class="w2">***63</span>
+								<span class="w3">&yen;180</span>
+								<span class="w4">AG旗舰 | 盈利&yen;1980</span>
+							</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- bet-info end -->
+		</div>
+		<!-- cooperation-platform start -->
+		<div class="cooperation-platform clearfix">
+			<h3 class="title"><span>合作平台</span></h3>
+			<div class="casino">
+				<h4>真人视讯</h4>
+				<div id="sliderCasino" class="slider-casino"> 
+					<!-- 旗舰厅 --> 
+						<a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04003');">
+							<span class="more">当前人数：1430</span>
+							<span class="intro">VIP专区 豪客首选</span>
+							<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-1.jpg" width="488" />
+						</a> 
+					<!-- 国际厅 --> 
+						<a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04026');">
+							<span class="more">当前人数：<span name="agin_player">28132</span></span>
+							<span class="intro">亚洲第一真人平台</span>
+							<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-2.jpg" width="488" />
+						</a> 
+					<!-- Ebet平台 -->
+							<a href="http://heji.sdfd.rocks/h5/j489fh?mode=trial" target="_blank">
+								<span class="more"></span>
+								<span class="intro"></span>
+								<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-7.jpg" width="488" />
+							</a>
+					<!-- 电投厅 --> 
+					<!--    
+						<a href="telintro.htm" target="_blank"><span class="intro">视频和语音下注 身临其境般的赌场感受</span><img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/index_p4.jpg" width="488" /></a> 
+ --> 
+					 
+						<a href="javascript:void(0);" onclick="javascript:prj.popvisit('https://www.heji2017.com/popvisit.htm','E04006','1');">
+							<span class="intro">游戏最全的娱乐平台</span>
+							<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-3.jpg" width="488" />
+						</a>
+					 
+						<a href="javascript:void(0);" class="needlogin">
+								<span class="intro">尖端设备 2D和3D等多视频模式</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-4.jpg" width="488" />
+						</a> 
+					 
+						<a href="javascript:void(0);" class="needlogin">
+							<span class="intro">花花公子兔女郎派牌 下注门槛低</span>
+							<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-casino-5.jpg" width="488" />
+						</a> 
+				</div>
+				<div class="slider-casino-pager">
+					<a href="javascript:;">AG旗舰厅</a>
+					<a href="javascript:;">AG国际厅</a>
+					<a href="javascript:;">EBET平台</a>
+					<a href="javascript:;">BBIN平台</a>
+					<a href="javascript:;">OPUS平台</a>
+					<a href="javascript:;">MG平台</a>
+				</div>
+			</div>
+			<div class="game">
+				<h4>电子游艺</h4>
+				<div id="sliderGame" class="slider-game"> 
+					
+					<a href="game.htm?type=ttglhj">
+						<span class="intro">高额奖金赔付 奖金持续爆发</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-1.jpg" />
+					</a>
+					
+					<a href="game.htm?type=mglhj">
+						<span class="intro">欧洲信誉品牌 千款知名电游</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-2.jpg" />
+					</a>
+					
+					<a  href="game.htm?type=ptlhj">
+						<span class="jackpot">CNY <span id="jp_allbonuspool"></span>
+							<!-- <object width="130" height="1" classid="" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0">									
+								<embed width="260" height="45" wmode="transparent" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" bgcolor="#26210e" quality="high" src="http://tickers.playtech.com/jackpots/new_jackpot.swf?info=4&amp;casino=greatfortune88&amp;currency=CNY&amp;font_color=f8e1ae&amp;font_size=24&amp;height=150&amp;bg_color=2e273e&amp;font_face=Tahoma&amp;bold=false" title="Adobe Flash Player">
+							</object> -->
+						</span>
+						<span class="intro">上亿巨额彩池</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-3.jpg" />
+					</a>
+					
+					<a href="game.htm?type=opuslhj">
+						<span class="intro">业界电游新贵 游戏独具一格</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-4.jpg" />
+					</a>
+					
+					<a href="game.htm?type=aglhj">
+						<span class="intro">多人连线游戏 开拓电游模式</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-5.jpg" />
+					</a>
+					
+					<a  href="game.htm?type=bbinlhj" target="_blank">
+						<span class="intro">古典游戏画风 带您穿越古今</span>
+						<img src="https://e04-static.agg044.com/static/E04P/_default/__static/__images/index/pic-game-6.jpg" />
+					</a>
+				</div>
+				<div class="slider-game-pager">
+					
+					<a href="game.htm?type=ttglhj">TTG电子</a>
+					  
+					<a href="game.htm?type=mglhj">MG电子</a>
+					
+					<a href="game.htm?type=ptlhj">PT电子</a>
+					
+					<a href="game.htm?type=opuslhj">OPUS电子</a>
+					  
+					<a href="game.htm?type=aglhj" >XIN电子</a>
+					  
+					<a href="game.htm?type=bbinlhj">BBIN电子</a>
+				</div>
+			</div>
+		</div>
+		<!-- cooperation-platform end -->
+	</div>
+</div>
+<!-- 中秋弹窗 -->
+<div id="pop_autumn" class="pop_autumn">
+	<a class="close" href="javascript:;"></a>
+	<a class="btn_autumn" target="_blank" href="midAutumn.htm"></a>
+</div>
+<!-- 新版弹窗 -->
+<!-- <div id="popNewVersion" class="pop-newversion">
+	<a class="close" href="javascript:;"></a>
+	<h4>和记首页改版通知</h4>
+	<p>尊敬的玩家：</p>
+	<p>感谢您长期以来对和记娱乐的支持与厚爱，为了给您呈现更好的视觉效果及游戏体验，<br />目前已对首页进行了布局调整，希望能得到您进一步的认可和支持，其中：<br /><b>*</b> “好路提示”：好路在手，让您稳操胜券，绝不错失每一次盈利机会；<br /><b>*</b>“盈利榜单”：分享每一位玩家的盈利喜悦，并将好运传达给每一位“和记人”</p>
+	<p>和记娱乐感恩有您！值此中秋佳节来临之际，也祝每一位玩家：<br />中秋快乐！阖家安康！幸福平安！</p>
+	<p style="text-align:right">和记娱乐亚洲运营部<br />2016年9月</p>
+</div> -->
+<!-- 会员动态 -->
+<div class="mem-news-small">会员动态</div>
+<div class="mem-news">
+	<div class="hd"><a href="javascript:void(0);" onclick="javascript:ga('send','event','index','Click','newsclose');" class="close"></a>会员动态</div>
+	<div id="menNews" class="bd">
+		<div class="mem-news-title">
+			<span class="title">取款</span>
+			<span class="title">登录</span>
+			<span class="title">注册</span>
+		</div>
+		<div class="mem-news-items">
+			<ul id="qk_list">
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***34</span>
+                        <span class="event">取款&yen;5886</span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***84</span>
+                        <span class="event">取款&yen;1000</span>
+                    </li>
+                    <li>
+                        <span class="time">19:11</span>
+                        <span class="name">***yo</span>
+                        <span class="event">取款&yen;2018</span>
+                    </li>
+                    <li>
+                        <span class="time">19:10</span>
+                        <span class="name">***ei</span>
+                        <span class="event">取款&yen;723</span>
+                    </li>
+                    <li>
+                        <span class="time">19:07</span>
+                        <span class="name">***7l</span>
+                        <span class="event">取款&yen;4500</span>
+                    </li>
+                    <li>
+                        <span class="time">19:06</span>
+                        <span class="name">***23</span>
+                        <span class="event">取款&yen;3260</span>
+                    </li>
+                    <li>
+                        <span class="time">19:00</span>
+                        <span class="name">***21</span>
+                        <span class="event">取款&yen;3020</span>
+                    </li>
+                    <li>
+                        <span class="time">18:59</span>
+                        <span class="name">***62</span>
+                        <span class="event">取款&yen;9072</span>
+                    </li>
+                    <li>
+                        <span class="time">18:54</span>
+                        <span class="name">***69</span>
+                        <span class="event">取款&yen;60000</span>
+                    </li>
+                    <li>
+                        <span class="time">18:50</span>
+                        <span class="name">***12</span>
+                        <span class="event">取款&yen;50000</span>
+                    </li>
+                    <li>
+                        <span class="time">18:44</span>
+                        <span class="name">***13</span>
+                        <span class="event">取款&yen;20000</span>
+                    </li>
+                    <li>
+                        <span class="time">18:27</span>
+                        <span class="name">***27</span>
+                        <span class="event">取款&yen;24216</span>
+                    </li>
+			</ul>
+		</div>
+		<div class="mem-news-items">
+			<ul id="login_list">
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***81</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***89</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***81</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***46</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***46</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***41</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***81</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***en</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***81</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***20</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***17</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***71</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:15</span>
+                        <span class="name">***17</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***16</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***28</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***28</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***yx</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***18</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***yx</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***18</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***56</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***16</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***46</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***46</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***92</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***25</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***25</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***20</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***in</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***68</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***68</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***14</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***13</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***34</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***14</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***16</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***32</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***34</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:14</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***56</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***04</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***08</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***05</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***66</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***92</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***69</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***69</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***05</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***45</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***72</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***72</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***49</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***52</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***62</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***62</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***40</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***84</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***80</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***in</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***84</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***14</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***25</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***25</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***13</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***ss</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***in</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***52</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***80</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***sz</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***sz</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***20</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***in</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***in</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:12</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+			</ul>
+		</div>
+		<div class="mem-news-items">
+			<ul id="reg_list">
+                    <li>
+                        <span class="time">19:13</span>
+                        <span class="name">***56</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:04</span>
+                        <span class="name">***23</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">19:01</span>
+                        <span class="name">***99</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:57</span>
+                        <span class="name">***79</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:53</span>
+                        <span class="name">***61</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:52</span>
+                        <span class="name">***88</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:50</span>
+                        <span class="name">***77</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:50</span>
+                        <span class="name">***89</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:47</span>
+                        <span class="name">***89</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:38</span>
+                        <span class="name">***75</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:28</span>
+                        <span class="name">***79</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:20</span>
+                        <span class="name">***10</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:18</span>
+                        <span class="name">***76</span>
+                        <span class="event"></span>
+                    </li>
+                    <li>
+                        <span class="time">18:15</span>
+                        <span class="name">***41</span>
+                        <span class="event"></span>
+                    </li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	var sliderShow = $('#sliderBrand');
+	var progress = $('#sliderBrandPager .progress');
+	sliderShow.on('cycle-initialized cycle-before', function(e, opts){
+		progress.stop(true).css('width',0);
+	});
+	sliderShow.on('cycle-initialized cycle-after', function(e, opts){
+		if(!sliderShow.is('.cycle-paused')){
+			progress.animate({width:'100%'}, opts.timeout, 'linear');
+		}
+	});
+	sliderShow.on('cycle-paused', function(e, opts){
+		progress.stop();
+	});
+	sliderShow.on('cycle-resumed', function(e, opts, timeoutRemaining){
+		progress.animate({width:'100%'}, timeoutRemaining, 'linear');
+	});
+</script>
+
+<!-- footer start -->
+<div class="footer-new">
+	<div class="wrap clearfix">
+		<a  class="logo" href="bremen.htm"></a>
+		<div class="pics"><a href="telintro.htm" title="菲律宾晨丽赌场"></a></div>
+	</div>
+	<div class="links wrap">
+		<a href="aboutus.htm">关于我们</a> | 
+		<a href="faqother.htm">常见问题</a> | 
+		<a href="duty.htm">博彩责任</a> | 
+		<a href="faqprivacy.htm">隐私安全</a> |     
+		<a href="faqdownload.htm">下载工具</a> | 
+		<a href="registerpartner.htm">合作代理</a> | 
+		<a href="vip-withdrawl.htm">赌厅提现</a> | 
+		<a href="http://bbs.h8900.com/portal.php" target="_blank">论坛</a>  | 
+		<a href="vip-travel.htm">VIP俱乐部</a>
+	</div>
+	<div class="copyright">和记娱乐官方网站 Copyright © 2008-2017 HEJIBet Online Game. All rights reserved.</div>
+</div>
+<!-- footer end -->
+
+<!-- 登录弹出层start -->
+<div class="userloginbg"></div>
+<div class="userlogin" id="popLogin">
+	<div class="close"></div>
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tr>
+			<td class="title" colspan="2">此平台只支持真钱游戏，请直接登录或“免费开户”</td>
+		</tr>
+		<tr>
+			<td class="t1">用户名称</td>
+			<td>
+				<label class="txtinput pre_name">
+					<input class="inp" id="username1" type="text" maxlength="11" name="username" />
+					<span>d</span>
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td class="t1">登录密码</td>
+			<td><input class="txtinput" id="password1" type="password" maxlength="16" name="password" /></td>
+		</tr>
+		<!-- <tr>
+			<td class="t1">验证码</td>
+			<td>
+				<label class="reginp_wrap">
+					<input class="txtinput reg_code" type="text" id="captcha1" maxlength="4" />
+					<span class="code"><img src="https://www.heji2017.com/genCaptcha.htm" onclick="refreshCaptcha(this,'https://www.heji2017.com/genCaptcha.htm')" id="captchaImg1" /></span>
+				</label>
+			</td>
+		</tr> -->
+		<tr>
+			<td colspan="2"><div class="btns"> <a href="javascript:;" id="poplogin_btn">登录</a> <a href="register.htm" style="margin-left:10px;">免费开户</a> </div></td>
+		</tr>
+	</table>
+</div>
+<div class="layui-tab" id="popLoginMain" lay-filter="popLoginMain" style="display:none">
+	<ul class="layui-tab-title">
+		<li class="layui-this">手机登录</li>
+		<li>账号登录</li>
+	</ul>
+	<div class="layui-tab-content">
+		<div class="layui-tab-item layui-show">
+			<input type="hidden" name="popLoginTime" id="popLoginTime" value="" autocomplete="off">
+
+			<ul class="ui-form ui-form-phone">
+				<li>
+					<input type="text" class="txtinput" name="phone" id="popLoginPhone" value="请输入电话号码" maxlength="12" autocomplete="off">
+					<span class="tipwords" id="popLoginPhone_w"></span>
+				</li>
+				<li>
+					<input type="text" class="txtinput input-code" id="popLoginPhoneCode" value="请输入验证码" maxlength="6" autocomplete="off">
+					<a href="javascript:void(0);" class="btn-primary" id="btnPopLoginPhoneCode">获取短信验证码</a>
+					<span class="tipwords tips-code" id="popLoginPhoneCode_w"></span>
+				</li>
+				<li class="btns">
+					<a href="javascript:void(0);" class="btn-primary btn-lg" id="submitPopLoginPhone">登 录</a>
+				</li>
+				<div class="link-login-phone">
+					<a href="register.htm"><i></i>还未注册？立即注册</a>
+				</div>
+			</ul>
+		</div>
+		<div class="layui-tab-item">
+			<ul class="ui-form ui-form-login">
+				<li>
+					<label class="txtinput pre_name">
+						<span class="prefix">d</span>
+						<input class="input1" name="prefix" id="popLoginPrefix" type="hidden" readonly="true" value="d" autocomplete="off">	
+						<input type="text" class="txtinput" name="loginname" id="popLoginName" value="请输入您的用户名" maxlength="15" autocomplete="off" TabIndex="1" />
+					</label>
+					<span class="tipwords" id="popLoginName_w"></span>
+				</li>
+				<li>
+					<label class="txtinput pre_psw" id="passwordWrap">
+						<a href="reset_password.htm" class="forget" id="icoPasswordForget" title="忘记密码">?</a>
+						<input type="password" class="txtinput inp" name="password" id="popLoginPassword" value="" maxlength="20" autocomplete="off" TabIndex="1" />
+						<span class="tips">请输入您的登录密码</span>
+					</label>
+					<span class="tipwords" id="popLoginPassword_w"></span>
+				</li>
+				<li class="btns">
+					<a href="javascript:void(0);" class="btn-primary btn-lg" id="submitPopLoginName">登 录</a>
+				</li>
+			</ul>
+			<div class="link-login-phone">
+				<a href="javascript:void(0);" id="linkLoginPhone"><i></i>忘记账号密码？手机登录</a>
+				<a href="register.htm">立即注册</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 回拨步骤1 -->
+<div class="layui" id="returncall_step_1" lay-filter="popReturncallMain" style="display:none">
+	<ul class="ui-form ui-form-phone">
+		<li>
+			<input type="text" class="txtinput" name="phone" id="popReturncallPhone" value="请输入您的电话号码" maxlength="12" autocomplete="off">
+			<span class="tipwords" id="popReturncallPhone_w"></span>
+		</li>
+		<li class="btns">
+			<a href="javascript:void(0);" class="btn-primary btn-lg" id="js-returnback">确认回拨</a>
+		</li>
+	</ul>
+</div>
+<!-- 回拨步骤2 -->
+<div class="layui" id="returncall_step_2" lay-filter="popReturncallMain" style="display:none">
+
+	<ul class="ui-form ui-form-phone">
+		<li class="mb20">
+			<p class="fs18 fcfff tac">我们将在1分钟内为您致电， 请您保持电话畅通。</p>
+		</li>
+		<li class="btns">
+			<a href="javascript:void(0);" class="btn-primary btn-lg" id="js-ok">知道啦</a>
+		</li>
+	</ul>
+</div>
+<!-- 红包弹窗 -->
+<div id="popPacket" class="pop-packet-content" lay-filter="popPacket" style="display:none">
+	<p class="bonus"></p>
+	<p class="text"><strong>红包礼金已经派发，祝您盈利多多！</strong>红包取款要求：一倍流水</p>
+	<a href="javascript:void(0);" class="btn" onclick="javascript:skipToDeposit()"></a>
+</div>
+<script type="text/javascript">
+// 登录弹出层
+$(function(){
+
+	var expira_window = "";
+	var expira_day =""
+
+	if(expira_window =='true'){
+			prj.pop("尊敬的 您已经"+expira_day+"天没有修改过密码了，为了您的账户安全，建议您定期修改密码。 ",6,"modifyPassword.htm");
+	}
+	// $(document).on('click','.needlogin',function(){
+	// 	$('div.userloginbg').show();    
+	// 	$('div.userlogin').show();
+	// 	$('#username1').focus();
+	// 	//百家乐大赛
+	// 	if($('.userlogin').attr('type') == 'bac'){
+	// 		$('.userlogin .title').text('请登录后参与活动');
+	// 	}
+	// });
+	// $('div.userlogin div.close').click(function(){
+	// 	$('div.userloginbg').hide();
+	// 	$('div.userlogin').hide();
+	// });
+	$(document).on('click','.agvip',function(){
+		var agvipInfo = '<div class="agvip_info"><p>尊敬的会员：</p>' + 
+		'<p style="text-indent:2em;">考虑到AG贵宾厅与AG旗舰厅的桌面设计和投注风格基本一致，贵宾厅已经成为旗舰厅的一个子集，为了减少游戏厅过多带来的困扰，我们将于4月1号下线AG贵宾厅，用有限的展示空间，推荐更多的游戏平台给大家。</p>'+
+		'<p style="text-indent:2em;">感谢大家一直以来的支持！</p>'+
+		'<p style="text-align:right;">和记娱乐营运部</p></div>' + 
+		'<div class="agvip_info btns"><a href="javascript:void(0);" id="goFlag">进入AG旗舰厅</a><a href="javascript:void(0);" id="goVip">进入AG贵宾厅</a></div>';
+		jInformation(agvipInfo,'AG贵宾厅关厅公告');
+	});
+
+		$(document).on('click','#goVip',function(){
+			$.alerts._hide();
+			prj.pop('游戏厅维护中...');
+		});
+
+
+		$(document).on('click','#goFlag',function(){
+			$.alerts._hide();
+			prj.popvisit('https://www.heji2017.com/popvisit.htm','E04003');
+		});
+
+});
+</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){
+		i['GoogleAnalyticsObject']=r;
+		i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)
+		},
+				i[r].l=1*new Date();
+		a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];
+		a.async=1;
+		a.src=g;
+		m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-75763120-1', 'auto');
+	ga('send', 'pageview');
+	window.address = 'https://e04-static.agg044.com/static/E04P';
+</script>
+<script type="text/javascript" src="/script/E04P/_default/__js/calendar/WdatePicker.js" /></script>
+<script type="text/javascript" src="/script/E04P/_default/__js/layui/layui.js" /></script>
+<script> 
+// function needhideusertips(){
+// 	var usernameinput = $('#username').val();
+// 	if(''!=usernameinput){
+// 		$('#username').next('span.tips').hide();
+// 		$('#password').next('span.tips').hide();
+// 	}
+// }
+</script>
+</body>
+</html>

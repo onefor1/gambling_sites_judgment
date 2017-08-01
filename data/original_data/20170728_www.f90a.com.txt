@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--此項僅為了讓IE以最新版設定-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>大发Bet 一 F90.COM</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/assets/img/favicon.ico">
+        <!-- Web Fonts -->
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin' rel='stylesheet' type='text/css'/>
+        <!-- CSS -->
+        <link href="/plugins/sweetalert.css?201704281007" rel="stylesheet" />
+        <link href="/assets/css/jquery.ui.tooltip.min.css?201704281007" rel="stylesheet"/>
+        <link href="/assets/css/jquery.ui.theme.min.css?201704281007" rel="stylesheet"/>
+        <link href="/assets/css/jquery.ui.core.min.css?201704281007" rel="stylesheet"/>
+        <link href="/assets/css/matterhorn-sc.css?201707120349" rel="stylesheet"/>
+        <link href="/assets/css/swiper.min.css?201707120349" rel="stylesheet" >
+        <style>
+
+ .focusBox { position: relative; width:100%; height:360px;overflow: hidden; }
+ .focusBox .pic{ position:relative; z-index:0;}
+ .focusBox .pic img { width:1920px; height:360px; display: block; }
+ .focusBox .hd { width:100%; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+ .focusBox .hd li{margin: 0 5px;  height: 14px; overflow: hidden; width: 14px; background: #fff; cursor: pointer;border-radius: 50%;
+    display:inline-block; *display:inline; zoom:1;}
+ .focusBox .hd .on{ background-position:0 0; background: #eb5502; }
+ .swiper-pagination{
+  margin-top: -60px;
+ }
+ .swiper-pagination-bullet{
+  background: #fff;
+  opacity: 1;
+ }
+ .swiper-pagination-bullet-active{
+  background: #eb5502;
+ }
+</style>
+<link href="/assets/css/home.css?44023224" rel="stylesheet">
+<link href="/assets/css/merge.css" rel="stylesheet">
+<style>
+/*.language-switcher{
+  margin-top: -5.5%;
+  margin-left: 3.3%;
+}*/
+#ad-flash{
+  max-width: 1903px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer_first_type{
+  display: block !important;
+}
+
+.swiper-container-sponsor.swiper-container-vertical{
+  float: left;
+  width: 33.3333333333333%;
+  height: 200px;
+  background-color: #373737;
+}
+.main{
+  width: 1300px;
+  margin:auto;
+  margin-top: 20px;
+}
+.swiper-content{
+  display: block;
+  width: 100%;
+  height: 80px;
+  margin: auto;
+
+}
+
+/*.swiper-container-sponser .swiper-wrapper{
+  height: 200px;
+  overflow: hidden;
+}*/
+</style>
+<style type="text/css">
+    #navAnnouncement {
+        font-size: 14px;
+        line-height: 25px;
+        height: 30px;
+        color: #af0000;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+    .col-xs-2 {
+        /*width: 15%;*/
+        width: 70px;
+        float: left;
+        height: 21px;
+    }
+    .col-xs-10 {
+        width: 85%;
+        float: left;
+        height: 21px;
+    }
+    #navAnnouncement marquee a {
+        color: #af0000;
+        text-decoration: none;
+    }
+    #navAnnouncement .w1k {
+        width: 990px;
+        margin: 0 auto;
+        height: 100%;
+    }
+    #announcement .modal-dialog{
+    width: 510px;
+    height: 380px;
+	}
+	#announcement .modal-header{
+	    color: #fff;
+	    background-color:#373737; 
+	}
+	#announcement .modal-body{
+	    width: 100%;
+	    height: auto;
+	    padding: 40px;
+	    position: relative;
+	    display: block;
+	    margin: 0 auto;
+	    overflow: hidden;
+	}
+	#announcement .modal-body .top{
+	    height: 100px;
+	    border-bottom: 1px solid #ddd;
+	    color: black;
+	}
+	#announcement .modal-body .content{
+	    display: block;
+	    height: 300px;
+	}
+	#announcement .swiper-pagination{
+	    width: 80%;
+	    display: inline-block;
+	    margin: 0 auto;
+	    position: relative;
+	    float: none;
+	    right: 50px;
+	    top: 0;
+	}
+
+	#announcement .swiper-pagination-bullet{
+	    /*border: 1px solid #000;*/
+	    width: 10px;
+	    height: 10px;
+	    margin: 0 5px;
+	    background-color: #848484;
+	}
+
+	#announcement .swiper-pagination-bullet-active{
+	    background-color: #000;
+	}
+
+	#announcement .modal-footer .btn {
+	    font-weight: 600;
+	    line-height: 15px;
+	    position: absolute;
+	    z-index: 5;
+	    bottom: 30px;
+	    top: 568px;
+	    left: 15px;
+	    width: 30px;
+	    height: 30px;
+	    cursor: pointer;
+	    text-align: center;
+	    color: #a4a4a4;
+	    border: 1px solid #ddd;
+	    background-image:none;
+	    padding: 6px 0;
+	}
+	#announcement .modal-footer .btn:hover{
+	    background-color: #000;
+	}
+	#announcement .modal-footer .swiper-button-next{
+	    right: 15px;
+	    left: inherit;
+	}   
+	#announcement .close{
+	    color: #848484;
+	}
+	#announcement .modal-footer{
+	    padding: 20px;
+	    height: 60px;
+	    text-align: right;
+	    border-top: 1px solid #e5e5e5;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="/assets/css/sidebar.css">
+
+<style>
+  .m-top15px{
+        margin-top:15px;
+        }
+
+  .element-help{
+    height: 45px;
+  }
+</style>
+<!-- style -->
+<style type="text/css">
+.product-menu .active, .product-menu a{
+    padding: 0 16px!important;
+}
+.product-navigation-bar{
+        margin-bottom: 0px !important;
+}
+.yzm{
+    margin-top: 3px;
+    display: inline-flex;
+}
+.yzm1{
+    margin-right: 11px;
+}
+
+</style>
+
+<!-- for header -->
+<style>
+  .header{
+    width: 1000px!important;
+  }
+  .header .logo{
+    position: relative;
+    margin-top: 25px;
+    left: 0;
+    margin-left: 0px;
+  }
+  .top-menu-info {
+    position: relative;
+    right: 0px;
+    display: inline;
+    float: right;
+    margin: 0px !important;
+    margin-top: 10px!important;
+  }
+  .header .matterhorn-account{
+    margin: 0px !important;
+    width: auto;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  /*navigation bar*/
+    .product-navigation-bar nav {
+        display: block;
+        width: 1000px!important;
+        margin: 0 auto;
+        float: none;
+        height:35px;
+    }
+    .product-navigation-bar nav ul li a:first-child{
+        border-left: 0px;
+    }
+
+
+</style>
+<!-- style -->
+<link href="/plugins/bootstrap/to_bootstrap.css?" rel="stylesheet" />
+<style type="text/css">
+  .to_bootstrap .modal-dialog {
+    width: 400px;
+  }
+
+  .to_bootstrap .modal-header {
+    background-color: #43045e ;
+    color: #fff;
+  }
+
+  .to_bootstrap button.close {
+    color: #fff;
+    opacity: 1.0;
+  }
+
+  .to_bootstrap .btn-login ,
+  .to_bootstrap .btn-login :hover {
+    background-color: #43045e ;
+    border-color: #43045e ;
+    color: #fff !important;
+  }
+
+  .p-0 {
+    padding: 0 !important;
+  }
+
+  .modal-footer .btn{
+    height:50px;
+    padding-bottom:10px;
+    color: #000;
+  }
+
+  .modal-dialog{
+    top:25%;
+    z-index: 1040; 
+  }
+  .btn.btn-login.btn-lg.btn-block{
+    height: 100%;
+  }
+  .dbtn{
+    background:#dddddd ;
+  }
+</style>
+<!-- style -->
+<style type="text/css">
+/*footer box*/
+footer .region-highlighted {
+    margin: 0 auto;
+    padding: 50px 0;
+    zoom: 1;
+    position: relative;
+    background-color: transparent;
+    width: 1300px;
+    text-align: center;
+    color: #9fa49d;
+}
+
+
+/*footer sponser*/
+footer .sponsors {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer .footer_first_type .sponsors li{
+    border-right: 0px;
+    padding: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    zoom: 1;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 13px;
+    margin: 0;
+    /*background-image: url(/assets/img/sprite_matterhorn_sc_grey.png);*/
+    background-repeat: no-repeat;
+    text-align:center;
+    height: 85px;
+    background-position-x:-20px; 
+}
+
+footer .sponsors li {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+footer .sponsors .sunderland {
+    background-image: url(/assets/img/footer/1.png);
+    width: 225px;
+}
+
+footer .sponsors .everton {
+    background-image: url(/assets/img/footer/2.png);
+    width: 208px;
+}
+
+footer .sponsors .celtic {
+    background-image: url(/assets/img/footer/3.png);
+    width: 215px;
+}
+
+footer .sponsors .burnley {
+    background-image: url(/assets/img/footer/4.png);
+    width: 230px;
+}
+
+footer .sponsors .blackburn {
+    background-image: url(/assets/img/footer/5.png);
+    width: 190px;
+}
+footer .sponsors .wales {
+	background-image: url(/assets/img/footer/6.png);
+    width: 225px;
+}
+
+
+/*footer btm column*/
+footer .three-column {
+    width: 100%;
+    margin: 0 auto;
+}
+footer .three-column section {
+    display: inline-table;
+    position: relative;
+}
+footer .three-column section h2 {
+    margin-bottom: 30px;
+    text-align: left;
+}
+/*site-keyword*/
+footer .site-keywords {
+    width: 415px !important;
+    font-size: 14px  !important;
+    display: inline-block;
+    color: #878787;
+    text-align: justify;
+    padding-left: 35px;
+}
+
+/*center link*/
+footer .three-column .quick-links {
+    margin-left: 135px;
+    /*width: 20% !important;*/
+}
+footer .three-column .quick-links ul {
+    text-align: left;
+    margin-right: 20px;
+    display: inherit;
+}
+footer .three-column .quick-links ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+footer .three-column .quick-links ul li a{
+  font-size: 14px;
+}
+
+/*social partners*/
+footer .socials-partners{
+  margin-left: 95px;
+}
+footer .partner-icons .keno {
+    background-position: -220px -110px  !important;
+    width: 85px !important;
+    height: 40px !important;
+}
+footer .partner-icons .opus {
+    background-position: 20px -110px  !important;
+    width: 145px !important;
+    height: 40px !important;
+}
+footer .partner-icons .playtech {
+    background-position: -545px -112px  !important;
+    width: 120px !important;
+    height: 40px !important;
+}
+footer .partner-icons .bbin {
+    background-position: -265px -80px !important;
+    width: 75px !important;
+    height: 30px !important;
+}
+footer .partner-icons .microgaming {
+  background-position: -358px -70px !important;
+  width: 110px !important;
+  height: 40px !important;
+}
+
+footer .partner-icons .netent {
+  background-position: -480px -81px !important;
+  width: 80px !important;
+  height: 25px !important;
+  margin-top: 12px !important;
+}
+
+footer .partner-icons .qtech {
+  background-position: -575px -80px !important;
+  width: 100px !important;
+  height: 30px !important;
+  margin-top: 10px !important;
+}
+
+footer .partner-icons .xin {
+  background-position: -680px -70px !important;
+  width: 65px !important;
+  height: 40px !important;
+}
+footer .partner-icons .maxbet {
+  background-position: -1px -80px !important;
+  width: 105px !important;
+  height: 30px !important;
+  margin-top: 10px !important;
+}
+footer .partner-icons .habanero {
+  background-position: -120px -70px !important;
+  width: 130px !important;
+  height: 40px !important;
+}
+footer .partner-icons .hgaming {
+  background-position: -1px -110px !important;
+  width: 110px !important;
+  height: 40px !important;
+}
+footer .partner-icons .asia_gaming {
+  background-position: -120px -110px !important;
+  width: 95px !important;
+  height: 40px !important;
+}
+footer .partner-icons .AB {
+  background-position: -670px -112px !important;
+  width: 95px !important;
+  height: 40px !important;
+}
+
+footer .partner-icons li {
+    margin-right: 5px;
+    background: transparent url(/assets/img/sprite_matterhorn_sc_grey.png) no-repeat 0 0;
+    display: inline-block;
+    border:0px;
+}
+footer .footer_second_type .partner-icons li{
+    margin-right: 50px;
+}
+
+/*social media*/
+footer .social-media{
+  width: 415px;
+  margin-left: 60px;
+  display: inline-block;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  text-align: center;
+}
+
+footer ul li {
+  margin: 0;
+}
+
+footer a {
+  color: #878787 !important;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #af0000 !important;
+}
+
+
+footer div li.last {
+  border-right: none;
+}
+
+footer .social-media .socials li {
+  margin-right: 6px;
+}
+
+footer .social-media li {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+}
+
+footer .social-media li a,footer .social-media li span {
+  width: 39px;
+  height: 39px;
+  font-size: 10.5px;
+}
+
+footer h2 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer .three-column h2{
+  line-height:normal;
+  padding:0px;
+  font-family: "Trebuchet MS",Arial,sans-serif;
+  float:none;
+  width:auto;
+}
+
+footer .site-keywords {
+  text-align: justify;
+}
+
+footer .site-keywords .single-spacing {
+  line-height: 1.3em;
+}
+
+footer .site-keywords .one-half-spacing {
+  line-height: 1.7em;
+}
+
+footer .site-keywords .double-spacing {
+  line-height: 2em;
+}
+
+footer .contacts {
+  margin-left: 30px;
+}
+
+footer .contacts li {
+  font-size: 11px;
+  width: 160px;
+  text-align: left;
+  margin-bottom: 15px;
+  word-break: break-all;
+  color: #878787;
+}
+
+footer .contacts span {
+  zoom: 1;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  background: url(/assets/img/sprite_matterhorn_sc_grey.png) -160px -160px no-repeat;
+  display: inline;
+  line-height: 18px;
+  float: left;
+  margin-right: 3px;
+}
+
+footer .contacts .icon-email {
+  background-position: -400px -160px !important;
+  width: 28px !important;
+  height: 18px !important;
+}
+
+footer .contacts .icon-phone {
+  background-position: -440px -160px  !important;
+  width: 20px  !important;
+  height: 26px  !important;
+}
+
+footer .contacts .icon-chat {
+  background-position: -480px -160px !important;
+  width: 28px !important;
+  height: 27px !important;
+}
+
+footer .contacts .icon-mobile {
+  background-position: -520px -160px !important;
+  width: 20px !important;
+  height: 30px !important;
+}
+
+/*second type footer*/
+/*.footer_second_type {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.footer_second_type .navMenu {
+    width: 1000px;
+    display: inline-block;
+}
+.footer_second_type .navMenu .menu li{
+    font-size: 14px;
+    display: inline-block;
+    padding: 0 16px;
+    border-right: 1px solid #a4a9a2;
+    display: inline;
+    font-size: 14px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.footer_second_type .navMenu .menu li:last-child{
+  border-right: 0px;
+}
+
+.copyright {
+  width: 100%;
+  background-color: #373737;
+  font-size: 11px;
+  color: #e6e7e8;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+}
+.footer_first_type{
+  display: none;
+}
+.footer_second_type{
+  display: none;
+}*/
+</style>
+<!-- style -->
+        <!-- JS -->
+        <script src="/assets/index/js/jquery.min.js?v=1.7.2" type="text/javascript"></script>
+        <script src="/assets/js/jquery-1.9.1.min.js?201704281007" type="text/javascript"></script>
+        <!-- <script src="/plugins/bootstrap/bootstrap.min.js?201704281007" type="text/javascript"></script> -->
+        <script src="/plugins/sweetalert.min.js?201704281007" type="text/javascript"></script>
+        <script src="/js/www/Util.js?201704281007" type="text/javascript"></script>
+        <script src="/js/www/main.js" type="text/javascript"></script> 
+        <!-- <script src="/assets/js/float.js"></script> -->
+        <script type="text/javascript" src="/js/www/jquery.min.js?796764423"></script>
+<script type="text/javascript" src="/assets/index/js/jquery.once.js"></script>
+<!-- <script type="text/javascript" src="/assets/index/js/drupal.js"></script> -->
+<script type="text/javascript" src="/assets/index/js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="/assets/index/js/jquery.ui.widget.min.js"></script>
+<!-- slider control -->
+<!-- <script type="text/javascript" src="/assets/index/js/ckscript.js"></script>
+<script type="text/javascript" src="/assets/index/js/tail.min.js"></script> -->
+<!-- header_script -->
+<!-- header_script -->
+  <script src="/plugins/bootstrap.min.js?201707070547" type="text/javascript"></script>
+<!-- header_script -->
+<!-- header_script -->
+            </head>
+    <body>
+        <header><!-- header -->
+<div class="header-wrapper">
+<!--     <div class="matterhorn-account-session-timeout">
+        <span class="session-icon timeout"></span>
+        您的会话由于没有响应已经超时。
+        <span class="session-icon close"></span>
+    </div> -->
+    <header class="header container_30">
+        <h1 class="grid_10 logo mt-20 alpha">
+        <a class="hide-text" href="/" rel="主页" title="主页">
+            <img src="/assets/img/dfb_logo.png" width="289" height="56" alt="DAFABET">DAFABET
+        </a>
+        </h1>
+        <div class="top-menu-info">
+            <!-- <a href="" target="_blank">大发资讯</a> -->
+            <a href="/about/deposit">如何存款</a>
+            <a href="/about/contact">联系我们</a>
+            <a class="faq popup" href="javascript:Util.windowOpen(&#039;https://messenger.providesupport.net/messenger/0n85uxjbaohmd0jxx7v4ctrkq8.html&#039;)">在线客服</a>
+        </div>
+        <div id="block-matterhorn-account-account" class="matterhorn-account grid_20 omega pull-right">
+            <!-- <div class="item-list">
+                        <ul class="top-menu mt-10 mb-10 pull-right">
+                                    <li class="pull-left mr-10 first">
+                                                <a href="/about/paymentmethod">支付方式</a>
+                                    </li>
+                                    <li class="pull-left last">
+                                                <a href="/about/contact">联系我们</a>
+                                    </li>
+                        </ul>
+            </div> -->
+                        <form class="pull-right fr" action="/login_action" method="post" name="LoginForm" id="LoginForm" accept-charset="UTF-8" novalidate="novalidate">
+                <input type="hidden" name="_token" value="NNjeKZYiDXUgAoKrgdrSOiFM61nN2KFdO4SguF6E">
+                <div>
+                    <!-- <input type="hidden" name="logip" value="175.136.197.17">
+                    <input type="hidden" name="gateway" value="/sc/sports/matterhorn/account/login?destination=home%3Fbtag%3D656545">
+                    <input type="hidden" name="product" value="3">
+                    <input type="hidden" name="clientname" value="cms">
+                    <input type="hidden" name="form_build_id" value="form-gYP_5dKsUBtoXzOMkxQgxCCEEqzFXuL4Q1zGbz0pkfI">
+                    <input type="hidden" name="form_id" value="account_login_block">
+                    <input type="hidden" name="js_callback" value="player-login">
+                    <input type="hidden" name="js_module" value="matterhorn_auth">
+                    <input type="hidden" name="mauth-access-token" value="hDMHC7_DezgJ_lDtxRby1qFqGHvzsUShZ6WCtl13E_c"> -->
+                    <div class="clearfix login pull-right">
+                        <div class="text-fields pull-left mr-10">
+                            <div class="form-item form-username pull-left mr-10">
+                                <input autocomplete="off" type="text" id="fr_username" name="fr_username" value="" title="请填写 4-15 位大小写英数字" size="15" pattern="[a-zA-Z0-9]{4,15}" required pattern="[a-zA-Z0-9]{4,15}" class=" login-input form-text required" tabindex="1" placeholder="用户名">
+                            </div>
+                            <div class="form-item form-password pull-left">
+                                <input autocomplete="off" type="password" id="fr_password" name="fr_password" title="请填写 6-12 位大小写英数字" size="15" class="login-input form-text required" tabindex="2" placeholder="密码">
+                            </div>
+                            <!-- <div class="form-item form-username pull-left yzm">
+                                    <input type="text" class="tet login-input form-text required yzm1" tabindex="3" placeholder="验证码" required name="fr_gdcode" id="fr_gdcode" maxlength="4" />
+                                    <img id="gdcode_img" class="inInput" src="/gdcode.jpg1501241043" onclick="this.src='/gdcode.jpg'+Math.random();">
+                            </div> -->
+                        </div>
+                        <div class="pull-left form-actions form-wrapper" id="edit-actions">
+                            <input class="btn-login btn-login pull-left mr-10 form-submit" tabindex="4" name="submit" type="submit" id="account-login-submit" name="op" value="登录">
+                            <a href="/signup" class="btn-join pull-left ga-join" data-label="" data-category="现在注册">现在注册</a>
+                            <!-- <a href="javascript:void;" onclick="javascript:Util.windowOpen('/forgot',600,550);" class="btn-forgot-password pull-left">无法登录？</a> -->
+                            <a href="javascript:void;" onclick="javascript:Util.windowOpen('/forgot',600,550);"  class="btn-forgot-password pull-left wz">无法登录？</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                </header>
+    
+    <div class="container_30 product-navigation-bar mt-10">
+        <nav class="grid_24 alpha">
+            <div class="item-list">
+                <ul class="product-menu">
+                    <!-- <li class="pull-left nav-sportsbook nav-product first">
+                        <a href="/sport/SB" class="">沙巴体育</a>
+                    </li> -->
+                     <li class="pull-left nav-macaulive nav-product">
+                        <a href="/casino" class="">现场荷官</a>
+                    </li>
+                    <li class="pull-left nav-gts nav-product">
+                        <a href="/egame/MG2" class="">老虎机</a>
+                    </li>
+                    <li class="pull-left nav-dafa_sports nav-product">
+                        <a href="/sport/BBIN" class="">大发体育</a>
+                        <span class="new-indicator">
+                            <span>新</span>
+                        </span>
+                    </li>
+                    <li class="pull-left nav-poker nav-product">
+                        <!-- <a href="https://www.sportdafa.net/sc/poker?btag=656545">扑克</a> -->
+                        <a href="/lottery" class="">彩票</a>
+                    </li>
+                    <li class="pull-left nav-casino nav-product">
+                        <a href="/casino_zone" class="">娱乐场</a>
+                    </li>
+                    <li class="pull-left nav-macaulive nav-product">
+                        <a href="/promo" class="">优惠活动</a>
+                    </li>
+                    <li class="pull-left nav-macaulive nav-product">
+                        <a href="/mobile" class="">手机投注</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <!-- <div class="language-switcher grid_6"> -->
+            <!-- <div class="language-selector pull-right">
+                        <a href="/" class="language-link active selector zh-hans" xml:lang="zh-hans">
+                                    <span class="flag"></span>
+                                    <span class="arrow"></span>
+                        </a>
+            </div>
+            --><!-- <ul class="matterhorn-language-switcher language-switcher-matterhorn_url_url_provider">
+                <li class="en ">
+                    <a href="https://www.sportdafa.net/en/sports/" class="language-link" xml:lang="en">English (Asia)</a>
+                </li>
+                <li class="eu first">
+                    <a href="https://www.sportdafa.net/eu/sports/" class="language-link" xml:lang="eu">English (Europe)</a>
+                </li>
+                <li class="zh-hans  active">
+                    <a href="https://www.sportdafa.net/sc/sports/" class="language-link active" xml:lang="zh-hans">简体中文</a>
+                </li>
+                <li class="zh-hant ">
+                    <a href="https://www.sportdafa.net/ch/sports/" class="language-link" xml:lang="zh-hant">繁體中文</a>
+                </li>
+                <li class="th ">
+                    <a href="https://www.sportdafa.net/th/sports/" class="language-link" xml:lang="th">ภาษาไทย</a>
+                </li>
+                <li class="vi ">
+                    <a href="https://www.sportdafa.net/vn/sports/" class="language-link" xml:lang="vi">Tiếng Việt</a>
+                </li>
+                <li class="id ">
+                    <a href="https://www.sportdafa.net/id/sports/" class="language-link" xml:lang="id">Bahasa Indonesia</a>
+                </li>
+                <li class="ja ">
+                    <a href="https://www.sportdafa.net/jp/sports/" class="language-link" xml:lang="ja">日本語</a>
+                </li>
+                <li class="ko ">
+                    <a href="https://www.sportdafa.net/kr/sports/" class="language-link" xml:lang="ko">한국어</a>
+                </li>
+                <li class="hi ">
+                    <a href="https://www.sportdafa.net/in/sports/" class="language-link" xml:lang="hi">हिन्दी</a>
+                </li>
+                <li class="el ">
+                    <a href="https://www.sportdafa.net/gr/sports/" class="language-link" xml:lang="el">Ελληνικά</a>
+                </li>
+                <li class="pl ">
+                    <a href="https://www.sportdafa.net/pl/sports/" class="language-link" xml:lang="pl">Polski</a>
+                </li>
+                <li class="en-gb last">
+                    <a href="https://www.sportdafa.net/uk/sports/" class="language-link" xml:lang="en-gb">English, British</a>
+                </li>
+            </ul>
+        </div> -->
+    </div>
+        <!--最新公告-->
+    <div class="container p-0" id="navAnnouncement">
+        <div class="w1k"> 
+            <div class="row announcement_bg" style="display: inline-block;padding-top: 3px">
+                <div class="col-xs-2">
+                    <span class="glyphicon glyphicon-volume-up"></span>最新公告：
+                </div>
+                <div class="col-xs-10">
+                    <marquee onmouseover="stop()" onmouseout="start()" behavior="scroll" scrollamount="3" direction="left">
+                                                                                    <a data-annid=1  class="bai" style="margin: 0 40px;cursor: pointer;">
+                                    <span style="color: #000080;">尊敬的会员您好！目前因第三方支付线路不稳定造成扫码支付通道成功入款几率降低！届时，我司建议您可以使用&rarr;</span><span style="color: #ff0000;"><strong>充值&rarr;公司入款&rarr;查看我司最新收款银行，向银行卡进行转账您需要充值的金额</strong></span><span style="color: #000080;">，（可以使用支付宝，或使用网银转账，或用ATM机转账到此银行卡进行入款），转账后当笔订单提交即可自动到账！<strong>F90大发娱乐城</strong>敬上！</span>
+                                </a>
+                                                            <a data-annid=2  class="bai" style="margin: 0 40px;cursor: pointer;">
+                                    <span style="color: #000080;">尊敬的会员您好！近期因诸多子网站出现线路异常，游戏卡顿，网站无法登陆等问题，现我司已将相关子网站进行重组合并，玩家可以正常使用之前的账户进行娱乐且可以申请到比子网站更多优惠，存取款秒到账，感谢玩家长久以来对我司的支持！<strong>F90大发线上娱乐</strong><strong>城</strong>敬上！</span>
+                                </a>
+                                                            <a data-annid=3  class="bai" style="margin: 0 40px;cursor: pointer;">
+                                    <span style="color: #333399;">欢迎光临<strong>F90大发线上娱乐城</strong>，我们为您提供最专业的线上投注，为您提供全网最优质客服团队，全天候24小时为您解决游戏中遇到的所有问题，快速的入款，极速的出款，线上网投就选<strong>F90大发</strong><strong>线上娱乐城</strong>，永久域名&nbsp;，感谢您的支持，祝您游戏愉快，盈利多多</span>
+                                </a>
+                                                                        </marquee>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="to_bootstrap">
+    <div class="modal fade" id="announcement" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">最新公告</h4>
+            </div>
+            <div class="modal-body">
+                <div class="anno-swiper-container">
+                    <div class="swiper-wrapper">
+                                                              <div class="swiper-slide">
+                        <div class="top">2017-07-25 00:32:36</div>
+                        <div class="content"><span style="color: #000080;">尊敬的会员您好！目前因第三方支付线路不稳定造成扫码支付通道成功入款几率降低！届时，我司建议您可以使用→</span><span style="color: #ff0000;"><strong>充值→公司入款→查看我司最新收款银行，向银行卡进行转账您需要充值的金额</strong></span><span style="color: #000080;">，（可以使用支付宝，或使用网银转账，或用ATM机转账到此银行卡进行入款），转账后当笔订单提交即可自动到账！<strong>F90大发娱乐城</strong>敬上！</span></div>
+                      </div>
+                                          <div class="swiper-slide">
+                        <div class="top">2017-07-16 02:34:17</div>
+                        <div class="content"><span style="color: #000080;">尊敬的会员您好！近期因诸多子网站出现线路异常，游戏卡顿，网站无法登陆等问题，现我司已将相关子网站进行重组合并，玩家可以正常使用之前的账户进行娱乐且可以申请到比子网站更多优惠，存取款秒到账，感谢玩家长久以来对我司的支持！<strong>F90大发线上娱乐</strong><strong>城</strong>敬上！</span></div>
+                      </div>
+                                          <div class="swiper-slide">
+                        <div class="top">2017-07-03 14:16:20</div>
+                        <div class="content"><span style="color: #333399;">欢迎光临<strong>F90大发线上娱乐城</strong>，我们为您提供最专业的线上投注，为您提供全网最优质客服团队，全天候24小时为您解决游戏中遇到的所有问题，快速的入款，极速的出款，线上网投就选<strong>F90大发</strong><strong>线上娱乐城</strong>，永久域名 ，感谢您的支持，祝您游戏愉快，盈利多多</span></div>
+                      </div>
+                                                            </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                            <div class="swiper-button-prev btn"><</div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next btn">></div>
+                        </div>
+          </div>
+          
+        </div>
+    </div>
+</div>
+    <div id="block-nodeblock-1232" class="block block-nodeblock grid_30">
+  <div class="block-content">
+    <div class="floating-banner-left">
+      <div class="container">
+        <ul class="elements clearfix">
+              <li class="element-product"><a class="casino" href="/mobile">iOS下载</a></li>
+    <li class="element-product"><a class="poker" href="/mobile">安卓下载</a></li>
+    <li class="element-product last"><a class="dconnect view-dconnect last" href="/mobile">PC下载</a></li>
+        </ul>
+      </div>
+      <div class="title-container"><span class="banner-icon"></span>
+      <p class="vertical-title">下载
+      </p>
+    </div>
+  </div>
+  <div class="floating-banner-right">
+    <div class="title-container"><span class="banner-icon"></span>
+    <p class="vertical-title">帮助中心
+    </p>
+  </div>
+  <div class="container">
+    <ul class="elements clearfix">
+            <li class="element-help"><a class="faq popup" href="javascript:Util.windowOpen(&#039;https://messenger.providesupport.net/messenger/0n85uxjbaohmd0jxx7v4ctrkq8.html&#039;)">24/7在线聊天</a></li>
+      <li class="element-help"><a class="mail" href="#">dafabet688@gmail.com</a></li>
+      <li class="element-help"><a class="phone">+63-0950-8888889</a></li>
+      <li class="element-help"><a class="QQ" href="#">客服QQ：87198408</a></li>
+      <!-- <li class="element-help"><a class="wechat last popup" href="#">xxxxx</a></li> -->
+    </ul>
+  </div>
+</div>
+<!-- <div class="element-hidden">
+  <div class="dafabet-connect-modal-light-content vmiddle textcenter" id="dafabet-connect">
+    <h2 class="mt-40 mb-40">下载大发速连
+    </h2>
+    <div class="container">
+      <ul class="elements-modal clearfix mb-30">
+        <li class="element-lightbox first"><a class="lmac" href="https://dafaconnect.com/Dafabet-Connect.dmg">
+          <p class="dl-mac mt-20 ml-30">下载MAC版
+          </p></a></li>
+          <li class="element-lightbox"><a class="lwindows" href="https://dafaconnect.com/Dafabet-Connect-Downloader.exe">
+            <p class="dl-windows mt-10 ml-40 m-top15px">下载WINDOWS
+              </p><span>(下载版)</span></a></li>
+              <li class="element-lightbox last"><a class="lwindowsfv last" href="https://dafaconnect.com/Dafabet-Connect-Setup.exe">
+                <p class="dl-windowsfv mt-10 ml-40 m-top15px">下载WINDOWS
+                  </p><span>(完整版)</span></a></li>
+                </ul>
+                <p class="text-center mb-30"><a class="how-to" href="https://dafaconnect.com/sc/">了解更多</a>
+              </p>
+            </div>
+          </div>
+        </div> -->
+   
+      </div>
+    </div>
+    </div>
+</div>
+<!-- header -->
+</header>
+        <main> <!-- 轮播点 -->
+<div id="ad-flash">
+<div class="focusBox swiper-container">
+  <ul class="pic swiper-wrapper">
+          <li class="swiper-slide">
+      <a href="/promo#">          <img src="/common/storage/cms/cms_37.jpg?20170719045158" alt="首页" style="min-height: 100%">
+      </a>      </li>
+          <li class="swiper-slide">
+                <img src="/common/storage/cms/cms_223.jpg?20170719045844" alt="首页广告1" style="min-height: 100%">
+            </li>
+      </ul>
+  <div class="swiper-pagination"></div>
+</div>
+</div>  
+
+
+
+<div id="block-nodeblock-1232" class="block block-nodeblock grid_30">
+  <div class="block-content">
+<!--     <div class="floating-banner-left">
+      <div class="container">
+        <ul class="elements clearfix">
+              <li class="element-product"><a class="casino" href="/mobile">iOS下载</a></li>
+    <li class="element-product"><a class="poker" href="/mobile">安卓下载</a></li>
+    <li class="element-product last"><a class="dconnect view-dconnect last" href="/mobile">PC下载</a></li>
+        </ul>
+      </div>
+      <div class="title-container"><span class="banner-icon"></span>
+      <p class="vertical-title">下载
+      </p>
+    </div>
+  </div>
+  <div class="floating-banner-right">
+    <div class="title-container"><span class="banner-icon"></span>
+    <p class="vertical-title">帮助中心
+    </p>
+  </div>
+  <div class="container">
+    <ul class="elements clearfix">
+            <li class="element-help"><a class="faq popup" href="javascript:Util.windowOpen(&#039;https://messenger.providesupport.net/messenger/0n85uxjbaohmd0jxx7v4ctrkq8.html&#039;)">24/7在线聊天</a></li>
+      <li class="element-help"><a class="mail" href="#">dafabet688@gmail.com</a></li>
+      <li class="element-help"><a class="phone">+63-0950-8888889</a></li>
+      <li class="element-help"><a class="QQ" href="#">xxxxx</a></li>
+      <li class="element-help"><a class="wechat last popup" href="#">xxxxx</a></li>
+    </ul>
+  </div>
+</div> -->
+<!-- <div class="element-hidden">
+  <div class="dafabet-connect-modal-light-content vmiddle textcenter" id="dafabet-connect">
+    <h2 class="mt-40 mb-40">下载大发速连
+    </h2>
+    <div class="container">
+      <ul class="elements-modal clearfix mb-30">
+        <li class="element-lightbox first"><a class="lmac" href="https://dafaconnect.com/Dafabet-Connect.dmg">
+          <p class="dl-mac mt-20 ml-30">下载MAC版
+          </p></a></li>
+          <li class="element-lightbox"><a class="lwindows" href="https://dafaconnect.com/Dafabet-Connect-Downloader.exe">
+            <p class="dl-windows mt-10 ml-40 m-top15px">下载WINDOWS
+              </p><span>(下载版)</span></a></li>
+              <li class="element-lightbox last"><a class="lwindowsfv last" href="https://dafaconnect.com/Dafabet-Connect-Setup.exe">
+                <p class="dl-windowsfv mt-10 ml-40 m-top15px">下载WINDOWS
+                  </p><span>(完整版)</span></a></li>
+                </ul>
+                <p class="text-center mb-30"><a class="how-to" href="https://dafaconnect.com/sc/">了解更多</a>
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <style type="text/css">
+        .m-top15px{
+        margin-top:15px;
+        }
+        </style>
+      </div>
+    </div>
+  </div>
+  <!-- sponser slider -->
+<div id="block-block-41" class="block block-block sponsors-slider-container mb-10">
+  <div class="block-content swiper-content">
+          <div class="swiper-container-sponsor swiper-1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="/sponsor/celtic" target="_blank"><img src="/assets/img/index/sc_celtic.png" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/sponsor/burnley" target="_blank"><img src="/assets/img/index/sc_burnley.png" alt=""></a>
+                </div>
+            </div>
+          </div>
+          <div class="swiper-container-sponsor swiper-2" style="right: -2px; position: relative;">
+             <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="/sponsor/sunderland"><img src="/assets/img/index/sc_sunderland.png" alt=""></a>
+                    </div>
+                  <div class="swiper-slide">
+                    <a href="/sponsor/blackburn"><img src="/assets/img/index/sc_blackburn.png" alt=""></a>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-container-sponsor swiper-3" style="right: -4px; position: relative;">
+             <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="/sponsor/wales" target="_blank"><img src="/assets/img/index/sc_wales.png" alt=""></a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="/sponsor/everton/"><img src="/assets/img/index/sc_everton.png" alt=""></a>
+                  </div>
+                  
+              </div>
+          </div>
+  </div>
+</div>
+  <main class="main">
+  <div class="main-inner">
+    <!-- Main Navigation -->
+    <!-- Messages -->
+    <!-- Sidebar First -->
+    <!-- Main Content -->
+
+    <div class="main-content">
+      <div class="main-content-inner">
+        <div class="region region-content clearfix">
+          <div id="block-nodeblock-1233" class="block block-nodeblock product-blocks">
+            <div class="block-content">
+              <div class="block-featured">
+                <div class="title"><span class="left-title">娱乐场</span>
+              </div>
+              <img alt="" src="/assets/img/index/425x337-slots.jpg">
+              <div class="inside-content">&nbsp;
+              </div>
+              <p class="blurb">欢迎来到亚洲最佳在线娱乐场，
+                <br>
+                每日奖励和惊喜奉送不断！
+              </p>
+              <div class="product-item-body">
+                <div class="product-blurb-cont" style="display: none;">
+                  <div class="product-blurb-text"><a class="btn btn-medium" href="/casino_zone">立即参与</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="block-product-1">
+            <div class="title"><span class="left-title">大发体育</span>
+          </div>
+          <img alt="" src="/assets/img/index/425x200-other-products-sc.jpg">
+          <p class="blurb">大发体育是大发新版的体育博彩，
+            <br>
+            比赛结束前结算您的盈利！
+          </p>
+          <div class="product-item-body">
+            <div class="product-blurb-cont" style="display: none;">
+              <div class="product-blurb-text"><a class="btn btn-medium" href="/sport/SB#">立即投注</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block-product-2">
+        <div class="title"><span class="left-title">现场荷官</span>
+      </div>
+      <img alt="" src="/assets/img/index/casino.png">
+      <p class="blurb">体验各种激动人心的锦标赛
+        <br>
+        和活力四射的扑克比赛
+      </p>
+      <div class="product-item-body">
+        <div class="product-blurb-cont">
+          <div class="product-blurb-text"><a class="btn btn-medium" href="/casino">立即加入</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block-media-1 block-ambassadors" style="background: url('/assets/img/index/block-ambassadors-bg.jpg')">
+    <p class="bordered-text show-text"><a href="/sponsor/spokesperson"><span>品牌大使</span> </a>
+  </p>
+  <p class="bordered-text hidden-text"><a href="/sponsor/spokesperson"><span>相约品牌大使</span> </a>
+</p>
+</div>
+<div class="block-media-2"><a href="/mobile"><img alt="" src="/assets/img/index/mobile.jpg"> </a>
+</div>
+</div>
+</div>  </div>
+</div>
+</div>
+<!-- Sidebar Second -->
+<div class="clear"></div>
+<!-- Bottom -->
+</div>
+<!-- .main-inner -->
+</main>
+
+<!-- 系统公告start -->
+<!-- 系统公告end -->
+</main>
+        <footer><!-- footer -->
+<div id="block-block-43" class="block block-block footer_main">
+  <div class="block-content">
+    <div class="region-highlighted footer footer_first_type">
+      <ul class="sponsors mb-40">
+        <li class="celtic"><!-- <span>celtic</span> --></li>
+        <li class="burnley"><!-- <span>burnley</span> --></li>
+        <li class="sunderland"><!-- <span>sunderland</span> --></li>
+        <li class="blackburn"><!-- <span>blackburn</span> --></li>   
+        <li class="wales"><!-- <span>wales</span> --></li>
+        <li class="everton"><!-- <span>everton</span> --></li>     
+      </ul>
+      <div class="three-column">
+        <section class="site-keywords">
+          <h2 class="mb-40">关于 大发
+          </h2>
+          <p class="one-half-spacing">欢迎来到大发，亚洲领先在线投注网站，为您呈现不一样的在线投注体验，包括体育投注，在线娱乐场，<br>真人娱乐场游戏，在线扑克，老虎机游戏和更多世界顶级投注游戏。
+          </p>
+        </section>
+        <section class="quick-links">
+          <h2 class="mb-40">快速链接
+          </h2>
+          <ul class="column column-1">
+            <li style="padding: 0;"><a href="/about/us">关于我们</a></li>
+            <li style="padding: 0;"><a href="/about/regulation">使用条款</a></li>
+            <li style="padding: 0;"><a href="/about/reason">游戏责任</a></li>
+            <li style="padding: 0;"><a href="/about/deposit">如何存款</a></li>
+            <li style="padding: 0;"><a href="/about/withdrawal">如何提款</a></li>
+          </ul>
+          <ul class="column column-2">
+            <li><a href="/about/privacy">隐私政策</a></li>
+            <!--li><a href="/agent">招募代理</a></li-->
+            <li class="last"><a href="/about/contact">联系我们</a></li>
+            <!-- <li class="last"><a href="spot-fake-website">辨别虚假的大发网站</a></li> -->
+          </ul>
+        </section>
+        <section class="socials-partners">
+          <div class="partner-icons">
+            <ul class="partners">
+              <li class="keno"><span>Keno</span></li>
+              <li class="opus"><span>Opus Gaming</span></li>
+              <li class="playtech"><span>playtech</span></li>
+              <li class="bbin"><span>bbin</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      </div>
+
+ <!--      <div class="footer footer_second_type" >
+        <div class="navMenu">
+          <ul class="menu">
+            <li><a href="/about/us">关于我们</a></li>
+            <li><a href="/about/deposit">如何存款</a></li>
+            <li><a href="/about/transfer">如何转账</a></li>
+            <li><a href="/about/withdrawal">如何提款</a></li>
+            <li><a href="/about/regulation">规则条款</a></li>
+            <li><a href="/about/privacy">隐私政策</a></li>
+            <li><a href="/about/reason">理性博彩</a></li>
+            <li><a href="/about/contact">联系我们</a></li>
+          </ul>        
+        </div>
+            <ul class="sponsors" style="margin-top: 50px">
+                <li class="sunderland">
+                  <span>sunderland</span>                
+                </li>
+                <li class="celtic">
+                    <span>celtic</span>                
+                </li>
+                <li class="burnley">
+                    <span>burnley</span>                
+                </li>
+                <li class="everton">
+                    <span>everton</span>                
+                </li>
+                <li class="blackburn">
+                    <span>blackburn</span>                
+                </li>
+                <li class="wales">
+                    <span>wales</span>                
+                </li>
+            </ul>
+                   -->
+            <!-- <ul class="partner-icons mt-20">
+                <li class="maxbet">
+                  <span>MAXBET</span>                
+                </li>
+                <li class="habanero">
+                  <span>HABANERO</span>                
+                </li>
+                <li class="bbin">
+                  <span>bbin</span>                
+                </li>
+                <li class="microgaming">
+                  <span>Microgamming</span>                
+                </li>
+                 <li class="netent">
+                  <span>Netent</span>                
+                </li>
+                 <li class="qtech">
+                  <span>Qtech</span>                
+                </li>
+                 <li class="xin">
+                  <span>Xin</span>                
+                </li>
+                 <li class="hgaming">
+                  <span>HGamming</span>                
+                </li>
+                 <li class="asia_gaming">
+                  <span>AG</span>    
+                </li>
+                 <li class="keno">
+                  <span>Keno</span>                
+                </li>
+                 <li class="opus">
+                  <span>OpusGaming</span>                
+                </li>
+                 <li class="playtech">
+                  <span>Playtech</span>                
+                </li>
+                 <li class="AB">
+                  <span>ipoker</span>                
+                </li>
+            </ul> -->
+      
+<!--       <section class="site-keywords mt-20">
+          <h2>关于 大发</h2>
+          <p class="single-spacing">欢迎来到大发，亚洲领先在线娱乐投注网站，为您呈现不一样的在线投注体验，包括体育投注，在线娱乐场，真人娱乐场游戏，在线扑克，老虎机游戏和更多世界顶级投注游戏。
+          </p>
+      </section>
+
+      <section class="social-media mt-20">
+          <ul class="contacts mt-10">
+              <li class="pull-left">
+                <a href="mailto:dafabet688@gmail.com"><span class="icon-email"></span>dafabet688@gmail.com</a>                        
+              </li>
+              <li class="pull-left">
+                <span class="icon-phone"></span>国际免费电话: +63-0950-8888889         
+              </li>
+              <li class="pull-left">
+                <a href="javascript:Util.windowOpen(&#039;https://messenger.providesupport.net/messenger/0n85uxjbaohmd0jxx7v4ctrkq8.html&#039;)" class="popup"><span class="icon-chat"></span>24/7在线帮助</a>                        
+              </li>
+          </ul> 
+      </section>
+    </div> -->
+    <div class="copyright footer_main" style="width:100%; text-align:center; line-height:25px; height:25px; ">版权 © 2017 | 大发 | 版权所有</div>
+  </div>
+</div>
+<!-- end footer sub -->
+<div class="to_bootstrap">
+  <!-- Modal -->
+  <div class="modal fade" id="modal_login" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center">欢迎登录</h4>
+        </div>
+        
+        <div class="modal-body">
+
+          <form id="login_form" action="/login_action" method="post">
+            <input type="hidden" name="_token" value="NNjeKZYiDXUgAoKrgdrSOiFM61nN2KFdO4SguF6E">
+
+            <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon2"><i class="glyphicon glyphicon-user"></i></span>
+              <input type="text" class="form-control" placeholder="账号" name="fr_username" id="fr_username" required autofocus pattern="[a-zA-Z0-9]{4,15}" />
+            </div>
+
+            <div class="input-group">
+              <span class="input-group-addon" id="sizing-addon2"><i class="glyphicon glyphicon-lock"></i></span>
+              <input type="password" class="form-control" placeholder="密码" name="fr_password" id="fr_password" required pattern=".{6,13}" />
+            </div>
+
+            <br/>
+
+            <!-- <div class="input-group">
+              <input type="text" class="form-control" placeholder="验证码" required name="fr_gdcode" id="fr_gdcode" maxlength="4" />
+              <span class="input-group-addon p-0" id="sizing-addon2">
+                <img id="gdcode_img_2" class="inInput" src="/gdcode.jpg1501241043" onclick="this.src='/gdcode.jpg'+Math.random();">
+              </span>
+              
+            </div> -->
+
+            <br/>
+            <button type="button" class="btn btn-login btn-lg btn-block" onclick="$('#login_form').submit();">立即登录</button>
+            <br/>
+
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn dbtn " onclick="location.href='/signup'" style="float:left;" >立即注册</button>
+          <button type="button" class="btn dbtn " onclick="javascript:Util.windowOpen('/forgot',600,550);" style="float:left;">忘记密码</button>
+          <!-- <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+        <script src="/assets/js/swiper.min.js?v=3.5" type="text/javascript"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: false,
+        loop: true
+    });
+</script>
+<!-- /#body-section -->
+<script type="text/javascript">
+      window_width=$(window).width();
+      msg_width=$('#msg01').width();
+      window_height=$(window).height();
+      msg_height=$('#msg01').height();
+
+      $('.msg01').css({left:(window_width - msg_width) / 2}).fadeIn();
+      $('.msg-overlay').unbind().click(function(){
+          $("#msg01,.msg-overlay").fadeOut();
+        }).fadeIn();
+      // margin_top_center=(window_height-msg_height)/2;
+      // margin_center=(window_width-msg_width)/2;
+      // $('#msg01').css('margin-left',margin_center);
+      // $('#msg01').css('margin-top',margin_top_center);
+      // $('#msg01').css('top','0px');
+
+      var msg01imghi = $('.msg01img').height();
+      $('.msg01').css("height",msg01imghi+'px');
+
+      window.setTimeout(function(){
+        $("#msg01,.msg-overlay").fadeOut();
+      },10000)
+        $("#close").click(function(){
+          $("#msg01,.msg-overlay").fadeOut();
+        }); 
+  $(window).resize(function(){
+    window_width=$(window).width();
+      msg_width=$('#msg01').width();
+      window_height=$(window).height();
+      msg_height=$('#msg01').height();
+
+      $('.msg01').css({left:(window_width - msg_width) / 2});
+      // $('.msg-overlay').unbind().click(function(){
+      //     $("#msg01,.msg-overlay").fadeOut();
+      //   }).fadeIn();
+      // margin_top_center=(window_height-msg_height)/2;
+      // margin_center=(window_width-msg_width)/2;
+      // $('#msg01').css('margin-left',margin_center);
+      // $('#msg01').css('margin-top',margin_top_center);
+      // $('#msg01').css('top','0px');
+
+      var msg01imghi = $('.msg01img').height();
+      $('.msg01').css("height",msg01imghi+'px');
+
+      // window.setTimeout(function(){
+      //   $("#msg01,.msg-overlay").fadeOut();
+      // },10000)
+        $("#close").click(function(){
+          $("#msg01,.msg-overlay").fadeOut();
+        }); 
+  })
+  $(document).ready(function(){
+    $('.msg01img').on('load',function(){
+      window_width=$(window).width();
+      msg_width=$('#msg01').width();
+      window_height=$(window).height();
+      msg_height=$('#msg01').height();
+
+      $('.msg01').css({left:(window_width - msg_width) / 2}).fadeIn();
+      $('.msg-overlay').unbind().click(function(){
+          $("#msg01,.msg-overlay").fadeOut();
+        }).fadeIn();
+      // margin_top_center=(window_height-msg_height)/2;
+      // margin_center=(window_width-msg_width)/2;
+      // $('#msg01').css('margin-left',margin_center);
+      // $('#msg01').css('margin-top',margin_top_center);
+      // $('#msg01').css('top','0px');
+
+      var msg01imghi = $('.msg01img').height();
+      $('.msg01').css("height",msg01imghi+'px');
+
+      window.setTimeout(function(){
+        $("#msg01,.msg-overlay").fadeOut();
+      },10000)
+        $("#close").click(function(){
+          $("#msg01,.msg-overlay").fadeOut();
+        });
+    })    
+  });
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function($) {
+var text = "body{display:none !important;}";
+var style = document.createElement("style");
+style.type = "text/css";
+style.id = "antiClickjack";
+if (style.styleSheet) {
+style.styleSheet.cssText = text;
+}
+else {
+var textNode = document.createTextNode(text);
+style.appendChild(textNode);
+}
+document.getElementsByTagName('head')[0].appendChild(style);
+if (self === top) {
+var antiClickjack = document.getElementById("antiClickjack");
+antiClickjack.parentNode.removeChild(antiClickjack);
+} else {
+top.location = self.location;
+}
+})(jQuery);
+//--><!]]>
+</script>
+<!-- <script type="text/javascript" src="/assets/index/js/ckscript.js?onz3a6"></script> -->
+<!-- <script type="text/javascript" src="/assets/index/js/tail.min.js?onz3a6"></script> -->
+
+<script>
+    var swiper = new Swiper('.swiper-1', {
+        paginationClickable: true,
+        direction: 'vertical',
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false,
+        grabCursor: true,
+        loop: true
+    });
+
+    var swiper = new Swiper('.swiper-2', {
+        paginationClickable: true,
+        direction: 'vertical',
+        autoplay: 6000,
+        autoplayDisableOnInteraction: false,
+        grabCursor: true,
+        loop: true
+    });
+
+    var swiper = new Swiper('.swiper-3', {
+        paginationClickable: true,
+        direction: 'vertical',
+        autoplay: 7000,
+        autoplayDisableOnInteraction: false,
+        grabCursor: true,
+        loop: true
+    });
+</script>
+
+
+<!-- side bar script -->
+<script>
+  // $(".floating-banner-left").click().hover(function(){
+   
+  //  $(this).filter(":not(:animated)").animate({
+  //   left: "0"
+  //  }, 200)
+  // }, function() {
+  //  $(this).animate({
+  //   left: "-285px"
+  //  }, 300)
+  // }); 
+
+  // $(".floating-banner-right").click().hover(function() {
+  //  $(this).filter(":not(:animated)").animate({
+  //   right: "0"
+  //  }, 200)
+  // }, function() {
+  //  $(this).animate({
+  //   right: "-285px"
+  //  }, 300)
+  // });
+</script>
+
+
+<!-- bottom script -->
+<script>
+  $(".product-blocks div").mouseenter(function() {
+      $(this).children(".product-item-body").children(".product-blurb-cont").css("display", "table-cell")
+  }).mouseleave(function() {
+   $(this).children(".product-item-body").children(".product-blurb-cont").css("display", "none")
+  });
+
+  $(".product-blocks .block-ambassadors").mouseenter(function() {
+   $(this).children(".hidden-text").css("display", "block"), $(this).children(".show-text").css("display", "none")
+  }).mouseleave(function() {
+   $(this).children(".hidden-text").css("display", "none"), $(this).children(".show-text").css("display", "block")
+  }); 
+</script>
+<script src="/assets/js/swiper.min.js?v=3.5" type="text/javascript"></script>
+<script>
+$(document).ready(function(){
+    $('#navAnnouncement marquee a').click(function(){
+        var AnnID = $(this).data('annid');
+        $("#announcement").modal({backdrop: "true"});
+            var announcement = new Swiper('#announcement .anno-swiper-container', {
+                nextButton: '#announcement .swiper-button-next',
+                prevButton: '#announcement .swiper-button-prev', 
+                pagination: '#announcement .swiper-pagination',
+                paginationClickable: true,
+                width:428,
+                spaceBetween:40,
+                autoplayDisableOnInteraction: false,
+                loop: true,
+                simulateTouch:false,
+                onInit:function(announcement){
+                    announcement.slideTo(AnnID,1000,false);
+                }
+            });
+    })
+
+});
+</script>
+<script type="text/javascript">
+$(function(){
+    $('.close').click(function(){
+        $(this).parent('.pageleri').hide();
+    })
+    var wihi = $(window).height();
+    // console.log(wihi);
+    var pagehi = (wihi/2-200);
+    var test123 = $('.pageleft').height();
+    $('.pageleri').css("top",pagehi+"px");
+    $(window).resize(function(){
+        wihi = $(window).height();
+        pagehi = (wihi/2-200);
+        $('.pageleri').css("top",pagehi+"px");
+    })
+})
+
+$(".floating-banner-left").click().hover(function(){
+   
+   $(this).filter(":not(:animated)").animate({
+    left: "0"
+   }, 200)
+  }, function() {
+   $(this).animate({
+    left: "-285px"
+   }, 300)
+  }); 
+
+  $(".floating-banner-right").click().hover(function() {
+   $(this).filter(":not(:animated)").animate({
+    right: "0"
+   }, 200)
+  }, function() {
+   $(this).animate({
+    right: "-285px"
+   }, 300)
+  });
+</script>
+<!-- <script type="text/javascript">
+    // 设定登录弹出的高度
+    function set_login_popup_height () {
+      $('.to_bootstrap .modal-dialog').css({
+        "top": ($(window).height() - $('.to_bootstrap .modal-dialog').height()) / 2 - 178
+      });
+    };
+
+    $(window).on('resize', function(){
+      set_login_popup_height();
+    });
+
+    set_login_popup_height();
+</script> -->
+<!-- footer_script -->
+<!-- footer_script -->
+        <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6fdcd927712aab77b6b02f383d731bf8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+    <script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=2';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html  id="ng-app" ng-app="portalApp" meidon-time="2017/07/28 07:16:15"  moment-lang="zh-CN"  ng-init="'澳门金沙娱乐场'">
+<head>
+    <title>4066 - 专注电子游艺，您的信心之选！</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="shortcut icon" href="https://cdn.igsttech.com/Web.Portal/EH003-01.Portal/Content/Views/Shared/images/favicon.ico" />
+
+    
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="/bundles/font-awesome?v=QqiES8bMVFD1YGmU_C7h6nsgr358Xu-gbi4VJ0NwJNs1" rel="stylesheet"/>
+
+    <link href="/bundles/custom?v=5Wa8nqZwlBGzu1Pp_QLNPIWNPw7nHF_nimfxfdWB2fE1" rel="stylesheet"/>
+
+    <link href="/bundles/site?v=KxOM2gGTWu8xVztuhkjBvnupm2AY6aua1mlCxVU5iRo1" rel="stylesheet"/>
+
+
+    <link href="/Content/Views/Shared/zh-CN.css?version=20150116" rel="stylesheet" />
+    
+    <link href="/bundles/home?v=kquPC_5kQlRIUQrpabISeT3mvynadRJtGoiY2FyCaOk1" rel="stylesheet"/>
+
+    <link href="/Content/Views/Home/zh-CN.css?version=201404141731" rel="stylesheet" />
+
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery/v1.10.2/jquery.min.js"></script>
+
+    <script src="/bundles/common?v=43K0U2PTo3hjXKinjDELLvolTGd1xxqmZDl99bYH0HA1"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-marquee/jquery.marquee.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-ui/v1.11.3/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-with-locales.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/moment/v2.9.0/moment-timezone-with-data.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery-signalR/v2.1.2/jquery.signalR-2.1.2.min.js"></script>
+
+
+    
+    <!--[if lte IE 9]>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+    
+
+
+    
+</head>
+<body class="layout" ng-controller="LayoutCtrl">
+    <div id="header-top">
+        <div class="wrapper">
+            <ul class="top-nav" ng-controller="LobbiesCtrl">
+                <li class="promotion"><a ng-href="{{ContactInfo.HttpPromotion==''?'#':ContactInfo.HttpPromotion}}" target="_blank">优惠申请大厅</a></li>
+                <li class="promotion2"><a href="javascript:void(0)" ng-click="toEg3MarkSix()">六合彩 49倍</a></li>
+                <li class="mobile"><a href="/Mobile">手机投注</a></li>
+                <li class="download"><a ng-href="{{ContactInfo.HttpInformation==''?'#':ContactInfo.HttpInformation}}" target="_blank">资讯端下载</a></li>
+                <li class="detection"><a ng-href="{{ContactInfo.HttpDetection2==''?'#':ContactInfo.HttpDetection2}}" target="_blank">备用网址:{{ContactInfo.Detection2}}</a></li>
+            </ul>
+            <ul class="top-right">
+                <li>
+                    
+                    <div id="news">
+                        <div id="hot-news" class="marqueen">
+                            <a href="javascript: void(0)" ng-click="newsClick()">注册送26元，首存26+送36元！
+
+♠&#183;♥&#183;♣&#183;♦. 【温馨提示】澳门金沙（4166.am）！独家入款重磅推出：  A方式 ---【微信、支付宝、QQ扫码】扫描支付成功，无需提交入款申请单，即存即到，
+
+♠&#183;♥&#183;♣&#183;♦.【感恩回馈】2017澳门金沙(4166.net)亿元现金大回馈第六期：系统已于美东时间2017年07月08号派送完成！是否中奖请以站内信消息为准！2017年亿元奖金感恩大回馈【第七期】将于美东时间2017年08月01号隆重揭晓，1元起即可100%贴心回馈，投注即享月月千万奖金超值回馈， 敬请关注优惠活动专区众多优惠邀您共享！
+
+★★【活动揭晓】全网独家【清爽一夏】系列【4大彩金总动员】优惠活动已隆重揭晓，暑期长假已经来袭，澳门金沙暑假期间，特推出暑期彩金总动员，邀您一起清爽一夏。
+
+★★【ENTNET电子平台 游戏上架通知】，登入会员账号，点击澳门金沙官网网站右下角【最新游戏】图片即可进入游戏，更多电子游艺平台敬请期待~
+
+★★【GD真人平台 游戏上架通知】，登入会员账号，点击澳门金沙官网网站右下角【最新游戏】图片即可进入游戏，更多平台敬请期待~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：ha**iao于美东时间2017/06/24 22:59:17 在BB电子游艺【趣味台球】游戏中获得大奖,奖金30,021元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场(4166.net)会员：liu***88获得【周周乐赏负利转运金】于美东时间2017/06/22 06:54:10 投注BB电子游艺【糖果派对】游戏中获得  JACKPOT 大奖,  奖金:541215.87 元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~爆奖机会人人有~赶紧加入游戏，也许下个幸运儿就是您！
+
+★【好消息】★澳门金沙（4066.com）周周乐赏【天天签到豪礼】隆重揭晓，邀您共享~彩金无需申请，系统次周六06:00自动派送，敬请关注澳门金沙娱乐场~电子游艺十多项优惠，丰厚彩金等您来拿~
+
+★ 【EG六合彩】★受广大彩民追捧的六合彩，【EG六合彩平台】赔率更高、玩法更多，热情登场，登入会员账号点击【彩票游戏】→选择【EG六合彩】→即可投注~诚邀新老会员进入体验，祝君一码中特，盈利多多~
+
+★★【喜讯】★★传奇电子【CQ9电子游艺】超凡登场，点击澳门金沙官网网站右下角图片即可进入游戏，不计输赢投注1元起，天天返水1.8%起步最高3.0%无上限，全球最佳电子投注平台，快告诉您的好友一起来尽情超凡体验吧！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：wz30***301于美东时间2017/06/16 04:32:19 在MG电子游艺【不朽的浪漫】游戏中获得大奖,奖金25,710元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：js1**11于美东时间：2017/6/15 中得【EG六合彩】2017069期，投注单号【3**0】特码高赔率：投注特码金额：5000元，中奖彩金为：244,000元，爆奖机会人人有，赶紧加入游戏，也许下个幸运儿就是您！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：WY09****20于美东时间2017/06/12 15:21:25 在MG电子游艺【青龙出海】游戏中获得大奖,奖金  47,996元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：WY***92920 于美东时间2017/06/07  15:21:25 在MG电子游艺【丛林吉姆-黄金国】游戏中获得大奖,奖金   52,472元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【感恩回馈】2017澳门金沙(4166.net)现金大回馈第五期：系统将于美东时间2017年06月03号 00点--02：00派送完成！是否中奖请以站内信消息为准！2017年亿元奖金感恩大回馈【第六期】将于美东时间2017年07月01号隆重揭晓，1元起即可100%贴心回馈，投注即享月月千万奖金超值回馈， 敬请关注优惠活动专区众多优惠邀您共享！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：xi**ha 于美东时间2017/06/01 07:28:20  在PT电子游艺【古怪猴子】游戏中获得大奖,奖金  59,850元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：mag****01 于美东时间2017/06/01  05:39:11  在SG电子游艺【金鸡】游戏中获得大奖,奖金 20,550元 “十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+★【好消息】★玩“赚” MG，PT，SG，MW，PRG 电子【五大平台电子游艺独家在澳门金沙赞助】电子游艺黄金周亿元彩金大派送！敬请关注！彩金无需申请，系统通通自动派送，详情请登入官网（4066.COM）优惠活动专栏查阅！
+
+★重要公告★：近期有不法份子利用恶意手段拦截我司域名网址，跳转到非法网站，骗取会员存款；如您打开网址显示非澳门金沙【4066.com】请及时联系我司【在线客服】获取最新网址，谨防上当受骗。我司郑重声明：我司并未合并、改名或者转让，此类信息纯属虚假诈骗！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：t04****333 于美东时间2017/05/21  09:31:51  在MG电子游艺【 东方珍兽】游戏中获得大奖,奖金 379,750元“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：WY0****920 于美东时间2017-05-18 12:21:35 在MG电子游艺【 青龙出海】游戏中获得大奖,奖金(￥19,845.5)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+★★【喜讯】★★亚洲第一只战经典【JDB电子游艺】平台最新上线，点击澳门金沙官网网站右下角【最新游戏】图片即可进入游戏，更多[电子游艺]平台敬请期待~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：xia*****88 于美东时间2017-05-06 15:49:20 在BB电子游艺【发大财】游戏中获得JACKPOT大奖,奖金(￥ 46,457.94)，“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+★【5.1大型活动】★澳门金沙喜迎5.1劳动节，特推出〖五动一月  激情四射〗大型彩金活动；持续一个月的彩金派送，让您体验别给样的金沙5.1；〖月月回馈-第四期〗5.1同步揭晓，详情请登入官网（4066.COM）优惠活动专栏查阅！
+
+★★【喜讯】★★强势来袭,【HB电子游艺】热烈登场，点击澳门金沙官网网站右下角图片即可进入游戏，不计输赢投注1元起，天天返水1.8%起步最高3.0%无上限，全球最佳电子投注平台，快告诉您的好友一起来尽情玩乐吧！超多优惠等着您！ 更多优惠活动火热筹备中，敬请关注！
+
+★【喜讯】★澳门金沙（4066.com）现已推出一键即可登入捕鱼游艺，登入方式:点击【电子游艺】选择【捕鱼达人】或者查看官网右下角【最新游戏】选择【捕鱼达人】；多个平台的场景捕鱼汇聚一堂，让您随时随地享受前所未有的捕鱼世界体验哦~
+
+★彩金通知★尊敬的会员：您好，澳门金沙（41669.com）美东时间2017-04-19【周周乐赏】红包雨彩金已派送完成，敬请注意查收！ 更多优惠活动火热筹备中，敬请关注！
+
+★★彩金通知★★ 尊敬的澳门金沙会员：您好，顶级电子平台独家赞助澳门金沙（41669.com）玩赚MG电子游艺【黄金周1】彩金已派送完成，敬请注意查收！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：cb6****933 于美东时间2017-04-25 15:49:20 在PT电子游艺【湛蓝深海】游戏中获得大奖,奖金(￥ 176470.67)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：ghw*****358于美东时间2017-04-18 05:33:00  在MG电子游艺【摆脱】游戏中获得大奖,奖金(￥349900)，“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：qwe***889于美东时间2017-04-08 16:23:28 在MG电子游艺【摆脱】游戏中获得大奖,奖金(￥ 256600)，“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：zj****27于美东时间2017-03-29 16:01:21 在BB电子游艺【连环夺宝】获得JACKPOT  Grand大奖(￥51365.91)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：qq******12于美东时间2017-03-23 10:01:22  在MG电子游艺【摆脱】游戏中获得大奖(￥12,516)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：wj********91于美东时间2017-03-22 03:55:44 在MG电子游艺【银行抢匪2】游戏中获得大奖(￥13,727.5)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：xu*******30于美东时间2017-03-18  12:59:36 在MG电子游艺【摆脱】游戏中获得大奖(￥16,163.5)，“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：cj***45于美东时间2017-03-18  12:18:14  在BBIN电子游艺【	糖果派对】游戏中获得大奖(￥10,225.5)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙会员：w2****4h于美东时间2017-03-17   22:55:04 在MG电子游艺【不朽的浪漫】游戏中获得大奖(￥10,119)“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+★★友情提醒★★  受第三方支付宝升级调整影响，在线扫码支付宝存款偶尔会出现不能支付现象，当您遇此情况，建议您再次打开支付方式选择方法B：（公司入款）查看最新的收款账号进行支付即可，或选择其他支付方式。给您带来不便，敬请谅解！
+
+♠&#183;♥&#183;♣&#183;♦.【喜讯】全网独家，重磅优惠：1、首存26元+送36元，直接提款；2、天天存款，天天送钱，优惠不止一点点；3、独家《周周乐赏》系列优惠隆重上线，长期有效邀您共享；详情请您登入官网（41669.COM）点击【优惠活动】专栏查阅，更多优惠活动火热筹备中，超多优惠丰富彩金等您来拿，敬请关注！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：fe***ng于美东时间2017-03-16  11:35:32  在MG电子游艺【摆脱】游戏中获得大奖,奖金(￥  18,830)，“十”大电子平台，千款电子游艺，“十”大优惠与独家重磅优惠【天天存款，天天送钱】/《周周乐赏》系列，超高大额奖金等您来拿~
+
+♠&#183;♥&#183;♣&#183;♦. 【入款提醒】尊敬的澳门金沙新老会员：您好，如果您无法使用线上扫码支付通道入款，请您使用方法A（重磅推荐）：【微信、支付宝、手机版网银、信用卡】或选择方法B ：（公司入款）查看最新微信/支付宝收款账号进行支付即可，以便可以正常游戏，给您造成不便，敬请您见谅！我们将尽快恢复！！
+
+♠&#183;♥&#183;♣&#183;♦.【重要通知】尊敬的会员：由于近期支付宝官方限额调整问题，如您无法使用支付宝扫码专用通道支付金额无法进行支付，请您使用方法A（重磅推荐）：【微信、支付宝、手机版网银、信用卡】进行支付，或选择方法B ：公司入款→支付宝→进行转账→手动提交存款信息。以便可以正常游戏，给您造成不便，敬请您见谅！我们将尽快恢复！！！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：a10*****80于美东时间2017-03-07 02:49:00  在AG电子游艺【水果拉霸】游戏中获得大奖,奖金(￥  19,550	)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【感恩回馈】2017澳门金沙(4166.net)现金大回馈第二期：系统已于美东时间2017年03月06号派送完成！是否中奖请以站内信消息为准！2017年亿元奖金感恩大回馈【第三期】将于美东时间2017年04月07号隆重揭晓，1元起即可100%贴心回馈，投注即享月月千万奖金超值回馈， 敬请关注优惠活动专区众多优惠邀您共享！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：qq1*****838于美东时间2017-03-05   22:55:04 在AG电子游艺【水果拉霸】游戏中获得大奖,奖金(￥  18,065)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：qq4*****838于美东时间2017-02-26  14:10:03 在PT电子游艺【熊之舞】免费游戏中获得大奖,奖金(￥  12,187.5)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：li*****ng于美东时间2017-02-23 03:49:29 在PT电子游艺【古怪猴子】游戏中获得大奖,奖金(￥  59,850)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：h5**8于美东时间2017-02-20 16:01:26 在MG电子游艺【不朽的浪漫】游戏中获得大奖,奖金(￥  25,501.5)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：bb***411于美东时间2017-02-16 09:16:32 在AG电子游艺【金鱼】免费游戏中获得大奖,奖金(￥  20,000)；百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【中奖通知】恭喜澳门金沙娱乐场会员：liu***ng于美东时间2017-02-09 19:27:02 在PT电子游艺【古怪猴子】游戏中获得大奖,奖金(￥ 80000)，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【新春祝福】新春来临之际，澳门金沙集团（4166.net）在这欢乐时节忠心祝愿广大新老会员：新春大吉，合家欢乐，万事如意，心想事成，鸡年行大运！！！
+
+♠&#183;♥&#183;♣&#183;♦.【喜讯】尊敬的澳门金沙会员您好，（激情玩家永不停止，精彩游戏从不打烊）在众多玩家的期待中，澳门金沙最新上线【UG捕鱼天下】【MW千炮捕鱼】电子游艺，欢迎您的加入~会给您有不同的惊喜与体验的哦~ 更多的游艺平台请您敬请期待，祝您游戏愉快，盈利多多~
+
+♠&#183;♥&#183;♣&#183;♦.澳门金沙娱乐场【41668.com】首家推出：“独家接口”支持【微信】【支付宝】【手机银行】【网银在线支付】“线上支付”【微信&amp;支付宝】扫描线上支付单笔最高5000元，线上支付，方便简单，安全快捷，无需提交入款申请单信息；支付成功秒到账！出款0审核、0冻结、0拖延、0手续费；独家1元起即可存款，存款100%贴心回馈，让您随时随地享受博彩乐趣！天天反水1.8%起最高3.0%无上限，百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.【温馨提示】尊敬的澳门金沙娱乐场会员：您好【金沙资讯端】已升级完成，强烈推荐下载，每日签到积分即可兌换现金，祝大家游戏愉快盈利多多哦~
+
+♠&#183;♥&#183;♣&#183;♦.【特大喜讯】超级返水火热进行中，不计输赢投注1元起，天天返水1.8%起步最高3.0%无上限，无需流水即可提款，心动不如行动，挑战你的极限诚邀广大新老会员体验，预祝您游戏愉快，盈利多多哦！，尚未注册/存款的亲们强烈建议您注册/存款，每天在澳门金沙娱乐场进行存款游戏，天天参与多项优惠活动噢！百款电子游艺，畅享百万彩金，尽在澳门金沙！
+
+♠&#183;♥&#183;♣&#183;♦.欢迎阁下莅临【澳门金沙娱乐场4166.com】官方直营→额度无需转换、存款无需等待、取款无需审核、最具实力的品牌优势、最优质的客户服务、最快捷的存取款服务、最给力的优惠策划、最丰富的平台优势、最负责任的博彩领导者、即刻开始您的澳门金沙娱乐场之旅吧</a>
+                        </div>
+                    </div>
+                </li>
+                <li select-language>
+                    <span ng-repeat="item in language" data-language="{{item.Key}}" title="{{item.Value}}" ng-cloak></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header id="header" scrolltop-fixed="35">
+        <div class="wrapper">
+            
+            <div id="logo-bg">
+                <!--[if !IE | gte IE 9]><!-->
+                <iframe src="https://cdn.igsttech.com/Web.Portal/EH003-01.Portal/Content/Views/Shared/images/logo/logo.html"></iframe>
+                <!--<![endif]-->
+                <a href="/"></a>
+            </div>
+            
+            <nav id="nav">
+                <ul ng-controller="LobbiesCtrl">
+                    <li>
+                        <a href="/" nav-active>
+                            首页
+                            <span>HOME</span>
+                        </a>
+                    </li>
+                    <li class="hot">
+                        <a href="/Lobby/Game" nav-active>
+                            电子游艺
+                            <span>GAMES</span>
+                        </a>
+                        <ol class="subnav slot">
+                            <li game-box="mg"><a href="/Lobby/MG"></a></li>
+                            <li game-box="pt"><a href="/Lobby/PT"></a></li>
+                            <li game-box="bb"><a href="/Lobby/BBIN"></a></li>
+                            <li game-box="sg" ng-click="toSgFlash()"></li>
+                            <li game-box="mw" ng-click="toMwGame()"></li>
+                            <li game-box="ag"><a href="/Lobby/AG"></a></li>
+                            <li game-box="prg" ng-click="toPrgFlash()"></li>
+                            <li game-box="gns"><a href="/Lobby/GNS"></a></li>
+                            <li game-box="gpi"><a href="/Lobby/GPI"></a></li>
+                            <li game-box="hb" ng-click="toHabaHtml()"></li>
+                            <li game-box="jdb" ng-click="toJdbHtml()"></li>
+                            <li game-box="fish" ng-click="toFish()"></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Live" nav-active>
+                            真人视讯
+                            <span>LIVE VIDEO</span>
+                        </a>
+                        <ol class="subnav live">
+                            <li game-box="bb" ng-click="toBbLive()"></li>
+                            <li game-box="ag" ng-click="toAgLive()"></li>
+                            <li game-box="mg" ng-click="toMgDealer()"></li>
+                            <li game-box="pt" ng-click="toPtLive()"></li>
+                            <li game-box="gpi" ng-click="toGpiLive()"></li>
+                            <li game-box="evo" ng-click="toEvoLive()"></li>
+                            <li game-box="ab" ng-click="toAbLive()"></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Sport" nav-active>
+                            体育投注
+                            <span>SPORTS</span>
+                        </a>
+                        <ol class="subnav sport">
+                            <li game-box="hg" ng-click="toSingSport()"></li>
+                            <li game-box="saba" ng-click="toSabaGame()"></li>
+                            <li game-box="bb" ng-click="toBbSport()"></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <a href="/Lobby/Lottery" nav-active>
+                            彩票游戏
+                            <span>LOTTERY</span>
+                        </a>
+                        <ol class="subnav lottery">
+                            <li game-box="bb" ng-click="toBbLottery()"></li>
+                            <li game-box="eg3" ng-click="toEg3MarkSix()"></li>
+                            <li game-box="eg" ng-click="toEgLottery()"></li>
+                            <li game-box="ig" ng-click="toIgLottery()"></li>
+                            <li game-box="ig-marksix" ng-click="toIgMarkSix()"></li>
+                        </ol>
+                    </li>
+                    <li class="hot" toggle-color>
+                        <a href="/Promotion" nav-active>
+                            优惠活动
+                            <span>ACTIVITY</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" ng-click="lineChatClick()">
+                            在线客服
+                            <span>SERVICE</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="header-account" scrolltop-fixed>
+        <div class="wrapper">
+            
+                <div id="account-box">
+                    <form ng-controller="LoginCtrl" ng-submit="login(loginParams)" ng-disabled="isProcessing">
+                        <input id="login_account" type="text" placeholder="帐号" ng-model="loginParams.account" required autofocus />
+                        <input id="login_password" type="password" placeholder="密码" ng-model="loginParams.password" required />
+                        <div id="check-code-wrapper">
+                            <input data-checkcode-retriever="checkCode" type="text" placeholder="验证码" ng-model="loginParams.checkCode" checkcode-type="Login" required />
+                            <img id="captcha" ng-show="checkCode.image" ng-src="{{checkCode.image}}" />
+                        </div>
+                        <button class="forget-btn" ng-click="lineChatClick()" type="button">忘记密码</button>
+                        <button id="login-box" class="login-btn" ng-disabled="isProcessing" ng-bind="isProcessing ? '登入...' : '登入'">登入</button>
+                        <button class="join-btn" ng-click="RegisterClick()" type="button">免费开户</button>
+                        <div id="agree" ng-show="loginOver" ng-cloak>
+                            点击登入表示同意<a ng-click="agreement()">用户协议</a>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <div id="banner">
+    </div>
+    <div id="content">
+        <div class="wrapper">
+            
+<div id="home">
+    
+    <section id="slide-banner" ng-controller="HomeCtrl">
+        <div id="imgNames" ng-init="selectedImg = 1">
+            <img ng-repeat="slideImg in slideImgs" ng-src="{{ slideImg | replaceCdn: 'https://cdn2.igsttech.com/' }}" ng-class="{'show': $index == selectedImg - 1}" />
+        </div>
+        <div id="ad-pager">
+            <strong ng-repeat="slideImg in slideImgs" ng-class="{'cycle-pager-active': $index == selectedImg - 1}">
+                <a href="" ng-click="changeSelected($index)" ng-bind-template="{{ $index + 1 }}"></a>
+            </strong>
+        </div>
+    </section>
+    
+    <ul id="game-box">
+        <li data-img="slot">
+            <a href="/Lobby/Game"></a>
+        </li>
+        <li data-img="live">
+            <a href="/Lobby/Live"></a>
+        </li>
+        <li data-img="sport">
+            <a href="/Lobby/Sport"></a>
+        </li>
+        <li data-img="lottery">
+            <a href="/Lobby/Lottery"></a>
+        </li>
+    </ul>
+    <div id="home-info" ng-controller="LobbiesCtrl" ng-init="hotTab='hot'">
+        <div class="slider-left"
+             carousel-slider
+             super-vis="6"
+             super-play="true"
+             super-effect="leftLoop">
+            <a href="/Lobby/Game" class="title" ng-mouseover="hotTab='hot'">热门电子游艺</a>
+            <span class="slide-ctrl prev"></span>
+            <span class="slide-ctrl next"></span>
+            <div class="main-cell">
+                <ul class="game-list" ng-init="show='sg'">
+                    <li game-box="mg" ng-mouseover="hotTab='mg'"><a href="/Lobby/MG">MG电子</a></li>
+                    <li game-box="pt" ng-mouseover="hotTab='pt'"><a href="/Lobby/PT">PT电子</a></li>
+                    <li game-box="bb" ng-mouseover="hotTab='bb'"><a href="/Lobby/BBIN">BBIN电子</a></li>
+                    <li game-box="sg" ng-mouseover="hotTab='sg'"><a href="javascript:void(0)" ng-click="toSgFlash()">SG电子</a></li>
+                    <li game-box="ag" ng-mouseover="hotTab='ag'"><a href="/Lobby/AG">AG电子</a></li>
+                    <li game-box="prg" ng-mouseover="hotTab='prg'"><a href="javascript:void(0)" ng-click="toPrgFlash()">PRG电子</a></li>
+                    <li game-box="prg" ng-mouseover="hotTab='mw'"><a href="javascript:void(0)" ng-click="toMwGame()">MW电子</a></li>
+                    <li game-box="gns" ng-mouseover="hotTab='gns'"><a href="/Lobby/GNS">GNS电子</a></li>
+                    <li game-box="gns" ng-mouseover="hotTab='gpi'"><a href="/Lobby/GPI">GPI电子</a></li>
+                    <li game-box="prg" ng-mouseover="hotTab='fish'"><a href="javascript:void(0)" ng-click="toFish()">捕鱼达人</a></li>
+                    <li game-box="hb" ng-mouseover="hotTab='hb'"><a href="/Lobby/HABA">HABA电子</a></li>
+                    <li game-box="jdb" ng-mouseover="hotTab='jdb'"><a href="/Lobby/JDB">JDB电子</a></li>
+                    <li game-box="cq9" ng-mouseover="hotTab='cq9'"><a href="/Lobby/CQ9">CQ9电子</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="slot-box">
+            <a ng-show="hotTab=='hot'" class="hot-mg" href="/Lobby/MG" ng-cloak></a>
+            <a ng-show="hotTab=='hot'" class="hot-pt" href="/Lobby/PT" ng-cloak></a>
+            <a ng-show="hotTab=='hot'" class="hot-bb" href="/Lobby/BBIN" ng-cloak></a>
+            <a ng-show="hotTab=='mg'" class="mg-01" href="/Lobby/MG" ng-cloak></a>
+            <a ng-show="hotTab=='mg'" class="mg-02" href="/Lobby/MG" ng-cloak></a>
+            <a ng-show="hotTab=='mg'" class="mg-03" href="/Lobby/MG" ng-cloak></a>
+            <a ng-show="hotTab=='pt'" class="pt-01" href="/Lobby/PT" ng-cloak></a>
+            <a ng-show="hotTab=='pt'" class="pt-02" href="/Lobby/PT" ng-cloak></a>
+            <a ng-show="hotTab=='pt'" class="pt-03" href="/Lobby/PT" ng-cloak></a>
+            <a ng-show="hotTab=='bb'" class="bb-01" href="/Lobby/BBIN" ng-cloak></a>
+            <a ng-show="hotTab=='bb'" class="bb-02" href="/Lobby/BBIN" ng-cloak></a>
+            <a ng-show="hotTab=='bb'" class="bb-03" href="/Lobby/BBIN" ng-cloak></a>
+            <a ng-show="hotTab=='ag'" class="ag-01" href="/Lobby/AG" ng-cloak></a>
+            <a ng-show="hotTab=='ag'" class="ag-02" href="/Lobby/AG" ng-cloak></a>
+            <a ng-show="hotTab=='ag'" class="ag-03" href="/Lobby/AG" ng-cloak></a>
+            <a ng-show="hotTab=='gns'" class="gns-01" href="/Lobby/GNS" ng-cloak></a>
+            <a ng-show="hotTab=='gns'" class="gns-02" href="/Lobby/GNS" ng-cloak></a>
+            <a ng-show="hotTab=='gns'" class="gns-03" href="/Lobby/GNS" ng-cloak></a>
+            <a ng-show="hotTab=='gpi'" class="gpi-01" href="/Lobby/GPI" ng-cloak></a>
+            <a ng-show="hotTab=='gpi'" class="gpi-02" href="/Lobby/GPI" ng-cloak></a>
+            <a ng-show="hotTab=='gpi'" class="gpi-03" href="/Lobby/GPI" ng-cloak></a>
+            <a ng-show="hotTab=='mw'" class="mw-01" href="javascript:void(0)" ng-click="toMwGame()" ng-cloak></a>
+            <a ng-show="hotTab=='mw'" class="mw-02" href="javascript:void(0)" ng-click="toMwFish()" ng-cloak></a>
+            <a ng-show="hotTab=='mw'" class="mw-03" href="javascript:void(0)" ng-click="toMwGame()" ng-cloak></a>
+            <a ng-show="hotTab=='prg'" class="prg-01" href="javascript:void(0)" ng-click="toPrgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='prg'" class="prg-02" href="javascript:void(0)" ng-click="toPrgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='prg'" class="prg-03" href="javascript:void(0)" ng-click="toPrgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='sg'" class="sg-01" href="javascript:void(0)" ng-click="toSgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='sg'" class="sg-02" href="javascript:void(0)" ng-click="toSgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='sg'" class="sg-03" href="javascript:void(0)" ng-click="toSgFlash()" ng-cloak></a>
+            <a ng-show="hotTab=='fish'" class="fish-01" href="javascript:void(0)" ng-click="toMwFish()" ng-cloak></a>
+            <a ng-show="hotTab=='fish'" class="fish-02" href="javascript:void(0)" ng-click="toAgFish()" ng-cloak></a>
+            <a ng-show="hotTab=='fish'" class="fish-03" href="javascript:void(0)" ng-click="toPtFish()" ng-cloak></a>
+            <a ng-show="hotTab=='hb'" class="hb-01" href="/Lobby/HABA" ng-cloak></a>
+            <a ng-show="hotTab=='hb'" class="hb-02" href="/Lobby/HABA" ng-cloak></a>
+            <a ng-show="hotTab=='hb'" class="hb-03" href="/Lobby/HABA" ng-cloak></a>
+            <a ng-show="hotTab=='jdb'" class="jdb-01" href="/Lobby/JDB" ng-cloak></a>
+            <a ng-show="hotTab=='jdb'" class="jdb-02" href="/Lobby/JDB" ng-cloak></a>
+            <a ng-show="hotTab=='jdb'" class="jdb-03" href="/Lobby/JDB" ng-cloak></a>
+            <a ng-show="hotTab=='cq9'" class="cq9-01" href="/Lobby/CQ9" ng-cloak></a>
+            <a ng-show="hotTab=='cq9'" class="cq9-02" href="/Lobby/CQ9" ng-cloak></a>
+            <a ng-show="hotTab=='cq9'" class="cq9-03" href="/Lobby/CQ9" ng-cloak></a>
+        </div>
+        <div class="mobile-info">
+            <a href="/Mobile" target="_blank">详细请点击>></a>
+        </div>
+    </div>
+</div>
+
+
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div id="footer-logo"></div>
+        <ul id="footer-nav">
+            <li><a href="/AboutUS">关于我们</a></li>
+            <li><a href="/Contact">联络我们</a></li>
+            <li><a href="/How/Deposit">存款帮助</a></li>
+            <li><a href="/How/Withdrawal">取款帮助</a></li>
+            <li><a href="/FAQ">常见问题</a></li>
+            <li><a href="/Partner">合作伙伴</a></li>
+            <li><a href="/ResponsibleGambling">责任博彩</a></li>
+            <li><a href="/Guide">慈善捐助</a></li>
+            <li><a href="http://gpk-client.com/" target="_blank">客戶端</a></li>
+        </ul>
+        <p id="footer-suggest">
+            <small>
+                Copyright &#169; 欢迎光临 Reserved
+            </small>
+        </p>
+    </footer>
+
+    
+    <aside class="services service-left">
+        <ul class="girl">
+            <li class="mg"><a href="/Lobby/MG"></a></li>
+                <li class="join" ng-click="RegisterClick()" title="免费开户"> </li>
+            <li class="info"><a ng-href="{{ContactInfo.HttpInformation==''?'#':ContactInfo.HttpInformation}}" target="_blank"></a></li>
+            <li class="deposit"></li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+
+    <aside class="services service-right">
+        <ul class="girl">
+            <li class="chat" ng-click="lineChatClick()" title="在线客服"></li>
+            <li class="network" title="线路检测"><a ng-href="{{ContactInfo.HttpDetection==''?'#':ContactInfo.HttpDetection}}" target="_blank"></a></li>
+            <li class="game" title="优惠活动"><a href="/Promotion"></a></li>
+            <li class="discunt" title="优惠申请"><a ng-href="{{ContactInfo.HttpPromotion2==''?'#':ContactInfo.HttpPromotion2}}" target="_blank"></a></li>
+            <li class="omtel" title="TEL"></li>
+            <li class="closed" service-closed></li>
+        </ul>
+    </aside>
+
+    
+    <div id="marquee-wrapper" ng-class="{show: isMarqueeShowClass}" ng-init="isMarqueeShowClass = false">
+        <aside id="marquee">
+            <header>
+                <h2>最新消息</h2>
+            </header>
+            <ul id="newsBags">
+                <li ng-repeat="news in newsBags track by $index">{{news}}</li>
+            </ul>
+            <footer>
+                <span ng-click="closeMarquee()">关闭</span>
+            </footer>
+        </aside>
+    </div>
+
+    
+    <div ng-if="ContactInfo.Dialog!=='' && ContactInfo.Dialog!==undefined" id="ad-dialog" title="{{ContactInfo.DialogTitle}}">
+        <img ng-src="{{ContactInfo.Dialog}}" />
+        <div class="dialog-footer" ng-bind="ContactInfo.DialogFooter"></div>
+    </div>
+
+    
+    <div style="display:none">
+    </div>
+
+    
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script src="/Scripts/_site.js?version=20140418"></script>
+    <script src="/Scripts/_config.js"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services?v=4h6nnhe7phDZsGJrjgb4rRSPOHMxKw1CHFAWZNyYZgQ1"></script>
+
+    <script src="/angular-controllers?v=70j3-SP873-H3DBRUspP2vqtGHUtKJ2LXbiImTI_s441"></script>
+
+    <script src="/angular-directives?v=APDAFauAbNh5evFP42Y9OZxUUVzqAYf4uFQaP0nYp2E1"></script>
+
+    <script src="/angular-filters?v=8bBCjaQ-419QVImadOi_l1dbU7abzLuyqjCJzLJvruU1"></script>
+
+
+    
+    <script src="https://cdn.igsttech.com/Custom/common.js"></script>
+
+    
+
+    
+    <input name="__RequestVerificationToken" type="hidden" value="DeuP9zIdqgy4GtluRHqwanL6bpTa51aGxOMZJLB8D4FX1ksMdQbYi8OXLtIUJy2BLXSpKcsxQ6Y7D90ZVHrXqVSzDFA1" />
+</body>
+</html>
+

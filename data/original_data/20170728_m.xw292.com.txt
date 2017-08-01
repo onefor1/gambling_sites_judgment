@@ -1,0 +1,541 @@
+
+
+
+
+
+<html>
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>兴旺</title>
+<link rel="stylesheet" href="https://sr.xw333.com/resources/wap/style/css/sm.css">
+<link href="https://sr.xw333.com/resources/wap/style/css/index.css?20170702" rel="stylesheet" />
+<script type="text/javascript" src="https://sr.xw333.com/resources/wap/style/js/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+	var jq = jQuery.noConflict();
+</script>
+<script type="text/javascript" src="https://sr.xw333.com/resources/wap/style/js/zepto.js"
+	charset="utf-8"></script>
+<script type="text/javascript" src="https://sr.xw333.com/resources/wap/style/js/sm.js"
+	charset="utf-8"></script>
+<link rel="stylesheet" href="https://sr.xw333.com/resources/wap/style/css/swiper.min.css?20170321">
+<script type="text/javascript" src="https://sr.xw333.com/resources/wap/style/js/swiper.min.js"
+	charset="utf-8"></script>
+<style type="text/css">
+#noticeInfo {
+	background-color: #cccccc;
+}
+
+.notice-title {
+	width: 30px;
+	border-right: 0px solid #19191C;
+	padding: 0 10px;
+	font-size: 16px;
+	display: block;
+	float: left;
+	line-height: 28px;
+}
+
+.notice-content {
+	padding-left: 22px;
+	line-height: 26px;
+	height: 28px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+#line {
+	height: 1px;
+	width: 100%;
+	background: #c8c9cb;
+	overflow: hidden;
+}
+</style>
+</head>
+<body>
+	<div class="page">
+		<header class="bar bar-nav top2">
+			
+				
+					<a class="button button-link button-nav pull-right" href="#"
+						data-transition='slide-out';> <span id="login"
+						style="font-size: 20px;">登录</span>
+					</a>
+					<a class="button button-link button-nav pull-left" href="#"
+						data-transition='slide-out';> <span id="regMember"
+						style="font-size: 20px;">&nbsp;&nbsp;注册</span>
+					</a>
+					<script type="text/javascript">
+						$(document).on("click", "#login", function() {
+							window.location.href = "/loginPage";
+						});
+
+						$(document).on("click", "#regMember", function() {
+							window.location.href = "/regMemberPage";
+						});
+					</script>
+				
+				
+			
+		</header>
+		
+
+
+
+
+<html>
+<nav class="bar bar-tab">
+    <a class="tab-item external" href="#" id="deposit_f" target ="_self">
+      <span class="icon icon-card"></span>
+      <span class="tab-label">充值</span>
+    </a>
+    <a class="tab-item external" href="#" id="withdraw_f" target ="_self">
+      <span class="icon icon-cart"></span>
+      <span class="tab-label">提现</span>
+    </a>
+    <a class="tab-item external" href="#" id="transfer_f" target ="_self">
+      <span class="icon icon-me"></span>
+      <span class="tab-label">转账</span>
+    </a>
+    <a class="tab-item external" href="/promotion" id="promotion_f" target ="_self">
+      <span class="icon icon-star"></span>
+      <span class="tab-label">优惠</span>
+    </a>
+    <a class="tab-item external" href="/download" id="download_f" target ="_self">
+      <span class="icon icon-download"></span>
+      <span class="tab-label">下载</span>
+    </a>
+    <a class="tab-item external" href="javascript:getConsultUrl()">
+      <span class="icon icon-settings"></span>
+      <span class="tab-label">客服</span>
+    </a>
+</nav>
+
+<script type="text/javascript">
+function getConsultUrl() {
+	var svid = randomWord(false, 22);
+	var ssid = randomWord(false, 22);
+	var url = 'https://lpcdn.lpsnmedia.net/le_unified_window/8.9.1.0-release_1297/index.html?lpUnifiedWindowConfig={"accountId":"29540132","env":"prod","external":true,"supportBlockCCPattern":false,"secureStorageType":"indexedDB","engConf":{"async":false,"scid":"1","cid":635870851,"eid":635870951,"lang":"zh-CN","svid":"'+svid+'","ssid":"'+ssid+'","lewid":644283751}}#CT=40';
+	window.open(url);
+}
+
+
+/*
+** randomWord 产生任意长度随机字母数字组合
+** randomFlag-是否任意长度 min-任意长度最小位[固定位数] max-任意长度最大位
+** xuanfeng 2014-08-28
+*/
+function randomWord(randomFlag, min, max){
+    var str = "",
+        range = min,
+        arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+ 
+    // 随机产生
+    if(randomFlag){
+        range = Math.round(Math.random() * (max-min)) + min;
+    }
+    for(var i=0; i<range; i++){
+        pos = Math.round(Math.random() * (arr.length-1));
+        str += arr[pos];
+    }
+    return str;
+}
+
+$(document).on("click", "#deposit_f", function() {
+	
+		
+			$.alert("请先登录",function (){
+				window.location.href = "/loginPage";
+			});
+		
+		
+	
+});
+
+$(document).on("click", "#withdraw_f", function() {
+	
+		
+			$.alert("请先登录",function (){
+				window.location.href = "/loginPage";
+			});
+		
+		
+	
+});
+
+$(document).on("click", "#transfer_f", function() {
+	
+		
+			$.alert("请先登录",function (){
+				window.location.href = "/loginPage";
+			});
+		
+		
+	
+});
+</script>
+</html>
+
+
+
+		<div class="content">
+			<div id="showOut">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img
+								src="http://sr.xw333.com/static//image/fa3216f7-1738-4cbd-9471-6d7718db3464.png"
+								alt="">
+						</div>
+						<div class="swiper-slide">
+							<img
+								src="http://sr.xw333.com/static//image/ad6c8602-e0f4-4469-93fd-cab3c76565fb.png"
+								alt="">
+						</div>
+						<div class="swiper-slide">
+							<img
+								src="http://sr.xw333.com/static//image/3896bd4a-8208-458f-a4b0-50953892780c.png"
+								alt="">
+						</div>
+						<div class="swiper-slide">
+							<img
+								src="http://sr.xw333.com/static//image/69fdc879-2c73-4f66-9a86-677c37e04cf2.png"
+								alt="">
+						</div>
+						<div class="swiper-slide">
+							<img
+								src="http://sr.xw333.com/static//image/e37ed4d6-b3cc-4b1e-9fbb-2819d148967a.png"
+								alt="">
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div style="margin-top: -5px">
+				<nav id="noticeInfo" class="container notice-wrap">
+					<div class="notice h30" style="margin-top: 5px;">
+						<div class="notice-title">
+							<img alt="" src="https://sr.xw333.com/resources/wap/style/images/common/laba.png"
+								style='width: 30px; height: 30px'>
+						</div>
+						<div class="notice-content">
+							<marquee scrollamount="5"></marquee>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<div id="GameList" style="margin-top: 10px">
+				<div>
+					<span
+						style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1;">&nbsp;&nbsp;游戏平台</span>
+				</div>
+				<div id="mainSlider" class="iosSlider"
+					style="position: relative; top: 10px; left: 0px; overflow: hidden; z-index: 1; width: 100%; height: 400px;">
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 10%">
+						<a href="/GameList?type=PT" class="link-product ui-link icon-pt"
+							target="_self"></a><a href="/GameList?type=PT"
+							style="color: #1c1d1f; font-size: 16px">PT老虎机</a>
+					</div>
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%">
+						<a href="/GameList?type=MG" class="link-product ui-link icon-mg"
+							target="_self"></a><a href="/GameList?type=MG"
+							style="color: #1c1d1f; font-size: 16px">MG老虎机</a>
+					</div>
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%">
+						<a href="/GameList?type=SG" class="link-product ui-link icon-sg"
+							target="_self"><br /></a> <a href="/GameList?type=SG"
+							style="color: #1c1d1f; font-size: 16px">SG老虎机</a>
+					</div>
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 10%;">
+						<a href="/GameList?type=FG" class="link-product ui-link icon-fg"
+							target="_self"><br /></a> <a href="/GameList?type=FG"
+							style="color: #1c1d1f; font-size: 16px">FG老虎机</a>
+					</div>
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%;">
+						<a href="/GameList?type=BS" class="link-product ui-link icon-bs"
+							target="_self"><br /></a> <a href="/GameList?type=BS"
+							style="color: #1c1d1f; font-size: 16px">BS老虎机</a>
+					</div>
+					<!--<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%">
+						<a href="/GameList?type=PNG" class="link-product ui-link icon-png"
+							target="_self"><br /></a> <a href="/GameList?type=PNG"
+							style="color: #1c1d1f; font-size: 16px">PNG老虎机</a>
+					</div> -->
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%">
+						<a href="/GameList?type=ENDO"
+							class="link-product ui-link icon-endo" target="_self"><br /></a>
+						<a href="/GameList?type=ENDO"
+							style="color: #1c1d1f; font-size: 14px">ENDO老虎机</a>
+					</div>
+					<div class="item"
+						style="width: 30%; top: 0px; float: left; margin-left: 10%;">
+						<a href="/GameList?type=XIN" class="link-product ui-link icon-xin"
+							target="_self"><br /></a> <a href="/GameList?type=XIN"
+							style="color: #1c1d1f; font-size: 14px">XIN老虎机</a>
+					</div>
+					
+					<div class="item"
+						style="width: 25%; top: 0px; float: left;">
+						<a href="javascript:gdPlay()" class="link-product ui-link icon-gd"
+							target="_self"><br /></a> <a href="javascript:gdPlay()"
+							style="color: #1c1d1f; font-size: 16px">GD百家乐</a>
+					</div>
+					<div class="item"
+						style="width: 25%; top: 0px; float: left; margin-left: 5%;">
+						<a href="javascript:agPlay()" class="link-product ui-link icon-gd"
+							target="_self"><br /></a> <a href="javascript:agPlay()"
+							style="color: #1c1d1f; font-size: 16px">AG百家乐</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel-overlay"></div>
+		<div class="panel panel-right panel-cover theme-white" id='memberInfo'>
+			<div class="content-block">
+				<h> <span>Hi,</span> <span>XW</span> <br />
+				</h>
+				<p>
+					<span>钱包余额：</span><span id="spanBalance"></span>
+					<a id="btnRefresh" onclick="refreshMainBalance();"><span
+						class="icon icon-refresh"></span>&nbsp;</a>
+				</p>
+				<div id="line"></div>
+				<br />
+				<p>帐户</p>
+				<h style="font-size:20px"> <span class="icon icon-me"></span> <a
+					href="/memberInfo/AccountInfo?loginName=">&nbsp;个人中心</a>
+				<br />
+				<h style="font-size:20px"> <span class="icon icon-friends"></span> <a
+					href="/memberInfo/invite-people">&nbsp;邀请朋友</a>
+				<br />
+				</h>
+				<h style="font-size:20px"> <span class="icon icon-code"></span>
+				<a href="/memberInfo/AccountCheck?memberId=&&Type=0">&nbsp;帐变记录</a>
+				<br />
+				</h>
+				<h style="font-size:20px"> <span class="icon icon-edit"></span>
+				<a href="/memberInfo/GameHistory?memberId=&&Type=0">&nbsp;下注记录</a>
+				<br />
+				</h>
+				<h style="font-size:20px"> <span class="icon icon-edit"></span>
+				<a href="/memberInfo/accountCredit">&nbsp;积分兑换</a>
+				<br />
+				</h>
+				<h style="font-size:20px"> <span class="icon icon-left"></span>
+				<a href="#" class="close-panel">&nbsp;关闭</a> <br />
+				</h>
+
+			</div>
+		</div>
+		<div
+			style="z-index: 9999; position: absolute; left: 20%; top: 10px; cursor: pointer;"
+			onclick="openHb()">
+			<img src="https://sr.xw333.com/resources/wap/style/images/hongbao.gif" height="50">
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	jq.getJSON("/indexSystemNotice", function(data) {
+		var noticeContainer = $('div[class=notice-content] marquee').first();
+		if (data) {
+			$.each(data,
+					function(i, item) {
+						noticeContainer
+								.append("<a href='javascript:noticeDetail("
+										+ item.id + ")'>" + item.content
+										+ "</a><span></span>");
+					});
+		} else {
+			noticeContainer.html("暂无公告信息");
+		}
+	});
+
+	$(function() {
+		addScriptTag("https://sr.xw333.com/static//page/11dea824-f38c-46a2-bfc9-f26027050ca3.js");
+		var memberMain = '';
+		if (memberMain != "") {
+			setInterval(checkLogin, 1000 * 30);
+		}
+	});
+
+	function callbackShow(data) {
+		if (data != '') {
+			$("#showOut").html(data);
+		}
+		swiperBegin();
+	}
+	function swiperBegin() {
+		var swiper = new Swiper('.swiper-container', {
+			pagination : '.swiper-pagination',
+			paginationClickable : true,
+			loop : false,
+			autoplay : 3000
+		});
+	}
+
+	function addScriptTag(src) {
+		if (src == '') {
+			callbackShow('');
+		} else {
+			var script = document.createElement("script");
+			script.id = "testscript";
+			script.setAttribute("type", "text/javascript");
+			script.src = src;
+			document.body.appendChild(script);
+		}
+	}
+
+	$(document).on("click", "#menu", function() {
+		$.openPanel("#memberInfo");
+	});
+
+	$(document).on("click", ".swiper-slide", function() {
+		window.location.href = "/promotion";
+	});
+
+	function refreshMainBalance() {
+		$("#spanBalance").text("...");
+		$.ajax({
+			url : "/RefreshBalance",
+			type : "post",
+			data : {
+				"PlatformId" : 0
+			},
+			dataType : "json",
+			success : function(data) {
+				if (data.success) {
+					$("#spanBalance").text(data.MAINBalance.toFixed(2));
+				}
+			},
+			error : function() {
+
+			}
+		});
+	}
+
+	function noticeDetail(id) {
+		$.ajax({
+			url : "/notice/" + id,
+			dataType : "json",
+			success : function(data) {
+				if (data) {
+					$.alert(data.content, data.title);
+				} else {
+					$.alert('该公告未找到，请查看其他公告');
+				}
+			}
+		});
+	}
+	function gdPlay() {
+		var memberMain = '';
+		if (memberMain == "") {
+			$.alert("请先登录", function() {
+				window.location.href = "/loginPage";
+			});
+		} else {
+			window.location.href = "/playGDLiveGame";
+		}
+	}
+
+	function agPlay() {
+		var memberMain = '';
+		if (memberMain == "") {
+			$.alert("请先登录", function() {
+				window.location.href = "/loginPage";
+			});
+		} else {
+			var dm = "http:m.xw283.com";
+			$.ajax({
+				type : 'post',
+				url : '/memberInfo/playGame',
+				dataType : 'json',
+				data : {
+					"gameCode" : 13,
+					"gameId" : 0,
+					"pfCode" : "AG",
+					"type" : 1,
+					"pfId" : 5,
+					"dm" : dm
+				},
+				success : function(data) {
+					if (data.success) {
+						location.href = data.url;
+					} else {
+						$.alert(data.msg);
+					}
+				}
+			});
+		}
+	}
+
+	function checkLogin() {
+		$.ajax({
+			type : "GET",
+			data : {
+				"date" : new Date()
+			},
+			url : "/checkMemberLogin",
+			onSubmit : function() {
+				return true;
+			},
+			success : function(data) {
+				if (data == "false") {
+					$.alert("由于您长时间未操作，请您重新登录", function() {
+						window.location.href = "/memberInfo/logout";
+					});
+				}
+			}
+		});
+	}
+
+	function openBox() {
+		var memberMain = '';
+		if (memberMain == "") {
+			$.alert("请先登录", function() {
+				window.location.href = "/loginPage";
+			});
+		} else {
+			$.ajax({
+				type : 'post',
+				url : '/openGiftBox',
+				data : {},
+				success : function(data) {
+					$.alert(data.substring(1, data.length - 1));
+				}
+			});
+		}
+
+	}
+	
+	function openHb() {
+		var memberMain = '';
+		if (memberMain == "") {
+			$.alert("请先登录", function() {
+				window.location.href = "/loginPage";
+			});
+		} else {
+			window.location.href = "/memberInfo/hbIndex";
+		}
+
+	}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81168526-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</html>

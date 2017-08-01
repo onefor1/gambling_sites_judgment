@@ -1,0 +1,183 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <link rel="stylesheet" type="text/css" href="/public/css/index.css"> <script src="/public/js/jquery.min.js"></script> <script type="text/javascript" src="/public/js/jquery.banner.js"></script> <script type="text/javascript" src="/public/js/index.js"></script> <script src="/public/js/include.js"></script> <script type="text/javascript">
+		url = window.location.href;		
+		if (url == "http://pc85888.com/" || url == "http://www.pc85888.com/")
+		{
+		uaredirect("http://m.pc85888.com");
+		}
+		else if(url == "http://pc89888.com/" || url == "http://www.pc89888.com/")
+		{
+		uaredirect("http://m.pc89888.com");
+		}
+		else if(url == "http://pc666777.com/" || url == "http://www.pc666777.com/")
+		{
+		uaredirect("http://m.pc666777.com");
+		}
+		else if(url == "https://pc81888.com/" || url == "https://www.pc81888.com/")
+		{
+		uaredirect("https://m.pc81888.com");
+		}
+		{		
+		uaredirect("https://m.pc81888.com");
+		}
+		</script> <script>
+			if (top.location !== self.location) {
+				top.location = self.location;
+			}
+		</script> </head> <body> <!--头部开始--> <a name="toptop"></a> <div class="w-top bg1 fs1"> <div class="w-top-body wd"> <div class="lf co1">您好！欢迎进入新葡京PC游戏中心!</div> <!--登录前--> <form action="/login.html" method="post"> <!--登录后--> <div class="w-denglu-bf rg" style="display:block;"> <div class="w-hyzh-input pr lf" style="width: 173px;margin-right: 10px;padding-left: 5px;height: 23px;"></div> <div class="w-hyzh-input pr lf" style="width: 173px;margin-right: 10px;padding-left: 5px;height: 23px;"></div> <!--  <div class="w-hyzh-input pr lf"> <input type="text" name="username" placeholder="会员账号" /> <div class="w-wj tc"><a href="/forget.html">忘记？</a></div> </div> <div class="w-hyzh-input pr lf"> <input type="password" name="password" placeholder="密码" /> <div class="w-wj tc"><a href="/forget.html">忘记？</a></div> </div> <div class="w-denglu lf"> <input type="submit" name="" value="登录" /> </div>--> <div class="w-denglu lf"> <input type="button" name="" value="登录" id="login"/> </div> <div class="w-zhuce lf"> <input type="button" name="" value="注册" id="register"/> </div> <div class="w-zxkf-top lf"><a href="https://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=706401&configID=139703&jid=7401491209&s=1" target="_blank"><img src="/public/images/zxkft.jpg" width="93" height="33" /></a></div> </div> </form> <!--登录后--> </div> </div> <div class="w-nav pr"> <div class="w-nav-body wd"> <div class="w-logo lf"><a href="/"><img src="/public/images/logo.png" width="190" /></a></div> <div class="w-nav-list rg of fs3"> <ul> <li class="w-ylan"><a href="/index.php">首页</a></li> <li class="w-ylan"><a href="/xy28.html">数字游戏</a></li> <li class="w-ylan"><a href="/award_center.html">开奖中心</a></li> <li class="w-ylan"><a href="/trend_xy.html">走势图</a></li> <li class="w-ylan"><a href="/anno.html">公告</a></li> <li class="w-ylan"><a href="/help.html">帮助</a></li> <li class="w-ylan"><a href="/personal.html">会员中心</a></li> </ul> <div class="w-nav-yc"> <div class="w-nav-ycbody wd"> <ul class="rg"> <li> <a href="/xy28.html">幸运28</a> <a href="/jnd28.html">加拿大28</a> </li> <li> <a href="/kl_award.html">幸运28开奖</a> <a href="/jnd_award.html">加拿大28开奖</a> </li> <li> <a href="/trend_xy.html">幸运28走势</a> <a href="/trend_jnd.html">加拿大28走势</a> </li> <li> <a href="/anno.html">新葡京公告</a> <a href="/activity.html">新葡京活动</a> <a href="/bwbzq.html">边玩边赚钱</a> </li> <li> <a href="/help.html">帮助</a> <a href="http://www.xin8388.com/" target="_blank">APP下载</a> <!--<a href="/app.html">APP下载</a>--> </li> <li> <a href="/history.html">投注管理</a> <a href="/personal.html">用户中心</a> <a href="/safe.html">账户安全</a> <a href="/pay.html">资金管理</a> </li> </ul> </div> </div> </div> </div> </div> <script>
+            $("#register").click(function(){
+                location.href="/register.html";
+            });
+            $("#login").click(function(){
+                location.href="/login.html";
+            });
+        </script> <!--头部结束--> <title>新葡京娱乐场-首页</title> <meta name="keywords" content="" /> <meta name="description" content="" /> <link rel="stylesheet" type="text/css" href="/public/css/Index6.css"/> <link rel="stylesheet" type="text/css" href="/public/css/main.css"> <script type="text/javascript" src="/public/jquery-1.11.3.min.js"></script> <script type="text/javascript" src="/public/js/slider-plugin.js"></script> <script type="text/javascript" src="/public/index.js"></script> <!--banner--> <!--    <div class="banner"> <ul class="banList"> <li class="active"><img src="/data/upload/20160807/57a60d9a31d5c.jpg"/><div class="w-djck-tb tc"><a href=""><img src="/public/images/djck.jpg" width="150" height="35" /></a></div></li> <li><img src="/data/upload/20160807/57a60fe57cee4.jpg"/><div class="w-djck-tb tc"><a href="http://www.lottery.com/jnd28.html"><img src="/public/images/djck.jpg" width="150" height="35" /></a></div></li> </ul> <div class="fomW"> <div class="jsNav"> <a href="javascript:;" class="trigger current"></a> <a href="javascript:;" class="trigger"></a> </div> </div> </div>--> <!--banner--> <div class="banner_box"> <!-- <div class="banner"></div> --> <div class="index-banner" id="index-banner"> <div class="index-banner-scroll" style="margin-left: -285.5px;"> <ul style="left: -3840px;"> <li class="pr"><img src="/data/upload/20160807/57a60fe57cee4.jpg"/><div class="w-djck-tb tc"><a href="/bwbzq.html"><img src="/public/images/djck.jpg" width="150" height="35" /></a></div></li> <li class="pr"><img src="/data/upload/20160807/57a60fe57cee4.jpg"/><div class="w-djck-tb tc"><a href="/bwbzq.html"><img src="/public/images/djck.jpg" width="150" height="35" /></a></div></li> </ul> </div> <div class="control" style="left: 617px;"> <span class="" style="opacity: 1;"></span> <span style="opacity: 1;" class=""></span></div> </div> </div> <script type="text/javascript">        //tab plugins 插件
+        $(function () {
+            //选项卡鼠标滑过事件
+            $('#clicktab .tabbtn li').click(function () {
+                TabSelect("#clicktab .tabbtn li", "#clicktab .tabcon", "current", $(this))
+            });
+            $('#clicktab .tabbtn li').eq(0).trigger("click");
+
+            function TabSelect(tab, con, addClass, obj) {
+                var $_self = obj;
+                var $_nav = $(tab);
+                $_nav.removeClass(addClass),
+                $_self.addClass(addClass);
+                var $_index = $_nav.index($_self);
+                var $_con = $(con);
+                $_con.hide(),
+                $_con.eq($_index).show();
+            }
+        });
+
+        $(document).ready(
+			function () {
+						$(".banner_box").slider({
+							containerEl: $(".index-banner-scroll"),
+							silderContainerEl: $("#index-banner ul"),
+							itemEl: $("#index-banner ul li"),
+							btnEl: $('.control span'),
+							btnContainerEl: $('.control'),
+							prev: $(".prev"),
+							next: $(".next"),
+							index: 0,
+							resizeable: true,
+							showButton: true
+						});
+					}
+		);
+    </script> <!--banner--> <!--banner--> <!--中奖切换--> <div class="w-zjqh"> <div id="announcement" onMouseOver="if(!anncount) {clearTimeout(annst);annst = 0}" onMouseOut="if(!annst) annst = setTimeout('announcementScroll()', anndelay);"> <div id="announcementbody"> <ul> <li>会员 <span>186****6673</span> 在幸运28中 中奖 <span>2,520</span> 元</li> <li>会员 <span>137****5574</span> 在幸运28中 中奖 <span>40</span> 元</li> <li>会员 <span>gby****ning</span> 在幸运28中 中奖 <span>400</span> 元</li> <li>会员 <span>177****2282</span> 在幸运28中 中奖 <span>914.3</span> 元</li> <li>会员 <span>L18****8</span> 在幸运28中 中奖 <span>300</span> 元</li> <li>会员 <span>138****7008</span> 在幸运28中 中奖 <span>120</span> 元</li> <li>会员 <span>ddf****23</span> 在幸运28中 中奖 <span>82</span> 元</li> <li>会员 <span>xia****n</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>lih****</span> 在幸运28中 中奖 <span>41</span> 元</li> <li>会员 <span>189****1090</span> 在幸运28中 中奖 <span>2,050</span> 元</li> <li>会员 <span>zh1****107</span> 在幸运28中 中奖 <span>310</span> 元</li> <li>会员 <span>wk9****8</span> 在幸运28中 中奖 <span>120</span> 元</li> <li>会员 <span>412****26</span> 在幸运28中 中奖 <span>400</span> 元</li> <li>会员 <span>aaa****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>189****9686</span> 在幸运28中 中奖 <span>28</span> 元</li> <li>会员 <span>wwo****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>W24****W</span> 在幸运28中 中奖 <span>100</span> 元</li> <li>会员 <span>qq5****</span> 在幸运28中 中奖 <span>20</span> 元</li> <li>会员 <span>yan****314</span> 在幸运28中 中奖 <span>60</span> 元</li> <li>会员 <span>qin****cz</span> 在幸运28中 中奖 <span>840</span> 元</li> <li>会员 <span>qq2****1004</span> 在幸运28中 中奖 <span>400</span> 元</li> <li>会员 <span>hx1****</span> 在幸运28中 中奖 <span>150</span> 元</li> <li>会员 <span>ch1****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>did****</span> 在幸运28中 中奖 <span>600</span> 元</li> <li>会员 <span>TT8****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>137****5574</span> 在幸运28中 中奖 <span>110</span> 元</li> <li>会员 <span>wl3****6</span> 在幸运28中 中奖 <span>100</span> 元</li> <li>会员 <span>Ab6****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>qq3****4912</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>W24****W</span> 在幸运28中 中奖 <span>200</span> 元</li> <li>会员 <span>139****8094</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>177****2282</span> 在幸运28中 中奖 <span>750</span> 元</li> <li>会员 <span>zh1****107</span> 在幸运28中 中奖 <span>500</span> 元</li> <li>会员 <span>qq2****1004</span> 在幸运28中 中奖 <span>200</span> 元</li> <li>会员 <span>yan****</span> 在幸运28中 中奖 <span>200</span> 元</li> <li>会员 <span>ddf****23</span> 在幸运28中 中奖 <span>28</span> 元</li> <li>会员 <span>177****2282</span> 在幸运28中 中奖 <span>473</span> 元</li> <li>会员 <span>lc5****0</span> 在幸运28中 中奖 <span>240</span> 元</li> <li>会员 <span>yan****</span> 在幸运28中 中奖 <span>600</span> 元</li> <li>会员 <span>qq5****</span> 在幸运28中 中奖 <span>20</span> 元</li> <li>会员 <span>lih****</span> 在幸运28中 中奖 <span>39</span> 元</li> <li>会员 <span>cai****</span> 在幸运28中 中奖 <span>300</span> 元</li> <li>会员 <span>yan****314</span> 在幸运28中 中奖 <span>80</span> 元</li> <li>会员 <span>153****0385</span> 在幸运28中 中奖 <span>420</span> 元</li> <li>会员 <span>134****6636</span> 在幸运28中 中奖 <span>800</span> 元</li> <li>会员 <span>qq5****0475</span> 在幸运28中 中奖 <span>400</span> 元</li> <li>会员 <span>asd****90</span> 在幸运28中 中奖 <span>400</span> 元</li> <li>会员 <span>189****9686</span> 在幸运28中 中奖 <span>34</span> 元</li> <li>会员 <span>did****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> <li>会员 <span>q20****7</span> 在幸运28中 中奖 <span>100</span> 元</li> <li>会员 <span>177****2282</span> 在幸运28中 中奖 <span>750</span> 元</li> <li>会员 <span>bea****</span> 在幸运28中 中奖 <span>2,500</span> 元</li> <li>会员 <span>a64****968</span> 在幸运28中 中奖 <span>36</span> 元</li> <li>会员 <span>cai****</span> 在幸运28中 中奖 <span>1,250</span> 元</li> <li>会员 <span>lc5****0</span> 在幸运28中 中奖 <span>100</span> 元</li> <li>会员 <span>gby****ning</span> 在幸运28中 中奖 <span>300</span> 元</li> <li>会员 <span>189****9686</span> 在幸运28中 中奖 <span>28</span> 元</li> <li>会员 <span>zh1****107</span> 在幸运28中 中奖 <span>200</span> 元</li> <li>会员 <span>qq2****1004</span> 在幸运28中 中奖 <span>200</span> 元</li> <li>会员 <span>HTY****</span> 在幸运28中 中奖 <span>1,000</span> 元</li> </ul> </div> </div> </div> <!--中奖切换--> <div class="w-index-body of"> <!--开奖结果--> <div class="w-kjjg wd"> <div class="w-index-title"><img src="/public/images/list1.jpg" width="140" height="52" /></div> <div class="w-kjjg-body of"> <div class="w-kjjq-bboxlf lf"> <div class="w-kjjg-pic lf"><img src="/public/images/xy28.jpg" width="124" height="129" /></div> <div class="w-kjjq-text lf"> <div class="w-jkjjq-qs">第<span>836672</span>期开奖结果</div> <div class="w-jkjq-sm"> <div class="w-jkjq-sz lf">4</div> <div class="w-jkjq-sz lf">5</div> <div class="w-jkjq-sz lf">6</div> <div class="w-jkjq-jg lf">15</div> </div> <div class="w-jkjq-dqzq fs3">当前奖池￥<span>9254163.55</span></div> </div> <div class="w-jkjq-time tc cl" id="kl8" data-time1="60" data-time2="150"></div> <div class="w-jkjq-ljtz tc"><a href="/xy28.html">立即投注</a></div> </div> <div class="w-kjjq-bboxrg lf"> <div class="w-kjjg-pic lf"><img src="/public/images/jnd28.jpg" width="124" height="129" /></div> <div class="w-kjjq-text lf"> <div class="w-jkjjq-qs">第<span>2169554</span>期开奖结果</div> <div class="w-jkjq-sm"> <div class="w-jkjq-sz lf">4</div> <div class="w-jkjq-sz lf">5</div> <div class="w-jkjq-sz lf">7</div> <div class="w-jkjq-jg lf">16</div> </div> <div class="w-jkjq-dqzq fs3">当前奖池￥<span>1302656.27</span></div> </div> <div class="w-jkjq-time tc cl" id="jnd8" data-time1="0" data-time2="0"></div> <div class="w-jkjq-ljtz tc"><a href="/jnd28.html">立即投注</a></div> </div> </div> </div> <!--开奖结果--> <div class="w-line"></div> <!--产品优势--> <div class="w-cpys wd of"> <div class="w-cpys-box lf"> <!--<div class="w-index-title"><img src="images/list2.jpg" width="140" height="52" /></div> <div class="w-cpys-box1 of"> <div class="w-cpys-blf lf"> <div class="w-cpys-btitle fs4">存款到账</div> <p>平均时间</p> </div> <div class="w-cpys-brg rg">25<span>秒</span></div> </div> <div class="w-cpys-box1 of"> <div class="w-cpys-blf lf"> <div class="w-cpys-btitle fs4">取款到账</div> <p>平均时间</p> </div> <div class="w-cpys-brg rg">2.50<span>分</span></div> </div> <div class="w-cpys-box1 of"> <div class="w-cpys-blf lf"> <div class="w-cpys-btitle fs4">便捷银行服务</div> <p>目前我们支付机构有：</p> </div> <div class="w-cpys-brg rg">25<span>分</span></div> </div>--> <!--左边--> <div class="cc_l lf"> <div class="w-index-title"><img src="/public/images/list2.jpg" width="140" height="52" /></div> <div class="cc_item1"> <div class="cci_title">存款到账</div> <div class="cci_avg">平均时间</div> <div class="cci_unit">秒</div> <div id="deposit_num" class="cci_num">0</div> <div class="cci_load"> <div class="load_s"></div> <div class="load_e"> <div id="deposit" class="load_rate"></div> </div> </div> </div> <div class="cc_item1"> <div class="cci_title">取款到账</div> <div class="cci_avg">平均时间</div> <div class="cci_unit">分</div> <div id="take_num" class="cci_num">0'00</div> <div class="cci_load"> <div class="load_s"></div> <div class="load_e"> <div id="take" class="load_rate"></div> </div> </div> </div> <div class="cc_item1"> <div class="cci_title">便捷的银行服务</div> <div class="cci_visa"></div> <div class="cci_mscd"></div> <div class="cci_agcy">目前我们支付机构有：</div> <div class="cci_unit2">家</div> <div id="bank_num" class="cci_num2">34</div> </div> <div class="cci_scoll"> <div id="deposit_s"> <div></div> </div> <div id="take_s"> <div></div> </div> <div id="bank_s"> <div></div> </div> </div> </div> </div> <div class="w-cpys-box lf"> <div class="w-index-title"><img src="/public/images/list3.jpg" width="140" height="52" /></div> <div class="w-cpys-box1 of"> <div class="w-cpys-btitle fs4">更优秀</div> <div class="w-cpys-btxt fs1">平台会员稳定增长，至今已拥有超过85万的会员，累计为用户兑换超680万元人民币.</div> </div> <div class="w-cpys-box1 of"> <div class="w-cpys-btitle fs4">更稳定</div> <div class="w-cpys-btxt fs1">实力站点，致力于打造一个公平、诚信、共赢的娱乐平台.</div> </div> <div class="w-cpys-box1 of"> <div class="w-cpys-btitle fs4">更安全</div> <div class="w-cpys-btxt fs1">实力保障 让你安心游戏</div> </div> </div> <div class="w-cpys-boxlt lf"> <div class="w-index-title"><img src="/public/images/list4.jpg" width="" height="52" /></div> <div class="w-cpys-box2 of"> <div class="w-cpys-blf of"> <div class="w-cpys-btitle fs4 lf">当前活跃用户数</div> <div class="w-cpys-brg2 rg yonghshuliang"><span class="hyrs"></span>人</div> </div> <div class="chart"> <div class="chart_in" ></div> <span class="num yonghshuliang"></span> </div> <div class="cl"></div> </div> <div class="w-cpys-box2 of"> <div class="w-cpys-blf of"> <div class="w-cpys-btitle fs4 lf">当前累计存提款</div> <div class="w-cpys-brg2 rg leijishu"><span class="hyrs"></span>笔</div> </div> <div class="chart"> <div class="chart_in" ></div> <span class="num leijishu"></span> </div> <div class="cl"></div> </div> <div class="w-cpys-box2 of"> <div class="w-cpys-blf of"> <div class="w-cpys-btitle fs4 lf">当前累计注单数</div> <div class="w-cpys-brg2 rg"><span class="span1 hyrs"></span>注</div> </div> <div class="chart"> <div class="chart_in" ></div> <span class="num"></span> </div> <div class="cl"></div> </div> <div class="w-cpys-box2 of"> <div class="w-cpys-blf of"> <div class="w-cpys-btitle fs4 lf">当前累计派彩</div> <div class="w-cpys-brg3 rg "><span class="hyrs">￥</span><span class="duoshaoqian hyrs"></span><span class="hyrs">元</span></div> </div> <div class="chart"> <div class="chart_in" ></div> <span class="num"></span> </div> <div class="cl"></div> </div> </div> </div> <!--产品优势--> </div> <div class="duilian duilian_right"> <div><a href="http://pc777888.com/" target="_blank"><img src="/public/images/a1.png"></a></div> <div><!--<a href="http://pc81888.com/app.html" target="_blank">--><a href="http://www.xin8388.com/" target="_blank"><img src="/public/images/a2.png"></a></div> </div> <!--底部开始--> <div class="w-foot bg4 tc fs1"> <div class="w-foot-body wd pr"> <div class="tc" id="news_list"> <a href="/index.html">首页</a> <span>丨</span> <a href="/help.html">帮助中心</a> <span>丨</span> <a href="/award_center.html">开奖中心</a> <span>丨</span> <a href="/anno.html">公告信息</a> <span>丨</span> <a href="/personal.html">会员中心</a> <span>丨</span> <span>客服电话：400-888-8888</span> </div> <p class="cl">Copyright@ 2010-2014 <a href="http://www.ssccms.com/forum.php?mod=viewthread&tid=7" target="_blank" style="color:#00c9bd">SSCCMS XY28 1.0 bate</a>xxxxxxx.com All Right Reserved 备案：湘ICP备xxxx号-4 增值电信业务经营许可证：湘A2-xxxxxx</p> <div class="w-fanhuidingbu"> <div class="w-fhdb-top of"><a href="http://f88.live800.com/live800/chatClient/chatbox.jsp?companyID=706401&configID=139703&jid=7401491209" target="_blank"><img src="/public/images/zxkf.png" width="40" height="63"></a></div> <div class="w-fhdb-bot"><a href="#toptop"><img src="/public/images/fhdb.png" width="40" height="46"></a></div> </div> </div> </div> <!--底部结束--> </body> </html> <script type="text/javascript"> $(function(){
+    $(".banner").swBanner();
+    var timer1;
+    var time1 = $("#kl8").attr('data-time1');
+    var time2 = $("#kl8").attr('data-time2');
+    timer1 = setInterval(function () {
+        time1--;
+        commontimer(time1,time2,timer1);
+    }, 1000);
+    var timer2;
+    var time3 = $("#jnd8").attr('data-time1');
+    var time4 = $("#jnd8").attr('data-time2');
+    timer2 = setInterval(function () {
+        time3--;
+        commontimer2(time3,time4,timer2);
+    }, 1000);
+});   
+function getElement(id)
+{
+   return document.getElementById(id);
+}
+var anndelay = 3000;
+var anncount = 0;
+var annheight = 40;
+var annst = 0;
+function announcementScroll()
+{
+   if( ! annst)
+   {
+      getElement('announcementbody').innerHTML += '<br style="clear: both" />' + getElement('announcementbody').innerHTML;
+      getElement('announcementbody').scrollTop = 0;
+      if(getElement('announcementbody').scrollHeight > annheight * 3)
+      {
+         annst = setTimeout('announcementScroll()', anndelay);
+      }
+      else
+      {
+         getElement('announcement').onmouseover = getElement('announcement').onmouseout = null;
+      }
+      return;
+   }
+   if(anncount == annheight)
+   {
+      if(getElement('announcementbody').scrollHeight - annheight <= getElement('announcementbody').scrollTop)
+      {
+         getElement('announcementbody').scrollTop = getElement('announcementbody').scrollHeight / 2 - annheight;
+      }
+      anncount = 0;
+      annst = setTimeout('announcementScroll()', anndelay);
+   }
+   else
+   {
+      getElement('announcementbody').scrollTop ++ ;
+      anncount ++ ;
+      annst = setTimeout('announcementScroll()', 10);
+   }
+}
+announcementScroll();
+
+
+function commontimer(time1,time2,timer){
+    var timerkl8;
+    var lefttime = $("#kl8");
+    if (time1 <= 0) {
+        clearInterval(timer);
+        timerkl8 = setInterval(function () {
+            time2--;
+            if (time2 <= 0) {
+                clearInterval(timerkl8);
+                lefttime.html("当前期正在开奖...");
+            }else{
+                var minute = oDub(Math.floor(time2/ 60));
+                var second = oDub(Math.floor(time2 - minute * 60));
+                lefttime.html("距开奖时间还有<span class='sec'>"+minute+":"+second+"</span>秒");
+            }
+        }, 1000);
+        
+    }else{
+        var minute = oDub(Math.floor(time1/ 60));
+        var second = oDub(Math.floor(time1 - minute * 60));
+        lefttime.html("距下单截止时间还有 <span class='sec'>"+minute+":"+second+"</span> 秒");
+    }
+}
+function oDub(n) {
+        if (n < 10) {
+                return "0" + n;
+        } else {
+                return "" + n;
+        }
+}
+function commontimer2(time1,time2,timer){
+    var timerjnd8;
+    var lefttime = $("#jnd8");
+    if (time1 <= 0) {
+        clearInterval(timer);
+        timerjnd8 = setInterval(function () {
+            time2--;
+            if (time2 <= 0) {
+                clearInterval(timerjnd8);
+                lefttime.html("当前期正在开奖...");
+            }else{
+                var minute = oDub(Math.floor(time2/ 60));
+                var second = oDub(Math.floor(time2 - minute * 60));
+                lefttime.html("距开奖时间还有<span class='sec'>"+minute+":"+second+"</span>秒");
+            }
+        }, 1000);
+        
+    }else{
+        var minute = oDub(Math.floor(time1/ 60));
+        var second = oDub(Math.floor(time1 - minute * 60));
+        lefttime.html("距下单截止时间还有 <span class='sec'>"+minute+":"+second+"</span> 秒");
+    }
+}
+
+</script>

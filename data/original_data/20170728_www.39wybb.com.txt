@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>趣赢</title>
+    <link rel="stylesheet" href="/july_old/views/cesu/css/cesu_index.min.css" />
+</head>
+<body>
+<div >
+    <div class='register_main'>
+        <div class='head'>
+            <div class='head_menu'>
+                <ul class='menu_left'>
+                    <li> <img src='/july_old/views/cesu/img/logo.png'>
+                </ul>
+                <ul class='menu_right'>
+                    <li class="download_pc">
+                        <a href="/view/Pcdum/index.html" >
+                            <img src="/july_old/views/cesu/img/iMac_icon.png" alt=""><span>PC客户端下载</span>
+                            <img src="/july_old/views/cesu/img/tj_icon.png" alt="" class="recommend_pc">
+                        </a>
+                    </li>
+                    <li class="download_mobile">
+                        <a href="/view/Appdum/index.html">
+                            <img src="/july_old/views/cesu/img/iPhone_icon.png" alt=""><span>手机客户端</span>
+                        </a>
+                    </li>
+                    <li class="a2">
+                        <a href="https://ngmm.livechatvalue.com/chat/chatClient/chatbox.jsp?companyID=12398&configID=46&jid=" target='_blank'>
+                            <img src='/july_old/views/cesu/img/kefu_icon.png'>
+                            <div>
+                                <p class="k1">有疑问？请咨询在线客服</p>
+                                <p class="k2">7x24小时&nbsp;全年无休</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="cesu-contain">
+        <div class="main">
+            <div class="mian-box">
+                <form name="autof">
+                    <ul id="webListBox"></ul>
+                </form>
+                <div class="fast-main">
+                    <button onclick="fastBtn();">一键访问最快域名</button>
+                </div>
+                <div class="visit-tips">
+                    <div class="tips-l">
+                        <p>
+                            访问状态说明:
+                            <span class="greenBg"></span>很好
+                            <span class="orangeBg"></span>一般
+                            <span class="redBg"></span>较差
+                        </p>
+                    </div>
+                    <div class="tips-r">
+                        <p>贴心提醒:测速数值越小,访问速度越快</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="content">
+                <h2>域名检测</h2>
+                <p>为了帮助您更好的识别本平台的真实域名，除了直接点击页面上方的【立即访问】之外，您还可以将域名复制到下方进行验证，只需在输入框中输入要验证的域名，便可轻松辨别真伪。</p>
+                <div class="text-ym">
+                    <label>域名检测:</label><input type="text" placeholder="输入域名" id="checkURL"><button onclick="checkURL();">立即检测</button>
+                    <div class="text-ym-tips" id="VerifyResult"></div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li>
+                    <div class="ImgL">
+                        <img src="/july_old/views/cesu/img/icon_pc.png" alt="">
+                    </div>
+                    <div class="footer-txt">
+                        <p class="txt-title">趣赢 PC客户端下载</p>
+                        <p class="txt-middle">新chrome内核，顶尖技术，顶尖体验</p>
+                        <p class="txt-btn"><a href="/view/Pcdum/index.html"><button>下载</button></a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="ImgL">
+                        <img src="/july_old/views/cesu/img/icon_ios.png" alt="">
+                    </div>
+                    <div  class="footer-txt">
+                        <p class="txt-title">趣赢 IOS端下载</p>
+                        <p class="txt-middle">IOS客户端，轻松投注</p>
+                        <p class="txt-qrode">扫描右侧二维码下载</p>
+                    </div>
+                    <div class="qrode-img" id="qrcode1">
+                    </div>
+                </li>
+                <li>
+                    <div class="ImgL">
+                        <img src="/july_old/views/cesu/img/icon_android.png" alt="">
+                    </div>
+                    <div  class="footer-txt">
+                        <p class="txt-title">趣赢 Android端下载</p>
+                        <p class="txt-middle">最优质安卓端，移动随行</p>
+                        <p class="txt-qrode">扫描右侧二维码下载</p>
+                    </div>
+                    <div class="qrode-img" id="qrcode2">
+                    </div>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</div>
+<script type="text/javascript" src="/july_old/views/cesu/js/jquery.min.js"></script>
+<script type="text/javascript" src="/july_new/view/Appdum/js/jquery.qrcode.js"></script>
+<script type="text/javascript" src="/july_new/view/Appdum/js/qrcode.js"></script>
+<script type="text/javascript" src='/july_old/views/cesu/js/cesu_index.min.js'></script>
+<script type="text/javascript">
+    $(function () {
+        $("#qrcode1").qrcode("http://olrlnq69i.qnssl.com/julyReloap2.9.4.html?v=1.21");
+        $("#qrcode2").qrcode("http://oez1aye8k.bkt.clouddn.com/julyReloap_2_9_4an.html?v=1.21");
+    })
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

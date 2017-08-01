@@ -1,0 +1,967 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<base href="http://www.nnnk3.com:80/">
+  	
+	<head> 
+		<title>K 3 线 上 平 台</title>
+		<meta name="keywords" content="K 3 线 上 平 台">
+		<meta name="Description" content="K 3 线 上 平 台">
+		<link rel="shortcut icon" href="/resource/images/favicon.ico" type="image/x-icon" /> 
+		<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<meta HTTP-EQUIV="expires" CONTENT="0">
+		 
+		
+	    <link rel="stylesheet" type="text/css" href="/resource/css/style.css" /> 
+	    <!-- <link rel="stylesheet" type="text/css" href="/resource/css/qq_kefu.css" />  -->
+	    <SCRIPT type=text/javascript src="/resource/js/jquery-1.8.0.min.js"></SCRIPT>
+	    <SCRIPT type=text/javascript src="/resource/js/default.js"></SCRIPT>
+	</head>
+	<body>
+		
+	<style type="text/css">
+		#header { background: url(/resource/images/img/banner.jpg) repeat-x; }
+		#header .m { background: url(/resource/images/img/head.gif) no-repeat top center; }
+		
+		@media (max-width: 640px) {
+			#header{ z-index:99; background:-webkit-linear-gradient(#ec5703,#f7c100); height:auto; margin-bottom:0px;}
+			#header .m{ background:none!important; height:auto;}
+		}
+	</style>
+			
+		<div id="header">
+			<div class="m">
+				<div class="headtop">
+					<div class="right">
+						投诉邮箱：k3fcservice@gmail.com 
+					</div>
+				</div>
+				<div class="w1000">
+					<div class="logo">
+						<a href="/welcome.php?id=25102"
+							title="K 3 线 上 平 台">K 3 线 上 平 台</a>
+					</div>
+					<div class="navbar">
+						<div id="nav">
+							<li class="first thisclass">
+								<a href="/welcome.php?id=25102">首 &nbsp; 页<span></span>
+								</a>
+							</li>
+							
+								<li>
+									<a  id="menu_1" href="/help/1.php?id=25102">公司简介<span></span>
+									</a>
+								</li>
+							
+								<li>
+									<a  id="menu_2" href="/help/2.php?id=25102">游戏规则<span></span>
+									</a>
+								</li>
+							
+								<li>
+									<a  id="menu_3" href="/help/3.php?id=25102">打码反馈<span></span>
+									</a>
+								</li>
+							
+								<li>
+									<a  id="menu_4" href="/help/4.php?id=25102">手机下注<span></span>
+									</a>
+								</li>
+							
+								<li>
+									<a  id="menu_5" href="/help/5.php?id=25102">合作代理<span></span>
+									</a>
+								</li>
+							
+							<li>
+								<a 
+									href="/help/history.php?id=25102">走势图<span></span>
+								</a>
+							</li>
+			<li class="zfb">
+		<a href="http://tb.53kf.com/code/client/10136521/1"  target="_blank"><img border="0" title="充值说明" alt="充值说明"src="/resource/images/zfbao.png"><span></span></a>
+</li>			</div>
+					</div>
+					
+						<div class="login">
+							<form action="/index.php/user/action/userLogin?lottery_type=jsold" method="post">
+								<div class="loginC">
+									<p>
+										<strong>帐号：</strong>
+										<input type="text" placeholder="帐号" class="loginp" id="loginUsername" name="loginUsername" />
+									</p>
+									<p>
+										<strong>密码：</strong>
+										<input type="password" placeholder="密码" class="loginp" id="loginPassword" name="loginPassword" />
+									</p>
+									<p><button type="button" onclick="loginIn()" id="login_button_spec" class="login_button"></button></p>
+								</div>
+							</form>
+							<div class="logintip">
+								<a href="/register.php?id=25102" class="register">新会员注册 </a>
+								<a href="/agRegister.php?id=25102" class="password">代理注册</a>
+								<a href="/agLogin.php?id=25102" class="password">代理登陆</a>
+							</div>
+						</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="twidth">
+			<style>
+			.twidth{ z-index:0!important;}
+			</style>
+			<div class="w734 left">
+        			<div id="slide">
+						<script>
+  
+  window.onload = function()
+  {
+	  var oBox = document.getElementById('boxf');
+	  var oPrev = getByClass(oBox,'prev')[0];
+	  var oNext = getByClass(oBox,'next')[0];
+	  var oBigUl = getByClass(oBox,'bigUl')[0];
+	  var aLiBig = oBigUl.getElementsByTagName('li');
+	  var oNumUl = getByClass(oBox,'numberUl')[0];
+	  var aLiNumber = oNumUl.getElementsByTagName('li');
+	  var oTextUl = getByClass(oBox,'textUl')[0];
+	  var aLiText = oTextUl.getElementsByTagName('li');
+	  var nowZindex = 1;
+	  var now = 0;
+	  function tab()
+	  {
+		   for(var i=0; i<aLiNumber.length; i++)
+			  {
+				  aLiNumber[i].className = '';
+			  }
+			  aLiNumber[now].className = 'night';
+			  
+		  aLiBig[now].style.zIndex = nowZindex++;
+		  aLiBig[now].style.opacity = 0;
+		  startMove(aLiBig[now],'opacity',100);
+		  for(var i=0; i<aLiText.length; i++)
+		  {
+			  aLiText[i].style.display = 'none';
+		  }
+		  aLiText[now].style.display = 'block'
+		  
+	  }
+	  
+	  for(var i=0; i<aLiNumber.length; i++)
+	  {
+		  aLiNumber[i].index = i;
+		  aLiNumber[i].onclick = function()
+		  {
+			 
+			  if(this.index==now)return;
+			  now = this.index;
+			 
+			  tab();
+		  }
+	  }
+	  oNext.onmouseover = oPrev.onmouseover = oBigUl.onmouseover = function()
+	  {
+		  startMove(oPrev,'opacity',100);
+		   startMove(oNext,'opacity',100)
+	  }
+	   oNext.onmouseout = oPrev.onmouseout = oBigUl.onmouseout = function()
+	  {
+		  startMove(oPrev,'opacity',0);
+		  startMove(oNext,'opacity',0)
+	  }
+	  oPrev.onclick = function()
+	  {
+		  now--
+		  if(now==-1)
+		  {
+			  now=aLiNumber.length-1;
+		  }
+		  tab();
+	  }
+	  
+	    oNext.onclick = function()
+	  {
+		  now++
+		  if(now==aLiNumber.length)
+		  {
+			  now=0;
+		  }
+		  tab();
+	  }
+	  
+	  var timer = setInterval(oNext.onclick,3000)
+	  oBox.onmouseover = function()
+	  {
+		  clearInterval(timer)
+	  }
+	  oBox.onmouseout = function()
+	  {
+		  timer = setInterval(oNext.onclick,3000)//改变速度修改3000 ，例如3000=3秒钟
+	  }
+  }
+  
+</script>
+<!-- 代码 开始 -->
+<div id="boxf">
+    <div class="prev"></div>
+    <div class="next"></div>
+    <ul class="bigUl">
+       <li style="z-index:1"><a href="#"><img src="/resource/images/img/pic1.gif" /></a></li>
+       <li><a href="#"><img src="/resource/images/img/pic2.gif" /></a></li>
+       <li><a href="#"><img src="/resource/images/img/pic3.gif" /></a></li>
+    </ul>
+    <ul class="numberUl">
+      <li class="night"><a href="javascript:;">1</a></li>
+      <li><a href="javascript:;">2</a></li>
+      <li><a href="javascript:;">3</a></li>
+    </ul>
+    <div>
+      <ul class="textUl">
+        <li style="display:block;"><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+ </div>
+<!-- 代码 结束 -->                        
+					</div>
+        	</div>
+			<div class="w258 right">
+				<div class="bulletin">
+					<div class="b_title">
+						<span>友情提示</span>
+					</div>
+					<div style="height: 214px;" class="b_cont1">
+						<ul class="notes">
+							<p align="justify" style="text-align: justify;">
+								<span style="font-size: 18px; color: #E53333;"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</strong><strong><span style="color: #000000; font-size: 24px;">公告</span>
+								</strong>
+								</span><strong><span
+									style="background-color: #FFFFFF; color: #FFFFFF; font-size: 18px;"><span
+										style="color: #E53333; font-size: 18px;"><br/>
+									</span>
+								</span>
+								</strong>
+							</p>
+							<p align="justify" style="text-align: justify;">
+								<strong>
+									<span style="background-color: #FFFFFF; color: #FFFFFF; font-size: 18px;">
+										<span style="color: #E53333; font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+									</span>
+									<span style="background-color: #FFFFFF; color: #FFFFFF;">
+										<span style="color: #E53333;"> <span style="background-color: #FFFFFF;">
+											<span style="font-family: KaiTi_GB2312; font-size: 24px;">尊敬的会员用户：为了回馈广大客户对平台的支持与信任，现已将大小单双的倍率调制到1.90 充值不了解可联系在线客服咨询QQ:120766369</span>
+										</span>
+									</span>
+								</span>
+								</strong>
+							</p>
+							<p>
+								<br/>
+							</p>
+							<h1>
+								<span
+									style="line-height: 1.5; font-family: KaiTi_GB2312; font-size: 32px; font-weight: normal;"></span>
+							</h1>
+							<h1>
+								<span style="background-color: #ffffff;"></span><span
+									style="background-color: #ffffff;"></span><span
+									style="color: #000000;"></span><span style="font-size: 24px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								</span><span style="color: #009900;"></span>
+								<br/>
+									<span style="font-size: 24px;"></span>
+							</h1>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="blank10">jiangshu</div>
+			
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<base href="http://www.nnnk3.com:80/">
+	<head>
+		<title>K 3 线 上 平 台</title>
+		<meta name="keywords" content="K 3 线 上 平 台">
+		<meta name="Description" content="K 3 线 上 平 台">
+		<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+		<meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+		<meta HTTP-EQUIV="expires" CONTENT="0">
+		 
+					<link href="/resource/css/cathectic/style.css"  type="text/css"   rel="stylesheet"/>
+					<title>K 3 线 上 平 台</title>
+					<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+					<meta name="apple-mobile-web-app-capable" content="yes">
+					<SCRIPT type=text/javascript src="/resource/js/jquery-1.8.0.min.js"></SCRIPT>
+				    <link rel="stylesheet" type="text/css" href="/resource/css/cathectic/user.css" />
+				    <SCRIPT type=text/javascript src="/resource/js/typebox.min.js"></SCRIPT>
+				    <link rel="stylesheet" type="text/css" href="/resource/css/cathectic/typebox.css" />
+				    <SCRIPT type=text/javascript src="/resource/js/jquery.cookie.js"></SCRIPT>
+				    <SCRIPT type=text/javascript src="/resource/js/all.js"></SCRIPT>
+				    <script type="text/javascript">
+						/* <![CDATA[ */
+						var baseUrl='',
+						app = {
+						    categoryTop:0,params:{"lottery_type":"jsold"},module:'user'
+						};
+						/* ]]> */
+						</script>
+	</head>
+	
+	<script type="text/javascript">
+        var loginUrl = '';
+        var myLotteryUrl = '/member/betRecord.php';
+        var gameProvince = '江苏老快3';
+        var gameHasEnd = 0;
+        var user = {
+        	
+            isLogin : '0',
+            points : '0',
+            lowest : '10',
+            highest : '10000',
+            level : '',
+            agency : '0',
+            uid:0
+            
+        };
+        var logoutUrl = '';
+        function user_logout(){
+            window.location.href = baseUrl+'/?m=user&c=action&a=logout&isFront=1';
+        }
+        var lottery_type = 'jiangshu';
+    </script>
+	<body>
+<div class="Daigou">
+  <div class="D_title"> <span class="title"></span>
+  <span class="type jsold" ></span>
+  <div class="hot_cont">
+      <p class="bet_period">第<em class="c_ba2636" id="prevWin">下一期</em>期开奖号码</p>
+      <p class="awerdNum_balls" id="awerdNum_balls"> <em style="display: none" class="num5">5</em> <em style="display: none" class="num1">1</em> <em style="display: none" class="num4">4</em> </p>
+    </div>
+  
+  
+    <dl class="d_time">
+      <dt>距<em id="theCur">000000</em>期投注截止还有：</dt>
+      <div class="blank10"></div>
+      <dd class="time" id="countDownTime">00:00:00</dd>
+      <div class="blank5"></div>
+      <dd style="display: none">已截止14期，还有63期</dd>
+    </dl>
+    <input type="hidden" id="proName" />
+    <input type="hidden" id="getOdds" />
+    <strong class="bets">选号投注</strong>
+    <div style="position:absolute; left:305px; top:125px; color:red; font-weight:bold;font-size:14px" id="tipEndProName"></div>
+    <div class="TabTitle">
+      <ul id="myTab2">
+      		<li id= "lottery_type_jsold"  class="active"><a href='/member/index.php?type=jiangshu'  style="color: #fffdfe">江苏老快3</a></li>
+			
+			
+			
+			<li id= "lottery_type_jsnew"  ><a href='/member/index.php?type=guangxi'  style="color: #fffdfe">广西快3</a></li>
+			
+			
+			<li id= "lottery_type_anhui"  ><a href='/member/index.php?type=anhui'   style="color: #fffdfe">安徽快3</a></li>
+			
+			
+			
+			
+			<li id= "lottery_type_hubei"  ><a href='/member/index.php?type=hubei'   style="color: #fffdfe">湖北快3</a></li>
+			
+			
+			
+			
+			<li id= "lottery_type_hebei"  ><a href='/member/index.php?type=hebei'   style="color: #fffdfe">河北快3</a></li>
+			
+			
+			<li id= "lottery_type_beijing"  ><a href='/member/index.php?type=beijing'   style="color: #fffdfe">北京快3</a></li>
+			
+			
+			<li id= "lottery_type_shanghai"  ><a href='/member/index.php?type=shanghai'   style="color: #fffdfe">上海快3</a></li>
+			
+			
+			<li id= "lottery_type_gansu"  ><a href='/member/index.php?type=gansu'   style="color: #fffdfe">甘肃快3</a></li>
+		</ul>
+    </div>
+    
+  </div>
+  <div class="TabContent" id="TabContent">
+    <div id="myTab2_Content0">
+      <div class="nTab">
+        <div class="TabTitle1"> <a name="lottery"></a>
+          <ul id="myTab3">
+            <li val="HZ" url="HZ" class="active">和值</li><li val="3THTX" url="3THTX" class="normal">三同号通选</li><li val="3THDX" url="3THDX" class="normal">三同号单选</li><li val="3BTH" url="3BTH" class="normal">三不同号</li><li val="3LHTX" url="3LHTX" class="normal">三连号通选</li><li val="2THFX" url="2THFX" class="normal">二同号复选</li><li val="2THDX" url="2THDX" class="normal">二同号单选</li><li val="2BTH" url="2BTH" class="normal">二不同号</li>          </ul>
+        </div>
+        <div class="blank13"></div>
+        <div class="TabContent1">
+          <input type="hidden" id="HZ_chipin_l" value="5" />
+		<input type="hidden" id="HZ_chipin_h" value="100000" />
+		<input type="hidden" id="HZ_other_chipin_l" value="" />
+		<input type="hidden" id="HZ_other_chipin_h" value="" />
+		<div class="content0 all_box" id="box_ball_HZ">
+    <p>投注说明：至少选择1个和值投注，选号与开奖的三个号码相加的数值一致即中奖。奖金1.90-149倍  </p>
+    <div class="select_num2" id="box_ball_HZ_num">
+        <ul>
+          
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_3">3</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_3">149</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_4">4</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_4">51</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_5">5</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_5">28</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_6">6</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_6">18</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_7">7</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_7">12</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_8">8</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_8">9</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_9">9</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_9">8</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_10">10</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_10">7</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_11">11</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_11">7</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_12">12</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_12">8</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_13">13</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_13">9</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_14">14</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_14">12</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_15">15</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_15">18</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_16">16</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_16">28</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_17">17</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_17">51</span>
+                 </div>
+                                
+				</li>
+            
+                <li class="OneNum" >
+				<div class="num" id="box_ball_HZ_18">18</div>
+				
+				<div>
+                                                        赔率: <span id="HZ_getodds_18">149</span>
+                 </div>
+                        </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_num1" id="box_ball_HZ_single">
+        <ul>
+            <li class="OneNum" id="box_ball_HZ_a">单</li>
+            <li class="OneNum" id="box_ball_HZ_b">双</li>
+            <li class="OneNum" id="box_ball_HZ_c">小</li>
+            <li class="OneNum" id="box_ball_HZ_d">大</li>
+        </ul>
+    </div>
+    <div class="select_txt1" style="width:345px" id="box_ball_HZ_single_odds">
+        <ul>
+           	<li class="OneNum">赔率：<span id="HZ_getodds_19">1.90</span></li>
+            <li class="OneNum">赔率：<span id="HZ_getodds_20">1.90</span></li>
+            <li class="OneNum">赔率：<span id="HZ_getodds_21">1.90</span></li>
+            <li class="OneNum">赔率：<span id="HZ_getodds_22">1.90</span></li>
+        </ul>
+    </div>
+</div><input type="hidden" id="3THTX_chipin_l" value="5" />
+<input type="hidden" id="3THTX_chipin_h" value="100000" />
+<div id="box_ball_3THTX" class="all_box none">
+    <p>投注说明：10元购买6个三同号(111,222,333,444,555,666)投注，选号与开奖号码一致即中奖31倍。</p>
+    <div class="select_num" id="box_ball_3THTX_num">
+        <ul>
+            <li class="long_select_btn">选择</li>
+        </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_3THTX_odds">
+        <ul>
+            <li class="OneNum">赔率： <span id="3THTX_getodds">31</span></li>
+        </ul>
+    </div>
+</div><input type="hidden" id="3THDX_chipin_l" value="5" />
+<input type="hidden" id="3THDX_chipin_h" value="100000" />
+<div class="content0 all_box" id="box_ball_3THDX" style="display: none">
+    <p>投注说明：至少选择1个三同号投注，选号与开奖号码一致即中奖149倍。</p>
+    <div class="select_num" id="box_ball_3THDX_num">
+        <ul>
+                            <li class="OneNum" id="box_ball_3THDX_111">111</li>
+                            <li class="OneNum" id="box_ball_3THDX_222">222</li>
+                            <li class="OneNum" id="box_ball_3THDX_333">333</li>
+                            <li class="OneNum" id="box_ball_3THDX_444">444</li>
+                            <li class="OneNum" id="box_ball_3THDX_555">555</li>
+                            <li class="OneNum" id="box_ball_3THDX_666">666</li>
+                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_3THDX_odds">
+        <ul>
+                                    <li class="OneNum">赔率：<span id="3THDX_getodds">149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                        <li class="OneNum">赔率：<span>149</span></li>
+                                    </ul>
+    </div>
+</div><input type="hidden" id="3BTH_chipin_l" value="5" />
+<input type="hidden" id="3BTH_chipin_h" value="100000" />
+<div class="content0 all_box" id="box_ball_3BTH" style="display: none">
+    <p>投注说明：至少选择3个号码投注，选号与开奖号码一致即中奖28倍。</p>
+    <div class="select_num" id="box_ball_3BTH_num">
+        <ul>
+                            <li class="OneNum">1</li>
+                            <li class="OneNum">2</li>
+                            <li class="OneNum">3</li>
+                            <li class="OneNum">4</li>
+                            <li class="OneNum">5</li>
+                            <li class="OneNum">6</li>
+                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_3BTH_odds">
+        <ul>
+                                    <li class="OneNum">赔率：<span  id="3BTH_getodds">28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                        <li class="OneNum">赔率：<span >28</span></li>
+                                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_info_text">
+        <a href="javascript:void(0);" class="addbtn_disabled" id="ball_add_btn"><strong>添加到投注列表</strong></a>
+    </div>
+</div><input type="hidden" id="3LHTX_chipin_l" value="5" />
+<input type="hidden" id="3LHTX_chipin_h" value="100000" />
+<div class="content0 all_box" id="box_ball_3LHTX" style="display: none">
+    <p>投注说明：10元购买4个三连号（123、234、345、456）投注，选号与开奖号码一致即中奖8倍。</p>
+    <div class="select_num" id="box_ball_3LHTX_num">
+        <ul>
+            <li class="long_select_btn">选择</li>
+        </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_3LHTX_odds">
+        <ul>
+
+            <li class="OneNum">赔率：<span id="3LHTX_getodds">8</span></li>
+
+        </ul>
+    </div>
+</div><input type="hidden" id="2THFX_chipin_l" value="5" />
+<input type="hidden" id="2THFX_chipin_h" value="100000" />
+<div id="box_ball_2THFX" class="all_box none" style="display: none">
+      <p>投注说明： 10元购买1个二同号(11*,22*,33*,44*,55*,66*)投注，选号与开奖号码一致即中奖11倍。</p>
+    <div class="select_num" id="box_ball_2THFX_num">
+        <ul>
+                            <li class="OneNum" id=box_ball_2THFX11>11*</li>
+                            <li class="OneNum" id=box_ball_2THFX22>22*</li>
+                            <li class="OneNum" id=box_ball_2THFX33>33*</li>
+                            <li class="OneNum" id=box_ball_2THFX44>44*</li>
+                            <li class="OneNum" id=box_ball_2THFX55>55*</li>
+                            <li class="OneNum" id=box_ball_2THFX66>66*</li>
+                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_2THFX_odds">
+        <ul>
+                                    <li class="OneNum">赔率：<span  id="2THFX_getodds">11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                        <li class="OneNum">赔率：<span >11</span></li>
+                                    </ul>
+    </div>
+</div><input type="hidden" id="2THDX_chipin_l" value="5" />
+<input type="hidden" id="2THDX_chipin_h" value="100000" />
+<div id="box_ball_2THDX" class="all_box none">
+    <p>投注说明：选择1个相同号码和1个不同号码投注，选号与开奖号码一致即中奖11倍。</p>
+    <div class="select_num" id="box_ball_2THDX_num">
+        <ul>
+                            <li class="OneNum">11</li>
+                                            <li class="OneNum">22</li>
+                                            <li class="OneNum">33</li>
+                                            <li class="OneNum">44</li>
+                                            <li class="OneNum">55</li>
+                                            <li class="OneNum">66</li>
+                        </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_num" id="box_ball_2THDX_single">
+        <ul>
+
+                                        <li class="OneNum">1</li>
+                            <li class="OneNum">2</li>
+                            <li class="OneNum">3</li>
+                            <li class="OneNum">4</li>
+                            <li class="OneNum">5</li>
+                            <li class="OneNum">6</li>
+                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt" id="box_ball_2THDX_single_odds">
+        <ul>
+                                    <li class="OneNum">赔率：<span id="2THDX_getodds">11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                        <li class="OneNum">赔率：<span>11</span></li>
+                                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_info_text">
+        <a href="javascript:void(0);" class="addbtn_disabled" id="ball_add_btn_2THDX"><strong>添加到投注列表</strong></a>
+    </div>
+</div><input type="hidden" id="2BTH_chipin_l" value="5" />
+<input type="hidden" id="2BTH_chipin_h" value="100000" />
+<div id="box_ball_2BTH" class="all_box none">
+    <p>投注说明：至少选择2个号码投注，选号与开奖号码一致即中奖6倍。</p>
+    <div class="select_num" id="box_ball_2BTH_num">
+        <ul>
+                            <li class="OneNum">1</li>
+                            <li class="OneNum">2</li>
+                            <li class="OneNum">3</li>
+                            <li class="OneNum">4</li>
+                            <li class="OneNum">5</li>
+                            <li class="OneNum">6</li>
+                    </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_txt">
+        <ul>
+                                    <li class="OneNum">赔率：<span id="2BTH_getodds">6</span></li>
+                                    <li class="OneNum">赔率：<span>6</span></li>
+                                    <li class="OneNum">赔率：<span>6</span></li>
+                                    <li class="OneNum">赔率：<span>6</span></li>
+                                    <li class="OneNum">赔率：<span>6</span></li>
+                                    <li class="OneNum">赔率：<span>6</span></li>
+                                </ul>
+    </div>
+    <div class="blank20"></div>
+    <div class="select_info_text">
+        <a href="javascript:void(0);" class="addbtn_disabled" id="ball_add_btn_2BTH"><strong>添加到投注列表</strong></a>
+    </div>
+</div>          
+          
+           
+		          <div style="display:block">
+		          <div class="select_line"></div>
+		          <div class="blank10"></div>
+		          <div class="select_list_box">
+		            <div class="selected_list">
+		              <dl class="select_list">
+		                <dd>暂无投注项[最多200项]</dd>
+		              </dl>
+		              <ul class="has_add_ball" id="has_add_ball">
+		              </ul>
+		            </div>
+		          </div>
+		          <div class="select_line">
+		            <div class="diyBox" style="display: none"> <span>倍投：</span> <span class="more_tool"> <i class="minus" id="curAmountSub">-</i>
+		              <input type="text" value="1" id="curAmount" class="input1" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="8" />
+		              <i id="curAmountAdd" class="add">+</i> </span>元 <span style="display:none;"> 倍(最多999倍)共
+		              <e class="c_727171"> <strong class="c_ba2636">0</strong>注 <strong class="c_ba2636">0</strong>元</e>
+		              </span> </div>
+		          </div>
+		          <div class="blank10"></div>
+		          <div class="paybox clear">
+		            <input type="hidden" id="playType" value="HZ" />
+		            <input type="hidden" id="gameName" value="和值" />
+		            <input type="hidden" id="totalVals" value="0" />
+		              <div class="mobile_submit">
+		                        	<input type="submit" class="mobile_submit_btn" onclick="CP.submit()" value=""/>
+		                        </div>
+		                        <div class="pc_submit">
+								<img src="/resource/css/left_btn.png" alt="" />
+						<a href="#" class="submit_btn" onclick="CP.submit(); return false;">立即投注</a>
+						</div>
+		          </div>
+		          </div>
+		          <div align="center"><span class="post_tip">请您先<a href="/register.php?id=25102">注册</a>为会员 再下注</span></div>
+		    
+      </div>
+    </div>
+    <div id="myTab2_Content1" class="none"> 111 </div>
+    <div id="myTab2_Content2" class="none">222 </div>
+  </div>
+</div>
+
+<div class="kjgg_box">
+	<div class="kjgg_tit">
+     <div class="kjgg_name">
+        <h3>老快3开奖公告</h3></h3>
+     </div>
+     <div class="kjgg_more">
+       <a target="_top" href="/member/history.php?id=25102">走势图</a></div>
+      </div>
+    <div class="kjgg_con">
+    	<table id="drawedIssueTable">
+    	 <thead>
+    	 	<tr> <th>期数</th>
+            <th>奖号</th>
+            <th>和值</th>
+            <th>形态</th>
+            </tr>
+    	 </thead>
+    	 <tbody id="awardNumBody"></tbody>
+    	</table>
+    </div>
+</div>
+</div>
+
+<div class="blank10"></div>
+<div class="ad"></div>
+<div class="blank10"></div>
+<SCRIPT type=text/javascript src="/resource/js/core.js"></SCRIPT>
+<script type="text/javascript">
+	$(function(){
+	    setOutTime();
+	    loadWinInfo();
+	});
+</script>
+</body></html>
+
+		</div>
+		<div id="footer">
+			
+
+			<div class="blank20"></div>
+			<div class="twidth">
+				<ul class="guideList">
+					<li class="first">
+						<em class="guide_1"></em>
+						<em class="guide_1_con"></em>     
+					</li>
+					<li>
+						<em class="guide_2"></em>
+						<dl>
+							<dd>
+								<a href="#">购彩流程</a>
+							</dd>
+							<dd>
+								<a href="#">领奖流程</a>
+							</dd>
+							<dd>
+								<a href="#">开通支付宝</a>
+							</dd>
+							<dd>
+								<a href="#">我的支付宝</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<em class="guide_3"></em>
+						<dl>
+							<dd>
+								<a href="#">新手购彩图解</a>
+							</dd>
+							<dd>
+								<a href="#">常见问题</a>
+							</dd>
+							<dd>
+								<a href="#">功能指引</a>
+							</dd>
+							<dd>
+								<a href="#">彩种介绍</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<em class="guide_4"></em>
+						<dl>
+							<dd>
+								<a href="#">支付宝</a>
+							</dd>
+							<dd>
+								<a href="#">网银支付</a>
+							</dd>
+							<dd>
+								<a href="#">支付宝支付</a>
+							</dd>
+							<dd>
+								<a href="#">手机充值卡支付</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<em class="guide_5"></em>
+						<dl>
+							<dd>
+								<a href="#">彩票 保险</a>
+							</dd>
+							<dd>
+								<a href="#">团购 保健品</a>
+							</dd>
+							<dd>
+								<a href="#">商城 印象派</a>
+							</dd>
+							<dd>
+
+							</dd>
+						</dl>
+					</li>
+				</ul>
+
+				<div class="blank10"></div>
+				<div class="footmenu clear">
+				</div>
+				<div class="blank0"></div>
+				<div class="footinfo"></div>
+			</div>
+<link rel="stylesheet" type="text/css" href="/resource/css/qq_kefu.css" />
+			<div id="rightButton">
+			<ul id="right_ul">
+				<li id="right_qq" class="right_ico" show="qq" hide="tel"><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=120766369&amp;site=qq&amp;menu=yes" style="display:block;width:68px;height:74px" target="_blank"></a></li>
+			</ul>
+		</div>
+			<script type="text/javascript">
+				testPhone();
+			</script>
+<script>
+(function() {
+  var _53code = document.createElement("script");
+  _53code.src = "//tb.53kf.com/code/code/10136521/1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(_53code, s);
+})();
+</script>
+			
+
+		</div>
+		<div class="kefu onk" style="width:100px; height:112px;position:absolute"><img src="/resource/images/app.jpg" width="100" height="112" alt="扫描二维码" /></div>
+		<script type="text/javascript">
+$(function(){
+$(".onk").hide();
+$(".onk").css({"top":280+$(window).scrollTop(),"left":$(window).width()/2-500-180});
+$(window).scroll(function(){var offsetTop=280+$(window).scrollTop();$(".onk").animate({"top":offsetTop,"left":$(window).width()/2-500-180},{duration:500,queue:false})});
+$(window).resize(function(){var offsetTop=280+$(window).scrollTop();$(".onk").animate({"top":offsetTop,"left":$(window).width()/2-500-180},{duration:500,queue:false})});
+window.setTimeout(showwin,500);//2秒
+});
+function showwin(){$(".onk").fadeIn('slow');}
+</script>
+</body>
+</html>

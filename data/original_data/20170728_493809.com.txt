@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="keywords" content="菲律宾娱乐城" />
+        <link href="images/favicon.ico?i=3.000" rel="Shortcut Icon"/>
+        <link rel="stylesheet" type="text/css" href="css/base.css?i=3.021" />
+        <link rel="stylesheet" type="text/css" href="public/js/layer/skin/layer.css" />
+        <link rel="stylesheet" type="text/css" href="css/index1.css?i=3.042" />
+        <title>菲律宾娱乐城以公平、公正、公开的方式为您打造信誉最好的平台！</title>
+    </head>
+    <body >
+    	<!-- <div class="welcome">
+    		<div class="welbox">
+    			<a href="#1" onclick="$('.welcome').hide();">X</a>
+	    		<img src="images/welcome.jpg?v=1" />
+    		</div>
+    	</div> -->
+        <div class="container"> 
+          <div class="top-all">
+            <div class="top" id="about11">
+                <div class="w1000" style="position:relative;">
+                    <div class="logo">
+                    	<a href="javascript:;" class="th_index">                    	
+                            <object width="300" height="100" id="my-target-element" type="application/x-shockwave-flash" data="./images/logo.swf" style="visibility: visible;"><param name="wmode" value="transparent"><param name="menu" value="false"></object>
+                    	</a>
+                    	<img src="images/header_url.gif" />
+                    	<img src="images/top-left.png" />
+                    </div>
+                    <!--  <div class="be_login"> </div> -->
+                    <div class="div_login"></div>                 
+                    <div class="cl"></div>
+                </div>
+            </div>
+            <div class="header" id="header">
+                <div class="nav" id="header_nav">
+                    <div class="w1000">
+                       <div class="nav-inner"></div>
+                        <ul class="nav-list" id="nav" style="position: relative;">
+                            <li class="nLi"><a href="javascript:;" class="list-home th_index"><img src="images/xicon_index.png" /> 首 页</a></li>
+                              <li class="nLi">
+                                <a href="javascript:;" class="th_lottoed">彩票游戏</a>
+                                <ul class="sub">
+                                    <li id="xianlineOnline"  >
+                                    	<a href="javascript:;" id="li_lottery"  class="th_lottoed">KG经典彩
+                                    	<i class="iconstyleone glyphicon glyphicon-menu-right" ></i>       
+                                    	</a>
+                                    </li> 
+                                    <li><a href="javascript:;" class="th_fenfen">KG官方彩</a></li>
+                                    <li><a href="javascript:;" class="th_luckyLotto">KG幸运彩</a></li>
+                                    <!--<li><a href="javascript:;" class="th_ds_lottery">KG-DS传统彩</a></li>-->
+                                    <!--<li><a href="javascript:;" class="th_ds_lotto">KG-DS香港彩</a></li>-->
+                                    
+                                </ul>
+                            </li>
+                            <li class="nLi">
+                                <a href="javascript:;" class="th_live">真人娱乐</a>
+                                <ul class="sub">
+                                    <li><a href="javascript:;" class="th_live_ds">KG-DS现场厅</a></li>
+                                    <li><a href="javascript:;" class="th_live_ag">AG贵宾厅</a></li>
+                                    <li><a href="javascript:;" class="th_live_bin">BBIN旗舰厅</a></li>
+                                </ul>
+                            </li>
+                            <li class="nLi">
+                                <a class="th_dsgame" href="javascript:;" >电子游艺</a>
+                                <ul class="sub">
+                                    <li><a class="th_mggame" href="javascript:;">MG 电游</a></li>
+                                    <li><a class="th_dsgame" href="javascript:;">KG 电游</a></li>
+                                    <li><a class="th_aggame" href="javascript:;">AG 电游</a></li>
+                                    <li><a class="th_game" href="javascript:;">BBIN 电游</a></li>
+                                </ul>
+                            </li>
+                            <li class="nLi">
+                                <a class="th_sport" href="javascript:;">体育赛事</a>
+                                <ul class="sub">
+                                    <li><a href="javascript:;" class="th_sport_h8">H8体育</a></li>
+                                    <li><a class="th_sport_bin" href="javascript:;">BBIN体育</a></li>
+                                </ul>
+                            </li>
+                            
+                           
+                            <li class="nLi" id="shan3"><a href="javascript:;" class="th_promos">优惠活动</a></li>
+                            <li class="nLi"><a href="http://dsshangcheng.com/" target="_blank">KG商城</a></li>
+                            <img src="/images/jijiang.gif" style=" position: absolute;left: 805px;top: 4px;z-index: 1;"/>
+                            <li class="nLi"><a target="_blank" href="https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=408604&configID=65593&jid=3184306038&s=1">在线客服</a></li>
+                            <!--onclick="LC_API.open_chat_windreturn false;"-->
+                        </ul>
+                        <div class="cl"></div>
+
+                    </div>
+                </div>            
+            </div>
+          </div>                                           		                             
+            <div class="div_middle" style="min-height: 500px">   </div>
+           <div class="contact-link">
+            <div class="contact_link">
+              <div class="nav_footer">
+                <div class="w1000">
+                   <ul class="indexNav">
+                    <li><a class="th_about" href="#about11">关于我们</a></li>  
+                    <li><a class="th_llwm" href="#about11">联系我们</a></li> 
+                    <li><a class="th_jiameng" href="#about11">代理加盟</a></li>   
+                    <li><a class="th_cunkuan" href="#about11">存取款帮助</a></li> 
+                    <li><a class="th_help" href="#about11">新手教程</a></li> 
+                    <li><a class="th_zeren" href="#about11">博彩责任</a></li> 
+                    <li><a class="th_yinsi" href="#about11">隐私政策</a></li> 
+                  </ul>                                    
+                </div>
+               </div>
+
+            <div class="w1000">
+               <div class="bottom">
+               <div class="bottom_1">
+                <img src="images/bottom_icons.png" />           
+               </div>
+             </div> 
+            </div>            
+            <div class="w1000"><span class="copyright">Copyright © 2006-<span id="year-local"></span> 菲律宾娱乐城</span></div>
+           </div>  
+              <div class="cl"></div>
+         </div>          
+      </div> 
+    <div class="xmhkf-left">
+        <a target="_blank" class="zaixian-l" href="https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=408604&configID=65593&jid=3184306038&s=1"></a>
+    	<a class="web-daohang" target="_blank" href="http://610014.com/"></a>
+    	<a class="kuai-chong" target="_blank" href="http://690043.com/"></a>
+    	<a class="huodong" target="_blank" href="http://008701.com/"></a>
+        <a class="leftclosef" href="#1" onclick="$('.xmhkf-left').hide();"></a>
+    </div>  
+    <div class="xmhkf"> 
+	    <a target="_blank" class="zaixian" href="https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=408604&configID=65593&jid=3184306038&s=1"></a>
+    	<a class="qq-kf" target="_blank" href="tencent://message/?uin=2429417304&Site=qq&Menu=yes"></a>
+    	<a class="qq-kf" target="_blank" href="tencent://message/?uin=877995759&Site=qq&Menu=yes"></a>
+    	<a class="qq-kf th_agent_register" href="javascript:;"></a>
+    	<a id="leftclosef-l" href="#1" onclick="$('.xmhkf').hide();"></a>
+    </div>     
+        <script type="text/javascript">
+            var noticeTypeNormal = 1;//滚动公告
+            var noticeTypeAlert = 2;//弹出公告
+            var noticeTypeCenter = 99; //会员中心表格显示
+
+            var siteID = '1019';
+        </script>
+        <script type="text/javascript" src="public/js/jquery/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="public/js/seajs/sea.js"></script>
+        <script type="text/javascript" src="public/js/jquery/jquery.cookie.js"></script>
+        <!--<script type="text/javascript" src="public/js/main/index.js"></script>-->
+        <script type="text/javascript" src="public/js/mount/float.js"></script> 
+        <!-- <script type="text/javascript" src="javascript/jquery.sticky.js"></script> -->
+        <script type="text/javascript">
+            var tt=Math.random();
+            $.cookie('gotopc','true',{path: '/','expires':100});
+            if (typeof($.cookie('tt')) == 'undefined' || $.cookie('tt') == null) {
+            $.cookie('tt', tt);//设置
+            }
+            var time=$.cookie('tt');
+            seajs.use(['/public/js/main/index.js?i=1'+time], function (){
+            seajs.use(['config','cookie','layer'], function (){//在线客服和在线qq
+                objClassStr.str_service_qq = "tencent://message/?uin=877990314&amp;Site=qq&amp;Menu=yes";
+                objClassStr.str_service_online = "https://kf1.learnsaas.com/chat/chatClient/chatbox.jsp?companyID=408604&configID=65593&jid=3184306038&s=1";
+                var page_status = $.cookie(objClassStr.str_page_key);
+                switch (page_status) {//根据当前页cookie加载中间部分，刷新还在当前页
+                    case objClassStr.str_for_page_index:
+                        $(".th_index").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_live:
+                         $(".th_live").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_promos:
+                         $(".th_promos").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_sport:
+                         $(".th_sport").parent(".nLi").addClass("on1");
+                        break;
+                    case objClassStr.str_for_page_dsgame:
+                         $(".th_dsgame").parent(".nLi").addClass("on1");
+                        break;
+                    default:
+                         $(".th_index").parent(".nLi").addClass("on1");
+                        break;
+                    }
+                    // layer.open({
+                    //     type:1,
+                    //     closeBtn:2,
+                    //     title:'',
+                    //     area:['666px','506px'],
+                    //     shadeClose:true,
+                    //     content:'\<\div style="padding:3px;"><img height="500" src="images/layer.jpg" /></div>'
+                    // });
+            });
+            });
+            $(".sub").hover(function(){
+                $(this).parent(".nLi").addClass("on2");
+            },
+            function(){
+                $(this).parent(".nLi").removeClass("on2");
+            });
+            $(".nLi").click(function(){
+                $(this).parent(".nav-list").children().removeClass("on1");
+                $(this).addClass("on1");
+            });
+            $(function(){
+            	var myDate = new Date();
+            	var years = myDate.getFullYear();
+            	$('#year-local').append(years);						
+            });
+            
+        </script>
+   <script type="text/javascript">
+	        $(function () {
+	        	$(".xmhkf-left").show().Float({'floatRight' : 0, 'topSide' :  140});
+	        	$(".xmhkf").show().Float({'floatLeft': 0, 'topSide': 140});
+
+                $(".back-to-top").click(function(){  
+                    $('body,html').animate({scrollTop:0},500);  
+                    return false;  
+                }); 
+               
+	        });
+	</script>
+
+  <script type="text/javascript">
+		var i = 0;
+		var time=500;
+		function mothed(){
+    		if(i==0){
+                $("#shan3").children().css("color","#f00");
+          }else if(i==1){
+                $("#shan3").children().css("color","#000");
+            }
+    		i=i+1;
+    		if(i==2){
+    		  i=0;
+    		}
+		}
+		setInterval(mothed,time); //定时触发 能多次
+	
+		
+  </script>
+	
+    </body>
+</html>

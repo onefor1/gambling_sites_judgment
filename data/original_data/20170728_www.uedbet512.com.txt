@@ -1,0 +1,1419 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<title>UEDBET官网-西甲赫塔菲&皇家贝蒂斯体育合作伙伴</title>
+<meta name="keywords" content="UEDBET,UEDBET官网,UED体育,UED亚洲,UED滚球,UEDBET亚洲">
+<meta name="description" content="UEDBET是15-16赛季西甲赫塔菲&皇家贝蒂斯球衣赞助商以及体育合作伙伴.UEDBET将重新定义滚球各个元素,倾听每个用户心声,竭力寻求最出色的方式解决亚洲客户的真正需求.">
+<link rel="bookmark" href="/ftl/ued/images/favicon.ico">
+<link rel="shortcut Icon" href="/ftl/ued/images/favicon.ico" />
+<link rel="stylesheet" href="/ftl/commonPage/themes/gui-ued.css">
+<link rel="stylesheet" href="/ftl/commonPage/themes/gui-skin-ued.css">
+<link rel="stylesheet" href="/ftl/ued/themes/common.css">
+<link rel="stylesheet" href="/ftl/ued/themes/mobile.css">
+<link rel="stylesheet" href="/ftl/ued/themes/keyframes.css">
+<link rel="stylesheet" href="/ftl/ued/themes/bootstrap-dialog.min.css">
+<script type="text/javascript">var imgRoot='/fserver';</script>
+<!--[if lt IE 9]>
+<script src="../../ftl/commonPage/js/html5.min.js"></script>
+<![endif]--> <link rel="stylesheet" href="/ftl/ued/themes/ued-index.css">
+</head>
+<body>
+<header>
+<section class="static-bar">
+<div class="container">
+<div class="static-left"><span class="time side _user_time"></span><a href="agent.html" target="_blank" class="side">合营伙伴</a><a href="help/index.html" target="_blank">帮助中心</a></div>
+<div class="static-right">
+<div class="header-login _vr_unLogin" style="display: none">
+<form class="form-inline" role="form">
+<input type="hidden" name="type" value="top">
+<div class="form-group form-group-sm">
+<input type="text" name="username" tabindex=1 class="form-control" maxlength="16" placeholder="会员账号">
+<a href="javascript:" onclick="forgetUsername()" class="tip-forget" data-shorttxt="？" data-longtxt="忘记？">忘记？</a>
+</div>
+<div class="form-group form-group-sm">
+<input type="password" name="password" tabindex=2 class="form-control" maxlength="16" placeholder="密码">
+<a href="javascript:" class="tip-forget openNewWindow" data-url="commonPage/forgetPwd.html" data-shorttxt="？" title="点击找回密码" data-longtxt="忘记？">忘记？</a>
+</div>
+<div class="form-group form-group-sm scode _vr_captcha_box" style="display: none;">
+<input type="text" class="form-control" name="captcha" tabindex=3 maxlength="4" placeholder="验证码">
+<a href="#" class="tip-scode"><img class="_vr_captcha_code" data-code="loginTop"></a>
+</div>
+<a type="button" class="btn btn-sm btn-default _vr_login">登录</a>
+<a type="button" class="btn btn-sm btn-primary" href="register.html">免费注册</a>
+<a type="button" class="btn btn-sm btn-success openNewWindow" data-url="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html" href="javascript:"><span class="gui gui-headphones"></span> 在线客服</a>
+</form>
+</div>
+<div class="header-panel _vr_loginSuccess" style="display:none">
+<a href="javascript:" class="_vr_nickname"></a>
+<a href="/pcenter/" target="_blank">玩家中心</a>
+<a href="/pcenter/#/operation/pAnnouncementMessage/messageList.html" target="_blank">消息 <span class="label label-info _vr_messageCount"></span></a>
+<a href="/pcenter/#/fund/playerRecharge/recharge.html" target="_blank">存款</a>
+<a href="/pcenter/#/player/withdraw/withdrawList.html" target="_blank">取款</a>
+<a href="/pcenter/#/gameOrder/index.html" target="_blank">投注记录</a>
+<a href="/pcenter/#/fund/playerTransfer/transfers.html" target="_blank">额度转换</a>
+<div class="btn-group dropdown show-on-hover _vr_balanceBox">
+<a href="javascript:void(0);" class="static-btn" name="balance_show" data-toggle="dropdown">总资产 <span class="text-money _vr_player_balance"></span> RMB <span class="caret"></span></a>
+<a class="static-btn" name="balance_hide" style="display: none" data-toggle="dropdown"> 总资产 <span class="caret"></span></a>
+<ul class="dropdown-menu dropdown-menu-right members-dropdown">
+<li>
+<a href="javascript:" onclick="balanceStatus()"><span class="eye pull-right gui gui-eye" title="隐藏余额"></span>余额 <span class="_vr_wallet_balance"></span></a>
+<input type="hidden" name="balanceStatus" value="0" />
+</li>
+<li class="divider _vr_f_refresh"></li>
+<li name="apiPreNode">
+<a href="javascript:" onclick="recoveryApi()"><span class="icon-back-m"></span>一键回收</a>
+<a href="javascript:" onclick="getApiBalance()"><span class="pull-right gui gui-refresh"></span>刷新余额</a>
+</li>
+<li class="divider"></li>
+</ul>
+</div>
+<a href="javascript:" onclick="Logout()">退出登录</a>
+<div class="pull-right"><a type="button" class="btn btn-sm btn-success openNewWindow" href="javascript:" data-url="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html"><span class="gui gui-headphones"></span> 在线客服</a></div>
+</div>
+</div>
+</div>
+</section>
+<nav class="navbar navbar-default top-navbar">
+<div class="container">
+<div class="navbar-header">
+<a href="/"><img src="/ftl/ued/images/logo.gif"></a>
+</div>
+<div class="navbar-collapse" style="width: 101%">
+<ul class="nav navbar-nav _vr_nav">
+<li class="nav-item"><a data-page="index.html" href="/">首页</a></li>
+<li class="nav-item" rel="sub-sports">
+<a data-page="sports.html" href="sports.html?apiId=19">体育<i class="triangle"></i></a>
+</li>
+<li class="nav-item" rel="sub-live">
+<a data-page="live.html" href="live.html">娱乐城<i class="triangle"></i></a>
+</li>
+<li class="nav-item">
+<a class="_vr_mt_check" data-api="6" href="javascript:void(0)" data-href="casino.html?apiType=2&apiId=6&gameTag=hot_game" startTime="1501632000000" endTime="1501646400000">
+PT老虎机
+</a>
+</li>
+<li class="nav-item">
+<a class="_vr_mt_check" data-api="3" href="javascript:void(0)" data-href="casino.html?apiType=2&apiId=3&gameTag=hot_game">
+MG老虎机
+</a>
+</li>
+<li class="nav-item" rel="sub-casino">
+<a data-page="casino.html" href="casino.html?apiType=2&apiId=3&gameTag=hot_game">电子游戏<i class="triangle"></i></a>
+</li>
+<li class="nav-item" rel="sub-lottery">
+<a data-page="lottery.html" href="lottery.html">彩票<i class="triangle"></i></a>
+</li>
+<li class="nav-item hot"><a data-page="promo.html" href="promo.html">优惠</a></li>
+<li class="nav-item"><a href="mobile.html">手机投注</a></li>
+</ul>
+</div>
+</div>
+<div class="navbar-sub">
+<div class="sub-content" id="sub-sports" rel="sub-sports" style="display:none;">
+<div class="container">
+<div class="row row-gutter-0">
+<div class="col-5-1">
+<dl class="sub-box rebate">
+<dt>
+<span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="2"></span><i class="num-pre"></i>
+</dt>
+<dd>
+<p>天天返水</p>
+<p>最高可达</p>
+</dd>
+</dl>
+</div>
+<div class="col-5-4">
+<div class="api-games-wrap">
+<div class="api-games api-games-sports">
+<ul class="list-unstyled">
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="19" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=19">
+<span class="apiicon s-sb"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>多元化滚球，最受欢迎的线上体育</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="19" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=19">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="12" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=12" startTime="1473897600000" endTime="1473897600000">
+<span class="apiicon s-hg"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>足球,篮球等世界主要体育投注专家</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="12" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=12" startTime="1473897600000" endTime="1473897600000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="4" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=4" startTime="1472688000000" endTime="1472688000000">
+<span class="apiicon s-im"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>每月上万场赛事，亚洲最大体育平台</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="4" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=4" startTime="1472688000000" endTime="1472688000000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="23" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=23">
+<span class="apiicon s-opus-s"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>行业内领先的体育投注赔率，最佳赔付</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="23" href="javascript:void(0)" data-apitype="3" data-href="sports.html?apiId=23">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<a class="api-btn-prev" href="javascript:void(0);"><span class="api-prev"></span></a>
+<a class="api-btn-next" href="javascript:void(0);"><span class="api-next"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sub-content" id="sub-live" rel="sub-live" style="display:none;">
+<div class="container">
+<div class="row row-gutter-0">
+<div class="col-5-1">
+<dl class="sub-box rebate">
+<dt>
+<span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="2"></span><i class="num-pre"></i>
+</dt>
+<dd>
+<p>天天返水</p>
+<p>最高可达</p>
+</dd>
+</dl>
+</div>
+<div class="col-5-4">
+<div class="api-games-wrap">
+<div class="api-games api-games-live">
+<ul class="list-unstyled">
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="10" href="javascript:void(0)" data-apitype="1" startTime="1473811200000" endTime="1473811200000">
+<span class="apiicon i-bb"></span>
+<i>BB富贵厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>亚洲最大最先进的真人娱乐场</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="javascript:void(0)" data-apitype="1" startTime="1473811200000" endTime="1473811200000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="9" href="javascript:void(0)" data-apitype="1">
+<span class="apiicon i-ag"></span>
+<i>AG女优厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>AV女优真人娱乐场，多元化玩法</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="javascript:void(0)" data-apitype="1">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="5" href="javascript:void(0)" data-apitype="1" startTime="1473724800000" endTime="1473724800000">
+<span class="apiicon i-gd"></span>
+<i>GD锦绣厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>PC端，手机端投注同步，领跑4G时代</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="5" href="javascript:void(0)" data-apitype="1" startTime="1473724800000" endTime="1473724800000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="17" href="javascript:void(0)" data-apitype="1">
+<span class="apiicon i-sa"></span>
+<i>SA澳门厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>沙龙真人视讯，体验奇特的东方神韵</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="17" href="javascript:void(0)" data-apitype="1">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="7" href="javascript:void(0)" data-apitype="1">
+<span class="apiicon i-og"></span>
+<i>OG东方厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>亚洲最受欢迎的真人视讯超真实意境</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="7" href="javascript:void(0)" data-apitype="1">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="16" href="javascript:void(0)" data-apitype="1">
+<span class="apiicon i-ebet"></span>
+<i>Ebet如意厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>最佳人气的真人视讯移动端同步投注</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="16" href="javascript:void(0)" data-apitype="1">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="1" href="javascript:void(0)" data-apitype="1" startTime="1473724800000" endTime="1473724800000">
+<span class="apiicon i-ds"></span>
+<i>DS贵宾厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>专业的游戏研发，提供最佳品质</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="1" href="javascript:void(0)" data-apitype="1" startTime="1473724800000" endTime="1473724800000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="24" href="javascript:void(0)" data-apitype="1">
+<span class="apiicon i-opus-l"></span>
+<i>OPUS幸运厅</i>
+</a>
+</dt>
+<dd>
+<p>
+<span>欧洲最受欢迎的真人视讯游戏</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="24" href="javascript:void(0)" data-apitype="1">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<a class="api-btn-prev" href="javascript:void(0);"><span class="api-prev"></span></a>
+<a class="api-btn-next" href="javascript:void(0);"><span class="api-next"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sub-content" id="sub-casino" rel="sub-casino" style="display:none;">
+<div class="container">
+<div class="row row-gutter-0">
+<div class="col-5-1">
+<dl class="sub-box rebate">
+<dt>
+<span class="num-single" num="2"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i>
+</dt>
+<dd>
+<p>天天返水</p>
+<p>最高可达</p>
+</dd>
+</dl>
+</div>
+<div class="col-5-4">
+<div class="api-games-wrap">
+<div class="api-games api-games-casino">
+<ul class="list-unstyled">
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="3" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=3&gameTag=hot_game" data-mt-ic="_vr_mt_casino_3">
+<span class="apiicon c-mg"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>欧美最流行的老虎机游戏平台</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="3" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=3&gameTag=hot_game">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="6" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=6&gameTag=hot_game" data-mt-ic="_vr_mt_casino_6" startTime="1501632000000" endTime="1501646400000">
+<span class="apiicon c-pt"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>每周至少有两个30A奖池大奖</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="6" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=6&gameTag=hot_game" startTime="1501632000000" endTime="1501646400000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="25" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=25&gameTag=hot_game" data-mt-ic="_vr_mt_casino_25">
+<span class="apiicon c-sg"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>亚洲网上游戏开发业界中的先驱之一</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="25" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=25&gameTag=hot_game">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="9" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=9&gameTag=hot_game" data-mt-ic="_vr_mt_casino_9">
+<span class="apiicon c-ag"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>亚洲极具人气的领先游戏平台</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="9" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=9&gameTag=hot_game">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="10" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=10&gameTag=hot_game" data-mt-ic="_vr_mt_casino_10" startTime="1473811200000" endTime="1473811200000">
+<span class="apiicon c-bb"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>首款覆盖所有手机平台老虎机游戏</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=10&gameTag=hot_game" startTime="1473811200000" endTime="1473811200000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="15" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=15&gameTag=hot_game" data-mt-ic="_vr_mt_casino_15">
+<span class="apiicon c-hb"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>欧洲领先地位的电子游艺提供商</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="15" href="javascript:void(0)" data-apitype="2" data-href="casino.html?apiType=2&apiId=15&gameTag=hot_game">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<a class="api-btn-prev" href="javascript:void(0);"><span class="api-prev"></span></a>
+<a class="api-btn-next" href="javascript:void(0);"><span class="api-next"></span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sub-content" id="sub-lottery" rel="sub-lottery" style="display:none;">
+<div class="container">
+<div class="row row-gutter-0">
+<div class="col-5-1">
+<dl class="sub-box rebate">
+<dt>
+<span class="num-single" num="1"></span><i class="num-dot"></i><span class="num-decimal" num="0"></span><i class="num-pre"></i>
+</dt>
+<dd>
+<p>天天返水</p>
+<p>最高可达</p>
+</dd>
+</dl>
+</div>
+<div class="col-5-4">
+<div class="api-games-wrap">
+<div class="api-games api-games-lottery">
+<ul class="list-unstyled">
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="22" href="javascript:void(0)" data-apitype="4">
+<span class="apiicon l-lt"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>龙头彩票六合彩，时时彩，PK10主流游戏完美体验</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="22" href="javascript:void(0)" data-apitype="4">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="2" href="javascript:void(0)" data-apitype="4" startTime="1472947200000" endTime="1472947200000">
+<span class="apiicon l-kg"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>KG快乐彩，包含六合彩，快乐彩，PK10等主彩票</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="2" href="javascript:void(0)" data-apitype="4" startTime="1472947200000" endTime="1472947200000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+<li>
+<dl class="sub-box api-item">
+<dt>
+<a class="_vr_mt_check" data-api="10" href="javascript:void(0)" data-apitype="4" startTime="1473811200000" endTime="1473811200000">
+<span class="apiicon l-bb"></span>
+</a>
+</dt>
+<dd>
+<p>
+<span>BBIN彩票最齐全的彩票平台，提供六合彩、时时彩等</span>
+</p>
+<p>
+<a class="_vr_mt_check _vr_mt_gray _vr_mt_slogan" data-api="10" href="javascript:void(0)" data-apitype="4" startTime="1473811200000" endTime="1473811200000">
+立即游戏
+</a>
+</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header> <main>
+<section class="index-slide">
+<div class="slide-inner">
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10104/1501226731012.png) no-repeat center;" starttime="1501226354000" endtime="1502176754000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10007/1490444507434.jpg) no-repeat center;" starttime="1490444470000" endtime="33032159999000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10056/1490701470026.jpg) no-repeat center;" starttime="1490701385000" endtime="2101981385000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10004/1490445335112.jpg) no-repeat center;" starttime="1490445304000" endtime="33032159999000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10012/1474267868987.jpg) no-repeat center;" starttime="1474267850000" endtime="33032159999000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10005/1474709719929.jpg) no-repeat center;" starttime="1474709695000" endtime="33032159999000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10006/1491620491784.jpg) no-repeat center;" starttime="1491620459000" endtime="33032159999000"></div>
+<div class="sl_img _vr_carousels_check" style="background:url(/fserver/files/119/carousel/10008/1488800310549.jpg) no-repeat center;" starttime="1488800296000" endtime="33032159999000"></div>
+</div>
+<div class="slide-indicators">
+<div class="_vr_carousels_check sl_icon" starttime="1501226354000" endtime="1502176754000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1490444470000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1490701385000" endtime="2101981385000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1490445304000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1474267850000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1474709695000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1491620459000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+<div class="_vr_carousels_check sl_icon" starttime="1488800296000" endtime="33032159999000">
+<input type="text" class="ctc_btn">
+</div>
+</div>
+</section>
+<section class="notice">
+<div class="container">
+<div class="title">公告栏</div>
+<div class="notice-list">
+<ul class="list-unstyled">
+<li><a href="javascript:void(0)" data-notice-index="0" onclick="noticeDialog(this)">★溫馨提示：UEDBET北京时间7月27日返水优惠已经发放完毕，请各位会员查收！最新优惠动态请您查询优惠活动！UEDBET祝您游戏愉快！</a></li>
+<li><a href="javascript:void(0)" data-notice-index="1" onclick="noticeDialog(this)">★尊敬的会员： uedbet将于7月24日全站新增【免转钱包】功能，会员无需事先转换额度即可畅游各大国际游戏平台，欢迎各位会员尊享体验，会员也可在会员中心自由选择转账方式，免转或不免转，随心切换。若您有任何疑问请咨询我司24小时在线客服，我们将竭诚为您解答，感谢您的支持！</a></li>
+<li><a href="javascript:void(0)" data-notice-index="2" onclick="noticeDialog(this)">★尊敬的玩家：月月大返利，香港回归20周年大礼包，系统已随机派送完成，感谢您对UEDBET一直以来的支持与厚爱，祝您生活愉快~</a></li>
+<li><a href="javascript:void(0)" data-notice-index="3" onclick="noticeDialog(this)">★敬请注意：尊敬的玩家，最近发现有不法分子冒充UEDBET招揽会员，它们通过伪造与UEDBET相似的网站，欺骗不明真相的玩家。为避免您进入假冒网站造成不必要的损失，请各位会员谨记UEDBET最新官方网址：ued.bet, 数字网址：www.6339.com ,易记网址：www.ued888.com,品牌信誉，值得您信赖!</a></li>
+<li><a href="javascript:void(0)" data-notice-index="4" onclick="noticeDialog(this)">★本公司的存款账号将会不定时更新，敬请各位玩家通过网站玩家中心存款频道查看最新的银行存款账号并进行存款。如入款至已过期账号网站将无法查收，恕不承担相应损失，感谢您的配合！祝您多多盈利！</a></li>
+</ul>
+</div>
+</div>
+</section> 
+<section class="index-screen-01">
+<div class="container">
+<div class="row row-guttery-0">
+<div class="col-3-1">
+<div class="screen-item">
+<div class="cc_title">
+<div class="cct_img ccti_l"></div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">存款到账</div>
+<div class="cci_avg">平均时间</div>
+<div class="cci_unit">秒</div>
+<div id="deposit_num" class="cci_num">0</div>
+<div class="cci_load">
+<div class="load_s"></div>
+<div class="load_e">
+<div id="deposit" class="load_rate"></div>
+</div>
+</div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">取款到账</div>
+<div class="cci_avg">平均时间</div>
+<div class="cci_unit">分</div>
+<div id="take_num" class="cci_num">0'00</div>
+<div class="cci_load">
+<div class="load_s"></div>
+<div class="load_e">
+<div id="take" class="load_rate"></div>
+</div>
+</div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">便捷的银行服务</div>
+<div class="cci_visa"></div>
+<div class="cci_mscd"></div>
+<div class="cci_agcy">目前我们支付机构有：</div>
+<div class="cci_unit2">家</div>
+<div id="bank_num" class="cci_num2">0</div>
+</div>
+<div class="cci_scoll">
+<div id="deposit_s">
+<div></div>
+</div>
+<div id="take_s">
+<div></div>
+</div>
+<div id="bank_s">
+<div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3-1">
+<div class="screen-item">
+<div class="cc_title">
+<div class="cct_img ccti_c"></div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">手机客户端</div>
+<div class="cci_name">MOBILE</div>
+<div class="cci_txt">
+独家提供苹果/安卓客户端，您可以通过手机客户端
+<br> 完成任何游戏操作。
+</div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">原生体育APP</div>
+<div class="cci_name">SPORTS</div>
+<div class="cci_txt">
+全球第一家提供苹果+安卓原生手机体育公司，比
+<br> 网页版体育还要流畅300%。
+</div>
+</div>
+<div class="cc_item1">
+<div class="cci_title">KENO平台</div>
+<div class="cci_name">KENO</div>
+<div class="cci_txt">
+独家开发LB-Keno平台，兼容市面所有移动客户端
+<br> 大小、单双1.96赔率为业界最高。
+</div>
+</div>
+</div>
+</div>
+<div class="col-3-1">
+<div class="screen-item nonebg">
+<div class="cc_title">
+<div class="cct_img ccti_r"></div>
+</div>
+<div class="cc_item22 client-list" id="client-list">
+<div class="l1">
+<ul class="list-unstyled">
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-ued"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>UED全站移动端</h3>
+<p>全球第一家提供移动支付功能APP，内嵌网页版拥有的所有游戏。</p></a>
+</div>
+</li>
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-sport"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>UED独家体育客户端</h3>
+<p>业界第一款原生体育投注客户端，操作体验比网页版流畅300%！</p></a>
+</div>
+</li>
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-keno"></span><a href="javascript:void(0);">
+<div class="i-main">
+<a href="javascript:"><h3>UED-Keno客户端</h3>
+<p>技术领先行业三年以上的Keno客户端，彩票行业体验与改革的先驱。</p></a>
+</div>
+</li>
+</ul>
+</div>
+<div class="l2">
+<ul class="list-unstyled">
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-ag"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>AG娱乐城客户端</h3>
+<p>市面上占有率最高的娱乐城APP，VIP包厢、竟咪等游戏应有尽有。</p></a>
+</div>
+</li>
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-pt"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>PT老虎机客户端</h3>
+<p>全球领先的老虎机安卓客户端，足不出户畅享每周30A彩池大奖！</p></a>
+</div>
+</li>
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-gd"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>GD娱乐城html版</h3>
+<p>绝对流畅的手机版娱乐城，全面覆盖所有能联网的移动终端。</p></a>
+</div>
+</li>
+</ul>
+</div>
+<div class="l3">
+<ul class="list-unstyled">
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-kimpi"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>金碧娱乐城html版</h3>
+<p>独具匠心的手机多台同桌画面配上美女荷官发牌，实在美不胜收！</p></a>
+</div>
+</li>
+<li>
+<a href="javascript:void(0);"><span class="i-logo i-betsoft"></span></a>
+<div class="i-main">
+<a href="javascript:"><h3>BetSoft老虎机html版</h3>
+<p>风靡世界的电子游戏手机平台，每周至少有两款新游戏上线。</p></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="nav1" id="client-list-nav">
+<div class="i i1 on"></div>
+<div class="i i2"></div>
+<div class="i i3"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="index-screen-02">
+<div class="container">
+<div class="row">
+<div class="col-3-1">
+<div class="screen-item">
+<div class="ff_title">
+<div class="fft_img ffti_l"></div>
+</div>
+<div class="cc_item2">
+<div id="user-experience" ons="1">
+<div id="ue-inner">
+<div id="ue-limgs">
+<div id="ue-limgs-inner"></div>
+</div>
+<div id="ue-rimgs">
+<div id="ue-rimgs-inner"></div>
+</div>
+</div>
+</div>
+<div id="rocket" ons="2">
+<div id="rk-cloud"></div>
+<div id="rk-main"></div>
+<div id="rk-earth"></div>
+<div id="rk-hill"></div>
+</div>
+<div id="services" ons="3">
+<div id="s-inner">
+<div id="s-gugong"></div>
+<div id="s-b1">
+<div id="s-qq"></div>
+<div id="s-lm"></div>
+<div id="s-green"></div>
+<div id="s-white"></div>
+</div>
+</div>
+</div>
+<div class="cci_chag">
+<div class="ccic_icon idx1 slt" onclick="changeAnm(1)"></div>
+<div class="ccic_icon idx2 uslt" onclick="changeAnm(2)"></div>
+<div class="ccic_icon idx3 uslt" onclick="changeAnm(3)"></div>
+</div>
+</div>
+<div class="cc_item1">
+<div id="anmTxt1">
+<div class="cci_title">极致用户体验</div>
+<div class="cci_txt2">
+UED=User Experience Design，中文简称“用户
+<br> 体验设计”。重新定义各个元素、倾听每个用户心
+<br> 声，竭力寻求最出色。
+</div>
+</div>
+<div id="anmTxt2">
+<div class="cci_title">颠覆性产品</div>
+<div class="cci_txt2">
+每一款全新上线的UEDbet产品都是经过大量测
+<br> 试后证实最符合亚洲人的产品，这是一个对既定
+<br> 现状做出强势挑战的创新团队。
+</div>
+</div>
+<div id="anmTxt3">
+<div class="cci_title">接地气本土服务</div>
+<div class="cci_txt2">
+青春洋溢的UED团队通过最贴近生活的方式设计
+<br> 出一款款高端、大气的产品，为用户带来最为接
+<br> 地气的个性化本土定制服务。
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-3-1">
+<div class="screen-item">
+<div class="ff_title">
+<div class="fft_img ffti_c"></div>
+</div>
+<div class="ff_pt show">
+<a class="ff_pti ea" href="http://www.entwinetech.com/" target="_blank" style="display:none;"></a>
+<a class="ff_pti pt" href="http://www.playtech.com/html/" target="_blank"></a>
+<a class="ff_pti liao" href="#" target="_blank"></a>
+<a class="ff_pti gd" href="http://www.golddeluxephil.com/" target="_blank"></a>
+<a class="ff_pti eig"></a>
+<a class="ff_pti gam" href="http://www.gamcare.org.uk/" target="_blank"></a>
+<a class="ff_pti gicc" target="_blank"></a>
+<a class="ff_pti tha" href="http://www.thawte.com/" target="_blank"></a>
+<a class="ff_pti keno" href="#" target="_blank"></a>
+</div>
+</div>
+</div>
+<div class="col-3-1">
+<div class="screen-item">
+<div class="ff_title">
+<div class="fft_img ffti_r"></div>
+</div>
+<div class="ff_help">
+<a class="ffh_item" href="/help/deposit.html">
+<div class="ffh_arrow arr1"></div>
+<div class="ffhi_a">如何存款</div>
+</a>
+<a class="ffh_item" href="/agent.html" target="_blank">
+<div class="ffh_arrow arr2"></div>
+<div class="ffhi_a">合营伙伴</div>
+</a>
+<a class="ffh_item" href="/help/contactus.html">
+<div class="ffh_arrow arr3"></div>
+<div class="ffhi_a">联系我们</div>
+</a>
+<a class="ffh_item" href="/help/withdrawal.html">
+<div class="ffh_arrow arr4"></div>
+<div class="ffhi_a">如何提款</div>
+</a>
+<a class="ffh_item" href="/help/duty.html">
+<div class="ffh_arrow arr5"></div>
+<div class="ffhi_a">责任条款</div>
+</a>
+<a class="ffh_item" href="/help/conditions.html">
+<div class="ffh_arrow arr6"></div>
+<div class="ffhi_a">规则与条款</div>
+</a>
+</div>
+<div class="ff_brow">
+<div class="ffb_title">推荐浏览器：</div>
+<div class="ffb_all">
+<a class="ffb_item js" href="http://chrome.360.cn/" target="_blank" title="360急速">
+<div class="ffb_icon"></div>
+<div class="ffb_vsion">7.0</div>
+</a>
+<a class="ffb_item ie" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank" title="IE9">
+<div class="ffb_icon"></div>
+<div class="ffb_vsion">9.0</div>
+</a>
+<a class="ffb_item cm" href="https://www.google.com/intl/zh-CN/chrome/browser/" target="_blank" title="谷歌">
+<div class="ffb_icon"></div>
+<div class="ffb_vsion">13.0</div>
+</a>
+<a class="ffb_item fx" href="http://firefox.com.cn/download/" target="_blank" title="火狐">
+<div class="ffb_icon"></div>
+<div class="ffb_vsion">12.0</div>
+</a>
+</div>
+</div>
+<div class="ff_shall">
+<div class="ffs_title">喜欢就分享我们：</div>
+<div class="ffs_all">
+<a class="ffs_item xl" href="http://weibo.com/betued" target="_blank" title="新浪微博">
+<div class="ffs_icon"></div>
+<div class="ffs_txt">微博</div>
+</a>
+<a class="ffs_item tx" href="help/contactus.html" target="_blank" title="腾讯微博">
+<div class="ffs_icon"></div>
+<div class="ffs_txt">腾讯</div>
+</a>
+<a class="ffs_item wx" href="help/contactus.html" title="微信">
+<div class="ffs_icon"></div>
+<div class="ffs_txt">微信</div>
+</a>
+<a class="ffs_item qq" href="help/contactus.html" title="QQ">
+<div class="ffs_icon"></div>
+<div class="ffs_txt">QQ</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer-bar">
+<div class="container">
+<div class="row footer-row">
+<div class="col-3-1 footer-item">
+<a class="bds-jt-logo pull-left" href="http://www.realbetisbalompie.es/es/" target="_blank"></a>
+<p>2015-2016赛季西甲联赛赞助商</p>
+<a class="bds-jt-title" href="http://www.realbetisbalompie.es/es/" target="_blank"></a>
+<ul class="list-inline">
+<li><a href="help/surport.html" target="_blank">赞助信息</a></li>
+<li><a href="help/odds.html" target="_blank">赔率收录</a></li>
+<li><a href="http://baike.baidu.com/view/1010521.htm?fromtitle=%E7%9A%87%E5%AE%B6%E8%B4%9D%E8%92%82%E6%96%AF&amp;fromid=1345560&amp;type=syn" target="_blank">皇家贝蒂斯百科</a></li>
+</ul>
+</div>
+<div class="col-3-1 footer-item">
+<a class="htf-jt-logo pull-left" href="http://www.getafecf.com/" target="_blank"></a>
+<p>2014-2015赛季西甲联赛赞助商</p>
+<a class="htf-jt-title" href="http://www.getafecf.com/" target="_blank"></a>
+<ul class="list-inline">
+<li><a href="help/surport.html" target="_blank">赞助信息</a></li>
+<li><a href="help/poloshirt.html" target="_blank">球衣发布</a></li>
+<li><a href="help/banner.html" target="_blank">祝皇马.巴萨踢出真爱</a></li>
+</ul>
+</div>
+<div class="col-3-1 footer-item none-bg">
+<a href="javascript:void(0);" target="_blank">
+<div class="live-jt-logo"></div>
+<div class="live-jt-title"></div>
+</a>
+<div>提供西甲、西乙、日职联、K联赛等数万场高清体育直播
+<br/>唯一有实力赞助西甲并提供手机体育直播的亚洲顶级公司</div>
+<ul class="list-inline">
+<li><a href="sports.html" target="_blank" class="ft_liveevent">五大联赛投注</a></li>
+<li><a href="sports.html" target="_blank">欧冠投注</a></li>
+<li><a href="sports.html" target="_blank">世界杯外围预选赛</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer> <ul data-fp="238" class="float-services a-left aside-float list-unstyled hasClose" style="display:none;top: 500px; left: 50px; bottom: px">
+<li class="left_customer_service" style="width:190px;height: 139px; background-image:url(/fserver/files/119/floatImage/238/1495176647087.png);">
+<a href="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html" target="_blank"></a>
+</li>
+<li class="left_customer_service" style="width:190px;height: 244px; background-image:url(/fserver/files/119/floatImage/238/1495176647258.png);">
+<a href="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html" target="_blank"></a>
+</li>
+</ul>
+<ul data-fp="239" class="float-services a-right aside-float list-unstyled hidden-xs hasClose" style="display:none;top: 500px; right: 50px; bottom: px">
+<li class="right_customer_service" style="width:190px;height: 139px; background-image:url(/fserver/files/119/floatImage/239/1495176932609.png);">
+<a href="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html" target="_blank"></a>
+</li>
+<li class="right_customer_service" style="width:190px;height: 224px; background-image:url(/fserver/files/119/floatImage/239/1495176933264.png);">
+<a href="http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html" target="_blank"></a>
+</li>
+</ul>
+<div id="containerOut" style="display: none">
+<input type="hidden" id="activity_message_id" value="">
+<input type="hidden" id="win_id" value="">
+<input type="hidden" id="record_id" value="">
+<input type="hidden" id="applyId" value="">
+<input type="hidden" name="gb.token" value="">
+<div id="container" class="divBg">
+<div id="lotteryPage" class="divBg divClass">
+<input class="inputClass btnFont" onclick="closePage('containerOut','')" id="lotteryPageBtn_0" value="关闭" type="button"/>
+<input class="inputClass btnFont" id="lotteryPageBtn_1" value="拆红包" onclick="lottery()" type="button"/>
+<div style="position: absolute;top: 360px;width: 100%">
+<div style="text-align: center;font-size: 18px;color: #fff;" id="tip-msg">
+你还有<span style="font-size: 22px;padding: 0 5px;color: gold" id="ramain-count">0</span>次抽奖机会
+</div>
+<div style="text-align: center;font-size: 18px;color: #fff;" id="lottery_time_tip-msg" class="hide">
+下次拆红包开始时间为<br><span style="font-size: 22px;padding: 0 5px;color: gold" id="next_lottery_time"></span>
+</div>
+</div>
+</div>
+<div id="haveAwardPage" class="divBg divClass">
+<input class="inputClass btnFont" onclick="onceAgain()" id="haveAwardPageBtn_0" value="关闭" type="button"/>
+<p class="ab" id="awardname">
+获得了0元
+</p>
+<input class="inputClass btnFont" onclick="applyMoney()" id="haveAwardPageBtn_2" value="领取红包" type="button"/>
+</div>
+<div class="divBg divClass" id="explainPage">
+<div id="explainContent" class="ab">
+</div>
+<input class="inputClass btnFont" onclick="closePage('explainPage','lotteryPage')" id="explainPageBtn_0" value="返回" type="button"/>
+</div>
+<div class="divBg divClass" id="noAwardPage">
+<input class="inputClass btnFont" onclick="onceAgain()" id="noAwardPageBtn_0" value="关闭" type="button"/>
+<input class="inputClass btnFont" onclick="onceAgain()" id="noAwardPageBtn_1" value="再来一次" type="button"/>
+</div>
+<div class="divBg divClass" id="rewardPage">
+<input class="inputClass btnFont" onclick="onceAgain()" id="rewardPageBtn_0" value="确定" type="button"/>
+</div>
+<div class="divBg divClass" id="hitPage" onclick="closePage('hitPage','')">
+</div>
+</div>
+</div>
+<script>function closePage(page_0,page_1){if(page_0){$('#'+page_0).hide();}
+if(page_1){$('#'+page_1).show();}
+}
+function lottery(){$("#lotteryPageBtn_1").attr("disabled",true);$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#win_id").val("");$("#record_id").val("");$("#applyId").val("");var id =$("#activity_message_id").val();if(!id){$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#tip-msg").html('红包活动已经结束!');$("#lotteryPageBtn_1").hide();$("#lottery_time_tip-msg").addClass("hide");return;}
+var oldToken =$("[name='gb.token']").val();$("[name='gb.token']").val("");$.ajax({url:"/ntl/activity/getPacket.html",type:"POST",dataType:"json",data:{"gb.token":oldToken,"activityMessageId":id},success:function(data){$("[name='gb.token']").val(data.token);if(data.gameNum==-1){$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#tip-msg").html('你还有<span style="font-size: 22px;padding: 0 5px;color: gold" id="ramain-count">0</span>次抽奖机会');if(data.nextLotteryTime!=""){$("#next_lottery_time").text(data.nextLotteryTime);$("#lottery_time_tip-msg").removeClass("hide");}else{$("#lottery_time_tip-msg").addClass("hide");}
+$("#lotteryPageBtn_1").hide();$("#lottery_time_tip-msg").removeClass("hide");return;}
+if(data.gameNum==-2){$("#tip-msg").html("抽奖出现异常<br/>请退出重新登录再继续操作");return;}
+if(data.gameNum==-3){$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#tip-msg").html('红包活动已经结束!');$("#lotteryPageBtn_1").hide();$("#lottery_time_tip-msg").addClass("hide");return;}
+ if(data.gameNum==-4){$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#tip-msg").html('条件不满足，不能参与红包活动!');$("#lotteryPageBtn_1").hide();$("#lottery_time_tip-msg").addClass("hide");return;}
+if(data.award==0){$("#ramain-count").text(data.gameNum);$("#noAwardPage").show();}else {$("#lotteryPageBtn_1").removeAttr("disabled");$("#win_id").val(data.id);$("#record_id").val(data.recordId);$("#applyId").val(data.applyId);$("#awardname").html('获得了'+data.award+'元');$("#tip-msg").html('你还有<span style="font-size: 22px;padding: 0 5px;color: gold" id="ramain-count">0</span>次抽奖机会');$("#ramain-count").text(data.gameNum);$("#haveAwardPage").show();}
+if(data.gameNum==0){$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});$("#lotteryPageBtn_1").hide();if(data.nextLotteryTime!=""){$("#next_lottery_time").text(data.nextLotteryTime);$("#lottery_time_tip-msg").removeClass("hide");}else{$("#lottery_time_tip-msg").addClass("hide");}
+$("#noAwardPageBtn_0").click(function () {closePage('noAwardPage','lotteryPage');$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});});$("#noAwardPageBtn_1").click(function () {closePage('noAwardPage','lotteryPage');$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});});$("#rewardPageBtn_0").click(function () {closePage('rewardPage','lotteryPage');$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/noChance_pc.png)'});});closePage('lotteryPage','');return;}else{$("#noAwardPageBtn_0").click(function () {onceAgain();});$("#noAwardPageBtn_1").click(function () {onceAgain();});$("#rewardPageBtn_0").click(function () {onceAgain();});}
+ closePage('lotteryPage','');}
+});}
+function showExplain(){$("#explainContent").html(explainContent);$("#explainPage").show();closePage('lotteryPage','');}
+function applyMoneyActivity(searchId,isRefresh) {var code ="money";var win_id =$("#win_id").val();var applyId =$("#applyId").val();$.ajax({url:"/ntl/activity/applyActivities.html",type:"POST",dataType:"json",data:{code:code,resultId:searchId,"winId":win_id,"applyId":applyId
+},success:function (data) {if(data.state){closePage('haveAwardPage','rewardPage');}else{closePage('haveAwardPage','');closePage('lotteryPage','');$("#containerOut").css("display","none");showWin(data,isRefresh);}
+ }
+})
+}
+function applyMoney() {$.ajax({url:"/ntl/activity/isNeedApply.html",type:"POST",dataType:"json",success:function (data) {if(!data){return;}
+if(data.isNull){return;}
+ if(data.state){applyMoneyActivity(data.resultId,true);}else{rewardFn();}
+}
+});}
+function rewardFn(){var winId =$("#win_id").val();var recordId =$("#record_id").val();var applyId =$("#applyId").val();if(winId==""||recordId==""||applyId==""){console.log('参数不全');return;}
+var dataParam ={"winId":winId,"recordId":recordId,"applyId":applyId}
+$.ajax({url:"/ntl/activity/getReward.html",type:"POST",dataType:"json",data:dataParam,success:function(data){if(data.state){closePage('haveAwardPage','rewardPage');}else{console.log("领取红包失败")
+}
+}
+})
+}
+function onceAgain() {$("#lotteryPageBtn_1").removeAttr("disabled");$("#lotteryPage").css({'background-image':'url('+fltRootPath+'commonPage/themes/hb/images/lottery_pc.png)'});closePage('rewardPage','')
+closePage('haveAwardPage','')
+closePage('noAwardPage','lotteryPage');}
+</script><script src="/ftl/commonPage/js/jquery/jquery-1.11.3.min.js"></script>
+<script>var fltRootPath ='/ftl/';var message ={"activity":{"apply.tip.assets.no":"总资产未达到条件","apply.tip.next":"您本期已参加过该活动，下个申领周期再试试吧！","apply.tip.loss.no":"亏损额度未达到条件","apply.tip.noactivity":"活动不存在","apply.tip.grant.handsel":"彩金稍后将发放至您的钱包，请注意查收！","apply.tip.limit":"本申领周期已达申请上限","apply.tip.finish.handsel":"本期结束后，彩金将直接发放至您的钱包，请注意查收！","apply.tip.finish":"活动已结束","apply.tip.unstart":"活动未开始","apply.tip.doing":"您目前参与活动中！","apply.tip.check.handsel":"审核通过后彩金将直接发放到您的账户,请注意查收!","apply.tip.all.no":"有效交易量,亏损额度,总资产未达到条件","apply.tip.uncheck":"活动未审核","apply.tip.hasdue":"申领有效期已过期","apply.tip.has.withdraw":"您本次申领期间有一笔取款订单正在审核中，暂时无法参加本活动！</br>提示：活动申领期间，有成功取款过均无法参加本活动！","apply.tip.already.withdraw":"您在本次申领期间已\"成功取款\"过，无法参加本次活动，下个申领周期再试试吧!","apply.tip.qualified":"非常抱歉，该活动需要您在注册后{0}天内申领，您已超过申领有效期！您的注册时间为：{1}","apply.tip.wanting":"申领条件未满足","apply.tip.vacancies":"非常抱歉，本次活动名额已满，下次早点来吧！","apply.tip.uncondition":"非常抱歉，您暂未满足条件，无法参加该活动！如有疑问，请<a target='_blank' href='{0}'>联系客服</a>!","apply.tip.loss.assets.no":"亏损额度,总资产未达到条件","apply.tip.already":"您已申请过该活动！","apply.tip.operate.handsel":"操作成功,审核通过后彩金将直接发放到您的账户,请注意查收!","apply.tip.effective.loss.no":"有效交易量,亏损额度未达到条件","apply.tip.overdue":"已过期","apply.tip.effective.no":"有效交易量未达到条件"},"log":{"passport.logout.desc.success":"退出成功!","passport.login.desc.fail":"登录失败!","passport.login.desc.success":"登录成功!"},"pay":{"orderFinished":"该笔交易已结束，不能重复支付！","noOrder":"无交易号","noExistOrder":"无该笔交易"},"integrated_auto":{"查询无数据":"查询无数据,无法导出！","导出中":"导出中...","导出失败":"导出失败"},"privilege":{"input.success":"输入正确！","input.wrong":"密码错误，请重试！","exist.user":"要删除角色存在关联用户，不能删除","captcha.wrong":"您输入的验证码不正确，请重新输入!","privilege.setpermissionPwd":"设置安全密码","privilege.code.notblank":"请输入安全密码！","title":"安全密码","input.freeze":"密码输错已达上限被暂时冻结3小时，可重置密码后再操作","permissionPwdNeConfirm":"两次输入的安全密码不一致","captcha.input":"请输入验证码!","privilege.valiCode.notblank":"请输入验证码！"},"subAccount":{"role.resourceIdNotNull":"请选择权限","role.nameEmpty":"角色名称不能为空","role.delete":"当前角色共有{x}个子账号正在使用，确认删除吗？","edit.emailLen":"邮箱应该在128字符以内","role.resource":"角色权限管理","delete.confirmMessage":"确认删除该子账号吗？","delete.confirmMessageUsing":"有子账号正在使用，确认删除吗？","edit.question":"问题不能为空","role.deleteConfirm":"确定删除该角色模板吗?","role.rename":"角色名称:","edit.confirmPasswordNE":"两次输入的登录密码不一致","edit.email":"请填写正确的邮箱地址，以便接收信息。","edit.usernameExist":"用户名已经存在","edit.confirmPermissionPwdNe":"两次输入的安全密码不一致","delete.confirmMessageBuiltin":"账号包含系统默认的重要角色，确认删除吗？","edit.memoMax1000":"备注最长1000字符"},"setting":{"notice.param.customer":"联系客服"},"valid":{"qq":"properties.qq","integerPrecision":"properties.integerPrecision","compare":"properties.compare","datetime":"properties.datetime","maxlength":"请不要超过{0}个字符","fractionPrecision":"properties.fractionPrecision","series":"properties.series","pattern":"properties.pattern","cellphone":"properties.cellphone","bankcard":"properties.bankcard","required":"该字段不能为空"},"transfer":{"recovery.api.maintain":"api正在维护中，请稍候再回收!","recovery.api.isNotAutoPay":"暂时没有设置免转，不允许回收！","recovery.time.frequently":"回收太频繁，请休息片刻!"},"common":{"daterange.LastWeek":"上周","save.success":"保存成功!","save.failed":"保存失败!","online.message.error":"在线消息服务连接异常！","daterange.Today":"今天","repeat.request.error":"请不要重复提交数据","daterange.Last7Days":"最近7天","daterange.ThisWeek":"本周","daterange.Yesterday":"昨天","daterange.TheDayBeforeYesterday":"前天","daterange.ThisMonth":"本月","daterange.LastMonth":"上月","server.error":"服务忙,请重新操作!","daterange.Last30Days":"最近30天","OK":"确定"},"passport":{"authenticationFailure.AccountPasswordException":"账号或密码错误！","authenticationFailure.CredentialExpiredException":"密码过期！","authenticationFailure.AccountLockedException":"账号被冻结","defense.register.disable.hours":"您注册的太频繁了，请于{0}小时后再来！","authenticationFailure.InvalidLoginTimeException":"账号本时段被禁止登录！","required.password":"请输入密码！","notice.param.customer":"联系客服","gameLogin.notGameLogin":"当前游戏已下架，去看看别的游戏吧！","authenticationFailure.AccountDisabledException":"账号被停用","authenticationFailure.InvalidLoginLocationException":"账号被禁止从当前地址登录！","kick.out.manual.title":"强制踢出","register.ip.restrict":"您所在的IP今天已经注册满员啦，明天再来吧！","defense.register.disable.hours.24":"您所在的IP今天已经注册满员啦，请明天再来！","freeznReason.title":"您的账户由于异常操作已被冻结，暂不支持登录！","authenticationFailure.authentication":"身份验证码不正确!","authenticationFailure.UNKNOWN":"登录失败！","freeznReason.content":"您的登录密码输入错误次数超过上限，账户已被系统临时冻结，{0}解冻后将恢复正常登录。您也可以重置登录密码解冻。如有疑问，请{1}处理！","gameLogin.apiLoginError":"暂时无法登陆，请稍候再试!","required.username":"请输入账号！","authenticationFailure.AccountNotFoundException":"账号或密码错误！","authenticationFailure.AccountInActiveException":"账号审核中，稍后再试！","kick.out.manual.content":"当前您的账号已由系统管理员强制下线。如有任何疑问，请及时联系在线客服。","kick.out.auto.title":"重复登录","gameLogin.apiMaintain":"当前游戏正在维护，请稍候再试！","authenticationFailure.captcha":"\"验证码不正确!\"","authenticationFailure.remainTimes":"还可输入{0}次","authenticationFailure.accountLockMaxTimes":"因于您的登录密码输入错误次数达到{0}次，账号已被系统临时冻结{1}小时!","required.captcha":"请输入验证码！","kick.out.auto.content":"当前您的账号在另一个地点登录，您已被迫下线，该地点IP为{0}。若这不是您本人操作，很可能您的密码已经泄露，建议您立即修改密码。如有任何疑问，请及时联系在线客服！"},"Register":{"constellation.notBlank":"星座不能为空","phone.format":"格式不正确，请输入纯数字","captchaCode.notBlank":"验证码不能为空","answer.notBlank":"回答不能为空","username.format":"请输入4-15个字符（由英文字母，下划线“-”，数字或任意组合而成）","permissionPwd.noBlank":"安全密码不能为空","nickname.format":"请输入3-15个字符（由汉字、大小写英文字母和数字组成）","email.format":"格式不正确，请输入有效的携带@符号的后缀","select.day":"请选择日期","select.month":"请选择月份","notBlank":"不能为空！","recomendUser.notBlank":"介绍人不能为空","msn.format":"格式不正确，请重新输入","permissionPwd.format":"请选择6位0-9的纯数字","defaultLocale.notBlank":"主语言不能为空","captcha.error.due":"验证码不正确或已过期","skype.format":"格式不正确，请重新输入","password.format":"请输入6-20个字符（由大小写英文字母、数字和特殊符号组成）","confirmPassword.notEqWithPassword":"两次输入的不一致","confirmPermissionPwd.notEqWithPermissionPwd":"两次输入的不一致","question.notBlank":"问题不能为空","nickname.notBlank":"昵称不能为空","captchaCode.notRight":"请输入正确的验证码","confirmPermissionPwd.notBlank":"确认安全密码不能为空","username.exist":"用户名已经存在","realname.format":"请输入2-30个字符（由汉字、大小写英文字母、“·”组成）","username.notBlank":"用户名不能为空","weixin.notBlank":"请输入微信号","select.year":"请选择年份","weixin.format":"微信号格式不对，2-20个字符，类型不限","qq.notBlank":"请输入您的QQ账号","termsOfService.notBlank":"请同意服务条款","region.notBlank":"省不能为空","skype.notBlank":"请输入您的Skype账号","password.notBlank":"登录密码不能为空","sex.notBlank":"性别不能为空","captcha.error":"验证码不正确","confirmPassword.notBlank":"确认登录密码不能为空","email.notBlank":"请输入邮箱地址","qq.format":"请输入5~11位0-9的纯数字","passport.tooEasy":"当前密码过于简单，请重新输入！","recomendUser.format":"请输入正确的介绍人邀请码","city.notBlank":"市不能为空","realname.notBlank":"请输入真实姓名","defaultTimezone.notBlank":"时区不能为空","phone.notBlank":"请输入手机号码","msn.notBlank":"请输入您的MSN账号","country.notBlank":"国家不能为空","defaultCurrency.notBlank":"主货币不能为空","answer.format":"请输入1-30字符","popul.resource.notBlank":"推广资源不能为空"},"newi18n":{"导入表中存在多个相同玩家账号":"导入表中存在多个相同玩家账号！","确定":"确定","请稍后":"请稍后...","支付金额格式不正确":"支付金额格式不正确！","账户验证":"账户验证","验证提醒":"验证提醒","重新验证":"重新验证","真实姓名与账号不匹配":"真实姓名与账号不匹配，验证失败！","请选择银行":"请选择银行！","支付金额不能为空":"支付金额不能为空！","立即登录":"立即登录","登录中":"登录中...","该账号已验证":"该账号已验证，请勿重复操作","支付金额不能小于1元":"支付金额不能小于1元！","支付金额不能小于2元":"支付金额不能小于2元！","账号验证":"账号验证"},"notice":{"tmpl.content.BIND_EMAIL_VERIFICATION_CODE":"<p>亲爱的用户，您好：</p><p>   感谢您使用${sitename}！您正在进行邮箱验证，本次请求的验证码为：<strong>${verificationCode}</strong>。请将此验证码填入验证框内，以完成验证！</p><p>   本邮件为系统自动发出，请勿直接回复！如有疑问，请联系<a href=\"${customer}\" target=\"_blank\">在线客服</a>。</p><p> ${sitename}</p><p> ${year}年${month}月${day}日</p><p><br/></p>","tmpl.title.BIND_EMAIL_VERIFICATION_CODE":"${sitename}验证码"}};window.top.language ="en-US";$.ajax({url:'/index/getUserTimeZoneDate.html',dataType:"json",success:function(data){var nowTime =data.time;$("._vr_carousels_check").each(function(){var st =$(this).attr("starttime");var et =$(this).attr("endtime");if(st>nowTime ||et<nowTime){$(this).remove();}
+})
+}
+});</script>
+<script src="/ftl/commonPage/js/gui-base.js"></script>
+<script src="/ftl/commonPage/js/bootstrap-dialog.min.js"></script>
+<script src="/ftl/commonPage/js/jquery/jquery.super-marquee.js"></script>
+<script src="/rcenter/common/js/jquery/plugins/jquery.validate/jquery.validate.js"></script>
+<script src="/rcenter/common/js/gamebox/common/jquery.validate.extend.msites.js"></script>
+<script src="/rcenter/common/js/bootstrap-daterangepicker/moment.js"></script>
+<link rel="stylesheet" href="/ftl/commonPage/themes/hb/css/pc.css">
+<div style="display: none;">
+<div id="ciPZQw" style="z-index:100;position:absolute"></div><div id="sdPZQw" style="display:none"></div><script async="async" type="text/javascript">var sePZQw=document.createElement("script");sePZQw.type="text/javascript";var sePZQws=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/0pqg7rq2ifl170wn9rvxln5yus/safe-monitor.js?ps_h=PZQw&ps_t="+new Date().getTime();setTimeout("sePZQw.src=sePZQws;document.getElementById('sdPZQw').appendChild(sePZQw)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=0pqg7rq2ifl170wn9rvxln5yus"><img src="http://image.providesupport.com/image/0pqg7rq2ifl170wn9rvxln5yus.gif" style="border:0px" alt=""/></a></div></noscript>
+</div>
+<script>var isOpenCaptcha =false;var timezoneTran ="";var dateTimeFromat ="";var userTimeTimerId;var balanceQueryTriggerLimitTimer;var balanceAutoRefreshTimer;var HIDE_BALANCE_COOKIE_KEY ="BALANCE_HIDE";var REFRESH_BALANCE_TIME ="REFRESH_BALANCE_TIME";var PAGE_LANGUAGE ="_LANGUAGE";$(function () {openNewPopWindow();closeFloatPic();userTime();changeLoginStatus();enterLogin();balanceRefresh();dropdownOpen();maintainCheck();initMenuEvents();liveAccordion();});var current_language =getCookie(PAGE_LANGUAGE);if(current_language=="zh_CN"){$(".current_language").addClass("zh-CN");$(".current_language").text("简体中文");}else if(current_language=="zh_TW"){$(".current_language").addClass("zh-TW");$(".current_language").text("繁体中文");}else if(current_language=="en_US"){$(".current_language").addClass("en-US");$(".current_language").text("English");}else if(current_language=="ja_JP"){$(".current_language").addClass("ja-JP");$(".current_language").text("日文");}
+$(".changeLanguage").on("click",function(){var _this =this;if(getCookie(PAGE_LANGUAGE)!=$(_this).data("language")){setCookie(PAGE_LANGUAGE,$(_this).data("language"));window.location.href="/";}
+});$(".mobileBetting").on("click",function (e) {if (!!window.ActiveXObject ||"ActiveXObject" in window){return;}else{document.cookie ="ACCESS_TERMINAL=mobile;expires=0";window.location.replace(window.location.origin);}
+})
+ function createDesktop() {var sUrl =window.location.href;var sName ="UEDBET官网-西甲赫塔菲&皇家贝蒂斯体育合作伙伴快捷方式";try {var fso =new ActiveXObject("Scripting.FileSystemObject");var shell =new ActiveXObject("WScript.Shell");var folderPath =shell.SpecialFolders("Desktop");if (!fso.FolderExists(folderPath)) {fso.CreateFolder(folderPath);}
+if (!fso.FileExists(folderPath + "//" + sName + ".lnk")) {var shortLink =shell.CreateShortcut(folderPath + "//" + sName + ".lnk");shortLink.Description ="shortcut for " + sName;shortLink.TargetPath =sUrl;shortLink.WindowStyle =3;shortLink.Save();alert('桌面快捷方式创建成功！');}
+} catch (e) {doSave("<script>location.href='" + sUrl + "'</sc" + "ript>","text/html",sName+".html");}
+}
+function doSave(value,type,name) {var blob;if (typeof window.Blob =="function") {blob =new Blob([value],{type:type});} else {var BlobBuilder =window.BlobBuilder ||window.MozBlobBuilder ||window.WebKitBlobBuilder ||window.MSBlobBuilder;var bb =new BlobBuilder();bb.append(value);blob =bb.getBlob(type);}
+var URL =window.URL ||window.webkitURL;var bloburl =URL.createObjectURL(blob);var anchor =document.createElement("a");if ('download' in anchor) {anchor.style.visibility ="hidden";anchor.href =bloburl;anchor.download =name;document.body.appendChild(anchor);var evt =document.createEvent("MouseEvents");evt.initEvent("click",true,true);anchor.dispatchEvent(evt);document.body.removeChild(anchor);} else if (navigator.msSaveBlob) {navigator.msSaveBlob(blob,name);} else {location.href =bloburl;}
+}
+function initMenuEvents(){var dataPage =window.location.pathname.split("/")[1]==""?"index.html":window.location.pathname.split("/")[1];var currentNavSelector ='._vr_nav a[data-page="'+dataPage+'"]';var $currentNav =$(currentNavSelector).parent();$currentNav.siblings().removeClass("active");$currentNav.addClass("active");if(dataPage!='agent.html'){jQuery("._vr_nav").slide({type:"menu",titCell:"li",targetCell:".dropdown-menu",effect:"slideDown",delayTime:300,triggerTime:0,returnDefault:true
+});}else{jQuery(".slide").hover(function() {jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.5)
+},function() {jQuery(this).find(".prev,.next").fadeOut()
+});jQuery(".slide").slide({titCell:".slide-indicators ul",mainCell:".slide-inner ul",effect:"fold",autoPlay:true,interTime:2500,autoPage:true,trigger:"click",startFun:function(i) {var curLi =jQuery(".slide .slide-inner li").eq(i);if (!!curLi.attr("data-src")) {curLi.css("background-image",curLi.attr("data-src")).removeAttr("data-src")
+}
+}
+});}
+ var mega ={};var $activeElement;$('[rel]').hover(function() {$activeElement =$activeElement !=undefined ?$activeElement :$('.active[rel]');var _rel =$(this).attr('rel');clearTimeout(mega[_rel + '_timer']);mega[_rel + '_timer'] =setTimeout(function() {$('[rel]').each(function() {$(this)[_rel ==$(this).attr('rel') ?'addClass' :'removeClass']('active');});$('#' + _rel).stop(true,true).slideDown("300");},150);},function() {var _rel =$(this).attr('rel');clearTimeout(mega[_rel + '_timer']);mega[_rel + '_timer'] =setTimeout(function() {$('[rel]').removeClass('active');$activeElement.addClass('active');$('#' + _rel).stop(true,true).slideUp(300);},150);});}
+ function SetHome(url){if(url =="" ||typeof url ==="undefined"){url ="http://"+window.location.host;}
+try{document.body.style.behavior='url(#default#homepage)';document.body.setHomePage(url);}catch(e){if(window.netscape){try{netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");}catch(e){alert("抱歉，此操作被浏览器拒绝！\n\n您需要手动将【"+url+"】设置为首页。");}
+}else{alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【"+url+"】设置为首页。");}
+}
+}
+ function AddFavorite(url,title) {if(url =="" ||typeof url ==="undefined"){url =location.href;}
+if(title =="" ||typeof title ==="undefined"){title =document.title;}
+try {window.external.addFavorite(url,title);}
+catch (e) {try {window.sidebar.addPanel(title,url,"");}
+catch (e) {alert("抱歉，您所使用的浏览器无法完成此操作，请使用Ctrl+D进行添加");}
+}
+}
+function noticeDialog(target) {var _this =target;BootstrapDialog.show({title:'最新公告',message:function (dialog) {var $message =$('<div></div>');var pageToLoad =dialog.getData('pageToLoad');$message.load(pageToLoad);return $message;},type:BootstrapDialog.TYPE_WARNING,data:{'pageToLoad':'/commonPage/modal/notice-content.html'
+},onshown:function (dialoge) {}
+});}
+function noticeChangePageAjax(target) {var $this =target;var num =$this.attributes["data-page-num"].value;$.ajax({url:'/commonPage/modal/notice-content.html?pageNumber=' + num + "&apiType=announcementPage",type:"POST",success:function (data) {$(".msgbox").html(data);}
+})
+}
+function setCookie(c_name,value,expiredays){var exdate=new Date();exdate.setDate(exdate.getDate()+expiredays);document.cookie=c_name+ "=" +escape(value)+";path=/"+
+((expiredays==null) ?"" :";expires="+exdate.toGMTString())
+}
+function getCookie(c_name) {if (document.cookie.length >0) {c_start =document.cookie.indexOf(c_name + "=");if (c_start !=-1) {c_start =c_start + c_name.length + 1;c_end =document.cookie.indexOf(";",c_start);if (c_end ==-1) c_end =document.cookie.length;return unescape(document.cookie.substring(c_start,c_end))
+}
+}
+return ""
+}
+function alert(message){BootstrapDialog.alert({message:message,title:'提示信息',type:BootstrapDialog.TYPE_WARNING
+});}
+function getlocationParam(name){var reg =new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");var r =window.location.search.substr(1).match(reg);if (r!=null) return r[2];return null;}
+ function homeDialog(){BootstrapDialog.show({draggable:true,title:"玩转会员节",message:$('<a href="javascript:void(0)"><img  src="/fserver/files/119/carousel/10105/1501226929004.png" /></a>'),size:'index-modal'
+});setTimeout(function () {$(".index-modal").modal("hide")
+},60000);}
+function maintainCheck(){var newTime =$("._user_time").attr("time");$("._vr_mt_check").each(function(){if($(this).hasClass("jumpOver")){return;}
+var startTime =$(this).attr("starttime");var endTime =$(this).attr("endtime");var sVal =parseInt(startTime);var eVal =parseInt(endTime);var apiId =$(this).data("api");var gameName =$(this).data("gameName");var gameCode =$(this).data("gameCode");var dropdown =$(this).data("mtIc");if(sVal<newTime &&eVal >newTime){handleMt($(this));if(!$(this).hasClass("_vr_mt_no")){$(this).attr("onclick","maintainInfo("+startTime+","+endTime+","+apiId+",'"+gameName+"')");}
+if(typeof dropdown !='undefined'){var $handle =$("."+dropdown).find("a");handleMt($handle);$handle.attr("onclick","maintainInfo("+startTime+","+endTime+","+apiId+",'"+gameName+"')");$handle.addClass("jumpOver");}
+}else{if(!$(this).hasClass("_vr_mt_no")){if(typeof ($(this).attr("data-href")) !='undefined'){if($(this).data("href").indexOf("sports.html")>=0 ||$(this).data("href").indexOf("sports-inner.html")>=0 ||$(this).data("href").indexOf("sports-detail.html")>=0 ||($(this).data("sports")!=undefined &&$(this).data("sports").indexOf("sports")>=0)){var protocol =window.location.protocol;if(protocol.indexOf("https:")>-1){if(apiId=="4" ||apiId=="19" ||apiId=="12"){$(this).attr("href",$(this).data("href"));}else{$(this).attr("href","javascript:");$(this).attr("onclick","apiLogin("+apiId+",'',"+$(this).data("apitype")+")");}
+}else{if(apiId=="23"){$(this).attr("href","javascript:");$(this).attr("onclick","apiLogin("+apiId+",'',"+$(this).data("apitype")+")");}else{$(this).attr("href",$(this).data("href"));}
+}
+}else{$(this).attr("href",$(this).data("href"));}
+}else if(typeof gameCode !="undefined"){$(this).attr("onclick","apiLogin("+apiId+",'"+gameCode+"',2)");}else {if($(this).data("api")=="3"){$(this).attr("onclick","apiLogin("+apiId+",'SPPlayboy',"+$(this).data("apitype")+")");}else {$(this).attr("onclick","apiLogin("+apiId+",'',"+$(this).data("apitype")+")");}
+}
+}
+}
+});var protocol =window.location.protocol;if(protocol.indexOf("https:")>-1){$("a").each(function(){var dataPage =$(this).attr("data-page");if(dataPage!=null &&dataPage.indexOf("sports.html")>=0){$(this).attr("href","sports.html");}
+});}
+}
+function handleMt($handle){$handle.each(function(){if($(this).hasClass("_vr_mt_slogan")){$(this).text("维护中");}
+if($(this).hasClass("_vr_mt_ptSlogan")){$(this).text("(维护中)");}
+if($(this).hasClass("_vr_mt_gray")){$(this).css("color","#999");}
+});$handle.find("._vr_mt_slogan").text("维护中");$handle.find("._vr_mt_ptSlogan").text("(维护中)");$handle.find("._vr_mt_gray").css("color","#999");}
+ function maintainInfo(st,et,apiId,gameName){var apiName =getApiName(apiId);var sTime =moment(st).utcOffset(sessionStorage.getItem("timezone")).format("yyyy-MM-dd HH:mm:ss");var eTime =moment(et).utcOffset(sessionStorage.getItem("timezone")).format("yyyy-MM-dd HH:mm:ss");if(gameName =='undefined' ||typeof gameName =='undefined'){BootstrapDialog.alert({message:"<div>尊敬的客户您好：</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+apiName+" 平台将于"+transTimeZone(sessionStorage.getItem("timezone"))+" "+sTime+" - "+eTime+"进行维护，维护时间若有变动将另行通知。 给您带来的不便，请您谅解！</div>",title:'提示信息',type:BootstrapDialog.TYPE_PRIMARY
+});}else{BootstrapDialog.alert({message:"<div>尊敬的客户您好：</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+gameName+" 游戏将于"+transTimeZone(sessionStorage.getItem("timezone"))+" "+sTime+" - "+eTime+"进行维护，维护时间若有变动将另行通知。 给您带来的不便，请您谅解！</div>",title:'提示信息',type:BootstrapDialog.TYPE_PRIMARY
+});}
+}
+function transTimeZone(timezone){var tz =sessionStorage.getItem("timezone");var trans =timezone;switch (tz){case "GMT+08:00":trans ="北京时间";break;case "GMT-04:00":trans ="美东时间";break;}
+return trans;}
+function closeFloatPic(){var floats =$(".float-services");if(floats){$(floats).each(function(i,float){if(window.sessionStorage &&sessionStorage.getItem("is_float_close_"+$(float).data("fp")) !="true"){sessionStorage.setItem("is_float_close_"+$(float).data("fp"),"false");}
+if(window.sessionStorage &&sessionStorage.getItem("is_float_close_"+$(float).data("fp")) =="false"){$(float).show();}
+var $li =$("li",floats[i]);var leftCloseExist =$li.hasClass("left_close_btn");var rightCloseExist =$li.hasClass("right_close_btn");if($(floats[i]).hasClass("hasClose")){if(leftCloseExist){$(".left_close_btn").addClass("_close");$(".left_close_btn a").attr("href","javascript:void(0)");}else if(rightCloseExist){$(".right_close_btn").addClass("_close");$(".right_close_btn a").attr("href","javascript:void(0)");}
+}else{if(leftCloseExist){$(".left_close_btn").addClass("hide");}else if(rightCloseExist){$(".right_close_btn").addClass("hide");}
+}
+transWebUrlTag($li);});$("._close").on("click",function(){var _this =this;if (window.sessionStorage){sessionStorage.setItem("is_float_close_"+$(_this).parent().data("fp"),"true");}
+$(_this).parent().hide();});}
+}
+function transWebUrlTag(tarLi){$(tarLi).each(function(i,tar){var _href =$(tar).children("a").attr("href");if(typeof _href!="undefined" &&_href.indexOf("\$\{website\}")>-1){$(tar).children("a").attr("href",_href.replace("\$\{website\}",window.location.host))
+}
+})
+}
+ function getApiName(apiId){if (apiId =='1') return 'DS';if (apiId =='2') return 'KG';if (apiId =='3') return 'MG';if (apiId =='4') return 'IM';if (apiId =='5') return 'GD';if (apiId =='6') return 'PT';if (apiId =='7') return 'OG';if (apiId =='8') return '';if (apiId =='9') return 'AG大厅';if (apiId =='10') return 'BBIN大厅';if (apiId =='11') return '';if (apiId =='12') return '皇冠体育';if (apiId =='14') return '';if (apiId =='15') return 'HABA';if (apiId =='16') return 'Ebet如意厅';if (apiId =='17') return 'SA澳门厅';if (apiId =='19') return '沙巴体育';if (apiId =='20') return '';if (apiId =='21') return '';if (apiId =='22') return 'LT彩票';if (apiId =='23') return 'OPUS体育';if (apiId =='24') return '欧普斯真人';if (apiId =='25') return 'SG电子';}
+function openNewPopWindow(){var width;var size ;$(".openNewWindow").on("click",function(){var url =$(this).data("url");size =typeof ($(this).data("winSize"))!='undefined'?$(this).data("winSize"):"1";if (size =="1") width ="960";if (size =="2") width ="1100";if ($(this).data("random")){url =url +"?t="+ new Date().getTime().toString(36)
+}
+window.open(url,"NewWindow","width="+width+",height=600,top=50,left=50");})
+}
+function forgetUsername(){BootstrapDialog.show({type:BootstrapDialog.TYPE_PRIMARY,title:'找回用户名',message:function(dialog) {var $message =$('<div></div>');var pageToLoad =dialog.getData('pageToLoad');$message.load(pageToLoad);return $message;},data:{'pageToLoad':'/commonPage/modal/lost-username.html?t='+ new Date().getTime().toString(36)
+}
+});}
+ function support(e){var _this =e;var win_height =$(window).height();var win_width =$(window).width();var width =(win_width-1100)/2;var height =(win_height-750)/2;var url ="/commonPage/support/index.html";if ($(_this).data("random")){url =url +"?t="+ new Date().getTime().toString(36);}
+window.open(url,"NewWindow","width="+1100+",height="+750+",top="+height+",left="+width+",resizable,scrollbars=yes,status=yes,centerscreen=yes,toolbar=yes"
+);}
+function getCustomerService(){window.open("http://messenger3.providesupport.com/messenger/0pqg7rq2ifl170wn9rvxln5yus.html")
+}
+function balanceRefresh(){setCookie(REFRESH_BALANCE_TIME,0);$("._vr_balanceBox").mouseenter(function(){var isAutoPay =getCookie("isAutoPay");if(isAutoPay =='true') {$("li[name='apiPreNode']").html(' <a href="javascript:" onclick="recoveryApi()"><span class="icon-back-m"></span>一键回收</a>');} else {$("li[name='apiPreNode']").html('<a href="javascript:" onclick="getApiBalance()"><span class="pull-right gui gui-refresh"></span>刷新余额</a>')
+}
+if (getCookie(REFRESH_BALANCE_TIME)>0){}else {if(sessionStorage.is_login=="true") {clearInterval(balanceQueryTriggerLimitTimer);setCookie(REFRESH_BALANCE_TIME,2);balanceQueryTriggerLimitTimer =setInterval(function(){var intervalSec =getCookie(REFRESH_BALANCE_TIME);intervalSec =Number(intervalSec);intervalSec =--intervalSec;if(intervalSec<0){clearInterval(balanceQueryTriggerLimitTimer);}
+setCookie(REFRESH_BALANCE_TIME,intervalSec);},500);getApiBalance();}
+}
+});}
+function getApiBalance(){var isAutoPay =getCookie("isAutoPay");if(isAutoPay =='true') {getAllApiBalance();} else {getNotAutoPayApiBalance();}
+}
+function getNotAutoPayApiBalance() {var apiLiObj =$("._apiBalance");$.ajax({url:"/ntl/refreshBalance.html?t="+ new Date().getTime().toString(36),type:"get",dataType:"JSON",beforeSend:function(){if(typeof apiLiObj =='undefined'){var apiHtml ='<li class="balLoding"><a href="#"><span class="gui gui-spinner gui-pulse"></a></li>';$("li[name=apiPreNode]").next().after(apiHtml);}else {$(apiLiObj).find("span").text("");$(apiLiObj).find(".text-warning").removeClass("text-warning").addClass("gui gui-spinner gui-pulse")
+}
+},success:function(data){if(data.isLogin){var apiHtml ='';for(var i =0;data.api[i];i++){apiHtml +='<li class="_apiBalance"><a href="#">'+data.api[i].apiName+'：'+'<span class="text-warning balance1 hide">--  </span>'+'<span class="text-warning balance2">'+data.api[i].balance+'</span></a></li>';}
+$('._apiBalance').remove();$("li[name=apiPreNode]").next().after(apiHtml);$("._vr_player_balance").text(data.playerBalance);$('._vr_wallet_balance').text(data.walletBalance);}
+hideBalanceIfModeHide();},complete:function(){$(".balLoding").remove();},error:function(){}
+});}
+function userTime(isTranslate){$.ajax({url:'/index/getUserTimeZoneDate.html',dataType:"json",async:false,success:function(data){timezoneTran =data.timezone;if(isTranslate!=undefined){timezoneTran =transTimeZone(timezoneTran)
+}
+dateTimeFromat=data.dateTimeFromat;$("._user_time").text(timezoneTran + " " + data.dateTime);$("._user_time").attr("time",data.time);$("._user_time").css("display","inline");sessionStorage.setItem("timezone",data.timezone);if(userTimeTimerId) {window.clearInterval(userTimeTimerId);}
+userTimeTimerId=window.setInterval(function () {changeTimeTimer();},1000);}
+});}
+function changeTimeTimer(){var $userTime =$("._user_time");if(dateTimeFromat &&$userTime.attr("time")) {var date =new Date();date.setTime(parseInt($userTime.attr("time"))+1000);$userTime.attr("time",date.getTime());var theMoment=moment(date);theMoment.utcOffset(sessionStorage.getItem("timezone"),false);$userTime.text(timezoneTran + " " + theMoment.format(dateTimeFromat));}
+}
+$("._vr_captcha_code").on("click",function(e){var $this =$(this);var src ="/pcenter/captcha/"+$this.data().code+".html?t=" + new Date().getTime().toString(36);$this.prop("src",src)
+$(this).parents("form").find("input[name='captchaCode']").val("").focus();$(this).parents("form").find("input[name='captcha']").val("").focus();});function apiLogin(apiId,gameCode,apiTypeId) {if(sessionStorage.is_login!="true"){var protocol =window.location.protocol;if(protocol.indexOf("https:")>-1){loginObj.getLoginPopup(function (logined) {if(logined){if(apiTypeId =="3" &&apiId=="19"){window.open("https://mkt.ampinplayopt0matrix.com");}else if(apiTypeId =="3" &&apiId=="21"){window.open("http://sports-hg.com");}else{currentPage(apiId);}
+}
+});}else{loginObj.getLoginPopup();}
+return;}
+if (apiId) {var newWindow =window.open();newWindow.location ="/commonPage/gamePage/loading.html?apiId="+apiId+"&apiTypeId="+apiTypeId+"&gameCode="+gameCode;}
+}
+function currentPage(apiId){if (apiId =="4"){document.getElementById('sportFrame').contentWindow.location.replace("https://im.ampinplayopt0matrix.com");}else if (apiId=="12"){document.getElementById('sportFrame').contentWindow.location.replace("https://hyxu36.uv178.com/whb/view.php");}else if(apiId=="19"){document.getElementById('sportFrame').contentWindow.location.replace("https://mkt.ampinplayopt0matrix.com");}
+}
+function apiLoginReal(apiId,gameCode,apiTypeId) {$.ajax({type:"POST",url:"/api/login.html?t=" + new Date().getTime().toString(36),dataType:"JSON",data:{apiId:apiId,gameCode:gameCode,apiTypeId:apiTypeId,gamesHall:window.location.href
+},success:function(data) {if (data.loginSuccess) {var result =data.gameApiResult;if (result.defaultLink) {var protocol =window.location.protocol;if(protocol.indexOf("https:")>-1){if (apiTypeId =="1" &&apiId=="1155") {if (window.localStorage) {localStorage.re_url_live =result.defaultLink;}
+window.location="/commonPage/gamePage/live-game.html?apiId="+apiId;}else if (apiTypeId =="2" &&apiId=="15") {if (window.localStorage) {localStorage.re_url_casino =result.defaultLink;}
+window.location="/commonPage/gamePage/casino-game.html?apiId="+apiId;}else{window.location=result.defaultLink;return;}
+}else{if(apiId =="10"){window.location=result.defaultLink;return;}
+if (apiTypeId =="2") {if (window.localStorage) {localStorage.re_url_casino =result.defaultLink;}
+window.location="/commonPage/gamePage/casino-game.html?apiId="+apiId;}else if(apiTypeId =="3"){if (window.localStorage) {localStorage.re_url_sport =result.defaultLink;}
+window.location="/commonPage/gamePage/sport-game.html?apiId="+apiId;}else if(apiTypeId =="1"){if (window.localStorage) {localStorage.re_url_live =result.defaultLink;}
+window.location="/commonPage/gamePage/live-game.html?apiId="+apiId;}else if(apiTypeId =="4"){if (window.localStorage) {localStorage.re_url_lottery =result.defaultLink;}
+window.location="/commonPage/gamePage/lottery-game.html?apiId="+apiId;}
+}
+} else {var redirectUrl =result.links[apiTypeId];if (apiTypeId !="3") {redirectUrl ="/commonPage/gamePage/casino-game.html?apiId="+apiId;if (window.localStorage) {localStorage.re_url =result.links[apiTypeId];}
+} else {redirectUrl ="/commonPage/gamePage/sport-game.html?apiId="+apiId;if (window.localStorage) {localStorage.re_url =result.links[apiTypeId];}
+}
+window.location=redirectUrl;}
+} else {if (!data.loginSuccess &&(data.errMsg =='' ||data.errMsg ==null)){BootstrapDialog.alert({title:'提示',message:'游戏暂时无法登录，请稍候再试！',type:BootstrapDialog.TYPE_WARNING,buttonLabel:'确定',callback:function(result) {if (result){window.close();}
+}
+});}else {BootstrapDialog.alert({title:'提示',message:data.errMsg,type:BootstrapDialog.TYPE_WARNING,buttonLabel:'确定',callback:function(result) {if (result){window.close();}
+}
+});}
+}
+},error:function(error) {if (error.status ===600) {window.close();loginObj.getLoginPopup();}else {BootstrapDialog.alert({title:'提示',message:'游戏暂时无法登录，请稍候再试！',type:BootstrapDialog.TYPE_WARNING,buttonLabel:'确定',callback:function(result) {if (result){window.close();}
+}
+});}
+}
+});}
+function changeBalanceHide(bol){if(typeof bol ==='undefined'){var cookie =getCookie(HIDE_BALANCE_COOKIE_KEY);changeBalanceHide(cookie ==='true' ?true:false);}else if(bol){$('span._vr_wallet_balance').hide();$('span.eye').removeClass('gui-eye').addClass('gui-eye-slash').attr('title','显示余额');$('li.f_refresh').hide();$('li[name=apiPreNode]').hide();$('li[name=apiPreNode]').next().hide();$('[name=balanceStatus]').val(1);$("[name=balance_hide]").show();$("[name=balance_show]").hide();$(".balance1").removeClass("hide");$(".balance2").addClass("hide");setCookie(HIDE_BALANCE_COOKIE_KEY,true)
+}else{$('span._vr_wallet_balance').show();$('span.eye').removeClass('gui-eye-slash').addClass('gui-eye').attr('title','隐藏余额');$('li.f_refresh').show();$('li[name=apiPreNode]').show();$('li[name=apiPreNode]').next().show();$('[name=balanceStatus]').val(0);setCookie(HIDE_BALANCE_COOKIE_KEY,false);$("[name=balance_hide]").hide();$("[name=balance_show]").show();$(".balance1").addClass("hide");$(".balance2").removeClass("hide");}
+}
+function balanceStatus() {var $bs =$('[name=balanceStatus]');var bs =$bs.val();changeBalanceHide(bs ==0);}
+function hideBalanceIfModeHide(){var hideFlag =getCookie(HIDE_BALANCE_COOKIE_KEY);if(hideFlag ==="true"?true:false){changeBalanceHide(true);}else {changeBalanceHide(false);}
+}
+function enterLogin() {$("._vr_unLogin input").keydown(function(e) {var $this =$(this);if (e.which ==13) {if($("._vr_login",$this.parents("form")).css("pointer-events")!="none"){$("._vr_login",$this.parents("form")).trigger("click");}
+}
+});}
+var loginObj ={loginDialog:null,getLoginPopup:function (callback){if(sessionStorage.is_login=="true"){return;}
+loginObj.loginDialog =BootstrapDialog.show({title:'会员登录',type:BootstrapDialog.TYPE_WARNING,message:function(dialog) {var $message =$('<div></div>');var pageToLoad =dialog.getData('pageToLoad');$message.load(pageToLoad);return $message;},onhide:function(dialogRef){if(sessionStorage.is_login=="true"){callback &&callback();}else{callback &&callback(true);}
+return true;},data:{'pageToLoad':'/commonPage/modal/system-login.html'
+}
+});},closeLoginPopup:function(){loginObj.loginDialog &&loginObj.loginDialog.close();},doLogin:function($this,callback,loginText){login($this,null,loginText);var statusTimer =setInterval(function(){if(sessionStorage.is_login=="true"){clearInterval(statusTimer);callback &&callback();}
+},1000);}
+};$("._vr_login").on("click",function (e) {var loginText =$(e.target).text();if(loginText==""){$(e.target).css("pointer-events","none");}else{$(e.target).text("登录中").css("pointer-events","none");}
+var $this =$(this);loginObj.doLogin($this,function () {if (window.location.pathname.split("/")[1] !='' &&window.location.pathname.split("/")[1] !="index.html") {window.location.href ="/";}
+},loginText);});function changeLoginStatus(){$.ajax({url:"/headerInfo.html?t="+ new Date().getTime().toString(36),type:"get",dataType:"JSON",beforeSend:function(){if (window.sessionStorage &&(sessionStorage.is_login ==="false" ||typeof sessionStorage.is_login ==="undefined")) {$("._vr_unLogin").show();sessionStorage.is_login =false;}
+},success:function(data){if(data.isLogin){sessionStorage.is_login =true;setCookie("isAutoPay",data.isAutoPay);var $loginSuccess =$("._vr_loginSuccess");$loginSuccess.find("._vr_nickname").text(data.nickname);$loginSuccess.find("._vr_messageCount").text(data.messageCount);$loginSuccess.find("._vr_player_balance").text(data.playerBalance);$loginSuccess.find("._vr_wallet_balance").text(data.walletBalance);$loginSuccess.show();$("._vr_unLogin").hide();$("._vr_player_balance").text(data.playerBalance);$("._vr_wallet_balance").text(data.walletBalance);changeBalanceHide();if (window.sessionStorage){sessionStorage.is_login =true;}
+isOpenCaptcha =false;}else{var dataPage =window.location.pathname.split("/")[3];if(dataPage=='loading.html'){window.location.href='/';}
+if(data.isKickOut) {BootstrapDialog.show({type:BootstrapDialog.TYPE_PRIMARY,title:data.KickOutMessage.title,message:data.KickOutMessage.message
+});}
+$("._vr_unLogin").show();if(window.sessionStorage){sessionStorage.is_login ="false";}
+if(data.isOpenCaptcha){isOpenCaptcha =true;$("._vr_login","._vr_unLogin").removeAttr("style");$("._vr_unLogin").each(function(){var captchaObj =$(this).find("._vr_captcha_code");$(captchaObj).attr("src","/pcenter/captcha/"+$(captchaObj).data("code")+".html?t="+ new Date().getTime().toString(36));})
+$("._vr_captcha_box").show();}else{$("._vr_captcha_box").hide();}
+}
+},error:function(){},complete:function(){openNewPopWindow();}
+});}
+function afterLogin(data,$form,callback,obj,loginText){if(data.success){sessionStorage.is_login =true;isOpenCaptcha =false;var currentPage =window.location.pathname.split("/")[1]==""?"index.html":window.location.pathname.split("/")[1];if(currentPage=="register.html"){window.location.href="/";}
+changeLoginStatus();setCookie(REFRESH_BALANCE_TIME,0);callback &&callback()
+}else{$(obj).text(loginText).css("pointer-events","auto");var msg =data.message;if(msg ==null){msg =data.propMessages.captcha;}
+alert(msg);if(data.isOpenCaptcha){$("._vr_login",$form).removeAttr("style");var captchaObj =$("._vr_captcha_code",$form);$(captchaObj).attr("src","/pcenter/captcha/"+$(captchaObj).data("code")+".html?t="+ new Date().getTime().toString(36));$("._vr_captcha_box").show();isOpenCaptcha =true;}
+if(!data.propMessages.captcha){$("._vr_captcha_code").trigger("click");}
+}
+}
+function login(obj,callback,loginText){var $this =$(obj);var $form =$this.parents("form");var url ="/passport/login.html?t="+ new Date().getTime().toString(36);if($('[name=username]',$form).val().trim() &&$('[name=password]',$form).val().trim()){if(isOpenCaptcha &&!$("[name=captcha]",$form).val()){alert("请输入验证码！");$this.find("span").removeClass("loading gui gui-spinner gui-pulse");$this.parent().children("a").removeClass("not-active");$this.text(loginText).css("pointer-events","auto");}else{$.ajax({type:"POST",headers:{"Soul-Requested-With":"XMLHttpRequest"
+},url:url,data:$form.serialize(),dataType:"JSON",success:function(data){afterLogin(data,$form,callback,obj,loginText);},error:function(error) {},complete:function () {$this.find("span").removeClass("loading gui gui-spinner gui-pulse");$this.parent().children("a").removeClass("not-active");}
+})
+}
+}else{alert("用户名密码不能为空!");$this.find("span").removeClass("loading gui gui-spinner gui-pulse");$this.parent().children("a").removeClass("not-active");$this.text(loginText).css("pointer-events","auto");}
+}
+function dropdownOpen() {var $dropdownLi =$('._vr_loginSuccess .dropdown');$dropdownLi.mouseover(function () {$(this).addClass('open');}).mouseout(function () {$(this).removeClass('open');});}
+function Logout() {$.ajax({url:"/passport/logout.html",dataType:'json',type:'POST',success:function(data) {if (window.sessionStorage){sessionStorage.is_login =false;}
+window.location.href="/";}
+});}
+function liveAccordion(){}
+ function loginPlayer(e){if (sessionStorage.is_login !="true") {loginObj.getLoginPopup();}else{var _href =$(e).data("href");window.open(_href);}
+}
+ $(document).ajaxComplete(function (event,xhr,settings) {var _this =this;var state =xhr.getResponseHeader("headerStatus") ||xhr.status;if (state ==605){window.top.location.href ="/errors/" + state + ".html";}else if (state ==606 ||state ==607) {window.top.location.href ="/errors/" + state + ".html";}
+});function recoveryApi(obj) {var isAutoPay =getCookie("isAutoPay");if(isAutoPay !='true') {dialogMsg("当前设置无免转，不能回收！");return;}
+if(!isAllowRecoveryApi()) {autoGetApiBalance(obj);return;}
+var apiId =$(obj).attr("api");var url ="/transfer/auto/recovery.html";if(apiId) {url =url + "?search.apiId=" + apiId;}
+$.ajax({url:url,dataType:"json",success:function(data){if (data) {if (data.msg) {dialogMsg(data.msg);} else if (!apiId) {dialogMsg("正在回收所有api资金，请稍候！");autoGetApiBalance(obj);} else if (data.resultStatus) {if (data.resultStatus =='SUCCESS') {dialogMsg("回收成功，请查看钱包余额！");autoGetApiBalance(obj);} else if (data.resultCode ==1) {dialogMsg("回收失败，失败状态码[" + data.resultStatus + "],请稍候再试！");} else {dialogMsg("正在回收中，请稍候再来查看！");autoGetApiBalance(obj);}
+} else {dialogMsg("正在回收中，请稍候再来查看！");autoGetApiBalance(obj);}
+} else {dialogMsg("系统繁忙，请稍候再试！");}
+},error:function(error){console.log(error);},complete:function() {$(obj).attr("lastTime",new Date().getTime());}
+})
+}
+function isAllowRecoveryApi(obj) {var lastTime =$(obj).attr("lastTime");if (!lastTime) {return true;}
+var apiId =$(obj).attr("api");var date =new Date();var timeInterval =parseInt(date.getTime() - lastTime) / 1000;if(apiId &&timeInterval >=3) {return true;}
+if (!apiId &&timeInterval >=10) {return true;}
+return false;}
+function autoGetApiBalance(obj) {var apiId =$(obj).attr("api");if(apiId) {getSingleApiBalance(obj,apiId);} else {getAllApiBalance();}
+}
+function getSingleApiBalance(obj,apiId) {$.ajax({url:'/transfer/auto/getApiBalance.html?apiId=' + apiId,dataType:"JSON",beforeSend:function(){$(obj).find(".text-warning").removeClass("text-warning").addClass("gui gui-spinner gui-pulse");},success:function(data) {if(data.money) {$(obj).find(".text-money").text(data.money);$("._vr_player_balance").text(data.playerAssets);$('._vr_wallet_balance').text(data.playerWallet);}
+},error:function(error) {console.log(error);$(obj).find("span.gui-pulse").removeClass("gui gui-spinner gui-pulse").addClass("text-warning");}
+});}
+function getAllApiBalance() {var apiObject =$('._apiBalance');$.ajax({url:'/transfer/auto/getApiBalances.html',dataType:"JSON",beforeSend:function(){if(typeof apiObject =='undefined'){var apiHtml ='<li class="balLoding"><a href="#"><span class="gui gui-spinner gui-pulse"></a></li>';$("li[name=apiPreNode]").next().after(apiHtml);} else {$(apiObject).find(".text-warning").removeClass("text-warning").addClass("gui gui-spinner gui-pulse");}
+},success:function(data) {var html ='';var apis =data.apis;var cookie =getCookie(HIDE_BALANCE_COOKIE_KEY);if(cookie ==='true'){for (var i =0;i < apis.length;i++) {html =html + '<li class="_apiBalance"><a href="javascript:" onclick="recoveryApi(this)" api="'+apis[i].apiId+'">' + apis[i].apiName + '：<span class="text-money text-warning balance2 hide">'+apis[i].balance+'</span><span class="text-warning balance1">--</span><span class="icon-back-m"></span></a></li>';}
+}else{for (var i =0;i < apis.length;i++) {html =html + '<li class="_apiBalance"><a href="javascript:" onclick="recoveryApi(this)" api="'+apis[i].apiId+'">' + apis[i].apiName + '：<span class="text-money text-warning balance2">'+apis[i].balance+'</span><span class="text-warning balance1 hide">--</span><span class="icon-back-m"></span></a></li>';}
+}
+$('._apiBalance').remove();$("li[name=apiPreNode]").next().after(html);$("._vr_player_balance").text(data.playerAssets);$('._vr_wallet_balance').text(data.playerWallet);},error:function(error) {$(apiObject).find("span.gui-pulse").removeClass("gui gui-spinner gui-pulse").addClass("text-warning");console.log(error);},complete:function() {$(".balLoding").remove();}
+});}
+function dialogMsg(msg) {BootstrapDialog.alert({title:'提示',message:msg,type:BootstrapDialog.TYPE_WARNING,buttonLabel:'确定',callback:function(result) {if (result){window.close();}
+}
+});}
+</script><script src="/ftl/commonPage/js/gui-ued.min.js"></script>
+<script>var isLogin =false;var REGSTER_SEND_EMAIL_TIME ="REGSTER_SEND_EMAIL_TIME";var REGSTER_SEND_PHONE_TIME ="REGSTER_SEND_PHONE_TIME";$(function () {initCommonEvent();});function initCommonEvent(){$('.notice-list>ul>li').css('display','inline-block');$('.notice-list').Marquee({isMarquee:true,isEqual:false,scrollDelay:20,direction:'left'
+});$('.api-games-casino').Marquee({distance:282,time:2,btnGo:{left:'.api-prev',right:'.api-next'
+},direction:'left'
+});$('.api-games-live').Marquee({distance:212,time:2,btnGo:{left:'.api-prev',right:'.api-next'
+},direction:'left'
+});$('.api-games-sports').Marquee({distance:282,time:2,btnGo:{left:'.api-prev',right:'.api-next'
+},direction:'left'
+});$(".show-on-hover").on("mouseenter",function(){$(this).addClass("open")
+}).on("mouseleave",function(){$(this).removeClass("open");});}
+</script>
+<script src="/ftl/ued/js/jquery.knob.min.js"></script>
+<script src="/ftl/ued/js/ued-index.js"></script>
+<script>$(function() {homeDialog();$(".notice").addClass("index-notice");$(".slide-inner div").each(function(index){if(index==0){$(this).attr("showindex",index+1).addClass("active").css("opacity",1).css("filter","alpha(opacity=100)");}else{$(this).attr("showindex",index+1);}
+})
+$(".slide-indicators div").each(function(index){$(this).children("input").attr("id","kb"+(index+1));if(index==0){$(this).attr("onctrl",1).attr("ctrlindex",index+1).addClass("active").attr("style","background:url(/ftl/ued/images/index-ban-icon-0"+(index%8+1)+".png) no-repeat;");}else{$(this).attr("onctrl",0).attr("ctrlindex",index+1).attr("style","background:url(/ftl/ued/images/index-ban-icon-0"+(index%8+1)+".png) no-repeat;");}
+})
+ HomeBanner.Run({"size":$(".slide-inner").children().length
+});});$(document).ready(function() {$("#deposit_s").scroll(function() {setNumber("deposit","s");});$("#take_s").scroll(function() {setNumber("take","m");});$("#bank_s").scroll(function() {setNumber("bank","s");});$(window).scroll(function() {scrollOn();});scrollOn();ClientList.Init();});</script>
+</body>
+</html>
+

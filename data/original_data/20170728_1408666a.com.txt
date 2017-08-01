@@ -1,0 +1,1607 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 	var ctx="";
+ 	var loginStatus='';	//登录状态，"0"为已登录
+ 	var pageUrl = window.location.href;
+</script>
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/jsp/member/default/css/jquery-ui-1.9.1.custom.min.css">
+<script src="/common/js/me_common.js"></script>
+<!-- 公告js,css -->
+<script type="text/javascript" src="/common/js/announment.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ann.css" />
+<!-- 会员中心公用js -->
+<script type="text/javascript" src="/jsp/member/default/js/common.js"></script>
+<!-- 会员登录后刷新余额和展示各个api的余额 -->
+<link href="/jsp/member/default/css/refreshBalance.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- o085专用 -->
+<link rel="shortcut icon" href=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/favicon.ico" type="image/vnd.microsoft.icon">
+
+<link href=" //cdnszs.ruirobot.com/v2/stc/og/o085/css/basic.css" rel="stylesheet" type="text/css" />
+<link href=" //cdnszs.ruirobot.com/v2/stc/og/o085/css/liMarquee.css" rel="stylesheet">
+<<script type="text/javascript">
+var stx = " //cdnszs.ruirobot.com/v2";
+</script>
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/superslide.2.1.js" type="text/javascript"></script>
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/liMarquee.v.6.3.js"></script> 
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/index.js" type="text/javascript"></script>
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/common.js" type="text/javascript"></script>
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/layer.js" type="text/javascript"></script>
+<script src=" //cdnszs.ruirobot.com/v2/stc/og/o085/js/game.js" type="text/javascript"></script>
+<link href=" //cdnszs.ruirobot.com/v2/stc/og/o085/css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/jsp/ogmember/js/float.js"></script>
+
+<script type="text/javascript">
+</script>
+</head>
+
+
+
+
+    
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+                
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    
+
+
+<body style="overflow-x: hidden;">
+
+
+	
+<script>
+	var offsettime = '-14400000';
+	var current = parseInt('1501240706631', 10) || 0;
+	$().ready(function(){
+		GetMemberLatestAnnouncement();
+		setInterval("getDayTime()", 1000);
+	});
+</script>
+
+
+<!--  对IE6、IE7不兼容提示框  -->
+
+
+<script type="text/javascript">
+
+//--------------------------------------------cookie 框架----------------------------------------------------
+jQuery.cookie = function(name, value, options) {
+  if (typeof value != 'undefined') { // name and value given, set cookie
+      options = options || {};
+      if (value === null) {
+          value = '';
+          options.expires = -1;
+      }
+      var expires = '';
+      if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+          var date;
+          if (typeof options.expires == 'number') {
+              date = new Date();
+              date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+          } else {
+              date = options.expires;
+          }
+          expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+      }
+      var path = options.path ? '; path=' + options.path : '';
+      var domain = options.domain ? '; domain=' + options.domain : '';
+      var secure = options.secure ? '; secure' : '';
+      document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+  } else { // only name given, get cookie
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+              if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                  cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                  break;
+              }
+          }
+      }
+      return cookieValue;
+  }
+};
+//--------------------------------------------cookie 框架----------------------------------------------------
+
+
+	//沙巴体育维护页面调用  -放这里是不想每个站点分别调用，必须先执行
+	function NoDataTime(){
+	    var NoDate={
+	   		'startDate':"",
+	   		'endDate':"",
+	   		'apiName':""
+	    };
+	
+	    window.callParentNoData = function(child){
+			child(NoDate);
+	    };
+	}
+	NoDataTime();
+	
+	$(document).ready(function() {
+		var browser=navigator.appName;
+		var b_version=navigator.appVersion;
+		var version=b_version.split(";"); 
+		if(version&&version.length>1){
+			var trim_Version=version[1].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer"&&(trim_Version=="MSIE6.0"||trim_Version=="MSIE7.0" || trim_Version == "MSIE8.0" || trim_Version == "MSIE9.0")){
+				$("#iealert").show();
+				$("#iealertX").click(function(){
+					$("#iealert").hide();
+				});
+			}
+		}
+	 	var ua = navigator.userAgent || " "; 
+	    var pageType= $.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+		 if ((ua.match(/(iPhone|iPod|Android|ios)/i))
+			&& ! ((ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	)))  {
+			 if(pageType2!="pc"){
+				  padJumpToPage('mobile');
+			 }
+		 } 
+	});
+
+	//打开即时聊天窗口
+	function openChatWin() {
+		var onlineservice = 'id:3911,ddgdId:50613157,type:onlinedoc,createUser:null,createTime:2017-06-11 02:54:08.761,updateUser:paigu168,updateTime:2017-06-11 02:57:23.162,titleBig:null,titleSim:null,titleEng:null,docId:16149,status:0,docName:在线客服,contextBig:null,contextSim:null,contextEng:null,junctionBig:http://messenger.providesupport.net/messenger/1kluz7vh756md1neve79r1v962.html,junctionSim:http://messenger.providesupport.net/messenger/1kluz7vh756md1neve79r1v962.html,junctionEng:http://messenger.providesupport.net/messenger/1kluz7vh756md1neve79r1v962.html,isLocal:1,isWindow:1,windowHeight:550,windowWidth:731,contact:null,agentLogin:null,pageMark:null';
+		if(onlineservice!=''){
+			var isLocal ='1';
+			var isWindow = '1';
+			var windowHeight = '550';
+			var windowWidth = '731';
+			var url = 'http://messenger.providesupport.net/messenger/1kluz7vh756md1neve79r1v962.html';
+			if (isWindow == '1') {
+				var params = 'height='
+						+ windowHeight
+						+ ',width='
+						+ windowWidth
+						+ ',top=0,left=0,toolbar=no,menubar=no,scrollbars='
+						+ scroll
+						+ ', resizable=yes,location=yes, status=yes';
+				window.open(url, '即时聊天', params);
+			} else {
+				if (isLocal == '0') {
+					window.location.href = url;
+				} else {
+					window.location.href = ctx + url;
+				}
+			}
+		}else{
+			alert('客服繁忙，请联系上级');
+		}
+		return;
+	}
+	
+</script>
+<style type="text/css"> /* IE提示框CSS */
+ body 
+ {
+	 _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	 _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+ }
+ .iealertMain 
+ {
+ 	 font-family: Arial, Helvetica, sans-serif, Verdana, "SimSun", "Microsoft YaHei", "SimHei", "STHeiti";
+	 color:white;
+	 width: 100%;
+	 z-index: 9999;                                                     /*设置浮动层次*/
+	 overflow: visible;
+	 position: fixed;
+	 line-height:normal;
+	 top: 0px;                                                         /* 其他浏览器下定位，在这里可设置坐标*/
+	 _position: absolute;                                       /*IE6 用absolute模拟fixed*/
+	 _top: expression(documentElement.scrollTop + "px"); /*IE6 动态设置top位置*/
+	 /* documentElement.scrollTop 设置浮动元素始终在浏览器最顶，可以加一个数值达到排版效果 */
+	 background-color:gold;
+	 height: 25px;
+	 text-align: center;
+	 font-size: 18px;
+	 padding-top: 2px;
+ }
+ .iealertMain a
+ {
+ 	font-size: 18px;
+ }
+ .select-pop {
+	width:360px;
+	height:333px;
+	position:fixed!important;/* FF IE7*/
+	left:50%;
+	top:50%;
+	z-index:10999;
+	margin:-166px 0 0 -180px;
+}
+.select-pop2 {
+	width:360px;
+	height:280px;
+	background:url(pop1.png);
+}
+a.select-pop2 {
+	display:block;
+	width:181px;
+	height:53px;
+	background:url(/jsp/member/images/pop2.png);
+	float:left;
+}
+a.select-pop2:hover {
+	background:url(/jsp/member/images/pop2-hover.png);
+}
+a.select-pop3 {
+	display:block;
+	width:179px;
+	height:53px;
+	background:url(/jsp/member/images/pop3.png);
+	float:left;
+}
+a.select-pop3:hover {
+	background:url(/jsp/member/images/pop3-hover.png);
+}
+#lotteryAd{
+	width:280px; 
+	height:318px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+	display:none;
+	left:0px;
+}
+#lotteryAdMin{
+	width:110px; 
+	height:110px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	left:0px;
+	z-index: 9000;
+	display: none;
+}
+.mobile-img{
+	width:300px; 
+	height:219px;
+	cursor:pointer;
+	background-size:100%;
+}
+#mobile-close{
+	position:absolute;
+	bottom:13px;
+	left:2px;
+	cursor:pointer;
+}
+#mobile-close2{
+	position:absolute; 
+	top:-2px; 
+	right:-2px;
+	cursor:pointer;
+}
+#mobileDescription{
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+}
+.popBg,.popIframe {
+background-color: #000;
+display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:10998;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+ </style>
+ <!--  IE提示框  -->
+<div id="iealert"  style="display:none;">
+	<div class="iealertMain">
+		您所使用的浏览器不能被网站很好的支持,为了您能获得更好的浏览体验推荐您使用 <a href="http://www.uc.cn/" target="_blank" >UC 浏览器</a> 访问本网站。
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+
+<!-- 手机端提示框 -->
+<div id="mobilealert"  style="display:none;">
+	<div class="iealertMain">
+		 <a href="/PageChange?type=mobile">访问手机端</a>
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+<!-- 判断设置是否需要显示微信登录的图标 -->
+
+
+
+<!--  移动版提示框 
+<div id="mobileToPcAlert"  style="display:none;">
+	<div class="iealertMain" style="display:none;"> 
+		前往<a href="/PageChange?type=mobile" target="_top">移动版</a>
+		<div id="mobileAlertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+</div>
+ -->
+<!-- 广告部分 -->
+<div id="ad_div_main" style="display:none;overflow-x:hidden;"></div>
+<style>.ui-dialog .ui-dialog-content{padding: 3px;}</style>
+
+
+<!-- 平板提示 -->
+<div id="popDiv" class="select-pop" style="display:none;">
+   	<div class="select-pop1"><img src="/jsp/member/images/pop1.png" /></div>
+       <div>
+       	<a href="javascript:padJumpToPage('mobile');" class="select-pop2"></a>
+           <a href="javascript:padJumpToPage('pc');" class="select-pop3"></a>
+   	</div>
+</div>
+<div id="popBg" class="popBg" style="display:none;"></div>
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+
+<script type="text/javascript">
+	(function(){
+		var ua = navigator.userAgent  || " "; 
+	    var pageType=$.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+	    if ( (ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	) && !pageType
+	    	){
+			if(pageType2!="pc"){
+				padJumpToPage('mobile');
+			}
+	    }
+	})();
+	function padJumpToPage(type){
+		$.cookie('pageType', type);
+		top.window.location.href = "/PageChange?type=" + type;
+	}
+</script>
+
+<!-- 服务器监控使用，不能去掉 -->
+<div style="display: none">
+	<span style="display: none">fwkae5ldVj78cQE0U7ab3Y5O6zyl3SwK</span>
+</div>
+<!-- 弹层登录 -->
+<div id="login-tc"></div>
+<!-- 登录协议 -->
+<div id="loginProtocol"></div>
+<!-- 弹层验证吗 -->
+<div id="verificationCode_tc"></div>
+<div class="header">
+    <div class="center">
+        <div class="logo pull-left">
+            <a href="#">
+                <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="text pull-left">
+            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/text_top.png" alt="">
+        </div>
+        <div class="url pull-right">
+            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/url.png" alt="">
+        </div>
+        <ul class="top-nav">
+            <li><a href="javascript:void(0)" class="licence-trigger">合法牌照展示</a></li>
+            <li class="line">|</li>
+            <li><a href="/jsp/ogmember/space.jsp">优惠大厅</a></li>
+            <li class="line">|</li>
+            <li><a href="javascript::" onclick="trialGame()" class="flash-color">免费试玩</a></li>
+            <li class="line">|</li>
+            <li><a  href="javascript:toEditDocDetails('16166');" style="cursor: pointer;">合作代理</a></li>
+            <li class="line">|</li>
+            <li><a href="javascript:void(0)" class="flash-color play-vedio">太阳城宣传片</a></li>
+            <li class="line">|</li>
+            <li><a href="javascript:;">线路检测</a></li>
+            <li class="line">|</li>
+            <li class="select-language"><!-- 
+                 --><span class="zh-CN" title="简体中文">简体中文</span><!-- 
+                 --><span class="zh-TW" title="繁体中文">繁体中文</span><!-- 
+                 --><span class="en-US" title="English">English</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="nav">
+    <div class="fixed-top js-fixed">
+        <div class="center">
+            <ul>
+                <li class="nav-home"><a href="/index.jsp">网站首页</a></li>
+                <li class="nav-live hot">
+                    <a href="/member/flex?type=init0">真人视讯</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="/member/flex?type=init0" class="hot">天天返水1.5%</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=og','OG平台','no')" class="hot">OG世界厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')" class="hot">BBIN旗舰厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">AG女优厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=ab','欧博平台','no')">歐博极速厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=opus','OPUS平台','no')">OPUS贵宾厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=mg','MG平台','no')">MG欧美厅</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=lebo','LEBO平台','no')">LEBO尊爵厅</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-sport hot">
+                    <a href="/jsp/member/sports/sportsList.jsp">体育赛事</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="/FootBall" class="hot">天天返水1.2%</a>
+                            <a href="/FootBall">皇冠体育</a>
+                            <a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">BBIN体育</a>
+                            <a href="javascript:;" onclick="window.open('/member/flex?type=loginapi&key=ibc','_self')">沙巴体育</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-slot hot">
+                    <a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">电子游艺</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="/jsp/ogmember/electronicGame/oggelgame.jsp" class="hot">天天返水3.0%</a>
+                            <a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">AG电子</a>
+                            <a href="javascript:;" onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">BBIN电子</a>
+                            <a href="javascript:QSFUN.getGamePager('-', 'Game', 'casino', 1)" class="hot">MG老虎机</a>
+                            <a href="javascript:QSFUN.getGamePager('-', 'Game', 'pt', 1)" class="hot">PT角子机</a>
+                            <a href="javascript:;" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')">捕鱼王</a>
+                            <a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">MW电子</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-mg">
+                    <a href="javascript:QSFUN.getGamePager('-', 'Game', 'casino', 1)">MG电子</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="javascript:QSFUN.getGamePager('-', 'Game', 'casino', 1)" class="hot">天天返水3.0%</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=breakaway')" class="hot">摆脱</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=ReelGemsV90')" class="hot">宝石连线</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=Bridesmaids')">伴娘</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=luckyfirecracker')">招财鞭炮</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=RubyAvalonV90')">阿瓦隆</a>
+                            <a onclick="openWin3('/member/flex?type=playgame&gameid=StarlightKissV90')">星光之吻</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-pt">
+                    <a href="javascript:QSFUN.getGamePager('-', 'Game', 'pt', 1)">PT电子</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="javascript:QSFUN.getGamePager('-', 'Game', 'pt', 1)" class="hot">天天返水3.0%</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=fm')" class="hot">古怪猴子</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=bib')" style="color:#f00">超级蓝</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=ct')">船长的宝藏</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=ssl')">标准老虎机</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=fdt')">梦幻赛马</a>
+                            <a onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=sbj')">21点刮刮乐</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-lottery">
+                    <a href="/jsp/ogmember/lottery/lottery.jsp" class="flash-color">彩票游戏</a>
+                    <div class="subnav">
+                        <div class="border">
+                            <span class="caret"></span>
+                            <a href="/jsp/ogmember/lottery/lottery.jsp" class="hot">天天返水1.2%</a>
+                            <a href="/jsp/ogmember/lottery/lotteryList.jsp">OG彩票</a>
+                            <a href="javascript:openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">BBIN彩票</a>
+                            <a href="javascript:;" onclick="targetLottery('LT2')" class="hot">重庆时时彩</a>
+                            <a href="javascript:;" onclick="targetLottery('LT24')" class="hot">香港六合彩</a>
+                            <a href="javascript:;" onclick="targetLottery('LT6')">北京赛车</a>
+                            
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-mobile"><a href="javascript:void(0);" onclick="window.open('/jsp/member/help/mobileDescription.html','_blank')"   class="flash-color">手机下注</a></li>
+                <li class="nav-promotion hot"><a href="/jsp/ogmember/space.jsp">优惠活动</a></li>
+                <li class="nav-chat"><a href="javascript:;" onclick="openChatWin()" class="flash-color" >在线客服</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <div class="fullSlide">
+        <div class="bd">           
+            
+	        	<ul>
+		        	
+		            	<li _src="url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o085/30ff54a9-582a-4292-baf8-895470a48994.jpg)" style="background: center 0 no-repeat;">
+		            		<a target="_blank" 
+		            			
+								
+							>		                    	
+		                   </a>
+		                </li>
+		            
+	            </ul>
+	        
+        </div>
+        <div class="hd">
+            <ul></ul>
+        </div>
+        <span class="prev"></span>
+        <span class="next"></span> 
+    </div>
+    
+	    <div class="login-box">
+	        <div class="center">
+	            <form action="">
+	                <h2></h2>
+	                <div class="border">
+	                    <span class="icon user"></span>
+	                    <input type="text" placeholder="账　号"
+	                    maxlength="12"
+						onkeydown="enterLogin(event)" 
+						id="hd_account"
+						onFocus="OnFocusFun(this,'')"
+	                    onBlur="OnBlurFun(this,'')"
+	                    >
+	                </div>
+	                <div class="border">
+	                    <span class="icon password"></span>
+	                    <input type="password" placeholder="密　码"
+	                    	maxlength="12" 
+							onkeydown="enterLogin(event)" id="hd_passwd"
+							onFocus="OnFocusFun(this,'')"
+	                    	onBlur="OnBlurFun(this,'')">
+	                </div>
+	                
+	                <div class="btns clearfix">
+	                    <button class="login-btn" onclick="dengRu(); return false"></button>
+	                    <button class="forget" onclick="openForgetPassword(); return false"></button>
+	                    <a href="javascript:;" class="register" onclick="returnSavaMember()"></a>
+	                </div>
+	            </form>
+	        </div>
+	    </div>
+	
+	
+    <div class="news">
+        <div class="center">
+            <h2 class="title pull-left">
+                <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/title_news.png" alt="">
+            </h2>
+            <div class="box pull-right">
+                <div class="marqueen" id="memberLatestAnnouncement">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="center">
+        <section class="gamelist-area">
+            <ul class="game-nav">
+                <li data-game="og" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"  class="active"></li>
+                <li data-game="ag" onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')"></li>
+                <li data-game="bbin" onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')"></li>
+                <li data-game="pt" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"></li>
+                <li data-game="mg" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"></li>
+                <li data-game="ag-fish" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"></li>
+            </ul>
+            <div class="game-area">
+                <div data-infor="og" class="active">
+                    <p class="info">OG平台是欧美最热门的游戏平台之一，该平台开发的漫威主题系列游戏深受广大玩家喜爱，风靡全球，精彩刺激，爱不释手....</p>
+                    <span class="jackpot n1">7,602,293.26</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=139')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-01.jpg" alt="">
+                            <p>百乐牛牛     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=20')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-02.jpg" alt="">
+                            <p>超级斗地主     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=117')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-03.jpg" alt="">
+                            <p>明星97     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=113')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-04.jpg" alt="">
+                            <p>魔豆       <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=40')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-05.jpg" alt="">
+                            <p>森林舞会    <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=mwg&type=playgame&gameid=110')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mw-06.jpg" alt="">
+                            <p>水浒传     <span class="star">★★★★★</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-infor="ag">
+                    <p class="info">AG电子是亚洲最知名的电子游艺平台之一，含有上千种小游戏，其中捕鱼达人深受广大玩家喜爱....</p>
+                    <span class="jackpot n2">8,402,253.22</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-01.jpg" alt="">
+                            <p>捕鱼王2     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-02.jpg" alt="">
+                            <p>性感女仆     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-03.jpg" alt="">
+                            <p>水果拉霸     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-04.jpg" alt="">
+                            <p>灵猴献瑞    <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-05.jpg" alt="">
+                            <p>杰克高手     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-06.jpg" alt="">
+                            <p>复古花园     <span class="star">★★★★★</span></p>
+                        </li>
+                       
+                  </ul>
+                </div>
+                <div data-infor="bbin">
+                    <p class="info">BBIN电子是全亚洲最流行的电子平台之一，游戏多达上千种，连环夺宝，糖果派对，三国等系列游戏，画面精美，独树一帜，深受广大玩家喜爱....</p>
+                    <span class="jackpot n3">8,302,243.13</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-01.jpg" alt="">
+                            <p>糖果派对     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-02.jpg" alt="">
+                            <p>连环夺宝     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-03.jpg" alt="">
+                            <p>喜福猴年     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-04.jpg" alt="">
+                            <p>沙滩排球     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-05.jpg" alt="">
+                            <p>三国     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=bb','BB平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/bbin-06.jpg" alt="">
+                            <p>钻石水果盘     <span class="star">★★★★★</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-infor="pt">
+                    <p class="info">PT（palytech）平台是欧美最热门的游戏平台之一，该平台开发的漫威主题系列游戏深受广大玩家喜爱，风靡全球，精彩刺激，爱不释手....</p>
+                    <span class="jackpot n4">9,303,293.24</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=fm')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-01.jpg" alt="">
+                            <p>古怪猴子     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-02.jpg" alt="">
+                            <p>大明帝国     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?key=pt&type=playgame&gameid=bib')" >
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-03.jpg" alt="">
+                            <p>超级蓝     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-04.jpg" alt="">
+                            <p>诙谐财富     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-05.jpg" alt="">
+                            <p>熊之舞    <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/pt-06.jpg" alt="">
+                            <p>丛林心脏     <span class="star">★★★★★</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-infor="mg">
+                    <p class="info">MG平台是欧美最流行的电子游艺平台之一，提供超过百款游MG平台是欧美最流行的电子游艺平台之一，提供超过百款游戏.....</p>
+                    <span class="jackpot n5">8,905,293.67</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=ReelGemsV90')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-01.jpg" alt="">
+                            <p>宝石之轮     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=BreakAwayV90')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-02.jpg" alt="">
+                            <p>冰上曲棍球    <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=dragondance')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-03.jpg" alt="">
+                            <p>舞龙     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=Bridesmaids')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-04.jpg" alt="">
+                            <p>伴娘我最大    <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=ImmortalRomance')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-05.jpg" alt="">
+                            <p>不朽的爱情     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=playgame&gameid=BustTheBank')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/mg-06.jpg" alt="">
+                            <p>抢银行    <span class="star">★★★★★</span></p>
+                        </li>
+                    </ul>
+                </div>
+                <div data-infor="ag-fish">
+                    <p class="info">AG电子是亚洲最知名的电子游艺平台之一，含有上千种小游戏，其中捕鱼达人深受广大玩家喜爱....</p>
+                    <span class="jackpot n6">6,508,893.31</span>
+                    <ul class="game-list">
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-01.jpg" alt="">
+                            <p>国际厅     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-02.jpg" alt="">
+                            <p>竞咪     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-03.jpg" alt="">
+                            <p>包桌     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-04.jpg" alt="">
+                            <p>多台     <span class="star">★★★★★</span></p>
+                        </li>
+                        <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-05.jpg" alt="">
+                            <p>电子游戏     <span class="star">★★★★★</span></p>
+                        </li>
+                         <li onclick="openWin3('/member/flex?type=loginapi&key=ag','AG平台','no')">
+                            <img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/gamelist/ag-fish-06.jpg" alt="">
+                            <p>捕鱼游戏     <span class="star">★★★★★</span></p>
+                        </li>
+                       
+                  </ul>
+                </div>
+
+                <div class="btn-group">
+                    <span class="prev"></span>
+                    <a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)" class="game-more"></a>
+                    <span class="next"></span>
+                </div>
+
+                <div class="marqueen-info">
+                    <div class="marqueen-up caijin">
+                        <p><span class="s1">KAKA***	</span><span class="s2">获得奖金</span><span class="color"> 6250</span>元</p>
+						<p><span class="s1">LUSE***	</span><span class="s2">获得奖金</span><span class="color"> 3900</span>元</p>
+						<p><span class="s1">LEEA***	</span><span class="s2">获得奖金</span><span class="color"> 9210</span>元</p>
+						<p><span class="s1">DAOL***	</span><span class="s2">获得奖金</span><span class="color"> 3350</span>元</p>
+						<p><span class="s1">DOWN***</span><span class="s2">获得奖金</span><span class="color">4160</span>元</p>
+						<p><span class="s1">KAIR***	</span><span class="s2">获得奖金</span><span class="color"> 8160</span>元</p>
+						<p><span class="s1">PJCS***	</span><span class="s2">获得奖金</span><span class="color"> 7550</span>元</p>
+						<p><span class="s1">ZERA***	</span><span class="s2">获得奖金</span><span class="color"> 5350</span>元</p>
+						<p><span class="s1">JOKE***	</span><span class="s2">获得奖金</span><span class="color"> 4210</span>元</p>
+						<p><span class="s1">JOOE***	</span><span class="s2">获得奖金</span><span class="color"> 9250</span>元</p>
+						<p><span class="s1">BECK***	</span><span class="s2">获得奖金</span><span class="color"> 8230</span>元</p>
+						<p><span class="s1">PETE***	</span><span class="s2">获得奖金</span><span class="color"> 5100</span>元</p>
+						<p><span class="s1">WANG***</span><span class="s2">获得奖金</span><span class="color"> 4300</span>元</p>
+						<p><span class="s1">QINT***	</span><span class="s2">获得奖金</span><span class="color"> 7550</span>元</p>
+						<p><span class="s1">EVAN***	</span><span class="s2">获得奖金</span><span class="color"> 9854</span>元</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <ul class="other-games clearfix">
+            <li class="live">
+                <a href="/member/flex?type=init0">
+                    <h3>真人娱乐</h3>
+                    <h4>LIVE CASINO</h4>
+                    <p>提供真人百家乐、轮盘、骰宝、龙虎斗、二八杠等，美女荷官在线发牌，画面真实高清，在网上体验也能给您带来如同亲临赌场的刺激！</p>
+                </a>
+            </li>
+            <li class="sport">
+                <a href="/jsp/member/sports/sportsList.jsp">
+                    <h3>体育赛事</h3>
+                    <h4>SPORTS GAMES</h4>
+                    <p>每月提供上万场的体育赛事，有足球、篮球、网球、排球等。五彩缤纷的体育赛事，精心设计的投注界面，带给您轻怡静的体育！</p>
+                </a>
+            </li>
+            <li class="lottery">
+                <a href="/jsp/ogmember/lottery/lottery.jsp">
+                    <h3>彩票游戏</h3>
+                    <h4>LOTTERY GAMES</h4>
+                    <p>时时彩、快乐彩、六合彩、3d彩等，彩票游戏丰富，所有赛果依据官方开奖结果，带给您一夜致富的机会及空前的游戏体验！</p>
+                </a>
+            </li>
+        </ul>
+        <section class="branding clearfix">
+            <ul class="pull-left">
+                <li class="l01">
+                    <h3>亚洲第一博彩品牌</h3>
+                    <p>亚洲实力最强劲、最完善的实体赌场</p>
+                </li>
+                <li class="l02">
+                    <h3>存提速度行业顶尖</h3>
+                    <p>存款最快30秒，提款50秒</p>
+                </li>
+                <li class="l03">
+                    <h3>玩家数据安全保障</h3>
+                    <p>采用256位SSL加密系统保障数据安全</p>
+                </li>
+            </ul>
+            <ul class="pull-right">
+                <li class="r01">
+                    <h3>游戏产品丰富完整</h3>
+                    <p>欧亚当下热门游戏产品一网打尽</p>
+                </li>
+                <li class="r02">
+                    <h3>大额无忧资金安全</h3>
+                    <p>全程担保会员每一笔存款和取款</p>
+                </li>
+                <li class="r03">
+                    <h3>最贵VIP独享特权</h3>
+                    <p>加入VIP即可享受独家最贵特权</p>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+	
+
+
+<div class="footer">
+    <div class="center">
+        <ul class="contact">
+            <li class="info-tel">易记域名<span>www.1408.cc</span></li>
+            <li class="info-mail">联系邮箱<span>tyc1408@gmail.com</span></li>
+            <li class="info-qq">客服QQ<span>943589999</span></li>
+            <li class="info-chat">7X24小时<span>在线客服</span></li>
+        </ul>
+        <ul class="links">
+            
+				
+					
+				
+					
+												
+							<li><a href="javascript:void(0);" onclick="toEditDocDetails(16151)">关于我们</a></li> 
+						
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+												
+							<li><a href="javascript:void(0);" onclick="toEditDocDetails(16166)">代理加盟</a></li> 
+						
+					
+				
+					
+				
+					
+												
+							<li><a href="javascript:void(0);" onclick="toEditDocDetails(16519)">存款帮助</a></li> 
+						
+					
+				
+					
+												
+							<li><a href="javascript:void(0);" onclick="toEditDocDetails(16168)">取款帮助</a></li> 
+						
+					
+				
+		    
+            <li><a href="javascript:void(0);" onClick="openHelp('/help?type=1253605')">常见问题</a></li>
+            <li><a href="/sysProposalServlet?type=1">投诉建议</a></li>
+        </ul>
+        <p class="copyright">
+            Copyright © 太阳城集团 Reserved
+        </p>
+    </div>
+</div>
+
+<style>
+	#phoneid{
+		position: fixed;
+  			z-index: 9999;
+  			right:0px;
+  			bottom: 0px;
+  			cursor: pointer;
+	}
+	#phoneid2{
+		position: fixed;
+  			z-index: 9999;
+  			left: 0px;
+  			bottom: 0px;
+	}
+	.foot_left_close {
+		position: absolute;
+		left: 187px;
+		top: -7px;
+	} 
+	#phone_fr{
+		position: fixed;
+  			z-index: 9999;
+  			bottom: 0px;
+  			right: 60px
+	}
+	.foot_right_close {
+		position: absolute;
+		right: 239px;
+		top: -7px;
+	} 
+</style>
+<div id="phoneid">
+	<a href="javascript:;" onclick="javascript:document.getElementById('phoneid').style.display='none';" class="foot_right_close"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/foot_close.png"></a>
+	<a href="javascript:;" onclick="turnLogin()"
+			><img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/foot_right.gif"></a>
+</div>
+<div id="phoneid2">
+	<a href="javascript:;" onclick="javascript:document.getElementById('phoneid2').style.display='none';" class="foot_left_close"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/foot_close.png"></a>
+	<a><img src=" //cdnszs.ruirobot.com/v2/stc/og/o085/images/foot_left.gif"></a>
+</div>
+
+<!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+<div id="ci9Ial" style="z-index:100;position:absolute"></div><div id="sd9Ial" style="display:none"></div><script type="text/javascript">var se9Ial=document.createElement("script");se9Ial.type="text/javascript";var se9Ials=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/1kluz7vh756md1neve79r1v962/safe-monitor.js?ps_h=9Ial&ps_t="+new Date().getTime();setTimeout("se9Ial.src=se9Ials;document.getElementById('sd9Ial').appendChild(se9Ial)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=1kluz7vh756md1neve79r1v962"><img src="http://image.providesupport.com/image/1kluz7vh756md1neve79r1v962.gif" style="border:0px" alt=""/></a></div></noscript>
+<!-- END ProvideSupport.com Visitor Monitoring Code -->
+
+
+
+	
+		
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+	
+	
+
+
+
+	
+		 
+<style>
+	#box1 a {display: block}
+	#box2 a {display: block}
+</style>
+
+<div id="box1" picfloat="left" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; float:left;">	
+ 	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+			
+		
+			
+		
+			
+		
+			
+		
+		
+	
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/56dd4371-20af-4a2e-98fc-6cc5c79fc47b.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:QSFUN.getGamePager('#', 'Game', 'casino', 1)"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/2cd36ff0-65eb-4708-a4cb-bd940d08218d.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://wpa.qq.com/msgrd?v=3&uin=943589999&site=qq&menu=yes" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://wpa.qq.com/msgrd?v=3&uin=943589999&site=qq&menu=yes"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/f7fc214b-cfb8-4394-800f-4e32676a4c18.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+															target="_blank" href="/jsp/member/help/mobileDescription.html#slide-1" 		
+														
+														
+																					
+												
+												
+											
+												
+												
+													href="/jsp/member/help/mobileDescription.html#slide-1"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/84f3d519-0f9b-4087-9267-477bd6a06cdd.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+																
+																 	
+																 		href="javascript:;" onclick="turnLogin()"
+																 	
+																 	
+																
+																
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:QSFUN.MGetPager('memberCentre','bankSavings')"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/27916ad1-3075-4803-b2e6-677250266b55.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box1')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/d173c3f6-6107-4e1a-934d-563929690d78.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+</div>
+
+<div id="box2" picfloat="right" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; right: 0; float: right;">
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openChatWin()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/a969c085-509c-427f-b134-ac3b7d055142.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openChatWin()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/2e24dee8-325f-4ac6-b82f-b2de033dd384.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="http://wpa.qq.com/msgrd?v=3&uin=943679999&site=qq&menu=yes"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/0cc05067-1692-43ac-bd47-a159b239b257.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:returnSavaMember()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/5c0969a5-d63b-4bb8-804a-08c5faf454c1.gif">
+							</a>
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o085/37285490-2fc3-4961-92be-1a39c0bdbf2d.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box2')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o085/bd815235-3af5-4dda-ab67-0cfcc9ce17d3.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+	</div>
+
+
+
+<script type="text/javascript">
+	if (self.location != top.location)
+		top.location = self.location;
+	var left_top = 170, right_top = 170, float_list = [];
+	$(window)
+			.load(
+			function() {
+				// 廳主自改 - 浮動圖
+				float_list['1'] = $('#box1');
+				float_list['2'] = $('#box2');
+				for ( var i in float_list) {
+					var self = float_list[i], picfloat = (self
+							.attr('picfloat') == 'right') ? 1 : 0;
+					self
+							.show()
+							.Float(
+							{
+								'floatRight' : picfloat,
+								'topSide' : ((picfloat == 1) ? right_top
+										: left_top),
+								close : "closebox" + (i)
+							});
+					// ie6 png bug
+					if (navigator.userAgent.toLowerCase().indexOf(
+									'msie 6') != -1) {
+						$.each(self.find('img'), function() {
+							$(this).css({
+								'width' : $(this).width(),
+								'height' : $(this).height()
+							});
+						});
+					}
+
+					if (picfloat) {
+						right_top = right_top + 10
+								+ (self.height() || 250);
+					} else {
+						left_top = left_top + 10
+								+ (self.height() || 250);
+					}
+					self.show();
+				}
+				//点击背景遮罩移除iframe和背景
+			    $("#YuFrame1Bg").click(function() {
+			        $("#YuFrame1").remove();
+			        $("#YuFrame1Bg").remove();
+			    });
+			});
+			
+			function closePic(i) {
+				document.getElementById(i).style.display = 'none';
+			}
+/*
+			function wxLogin()
+			{
+				var wxSrc=$("#YuFrame1").attr("src");
+				console.log(wxSrc);
+				if(wxSrc.indexOf("#ok") > 0)
+				{
+					console.log('stop');
+					clearInterval(ref);
+					///请求地址
+					$.ajax({
+				        type: "post",
+				        async: false,//false代表只有在等待ajax执行完毕后才执行 也就是同步
+				        url: "/Weixin/Login",
+				        contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+				        dataType: "json",
+				        success: function (data) {
+				            if(data.status)
+				            {
+				            	location.reload();
+				            }else
+				            {
+				            	alert("登录出现问题，请重新扫码登录！");
+				            	showWx(sessionId);
+				            }
+				        }
+				    }); 
+				}
+				console.log('jixu');
+			} */
+</script>
+
+
+	
+
+</body>
+</html>

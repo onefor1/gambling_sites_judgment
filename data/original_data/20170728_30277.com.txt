@@ -1,0 +1,1554 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title></title>
+
+
+
+
+
+
+
+<script type="text/javascript">
+ 	var ctx="";
+ 	var loginStatus='';	//登录状态，"0"为已登录
+ 	var pageUrl = window.location.href;
+</script>
+<!-- jQuery -->
+<script type="text/javascript" src="/common/js/jquery-1.8.2.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="/jsp/member/default/css/jquery-ui-1.9.1.custom.min.css">
+<script src="/common/js/me_common.js"></script>
+<!-- 公告js,css -->
+<script type="text/javascript" src="/common/js/announment.js"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/ann.css" />
+<!-- 会员中心公用js -->
+<script type="text/javascript" src="/jsp/member/default/js/common.js"></script>
+<!-- 会员登录后刷新余额和展示各个api的余额 -->
+<link href="/jsp/member/default/css/refreshBalance.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- o089专用 -->
+<link rel="shortcut icon" href=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="stylesheet" type="text/css" href=" //cdnszs.ruirobot.com/v2/stc/og/o089/css/normalize.css"/>
+<link rel="stylesheet" type="text/css" href=" //cdnszs.ruirobot.com/v2/stc/og/o089/css/site.css"/>
+
+
+<script type="text/javascript" src="/jsp/ogmember/js/swfobject.js"></script>
+
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o089/js/jquery.marquee.min.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o089/js/superslide.2.1.js"></script>
+<script type="text/javascript" src=" //cdnszs.ruirobot.com/v2/stc/og/o089/js/public.js"></script>
+<link rel="stylesheet" type="text/css" href=" //cdnszs.ruirobot.com/v2/stc/og/o089/css/home.css"/>
+<link rel="stylesheet" type="text/css" href=" //cdnszs.ruirobot.com/v2/stc/og/o089/css/homes.css"/>
+<script type="text/javascript" src="/jsp/ogmember/js/float.js"></script>
+
+<script type="text/javascript">
+$().ready(function(){
+	selMenu("menu_01");
+});
+</script>
+</head>
+<body class="layout">
+	
+
+
+<script type="text/javascript">
+var setActiveColor = true;
+$().ready(function(){
+	setInterval(function(){
+		if(setActiveColor){
+            $("#xjh").css("color","#f00");
+            $("#dwb").css("color","#f00");
+            $(".hdbl").css("color","#ff0000");
+			setActiveColor=false;
+		}
+		else{
+            $("#xjh").css("color","#fff");
+            $("#dwb").css("color","#fff");
+            $(".hdbl").css("color","#fffc00");
+			setActiveColor=true;
+		}
+	},500);
+	
+});
+//最新公告
+GetMemberLatestAnnouncement();
+</script>
+<!--  对IE6、IE7不兼容提示框  -->
+
+
+<script type="text/javascript">
+
+//--------------------------------------------cookie 框架----------------------------------------------------
+jQuery.cookie = function(name, value, options) {
+  if (typeof value != 'undefined') { // name and value given, set cookie
+      options = options || {};
+      if (value === null) {
+          value = '';
+          options.expires = -1;
+      }
+      var expires = '';
+      if (options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+          var date;
+          if (typeof options.expires == 'number') {
+              date = new Date();
+              date.setTime(date.getTime() + (options.expires * 24 * 60 * 60 * 1000));
+          } else {
+              date = options.expires;
+          }
+          expires = '; expires=' + date.toUTCString(); // use expires attribute, max-age is not supported by IE
+      }
+      var path = options.path ? '; path=' + options.path : '';
+      var domain = options.domain ? '; domain=' + options.domain : '';
+      var secure = options.secure ? '; secure' : '';
+      document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+  } else { // only name given, get cookie
+      var cookieValue = null;
+      if (document.cookie && document.cookie != '') {
+          var cookies = document.cookie.split(';');
+          for (var i = 0; i < cookies.length; i++) {
+              var cookie = jQuery.trim(cookies[i]);
+              // Does this cookie string begin with the name we want?
+              if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                  cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                  break;
+              }
+          }
+      }
+      return cookieValue;
+  }
+};
+//--------------------------------------------cookie 框架----------------------------------------------------
+
+
+	//沙巴体育维护页面调用  -放这里是不想每个站点分别调用，必须先执行
+	function NoDataTime(){
+	    var NoDate={
+	   		'startDate':"",
+	   		'endDate':"",
+	   		'apiName':""
+	    };
+	
+	    window.callParentNoData = function(child){
+			child(NoDate);
+	    };
+	}
+	NoDataTime();
+	
+	$(document).ready(function() {
+		var browser=navigator.appName;
+		var b_version=navigator.appVersion;
+		var version=b_version.split(";"); 
+		if(version&&version.length>1){
+			var trim_Version=version[1].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer"&&(trim_Version=="MSIE6.0"||trim_Version=="MSIE7.0" || trim_Version == "MSIE8.0" || trim_Version == "MSIE9.0")){
+				$("#iealert").show();
+				$("#iealertX").click(function(){
+					$("#iealert").hide();
+				});
+			}
+		}
+	 	var ua = navigator.userAgent || " "; 
+	    var pageType= $.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+		 if ((ua.match(/(iPhone|iPod|Android|ios)/i))
+			&& ! ((ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	)))  {
+			 if(pageType2!="pc"){
+				  padJumpToPage('mobile');
+			 }
+		 } 
+	});
+
+	//打开即时聊天窗口
+	function openChatWin() {
+		var onlineservice = 'id:3966,ddgdId:50707780,type:onlinedoc,createUser:null,createTime:2017-06-27 03:14:13.08,updateUser:dfjto089,updateTime:2017-06-27 03:15:40.791,titleBig:null,titleSim:null,titleEng:null,docId:16707,status:0,docName:在线客服,contextBig:null,contextSim:null,contextEng:null,junctionBig:https://static.meiqia.com/dist/standalone.html?_=t&eid=58916,junctionSim:https://static.meiqia.com/dist/standalone.html?_=t&eid=58916,junctionEng:https://static.meiqia.com/dist/standalone.html?_=t&eid=58916,isLocal:1,isWindow:1,windowHeight:542,windowWidth:690,contact:null,agentLogin:null,pageMark:null';
+		if(onlineservice!=''){
+			var isLocal ='1';
+			var isWindow = '1';
+			var windowHeight = '542';
+			var windowWidth = '690';
+			var url = 'https://static.meiqia.com/dist/standalone.html?_=t&eid=58916';
+			if (isWindow == '1') {
+				var params = 'height='
+						+ windowHeight
+						+ ',width='
+						+ windowWidth
+						+ ',top=0,left=0,toolbar=no,menubar=no,scrollbars='
+						+ scroll
+						+ ', resizable=yes,location=yes, status=yes';
+				window.open(url, '即时聊天', params);
+			} else {
+				if (isLocal == '0') {
+					window.location.href = url;
+				} else {
+					window.location.href = ctx + url;
+				}
+			}
+		}else{
+			alert('客服繁忙，请联系上级');
+		}
+		return;
+	}
+	
+</script>
+<style type="text/css"> /* IE提示框CSS */
+ body 
+ {
+	 _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	 _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+ }
+ .iealertMain 
+ {
+ 	 font-family: Arial, Helvetica, sans-serif, Verdana, "SimSun", "Microsoft YaHei", "SimHei", "STHeiti";
+	 color:white;
+	 width: 100%;
+	 z-index: 9999;                                                     /*设置浮动层次*/
+	 overflow: visible;
+	 position: fixed;
+	 line-height:normal;
+	 top: 0px;                                                         /* 其他浏览器下定位，在这里可设置坐标*/
+	 _position: absolute;                                       /*IE6 用absolute模拟fixed*/
+	 _top: expression(documentElement.scrollTop + "px"); /*IE6 动态设置top位置*/
+	 /* documentElement.scrollTop 设置浮动元素始终在浏览器最顶，可以加一个数值达到排版效果 */
+	 background-color:gold;
+	 height: 25px;
+	 text-align: center;
+	 font-size: 18px;
+	 padding-top: 2px;
+ }
+ .iealertMain a
+ {
+ 	font-size: 18px;
+ }
+ .select-pop {
+	width:360px;
+	height:333px;
+	position:fixed!important;/* FF IE7*/
+	left:50%;
+	top:50%;
+	z-index:10999;
+	margin:-166px 0 0 -180px;
+}
+.select-pop2 {
+	width:360px;
+	height:280px;
+	background:url(pop1.png);
+}
+a.select-pop2 {
+	display:block;
+	width:181px;
+	height:53px;
+	background:url(/jsp/member/images/pop2.png);
+	float:left;
+}
+a.select-pop2:hover {
+	background:url(/jsp/member/images/pop2-hover.png);
+}
+a.select-pop3 {
+	display:block;
+	width:179px;
+	height:53px;
+	background:url(/jsp/member/images/pop3.png);
+	float:left;
+}
+a.select-pop3:hover {
+	background:url(/jsp/member/images/pop3-hover.png);
+}
+#lotteryAd{
+	width:280px; 
+	height:318px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+	display:none;
+	left:0px;
+}
+#lotteryAdMin{
+	width:110px; 
+	height:110px;
+	cursor:pointer;
+	background-size:100%;
+	position: fixed;
+	bottom: 5px;
+	left:0px;
+	z-index: 9000;
+	display: none;
+}
+.mobile-img{
+	width:300px; 
+	height:219px;
+	cursor:pointer;
+	background-size:100%;
+}
+#mobile-close{
+	position:absolute;
+	bottom:13px;
+	left:2px;
+	cursor:pointer;
+}
+#mobile-close2{
+	position:absolute; 
+	top:-2px; 
+	right:-2px;
+	cursor:pointer;
+}
+#mobileDescription{
+	position: fixed;
+	bottom: 5px;
+	z-index: 9999;
+}
+.popBg,.popIframe {
+background-color: #000;
+display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:10998;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+document.compatMode=='CSS1Compat') ?
+documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+ </style>
+ <!--  IE提示框  -->
+<div id="iealert"  style="display:none;">
+	<div class="iealertMain">
+		您所使用的浏览器不能被网站很好的支持,为了您能获得更好的浏览体验推荐您使用 <a href="http://www.uc.cn/" target="_blank" >UC 浏览器</a> 访问本网站。
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+
+<!-- 手机端提示框 -->
+<div id="mobilealert"  style="display:none;">
+	<div class="iealertMain">
+		 <a href="/PageChange?type=mobile">访问手机端</a>
+		<div id="iealertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+	<div style="width:100%;height:25px;">
+		&nbsp;&nbsp;
+	</div>
+</div>
+<!-- 判断设置是否需要显示微信登录的图标 -->
+
+
+
+<!--  移动版提示框 
+<div id="mobileToPcAlert"  style="display:none;">
+	<div class="iealertMain" style="display:none;"> 
+		前往<a href="/PageChange?type=mobile" target="_top">移动版</a>
+		<div id="mobileAlertX" style="cursor: pointer; position:absolute;top: 0px;right: 5px">x</div>
+	</div>
+</div>
+ -->
+<!-- 广告部分 -->
+<div id="ad_div_main" style="display:none;overflow-x:hidden;"></div>
+<style>.ui-dialog .ui-dialog-content{padding: 3px;}</style>
+
+
+<!-- 平板提示 -->
+<div id="popDiv" class="select-pop" style="display:none;">
+   	<div class="select-pop1"><img src="/jsp/member/images/pop1.png" /></div>
+       <div>
+       	<a href="javascript:padJumpToPage('mobile');" class="select-pop2"></a>
+           <a href="javascript:padJumpToPage('pc');" class="select-pop3"></a>
+   	</div>
+</div>
+<div id="popBg" class="popBg" style="display:none;"></div>
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+
+<script type="text/javascript">
+	(function(){
+		var ua = navigator.userAgent  || " "; 
+	    var pageType=$.cookie('pageType');
+	    var pageType2 = '';
+	    if(pageType2=='pc'){
+	    	$("#mobilealert").show();
+	    }else if(pageType2=='mobile'){
+	    	padJumpToPage('mobile');
+	    }
+	    if ( (ua.indexOf("iPad") > 0	//ipad
+	    	|| (ua.indexOf("Android") > 0 && ua.indexOf("Mobile") == -1) //android pad
+	    	) && !pageType
+	    	){
+			if(pageType2!="pc"){
+				padJumpToPage('mobile');
+			}
+	    }
+	})();
+	function padJumpToPage(type){
+		$.cookie('pageType', type);
+		top.window.location.href = "/PageChange?type=" + type;
+	}
+</script>
+
+<!-- 服务器监控使用，不能去掉 -->
+<div style="display: none">
+	<span style="display: none">fwkae5ldVj78cQE0U7ab3Y5O6zyl3SwK</span>
+</div>
+<!-- 弹层登录 -->
+<div id="login-tc"></div>
+<!-- 登录协议 -->
+<div id="loginProtocol"></div>
+<!-- 弹层验证吗 -->
+<div id="verificationCode_tc"></div>
+
+<header id="header">
+	<div id="news" class="wrapper">
+		<div id="hot-news" class="marqueen">
+			<div id="memberLatestAnnouncement" style="color: #fff;font-size: 14px;line-height: 30px;height: 30px;cursor: pointer;"></div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="wrapper">
+			<div id="logo-bg">
+				<a href="/index.jsp"></a>
+			</div>
+			<ul class="top-nav">
+				<li class="li06 pai"><a href="javascript:;">牌照展示</a>
+					<div class="pzx">
+						<img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/pz.png" style="margin: -5px 5px 0 0">
+					</div></li>
+				<style>
+					.pzx {
+						overflow: hidden;
+						position: absolute;
+						top: 15px;
+						left: 0px;
+						opacity: 0;
+						height: 0px;
+						-moz-transition: .8s;
+						-ms-transition: .8s;
+						-webkit-transition: .8s;
+						z-index: 9999;
+					}
+					
+					.pai:hover .pzx {
+						opacity: 1;
+						height: 233px;
+						z-index: 999;
+						-moz-transition: .8s;
+						-ms-transition: .8s;
+						-webkit-transition: .8s;
+					}
+					
+					.pai {
+						position: relative;
+						-moz-transition: .8s;
+						-ms-transition: .8s;
+						-webkit-transition: .8s;
+					}
+					
+					.pzx:hover {
+						opacity: 1;
+						height: 233px;
+						display: block;
+						z-index: 1200;
+						-moz-transition: .8s;
+						-ms-transition: .8s;
+						-webkit-transition: .8s;
+					}
+				</style>
+				<li class="deposit"><a href="http://www.30177zf.com" target="_blank" id="kscztd">快速充值通道</a></li>
+				<li><a href="http://www.30177dl.com" target="_blank">代理共赢</a></li>
+				<li><a href="http://www.30177hd.com" target="_blank" class="hdbl">活动办理</a></li>
+				<li id="select-language" select-language><span
+					data-language="zh-CN" title="简体中文"></span> <span
+					data-language="zh-TW" title="繁体中文"></span> <span
+					data-language="en-US" title="English"></span> <span
+					data-language="th" title="???????"></span></li>
+			</ul>
+			
+				<div id="account-box">
+					<form name="LoginForm" id="LoginForm" style="margin: 0" autocomplete="off">
+						<input type="text" placeholder="账　号"
+		                    maxlength="12"
+							onkeydown="enterLogin(event)" 
+							id="hd_account"
+							onFocus="OnFocusFun(this,'')"
+		                    onBlur="OnBlurFun(this,'')">
+						<input type="password" placeholder="密　码"
+	                    	maxlength="12" 
+							onkeydown="enterLogin(event)" id="hd_passwd"
+							onFocus="OnFocusFun(this,'')"
+	                    	onBlur="OnBlurFun(this,'')">
+						 
+						<button id="login-box" class="login-btn" onclick="dengRu(); return false">登录</button>
+						<button class="forget-btn" type="button" onclick="openForgetPassword(); return false">忘记密码?</button>
+						<button class="forget-btn hdbl" type="button" onclick="trialGame()">免费试玩</button>
+					</form>
+					<div id="join-btn" onclick="returnSavaMember()" style="cursor: pointer;"></div>
+				</div>
+			
+			
+			<nav id="nav">
+				<ul ng-controller="LobbiesCtrl">
+					<li class="home" id="menu_01"><a href="/index.jsp">首页</a></li>
+					<li class="slot hot" id="menu_041"><a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)">MG老虎机</a>
+						<ol class="subnav">
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=BreakDaBank')">抢劫银行</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=BreakAwayV90')">摆脱</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=ReelGemsV90')">宝石连线</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=Bridesmaids')">伴娘</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=luckyfirecracker')">招财鞭炮</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=RubyAvalonV90')">阿瓦隆</li>
+							<li onclick="openWin3('/member/flex?type=playgame&gameid=StarlightKissV90')">星光之吻</li>
+						</ol></li>
+					
+					<li id="menu_03"><a href="/member/flex?type=init0">真人荷官</a>
+						<ol class="subnav">
+							<li game-box="bb" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')">BBIN旗舰厅</li>
+							<li game-box="ag" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')">AG寰亚厅</li>
+							<li game-box="mg" onclick="openWin3('/member/flex?type=loginapi&amp;key=mg', 'MG平台', 'no')">MG国际厅</li>
+
+							<li game-box="og" onclick="openWin3('/member/flex?type=loginapi&amp;key=og', 'OG平台', 'no')">OG视讯厅</li>
+							<li game-box="ob" onclick="openWin3('/member/flex?type=loginapi&amp;key=ab', 'ALLBET平台', 'no')">AB视讯厅</li>
+							<li game-box="lebo" onclick="openWin3('/member/flex?type=loginapi&key=lebo','lebo平台','no')">LEBO视讯厅</li>
+
+							<li game-box="lmg" onclick="openWin3('/member/flex?type=loginapi&amp;key=opus', 'OPUS平台', 'no')">OPUS视讯厅</li>
+						</ol></li>
+					<li class="hot" id="menu_042"><a href="javascript:;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)">电子游艺</a>
+						<ol class="subnav">
+							<li game-box="mg" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)">MG电子游戏</li>
+							<li game-box="pt" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)">PT电子游戏</li>
+							<li game-box="ag" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')">AG电子游戏</li>
+							<li game-box="fish" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')">AG捕鱼王</li>
+							<li game-box="bb" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')">BBIN电子游戏</li>
+							<li game-box="ag" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">超级斗地主</li>
+							
+							<li game-box="ug" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">MW电子游戏</li>
+							<li game-box="ag" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)">千炮捕鱼</li>
+						</ol></li>
+					<li id="menu_05"><a href="/jsp/ogmember/lottery/lotteryList.jsp">彩票游戏</a>
+						<ol class="subnav">
+							<li game-box="hg" onclick="targetLottery('LT6')">北京PK拾</li>
+							<li game-box="bb" onclick="targetLottery('LT2')">重庆时时彩</li>
+							<li game-box="gpi" onclick="targetLottery('LT24')">六合彩</li>
+							<li game-box="eg" onclick="targetLottery('LT5')">广东快乐十分</li>
+							<li game-box="bb" onclick="targetLottery('LT7')">江苏骰宝</li>
+							<li game-box="gd" onclick="targetLottery('LT17')">广东11选5</li>
+						</ol></li>
+					<li id="menu_02"><a href="/FootBall">体育竞猜</a>
+						<ol class="subnav">
+							<li game-box="hg" onclick="window.open('/FootBall','_self')">皇冠体育投注</li>
+							<li game-box="im" onclick="window.open('/member/flex?type=loginapi&amp;key=ibc','_self')">沙巴体育投注</li>
+						</ol></li>
+					<li class="hot" toggle-color id="menu_06"><a href="/jsp/ogmember/space.jsp">优惠活动</a></li>
+					<li><a href="http://30177svip.com" target="_blank" id="xjh">星计划</a></li>
+					<li><a href="http://30177mg.com" target="_blank" id="dwb">电子帝王榜</a></li>
+					<li class="chat"><a href="javascript:;" onclick="openChatWin()">在线客服</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+	<div id="banner">
+	<style>
+            .indexbanner{ height: 588px; position: relative; overflow: hidden; width: 100%;}
+            .indexbanner .hd{ height:15px; overflow:hidden; position:absolute; bottom:5px; z-index:1;left: 45%; }
+            .indexbanner .hd ul{ overflow:hidden; zoom:1; float:left;  }
+            .indexbanner .hd ul li{ float:left; margin-right:6px;  width:42px; height:7px; background:#fc0000; cursor:pointer; text-indent: -999px; overflow: hidden;border: 1px solid #fc0000;}
+            .indexbanner .hd ul li.on{ background:#000;border: 1px solid #fff;}
+            .indexbanner .bd{ position:relative; height:100%; z-index:0;   }
+            .indexbanner .bd ul{width: 100%;}
+            .indexbanner .bd li{ zoom:1; vertical-align:middle; height: 588px; }
+	</style>
+	<div class="indexbanner">
+		<div class="hd">
+			<ul>
+				
+				
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+								
+									
+											<li>
+											</li>
+									
+											<li>
+											</li>
+									
+											<li>
+											</li>
+									
+											<li>
+											</li>
+									
+											<li>
+											</li>
+									
+											<li>
+											</li>
+									
+								
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+				
+			</ul>
+		</div>
+		<div class="bd">
+			<ul>
+				
+				
+					
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+								
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/2cd9cd6f-0777-4830-a771-731c47698219.jpg) top center no-repeat"></li>
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/c6f5c24b-edb2-4904-be2e-d8ff3b959d9c.jpg) top center no-repeat"></li>
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/b9a4e58a-0fe6-4bef-ba90-1605e9887f7a.jpg) top center no-repeat"></li>
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/2627e27f-7363-41e6-a6e9-bc61e578d0fa.jpg) top center no-repeat"></li>
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/c8b08096-6364-4282-95b2-fef3e4e7b24a.jpg) top center no-repeat"></li>
+									
+											<li style="background:url( //cdnszs.ruirobot.com/v2/uploads/images/interim/o089/711d973d-e93b-4dd9-a044-dd44b5eaf3e7.jpg) top center no-repeat"></li>
+									
+								
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+							
+						
+					
+				
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+            jQuery(".indexbanner").slide({ mainCell: ".bd ul", effect: "fade", autoPlay: true, trigger: "click", delayTime: 1000, interTime: 3500 });
+            </script>
+</div>
+<div id="content">
+	<div class="wrapper">
+		<ul id="game-box">
+			<li data-img="game">
+				<a href="javascript:;" >
+					<div style="width: 70px;height: 60px; position: relative;top: 38px;left: 105px;cursor: pointer;" onclick="QSFUN.getGamePager('-', 'Game', 'casino', 1)"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -20px;left: 210px;cursor: pointer;" onclick="QSFUN.getGamePager('-', 'Game', 'pt', 1)"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -80px;left: 310px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb','BB平台','no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -50px;left: 158px;cursor: pointer;" onclick="QSFUN.getGamePager('-', 'Game', 'mwg', 1)"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -113px;left: 263px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag','AG平台','no')"></div>
+				</a>
+				<span></span>
+			</li>
+			<li data-img="live">
+				<a href="javascript:;" >
+					<div style="width: 70px;height: 60px; position: relative;top: 50px;left: 55px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ag', 'AG平台', 'no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -12px;left: 166px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=bb', 'BB平台', 'no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -72px;left: 275px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&key=lebo','lebo平台','no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -131px;left: 370px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=og', 'OG平台', 'no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -106px;left: 110px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=opus', 'OPUS平台', 'no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -166px;left: 215px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=mg', 'MG平台', 'no')"></div>
+               		<div style="width: 70px;height: 60px; position: relative;top: -225px;left: 315px;cursor: pointer;" onclick="openWin3('/member/flex?type=loginapi&amp;key=ab', 'ALLBET平台', 'no')"></div>
+				</a>
+				<span></span>
+			</li>
+			<li data-img="sport">
+				<a href="javascript:;" onclick="openWin3('/member/flex?key=ag&type=playgame','AG捕鱼王','no')"></a>
+				<span></span>
+			</li>
+			<li data-img="lottery">
+				<a href="javascript:;" >
+					<div style="width: 70px;height: 90px; position: relative;top: 73px;left: 90px;cursor: pointer;" onclick="targetLottery('LT24')"></div>
+               		<div style="width: 95px;height: 85px; position: relative;top: -12px;left: 180px;cursor: pointer;" onclick="targetLottery('LT6')"></div>
+               		<div style="width: 108px;height: 83px; position: relative;top: -96px;left: 300px;cursor: pointer;" onclick="targetLottery('LT2')"></div>
+				</a>
+				<span></span>
+			</li>
+			<li class="middle">
+				<a href="/jsp/member/help/mobileDescription.html" target="_blank"></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div id="page-footer">
+	<div class="footer-top">
+		<div class="footer-info-wrap">
+			<div class="footer-mail">
+                                邮箱：GRANDLINSBOA@GMAIL.COM
+			</div>
+			<div class="footer-phone">
+                                客服电话：0063-949-111-8888
+			</div>
+		</div>
+		<div class="footer-ad-wrap">
+			<div class="footer-ad footer-service">
+				<h3>
+                	产品服务            
+				</h3>
+				<p>
+                                最具特色的产品服务
+				</p>
+			</div>
+			<div class="footer-ad footer-credit">
+				<h3>
+              	  信誉第一            
+				</h3>
+				<p>
+                                以信誉为企业基础
+				</p>
+			</div>
+			<div class="footer-ad footer-deposit">
+				<h3>
+                	高效存取款            
+				</h3>
+				<p>
+                                3分钟内存取款到帐
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer-middle-icon clearfix">
+		<div class="iocn icon-quality">
+		</div>
+		<div class="iocn icon-efficient">
+		</div>
+		<div class="iocn icon-reputation">
+		</div>
+		<div class="iocn icon-honorable">
+		</div>
+		<div class="iocn icon-sincerity">
+		</div>
+	</div>
+	<div class="footer-txt-wrap clearfix">
+		<div>
+			<h3>关于我们</h3>
+			<p>
+                               澳门新葡京赌场在线持牌经营博彩投注多年.是目前全球最大的网络博彩集团之一。我们拥有着一支来自世界各国博彩界精英组合而成的世界顶尖级博彩服务团队，在这里我们将为您提供一个公平，公正的网络博彩平台，更承诺配备最优质的投注方法，并辅以最先进的网络技术支援，献上最佳的客户服务和最优惠的支付方案。
+			</p>
+		</div>
+		<div class="middle">
+			<h3>诚信 公正 公平</h3>
+			<p>
+                                作为国际专业的网上博彩游戏客户端运营企业，我们凭藉集合世界级的博彩资讯专家、丰富经验的服务团队、市场营销专家、先进的软硬件开发人员建立出澳门新葡京全面而完善的组织体系。我们承诺，为每一位客户提供最新、最安全、最准确的专业博彩数据，以及全方位的国际化服务。
+			</p>
+		</div>
+		<div>
+			<h3>我们的优势</h3>
+			<p>
+                                我们提供各种安全简便的存款及提款选择给客户。我们一直主张客户「瞭解我们的用户(KYC)」和反洗钱(AML)的原则，並与第三方的财务管理当局合作，确保在最大程度上遵从相关的法律及法规。澳门新葡京希望所有客户能够在一个安全愉快的环境中，享受本公司精心设计的产品和服务，並能够从中获利。
+			</p>
+		</div>
+	</div>
+</div>
+	
+	
+
+<footer id="footer">
+<div class="wrapper">
+	<div id="footer-logo">
+	</div>
+	<ul id="footer-nav">
+		
+			
+				
+			
+				
+					
+						<li>
+							<a href="javascript:;" 
+								onclick="toEditDocDetails(16846)">关于我们</a>
+						</li>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						<li>
+							<a href="javascript:;" 
+								onclick="toEditDocDetails(16878)">联系我们</a>
+						</li>
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						<li>
+							<a href="javascript:;" 
+								onclick="toEditDocDetails(17781)">代理加盟</a>
+						</li>
+					
+				
+			
+				
+					
+						<li>
+							<a href="javascript:;" 
+								onclick="toEditDocDetails(16877)">存款帮助</a>
+						</li>
+					
+				
+			
+				
+			
+				
+					
+						<li>
+							<a href="javascript:;" 
+								onclick="toEditDocDetails(16861)">取款帮助</a>
+						</li>
+					
+				
+			
+	    
+		<li><a href="javascript:void(0);" onclick="openHelp('/help?type=1253605')">常见问题</a></li>
+		<li><a href="/sysProposalServlet?type=1">投诉建议</a></li>
+	</ul>
+	<p id="footer-suggest">
+		<small>
+                    Copyright &#169; 澳门新葡京 Reserved
+		</small>
+	</p>
+</div>
+</footer>
+<div id="ele-float-top-wrap" style="height: 84px;">
+	<div id="ele-float-top" style="display: block;">
+		<div id="ele-float-top-up" class="ele-float-top-btn" style="display: block;">
+		</div>
+		<a class="ele-float-top-btn float-top-service" href="javascript:;" onclick="openChatWin()"></a>
+		<div class="ele-float-top-btn ele-float-top-code">
+			<div class="ele-float-box-wrap" style="display: none;">
+				<div class="ele-float-top-code-box">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					扫描添加为微信好友
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div style="position:fixed;right:2px;bottom:0px;z-index:9999;">
+	<style type="text/css">
+		.slideBox{ width:250px; height:135px; overflow:hidden; position:relative; }
+		.slideBox .hd{ height:10px; position:absolute; left:25px; top:0px; z-index:9999; }		
+		.slideBox .hd ul li{ float:left; margin-right:8px;  width:10px; height:10px; border-radius:10px; line-height:10px; text-align:center; background:#454545; color:#fff; cursor:pointer;text-indent:999em}
+		.slideBox .hd ul li.on{ background:#f00; color:#f00;}
+		.slideBox .bd{ position:relative; height:100%; z-index:0;}
+		.slideBox .bd li{ zoom:1; vertical-align:middle; text-align:center;}
+		.slideBox .bd img{ display:block;vertical-align:middle;}
+		.slideBox .bd li span{position:absolute;width:50px; height:25px; display:block;right:40px;top:0px;}
+	</style>
+	<div id="slideBox" class="slideBox">
+		<div class="hd">
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+			</div>
+			<div class="bd">
+				<ul>
+					<li style="position:relative;"><a href="http://o089.orientbat.com/jsp/member/help/mobileDescription.html" target="_blank"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/1.png"/><span class="gb"></span></a></li>
+					
+					<li style="position:relative;"><a href="#"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/2.png"/><span class="gb"></span></a></li>
+					<li style="position:relative;"><a href="#"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/3.png"/><span class="gb"></span></a></li>
+					<li style="position:relative;margin-top:20px"><a href="#" targrt="blank"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/4.png"/></a></li>
+					<li style="position:relative;margin-top:20px"><a href="#" targrt="blank"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/5.png"/></a></li>
+					<li style="position:relative;margin-top:20px"><a href="http://o089.orientbat.com/jsp/member/help/mobileDescription.html" target="_blank"><img src=" //cdnszs.ruirobot.com/v2/stc/og/o089/images/6.png"/></a></li>
+				</ul>
+			</div>
+		</div>
+		<script type="text/javascript">
+		$(function(){
+		$("#slideBox .bd .gb").click(function(){ $("#slideBox").hide()})
+			})
+		 var ary = location.href.split("&");
+		jQuery(".slideBox").slide( { mainCell:".bd ul", effect:"leftLoop",autoPlay:true,trigger:"mouseover",easing:"swing",delayTime:500,mouseOverStop:true,pnLoop:true});
+		</script>
+	</div>
+	<script src=" //cdnszs.ruirobot.com/v2/stc/og/o089/js/float.js"></script>
+	<script type="text/javascript">
+		$(".ele-float-top-code").hover(function(){
+				$(this).find(".ele-float-box-wrap").fadeIn(200)
+				$(this).find(".ele-float-top-code-box:after").fadeIn(200)
+			},function(){
+				$(this).find(".ele-float-box-wrap").fadeOut(200)
+				$(this).find(".ele-float-top-code-box:after").fadeOut(200)
+			});
+			$(".ele-float-top-btn").click(function(){
+				$("body,html").stop().animate({
+					scrollTop: 0
+				},400)
+			})    
+     </script>
+
+     
+<!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+<div id="ciPa2D" style="z-index:100;position:absolute"></div><div id="sdPa2D" style="display:none"></div><script type="text/javascript">var sePa2D=document.createElement("script");sePa2D.type="text/javascript";var sePa2Ds=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/0g7lfvq5h5iq809pca6uj5awkh/safe-monitor.js?ps_h=Pa2D&ps_t="+new Date().getTime();setTimeout("sePa2D.src=sePa2Ds;document.getElementById('sdPa2D').appendChild(sePa2D)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=0g7lfvq5h5iq809pca6uj5awkh"><img src="http://image.providesupport.com/image/0g7lfvq5h5iq809pca6uj5awkh.gif" style="border:0px" alt=""/></a></div></noscript>
+<!-- END ProvideSupport.com Visitor Monitoring Code -->
+	
+
+
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+	
+	
+
+
+
+	
+		 
+<style>
+	#box1 a {display: block}
+	#box2 a {display: block}
+</style>
+
+<div id="box1" picfloat="left" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; float:left;">	
+ 	
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				
+			
+		
+			
+		
+			
+		
+			
+		
+		
+	
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								>
+								<img src="/uploads/images/interim/o089/76d6bf75-8e46-4ed3-8940-26b10b66fa44.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:QSFUN.getGamePager('#', 'Game', 'casino', 1)"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/887dca0d-860a-47dd-8d2a-6675f28a1b1b.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://www.30177pay.com" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://www.30177pay.com"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/bde6ab4f-0a8e-4a11-bf35-7af264aa9642.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://www.30177pay.com" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://www.30177pay.com"
+												
+																																			
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/40e867a2-9f9c-436a-8eb5-7549de441b10.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box1')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/e8482bfd-b5b8-4ee0-8599-7626d9479250.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+</div>
+
+<div id="box2" picfloat="right" style="position: absolute; cursor: pointer; z-index: 1000; top: 170px; right: 0; float: right;">
+	
+	
+	
+		
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="javascript:openChatWin()"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/2b166ca7-cce7-493d-b14c-b0b5c4cfa33b.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://www.30177kf.com" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://www.30177kf.com"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/b8d56895-ed61-472f-bc9a-bfbc8836c1e3.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://wpa.qq.com/msgrd?v=3&uin=88038888&site=qq&menu=yes" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://wpa.qq.com/msgrd?v=3&uin=88038888&site=qq&menu=yes"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/899a79d7-2262-4f42-987e-a35823066e11.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+													
+														
+														
+															href="http://30177dl.com" target="_blank"
+														
+													
+												
+												
+												
+											
+												
+												
+													href="http://30177dl.com"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/acae18f5-b665-49bb-934b-aff88cf0f944.png">
+							</a>
+																				
+							<a 
+								
+									
+										
+																		
+											
+												
+														
+																							
+																										
+													
+														
+													
+													
+														
+														
+															
+														
+																					
+												
+												
+											
+												
+												
+													href="https://messenger2.providesupport.com/messenger/0wcz70tsgfs9n1sy0av3mf5upm.html"
+												
+																																		
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/51706f7d-99ce-42c5-bf3e-9acc257c4b31.gif">
+							</a>
+																				
+							<a 
+								
+									
+										
+											href="javascript:;" onclick="closePic('box2')"
+										
+										
+									
+								>
+								<img src="/uploads/images/interim/o089/09fa325c-7fbc-47ed-abf7-d654b028515a.png">
+							</a>
+						
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		
+	
+	</div>
+
+
+
+<script type="text/javascript">
+	if (self.location != top.location)
+		top.location = self.location;
+	var left_top = 170, right_top = 170, float_list = [];
+	$(window)
+			.load(
+			function() {
+				// 廳主自改 - 浮動圖
+				float_list['1'] = $('#box1');
+				float_list['2'] = $('#box2');
+				for ( var i in float_list) {
+					var self = float_list[i], picfloat = (self
+							.attr('picfloat') == 'right') ? 1 : 0;
+					self
+							.show()
+							.Float(
+							{
+								'floatRight' : picfloat,
+								'topSide' : ((picfloat == 1) ? right_top
+										: left_top),
+								close : "closebox" + (i)
+							});
+					// ie6 png bug
+					if (navigator.userAgent.toLowerCase().indexOf(
+									'msie 6') != -1) {
+						$.each(self.find('img'), function() {
+							$(this).css({
+								'width' : $(this).width(),
+								'height' : $(this).height()
+							});
+						});
+					}
+
+					if (picfloat) {
+						right_top = right_top + 10
+								+ (self.height() || 250);
+					} else {
+						left_top = left_top + 10
+								+ (self.height() || 250);
+					}
+					self.show();
+				}
+				//点击背景遮罩移除iframe和背景
+			    $("#YuFrame1Bg").click(function() {
+			        $("#YuFrame1").remove();
+			        $("#YuFrame1Bg").remove();
+			    });
+			});
+			
+			function closePic(i) {
+				document.getElementById(i).style.display = 'none';
+			}
+/*
+			function wxLogin()
+			{
+				var wxSrc=$("#YuFrame1").attr("src");
+				console.log(wxSrc);
+				if(wxSrc.indexOf("#ok") > 0)
+				{
+					console.log('stop');
+					clearInterval(ref);
+					///请求地址
+					$.ajax({
+				        type: "post",
+				        async: false,//false代表只有在等待ajax执行完毕后才执行 也就是同步
+				        url: "/Weixin/Login",
+				        contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+				        dataType: "json",
+				        success: function (data) {
+				            if(data.status)
+				            {
+				            	location.reload();
+				            }else
+				            {
+				            	alert("登录出现问题，请重新扫码登录！");
+				            	showWx(sessionId);
+				            }
+				        }
+				    }); 
+				}
+				console.log('jixu');
+			} */
+</script>
+
+
+	
+
+</body>
+</html>

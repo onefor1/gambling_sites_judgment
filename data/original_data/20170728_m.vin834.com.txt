@@ -1,0 +1,562 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+          
+              
+                   
+              
+              
+              
+     
+     
+
+
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/jquery.mobile-1.4.3.min.css?v=1501115649256">
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/common.css?v=1501115649256">
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/default.css?v=1501115649256">
+<script src="http://imgssl.kutuba.cn/img/mobile/js/jquery-1.9.1.min.js?v=1501115649256"></script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/jquery.mobile-1.4.3.min.js?v=1501115649256"></script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/base64.js?v=1501115649256"></script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/plugin/jquery.base64.js?v=1501115649256"></script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/common.js?v=1501115649256"></script>
+<link rel="shortcut icon" href="http://imgssl.kutuba.cn/img/mobile/images/vinbet.ico"></link>
+<script type="text/javascript">var ctx = "/mobile",serverType='0';</script>
+<script>
+
+
+(function(win){
+	try {
+		if (self != top) {
+			  // 我们的正常页面
+			  var url = location.href;
+			  // 父级页面重定向
+			  top.location = url;
+			}
+		//MutationObserver 的不同兼容性写法
+		var MutationObserver = win.MutationObserver || win.WebKitMutationObserver ||
+		win.MozMutationObserver;
+		// 该构造函数用来实例化一个新的 Mutation 观察者对象
+		// Mutation 观察者对象能监听在某个范围内的 DOM 树变化
+		var observer = new MutationObserver(function(mutations) {
+			  mutations.forEach(function(mutation) {
+				// 返回被添加的节点,或者为null.
+			    var nodes = mutation.addedNodes;
+				
+			    if(nodes[0] != undefined && 
+			    		(nodes[0].nodeName === 'IMG'
+		    				&& nodes[0].src.indexOf('http://imgssl.kutuba.cn/img/mobile') != 0
+		    				&& nodes[0].src.indexOf('http://m.vin834.com') != 0
+		    				&& nodes[0].parentNode.dataset['qr'] != 'true'
+			    			|| nodes[0].nodeName === 'IFRAME'
+			    			&& nodes[0].name.indexOf('betgames_iframe_') != 0
+			    			&& nodes[0].name.indexOf('speedtest_') != 0
+			    		 )
+			    	) {
+			    	
+			    	nodes[0].parentNode.removeChild(nodes[0]);
+			    }
+			  });
+			});
+			// 传入目标节点和观察选项
+			// 如果 target 为 document 或者 document.documentElement
+			// 则当前文档中所有的节点添加与删除操作都会被观察到
+			observer.observe(document, {
+			  subtree: true,
+			  childList: true
+			});
+	} catch (e) {
+		console.log(e);
+	}
+})(window);
+</script>
+<title>官方首页_浩博国际 - Vinbet.org手机版</title>
+<meta http-equiv="keywords" content="浩博国际,m.Vinbet.org,权威,官网,交易平台,彩票,娱乐场,老品牌,信誉平台,德州,真人,官方门户,在线开户,浩博手游,手游平台,浩博手机版">
+<meta http-equiv="description" content="浩博国际是业内最具综合性和专业的娱乐平台，浩博官网[Vinbet.org]主要汇集多种在线玩法，老品牌，信誉好，得到广大用户认可，玩法多样,为您提供愉悦的online娱乐体验！『浩博手机版-m.vinbet.org』">
+
+
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/index.css?v=1501115649256">
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/menu.css?v=1501115649256">
+<link rel="stylesheet" href="http://imgssl.kutuba.cn/img/mobile/css/footer.css?v=1501115649256">
+<script type="text/javascript">
+		var urlo='';
+</script>
+<script type="text/javascript">
+var total = 0;
+var tflag = 0;
+$(function(){
+	if(serverType == 0){ getMsg(); }
+	
+	$("#closeSecurityBtn").click(function(){
+        $("#securityDetail").dialog("close");
+	});
+});
+function getTotal(){
+	var url = ctx + '/user/getDrawBalance?t=' + new Date().getTime();
+	$.post(url,function(jo){
+		if(jo.r==0 && undefined != jo.data.drawMoney){
+			total = jo.data.drawMoney;
+		}else{
+			total = '超时';
+		}
+		tflag = 1;
+	},"json").fail(function(jqXHR, textStatus, errorThrown){
+		if(textStatus == 'parsererror'){
+			//alert("用户会话失效或在其他终端登录被踢出，请您重新登录！");
+			window.location.href = window.location.href;
+		}
+	});
+}
+function showTotal(){
+	var url = '/mobile/user/userBalance';//<a href=""></a>
+	getTotal();
+	var timer = setInterval(function(){
+		if(tflag == 1){
+			$("#total").html('<a href="'+url+'" data-ajax="false" style="text-decoration: none; color:green; font-weight: bold;">' + '[' + formNumber(total) + ' '+ '' + ']</a>');
+			tflag = 0;
+			clearInterval(timer);
+			setTimeout(function(){
+				$("#total").html('['+"显示余额"+']');
+			},10000);
+		}else{
+			$("#total").html('['+ "加载中..." +']');
+		}
+	}, 500); 
+}
+var msgList;
+var msgIndex=0;
+var msgid;
+function getMsg(){
+	var userSession = "";
+	if(userSession != undefined && userSession != ""){
+		$.getJSON("/mobile/user/message/msg/1/1/1?_=" + new Date().getTime(), function (o) {
+			if (o.r == 0) {
+				var urc = 0;
+				msgList =o.list;
+				if(msgList.length>msgIndex){
+					var msg =msgList[msgIndex];
+					msgid = msg.msgid;
+					var subject = msg.subjectName;
+					var intro = utf8to16(base64decode(msg.intro));
+					var time = msg.time;
+					var readStatus = msg.readStatus;
+					var content = utf8to16(base64decode(msg.content));
+					msgIndex++;
+					$("#pt").text(subject);
+					$("#pc").text(content);
+					
+					setTimeout("$.mobile.changePage('#messageDetail','pop',false,false);",200);
+					//return;
+				}
+			}
+			if(msgIndex==0){
+				showSecurityInfo();
+			}
+		});		
+	}
+}
+
+function readMsg(){
+	 $.getJSON("/mobile/user/message/receipt/" + msgid, function (o) {
+		if (o.r != 0){
+			alert("操作失败!");
+		}
+		$("#messageDetail").dialog("close");
+			if(msgList.length>msgIndex){
+				setTimeout(function() {
+				$.mobile.changePage("#messageDetail", {role: "dialog"}); 
+				var msg =msgList[msgIndex];
+				msgid = msg.msgid;
+				var subject = msg.subjectName;
+				var intro = utf8to16(base64decode(msg.intro));
+				var time = msg.time;
+				var readStatus = msg.readStatus;
+				var content = utf8to16(base64decode(msg.content));
+				msgIndex++;
+				//read = $(this).data("read");
+				//var title = $("#detailTitle_"+msgType).val();
+				$("#pt").text(subject);
+				$("#pc").text(content);
+				}, 200);
+			}else{
+				showSecurityInfo();
+			}
+	});	
+}
+function showSecurityInfo(){
+	setTimeout(function() {
+		var isShowSecCode =false;
+		if(isShowSecCode==true){
+			$.mobile.changePage("#securityDetail", {role: "dialog"});
+			var securityCode = "";
+			if(securityCode!=undefined&&securityCode!=""&&securityCode!=null&&securityCode!="null"){
+			
+				$("#securityText").html("您的防伪信息为："+securityCode);
+				$("#securityBtn").hide();
+				$("#closeSecurityBtn").show();
+			}
+		}
+	},500);
+}
+
+function logout(){
+	if(confirm("您确定要退出系统吗？")){
+		window.location.href="/mobile/logout"; 
+	}
+}
+
+
+function toShare(){
+	var sn = base64encode("m.vin834.com");
+	window.location.href = "http://m.vinbet503.com/mobile" + "/user/shares?dm=" + sn;
+}
+!function(win) {
+    function resize() {
+        var domWidth = domEle.getBoundingClientRect().width;
+        if(domWidth / v > 540){
+            domWidth = 540 * v;
+        }
+        win.rem = domWidth / 16;
+        domEle.style.fontSize = win.rem + "px";
+    }
+    var v, initial_scale, timeCode, dom = win.document, domEle = dom.documentElement, viewport = dom.querySelector('meta[name="viewport"]'), flexible = dom.querySelector('meta[name="flexible"]');
+    if (viewport) {
+        var o = viewport.getAttribute("content").match(/initial\-scale=(["']?)([\d\.]+)\1?/);
+        if(o){
+            initial_scale = parseFloat(o[2]);
+            v = parseInt(1 / initial_scale);
+        }
+    } else if(flexible) {
+        var o = flexible.getAttribute("content").match(/initial\-dpr=(["']?)([\d\.]+)\1?/);
+        if (o) {
+            v = parseFloat(o[2]);
+            initial_scale = parseFloat((1 / v).toFixed(2))
+        }
+    }
+    if (!v && !initial_scale) {
+        var n = (win.navigator.appVersion.match(/android/gi), win.navigator.appVersion.match(/iphone/gi));
+        v = win.devicePixelRatio;
+        v = n ? v >= 3 ? 3 : v >= 2 ? 2 : 1 : 1, initial_scale = 1 / v
+    }
+    //没有viewport标签的情况下
+    if (domEle.setAttribute("data-dpr", v), !viewport) {
+        if (viewport = dom.createElement("meta"), viewport.setAttribute("name", "viewport"), viewport.setAttribute("content", "initial-scale=" + initial_scale + ", maximum-scale=" + initial_scale + ", minimum-scale=" + initial_scale + ", user-scalable=no"), domEle.firstElementChild) {
+            domEle.firstElementChild.appendChild(viewport)
+        } else {
+            var m = dom.createElement("div");
+            m.appendChild(viewport), dom.write(m.innerHTML)
+        }
+    }
+    win.dpr = v;
+    win.addEventListener("resize", function() {
+        clearTimeout(timeCode), timeCode = setTimeout(resize, 300)
+    }, false);
+    win.addEventListener("pageshow", function(b) {
+        b.persisted && (clearTimeout(timeCode), timeCode = setTimeout(resize, 300))
+    }, false);
+    resize();
+}(window);
+</script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/speed/sjcs.bak.js?v=1501115649256"></script>
+<script src="http://imgssl.kutuba.cn/img/mobile/js/speed/cspeeds.js?v=1501115649256"></script>
+</head>
+<body style="background-color: #F7FCF5;">
+	<div data-role="page" data-theme="c" id="index-page" class="index-page bg-green" data-title="">
+		<!-- header -->
+		<div data-role="header">
+		   <div class="header-bg">
+		    <a href="#-local" data-rel="popup" data-transition="pop" data-role="none" class="circle-gradient language-img zh">
+              		<span class="lang-img"></span>
+             </a>  
+             <div class="logo inline-block">
+                 <img src="http://imgssl.kutuba.cn/img/mobile/images/logo_vinbet.png" height="40">
+             </div>
+              
+         	</div>
+		</div>
+		<!-- /header -->	
+		
+		<!-- lng -->	
+		
+<script type="text/javascript">
+$(document).ready(function (){
+	$("#-local a").click(function(){
+		var lang = $(this).jqmData("lang");
+		var request = $.ajax({
+		    url: '/mobile/lang/change/' + lang,
+		    dataType: 'json'
+		});		
+		request.done(function(jsonResult) {
+		 	//var result = jsonResult.r;
+			//window.location.reload();
+		    window.location.href = window.location.href;
+		});		
+		/**
+		request.fail(function(jqXHR, textStatus, errorThrown) {
+		});
+		request.always(function() {
+		});
+		*/		
+	});
+});
+</script>
+<div id="-local" class="language-wrap" data-role="popup" data-history="false">
+	<ul data-role="none" class="reset clearfix">
+		<!--<li><a href="#" data-ajax="false" class="pressin"> <span class="language-zh-tw"></span>繁體中文 </a></li> -->
+		<li><a href="#" data-ajax="false" class="pressin" data-lang="zh"><span class="language-zh"></span>简体中文 </a></li>
+		<li><a href="#" data-ajax="false" class="pressin" data-lang="en"><span class="language-en"></span>English</a></li>
+		<!-- <li><a href="#" data-ajax="false" class="pressin" data-lang="th"><span class="language-th"></span>ภาษาไทย </a></li>	
+		<li><a href="#" data-ajax="false" class="pressin" data-lang="kr"><span class="language-kr"></span>한국의</a></li>	
+		<li><a href="#" data-ajax="false" class="pressin" data-lang="vi"><span class="language-vi"></span>tiếng Việt</a></li>	
+		<li><a href="#" data-ajax="false" class="pressin" data-lang="id"><span class="language-id"></span>Indonesia</a></li> -->														
+	</ul>
+</div>
+		<!-- /lng -->
+		<!-- toolbar -->	
+		<div class="divtop">
+			
+				
+				
+					<div id="chats" class="btn-lefts"><a href="/mobile/speeds" data-ajax="false">线路选择</a></div>
+		    		<div id="b03" class="btn1" onclick="window.location.href='/mobile/login'">&nbsp;登录&nbsp;</div>
+		    		
+		    		<div id="b04" class="btn1 btn-login" onclick="window.location.href='/mobile/out/user/register'">&nbsp;&nbsp;免费开户&nbsp;&nbsp;</div>
+		    						
+				
+			
+		</div>
+		<!-- /toobar -->
+		
+<div id="menu01" class="divmainframe" style="display:none;">
+    <div id="btn01" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/center';$('#menu01').hide();">我的账户</div><!-- 个人中心 -->
+    <div id="btn09" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/information';$('#menu01').hide();">我的资料</div><!-- 账户激活 -->
+    <div id="btn02" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/userBalance';$('#menu01').hide();">资金概况</div><!-- 我的余额 -->
+    	
+    <div id="btn03" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/payment';$('#menu01').hide();">存款</div><!-- 存款 -->
+    <div id="btn04" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/appTransferPage';$('#menu01').hide();">划账</div><!-- 应用间划账 -->
+    <div id="btn05" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/drawMoneyPage';$('#menu01').hide();">提款</div><!-- 提款 -->
+    <div id="btn06" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/history';$('#menu01').hide();">历史记录</div><!-- 历史记录 -->
+    
+    <div id="btn07" class="btnwidth menubtn" onclick="window.location.href='/mobile/user/message';$('#menu01').hide();">我的站内信</div><!-- 最新消息 -->
+	
+    
+    
+</div>
+<div style="clear:both; width:100%; height:0.2em;"></div>
+<script type="text/javascript">
+$(function(){
+	if("zh" == 'th'){
+		$("#menu01").css({"font-size": "0.8em"});
+	}
+});
+</script>		
+		<!--content -->
+		<!--<div role="main" style="margin-top:-8px; margin-left:1px; margin-right:1px;"> -->
+		<div role="main" class="list-wrapper" id="main_conent">
+			<div class="ui-list-icon">
+					<div class="list-icon">
+					
+						<div class="list-items">
+							<div class="list-view">
+								<a href="/mobile/user/payment" data-ajax="false">
+									<div class="deposit list-center"></div>
+									<div class="list-text">存款</div>
+								</a>
+							</div>
+						</div>
+						<div class="list-items">
+							<div class="list-view">
+								<a href="/mobile/user/drawMoneyPage" data-ajax="false">
+									<div class="wdra list-center"></div>
+									<div class="list-text">提款</div>
+								</a>
+							</div>
+						</div>
+						
+						
+						
+						
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/toSport" data-ajax="false">
+										<div class="spots list-center"></div>
+										<div class="list-text">{[{5L2T6IKy5oqV5rOo}]}</div>
+									</a>
+								</div>
+							</div>
+						
+						
+					</div>	
+					<div class="list-icon">
+					
+					
+						<div class="list-items">
+							<div class="list-view">
+								<a href="/mobile/ssc" data-ajax="false">
+									<div class="ssc list-center"></div>	
+									<div class="list-text">{[{5pe25pe25b2p}]}</div>
+								</a>
+							</div>
+						</div>	
+						
+						
+						
+						
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/hkc" data-ajax="false">
+										<div class="hkc list-center">
+										</div>	
+										<div class="list-text">{[{6aaZ5riv5b2p}]}</div>
+									</a>
+								</div>
+							</div>
+							
+						
+					
+						
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/qxc" data-ajax="false">
+										<div class="qxc list-center"></div>	
+										<div class="list-text">{[{5LiD5pif5b2p}]}</div>
+									</a>
+								</div>
+							</div>
+							
+					
+					</div>
+					<div class="list-icon">	
+					
+					
+						<div class="list-items">
+							<div class="list-view">
+								<a href="/mobile/fc3d" data-ajax="false">
+									<div class="f3dc list-center"></div>	
+									<div class="list-text">{[{56aP5b2pM0Q=}]}</div>
+								</a>
+							</div>
+						</div>
+						
+						
+					
+					   
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/toMZT" data-ajax="false">
+										<div class="mzt list-center"></div>	
+										<div class="list-text">{[{5piO54+g5Y6F}]}</div>
+									</a>
+								</div>
+							</div>
+						
+				  
+				  
+					
+						<div class="list-items">
+							<div class="list-view">
+								<a href="/mobile/toRoyal" data-ajax="false">
+									<div class="hjt list-center"></div>	
+									<div class="list-text">{[{55qH5a625Y6F}]}</div>
+								</a>
+							</div>
+						</div>
+						
+				  
+					</div>
+					<div class="list-icon">	
+					
+						
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/toBetGamesTv" data-ajax="false">
+										<div class="euro list-center"></div>	
+										<div class="list-text">{[{5qyn5rSy5ri45oiP}]}</div>
+									</a>
+								</div>
+							</div>
+							
+					
+					
+						
+							<div class="list-items">
+								<div class="list-view">
+									<a href="/mobile/toJXT" data-ajax="false">
+										<div class="luckyhall list-center"></div>	
+										<div class="list-text">{[{5ZCJ56Wl5Y6F}]}</div>
+									</a>
+								</div>
+							</div>
+							
+					
+						
+						
+					</div>
+					<div class="list-items">
+							<div class="list-view">
+								<div class=""></div>	
+								<div class="list-text"></div>
+							</div>
+						</div>
+			</div>
+		</div>
+		<!-- /content -->
+		<div id="footer" class="header-bg h-auto ft-default">
+			<div class="centerarr">
+ 				    
+				   	    
+		            			        
+			        <div class="bootom-ft" onclick="javascript:window.open('http://www.vin834.com', '_blank');">
+			         &nbsp;桌面版
+			         
+			        </div>
+			        <span>|</span>
+			        <div class="bootom-ft" onclick="javascript:window.open('/mobile/user/contact', '_blank');">联系我们</div>
+			</div>	
+		</div>
+	</div>
+
+<div data-role="dialog" id="messageDetail" data-close-btn="none">
+	<div data-role="header" class="ui-tittle-info-alert ui-tittle-index-green"  data-theme="d">
+		<h1 class="ui-tittle-green" id="pt" style="min-height:0;">活动消息</h1>
+	</div>
+	<div data-role="content" data-theme="a" style="padding: 10px 15px 0px 15px;">
+		<p id="pc" style="line-height:16px; font-size:12px; margin:0 0 10px 0"></p>
+		<a id="returnBtn" data-role="button" onclick="readMsg();" data-theme="a">已阅读</a>
+	</div>
+</div>
+<div data-role="dialog" id="securityDetail" >
+	<div data-role="header" class="ui-tittle-index-green"  data-theme="d">
+		<h1 class="ui-tittle-green" id="pt" style="min-height:0;">温馨提示</h1>
+	</div>
+	<div data-role="content" data-theme="a" style="padding: 10px 15px 0px 15px;">
+		<p id="securityText" style="line-height:16px; font-size: 0.6em; margin:0 0 10px 0">为保障用户账户安全，请设置防伪信息！</p>
+		<a id="securityBtn" data-role="button" href="/mobile/user/center#uptSecurityCodePage" data-ajax="false" data-theme="a">设置防伪信息</a>
+		<a id="closeSecurityBtn" data-role="button" style="display:none;"  data-theme="a">我知道了</a>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+	document.body.innerHTML = replaceAllHtml(document.body.innerHTML);
+</script>
+</html>

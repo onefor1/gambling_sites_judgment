@@ -1,0 +1,833 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>大玩家-网投彩票领导者</title>
+    <link rel="stylesheet" href="pc/template/css/cabel-v1.css" type="text/css">
+    <link rel="stylesheet" href="pc/template/css/style_600.css" type="text/css"><!--页面CSS-->
+    <link rel="stylesheet" href="pc/template/css/animate.min.css"><!--CSS3动画-->
+    <link rel="stylesheet" href="pc/template/css/lottery.css" type="text/css"><!--页面CSS-->
+    <link rel="stylesheet" href="pc/template/css/liMarquee.css" type="text/css"><!--页面CSS-->
+    <link rel="stylesheet" href="pc/template/css/jquery.range.css" type="text/css">
+    <link rel="stylesheet" href="pc/template/css/global.css"><!--页面CSS-->
+    <link rel="stylesheet" href="pc/template/css/other.css" type="text/css"><!--页面CSS-->
+	<link href="pc/template/css/layer.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="pc/template/js/jquery-1.9.1.min.js"></script>
+    <script src="pc/template/js/FancyZoom.js" language="JavaScript" type="text/javascript"></script>
+    <script src="pc/template/js/FancyZoomHTML.js" language="JavaScript" type="text/javascript"></script>
+	<script src="pc/template/js/mobile-detect.min.js"></script>
+	<script src="pc/template/js/layer.js" type="text/javascript"></script>
+	
+	 <script type="text/javascript">
+        //在线客服
+      
+        function CheckLogin() {
+            var usernName = $("#txtUserName").val().replace(/\s/g, "");
+            $("#txtUserName").val(usernName);//将去除空格的用户名，写入登录框中
+            var password = $("#txtPwd").val().trim();
+            if (usernName == "") {
+                $("#txtUserName").focus();
+                layer.alert("用户名不能为空！", 2);
+                return false;
+            }
+            else if (password == "") {
+                $("#txtPwd").focus();
+                layer.alert("密码不能为空！", 2);
+                return false;
+            }
+            var loadingIndex = layer.load('登录中，请稍后....', 300);
+            //开始登陆
+            $.ajax({
+                type: "Post",
+                url: "post.php?ss_xx_id=login_post&username="+usernName+"&password="+password,
+                success: function (data) {
+                  if (data == 1) {window.location.href = "index.php";} 
+				  if (data == 2) {layer.load("请确认您输入的用户名或密码输入是否正确！", 500);window.location.href = "index.php";}  
+				  if (data == 3) {layer.load("您的账户当前处于锁定状态，系统将于两个小时之后解除锁定！", 500);window.location.href = "index.php";} 
+					
+                }
+            });
+        }
+        function keyLogin() {
+            if (event.keyCode == 13) {
+                CheckLogin();
+            }
+        }
+    </script>
+	<style>
+        a:hover{
+            color: red;
+
+        }
+        a:active{
+            color:deepskyblue;
+        }
+    </style>
+</head>
+<!--
+--> 
+<body>
+<div class="type_top" style="z-index:100">
+    <div class="wid1">
+        <div class="left fl">
+            <div class="left_div" style="display:block">你好，欢迎来大玩家-彩票网!
+                <a href="index.php?IFLOFINYM=LOGIN" class="log">请登录</a>
+                        <span>
+                            <a href="zhuce.php?DAILI_KS=REKSJDD&DLIS=admin" class="a1 blink">免费注册</a>
+                        </span>
+                    </div>
+			 <div class="left_div" style="display:none">
+			 <a>你好 ，欢迎来大玩家!</a>
+              <span><a class="a1 blink">当前账余额：元</a></span>
+			  <span><a class="a1 blink">上次登录：1970-01-01 08:00:00</a></span>
+			  <span><a href="post.php?ss_xx_id=tuichu" class="a1 blink">退出登录</a></span>
+                    </div>
+        </div>
+        <div class="right fr">
+            <ul>
+                <li class="li0"><a href="index.php">首页</a></li>
+                <li class="li0"><a href="kefu.php" style="color:#d84600" target="_blank" class="blink">在线客服</a></li>
+                <li class="l"><a href="dating.php"><b>购买彩票</b><i class="ico-d"></i></a></li>
+                <li><a href="#">帮助</a></li>
+               
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="men_list">
+    <div class="wid1">
+        <div class="logo mt0">
+            <a href="index.php"><img src="pc/template/img/logo-1.png" alt=""></a>
+        </div>
+        <div class="nav_list">
+    <ul>
+        <li>
+            <a href="index.php">
+                <img src="pc/template/img/ico33.png" alt="首页">
+                <p>首页 </p>
+            </a>
+        </li>
+        <li>
+            <a href="dating.php" target="_blank">
+                <img src="pc/template/img/ico34.png" alt="购彩大厅">
+                <p>购彩大厅</p>
+            </a>
+        </li>
+        <li>
+            <a href="user.php?USER=OPEN_KJJG&CZID=1" target="_blank">
+                <img src="pc/template/img/ico35.png" alt="开奖结果">
+                <p>开奖结果</p>
+            </a>
+        </li>
+        <li>
+            <a href="user.php?USER=OPEN_KJJG&CZID=1" target="_blank">
+                <img src="pc/template/img/ico36.png" alt="走势图">
+                <p>走势图</p>
+            </a>
+        </li>
+        <li>
+            <a href="user.php?USER=ABOUT_DL">
+                <img src="pc/template/img/ico37.png" alt="加入代理">
+                <p>加入代理</p>
+            </a>
+        </li>
+        <li>
+            <a href="user.php?USER=YOUHUI">
+                <img src="pc/template/img/ico38.png" alt="">
+                <p>优惠活动</p>
+            </a>
+        </li>
+        <li>
+            <a href="kefu.php" target="_blank">
+                <img src="pc/template/img/ico36.png" alt="">
+                <p>在线客服</p>
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+
+<div class="main_layout wid1">
+    <div class="left_layout">
+        <h1 style="top:-30px; height:30px; line-height:30px">选择彩种</h1>
+        <ul>
+    <li><a href="dating.php?CZNO=1" target="_blank">
+        <img src="pc/template/images/5.png" alt="">重庆时时彩</a><i class="i0">强烈推荐</i>
+    </li>
+    <li><a href="dating.php?CZNO=2" target="_blank">
+        <img src="pc/template/images/7.png" alt="">天津时时彩</a><i class="i0">最火爆彩种</i>
+    </li>
+    <li><a href="dating.php?CZNO=26" target="_blank">
+        <img src="pc/template/images/9.png" alt="">北京PK10</a><i class="i0">北京赛车PK10</i>
+    </li>
+    <li><a href="dating.php?CZNO=34" target="_blank">
+        <img src="pc/template/images/18.png" alt="">六合彩</a><i class="i0">火爆低频 每周三期</i>
+    </li>
+    <li><a href="dating.php?CZNO=18" target="_blank">
+        <img src="pc/template/images/11.png" alt="">安徽快3</a><i class="i0">安徽快3</i>
+    </li>
+    <li><a href="dating.php?CZNO=16" target="_blank">
+        <img src="pc/template/images/17.png" alt="">江苏快三</a><i class="i0">江苏快三</i>
+    </li>
+    <li><a href="dating.php?CZNO=30" target="_blank">
+        <img src="pc/template/images/41.png" alt="">PC蛋蛋</a><i class="i0">北京28</i>
+    </li>
+	<li><a href="dating.php?CZNO=9" target="_blank">
+        <img src="pc/template/images/4.png" alt="">北京五分彩</a><i class="i0">北京五分彩</i>
+    </li>
+    <!--<li><a href="javascript:void(0)" onclick="openGcdt('gcdt/klsf')"><img src="pc/template/img/ico26.png" alt="">广东快乐十分</a><i>十分钟一期</i></li>-->
+</ul>
+<div class="high">
+    <b class="b0"><img src="pc/template/img/ico79.png" alt="">高 频 彩</b>
+    <p>
+        <a href="dating.php?CZNO=1" target="_blank">重庆时时彩</a>
+		<a href="dating.php?CZNO=2" target="_blank">天津时时彩</a>
+		<a href="dating.php?CZNO=3" target="_blank">黑龙江彩</a>
+		<a href="dating.php?CZNO=4" target="_blank">新疆时时彩</a>
+		<a href="dating.php?CZNO=5" target="_blank">澳洲五分彩</a>
+		<a href="dating.php?CZNO=16" target="_blank">江苏快三</a>
+		<a href="dating.php?CZNO=26" target="_blank">北京PK10</a>
+		<a href="dating.php?CZNO=27" target="_blank">广东11选5</a>
+    </p>
+
+    <a href="javascript:void(0)" class="more"><img src="pc/template/img/ico81.png" alt=""></a>
+    <div class="downt_more" style="line-height:10px; border:#FF6600 solid 2px">
+        <h5>高频彩</h5>
+        <strong>
+         <a href="dating.php?CZNO=1" target="_blank">重庆时时彩</a>
+		<a href="dating.php?CZNO=2" target="_blank">天津时时彩</a>
+		<a href="dating.php?CZNO=3" target="_blank">黑龙江彩</a>
+		<a href="dating.php?CZNO=4" target="_blank">新疆时时彩</a>
+		<a href="dating.php?CZNO=5" target="_blank">澳洲五分彩</a>
+		<a href="dating.php?CZNO=6" target="_blank">腾讯三分彩</a>
+		<a href="dating.php?CZNO=7" target="_blank">东京二分彩</a>
+		<a href="dating.php?CZNO=8" target="_blank">韩国彩</a>
+		<a href="dating.php?CZNO=9" target="_blank">北京五分彩</a>
+		<a href="dating.php?CZNO=10" target="_blank">大玩家分分彩</a>
+		<a href="dating.php?CZNO=11" target="_blank">加拿大彩</a>
+		<a href="dating.php?CZNO=12" target="_blank">台湾五分彩</a>
+		<a href="dating.php?CZNO=13" target="_blank">大玩家秒秒彩</a>
+		<a href="dating.php?CZNO=14" target="_blank">广西快三</a>
+		<a href="dating.php?CZNO=15" target="_blank">湖北快三</a>
+		<a href="dating.php?CZNO=16" target="_blank">江苏快三</a>
+		<a href="dating.php?CZNO=17" target="_blank">江西快三</a>
+		<a href="dating.php?CZNO=18" target="_blank">安徽快三</a>
+		<a href="dating.php?CZNO=19" target="_blank">北京快三</a>
+		<a href="dating.php?CZNO=20" target="_blank">福建快三</a>
+		<a href="dating.php?CZNO=21" target="_blank">甘肃快三</a>
+		<a href="dating.php?CZNO=22" target="_blank">贵州快三</a>
+		<a href="dating.php?CZNO=23" target="_blank">河北快三</a>
+		<a href="dating.php?CZNO=24" target="_blank">内蒙古快三</a>
+		<a href="dating.php?CZNO=25" target="_blank">上海快三</a>
+		<a href="dating.php?CZNO=26" target="_blank">北京PK10</a>
+		<a href="dating.php?CZNO=27" target="_blank">广东11选5</a>
+		<a href="dating.php?CZNO=28" target="_blank">山东11选5</a>
+		<a href="dating.php?CZNO=29" target="_blank">江西11选5</a>
+		<a href="dating.php?CZNO=30" target="_blank">北京28</a>
+		<a href="dating.php?CZNO=31" target="_blank">新加坡28</a>
+		
+		
+        </strong>
+    </div>
+</div>
+<div class="high">
+    <b class="b1"><img src="pc/template/img/ico80.png" alt="">低 频 彩</b>
+    <p>
+        <a href="dating.php?CZNO=32" target="_blank">排列三</a>
+        <a href="dating.php?CZNO=33" target="_blank">福彩3D</a>
+        <a href="dating.php?CZNO=34" target="_blank">香港⑥合彩</a>
+		<a href="dating.php?CZNO=35" target="_blank">七星彩</a>
+		<a href="dating.php?CZNO=36" target="_blank">排列五</a>
+    </p>
+    <a href="javascript:void(0)" class="more"><img src="pc/template/img/ico81.png" alt=""></a>
+    <div class="downt_more bott" style="line-height:10px; border:#FF6600 solid 2px">
+        <h5>低频彩</h5>
+        <strong>
+           <a href="dating.php?CZNO=32" target="_blank">排列三</a>
+        <a href="dating.php?CZNO=33" target="_blank">福彩3D</a>
+        <a href="dating.php?CZNO=34" target="_blank">香港⑥合彩</a>
+		<a href="dating.php?CZNO=35" target="_blank">七星彩</a>
+		<a href="dating.php?CZNO=36" target="_blank">排列五</a>
+        </strong>
+    </div>
+</div>
+<div class="high tesh">
+    <h3>全部&gt;&gt;</h3>
+    <div class="downt_more bott1" style="line-height:10px; border:#FF6600 solid 2px">
+        <h5>全部</h5>
+        <strong>
+            <a href="dating.php?CZNO=1" target="_blank">重庆时时彩</a>
+		<a href="dating.php?CZNO=2" target="_blank">天津时时彩</a>
+		<a href="dating.php?CZNO=3" target="_blank">黑龙江彩</a>
+		<a href="dating.php?CZNO=4" target="_blank">新疆时时彩</a>
+		<a href="dating.php?CZNO=5" target="_blank">澳洲五分彩</a>
+		<a href="dating.php?CZNO=6" target="_blank">腾讯三分彩</a>
+		<a href="dating.php?CZNO=7" target="_blank">东京二分彩</a>
+		<a href="dating.php?CZNO=8" target="_blank">韩国彩</a>
+		<a href="dating.php?CZNO=9" target="_blank">北京五分彩</a>
+		<a href="dating.php?CZNO=10" target="_blank">大玩家分分彩</a>
+		<a href="dating.php?CZNO=11" target="_blank">加拿大彩</a>
+		<a href="dating.php?CZNO=12" target="_blank">台湾五分彩</a>
+		<a href="dating.php?CZNO=13" target="_blank">大玩家秒秒彩</a>
+		<a href="dating.php?CZNO=14" target="_blank">广西快三</a>
+		<a href="dating.php?CZNO=15" target="_blank">湖北快三</a>
+		<a href="dating.php?CZNO=16" target="_blank">江苏快三</a>
+		<a href="dating.php?CZNO=17" target="_blank">江西快三</a>
+		<a href="dating.php?CZNO=18" target="_blank">安徽快三</a>
+		<a href="dating.php?CZNO=19" target="_blank">北京快三</a>
+		<a href="dating.php?CZNO=20" target="_blank">福建快三</a>
+		<a href="dating.php?CZNO=21" target="_blank">甘肃快三</a>
+		<a href="dating.php?CZNO=22" target="_blank">贵州快三</a>
+		<a href="dating.php?CZNO=23" target="_blank">河北快三</a>
+		<a href="dating.php?CZNO=24" target="_blank">内蒙古快三</a>
+		<a href="dating.php?CZNO=25" target="_blank">上海快三</a>
+		<a href="dating.php?CZNO=26" target="_blank">北京PK10</a>
+		<a href="dating.php?CZNO=27" target="_blank">广东11选5</a>
+		<a href="dating.php?CZNO=28" target="_blank">山东11选5</a>
+		<a href="dating.php?CZNO=29" target="_blank">江西11选5</a>
+		<a href="dating.php?CZNO=30" target="_blank">北京28</a>
+		<a href="dating.php?CZNO=31" target="_blank">新加坡28</a>
+		<a href="dating.php?CZNO=32" target="_blank">排列三</a>
+        <a href="dating.php?CZNO=33" target="_blank">福彩3D</a>
+        <a href="dating.php?CZNO=34" target="_blank">香港⑥合彩</a>
+		<a href="dating.php?CZNO=35" target="_blank">七星彩</a>
+		<a href="dating.php?CZNO=36" target="_blank">排列五</a>
+        </strong>
+    </div>
+</div></div>
+
+    <div class="right_layotu">
+        <div class="left_wrap">
+            <div class="scroll_pic">
+                <ul>
+                    <li id="tupgd_1" style="display:block"><a href="javascript:void(0)"><img src="pc/template/img/40.jpg" alt="欢迎光临" width="499" height="189"></a></li>
+					<li id="tupgd_2" style="display:none"><a href="javascript:void(0)"><img src="pc/template/img/255.jpg" alt="欢迎光临" width="499" height="189"></a></li>
+					<li id="tupgd_3" style="display:none"><a href="javascript:void(0)"><img src="pc/template/img/256.jpg" alt="欢迎光临" width="499" height="189"></a></li>
+					<li id="tupgd_4" style="display:none"><a href="javascript:void(0)"><img src="pc/template/img/257.jpg" alt="欢迎光临" width="499" height="189"></a></li>
+                  </ul>
+                <p>
+                    <i class="acti" id="tupshib_1">1</i>
+					<i class="acti" id="tupshib_2">2</i>
+					<i class="acti" id="tupshib_3">3</i>
+					<i class="acti" id="tupshib_4">4</i>
+					</p>
+            </div>
+			
+<script type="text/javascript">
+var dqid=0;
+setTimeout("tupgund()",2000);	
+function tupgund(){
+	dqid=dqid+1;
+	if(dqid>4){dqid=1;}
+	if(dqid==1){
+		$("#tupgd_1").show();
+		$("#tupgd_2").hide();
+		$("#tupgd_3").hide();
+		$("#tupgd_4").hide();
+		document.getElementById("tupshib_1").style="font-weight:800";
+		document.getElementById("tupshib_2").style="";
+		document.getElementById("tupshib_3").style="";
+		document.getElementById("tupshib_4").style="";
+	}
+	if(dqid==2){
+		$("#tupgd_2").show();
+		$("#tupgd_1").hide();
+		$("#tupgd_3").hide();
+		$("#tupgd_4").hide();
+		document.getElementById("tupshib_2").style="font-weight:800";
+		document.getElementById("tupshib_1").style="";
+		document.getElementById("tupshib_3").style="";
+		document.getElementById("tupshib_4").style="";
+	}
+	if(dqid==3){
+		$("#tupgd_3").show();
+		$("#tupgd_2").hide();
+		$("#tupgd_1").hide();
+		$("#tupgd_4").hide();
+		document.getElementById("tupshib_3").style="font-weight:800";
+		document.getElementById("tupshib_2").style="";
+		document.getElementById("tupshib_1").style="";
+		document.getElementById("tupshib_4").style="";
+	}
+	if(dqid==4){
+		$("#tupgd_4").show();
+		$("#tupgd_2").hide();
+		$("#tupgd_3").hide();
+		$("#tupgd_1").hide();
+		document.getElementById("tupshib_4").style="font-weight:800";
+		document.getElementById("tupshib_2").style="";
+		document.getElementById("tupshib_3").style="";
+		document.getElementById("tupshib_1").style="";
+	}
+	setTimeout("tupgund()",2000);
+}
+</script>			
+            <div class="Bettingbag">
+                <div class="tabs_cg" id="qiehuanhuid">
+                    <ul>
+                        <li id="qieh_1" class="acti" onClick="index_qiehuan(1)"><i>重庆时时彩</i></li>
+                        <li id="qieh_2" onClick="index_qiehuan(2)"><i>香港六合彩</i></li>
+                        <li id="qieh_3" onClick="index_qiehuan(3)"><i>PK10</i></li>
+                        <li id="qieh_4" onClick="index_qiehuan(4)"><i>新疆时时彩</i></li>
+                        <li id="qieh_5" onClick="index_qiehuan(5)"><i>天津时时彩</i></li>
+                    </ul>
+                </div>
+                <div class="num_bett" id="ssc_id_1" style="display:block">
+                    <p class="p1"><span class="sp0 number"></span><span class="currentTime leftTime"></span><span
+                            class="sp1 jiangchi"></span><span>
+							<a href="user.php?USER=WANFA&CPID=1" target="_blank">玩法介绍</a> | 
+							<a href="dating.php?CZNO=1" target="_blank">立即投注</a> | 
+							<a href="user.php?USER=OPEN_KJJG&CZID=1" target="_blank">开奖结果</a></span></p>
+                    <div class="box_n at hei1" id="xyxhContent_1">
+                        <span class="s0">7</span>
+                        <span class="s0">7</span>
+                        <span class="s0">8</span>
+                        <span class="s0">0</span>
+                        <span class="s0">5</span>
+                    </div>
+                    <div class="val_add at">
+                      
+                        <p class="fr" style="margin:auto; float:none" align="center">
+                       
+                            <a href="dating.php?CZNO=1" class="a1" target="_blank">立即投注</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="num_bett" id="ssc_id_2">
+                    <p class="p1"><span class="sp0 number"></span><span class="currentTime leftTime"></span><span
+                            class="sp1 jiangchi"></span><span>
+							<a href="user.php?USER=WANFA&CPID=10" target="_blank">玩法介绍</a> | 
+							<a href="dating.php?CZNO=34" target="_blank">立即投注</a> | 
+							<a href="user.php?USER=OPEN_KJJG&CZID=10" target="_blank">开奖结果</a></span></p>
+                    <div class="box_n at hei1" id="xyxhContent_1" style="width:420px; padding-left:10px">
+                        <span class="s0">42</span>
+                        <span class="s0">37</span>
+                        <span class="s0">03</span>
+                        <span class="s0">44</span>
+                        <span class="s0">31</span>
+						<span class="s0">04</span>
+						<span class="s0">40</span>
+                    </div>
+                    <div class="val_add at">
+                      
+                        <p class="fr" style="margin:auto; float:none" align="center">
+                       
+                            <a href="dating.php?CZNO=34" class="a1" target="_blank">立即投注</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="num_bett" id="ssc_id_3">
+                    <p class="p1"><span class="sp0 number"></span><span class="currentTime leftTime"></span><span
+                            class="sp1 jiangchi"></span><span>
+							<a href="user.php?USER=WANFA&CPID=5" target="_blank">玩法介绍</a> | 
+							<a href="dating.php?CZNO=26" target="_blank">立即投注</a> | 
+							<a href="user.php?USER=OPEN_KJJG&CZID=5" target="_blank">开奖结果</a></span>
+					</p>
+                    <div class="box_n at hei1 pk10" id="xyxhContent_9">
+                        <span class="s0">02</span>
+                        <span class="s0">05</span>
+                        <span class="s0">07</span>
+                        <span class="s0">01</span>
+                        <span class="s0">09</span>
+                        <span class="s0">06</span>
+                        <span class="s0">10</span>
+                        <span class="s0">08</span>
+                        <span class="s0">04</span>
+                        <span class="s0">03</span>
+                    </div>
+                    <div class="val_add at">
+                        <p class="fr" style="margin:auto; float:none" align="center">
+                       
+                            <a href="dating.php?CZNO=26" class="a1" target="_blank">立即投注</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="num_bett" id="ssc_id_4">
+                     <p class="p1"><span class="sp0 number"></span><span class="currentTime leftTime"></span><span
+                            class="sp1 jiangchi"></span><span>
+							<a href="user.php?USER=WANFA&CPID=1" target="_blank">玩法介绍</a> | 
+							<a href="dating.php?CZNO=4" target="_blank">立即投注</a> | 
+							<a href="user.php?USER=OPEN_KJJG&CZID=2" target="_blank">开奖结果</a></span></p>
+                    <div class="box_n at hei1" id="xyxhContent_1">
+                        <span class="s0">2</span>
+                        <span class="s0">6</span>
+                        <span class="s0">6</span>
+                        <span class="s0">1</span>
+                        <span class="s0">9</span>
+                    </div>
+                    <div class="val_add at">
+                      
+                        <p class="fr" style="margin:auto; float:none" align="center">
+                       
+                            <a href="dating.php?CZNO=4" class="a1" target="_blank">立即投注</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="num_bett" id="ssc_id_5">
+                     <p class="p1"><span class="sp0 number"></span><span class="currentTime leftTime"></span><span
+                            class="sp1 jiangchi"></span><span>
+							<a href="user.php?USER=WANFA&CPID=1" target="_blank">玩法介绍</a> | 
+							<a href="dating.php?CZNO=2" target="_blank">立即投注</a> | 
+							<a href="user.php?USER=OPEN_KJJG&CZID=9" target="_blank">开奖结果</a></span></p>
+                    <div class="box_n at hei1" id="xyxhContent_1">
+                        <span class="s0">4</span>
+                        <span class="s0">3</span>
+                        <span class="s0">3</span>
+                        <span class="s0">8</span>
+                        <span class="s0">4</span>
+                    </div>
+                    <div class="val_add at">
+                      
+                        <p class="fr" style="margin:auto; float:none" align="center">
+                       
+                            <a href="dating.php?CZNO=2" class="a1" target="_blank">立即投注</a>
+                        </p>
+                    </div>
+                </div>
+            </div><!--Bettingbag-->
+        </div>
+        <div class="right_wrap" style="overflow:hidden;">
+            <div class="login" style="display:block">
+                <h2>
+                    <p>登录</p>
+                </h2>
+
+                            <ul style="line-height:40px">
+                                <li><input type="text" placeholder="会员名" id="txtUserName" name="username"></li>
+                                <li><input type="password" placeholder="密码" id="txtPwd" name="password" nkeydown="keyLogin();"></li>
+               
+                                <li>
+									<button type="submit" onClick="CheckLogin();">登录</button>
+                                    <a href="zhuce.php?DAILI_KS=REKSJDD&DLIS=admin" class="a0">立即注册</a>
+								</li>	
+                            </ul>
+                  
+                    </div>
+					
+					
+					 <div class="login" style="display:none">
+                <h2>
+                    <p>账户信息</p>
+                </h2>
+				
+				<ul style="color:#666;  font-size:14px; line-height:30px">
+                                
+								<li style="float:none">当前账户：<span style="color:#ff0000"></span></li>
+								<li style="float:none">账户余额：<span style="color:#ff0000"></span></li>
+               					<li style="float:none">
+								<a href="user.php?USER=CHONGZHI"><button type="submit">充值</button></a>
+								<a href="user.php?USER=TIXIAN"><button type="submit">提现</button></a>
+							</li>
+							<li style="float:none">
+								<a href="user.php"><button type="submit">会员中心</button></a>
+								<a href="user.php?USER=MAIL"><button type="submit">消息中心</button></a>
+							</li>
+                            </ul>
+
+                
+                    </div>
+					
+					
+            <div class="down_file">
+                <p><i class="iphone"></i>系统公告</p>
+            </div>
+            <div class="code_layout" style="width:99%">
+                
+				<div style="line-height:28px; border-top:#CCCCCC solid 1px; font-size:12px; margin-left:5px; width:230px">
+ <!---->   
+<p style="width:220px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; course:hand;">
+<a href="user.php?USER=GGAO_OPEN&TID=50" target="_blank" title="《大玩家彩票网，神秘彩金伴您赢天下！！！》"><strong style="color:#FF0000">《大玩家彩票网，神秘彩金伴您赢天下！！！》</strong></a>
+</p>
+<!---->   
+<p style="width:220px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; course:hand;">
+<a href="user.php?USER=GGAO_OPEN&TID=49" target="_blank" title="生日彩金活动已上线"><strong style="color:#FF0000">生日彩金活动已上线</strong></a>
+</p>
+<!---->   
+<p style="width:220px; overflow:hidden; text-overflow: ellipsis; white-space: nowrap; course:hand;">
+<a href="user.php?USER=GGAO_OPEN&TID=48" target="_blank" title="《大玩家彩票网诚邀您加入VIP赌王之星，诚心伴您赢天下！！！》"><strong style="color:#FF0000">《大玩家彩票网诚邀您加入VIP赌王之星，诚心伴您赢天下！！！》</strong></a>
+</p>
+<!---->
+			 
+				</div>
+            </div>
+
+        </div>
+        <div class="chart">
+            <div class="title">
+                <h2>开奖历史</h2>
+            </div>
+            <div class="pic_wp">
+                <div class="pic_box">
+                    <img src="pc/template/img/img11.jpg" alt="">
+                </div>
+                <div class="links" style="width:475px">
+                    <p>
+		<a href="user.php?USER=OPEN_KJJG&CZID=1" target="_blank" style="width:60px; text-align:center">重庆时时彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=9" target="_blank" style="width:60px; text-align:center">天津时时彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=11" target="_blank" style="width:60px; text-align:center">黑龙江彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=2" target="_blank" style="width:60px; text-align:center">新疆时时彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=6" target="_blank" style="width:60px; text-align:center">澳洲五分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=7" target="_blank" style="width:60px; text-align:center">腾讯三分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=8" target="_blank" style="width:60px; text-align:center">东京二分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=13" target="_blank" style="width:60px; text-align:center">韩国彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=14" target="_blank" style="width:60px; text-align:center">北京五分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=15" target="_blank" style="width:60px; text-align:center">大玩家分分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=16" target="_blank" style="width:60px; text-align:center">加拿大彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=17" target="_blank" style="width:60px; text-align:center">台湾五分彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=18" target="_blank" style="width:60px; text-align:center">大玩家秒秒彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=25" target="_blank" style="width:60px; text-align:center">广西快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=26" target="_blank" style="width:60px; text-align:center">湖北快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=28" target="_blank" style="width:60px; text-align:center">江苏快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=29" target="_blank" style="width:60px; text-align:center">江西快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=30" target="_blank" style="width:60px; text-align:center">安徽快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=31" target="_blank" style="width:60px; text-align:center">北京快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=32" target="_blank" style="width:60px; text-align:center">福建快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=33" target="_blank" style="width:60px; text-align:center">甘肃快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=34" target="_blank" style="width:60px; text-align:center">贵州快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=35" target="_blank" style="width:60px; text-align:center">河北快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=36" target="_blank" style="width:60px; text-align:center">内蒙古快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=37" target="_blank" style="width:60px; text-align:center">上海快三</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=5" target="_blank" style="width:60px; text-align:center">北京PK10</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=19" target="_blank" style="width:60px; text-align:center">广东11选5</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=22" target="_blank" style="width:60px; text-align:center">山东11选5</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=21" target="_blank" style="width:60px; text-align:center">江西11选5</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=39" target="_blank" style="width:60px; text-align:center">北京28</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=38" target="_blank" style="width:60px; text-align:center">新加坡28</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=4" target="_blank" style="width:60px; text-align:center">排列三</a>
+        <a href="user.php?USER=OPEN_KJJG&CZID=3" target="_blank" style="width:60px; text-align:center">福彩3D</a>
+        <a href="user.php?USER=OPEN_KJJG&CZID=10" target="_blank" style="width:60px; text-align:center">香港⑥合彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=20" target="_blank" style="width:60px; text-align:center">七星彩</a>
+		<a href="user.php?USER=OPEN_KJJG&CZID=12" target="_blank" style="width:60px; text-align:center">排列五</a>			
+						
+						
+						
+						
+                    </p>
+                  
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!---456--->
+<div style="width:998px; height:350px; border:#dadada solid 1px; margin:auto; margin-top:10px">
+	<ul>
+		<li style="width:238px; border-right:#dadada solid 1px;">
+			<div style=" width:238px; height:30px; background:#F5F5F5; line-height:30px; border-bottom:#dadada solid 1px;">
+			<font style="font-size:14px; font-family:'微软雅黑'; color:#FF9966">&nbsp;&nbsp;每日中奖排行榜</font>
+			</div>
+			<div style="width:238px; height:318px; border-right:#dadada solid 1px; line-height:30px;">
+			<marquee direction="up" truespeed="truespeed" height="300px" behavior="scroll" scrolldelay="100">
+			<div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【xpk***】【65698元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【us***s】【81042元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【no***】【13732元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ktp***f】【63097元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【dg***z】【19676元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【k***w】【77280元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【v***k】【72094元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ew***y】【43571元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bwy***m】【30174元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【h***g】【33115元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【sp***k】【83903元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【***i】【85032元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【lm***a】【45012元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ss***i】【6941元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【a***o】【70138元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【f***】【95289元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【azi***e】【67641元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ro***w】【25225元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hxu***n】【13470元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tir***g】【2880元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【jx***n】【15783元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【***v】【55075元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【per***w】【72702元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ny***】【79820元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gr***】【84280元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【a***】【84282元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【n***g】【76033元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【id***x】【72352元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tg***x】【79797元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【apn***】【35945元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fsn***a】【65240元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【cjx***】【84770元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zz***i】【7563元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【yf***u】【13254元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gkd***】【96317元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【nvg***m】【51180元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ab***】【93296元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ira***】【97976元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ew***】【3900元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【v***】【67874元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【eck***w】【89730元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【uw***】【55362元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qn***e】【21470元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【e***j】【85808元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【p***a】【6007元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【wv***x】【50201元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【j***r】【51986元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【h***】【3128元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gm***x】【43965元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【cre***a】【77583元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【u***】【29518元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【vq***】【51380元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qx***f】【34017元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zct***e】【87812元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【kx***】【27151元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hc***d】【24097元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【wdu***】【7841元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【aq***】【81643元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【lk***w】【6173元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【obr***】【28578元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ex***j】【88203元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【q***s】【80429元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【cx***z】【12749元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ob***】【97739元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zzq***i】【96941元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qw***b】【94996元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ary***i】【4083元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【m***】【48272元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ovz***x】【94732元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【liu***】【73018元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【nue***】【90770元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【akr***c】【37762元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ox***】【74574元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qb***b】【25922元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【rwj***r】【85855元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ls***i】【89929元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【jb***】【31279元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【xg***c】【14246元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tga***h】【52915元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【yx***t】【97743元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【lg***】【86307元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qqm***r】【75314元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bql***】【39113元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tl***r】【26490元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【sf***s】【58670元】【腾讯三分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tk***】【54726元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zm***】【94624元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【yh***f】【47050元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【***】【10893元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【arq***r】【48945元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【k***u】【25473元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【azg***t】【69806元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tl***】【9231元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【i***e】【97781元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【mgz***u】【94038元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ke***z】【11001元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【r***d】【88261元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【efz***s】【69734元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【dpv***】【8900元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【owx***】【60219元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【nw***】【93734元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【xn***i】【16009元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hxt***g】【6433元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ms***r】【57554元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gj***q】【34032元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fza***】【12075元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qmb***f】【44372元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qa***j】【14256元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【smc***】【63935元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【txq***v】【13749元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qu***】【7560元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tky***o】【38316元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【mgr***】【9066元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hxw***i】【22196元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【vx***f】【3275元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【scj***】【82538元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【swg***p】【95360元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【kp***j】【84365元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【td***e】【59606元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【iei***】【17120元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hg***】【47416元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【pas***w】【51143元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【kkk***e】【9077元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【f***q】【43391元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bmv***】【75438元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【hs***】【29985元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【l***】【78892元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【dlp***】【76820元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【oe***d】【74352元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【jod***】【3924元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bga***m】【79430元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ru***n】【72636元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【m***】【83009元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zc***l】【75584元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【dr***p】【97919元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bmf***y】【35253元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fr***】【19899元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【qm***】【36123元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【yxg***r】【49797元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【l***j】【98991元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【vxx***f】【34655元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gvb***k】【7232元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fid***v】【95277元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【udw***d】【99504元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【mp***g】【81068元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gn***p】【46255元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【sd***x】【87891元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【rs***】【35287元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【og***e】【74891元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【xeo***】【13513元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【lx***g】【2574元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【j***h】【18144元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ob***】【33163元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【g***j】【48452元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【rza***c】【31782元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【i***c】【7194元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【tqt***c】【75417元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【zo***q】【77983元】【福彩3D】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【e***w】【95478元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【xj***g】【40321元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【x***e】【79916元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【aqg***】【37042元】【台湾五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【cnx***】【4467元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【oow***w】【38704元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【og***f】【81201元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bh***】【51169元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【z***f】【97986元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ses***j】【4248元】【韩国1.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【r***m】【21581元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【pc***o】【13109元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【bw***z】【98143元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【c***d】【17800元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【nk***q】【31729元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【jm***z】【44252元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fct***】【72271元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【uv***e】【3752元】【加拿大3.5分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ek***s】【69150元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【fjx***】【19991元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gis***y】【11124元】【北京五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【k***j】【50977元】【黑龙江时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【cg***s】【8914元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【au***】【74099元】【重庆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ip***c】【69459元】【新疆时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【d***】【37048元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【oda***j】【29048元】【赢彩秒秒彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ze***m】【42404元】【北京28】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【mk***r】【67460元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【eme***c】【99750元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【kn***r】【53987元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【vz***】【25396元】【天津时时彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ls***z】【27574元】【北京赛车】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【jl***e】【77444元】【澳洲五分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【wa***q】【66944元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【y***c】【68343元】【广东11选5】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【ab***t】【54131元】【赢彩分分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【m***m】【68393元】【排列三】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【pdq***o】【20465元】【排列五】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【lzr***k】【67944元】【东京二分彩】</strong></div><div style='width:208px; margin-left:10px; font-size:10px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;width:220px; text-align:center'><strong style='color:#d21111'>【gpz***】【19839元】【台湾五分彩】</strong></div>
+			</marquee>
+			</div>
+		</li>
+		<li style="width:370px; margin-left:10px; margin-right:4px; border-right:#dadada solid 1px; border-left:#dadada solid 1px">
+		<div style=" width:370px; height:30px; background:#F5F5F5; line-height:30px; border-bottom:#dadada solid 1px;">
+			<font style="font-size:14px; font-family:'微软雅黑'">&nbsp;&nbsp;热点新闻</font>
+			</div>
+			<div style="width:370px; height:318px; border-right:#dadada solid 1px; line-height:30px;">
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=142">无锡“福彩3D狂人”频频中奖 轻松吸金三万元</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=141">福建"快3"千万派奖震撼来袭 彩民收获惊喜</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=140">赴婚宴喜中快乐十分万元奖 要多随点份子钱</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=139">被豪车超车不气恼 车牌号投注快十中奖8万</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=138">时时彩投注技巧:一星起步走</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=137">巫山彩民夺“3D”大奖21万 彩友跟风沾喜气</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=136">4776万元!超级大乐透造就无锡体彩第一巨奖</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=135">彩民幸运中大乐透1086万 自带“装备”现身领奖</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=134">漂亮女孩倍投快3 收获两万多元</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPENS&TID=130">快3高手 一天收获快3奖金14万元</a></div>
+<!---->
+			
+			</div>
+		</li>
+		<li style="width:370px; border-left:#dadada solid 1px">
+		<div style=" width:372px; height:30px; background:#F5F5F5; line-height:30px; border-bottom:#dadada solid 1px;">
+			<font style="font-size:14px; font-family:'微软雅黑'">&nbsp;&nbsp;站内新闻</font>
+			</div>
+			<div style="width:372px; height:318px; border-right:#dadada solid 1px; line-height:30px;">
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=50">《大玩家彩票网，神秘彩金伴您赢天下！！！》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=49">生日彩金活动已上线</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=48">《大玩家彩票网诚邀您加入VIP赌王之星，诚心伴您赢天下！！！》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=47">《关于微信支付扫码限制公告》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=46">《大玩家彩票网游戏规则，以及违反游戏规则的处理方式》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=45">《大玩家彩票网每月维护时间通知》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=44">《存款赠送红利1%，次次存次次送，无上限无需流水要求！！！》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=43">《大玩家彩票网注册账户即得2000元试玩》</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=42">介绍朋友游戏赠送媒人红包活动</a></div>
+<!---->   
+<div style="width:350px; margin-left:10px; font-size:12px; border-bottom:#dadada dashed 1px; overflow:hidden;text-overflow:ellipsis; -o-text-overflow:ellipsis;white-space:nowrap;"><a href="user.php?USER=GGAO_OPEN&TID=41">注册送豪礼</a></div>
+<!---->
+		
+			</div>
+		
+		</li>
+	</ul>
+   
+</div>
+<!---123---->
+<div class="tail at">
+    <ul>
+        <li>
+            <div class="slide" style="">
+                <h2><img src="pc/template/img/ico42.png" alt="">快速加入</h2>
+            <p>
+                <span class=""><a href="zhuce.php?DAILI_KS=REKSJDD&DLIS=admin">会员注册</a></span>
+				<span class=""><a href="index.php?IFLOFINYM=LOGIN">会员登录</a></span>
+                <span class=""><a href="user.php?USER=CHONGZHI">账户充值</a></span>
+                <span class=""><a href="user.php?USER=TIXIAN">快速提现</a></span>
+                
+                </p>
+            </div>
+        </li>
+        <li>
+
+            <div class="slide" style="">
+                <h2><img src="pc/template/img/ico43.png" alt="">会员通道</h2>
+            <p>
+                <span class=""><a href="user.php">统计报表</a></span>
+                <span class=""><a href="user.php?USER=TOUZHU">投注记录</a></span>
+                <span class=""><a href="user.php?USER=PASS">资料修改</a></span>
+                <span class=""><a href="user.php?USER=MAIL">消息中心</a></span>
+
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="slide" style="">
+            <h2><img src="pc/template/img/ico44.png" alt="">资金管理</h2>
+            <p>
+                <span class=""><a href="user.php?USER=CHONGZHI">我要充值</a></span>
+                <span class=""><a href="user.php?USER=TIXIAN">我要提现</a></span>
+                <span class=""><a href="user.php?USER=CZJL">充值记录</a></span>
+                <span class=""><a href="user.php?USER=TXJL">提现记录</a></span>
+                </p>
+            </div>
+        </li>
+        <li style="border-right: none;">
+            <h2><img src="pc/template/img/ico45.png" alt="">特色服务</h2>
+            <p>
+                <span class=""><a href="kefu.php" target="_blank">在线客服</a></span>
+				<span class=""><a href="user.php?USER=WANFA&CPID=1" target="_blank">游戏说明</a></span>
+            </p>
+        </li>
+    </ul>
+</div>
+<div class="record wid1">
+    <p class="webDbxx"></p>
+    <p class="mt30"><span>大玩家&nbsp;&nbsp; 郑重提示：彩票有风险，投注需谨慎</span> 不向未满18周岁的青少年出售彩票</p>
+    <p></p>
+    <div class="comp">
+        <ul>
+            <li><img src="pc/template/img/img1.jpg" alt=""></li>
+            <li><img src="pc/template/img/img2.jpg" alt=""></li>
+            <li><img src="pc/template/img/img3.jpg" alt=""></li>
+            <li><img src="pc/template/img/img4.jpg" alt=""></li>
+            <li><img src="pc/template/img/img5.jpg" alt=""></li>
+            <li><img src="pc/template/img/img6.jpg" alt=""></li>
+            <li><img src="pc/template/img/img7.jpg" alt=""></li>
+            <li><img src="pc/template/img/img8.jpg" alt=""></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+function index_qiehuan(ifno){
+	var liAry=document.getElementById("qiehuanhuid").getElementsByTagName("li");
+	if(ifno==1){
+		liAry[0].className="acti"
+		liAry[1].className=""
+		liAry[2].className=""
+		liAry[3].className=""
+		liAry[4].className=""
+		$('#ssc_id_1').show();
+		$('#ssc_id_2').hide();
+		$('#ssc_id_3').hide();
+		$('#ssc_id_4').hide();
+		$('#ssc_id_5').hide();
+		
+		
+	}
+	if(ifno==2){
+		liAry[0].className=""
+		liAry[1].className="acti"
+		liAry[2].className=""
+		liAry[3].className=""
+		liAry[4].className=""
+		$('#ssc_id_2').show();
+		$('#ssc_id_1').hide();
+		$('#ssc_id_3').hide();
+		$('#ssc_id_4').hide();
+		$('#ssc_id_5').hide();
+	}
+	if(ifno==3){
+		liAry[0].className=""
+		liAry[1].className=""
+		liAry[2].className="acti"
+		liAry[3].className=""
+		liAry[4].className=""
+		$('#ssc_id_3').show();
+		$('#ssc_id_2').hide();
+		$('#ssc_id_1').hide();
+		$('#ssc_id_4').hide();
+		$('#ssc_id_5').hide();
+	}
+	if(ifno==4){
+		liAry[0].className=""
+		liAry[1].className=""
+		liAry[2].className=""
+		liAry[3].className="acti"
+		liAry[4].className=""
+		$('#ssc_id_4').show();
+		$('#ssc_id_2').hide();
+		$('#ssc_id_3').hide();
+		$('#ssc_id_1').hide();
+		$('#ssc_id_5').hide();
+	}
+	if(ifno==5){
+		liAry[0].className=""
+		liAry[1].className=""
+		liAry[2].className=""
+		liAry[3].className=""
+		liAry[4].className="acti"
+		$('#ssc_id_5').show();
+		$('#ssc_id_2').hide();
+		$('#ssc_id_3').hide();
+		$('#ssc_id_4').hide();
+		$('#ssc_id_1').hide();
+	}
+}
+
+</script>
+</body>
+</html>
+<!---->

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>澳门金沙娱乐场</title>
+<meta name="description" content="澳门金沙娱乐场" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/skin/css/share.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/skin/css/css.css?v=1002" media="screen" rel="stylesheet" type="text/css">
+<link href="/skin/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+<script type="text/javascript" src="/skin/script/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/skin/script/tab.js"></script>
+<script type="text/javascript" src="/skin/script/float.js"></script>
+<script type="text/javascript" src="/skin/script/intr_pageto.js"></script>
+</head>
+<body>
+<div id="mainall">
+  <div id="mainBody">
+   <script>
+var now_version="pc";
+if(window.location.href.toLowerCase().indexOf("/mobile/")!=-1)
+{
+  now_version="mobile";
+}
+var pc_url="http://"+window.location.host+"/index.aspx";
+var mobile_url="http://"+window.location.host+"/mobile/index.aspx";//手机版地址
+
+//取cookies函数   
+    function getCookieM(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+	//存cookie
+function setCookieM(name, value)
+{
+	expires = new Date();
+	expires.setTime(expires.getTime() + (1000 * 86400 * 365));
+	document.cookie = name + "=" + value + "; expires=" + expires.toGMTString() + "; path=/";
+}
+//取Url参数
+function GetQueryStringM(name)
+{    
+	var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");
+	var r=window.location.search.substr(1).match(reg);
+	if(r!=null)
+	{
+		return unescape(r[2])
+	}
+	return null;     
+}
+
+var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+            weixin: u.indexOf('MicroMessenger') > -1, //是否微信
+            qq: u.match(/\sQQ/i) == " qq" //是否QQ
+        };
+    }(),
+    language:(navigator.browserLanguage || navigator.language).toLowerCase()
+}
+var intr=GetQueryStringM("intr");
+if (intr == null||intr=="") 
+{
+    intr=getCookieM("intr");
+}
+var ignore=GetQueryStringM("ignore");//是否忽略判断是否手机 1忽略 其它不忽略
+if (ignore == null||ignore=="") 
+{
+    ignore=getCookieM("ignore");
+}
+if (ignore=="1") 
+{
+    setCookieM("ignore","1");
+}
+
+
+if(ignore!="1")
+{
+	if(browser.versions.mobile||browser.versions.android||browser.versions.ios)
+	{
+		if(now_version=="pc")
+		{
+			if (intr == null||intr=="") {
+				location.href=mobile_url;
+			}
+			else
+			{
+				location.href=mobile_url+"?intr="+intr;
+			}
+		}
+	}
+	else
+	{
+		if(now_version=="mobile")
+		{
+			if (intr == null||intr=="") {
+				location.href=pc_url;
+			}
+			else
+			{
+				location.href=pc_url+"?intr="+intr;
+			}
+		}
+	}
+}
+</script>
+ <div id="page-header">
+      <div id="header">
+        <div id="headtop">
+          <div id="header-logo">
+            <object width="258" height="120" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" onmousedown="location.href='/'" >
+              <param value="/skin/images/logo.swf" name="movie" />
+              <param value="transparent" name="wmode"/>
+              <param value="high" name="quality"/>
+              <embed width="258"  wmode="transparent" height="120" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="/skin/images/logo.swf">
+            </object>
+          </div>
+          <div id="headright">
+            <div id="headright-top"> <span class="lang-wrap"> <span id="first-lang-wrap" class="first-lang-wrap clearfix"> <a href="javascript:;" class="ele-lang-zh-tw"></a> <a href="javascript:;"  class="ele-lang-zh-cn"></a> <a href="javascript:;" class="ele-lang-en"></a> </span> </span>
+              <div id="hdselect"><!-- <a href="/agent.aspx">代理加盟</a>&nbsp;&nbsp;|&nbsp;&nbsp; --><a href="/mobile.aspx" target="_blank">手机下注</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="/line.aspx">备用网址</a>&nbsp;&nbsp;|&nbsp;&nbsp; <a href="javascript:void(0)" onClick="AddFavorite('http://'+window.location.host,document.title)">加入收藏</a> </div>
+            </div>
+            <div class="clear"></div>
+            <div id="L-Menual">
+              <ul id="main-Menual">
+                <li class="LS-home"><a id="n1" href="/">首页
+                  <p>HOME</p>
+                  </a></li>
+                <li class="LS-ball"><a id="n2" href="/sport.aspx">体育赛事
+                  <p>SPORTS</p>
+                  </a></li>
+                <li class="LS-live"><a id="n3" href="/live.aspx">视讯直播
+                  <p>LIVE</p>
+                  </a></li>
+                <li class="LS-game"><a id="n4" href="/game.aspx">电子游艺
+                  <p>GAME</p>
+                  </a></li>
+                <li class="LS-lottery" ><a id="n9" href="/lottery.aspx?game=LT" >六合彩
+                  <p>LOTTERY</p>
+                  </a></li>
+                <li class="LS-lottery" ><a id="n5" href="/lottery.aspx?game=CQ" >彩票游戏
+                  <p>LOTTERY</p>
+                  </a></li>
+                <li class="LS-youhui" ><a id="n6" href="/offer.aspx" class="textGlitter">优惠活动
+                  <p>PROMOTION</p>
+                  </a></li>
+              <!--  <li class="LS-lines"><a id="n7" href="/line.aspx">备用网址
+                  <p>WEBLINES</p>
+                  </a></li>-->
+                <li class="LS-reg"><a id="n8" href="/reg.aspx" >立即开户
+                  <p>REGISTER</p>
+                  </a></li>
+               <!-- <li class="LS-kefu"><a href="javascript:OnlineService();">在线客服
+                  <p>SERVICES</p>
+                  </a></li>-->
+              </ul>
+              <div id="L-Sub">
+               <div class="LS-ball"> <span class="subbg-left"></span> <a href="/sport.aspx" title="皇冠体育">皇冠体育</a> <a href="/ts_sport.aspx"  title="体育投注">体育投注</a>  <span class="subbg-right"></span> </div>
+                <div class="LS-live"> <span class="subbg-left"></span> <a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙真人娱乐">沙龙视讯</a> <a href="###" onclick="openBBIN()" title="BBIN真人娱乐">BBIN视讯</a> <a href="/gdlive/index.aspx?act=reg" target="_blank" title="GD真人娱乐">GD视讯</a> <a href="/aglive/index.aspx?act=reg" target="_blank" title="AG真人娱乐">AG视讯</a> <a href="/hylive/index.aspx?act=reg" target="_blank" title="好盈真人娱乐">好盈视讯</a> <a href="/ebetlive/index.aspx?act=reg" target="_blank" title="ebet真人娱乐">ebet视讯</a> <a href="/belive/index.aspx?act=reg" target="_blank" title="必易真人娱乐">必易视讯</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG真人娱乐">HG视讯</a> <a href="/oblive/index.aspx?act=reg" target="_blank" title="欧博真人娱乐">欧博视讯</a> <a href="/gpilive/index.aspx?act=reg" target="_blank" title="GPI真人娱乐">GPI视讯</a>   <span class="subbg-right"></span> </div>
+                <div class="LS-game"> <span class="subbg-left"></span> <a href="/elggame/index.aspx?type=buyu" target="_blank" title="皇家捕鱼">皇家捕鱼</a><a href="/elggame/index.aspx" target="_blank" title="ELG电子游戏">ELG电子</a> <a href="/aglive/index.aspx?type=buyu" target="_blank" title="捕鱼王">捕鱼王</a> <a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙电子游艺">沙龙电子</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG电子游艺">HG电子</a> <a href="/aglive/index.aspx" target="_blank" title="AG电子游艺">AG电子</a> <a href="###" onclick="openBBIN2()" title="BBIN电子游艺">BBIN电子</a>  <span class="subbg-right"></span> </div>
+                <!--<div class="LS-lottery">
+							<span class="subbg-left"></span> 
+								<a href="/lottery.aspx" class="nyj" >吉利彩票</a><a href="" class="nct">传统版</a>							<span class="subbg-right"></span>
+					   </div>	--> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <script language="javascript">
+$("li.LS-ball,li.LS-live, li.LS-game").subTabs();
+toggleColor('.textGlitter', ['yellow', '#FF0000'], 600);
+</script> 
+    <!-- head end  -->
+    <div id="wrapindex">
+      <div class="first-main-wrap">
+        <div id="ad-flash">
+          <object id="home" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1920" height="433" >
+            <param name="movie" value="/skin/images/loop.swf" />
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent"/>
+            <param name="FlashVars" value="xml_url=/skin/images/loadxml22.xml"/>
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="/skin/images/loop.swf" wmode="transparent" width="1920" height="433">
+              <param name="FlashVars" value="xml_url=/skin/images/loadxml22.xml"/>
+              <!--<![endif]-->
+              <div>
+                <h1>Alternative content</h1>
+              </div>
+              <!--[if !IE]>-->
+            </object>
+            <!--<![endif]-->
+          </object>
+        </div>
+        <div class="first-login-wrap"> 
+              <script type="text/javascript" src="/member/skin/script/language_cn.js"></script>
+<script type="text/javascript" src="/member/skin/script/login_bbin.js?v=2"></script>
+          <!--登录前-->
+          <div id="loginDiv" style="display:none">
+            <a href="/reg.aspx"  class="login-join"></a>
+            <div class="login-wrap">
+              <div id="loginbox">
+              <form name="LoginForm" method="POST" style="margin:0" autocomplete="off" >
+              <input type="hidden" id="mcode" value="1111" />
+                <div id="loginarea">
+                  <div class="logintxt">
+                    <input name="username" tabindex="1" type="text" class="za_text" id="mname" maxlength="20" value="帐号" onFocus="if(this.value=='帐号')this.value=''" onBlur="if(this.value =='') this.value ='帐号'"   />
+                  </div>
+                  <div class="logintxt">
+                    <input id="txtFacade" type="text" value="密码" readonly class="za_text1" tabindex="2" onFocus="$('#mpass').val('');$('#txtFacade').css('display', 'none');$('#mpass').css('display', '');$('#mpass').focus();" style="">
+                    <input id="mpass" name="password" tabindex="3" type="password" class="za_text1" onBlur="if ($('#mpass').val() === ''){$('#txtFacade').css('display', '');$('#mpass').css('display', 'none');}" value="" style="display: none; " />
+                    <div id="Loginbtnpwd"><a href="javascript:Go_forget_pwd();" title="忘记密码">忘记密码</a></div>
+                  </div>
+                </div>
+                <div class="logintxt1">
+                  <input class="Loginbtn"  name="Submit001" type="button" value="" onclick="checkLogin()"/>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+            <!--登录前-->
+             <!--登录后-->
+              <div id="loginAfterDiv" style="display:none">
+               <a href="javascript: f_com.MGetPager2('memberProfile.aspx');" class="btn_meminfo"></a>
+                <div class="login-wrap">
+                 <div id="userinfos">
+                 帐号:<font id="myname" style="color:yellow"></font> 主帐户:<font id="mymoney" style="color:yellow">-</font>  
+          <br/>沙龙:<font id="mysl" style="color:yellow">-</font> ,BBIN:<font id="mybbinlive" style="color:yellow">-</font> 
+          <br/>AG:<font id="myag" style="color:yellow">-</font> ,HG:<font id="myhglive" style="color:yellow">-</font> ,GD:<font id="mygd" style="color:yellow">-</font>
+          <br/><a id="su-macenter" href="javascript: f_com.MGetPager2('memberProfile.aspx');" title="会员中心">会员中心</a>  &nbsp;| <a id="su-deposite" href="javascript: f_com.MGetPager2('memberDeposit1.aspx');" title="线上存款">线上存款</a>  &nbsp;| <a id="su-withdraw" href="javascript: f_com.MGetPager2('memberWithdraw.aspx');" title="线上取款">线上取款</a>
+          <br/><a id="su-switch" href="javascript: f_com.MGetPager2('memberFundtransfer.aspx');" title="额度转换">额度转换</a>  &nbsp;| <a id="su-msg" href="javascript: f_com.MGetPager2('memberInboxList.aspx');" title="未读讯息">未读讯息(<span id="mymsg"></span>)</a><!--   &nbsp;| <a href="javascript: f_com.MGetPager2('memberAccount.aspx');">往来纪录</a>-->  &nbsp;|  <a id="su-logout" href="javascript:logout('/index.aspx');" title="安全登出">登出</a> 
+              </div>
+                </div>
+               </div>
+              <!--登录后-->
+         
+        </div>
+      </div>
+      <div class="news-bg">
+        <div class="news-wrap">
+          <marquee scrollamount="5" scrolldelay="150" direction="left" onmouseover="this.stop();" onMouseOut="this.start();"  style="cursor:pointer;" onClick="HotNewsHistory()" id="ele-msgNews">
+          </marquee>
+           <script>
+$(function() {
+    // 最新消息跑馬燈
+    $.ajax({
+        type:'POST',
+        url:'/getmsg.aspx?_r='+Math.random(),
+        data:{},
+        cache: false,
+        error: function() { return false;},
+        success: function(data) {
+            $('#ele-msgNews').html(data);
+        }
+    });
+});
+</script> 
+        </div>
+      </div>
+      <!-- 區塊1 -->
+      <div class="first-block1">
+        <div class="first-game-wrap">
+          <div class="ele-firstgame-wrap" onselectstart="return false">
+            <div class="clearfix ele-firstgame" id="js-firstgame-slider"> <a href="###" onclick="openBBIN()" class="ele-firstgame-1 js-ele-firstgame-fade"><span></span></a> <a href="/aglive/index.aspx?act=reg" target="_blank"  class="ele-firstgame-2 js-ele-firstgame-fade"><span></span></a> <a href="/live/index.aspx?action=registration" target="_blank" class="ele-firstgame-3 js-ele-firstgame-fade"><span></span></a> </div>
+          </div>
+          <script>
+					$('.js-ele-firstgame-fade > span').hover(
+						function(){
+							$(this).css("background-position-x", "-348px")
+								.parent()
+								.css("background-position-x", "0");
+						}, function(){
+							$(this).css("background-position-x", "0")
+								.parent()
+								.css("background-position-x", "-348px");
+						}
+					);
+				</script> 
+        </div>
+      </div>
+      <!-- 區塊2 -->
+      <div class="first-block2">
+        <div class="first-block-inner">
+          <h4><a class="game-more" href="/game.aspx">更多游戏</a></h4>
+          <div class="game-wrap clearfix">
+            <div class="game-card game1">
+              <h6>疯狂水果盘</h6>
+              <p>疯狂水果盘为简单又容易上手的水果盘，联机方式分为单一联机、ALL全盘、ANY 777、ANY 7、ANY 777&7、第1线联机。</p>
+              <a href="/game.aspx" class="game-link">立即开玩</a> </div>
+            <div class="game-card game2">
+              <h6>三国拉霸</h6>
+              <p>9线拉霸游戏，共有5个转轴丶9条连线路径，包含了彩金游戏(Bonus Game)丶免费连线游戏(Free Game)丶分散标记(Scatter)丶可变标记(Wild)丶彩金标记(Jackpot)等。</p>
+              <a href="/game.aspx" class="game-link">立即开玩</a> </div>
+            <div class="game-card game3">
+              <h6>聚宝盆</h6>
+              <p>「聚宝盆」乃是古时传说能够日进斗金的聚财宝物。游戏结合一般刮刮乐兑奖玩法，及独创的四层累积彩金分数，玩法简单、高达500,000奖额分数。快来试试自己的好手气！</p>
+              <a href="/game.aspx" class="game-link">立即开玩</a> </div>
+          </div>
+        </div>
+      </div>
+      <!-- 區塊3 -->
+      <div class="first-block3">
+        <div class="first-block-inner">
+          <div class="game-wrap clearfix">
+            <div class="game-card game-ball">
+              <h6>皇冠体育</h6>
+              <p>英超、意甲、德甲、西甲、法甲等世界足坛顶尖赛事，让您畅享足球赛事的同时可以时刻体验体育投注的魅力。</p>
+              <a class="more-link" href="/sport.aspx">更多详情</a> </div>
+            <div class="game-card game-sunplus">
+              <h6>体育投注</h6>
+              <p>为您提供最全面赛前及滚球投注服务，眼下最为热门的体育投注类型，总能为您营造最好的赔率，创造最大价值。</p>
+              <a class="more-link" href="/sport.aspx">更多详情</a> </div>
+          </div>
+        </div>
+      </div>
+      <!-- 區塊4 -->
+      <div class="first-block4">
+        <div class="first-block-inner">
+          <ul class="lottery-items">
+            <li class="lottery-item">·&nbsp;六合彩</li>
+            <li class="lottery-item">·&nbsp;时时彩</li>
+            <li class="lottery-item">·&nbsp;北京赛车</li>
+            <li class="lottery-item">·&nbsp;快乐十分</li>
+            <li class="lottery-item">·&nbsp;快乐8</li>
+            <li class="lottery-item">·&nbsp;排列三</li>
+            <li class="lottery-item">·&nbsp;福彩3D</li>
+            <li class="lottery-item">·&nbsp;十一选五</li>
+          </ul>
+          <div class="lottery-describe">多种彩票游戏供您尽情玩乐，赔率多返水高。</div>
+          <a class="game-link" href="/lottery.aspx">立即开玩</a> </div>
+      </div>
+      <!-- 區塊5 -->
+      <div class="first-block5">
+        <div class="first-block-inner">
+          <div class="first-block5-left">
+            <h5>24hx7 客服服务</h5>
+            <p>我们有成熟的客服团队，24小时为您提供贴心的客服服务，对于您的您问题及求助，我们将会耐心解决引导...</p>
+            <a class="service-link" href="javascript:OnlineService();">联系客服</a> </div>
+          <div class="first-block5-right">
+            <div class="first-block5-item clearfix">
+              <div class="item-about">
+                <h6>关于我们 About us</h6>
+                <p>澳门金沙拥有由菲律宾政府 NORTH CAGAYAN 和 CEZA 所授权并拥有合法博彩牌照，并接受其机构监管，严格按照上述机构颁发的规则进行运营。<br>
+                  澳门金沙与bbin、ag等多家平台合作，整合了各家平台的老虎机及电子游艺, 您拥有可靠的资金保障和优质服务建立在您已满18..[<a href='/offer.aspx'>更多</a>]</p>
+              </div>
+              <div class="item-odds">
+                <h6>服务优势对比 Odds</h6>
+                <ul class="item-pull">
+                  <li>■&nbsp;<span>澳门金沙娱乐场</span></li>
+                  <li>■&nbsp;其他平台</li>
+                </ul>
+                <ul class="pull-name">
+                  <li>存取速度</li>
+                  <li>资金安全</li>
+                  <li>客服服务</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- foot -->
+    <!--<div style="clear:both;"></div>
+    <div id="page-footer">
+      <div class="footer">
+        <div class="footer-left-wrap"  style="padding-left:0px;">
+          <div id="ArticleList"><a href="/about.aspx">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/contact.aspx">联系我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/rule.aspx">规则说明</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/faq.aspx">常见问题</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/agent.aspx">代理合作</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/deposit.aspx">存款帮助</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/withdraw.aspx">取款帮助</a></div>
+          <div class="clear"></div>
+          <div id="footermsg"></div>
+        </div>
+        <div class="footer-right-wrap" style="padding-right:0px;"> <a id="bblogo" href="javascript:;"></a> <a style="float:left; margin-left:10px; margin-top:3px;" href="javascript:;"><img src="/skin/images/ag.png" border="0" width="100"></a> <a style="float:left; margin-left:10px;" href="javascript:;"><img src="/skin/images/gd.png" border="0" width="100"></a>  <a style="float:left; margin-left:10px;" href="javascript:;"><img src="/skin/images/hg.png" border="0" width="100"></a>  <a style="float:left; margin-left:10px;margin-top:5px;" href="javascript:;"><img src="/skin/images/sl.png" border="0" width="100"></a> </div>
+          <div style="clear:both;"></div>
+      </div>
+    </div>-->
+    <div style="clear:both;"></div>
+    <!--新增--><div style="display:none;">
+<div id="page-footer2">
+    <div style="margin:0 auto; width:1000px; " class="footer2">
+    <style>
+	#page-footer2 {
+    background: #000 url(/skin/images/footer_bg_x.jpg) repeat-x;
+}
+	.footer2 {
+    margin: 0 auto;
+    width: 1000px;
+    height: 384px;
+    color: #886253;
+    text-align: center;
+    background: url(/skin/images/footer_bg.jpg) 50% 0 no-repeat;
+}
+          .footer-bottom {
+/*    position: relative;*/
+    height: 82px;
+   /* background: url(/skin/images/footer_img04.png) 320px 0 no-repeat;*/
+   background: url(/skin/images/footer_img04.png) center no-repeat;
+}
+.copyright {
+    padding-top: 9px;
+    line-height: 16px;
+	text-align: center;
+	/*color:#5a5a5a;*/
+}
+#browser-logo {
+    float: left;
+    margin-top: 20px;
+    width: 144px;
+    height: 44px;
+    margin-left: 50px;
+}
+
+.footer-links {
+    padding: 10px 80px 0 58px;
+    height: 63px;
+    background: url(/skin/images/footer_img01.png) 58px 10px no-repeat;
+}
+.footer-link {
+    float: left;
+    width: 193px;
+    height: 32px;
+}
+.footer-link-email {
+    margin: 0 24px 0 23px;
+}
+.footer-link-service {
+    width: 212px;
+}
+.footer-license {
+    height: 64px;
+       background: url(/skin/images/footer_img02.png) 40px 0 no-repeat;
+}
+.article-menu2 {
+    padding: 12px 0 20px;
+    height: 33px;
+    line-height: 33px;
+	color: #886253;
+    text-align: center;
+}
+.article-menu2 a {
+    color: #886253;
+    text-decoration: none;
+}
+.article-menu2 a:hover {
+    color: #FFE27E;
+}
+.footer-featrue {
+    height: 40px;
+    background: url(/skin/images/footer_img03.png) 74px 8px no-repeat;
+}
+          </style>
+          
+          <div class="footer-links clearfix">
+        <div class="footer-link" href=""></div>
+        <div class="footer-link footer-link-email" href=""></div>
+        <a class="footer-link" href="http://agin.cc/promotion/index.html" target="_blank"></a>
+        <a class="footer-link footer-link-service" href="##" onclick="OnlineService()"></a>
+    </div>
+    <div class="footer-license"></div>
+    <div class="article-menu2">
+        <a class="js-article-color" data-color="" href="/about.aspx">
+        关于我们
+        </a>
+        ｜                           
+        <a class="js-article-color" data-color="" href="/contact.aspx">
+        联系我们
+        </a>
+        ｜                            
+        <a class="js-article-color" data-color="" href="/rule.aspx">
+        规则说明
+        </a>
+        ｜                            
+        <a class="js-article-color" data-color="" href="/faq.aspx">
+        常见问题
+        </a>
+        ｜                            
+        <a class="js-article-color" data-color="" href="/agent.aspx">
+        代理合作
+        </a>
+        ｜                            
+        <a class="js-article-color" data-color="" href="/deposit.aspx">
+        存款帮助
+        </a>
+        ｜                            
+        <a class="js-article-color" data-color="" href="/withdraw.aspx">
+        取款帮助
+        </a>
+    </div>
+    <div class="footer-featrue"></div>
+        <div class="copyright">Copyright © 澳门金沙娱乐场 Reserved&nbsp;&nbsp;</div>
+        <div class="footer-bottom clearfix"> <!--<a id="browser-logo" href="http://agin.cc/promotion/index.html" target="_blank"> <img src="/skin/images/ag_mob.png" border="0" width="200" height="44"> </a> --></div>
+        <div style="height:10px;"></div>
+      </div>
+      </div>
+     <!--新增-->
+    
+    
+  </div>
+</div>
+
+
+<!--左边-->
+<!--<div id="floatService2">
+    <div style="height:auto;">
+      <div><a href="##" onclick="OnlineService()"> <img src="/skin/images/kf_left_001.png" align="center"/> </a></div>
+      <div><a href="" target="_blank"> <img src="/skin/images/kf_left_002.png" align="center" /> </a></div>
+      <div><a href="http://ub66.com/?lang=zh-cn" target="_blank"> <img src="/skin/images/kf_left_005.png" align="center" /> </a></div>
+    </div>
+    <div id="closefloatDownLoad2" align="center"><img src="/skin/images/kf_left_007.png" border="0" style="cursor: pointer;"/></div>
+</div>-->
+<!--右边-->
+<div id="floatService1">
+  <div style="height:auto;">
+    <div><a href="##" onclick="OnlineService()"> <img src="/skin/images/kf_right_001.png" align="center"/> </a></div>
+    <div><a href="tencent://message/?uin=78903305&Site=web&Menu=yes"> <img src="/skin/images/kf_right_002.png?v=1.6" align="center"/> </a></div>
+   </div>
+  <div id="closefloatDownLoad1" align="center" style="cursor:pointer"><img src="/skin/images/kf_right_003.png" border="0"/></div>
+</div>
+<script language="JavaScript"> 
+    //浮動在線客服
+    $("#floatService1").show().Float({ floatRight: 1 });
+	//$("#floatService2").show().Float({ floatRight: 0 });
+    $("#closefloatDownLoad1").click(function () { $("#floatService1").hide(); });
+   // $("#closefloatDownLoad2").click(function () { $("#floatService2").hide(); });
+</script>
+
+<!--[if (IE 6)]>
+<script>
+    var downloadNewIE;
+    if('undefined' != typeof downloadvwin){
+        downloadNewIE = downloadvwin;
+    }else{
+        downloadNewIE = function(){
+            window.open('http://windows.microsoft.com/en-us/internet-explorer/downloads/ie-8');
+        }
+    }
+    </script>
+    <div id="ie6-alertBox">
+        <div id="ie6-infoBar">
+                            系统侦测到您使用旧版浏览器,<span class="alert">本站预计已停止对 IE6 维护与支援</span>,为了体验最佳的浏览品质与效果,建议立即至<a href="javascript:downloadNewIE();">「下载区」</a>升级您的浏览器。
+                    </div>
+            </div>
+    <div id="ie6-overlay"></div>
+    <style type="text/css">
+        html{overflow-y:hidden;}
+        .alert{color: red;}
+        #ie6-overlay{
+            background:#777777;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+            /*展示用*/
+            -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+            -moz-opacity:0.5;
+            opacity: 0.5;
+            /*展示用*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+        #ie6-alertBox{
+            position:absolute;
+            font-size: 13px;
+            width:300px;
+            height:auto;
+            padding:10px 10px 30px;
+            left:50%;
+            top:40%;
+            line-height: 25px;
+            margin-left:-160px;
+            z-index: 11;
+            color: #000;
+            border:1px solid #777;
+            background-color: #CCCCCC;
+            /*展示用*/
+            background-image: -moz-linear-gradient(top,white,#CCCCCC);
+            background-image: -webkit-gradient(linear,0 0,0 100%,from(white),to(#CCCCCC));
+            background-image: -webkit-linear-gradient(top,white,#CCCCCC);
+            background-image: -o-linear-gradient(top,white,#CCCCCC);
+            background-image: linear-gradient(to bottom,white,#CCCCCC);
+            background-repeat: repeat-x;
+            -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+            /*展示用*/
+            border: 1px solid #D4D4D4;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#CCCCCC',GradientType=0);
+            display:none;
+        }
+        #ie6-infoBar a,#ie6-alertBoxClose{color: #F57900;text-decoration: none;}
+        #ie6-infoBar a:hover,#ie6-alertBoxClose:hover{color: #FF9A37;}
+        #ie6-alertBoxClose{
+            position:absolute;
+            right:5px;
+            bottom:5px;
+            display: none;
+        }
+    </style>
+    <script>
+
+        
+        function showalert(){
+            $("#ie6-overlay").height($(window).height()).width($(window).width());
+                            $("#ie6-alertBox").slideToggle();
+                    }
+
+
+        $(function(){
+                            showalert();
+                    });
+</script>
+<!-->
+<!--<![endif]-->
+<script>$("#n1").addClass("current");</script>
+</body>
+</html>

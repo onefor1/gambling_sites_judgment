@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-cn" />
+	 
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+    <title>威尼斯人</title>
+    <link rel="shortcut icon" href="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/favicon.ico" />
+    <link href="http://999.l86969.com/public/desktop/login_tpl/0707cp/css/reset.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://999.l86969.com/public/desktop/login_tpl/0707cp/css/login_s.min.css?ver=20170426120625" rel="stylesheet" type="text/css" />
+    <link href="http://999.l86969.com/public/desktop/login_tpl/0707cp/css/font-awesome.min.css?ver=20170119193816" rel="stylesheet" type="text/css" />
+	<noscript>
+        <div class="noScript">
+            <div>
+                <h2>请开启浏览器的Javascript功能</h2>
+                <p>亲，没它我们玩不转啊！求您了，开启Javascript吧！<br/>
+				不知道怎么开启Javascript？那就请<a href="http://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80Javascript%E5%8A%9F%E8%83%BD" rel="nofollow" target="_blank">猛击这里</a>！
+                </p>
+            </div>
+        </div>
+    </noscript>
+</head>
+<body>
+<div class="noScript hide" id="NoSupport_IE67">
+    <div>
+        <h2>不支援的浏览器</h2>
+        <p>亲，您的浏览器为ie内核浏览器，我们不支援IE6、IE7！<br/><br/>
+            <a href="http://www.cdn9988.com:8088/0707cp/client_ap/setup.exe?1501240858.exe" rel="nofollow" target="_blank">请猛击这里下载客户端</a>！
+        </p>
+    </div>
+</div>﻿<div class="inner">
+    <div class="topwz">
+        <div class="fl f26 cw pl10 logo">威尼斯人</div>
+        <div class="fl f20 coeee logo">丨 官方登录平台 OFFICIAL ACCOUNT PLATFORM</div>
+        <div class="fr topnav">
+            <a href="http://86969cp.com" target="_blank">优惠活动</a> 丨
+            <a href="http://0808.cc" target="_blank">线路检测</a> 丨
+            <a href="javascript:;" target="_blank" class="webonlineservice">在线客服</a>
+        </div>
+        <div class="cl"></div>
+    </div>
+    <div class="contbx">
+        <div class="contbxin">
+            <div class="banx">
+                <a href="#" target="_blank"><img src="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/ban1.jpg" alt="" /></a>
+            </div>
+            <div class="logxbx">
+                <div class="logbt login-title">会员登录 LOGIN</div>
+                <div class="cl h22"></div>
+                <form class="login_form" id="login_form">
+                    <div class="logox logox1">
+                        <input name="login" id="login" class="required w100" type="text" autocomplete="off" autocapitalize="off" placeholder="请输入会员帐号">
+                    </div>
+                    <div class="logox logox2">
+                        <input name="pass" id="pass" class="required w100" type="password" autocomplete="off" placeholder="请输入密码">
+                    </div>
+                    <div class="logox logox3">
+                        <input name="authnum" type="text" id="authnum" class="required w20" size="10" maxlength="5" placeholder="请输入验证码">
+                        <img src="http://999.l86969.com/Login/authnum" class="mabx"/>
+                    </div>
+                    <div class="">
+                        <button type="button" class="subbtn" id="send-button">确定登入</button>
+                    </div>
+                    <a class="goreg" href="http://888.k86969.com:8088/Register/index/9D6BC9EC46433CB2396FEF45BDE22EED920B14601FE14510" target="_blank">免费注册</a>
+                </form>
+            </div>
+            <div class="cl"></div>
+        </div>
+        <div class="customer_bg">
+        	<a href="javascript:;" class="client shoujix"></a>
+        	<span class="hide" id="windows">http://www.cdn9988.com:8088/0707cp/client_ap/setup.exe?1501240858.exe</span>
+            <span class="hide" id="ios">itms-services://?action=download-manifest&url=https://www.aa9988.net/0707cp/0707cp.plist</span>
+            <span class="hide" id="android">http://www.aa9988.net/0707cp/0707cp.apk</span>
+        </div>
+    </div>
+</div>
+<div class="tac cw footer">
+    <div class="tac">
+        <a href="javascript:;" target="_blank"><img src="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/fimg1.png" alt="" /></a>
+        <a href="javascript:;" target="_blank"><img src="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/fimg2.png" alt="" /></a>
+        <a href="javascript:;" target="_blank"><img src="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/fimg3.png" alt="" /></a>
+        <a href="javascript:;" target="_blank"><img src="http://999.l86969.com/public/desktop/login_tpl/0707cp/images/fimg4.png" alt="" /></a>
+    </div>
+    为了获得更好的操作体验，建议使用Google Chrome、Firefox 或 IE10 浏览器，点击图标立即下载。
+</div>
+	<script type="text/javascript">
+		var ddom = 'http://999.l86969.com/';
+		var tpl_path = 'http://999.l86969.com/public/desktop/login_tpl/0707cp/';
+	</script>
+	<script src="http://999.l86969.com/public/desktop/js/Simple.min.js?ver=20170704202259" type="text/javascript"></script>
+	<script src="http://999.l86969.com/public/desktop/login_tpl/0707cp/js/jquery.placeholder.min.js" type="text/javascript"></script>
+	<script src="http://999.l86969.com/public/desktop/login_tpl/0707cp/js/placeholder.js" type="text/javascript"></script>
+</body>
+</html>

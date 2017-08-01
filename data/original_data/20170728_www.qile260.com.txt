@@ -1,0 +1,1306 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+        <html>
+        <head>
+            
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="description" content="齐乐娱乐-亚洲知名老虎机娱乐城，拥有国际一流老虎机平台。选择齐乐娱乐，尊享奢华体验。亚洲最信誉线上娱乐平台。" />
+<meta name="keywords" content="齐乐 齐乐娱乐 齐乐老虎机 PT老虎机 TTG老虎机 NT老虎机 MG老虎机 QT老虎机 网上老虎机 AG捕鱼 AG老虎机 Ebet真人娱乐。"  />
+<title>齐乐娱乐</title>
+<base href="https://www.qile260.com/" />
+<script language="javascript">
+    if(top.location != self.location)
+    {
+        top.location = self.location;
+    }
+    var str=document.URL;
+    str=str.toLowerCase();
+    if(str=="http://www.qile8.vip/"){
+        //window.location.href="";
+    }
+</script>
+
+
+
+
+            
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<link rel="shortcut icon" href="/fav3.ico?v=6" type="image/x-icon" />
+<link href="/css/base.css?v=22" rel="stylesheet" />
+<script src="/js/lib/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/SuperSlide.2.1.1.js?v=2"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c141fe37fd9f8022b30a9aba56776088";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script> 
+
+  
+            <link rel="stylesheet" href="/css/index.css?v=11">
+        </head>
+        <body> 
+            <div class="bg-img bg-img-big">
+                
+
+
+
+
+
+
+
+
+
+     
+<!-- 检查是否为手机装置 -->
+<script type="text/javascript">
+	if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) 
+	    || /Android/i.test(navigator.userAgent)  
+	    || /BlackBerry/i.test(navigator.userAgent)  
+	    || /IEMobile/i.test(navigator.userAgent) 
+	    || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+		var addr = window.location.href;
+		if(addr.indexOf("mobi")>=0){ 
+	    	
+	    }else if(sessionStorage['browseWay']=='mobile'){
+	        window.location.href="/mobile/index.jsp"+window.location.search;
+	    }else if(sessionStorage['browseWay']){
+			var $el = $('<div style="position: absolute;width: 2.5em;height: 2.5em;z-index: 99999;background-color: #2196F3;color: #fff;line-height: 2.5em;text-align: center;font-size: 5em;border-radius: 50%;right: 0;bottom: 0;box-shadow: 1px 1px 10px #525151;">返回</div>');
+			$el.click(function(){
+				sessionStorage['browseWay']='mobile';
+	            window.location.href="/mobile/index.jsp"+window.location.search;
+			});
+			$('body').append($el);
+	    }else{
+	        window.location.href="/mobile/index.jsp"+window.location.search;
+		}
+	}
+</script>
+
+<script>
+
+    var fp_bbout_element_id = 'fpBB';
+    var io_bbout_element_id = 'ioBB';
+
+    var io_install_stm = false;
+    var io_exclude_stm = 12; // don't run ActiveX on any platform if it is already installed (to avoid security warnings)
+
+    var io_install_flash = false;
+    //var io_flash_needs_update_handler = "";
+    var io_enable_rip = true; // enable Real IP collection
+
+    var NEEDMODIFY = '';
+    if(NEEDMODIFY == "1" && window.location.href.indexOf("updatePassword")<=0){
+        alert("您的密码安全指数较低，请修改以保障资金安全");
+        window.location.href="/updatePassword.php";
+    }
+    $(document).ready(function () {
+
+        $.post("/asp/querySignAmount.php",
+                function (returnedData, status) {
+                    if ("success" == status) {
+                        $("#qdmoney1").html("");
+                        $("#qdmoney1").html(returnedData);
+                    }
+                });
+        var addr = window.location.href;
+        var NEEDMODIFY = '';
+        if(NEEDMODIFY == "1" && addr.indexOf("updatePassword")<=0){
+            alert("您的密码安全指数较低，请修改以保障资金安全");
+            window.location.href="/updatePassword.php";
+            return ;
+        }
+
+        var ioBBVal = $("#ioBB").val();
+        $.post("/asp/addcpuid.php", {"cpuid":ioBBVal
+        }, function (returnedData, status) {
+            if ("success" == status) {
+            }
+        });
+        getLetterCount();
+    });
+
+
+    function dosign(){
+        openProgressBar();
+        $.ajax({
+            url : "/asp/doSignRecord.php",
+            type : "post", // 请求方式
+            dataType : "text", // 响应的数据类型
+            data :"",
+            async : true, // 异步
+            success : function(msg) {
+                closeProgressBar();
+                alert(msg);
+            },
+        });
+    }
+
+    function refreshBalance(obj){
+        $.ajax({
+            type: "post",
+            url: "/asp/refreshUserBalance.php",
+            cache: false,
+            success : function(data){
+                $(obj).find('.j-balance').text(data);
+            },
+            error: function(){alert("服务繁忙");}
+        });
+    }
+    function getGameMoney(gameCode){
+        if(gameCode != ''){
+            $("#showGameMoney").html("<img src='/images/20121212661146573498.gif'/>");
+            $.post("/asp/getGameMoney.php", {
+                "gameCode":gameCode
+            }, function (returnedData, status) {
+                if ("success" == status) {
+                    $("#showGameMoney").html(returnedData);
+                }
+            });
+        }
+    }
+
+    function getLetterCount() {
+        var loginname="";
+        if(loginname!=null && loginname!=""){
+            $.post("/asp/getGuestbookCountNew.php", {
+            }, function (returnedData, status) {
+                if ("success" == status) {
+                    $(".j-bookcount").html(returnedData);
+                }
+            });
+        }
+    }
+    function register(name){ 
+        $('#j-registerClose').click();
+        setTimeout(function(){
+          $('#modal-reg1').modal('show');
+        },1000);
+        $('.j-regAccoutn').text(name);
+ 
+    }
+   
+</script>
+<script>
+var i = 0;
+function getColor(){
+	i++;
+	switch(i){ 
+		case 1:return "#fff";
+		case 2:return "#e30d0f";
+		default:return "#e30d0f";
+	}
+}
+function colorful(){
+    var color = getColor();
+	$('#actext').css({color:color});
+	if(i==3)i=0;
+	setTimeout('colorful()',300);
+}
+colorful();
+</script>
+<link rel="stylesheet" type="text/css" href="/css/styleoverlay.css?v=2">
+<div id="core" style="visible:false">
+    <textarea id='cpuid' style="display: none;">null</textarea>
+</div>
+<div style="display:none;">
+    <input class="text medium" tabindex="2" TYPE="text" NAME="ioBB" id="ioBB" width="100" readonly>
+    <input class="text medium" TYPE="text" NAME="browsertype" id="browsertype" readonly>
+</div>
+<input type="hidden" id="j-loginname" value="">
+<!--top-->
+<div class="topk" id="topk">
+    <div class="center cl">
+        <div class="topnr fl">
+            <!--<a href="#" onclick="show_index(window.location.href);"><span class="index"></span>设为首页</a>
+            <a href="javascript:void(0);" onclick="AddFavorite(window.location.href,document.title);" rel="sidebar"><span class="add"></span>加入收藏</a>-->
+            <a href="/circuit/speed.jsp" target="_blank" id="actext">网址线路测试</a>
+            <a href="/asp/bbsIndex.php" target="_blank">玩家论坛</a> 
+        </div>
+        <div class="topnr fr">
+            
+                <div class="login">
+                    <form id="j-loginform" class="login-form">
+                        <div border="0" cellpadding="0" cellspacing="0">
+                            <div class="topinp fl">
+                                <input tabindex="1" class="text" id="loginname" name="loginname" type="text" placeholder="输入账户名">
+                            </div>
+                            <div class="topinp fl fpw">
+                                <input tabindex="2" class="text" name="password" id="password"   type="password" placeholder="输入密码">
+                                <a href="/forgotPassword.jsp" target="_blank">忘记密码</a> 
+                            </div>
+                            <div class="topinp fl">
+                                <input tabindex="3" class="text code" name="imageCode" id="code"  type="text" placeholder="验证码" style="width:80px;"><img style="margin-top: 12px;" id="imgTryCode" src="/asp/loginValidateCodeForIndex.php" onclick="this.src='/asp/loginValidateCodeForIndex.php?r='+Math.random()" >
+                            </div>
+                            <div class="topinp fl" style="margin-top:-1px;">
+                                <input type="submit" tabindex="4" class="button button1 vs" value="登录"  onclick="return login()">
+                            </div>
+                            <div class="topinp fl" style="margin-top:-2px;">
+                                <a href="javascript:void(0);" class="button button2" data-toggle="modal" data-target="#modal-reg" >极速开户</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            
+        </div>
+       <div class="topnr fr">
+         
+      </div>
+      <div class="topnr fr">
+           
+      </div>
+</div>
+</div>
+<!--top-->
+
+<!--nav-->
+<div class="header">
+    <div class="center">
+        <div class="logo left">
+            <a href="/index.jsp" ><img src="/img/home/logo.png?v=2" alt="logo"></a>
+        </div>
+        <div class="nav right">
+            <ul id="j-topmenu">
+                <li class="hot active">
+                    <a href="/index.jsp" class="s t">首页</br><span>HOME</span></a>
+                </li> 
+                <li class="hot">
+                    <a href="/slotGame.jsp?showtype=PT" class="s t">PT老虎机</br><span>PT GAMES</span></a> 
+                    <div class="top-sub-nav-wp" style="left:-89px;">
+						
+                        <div class="mwt_border">  
+                          
+                            <a href="/slotGame.jsp?showtype=PT">
+                                <div class="top-sub-game fl">
+                                    
+                                    <div class="pic1 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">PT老虎机</span></div>
+                                </div>
+                            </a>
+                            <a href="/slotGame.jsp?showtype=DT">
+                                <div class="top-sub-game fl" >
+                                   
+                                    <div class="pic2 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">DT老虎机</div>
+                                </div>
+                            </a>
+                            <a href="/slotGame.jsp?showtype=MGS"><!--<a href="javascript:alert('敬请期待')">-->
+                                <div class="top-sub-game fl">
+                                    <div class="pic3 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">MG老虎机</div>
+                                </div>
+                            </a>
+							 <a href="/slotGame.jsp?showtype=PNG">
+                                <div class="top-sub-game fl">
+                                    <div class="pic4 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">PNG老虎机</div>
+                                </div>
+                            </a>
+                            <a href="/slotGame.jsp?showtype=TTG">
+                                <div class="top-sub-game fl" >
+                                <div class="pic5 pic wobble-vertical"></div>
+                                <div class="top-sub-btn">TTG老虎机</div>
+                            </div>
+                            </a>
+                            <a href="/slotGame.jsp?showtype=QT">
+                                <div class="top-sub-game fl">
+                                    <div class="pic6 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">QT老虎机</div>
+                                </div>
+                            </a>
+                            <a href="/slotGame.jsp?showtype=NT">
+                                <div class="top-sub-game fl" >
+                                    <div class="pic7 pic wobble-vertical"></div>
+                                    <div class="top-sub-btn">NT老虎机</div>
+                                </div>
+                            </a>
+							
+                        </div>
+                    </div>
+                </li>
+                <li class="hot">
+                    <a href="/slotGame.jsp?showtype=DT" class="t">DT老虎机</br><span>DT GAMES</span></a>
+                    
+                </li>
+                <li><a href="/slotGame.jsp?showtype=MGS" class="t">MG老虎机</br><span>MG GAMES</span></a></li>
+
+
+               <!-- <li><a href="javascript:alert('请在手机浏览器中输入齐乐官网在手机中进行此游戏！');" class="t">真人娱乐</a></li>-->
+                <li>
+                    
+                        
+                        
+                        <a href="javascript:alert('您好，请先登录！');" target="_blank" class="t">AG游戏</br><span>AG GAMES</span></a>
+                        
+                    
+                    
+                    <div class="top-sub-nav-wp" style="left:-1px;">
+						
+                        <div class="mwt_border wh">
+                            <div class="mwt_center">
+                                <div class="top-sub-nav fl">
+                                    
+                                        
+                                        
+                                            <div><a href="javascript:alert('您好，请先登录！');"><img style="width:106px;" src="/img/home/agfish.png?v=2"></a></div>
+                                        
+                                    
+                                </div>
+
+                                 <div class="top-sub-nav fl">
+                                    
+                                        
+                                        
+                                            <div><a href="javascript:alert('您好，请先登录！');"><img style="width:96px;" src="/img/home/agtiger.png?v=2"></a></div>
+                                           
+                                        
+
+                                    
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--<li><a href="/agent.jsp" class="t">加盟合作</a></li>-->
+                <li class="top-sub-btn">
+                    
+                        
+                        
+                         <a href="javascript:alert('您好，请先登录！');" class="t">真人娱乐</br><span>LIVE CASINO</span></a>
+                            
+                        
+                    
+                   
+                    <div class="top-sub-nav-wp" style="left:-1px;">
+						
+                        <div class="mwt_border wh" >
+                            
+                            <div class="mwt_center">
+                                <div class="top-sub-nav2 fl">
+                                    
+                                        
+                                        
+                                            <div><a href="javascript:alert('您好，请先登录！');"><img style="width:98px;"src="/img/home/agbtn.png?v=2"></a></div>
+                                            
+                                        
+                                    
+                                </div>
+
+                                <div class="top-sub-nav3 fl">
+                                    
+                                        
+                                        
+                                            <div><a href="javascript:alert('您好，请先登录！');"><img style="width:90px;" src="/img/home/ageb.png?v=3"></a></div>
+                                            
+                                        
+                                    
+                                </div>
+                            </div>
+                        </div>
+                </div>
+             </li>
+             <li>
+                
+                   
+                   
+                    <a href="javascript:alert('您好，请先登录！');" class="t">沙巴体育</br><span>SB SPORTS</span></a>   
+                   
+                
+             </li>
+              <li>
+                <a href="/promotion.jsp" class="t">最新优惠</br><span>DISCOUNT</span></a>
+             </li>
+             <li>
+                <a href="/agent.jsp" class="t">代理合作</br><span>COOPERATION</span></a>
+            </li>
+            <li>
+                <a href="/forphone.jsp" class="t">下载专区</br><span>DOWNLOAD</span></a><img src="/img/home/lin.png">
+            </li>  
+         </ul>
+        </div>
+        <script type="text/javascript" src="/cpu2.js"></script>
+        <script type="text/javascript" src="/cpu3.js"></script>
+    </div>
+</div>
+
+<script>	
+ $(function(){
+     $.ajax({
+          url: "/asp/checkAgentURLogin.php", 
+          type: "post",
+          dataType: "text",
+          success:function(data){
+               console.log(data);
+             if ('true' == data){
+                 $('#js-non').addClass('no');
+             }
+          }
+       })
+
+   $('#j-no').on('click',function(){
+       $.ajax({
+          url: "/asp/checkAgentURLogin.php", 
+          type: "post",
+          dataType: "text",
+          success:function(data){
+             if ('false' == data){
+                 alert('您好，请先登录游戏账号，若无账号，请先进入网页注册!');
+             }
+             else{
+                 $('#js-non').removeClass('no');
+                 window.location.href = "/forphone.jsp"
+                }
+          }
+       })
+    })
+
+})
+    !function(){
+        var menuBtns=document.querySelectorAll('#j-topmenu>li>a'),
+                pathName=window.location.href.replace(window.location.origin,'');
+       for(var i=0;i<menuBtns.length;i++){
+                var ele=menuBtns[i];
+                var href=ele.getAttribute('href');
+                if(ele.parentNode.className!='center'){
+                    href===pathName?ele.parentNode.className='active':ele.parentNode.className='';
+                }
+            }
+    }();
+
+
+    function AddFavorite(sURL, sTitle) {
+        
+        try {
+            window.external.addFavorite(sURL, sTitle);
+        }
+        catch (e) {
+            try {
+                window.sidebar.addPanel(sTitle, sURL, "");
+            }
+            catch (e) {
+                alert("加入收藏失败，请使用Ctrl+D进行添加");
+            }
+        }
+    }
+
+    function show_index(sURL){
+        if (document.all) {
+            document.body.style.behavior='url(#default#homepage)';
+            document.body.setHomePage(sURL);
+        } else{
+            alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+        }
+    }
+
+
+
+</script>
+<script>
+    $(function(){
+        $('.fishing').on('click',function(){
+            alert('敬请期待');
+            return false;
+        });
+    });
+</script>
+
+<div class="modal fade in" id="modal-reg1" tabindex="-1"  style="display: none;z-index:1000!important">
+    <div class="modal-dialog" >
+        <div class="modal-content">
+            <div class="title">
+                恭喜你，注册成功
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="regSuccess">
+                <p>
+                    用户账号：<br>
+                    <span class="j-regAccoutn"></span>
+                </p>
+                <p>
+                    用户余额：<br>
+                    <span>0.00元</span>
+                </p>
+                <a href="/index.jsp" class="btnBig">立即登录</a>
+                <p class="regTips">请保管好你的游戏账号,登录密码,如忘记请联365天7＊24小时在线客服</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="overlay"></div>
+<div id="AjaxLoading" class="showbox">
+  <div class="loadingWord"> <img src="/images/waiting.gif"> 加载中，请稍候... </div>
+</div>
+                  
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/slicebox.css?v=15" />
+
+<script type="text/javascript" src="/js/SuperSlide.2.1.1.js?v=1"></script>
+
+<div id="slideBox" class="slideBox">
+	<div class="hd">
+		<ul><li></li><li></li><li></li><li></li><li></li><li></li></ul>
+	</div>
+	<div class="bd">
+		<ul>
+			<li><a href="/membervip.jsp" style="background: url(https://o3ajxc88z.qnssl.com/banner108.jpg?v=2) no-repeat center top;" target="_blank"></a></li>
+			<li><a href="/promotion.jsp" style="background: url(https://o3ajxc88z.qnssl.com/banner107.jpg?v=3) no-repeat center top;"></a></li>
+			<li><a href="javascript:;" style="background: url(https://o3ajxc88z.qnssl.com/banner102.jpg?v=3) no-repeat center top;"></a></li>
+			<li><a href="/giftcush.jsp" style="background: url(https://o3ajxc88z.qnssl.com/banner104.jpg?v=3) no-repeat center top;" target="_blank"></a></li>
+			<li><a href="/forphone.jsp" style="background: url(https://o3ajxc88z.qnssl.com/banner105.jpg?v=3) no-repeat center top;" target="_blank"></a></li>
+			<li><a href="/vip/vippromoted.html" style="background: url(https://o3ajxc88z.qnssl.com/banner106.jpg?v=3) no-repeat center top;" target="_blank"></a></li> 
+		</ul>
+	</div>
+</div>
+<div>
+  
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/new1.css?v=18" />
+
+<div class="not-wr">
+    <div class="notice">
+        <div class="title"><img style="margin-right: 10px;" src="/img/home/icon-horn.png"></div>
+        <marquee id="notice-marquee" data-marquee class="notice-marquee" behavior="scroll" direction="left" loop="infinite" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">
+            
+            
+            
+                
+                <a data-src="/asp/queryAnnObject.php;jsessionid=7642BECBCF8C9B8E2195873B3A6847BA?aid=1798"  href="javascript:;" class="marquee-item">1、7/28 NT平台临时维护完成公告&nbsp;&nbsp;&nbsp;</a>
+
+            
+                
+                <a data-src="/asp/queryAnnObject.php;jsessionid=7642BECBCF8C9B8E2195873B3A6847BA?aid=1797"  href="javascript:;" class="marquee-item">2、7/28 PT平台临时维护完成公告&nbsp;&nbsp;&nbsp;</a>
+
+            
+                
+                <a data-src="/asp/queryAnnObject.php;jsessionid=7642BECBCF8C9B8E2195873B3A6847BA?aid=1795"  href="javascript:;" class="marquee-item">3、7/28 QT平台临时维护完成公告&nbsp;&nbsp;&nbsp;</a>
+
+            
+                
+                <a data-src="/asp/queryAnnObject.php;jsessionid=7642BECBCF8C9B8E2195873B3A6847BA?aid=1790"  href="javascript:;" class="marquee-item">4、7/28 EBET平台游戏维护完成公告&nbsp;&nbsp;&nbsp;</a>
+
+            
+                
+                <a data-src="/asp/queryAnnObject.php;jsessionid=7642BECBCF8C9B8E2195873B3A6847BA?aid=1789"  href="javascript:;" class="marquee-item">5、7/28 邮政银行已维护完成公告&nbsp;&nbsp;&nbsp;</a>
+
+            
+        
+
+        </marquee>
+    </div>
+    <a href="/news.jsp" class="news-more">更多<img src="/img/home/icx1.png"></a>
+    <div class="tiger"><img src="/img/home/tit2.png"></div>
+     <div class="games_bg"> 
+        <div class="games">
+            <div class="num">
+                <div id="js_num" style="display: none"></div>
+                <iframe src="jiangchi.jsp" id="jiangchi-iframe" width="360" height="auto" border="0" scrolling="no" frameborder="0" allowtransparency="true" style="margin-left:-9px"></iframe>
+            </div>
+            <div class="lists" id="rotation"></div>
+        </div>
+    </div>
+    <div class="cl"></div>
+</div>
+
+</div> 
+<script type="text/javascript">
+jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true});	 		
+</script>
+
+ 
+
+
+
+
+ 
+                <div class="dow-conter">
+                   <div class="con-1 fl">
+                       <a href="javascript::" id="yh-mobile">下载专区</br><span>DOWNLOAD</span></a>
+                       <a href="https://nzl2e8cee.qnssl.com/setupglxql.exe" target="_blank" id="yh-download">PT电脑端</br><span>PT PCDownload</span></a>
+                   </div> 
+                   <div id="slideBox" class="slideBox1 fl">
+                        <div class="hd">
+                            <ul><li>PT</li><li>TTG</li><li>QT</li><li>MG</li><li>NT</li><li>DT</li><li>PNG</li></ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li><a href="/slotGame.jsp?showtype=PT" ><img src="/img/home/gam1.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=TTG" ><img src="/img/home/gam2.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=QT" ><img src="/img/home/gam3.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=MG" ><img src="/img/home/gam4.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=NT" ><img src="/img/home/gam5.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=DT" ><img src="/img/home/gam6.png"/></a></li>
+                                <li><a href="/slotGame.jsp?showtype=PNG" ><img src="/img/home/gam7.png"/></a></li>
+                            </ul>
+                        </div> 
+                  </div>
+                 <div class="slideTxtBox fl">
+                     <div class="hd cl">
+                         <ul>
+                             <li>
+                                
+                                
+                                
+                                <a href="javascript:alert('您好，请先登录！');" target="_blank" class="agbt"><img src="/img/home/agbg.png" /></a>
+                                
+                                
+                             </li>
+                             <li>
+                                
+                                
+                                
+                                <a href="javascript:alert('您好，请先登录！');" target="_blank" class="ebtn"><img src="/img/home/ebbg.png" /></a>
+                                
+                                  
+                             </li>
+                         </ul>
+                    </div>
+                    <div class="bd">
+                         <ul><li class="lit1"></li></ul>
+                         <ul><li class="lit2"></li></ul>
+                    </div>
+                 </div> 
+                  <div class="con-1 fr">
+                       <a href="/agent.jsp">合作加盟</br><span>COOPERATION</span></a>
+                       <a href="/vip/vippromoted.html" target="_blank">VIP</br><span>VIP CLUB</span></a>
+                 </div>
+                <div class="cl"></div> 
+                </div>
+                <div class="c-main">
+                    <div class="box02a fl">
+                            <div class="box02a_w">论坛</div>
+                            <div class="box02a_c">
+                            <div>
+                                <div class="forum-list2" id="j-forum-list2"></div>
+                                <script id="tpl_forum2" type="text/x-handlebars-template">
+                                    <div class="forum_hover" id="j-f">
+                                        <a href="{{forum_url}}" target="_blank" style="text-align: left;">
+                                            <div class="fr">
+                                                <div>{{createDate}}</div>
+                                                <div class="j-lok">查看直播</div>
+                                            </div>
+                                            
+                                            <div><b>【直播】</b><span>{{title}}</span></div>
+                                        </a>
+                                    </div>
+                                </script>
+                                <div class="forum-list" id="j-forum-list"></div>
+                                <script id="tpl_forum" type="text/x-handlebars-template">
+                                    <div class="forum_hover">
+                                        <a href="{{forum_url}}" target="_blank" style="text-align: left;">
+                                            <div class="fr">{{createDate}}</div>
+                                            <div><b>【活动】</b><span>{{title}}</span></div>
+                                        </a>
+                                    </div>
+                                </script>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="news_02 fr">
+                       <div class="nec">
+                        <a class="fl ac">活动公告</a>
+                        <a href="/activityCalendar.jsp" class="fr ab">查看全部</a>
+                       </div>
+                       <ol>
+                            
+                            
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=62">
+                                            
+                                                
+                                                
+                                                    玩PT《真爱》送43元奖金！
+                                                
+                                            
+                                        </a>
+                                        <em>07-28</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=61">
+                                            
+                                                
+                                                
+                                                    QT/NT全民高额存送45%,
+                                                
+                                            
+                                        </a>
+                                        <em>07-28</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=60">
+                                            
+                                                
+                                                
+                                                    全民联系在线客服领取红包
+                                                
+                                            
+                                        </a>
+                                        <em>07-28</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=59">
+                                            
+                                                
+                                                
+                                                    玩TTG的《酒吧门铃》送45元奖金！
+                                                
+                                            
+                                        </a>
+                                        <em>07-27</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=58">
+                                            
+                                                
+                                                
+                                                    MG赢钱送钱100%！
+                                                
+                                            
+                                        </a>
+                                        <em>07-27</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=57">
+                                            
+                                                
+                                                
+                                                    PNG/MG高额存送45%
+                                                
+                                            
+                                        </a>
+                                        <em>07-27</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=54">
+                                            
+                                                
+                                                
+                                                    NT/DT高额存送45%
+                                                
+                                            
+                                        </a>
+                                        <em>07-26</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=53">
+                                            
+                                                
+                                                
+                                                    PT存30送27
+                                                
+                                            
+                                        </a>
+                                        <em>07-26</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=52">
+                                            
+                                                
+                                                
+                                                    玩MG《爱情博士》送42元奖金！
+                                                
+                                            
+                                        </a>
+                                        <em>07-26</em>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/getActivityCalendarDetail.php?id=51">
+                                            
+                                                
+                                                
+                                                    玩PT《金字塔女王》送45元奖金！
+                                                
+                                            
+                                        </a>
+                                        <em>07-25</em>
+                                    </li>
+                                
+                            
+                        </ol>
+                   </div>
+                  <div class="cl"></div>  
+                </div>
+                <div id="slideBox" class="slideBox3">
+                        <div class="hd">
+                            <ul><li></li></ul>
+                        </div>
+                        <div class="bd">
+                            <ul>
+                                <li><a href="/agent.jsp"><img src="/img/ad.jpg" /></a></li>
+                            </ul>
+                        </div> 
+                  </div>
+                
+                <div class="modal fade modal-bg" id="modal-index"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-new"></div>
+                    <div class="modal-dialog">
+                        <button type="button" class="newclose" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                        <div class="dialog-wp">
+                            <div class="notice-wp">
+                                <h1 class="notice-tit"></h1>
+                                <div class="notice-cnt"></div>
+                            </div>
+                            <div class="msg">
+                              <div class="wat fl"><img src="/images/popup1/popu3.jpg"></div>
+                              <div class="tit fl">
+                                  <p>微信扫码关注官方微信公众号</p>
+                                  <p>随机派发优惠券，红包券！</p>
+                              </div>
+                              <div class="cl"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!--飘浮-->
+                <div class="flap hvr-pulse-grow">
+                <a href="/membervip.jsp" target="_blank" id="aside-red"></a>
+                </div>
+
+                
+	
+<input type="hidden" value="false" class="j-isLogin" />
+		<div class="footer">
+			<div class="footcenter">
+				<div class="footnav">
+					<div class="collaboration"><a href="/about.jsp#tab-aboutus">关于我们</a></div>
+					<div class="collaboration"><a href="/agent.jsp">合营计划</a></div>
+					<div class="collaboration"><a href="/about.jsp#tab-agreement">用户协议</a></div>
+					<div class="collaboration"><a href="/about.jsp#tab-aboutus">免责条款</a></div>
+					<div class="collaboration"><a href="/about.jsp#tab-privacy">隐私保护</a></div>
+					<div class="collaboration"><a href="/about.jsp#tab-contact">联系我们</a></div>
+					<div class="collaboration"><a>站长统计</a></div>
+					<div class="collaboration bod"><a href="/about.jsp#tab-license">合法牌照</a></div>
+				</div>
+				<div class="ft-line"><img src="/img/home/fotbg.png"></div>
+				<div class="partner partner2">
+					<div class="recom recom22 fl"><span>推荐浏览器</span><a class="google" href="https://www.google.com/chrome/browser/desktop/index.html"></a><a class="safari" href="http://www.apple.com/safari"></a></div>
+					<div class="recom recom22 fr" style="margin-right:40px;"><span>监督平台</span><img src="/img/home/pag.png"><img src="/img/home/fi.png"></div>
+					<div class="both"></div>
+					<div class="recom recom22" ><span>合作伙伴</span><img src="/img/home/partner1.png"><img src="/img/home/partner2.png"><img src="/img/home/partner3.png"><img src="/img/home/partner4.png"><img src="/img/home/partner5.png"><img src="/img/home/partner6.png"><img src="/img/home/partner7.png"></div>
+					
+				</div>
+			</div>
+			<div class="ft-word">PT游戏是由PT TransPacific的授权下布署</div>
+		</div>      
+		<!--侧边栏1{--> 
+		<div class="sidebar cfx" id="sidebar">
+			<a href="https://chat.l8serviceqile.com/chat/chatClient/chatbox.jsp?companyID=472&configID=100&jid=&info=" class="j-no i1" target="_blank"></a>
+			<a href="javascript:;" ><img src="/images/qr-wechat1.png?v=4"></a>
+			<a href="javascript:;" data-toggle="modal" data-target="#modal-phone"></a>
+			<a href="javascript:;" class="emails"></a>
+			<a href="/game/features.html" target="_blank"></a>
+			<a href="javascript:;" class="j-toTop"></a> 
+		</div>
+		<!--end-->
+		<!--}侧边栏-->
+		<div class="modal fade" id="modal-phone" role="dialog" data-backdrop="static" style="display: none;">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-hd">
+						<h2 class="modal-title">免费热线拨打</h2>
+						<button type="button" class="close2" data-dismiss="modal" aria-label="Close">&times;</button>
+					</div>
+					<div class="modal-bd">
+						<table class="tb-form">
+							<tr>
+								<td class="first">电话号码：</td>
+								<td> <input id="phonenum" class="ipt-txt" type="text" placeholder="请输入您的联系电话" />
+								</td>
+							</tr>
+							<tr>
+								<td class="first"></td>
+								<td><input type="button" class="btn" value="电话回拨" id="j-reback-call">
+								</td>
+							</tr>
+
+						</table>
+						<div class="prompt-info">
+							<h2 class="tit">温馨提示：</h2>
+							<p>客服电话默认为注册电话，请登陆直接点击号码回拨即可</p>
+							<p>若注册电话停止使用，请输入您最新有效电话进行拨打热线，谢谢！</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--注册{-->
+		<div class="modal fade overflowN" id="modal-reg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+			<div class="modal-dialog" role="document" style="width:585px;height:567px;position:absolute;left:50%;top:50%;margin-left:-293px;margin-top:-283px;">
+				<div class="modal-content">
+					<button type="button" class="cut" data-dismiss="modal" aria-label="Close" id="j-registerClose"><span aria-hidden="true">&times;</span></button>
+					<div class="l-tit">极速注册</div> 
+					<div class="l-tit2">10秒即可畅玩平台游戏</div>
+					<div class="cnt" style="overflow: hidden;">
+						<iframe data-src="/register.jsp" width="100%" height="490px" scrolling="yes" frameborder="0"></iframe>
+					</div>
+					<div >
+						
+					</div>
+					<img src="/img/jln/regipo.png" class="character">
+				</div>
+			</div>
+		</div>
+		<!--}注册-->
+		<!--公告详情{-->
+		<div class="modal fade modal-notice" id="j-modal-notice" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+			<div class="modal-dialog1" role="document">
+				<div class="modal-content">
+					<div class="modal-hd">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><p aria-hidden="true">×</p></button>
+						<h4 class="modal-title">公告详情</h4>
+					</div>
+					<div class="modal-bd">
+						<h1 class="notice-tit"></h1>
+						<div class="notice-time"></div>
+						<p class="notice-content"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--}公告详情-->
+		<!-- <script language="javascript" src="https://mpsnare.iesnare.com/snare.js"></script> -->
+		<script>$('.j-toTop').click(function(){ $('html,body').animate({scrollTop:$('#topk').offset().top}, 400); });</script>
+		<script>
+		$(function() {
+			$('.j-closeS').on('click',function () {
+				$(this).parent().remove();
+			})
+			$(window).scroll(function() {
+				var scrollHeight = $(document).scrollTop();
+				if (scrollHeight > 100) {
+					$('#sidebar-top').addClass('top_btn');
+				} else {
+					$('#sidebar-top').removeClass('top_btn');
+				}
+			});
+
+			$('#sidebar-bd li').hover(function(){
+				$('#sidebar-bd li').focus().removeClass('on');
+
+			} , function(){
+				$('#sidebar-bd li').eq(0).addClass('on');
+			});
+		})
+		</script> 
+		<script>
+		  $(function () {
+			var url = document.location.pathname + document.location.search;
+			console.log(url);
+			if (url == '' || url == '/' || url == '/index.jsp') {
+				$('#j-topmenu > li a').eq(0).addClass('active');
+			}
+			else if(url == '/slotGame.jsp?showtype=PT'){
+				$('#j-topmenu > li a').eq(1).addClass('active');
+			}
+			else if(url == '/slotGame.jsp?showtype=DT'){
+				$('#j-topmenu > li a').eq(2).addClass('active');
+			}
+			else if(url == '/slotGame.jsp?showtype=MGS'){
+				$('#j-topmenu > li a').eq(3).addClass('active');
+			}else if(url == '/promotion.jsp'){
+				$('#j-topmenu > li a').eq(7).addClass('active');
+			}else if(url == '/agent.jsp'){
+				$('#j-topmenu > li a').eq(8).addClass('active');
+			}else if(url == '/forphone.jsp'){
+				$('#j-topmenu > li a').eq(9).addClass('active');
+			}
+    })
+		</script>
+<!--qile97 for seo{-->
+<script>
+    var _hmt = _hmt || [];
+    !function(){
+        if(window.location.host.indexOf('qile97.com')!=-1){
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?b4bdd627bce644506668686d3482bb0a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        }
+    }()
+</script>
+<script type="text/javascript">
+	if(window.location.host.indexOf('qile255.com')!=-1){
+	var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cspan id='cnzz_stat_icon_1262155357'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1262155357%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+	}
+</script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		if(window.location.host.indexOf('qile255.com')!=-1){
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?53905941d87285b173c0f8c14c68b92a";
+		  var s = document.getElementsByTagName("script")[0]; 
+		  s.parentNode.insertBefore(hm, s);
+	  	}
+	})();
+</script>
+<!--qile97 for seo-->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');   ga('create', 'UA-79279630-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!--统计-->
+
+
+
+
+                <script src="/js/lib/jquery.slotmachine.min.js"></script>
+                <script src="/js/lib/countUp.js"></script>
+                <script src="/js/lib/jquery.lazyload-v1.9.1.min.js"></script>
+                
+
+<script src="/js/common.js?v=45"></script>
+                <script src="/js/index.js?v=6"></script>
+                <script type="text/javascript" src="/js/qq.js"></script>
+                <script type="text/javascript">
+                jQuery(".slideBox1").slide({mainCell:".bd ul",autoPlay:true});
+                jQuery(".slideBox3").slide({mainCell:".bd ul",autoPlay:true});
+                jQuery(".slideTxtBox").slide();
+                
+                </script>
+                <script>
+                  $('#yh-mobile').on('click',function(){ 
+                    $.ajax({
+                        url: "/asp/checkAgentURLogin.php", 
+                        type: "post",
+                        dataType: "text",
+                        success:function(data){
+                            console.log(data);
+                            if ('false' == data){
+                                alert('您好，请先登录游戏账号，若无账号，请先进入网页注册!');
+                            }
+                            else{window.location.href = "/forphone.jsp"}
+                        }
+                    })
+                })
+
+                    $('#yh-download').hover(function () {
+                        $("#download-cname").text('点击下载').removeClass('c-white').addClass('c-download');
+                        $("#download-ename").text('Click to Download').removeClass('c-golden').addClass(
+                            'e-download');
+                    }, function () {
+                        $("#download-cname").text('PT客户端下载').removeClass('c-download').addClass('c-white');
+                        $("#download-ename").text('Client to Download').removeClass('e-download').addClass(
+                            'c-golden');
+                    });
+                    $('#yh-agency').hover(function () {
+                        $("#agency-cname").text('点击进入').removeClass('c-white').addClass('c-download');
+                        $("#agency-ename").text('Click to Enter').removeClass('c-golden').addClass('e-download');
+                    }, function () {
+                        $("#agency-cname").text('合作代理').removeClass('c-download').addClass('c-white');
+                        $("#agency-ename").text('Cooperation agency').removeClass('e-download').addClass(
+                            'c-golden');
+                    });
+                    $('#yh-mobile').hover(function () {
+                        $("#mobile-cname").text('点击进入').removeClass('c-white').addClass('c-download');
+                        $("#mobile-ename").text('Click to Enter').removeClass('c-golden').addClass('e-download');
+                    }, function () {
+                        $("#mobile-cname").text('下载中心').removeClass('c-download').addClass('c-white');
+                        $("#mobile-ename").text('Mobile Betting').removeClass('e-download').addClass('c-golden');
+                    });
+                    $('#yh-Money').hover(function () {
+                        $("#money-cname").text('点击申请').removeClass('c-white').addClass('c-download');
+                        $("#money-ename").text('Click to Apply').removeClass('c-golden').addClass('e-download');
+                    }, function () {
+                        $("#money-cname").text('8-88体验金').removeClass('c-download').addClass('c-white');
+                        $("#money-ename").text('8-88 Money for Play').removeClass('e-download').addClass(
+                            'c-golden');
+                    });
+                </script>
+                <script>
+                    $(function () {
+                        setTimeout(function () {
+                            $("#j-float_bg").addClass('active');
+                        }, 1800);
+                        setTimeout(function () {
+                            $("#j-float_box").addClass('active');
+                        }, 2500);
+                        setTimeout(function () {
+                            $("#j-float_box").removeClass('active');
+                            $("#j-float_box1").removeClass('active');
+                            $("#j-float_box2").addClass('active');
+                        }, 4000);
+
+                    });
+                </script>
+                
+                    <script>
+                        $(function () {
+                            $(document).on('click', '.yh-Money', function () {
+                                alert('请先登录！！');
+                                return false;
+                            });
+                            $(document).on('click', '.play', function () {
+                                alert('请先登录！！');
+                                return false;
+                            });
+                        });
+                    </script>
+                
+                <script>
+                    ! function () {
+                        getNotice();
+                    }();
+
+                    function getNotice() {
+                        var $indexModal = $('#modal-index');
+                        $.post('/asp/checkConfigSystem.php', {
+                                'typeNo': 'type002',
+                                'itemNo': '001'
+                            },
+                            function (data) {
+                                if (data) {
+                                    var strs = data.split('#'),
+                                        tit = strs[0],
+                                        content = strs[1];
+                                    $indexModal.find('.notice-tit').html(tit);
+                                    $indexModal.find('.notice-cnt').html(content);
+                                    showModal($indexModal, '/images/popup1/bg1.png');
+                                }
+                            });
+                    }
+                    //显示首页弹框
+                    function showModal(obj, picurl) {
+                        if (picurl) {
+                            var img = new Image();
+                            img.src = picurl;
+                            /*图片加载完成后显示提示框*/
+                            $(img).load(function () {
+                                obj.modal('show');
+                            });
+                        }
+
+                    }
+                </script>
+                <script>
+                    $(function () {
+                        get_forum();
+                        get_forum2();
+                        $(".container").carousel('pause');
+                    });
+                /*** 论坛*/
+                    function get_forum() {
+                        $.post('/queryBbsTie.php', {
+                            'type': '63'
+                        }, function (data) {
+                            if (data == '' || data == 'empty') {
+                                return false;
+                            } else {
+                                var tmp1 = builHtml1(data);
+                                var target1 = $('#j-forum-list');
+                                target1.html(tmp1);
+                            }
+
+                        });
+
+                        function builHtml1(data) {
+
+                            var html = '',
+                                tpl_forum = $('#tpl_forum').html(),
+                                forum_url = '';
+                            for (var i = 0; i < data.length; i++) {
+
+                                var obj = data[i];
+                                forum_url = 'http://bbs.qilebbs.com/thread-' + obj.id + '-1-1.html';
+
+                                html += tpl_forum.replace(/\{\{createDate\}\}/g, obj.createDate)
+                                    .replace(/\{\{num\}\}/g, i + 1)
+                                    .replace(/\{\{forum_url\}\}/g, forum_url)
+                                    .replace(/\{\{title\}\}/g, obj.title);
+                            }
+
+                            return html;
+                        }
+                    }
+
+                    function get_forum2() {
+                        //二次请求
+                        $.post('/queryBbsTie.php', {
+                            'type': '55'
+                        }, function (data) {
+                            if (data == '' || data == 'empty') {
+                                return false;
+                            } else {
+                                var tmp2 = builHtml2(data);
+                                var target2 = $('#j-forum-list2');
+                                target2.html(tmp2);
+                            }
+
+                        });
+
+                        function builHtml2(data) {
+                            var html2 = '',
+                                tpl_forum2 = $('#tpl_forum2').html(),
+                                forum_url = '';
+                            for (var i = 0; i < data.length; i++) {
+
+                                var obj = data[i];
+                                forum_url = 'http://bbs.qilebbs.com/thread-' + obj.id + '-1-1.html';
+
+                                html2 += tpl_forum2.replace(/\{\{createDate\}\}/g, obj.createDate)
+                                    .replace(/\{\{num\}\}/g, i + 1)
+                                    .replace(/\{\{forum_url\}\}/g, forum_url)
+                                    .replace(/\{\{title\}\}/g, obj.title);
+                            }
+                            return html2;
+                        }
+                    }
+                    
+                   
+                   
+
+                </script> 
+
+            </div>
+        </body>
+
+        </html>

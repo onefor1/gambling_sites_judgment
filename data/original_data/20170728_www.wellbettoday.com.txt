@@ -1,0 +1,4099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<title>WELLBET吉祥坊官网</title>
+		<meta name="description" content="吉祥坊官方网站，意甲官方赞助商，亚洲第一体育。立即注册，立享优惠。" />
+		<meta name="keywords" content="WELLBET，吉祥坊，吉祥体育，体育博彩，娱乐场，在线游戏，彩票，真人荷官，手机投注，手机投注App。" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.php?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/clock/clock.css.php;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?ln=primefaces" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.php;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/primefaces.js.php;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/clock/clock.js.php;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?ln=primefaces"></script><script type="text/javascript" src="/javax.faces.resource/jsf.js.php;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?ln=javax.faces"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/jquery.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/richfaces.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/richfaces-queue.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/richfaces-base-component.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/status.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/richfaces-event.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/popupPanel.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/popupPanelBorders.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/popupPanelSizer.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><link type="text/css" rel="stylesheet" href="/org.richfaces.resources/javax.faces.resource/org.richfaces/popupPanel.ecss;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?db=eAG7dPvZfwAIqAOT" /><script type="text/javascript" src="/org.richfaces.resources/javax.faces.resource/org.richfaces/datascroller.js;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4"></script><link type="text/css" rel="stylesheet" href="/org.richfaces.resources/javax.faces.resource/org.richfaces/datascroller.ecss;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4?db=eAG7dPvZfwAIqAOT" />
+		<link rel="shortcut icon" href="http://media.jxf88.com/media/images/icon/favicon.ico" type="image/x-icon" /></head><body>
+		<style type="text/css">
+			@import url("http://www.wellbettoday.com/zh/css/attache.css");
+		</style>
+		
+		<script src="http://www.wellbettoday.com/public/js/common.js"></script>
+		<script>
+			$( document ).ready(function() {
+				var textArray = ["提款金额只能为数字，不能为其他字符!", "确 定", "取 消", "未知的错误，请联系客服！", "请允许的您的浏览器打开这个链接，然后重试。"];
+				initCommonLanguageLocale(textArray);
+			});
+			
+			$(window).load(function() {
+				var textArray = ["提款金额只能为数字，不能为其他字符!", "确 定", "取 消", "未知的错误，请联系客服！", "请允许的您的浏览器打开这个链接，然后重试。"];
+				initCommonLanguageLocale(textArray);
+			});
+		</script>
+		<script src="http://www.wellbettoday.com/public/js/functionBar.js"></script>
+		<script src="http://www.wellbettoday.com/public/js/jquery.js"></script>
+
+		<script src="http://www.wellbettoday.com/public/js/openpage.js"></script>
+		<script>
+		$( document ).ready(function() {
+			var textArray = ["标题", "确定", "吉祥提示", "在线客服"];
+			initOpenPageLanguageLocale(textArray);
+		});
+		
+		$(window).load(function() {
+			var textArray = ["标题", "确定", "吉祥提示", "在线客服"];
+			initOpenPageLanguageLocale(textArray);
+		});
+		</script>
+		
+		<div id="page">
+			<div id="pageTitle">
+		<title>WELLBET吉祥坊官网</title>
+			</div>
+			<div id="header">
+	<style>
+	
+		.agent_wrap { background-image: url("http://media.jxf88.com/zh/banner/agent_banner.jpg"); background-repeat: no-repeat; background-position: center; height: 622px; }
+	
+		.casinoBackground { background: url(http://media.jxf88.com/zh/casino/bg.jpg) no-repeat; background-position: center; height: 962px; }
+		
+		.sb_bg { background-image: url("http://media.jxf88.com/zh/sb/bg_sb.jpg"); background-repeat: no-repeat; background-color:#070e16; background-position: top center; width: 100%; height: 690px; }
+	
+		.kenopage { background-image: url("http://media.jxf88.com/zh/banner/kenopage.jpg"); background-repeat: no-repeat; width: 100%; height: auto; }
+		
+		.header_menu_logo { float: left; background-image: url("http://media.jxf88.com/zh/layout/logo.png"); width: 225px; height: 50px; background-repeat: no-repeat; background-position: center; margin-top:5px; position:relative; }
+		.slidecontrolls { height:20px; width:18px; display:block; cursor: pointer; background: transparent url("http://media.jxf88.com/zh/layout/controlls.gif") center bottom no-repeat; float:left; outline: none; }
+		.slidecontrolls:hover { background: transparent url("http://media.jxf88.com/zh/layout/controlls.gif") center top no-repeat; }
+	
+		.lvpromo { background-image: url("http://media.jxf88.com/zh/banner/lvpromo_bg.jpg"); background-repeat: repeat-y; background-position: center top; width: 100%; box-sizing: border-box; }
+	
+		.mpage2_banner{ background:url(http://media.jxf88.com/zh/banner/mbpage2_banner.jpg) no-repeat top center; width:1261px; height:629px; margin:auto; position:relative;}
+		.mpage2_imgmobileqr { background:url(http://media.jxf88.com/zh/images/mobile2/mbpage2_mobileqr.png) no-repeat; width:264px; height:381px; float:left;}
+		.mpage2_imgiphone { background:url(http://media.jxf88.com/zh/images/mobile2/mbpage2_iphone.png) no-repeat; width:214px; height:428px; float:left;}
+		.mbpag2_qrcode{ position:absolute; top: 326px; left: 442px; background:url(http://media.jxf88.com/zh/images/mobile2/mobileqrimg.png) no-repeat; width:91px; height:93px;}
+		.mbpag2_qrcodeios{ position:absolute; top: 396px; left: 731px; background:url(http://media.jxf88.com/zh/images/mobile2/mobileqrios.png) no-repeat; width:91px; height:93px;}
+	
+		.maintenance_banner_div { background-image: url(http://media.jxf88.com/zh/banner/maintenance_banner.jpg); background-repeat: no-repeat; height: 486px; position: relative; background-position: center center; }
+		.message_banner_div { background-image: url(http://media.jxf88.com/zh/banner/message_banner.jpg); background-repeat: no-repeat; height: 486px; position: relative; background-position: center center; margin-top:20px; }
+		.forbidden_banner_div { background-image: url(http://media.jxf88.com/zh/banner/forbidden_banner.jpg); background-repeat: no-repeat; height: 486px; position: relative; background-position: center center; margin-top:0px; }
+		.lucky_banner_div { background-image: url(http://media.jxf88.com/zh/banner/luckytip_banner.jpg); background-repeat: no-repeat; height: 486px; position: relative; background-position: center center; }
+		.promolist { background-image: url("http://media.jxf88.com/zh/promo/promobg.png"); background-repeat: repeat; }
+		.promo_bot { background-image: url("http://media.jxf88.com/zh/promo/promolist_box.png"); background-repeat: no-repeat; height: 474px; width: 321px; position: relative; }
+		.promo_bot_upc { background-image: url("http://media.jxf88.com/zh/promo/upcoming.png"); background-repeat: no-repeat; height: 474px; width: 321px; position: relative; background-position: bottom; }
+		.promo_top { position: absolute; background-image: url("http://media.jxf88.com/zh/promo/promolist_boxt.png"); width: 320px; height: 337px; bottom: 0px; *left: 0px; }
+		.promo_bgbtm { background-image: url("http://media.jxf88.com/zh/promo/bg_btm.png"); background-repeat: repeat-y; background-position: top center; }
+		
+		.pt_banner_wrap { width: 100%; margin: 0 auto; background-image: url("http://media.jxf88.com/zh/banner/banner_pt.jpg"); background-repeat: no-repeat; height: 535px; background-size: cover; background-position: center center; }
+	
+	#mobile_apps {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/bg_mobile_apps.png);
+		color: #222222;
+	}
+	
+	#mobile_apps .mobile_apps_bg {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/bg_mobile.png);
+		background-repeat: no-repeat;
+		background-position: 180px 100px;
+		text-align: center;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content .icon_download_mobile {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/icon_download.png);
+		width: 36px;
+		height: 28px;
+		background-repeat: no-repeat;
+		display: inline-block;
+		margin-right: 10px;
+	}
+		
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .qrcode_wap {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/qrcode_wap.png);
+		background-repeat: no-repeat;
+	    display: block;
+	    width: 166px;
+	    height: 166px;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .qrcode_ios {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/qrcode_ios.png);
+		background-repeat: no-repeat;
+	    display: block;
+	    width: 166px;
+	    height: 166px;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .qrcode_android {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/qrcode_android.png);
+		background-repeat: no-repeat;
+	    display: block;
+	    width: 166px;
+	    height: 166px;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .icon_mobile_wap {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/icon-wap.png);
+		display: block;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .icon_mobile_wap {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/icon_ios.png);
+		display: block;
+	}
+	
+	#mobile_apps .mobile_apps_bg .mobile_apps_content ul.mobile_apps_products li .icon_mobile_wap {
+		background: url(http://media.jxf88.com/zh/images/mobile_apps/icon_android.png);
+		display: block;
+	}
+	
+	.fix_header_menu_logo { background:url(http://media.jxf88.com/zh/layout/logo2.png) no-repeat; float: left; width: 183px; height: 54px; background-repeat: no-repeat; background-position: center; margin-top: 5px; position: relative;}
+	
+	.header_banner {
+	    background: url('http://media.jxf88.com/zh/banner/banner-bg.png') no-repeat center;
+	    width: 100%;
+	    height: 535px;
+	}
+	
+	
+	.html5_p1 { background: url("http://media.jxf88.com/zh/banner/game/html5_1.jpg") top center no-repeat #0092bf; height:420px; }
+	
+	.html5_p2 { background: url("http://media.jxf88.com/zh/banner/game/html5_2.jpg") top center no-repeat #240b35; height:420px; }
+	
+	.ag_banner{ background:url(http://media.jxf88.com/zh/banner/promotion/html/promo_1600x535_ch_rebateNew.jpg) no-repeat; width:1600px; height:535px; margin:auto; }
+	
+	</style><span id="localeCodeStyle"></span>
+<script type="text/javascript">
+$(document).ready(function(){
+//Page Flip on hover
+$('#pageflip').hover(function() {
+$('#pageflip img , .back-img').stop()
+    .animate({
+    width: '207px',
+    height: '219px'
+    }, 500);
+    } , function() {
+    $('#pageflip img').stop()
+    .animate({
+    width: '100px',
+    height: '102px'
+    }, 220);
+$('.back-img').stop()
+    .animate({
+    width: '100px',
+    height: '100px'
+    }, 200);
+});
+
+$('#pageflip').click(function(){
+	document.cookie="originURL="+window.location.href ;
+	var x = document.cookie;
+	//alert(x);
+});
+});
+
+
+</script>
+<script>
+$(document).ready(function(){
+    $('.help_monkey').click(function(){
+        $(this).next('.help_mnky_box').toggle();
+   });
+});
+$(document).ready(function(){
+    $('.help_monkeyb').click(function(){
+        $(this).next('.help_mnky_box').toggle();
+   });
+}); 
+</script>
+
+<!-- BEGIN LivePerson Monitor. -->
+<script type="text/javascript">
+//<![CDATA[
+	window.lpTag=window.lpTag||{};if(typeof window.lpTag._tagCount==='undefined'){window.lpTag={site:'25507734',section:lpTag.section||'',autoStart:lpTag.autoStart===false?false:true,ovr:lpTag.ovr||{},_v:'1.5.1',_tagCount:1,protocol:location.protocol,events:{bind:function(app,ev,fn){lpTag.defer(function(){lpTag.events.bind(app,ev,fn)},0)},trigger:function(app,ev,json){lpTag.defer(function(){lpTag.events.trigger(app,ev,json)},1)}},defer:function(fn,fnType){if(fnType==0){this._defB=this._defB||[];this._defB.push(fn)}else if(fnType==1){this._defT=this._defT||[];this._defT.push(fn)}else{this._defL=this._defL||[];this._defL.push(fn)}},load:function(src,chr,id){var t=this;setTimeout(function(){t._load(src,chr,id)},0)},_load:function(src,chr,id){var url=src;if(!src){url=this.protocol+'//'+((this.ovr&&this.ovr.domain)?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site}var s=document.createElement('script');s.setAttribute('charset',chr?chr:'UTF-8');if(id){s.setAttribute('id',id)}s.setAttribute('src',url);document.getElementsByTagName('head').item(0).appendChild(s)},init:function(){this._timing=this._timing||{};this._timing.start=(new Date()).getTime();var that=this;if(window.attachEvent){window.attachEvent('onload',function(){that._domReady('domReady')})}else{window.addEventListener('DOMContentLoaded',function(){that._domReady('contReady')},false);window.addEventListener('load',function(){that._domReady('domReady')},false)}if(typeof(window._lptStop)=='undefined'){this.load()}},start:function(){this.autoStart=true},_domReady:function(n){if(!this.isDom){this.isDom=true;this.events.trigger('LPT','DOM_READY',{t:n})}this._timing[n]=(new Date()).getTime()},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],ev:lpTag.ev||[]};lpTag.init()}else{window.lpTag._tagCount+=1}
+//]]>
+</script>
+<!-- END LivePerson Monitor Vietnam. -->
+<span id="lpButDivID-1488867962607" class="displayNone"></span>
+<script type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/25507734/?cmd=mTagRepstate&amp;site=25507734&amp;buttonID=13&amp;divID=lpButDivID-1488867962607&amp;bt=3&amp;c=1"></script>
+<!-- END LivePerson Button code -->
+<!-- END LivePerson Monitor Chinese. -->
+<span id="lpButDivID-1488867972182" class="displayNone"></span>
+<script type="text/javascript" charset="UTF-8" src="https://server.iad.liveperson.net/hc/25507734/?cmd=mTagRepstate&amp;site=25507734&amp;buttonID=7&amp;divID=lpButDivID-1488867972182&amp;bt=3&amp;c=1"></script>
+<!-- END LivePerson Button code -->
+
+<script>
+function clickVietnameseLiveChat() {
+	//alert("clickVietnameseLiveChat");
+	//alert("clickVietnameseLiveChat"+$("#lpButDivID-1488867962607").find("a").html());
+	$("#lpButDivID-1488867962607").find("a").click();
+}
+
+function clickChineseLiveChat() {
+	//alert("clickChineseLiveChat");
+	//alert("clickChineseLiveChat"+$("#lpButDivID-1488867972182").find("a").html());
+	$("#lpButDivID-1488867972182").find("a").click();
+}
+
+</script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+    ga('create', 'UA-99589317-1', 'auto');
+    ga('send', 'pageview');
+</script><span id="headerOutputPanel">
+
+	<input type="hidden" value="false" id="login_state" /><span id="loginMessage" class="displayNone"></span><span id="userLocaleCode" class="displayNone"></span>
+
+		<div class="header_setting">
+
+			<div class="header_setting_wrap">
+
+				<div class="header_clock">GMT+8 <span id="wellBetClock" class="ui-clock ui-widget ui-widget-header ui-corner-all"></span><script id="wellBetClock_s" type="text/javascript">PrimeFaces.cw('Clock','widget_wellBetClock',{id:'wellBetClock',mode:'client',pattern:'yyyy-MM-dd HH:mm:ss',locale:'zh_CN'});</script>
+				<script>
+				    // get widgetVar via EL function, since p:clock doesn't have the widgetVar attribute
+				    var myClockVar = PF('widget_wellBetClock');
+				    myClockVar.current = new Date(1501241161*1000);
+				    $("#wellBetClock").addClass("wellBetClock");
+				</script>			
+				</div>			
+			
+				<div class="header_notice">
+					<ul>
+						<li>
+							<div class="mt8">
+								<a href="javascript:void(0);" class="soundsicons" onclick="disableBodyScroll(); selectNotice('notice1'); RichFaces.component('noticePopUp').show(); return false;"></a>
+							</div>
+						</li>
+						<li>
+							<div class="marginTopN15">
+								<div id="moveNoticeUp" class="upscrollicon cursorPointer"></div>
+							</div>
+						</li>
+						<li>
+							<div class="marginTopN15">
+								<div id="moveNoticeDown" class="downscrollicon cursorPointer"></div>
+							</div>
+						</li>
+						<li>
+							<div class="marginTop8IE7N20">
+								<div class="notice">
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice1'); return false;">WELLBET吉祥坊如意厅维护通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice2'); return false;">PT游戏大厅维护通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice3'); return false;">7月26日锦绣厅临时维护公告
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice4'); return false;">防范假冒网站跳转通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice5'); return false;">福临厅场馆例行维护通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice6'); return false;">WELLBET吉祥坊邮箱更换通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice7'); return false;">关于ATM存款通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice8'); return false;">移动WELLBET吉祥坊全面开放
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice9'); return false;">0.5%离线存款红利通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice10'); return false;">第三方离线存款通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice11'); return false;">旗舰厅游戏场馆维护通知
+												</a>
+											</div>
+											<div class="noticeMovingDiv">
+												<a href="javascript:void(0);" onclick="ga('send', 'event', { eventCategory: 'announce_homepage', eventAction: 'click', eventLabel: 'announce_homepage', eventValue: 100}); disableBodyScroll(); RichFaces.component('noticePopUp').show(); selectNotice('notice12'); return false;">优惠申请通知
+												</a>
+											</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header_options">
+<form id="myform" name="myform" method="post" action="/;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="myform" value="myform" />
+
+					<ul>
+							<li class="header_login">
+								<div class="mt10">
+									<div class="header_text pull-left" style="cursor: pointer;">
+										<span id="loginLink">登录</span> | <span id="registerLink" style="cursor: pointer;" onclick="registerUser()">注册</span>
+									</div>
+									<div class="clearfix"></div>
+									<!--drop -->
+								</div>
+							</li>
+							
+							<div class="header_dropgreyboxLogin" style="z-index:1000">
+                                                         <!--opacity -->
+                            	<div id="PopupLayerLogin" style="display:none;" class="alphaheadopac">
+                                	<div class="alphaheadopacbox">
+                                		<div class="loadinghead"></div>
+                                        <div class="loadingtext">正在登录中</div>
+                                    </div>
+                                </div>
+                            	<!--opacity end-->
+								<div class="dropgreyboxLogin_wrap">
+
+                            
+									<div id="closeLoginDiv">
+										<div class="closebigicon" style="cursor:pointer"></div>
+									</div>
+									<div class="q_links">
+                                    	<div class="header_imggrl"></div>
+										<div class="qctitle">WellBet在线帮助中心</div>
+                                        
+                                        <div class="logindetails">7X24 随时为您服务</div>
+											<a type="button" class="btn-logdet clickToChatNowStyle" onclick="clickChineseLiveChat();" style="cursor: pointer;">在线客服</a>									
+									</div>
+									<div class="verticalline"></div>
+									<div class="logdetail">
+										<div class="qctitle">创建您的WellBet帐户
+											<div class="hlp_wrap_h">
+												<div class="help_monkey"></div>
+												<div class="help_mnky_box">
+													<div class="help_mnky_top">如何创建您的Wellbet 账户</div>
+													<div class="help_mnky_bdy">
+														<p>您只需在主页上方点击“免费注册”按钮， 按照网页提示信息进行注册即可。</p>
+														<br />
+														<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_faq_myaccount.html" target="_blank" class="btn btn_red_brd">了解更多</a>
+														<div class="btn_dot_top">
+															<div>相关问题</div>
+															<ul>
+																<li><a href="http://media.jxf88.com/zh/helpcenter/helpcenter_faq_myaccount.html?display=lv_details12" target="_blank">"忘记密码”或“密码错误”时怎么办？</a></li>
+																<li><a href="http://media.jxf88.com/zh/helpcenter/helpcenter_faq_myaccount.html?display=lv_details13" target="_blank">个人资料安全吗？</a></li>
+															</ul>
+														</div>
+													</div>
+													<span style="position:absolute!important;top:-21px!important;">◆</span>
+												</div>
+											</div>
+										</div>
+										<div class="logindetails">只需一个WellBet帐户即可使用所有WellBet产品和服务.</div>
+										<a type="button" class="btn-logdet" onclick="registerUser()" style="cursor: pointer;">免费注册</a>
+									</div>
+									<div class="verticalline"></div>
+									<div class="loginbox">
+										<div style="color: red; display: none;" id="loginError">用户名或者密码错误</div>
+										<div class="qctitle">用户登录</div><input id="myform:myformloginName" type="text" name="myform:myformloginName" autocomplete="off" class="form-control" style="width:152px;" /><input id="myform:myformuserPassword" type="password" name="myform:myformuserPassword" autocomplete="off" value="" style="width:152px;" class="form-control" />
+											<div onclick="findPassWord()" style="cursor: pointer;">忘记密码？</div><input id="myform:j_idt121" name="myform:j_idt121" onclick="jsf.util.chain(this,event,&quot;ga('send', 'event', { eventCategory: 'members login', eventAction: 'click', eventLabel: 'login_engagement'}); return returnSubmit(this);&quot;,&quot;RichFaces.ajax(\&quot;myform:j_idt121\&quot;,event,{\&quot;incId\&quot;:\&quot;1\&quot;} )&quot;);return false;" value="登录" class="btn btn_red btn_200" type="submit" />
+										
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<!--drop -->
+						<li class="languageFlag">
+							<div class="mt10 sa_flag">
+								<div class="flag_china  ">
+									<!--drop -->
+									<div class="header_dropgreybox displayNone">
+										<div class="header_arrowicon"></div>
+											<div class="header_hovergreyflag" onclick="changeLanguage('en-gb');">
+												<div class="flag_uk pull-left margin4"></div>
+												<div class="pull-left">English</div>
+											</div>
+											<div class="clearfix"></div>
+											<div class="header_hovergreyflag" onclick="changeLanguage('vi-vn');">
+												<div class="flag_vietnam pull-left margin4"></div>
+												<div class="pull-left">Tiếng Việt</div>
+											</div>
+											<div class="clearfix"></div>
+									</div>
+									<!--drop -->	
+								</div>
+
+							</div>
+								<span class="mt15 sa_flag header_iconarrow"></span>	
+						</li>
+							<li class="header_chat" onclick="clickChineseLiveChat();">
+								<div class="mt8">
+									<div class="chaticon"></div>
+									<div class="header_text pull-left">在线客服</div>
+									<div class="clearfix"></div>
+								</div>
+							</li><span id="myform:messagesOutputPanel"></span><span id="myform:logoutOutputPanel"></span>
+					</ul><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="5790660961775230059:-6603773730060442337" autocomplete="off" />
+</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="fix_header_menu_serie">
+			<div class="header_menu_wrap">
+				
+				<a href="/zh-cn/index.php" target="_parent">
+				<div class="fix_header_menu_logo cursorPointer logoStyle">
+                </div>
+                </a>
+
+				<div class="header_menu_nav">
+					<ul>
+
+						<li class="sportsHeaderLink"><a href="/zh-cn/sportsbook.php" target="_parent">吉祥体育</a><div class="header_iconarrow"></div></li>
+						<li class="casinoHeaderLink"><a href="/zh-cn/casino.php" target="_parent">真人娱乐城</a><div class="header_iconarrow"></div></li>
+						<li class="kenoHeaderLink"><a href="/zh-cn/keno.php" target="_parent">彩票</a><div class="header_iconarrow"></div></li>
+						<li class="fishGamesHeaderLink positionRelative"><a href="/zh-cn/fishGames.php" target="_parent">捕鱼<img src="/zh-cn/images/hot_header.png" class="whatshot" /></a></li>
+						<li class="gamesHeaderLink"><a href="/zh-cn/games.php" target="_parent">小游戏</a></li>
+						<li class="promotionsHeaderLink"><a href="/zh-cn/promolist.php" target="_parent" onclick="ga('send', 'event', { eventCategory: 'promotion_page', eventAction: 'click', eventLabel: 'promotion_page', eventValue: 111});">优惠</a></li>
+							<li class="mobileHeaderLink"><a href="/zh-cn/mobile/ios.php" target="_parent">移动吉祥坊</a></li>
+						<!--&lt;li class="serieaHeaderLink"&gt;&lt;a href="/zh-cn/seriea/main.php" target="_parent" onclick="ga('send', 'event', { eventCategory: 'sponsor_Homepage', eventAction: 'click', eventLabel: 'sponsor_Homepage', eventValue: 103});"&gt;&lt;h:outputText value="&#36190;&#21161;&#19987;&#39064;" /&gt;&lt;/a&gt;&lt;/li&gt;--> 
+					</ul>
+				</div>
+			</div>
+		</div>
+        
+      <!--  --> 
+        
+    		<div id="navicon_bghead_manygame" class="navicon_bghead positionAbsolute width100Percent zIndex101 displayNone sportsHeaderDrop">
+
+			<div class="navicon_bgheaddiv">
+				<ul>
+
+					<!-- 1 -->
+					<li class="navboxsports1" onclick="location.href='/zh-cn/sportsbook.php'">
+						<div class="navboxsportspad">
+							<div class="navboxsp1textbtn">
+								<div class="navicon1_sports"></div>
+								<div class="navboxsp1text2">开始投注</div>
+							</div>
+	                        <div class="navboxsp1text">
+								<div class="navicon_text1">吉祥体育</div>
+								<div class="navicon_redtextbg">sportsbook</div>
+	                        </div>
+	                        <div class="navicon3_sports"></div>
+	                        <div class="clearfix"></div>
+	                        <div class="borbtm_sp1"></div>
+						</div>
+					</li>
+                    
+                    <!-- 2 -->
+					<li class="navboxsports2" onclick="retrieveLivesportsURL();">
+						<div class="navboxsportspad">
+							<div class="navboxsp1textbtn">
+								<div class="navicon2_sports"></div>
+								<div class="navboxsp1text2">开始直播</div>
+							</div>
+	                        <div class="navboxsp2text">
+								<div class="navicon_text1">体育直播</div>
+								<div class="navicon_redtextbg">live</div>
+	                        </div>
+	                        <div class="navicon4_sports"></div>
+	                        <div class="clearfix"></div>
+	                        <div class="borbtm_sp2"></div>
+						</div>
+					</li>
+					
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+		</div> 
+        
+        <!-- -->
+
+		<div id="navicon_bghead_manygame" class="navicon_bghead positionAbsolute width100Percent zIndex101 displayNone casinoHeaderDrop">
+
+			<div class="navicon_bgheaddiv">
+				<ul>
+
+<!-- 					&lt;h:panelGroup rendered="true"&gt; -->
+
+					<!-- OP -->
+					<li class="navwrap" onclick="retrieveOPArenaURL();">
+						<div class="navicon2_game10">
+                        <div class="mt130">
+                        	<div class="greenflagnew">新</div>
+							<div class="navicon_text1">鸿运厅</div>
+							<div class="navicon_redtextbg">OPUS</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li>
+					<!-- GD -->
+					<li class="navwrap" onclick="retrieveGDArenaURL();">
+						<div class="navicon2_game1">
+                        <div class="mt130">
+<!--                         	&lt;div class="greenflagnew"&gt;&lt;h:outputText value="&#26032;" escape="false"/&gt;&lt;/div&gt; -->
+							<div class="navicon_text1">吉祥厅</div>
+							<div class="navicon_redtextbg">GD</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- AG --><span id="agPageOpenNotLoggedIn">
+					<!-- Workaround to display need to login//&lt;&lt; -->
+					<li class="navwrap" onclick="retrieveAGArenaURL();">
+						<div class="navicon2_game2">
+                        <div class="mt130">
+							<div class="navicon_text1">福临厅</div>
+							<div class="navicon_redtextbg">AG</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li></span>
+					
+					<!-- BB -->
+					<li class="navwrap" onclick="retrieveBBArenaURL();">
+						<div class="navicon2_game3">
+                        <div class="mt130">
+							<div class="navicon_text1">旗舰厅</div>
+							<div class="navicon_redtextbg">BB</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- ROYAL -->
+					<li class="navwrap" onclick="retrieveADArenaURL();">
+						<div class="navicon2_game4">
+                        <div class="mt130">
+							<div class="navicon_text1">富贵厅</div>
+							<div class="navicon_redtextbg">royal</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- HG -->
+					<li class="navwrap" onclick="retrieveHGArenaURL();">
+						<div class="navicon2_game5">
+                        <div class="mt130">
+							<div class="navicon_text1">锦绣厅</div>
+							<div class="navicon_redtextbg">HG</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+					</li>
+
+					<!-- EA -->
+					<li class="navwrap">
+                    	
+						<div class="navicon2_game6" onclick="retrieveEAArenaURL();">
+                        <div class="mt130">
+							<div class="navicon_text1">如意厅</div>
+							<div class="navicon_redtextbg">EA</div>
+                        </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="eaHeaderClass">
+							<div class="floatLeft">
+								<a href="http://download.gr-mission.com/jxf2012.exe" class="navicon_btn1 font14">客户端版</a>
+							</div>
+							<div class="floatLeft marginlr10">|</div>
+							<div class="floatLeft">
+								<a href="javascript:void(0);" onclick="retrieveEAArenaURL();" class="navicon_btn1">进入场馆</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+                      
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="navicon_bghead positionAbsolute width100Percent zIndex101 displayNone kenoHeaderDrop">
+			<div class="navicon_bgheaddiv">
+				<ul class="kenomenudrop">
+				
+					<!-- 12 -->
+					<li class="navwrap" onclick="retrieveLBURL();">
+                    	<div style="margin-bottom:30px;">
+						<div class="navicon2_game8">
+                        <div class="mt130">
+							<div class="navicon_text1">富贵彩</div>
+							<div class="navicon_redtextbg">lb-keno</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+                 		</div>
+					</li>
+				
+					<!-- 11 -->
+					<li class="navwrap" onclick="retrieveKEStatus();">
+                    	<div style="margin-bottom:30px;">
+						<div class="navicon2_game7">
+                        <div class="mt130">
+							<div class="navicon_text1">快乐彩</div>
+							<div class="navicon_redtextbg">keno</div>
+                        </div>
+							<div class="clearfix"></div>
+							<div class="navicon_textpadd">
+								<a href="javascript:void(0);" class="navicon_btn2">进入场馆</a>
+							</div>
+						</div>
+                   		</div>
+                    
+					</li>
+
+
+					 
+<!-- 					&lt;li class="navwrap"&gt; -->
+<!-- 					&lt;h:panelGroup rendered="false"&gt; -->
+<!-- 						&lt;a href="#"&gt; -->
+<!-- 							 &lt;div class="navicon2_game9"&gt; -->
+<!-- 	                        &lt;div class="pull-left ml175 mt50"&gt; -->
+<!-- 	                        	&lt;img src="/zh/images/keno/qr.png" /&gt; -->
+<!-- 								&lt;div class="navicon_text1"&gt;&lt;h:outputText value="&#23500;&#36149;&#24425;" /&gt;&lt;/div&gt; -->
+<!-- 								&lt;div class="navicon_redtextbg"&gt;&lt;h:outputText value="app" /&gt;&lt;/div&gt; -->
+<!-- 								&lt;div class="clearfix"&gt;&lt;/div&gt;    -->
+<!-- 	                        &lt;/div&gt; -->
+<!-- 	                        &lt;/div&gt; -->
+<!-- 	                    &lt;/a&gt; -->
+<!-- 					&lt;/h:panelGroup&gt; -->
+<!-- 					&lt;h:panelGroup rendered="true"&gt; -->
+<!-- 						&lt;a href="http://media.jxf88.com/appdownload/lbkeno.html"&gt; -->
+<!-- 							 &lt;div class="navicon2_game9"&gt; -->
+<!-- 	                        &lt;div class="pull-left ml175 mt50"&gt; -->
+<!-- 	                        	&lt;img src="/zh/images/keno/qr.png" /&gt; -->
+<!-- 								&lt;div class="navicon_text1"&gt;&lt;h:outputText value="&#23500;&#36149;&#24425;" /&gt;&lt;/div&gt; -->
+<!-- 								&lt;div class="navicon_redtextbg"&gt;&lt;h:outputText value="app" /&gt;&lt;/div&gt; -->
+<!-- 								&lt;div class="clearfix"&gt;&lt;/div&gt;    -->
+<!-- 	                        &lt;/div&gt; -->
+<!-- 	                        &lt;/div&gt; -->
+<!-- 	                    &lt;/a&gt; -->
+<!-- 					&lt;/h:panelGroup&gt; -->
+<!-- 					&lt;/li&gt; -->
+				</ul>
+			</div>
+		</div>
+
+		
+
+		<a class="displayNone" id="hiddenURLButton" target="_blank"></a>
+		<a onclick="retrieveAGArenaURL();" target="_blank" class="displayNone" id="openAGButton">进入场馆</a>
+
+		<script src="http://www.wellbettoday.com/public/js/openpage.js"></script><span class="">
+		<script>
+		$( document ).ready(function() {
+			var textArray = ["标题", "确定", "吉祥提示", "在线客服"];
+			initOpenPageLanguageLocale(textArray);
+		});
+		
+		$(window).load(function() {
+			var textArray = ["标题", "确定", "吉祥提示", "在线客服"];
+			initOpenPageLanguageLocale(textArray);
+		});
+		</script>
+		<script>
+			//alert("header");	
+			
+			function setLoginMsg(obj){
+				var data = $("#loginMessage").text();
+				//alert(data);
+				if(data=="成功！"){
+					//alert("here");
+					var currentURL = window.location.href;
+					//console.log("currentURL: " + currentURL);
+					var userLocaleCode = $("#userLocaleCode").text();
+					//console.log("userLocaleCode:" + userLocaleCode);
+					if ( currentURL.indexOf( "error.php" ) > -1 ) {
+						//alert("error");
+						window.location.href = "/"+userLocaleCode+"/index.php";
+					} else {
+						//alert("not error");
+						if ( !(currentURL.indexOf( userLocaleCode ) > -1) ) {
+							if ( currentURL.indexOf( "zh-cn" ) > -1) {
+// 								alert("1");
+// 								//alert(userLocaleCode);
+// 								//alert("zh-cn");
+// 								var newURL = currentURL.replace("zh-cn", userLocaleCode);
+// 								alert(newURL);
+// 								window.location.href=newURL;
+								changeLanguage(userLocaleCode);
+							} else if (userLocaleCode != "zh-cn") {
+// 								alert("2");
+// 								//alert(userLocaleCode);
+// 								//alert("zh-cn");
+// 								window.location.href = "/"+userLocaleCode+"/index.php";
+								changeLanguage(userLocaleCode);
+							}
+						} 
+					}
+					// ga('send', { hitType: 'event', eventCategory: 'button', eventAction: 'click', eventLabel: 'Members_Login', eventValue: 120 });
+					// ga('send', 'event', { eventCategory: 'Login button', eventAction: 'click', eventLabel: 'login_success' });
+				}else{
+					$(obj).val("登录");
+					$("#PopupLayerLogin").hide();
+					$("#loginError").html(data);
+					$("#loginError").show();
+					$('.header_dropgreyboxLogin').show();
+				} 
+			}
+		
+			$('.header_lv2').hover(function() {
+				$(this).find('.header_dropgreyboxlv').show();
+			}, function() {
+				$(this).find('.header_dropgreyboxlv').hide();
+			});
+			
+			$(window).click(function(e){
+				//alert($('.header_dropgreyboxLogin').is(":visible"));
+			  if( e.originalEvent ) {
+				var yy = e.originalEvent.y || e.originalEvent.layerY || 0; 
+				if($(this).scrollTop() <=20){
+						if(yy > 290){
+							//console.log("yy > 290");
+							$('.header_dropgreyboxLogin').hide();
+							clickflag =false;
+						} 
+					}else{
+						if(yy > 270){
+							//console.log("yy > 270");
+							$('.header_dropgreyboxLogin').hide();
+							clickflag =false;
+						} 
+					}
+			  }
+			});
+			
+			
+		  $("#closeLoginDiv").click(function(){
+			  $('.header_dropgreyboxLogin').hide();
+			  clickflag =false;
+		  })
+			
+			
+			$(window).scroll( function() { 
+				if($(this).scrollTop() > 20){
+					$(".header_dropgreyboxLogin").css("top",$(this).scrollTop() - 12);
+					$(".header_dropgreyboxLogin").css("z-index",2000);
+				}else{
+					$(".header_dropgreyboxLogin").css("top",23);
+				}
+			} );
+
+			$('.header_crownacct').hover(function() {
+				$(this).find('.header_dropgreyboxacct').show();
+			}, function() {
+				$(this).find('.header_dropgreyboxacct').hide();
+			});
+
+// 			$('.header_textyellow').mouseover(function() {
+// 				$('.header_dropgreyboxtest').show();
+// 			});
+
+	</script></span>
+			
+			
+			<script>
+
+			$('.navicon_bghead').mouseover(function() {
+				$(this).show();
+			}).mouseout(function(){
+				$(this).hide();
+			});
+			
+			
+			</script>
+			<script>
+			
+			var cursorfocus = 'loginname';
+			
+			var myformloginNameObj =$("input[id='myform:myformloginName']");
+			
+			var myformuserPasswordObj =$("input[id='myform:myformuserPassword']");
+			
+			myformloginNameObj.click(function(){
+				cursorfocus='loginname';
+			})
+			
+			
+			myformuserPasswordObj.click(function(){
+				cursorfocus='password';
+			})
+			var clickflag = false;
+			$('.header_dropgreyboxLogin').mouseover(function(e) {
+				//$(".loginbox").find("input").focus();
+				$(this).show();
+				
+				if(cursorfocus == 'loginname'){
+					var t = myformloginNameObj.val();
+					myformloginNameObj.val("").focus().val(t);
+				}else if(cursorfocus == 'password'){
+					var t = myformuserPasswordObj.val();
+					myformuserPasswordObj.val("").focus().val(t);
+				}
+				e.stopPropagation();
+				return false;
+			}).mouseout(function(e){
+				if(!clickflag){
+					$(this).hide();
+				}
+				e.stopPropagation();
+				return false;
+			}); 
+			function fastReg(){
+				RichFaces.component('alertMessagePopUp').hide(); 
+				registerUser();
+			}
+			function fastLogin(event){
+				event.stopPropagation();
+				RichFaces.component('alertMessagePopUp').hide(); 
+				clickLogin();
+			}
+			
+			function clickLogin(){
+				if ( !clickflag ) {
+					clickflag = true;
+					$('.header_dropgreyboxLogin').show();
+				} else {
+					clickflag = false;
+					//$('.header_dropgreyboxLogin').hide();
+				}
+			}
+			
+			$( "#loginLink" ).click( function(){
+				clickLogin();
+			} );
+			
+			$(".header_login").mouseover(function() {
+				//alert("header_login");
+				$('.header_dropgreyboxLogin').show();
+			});
+			
+			/* $('.header_dropgreyboxLogin').on( 'mouseenter mouseleave', function() {
+			      $(this).toggleClass('hover');
+			   }
+			); */
+
+			
+			</script>
+			<script>
+			function returnSubmit(buttonObj){
+				
+				var inpuTextList = $(buttonObj).parent().find("input");
+				for(var i=0;i < inpuTextList.length;i++){
+					if(inpuTextList.eq(i).val().trim().length==0){
+						inpuTextList.eq(i).focus();
+						inpuTextList.eq(i).css("border","1px double red");
+						return false;
+					}
+				}
+				$(buttonObj).val("正在登录中...");
+				$("#PopupLayerLogin").show();
+				clickLogin();
+				return true;
+			}
+			var baseUrl="http://www.wellbettoday.com/zh-cn/uc/nearuser/";
+			function findPassWord(){
+				//alert("here...");
+				 OpenDiv.init({"title":"找回密码liveChatAvailable在线客服liveChatAvailablezh-cn","parentId":"body","srcUrl":baseUrl+"forgotpassword_1.php","width":"602","high":"432"});
+			}
+			
+			function registerUser(){
+				 $('.header_dropgreyboxLogin').hide();
+				 RichFaces.$("registerPopUp").show();
+			}
+			
+			</script>
+			
+			
+			<script>
+
+			$("#moveNoticeUp").click(function(){
+				moveNoticeUp();
+		    });
+			
+			$("#moveNoticeDown").click(function(){
+				moveNoticeDown();
+		    });
+			
+			scrollEnabled = true;
+			
+			$(".header_notice").mouseover(function(){
+				scrollEnabled = false;
+			});
+			
+			$(".header_notice").mouseout(function(){
+				scrollEnabled = true;
+			});
+			
+			setInterval(function(){
+				if (scrollEnabled) {
+					moveNoticeDown();	
+				}
+			},3000);
+			
+			
+			$(".sportsHeaderLink").hover(function() {
+				//console.log("show");
+				$('.sportsHeaderDrop').show();
+			}, function() {
+				//console.log("here...");
+				if ($(".sportsHeaderDrop").hasClass("hover")) {
+					//console.log("hovered");
+					$(".sportsHeaderDrop").hover(function() {
+						//console.log("no action...");
+					}, function() {
+						//console.log("hide");
+						$(".sportsHeaderDrop").hide();
+					})
+				} else {
+					//console.log("hide");
+					$(".sportsHeaderDrop").hide();
+				}
+			});
+
+			
+			$(".casinoHeaderLink").hover(function() {
+				//console.log("show");
+				$('.casinoHeaderDrop').show();
+			}, function() {
+				//console.log("here...");
+				if ($(".casinoHeaderDrop").hasClass("hover")) {
+					//console.log("hovered");
+					$(".casinoHeaderDrop").hover(function() {
+						//console.log("no action...");
+					}, function() {
+						//console.log("hide");
+						$(".casinoHeaderDrop").hide();
+					})
+				} else {
+					//console.log("hide");
+					$(".casinoHeaderDrop").hide();
+				}
+			});
+			
+			$(".kenoHeaderLink").hover(function() {
+				$('.kenoHeaderDrop').show();
+			}, function() {
+				if ($(".kenoHeaderDrop").hasClass("hover")) {
+					$(".kenoHeaderDrop").hover(function() {
+					}, function() {
+						$(".kenoHeaderDrop").hide();
+					})
+				} else {
+					$(".kenoHeaderDrop").hide();
+				}
+			});
+			
+			$(".gamesHeaderLink").hover(function() {
+				$('.gamesHeaderDrop').show();
+			}, function() {
+				if ($(".gamesHeaderDrop").hasClass("hover")) {
+					$(".gamesHeaderDrop").hover(function() {
+					}, function() {
+						$(".gamesHeaderDrop").hide();
+					})
+				} else {
+					$(".gamesHeaderDrop").hide();
+				}
+			});
+			
+			$('.sportsHeaderLink').on( 'mouseenter mouseleave', function() {
+			      $(this).toggleClass('hover');
+			   }
+			);
+				
+			
+			$('.casinoHeaderLink').on( 'mouseenter mouseleave', function() {
+			      $(this).toggleClass('hover');
+			   }
+			);
+			
+			$('.kenoHeaderDrop').on( 'mouseenter mouseleave', function() {
+			      $(this).toggleClass('hover');
+			   }
+			);
+			
+			$('.gamesHeaderDrop').on( 'mouseenter mouseleave', function() {
+			      $(this).toggleClass('hover');
+			   }
+			);
+			
+			function agRegisterCallBack(success, error, info, message){
+				//alert("here..."+success+" "+ error+" "+info+" "+message);
+				if (success == "true") {
+					//alert("here...");
+					//alert($("#openAGButton").html());
+					//$("#openAGButton").click();
+					document.getElementById("openAGButton").click();
+					//alert("here...");
+				} else if (error == "true") {
+					$("#popUpIcon").removeAttr("class").addClass("mediumcloseicon");
+					$("#popupText").html(message);
+					RichFaces.$("alertMessagePopUp").show();
+				} else if (info == "true") {
+					$("#popUpIcon").removeAttr("class").addClass("mediuminfoicon");
+					$("#popupText").html(message);
+					RichFaces.$("alertMessagePopUp").show();					
+				} else {
+					$("#popUpIcon").removeAttr("class").addClass("mediumcloseicon");
+					$("#popupText").html("发现了未知错误，请联系客服。");
+					$("#messageWindowButton").show();
+					RichFaces.$("alertMessagePopUp").show();
+				}
+			}			
+			
+			</script>
+			
+		<script>
+			$(".languageFlag").mouseover(function() {
+// 				alert($(".header_dropgreybox").html());
+				$(".header_dropgreybox").removeClass("displayNone");
+			});
+			
+			$(".languageFlag").mouseleave(function() {
+// 				alert($(".header_dropgreybox").html());
+				$(".header_dropgreybox").addClass("displayNone");
+			});
+			
+			var cookie = getCookies ( "localeCode" );
+ 			//console.log("cookie: " + cookie);
+			
+			function getCookies( c_name ) {
+				if ( document.cookie.length > 0) {
+					c_start = document.cookie.indexOf( c_name + "=" )
+					if ( c_start != -1 ) {
+						c_start = c_start + c_name.length + 1
+						c_end = document.cookie.indexOf(";", c_start)
+						if (c_end == -1)
+							c_end = document.cookie.length
+						return unescape(document.cookie.substring(c_start, c_end))
+					}
+				}
+				return ""
+			}
+			
+			if (cookie == null || cookie.trim() == '' ) {
+				var userLang = navigator.language || navigator.userLanguage; 
+				//console.log ("The language is: " + userLang);
+				if (userLang.indexOf('en') == 0) {
+					userLang = 'en-gb';
+				} else if (userLang.indexOf('vi') == 0) {
+					userLang = 'vi-vn';
+				} else if (userLang.indexOf('zh') == 0) {
+					userLang = 'zh-cn';
+				}
+				changeLanguage(userLang);
+			}
+			
+			function changeLanguage(newLocaleCode) {
+ 				//console.log("newLocaleCode: " + newLocaleCode);
+				saveLocaleCodeCookie(newLocaleCode);
+				var currentURL = window.location.href;
+				if (currentURL.indexOf("zh-cn") > -1) {
+					currentURL = currentURL.replace("zh-cn", newLocaleCode);
+					location.href=currentURL;
+				} else {
+					//currentURL = "http://www.wellbettoday.com/" + newLocaleCode + "/index.php"
+					//alert(newLocaleCode);
+					//updateLocaleCode(newLocaleCode);
+					location.href=currentURL+newLocaleCode+"/index.php";
+				}
+			}
+			
+			function saveLocaleCodeCookie(localeCode) {
+				//console.log("saved localeCode: " + localeCode);
+				// Build the expiration date string:
+				var expiration_date = new Date();
+				var cookie_string = '';
+				expiration_date.setFullYear(expiration_date.getFullYear() + 1);
+				// Build the set-cookie string:
+				cookie_string = "localeCode="+localeCode+"; path=/; expires=" + expiration_date.toGMTString();
+				// Create/update the cookie:	
+				document.cookie = cookie_string;
+			}
+			
+			// Initial store cookies
+			//console.log("LanguageBean.localeCode: " + "zh-cn");
+			saveLocaleCodeCookie("zh-cn");
+			//console.log("cookie2: " + cookie);
+			
+// 			//IE7 Fix for mouseover and mouseout
+// 			$(".navicon_btn2b").mouseover(function(){
+// 				//alert("asdf1");
+// 				$(this).parent().addClass("marginTop30IE7Important");
+// 			});
+			
+// 			$(".navicon_btn2b").mouseout(function(){
+// 				//alert("asdf2");
+// 				$(this).parent().removeClass("marginTop30IE7Important");
+// 			});
+			
+			function logoutCallBack() {
+				var currentURL = window.location.href;
+				//alert('currentURL: '+currentURL);
+				var localeCode = 'zh-cn';
+				//alert('localeCode: '+localeCode);
+// 				if (currentURL.indexOf("/uc/")) {
+					window.location.href = "/"+localeCode+"/index.php";
+// 				} else {
+// 					location.reload(true);	
+// 				}
+			}
+			
+		</script></span><span id="headerFormsOutputPanel">
+<form id="headerForms" name="headerForms" method="post" action="/;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="headerForms" value="headerForms" />
+<span id="headerForms:j_idt757" style="display: none;"><script type="text/javascript">logoutHeader=function(){RichFaces.ajax("headerForms:j_idt757",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt758" style="display: none;"><script type="text/javascript">retrieveBalanceAndUserLevel=function(){RichFaces.ajax("headerForms:j_idt758",null,{"status":"refreshUserBalanceStatus","incId":"1"} )};</script></span><span id="headerForms:j_idt759" style="display: none;"><script type="text/javascript">retrieveBankBindings=function(){RichFaces.ajax("headerForms:j_idt759",null,{"status":"ucLoading","incId":"1"} )};</script></span>
+		
+<!-- 		&lt; name="initBindingBanks" -->
+<!-- 			action="{BindingBankBean.initBindingBanks}" status="ucLoading" -->
+<!-- 			render="bankBindingTableRepeatWrapper  bankBindingTableRepeatWrapperFunctionBar"&gt; -->
+<!-- 		&lt;/&gt; --><span id="headerForms:j_idt761" style="display: none;"><script type="text/javascript">initWithdrawDetails=function(){RichFaces.ajax("headerForms:j_idt761",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt763" style="display: none;"><script type="text/javascript">resetWithdrawDetails=function(){RichFaces.ajax("headerForms:j_idt763",null,{"incId":"1"} )};</script></span>
+
+<!-- 		&lt; name="retrieveWithdrawLimits" status="ucLoading" -->
+<!-- 			action="{WithdrawBean.retrieveWithdrawLimits}" -->
+<!-- 			render="withdrawLimitsWrapper"&gt; -->
+<!-- 		&lt;/&gt; --><span id="headerForms:j_idt766" style="display: none;"><script type="text/javascript">initGameBeanHeader=function(){RichFaces.ajax("headerForms:j_idt766",null,{"status":"ucLoading","incId":"1"} )};</script></span>
+
+		<!-- Arena URL --><span id="headerForms:j_idt773" style="display: none;"><script type="text/javascript">retrieveLivesportsURL=function(){RichFaces.ajax("headerForms:j_idt773",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt777" style="display: none;"><script type="text/javascript">retrieveBBArenaURL=function(){RichFaces.ajax("headerForms:j_idt777",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt778" style="display: none;"><script type="text/javascript">retrieveADArenaURL=function(){RichFaces.ajax("headerForms:j_idt778",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt781" style="display: none;"><script type="text/javascript">retrieveHGArenaURL=function(){RichFaces.ajax("headerForms:j_idt781",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt782" style="display: none;"><script type="text/javascript">retrieveEAArenaURL=function(){RichFaces.ajax("headerForms:j_idt782",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt783" style="display: none;"><script type="text/javascript">retrieveKEStatus=function(){RichFaces.ajax("headerForms:j_idt783",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt784" style="display: none;"><script type="text/javascript">retrieveLBURL=function(){RichFaces.ajax("headerForms:j_idt784",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt785" style="display: none;"><script type="text/javascript">retrieveAGArenaURL=function(){RichFaces.ajax("headerForms:j_idt785",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt786" style="display: none;"><script type="text/javascript">retrieveGDArenaURL=function(){RichFaces.ajax("headerForms:j_idt786",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt788" style="display: none;"><script type="text/javascript">retrieveOPArenaURL=function(){RichFaces.ajax("headerForms:j_idt788",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt790" style="display: none;"><script type="text/javascript">startGameNP=function(gameCode){RichFaces.ajax("headerForms:j_idt790",null,{"status":"ucLoading","parameters":{"gameCode":gameCode} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt794" style="display: none;"><script type="text/javascript">testGamePT=function(gameCode){RichFaces.ajax("headerForms:j_idt794",null,{"status":"ucLoading","parameters":{"gameCode":gameCode} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt798" style="display: none;"><script type="text/javascript">startGamePT=function(gameCode){RichFaces.ajax("headerForms:j_idt798",null,{"status":"ucLoading","parameters":{"gameCode":gameCode} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt801" style="display: none;"><script type="text/javascript">startGamePTHtml5=function(gameCode){RichFaces.ajax("headerForms:j_idt801",null,{"status":"ucLoading","parameters":{"gameCode":gameCode} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt809" style="display: none;"><script type="text/javascript">startGameAMAYA=function(gameId,gameType,gameName,gamePlatform,gameViSupport){RichFaces.ajax("headerForms:j_idt809",null,{"status":"ucLoading","parameters":{"gameId":gameId,"gameType":gameType,"gameName":gameName,"gamePlatform":gamePlatform,"gameViSupport":gameViSupport} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt821" style="display: none;"><script type="text/javascript">testGameAMAYA=function(gameCode,gamePlatform,gameViSupport){RichFaces.ajax("headerForms:j_idt821",null,{"status":"ucLoading","parameters":{"gameCode":gameCode,"gamePlatform":gamePlatform,"gameViSupport":gameViSupport} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt829" style="display: none;"><script type="text/javascript">registerToAG=function(){RichFaces.ajax("headerForms:j_idt829",null,{"status":"ucLoading","incId":"1"} )};</script></span><span id="headerForms:j_idt830" style="display: none;"><script type="text/javascript">verifyBankThroughEmail=function(emailVerificationInput){RichFaces.ajax("headerForms:j_idt830",null,{"status":"ucLoading","parameters":{"emailVerificationInput":emailVerificationInput} ,"incId":"1"} )};</script></span><span id="headerForms:j_idt832" style="display: none;"><script type="text/javascript">updateLocaleCode=function(newLocaleCode){RichFaces.ajax("headerForms:j_idt832",null,{"status":"ucLoading","parameters":{"newLocaleCode":newLocaleCode} ,"incId":"1"} )};</script></span><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="5790660961775230059:-6603773730060442337" autocomplete="off" />
+</form></span>
+			</div>
+			<div id="content">
+ 		<script type="text/javascript" src="http://cache.download.banner.drunkenmonkey88.com/integrationjs.php"></script>
+ 		<script type="text/javascript" src="https://login.mightypanda88.com/jswrapper/integration.js.php?casino=drunkenmonkey88"></script>
+		<script src="http://www.wellbettoday.com/public/js/index.js"></script>
+		
+		<script>
+		$(document).ready(function(){
+			var ptscripta = document.createElement( "script" );
+			ptscripta.type="text/javascript";
+			ptscripta.src="http://www.wellbettoday.com//public/js/games.js";
+			$("body").append(ptscripta);	
+			
+			initGamesURL('http://gamescdn2.galaxyinnovation.com/');
+			
+			var textArray = ["进入游戏失败,请稍候重试!"];
+			initGamesLanguageLocale(textArray);
+		
+			var params = getSearchParameters();
+			
+			var register = params.register;
+			if($("#login_state").val() == 'false'){
+				if (register=="true") {
+					$("#registerLink").click();
+				}
+			}
+			
+			
+			var verifyBankId = params.verifyBankId;		
+			if (isEmpty(verifyBankId)==false) {
+				verifyBankThroughEmail(verifyBankId);
+			}
+			
+			var startEA = params.startEA;		
+			if (isEmpty(startEA)==false) {
+				if (startEA == "true") {
+					$(".navicon2_game6").click();
+				}
+			}
+		});
+		
+		$(window).resize(function() {
+			resizeImage();
+		});
+		
+		resizeImage();
+		
+		function resizeImage() {
+			var windowWidth = $( window ).width();
+			var height = windowWidth * 535 / 1603;
+			//alert(height);
+			if (height>535) {
+				$(".heightFunction").css("min-height",535+"px");
+			} else {
+				$(".heightFunction").css("min-height",height+"px");
+			}
+		}
+		
+		</script>
+		
+		<input type="hidden" id="registerFlag" />
+		
+		<div class="positionRelative">
+			<div class="banner marginAuto textAlignCenter positionRelative" style="background: #fff url('http://media.jxf88.com/zh/layout/preload.gif') center center no-repeat;text-align: center;height:535px;">
+				<ul style="position:relative;">
+								<li class="homepageBannerStyle1" color="#8a191b">
+									<a href="/zh-cn/ptHTML5Intro.php">
+										<img onerror="this.src='/zh/images/default/home_banner.png'" src="http://media.jxf88.com/zh/banner/home/home_1600x535_ch_intropt1v7.jpg" class="heightFunction" />
+									</a>
+								</li>
+								<li class="homepageBannerStyle2" color="#0d2843">
+									<a href="/zh-cn/index.php" onclick="startGameNP( 'sw_fufish_intw' ); return false;">
+										<img onerror="this.src='/zh/images/default/home_banner.png'" src="http://media.jxf88.com/zh/banner/game/home_1600x535_ch_fishingseason.jpg" class="heightFunction" />
+									</a>
+								</li>
+								<li class="homepageBannerStyle2" color="#22201a">
+									<a href="/zh-cn/sportsbook.php">
+										<img onerror="this.src='/zh/images/default/home_banner.png'" src="http://media.jxf88.com/zh/banner/home/home_1600x535_ch_footballnonrisk_04.jpg" class="heightFunction" />
+									</a>
+								</li>
+								<li class="homepageBannerStyle2" color="#d6d6d6">
+									<a href="/zh-cn/mobile/ios.php">
+										<img onerror="this.src='/zh/images/default/home_banner.png'" src="http://media.jxf88.com/zh/banner/home/home_1600x535_ios.jpg" class="heightFunction" />
+									</a>
+								</li>
+				</ul>
+				<div class="mininav bottomadj" style="position: absolute; z-index: 21; display: none; bottom:20px !important;" id="pointNav">
+					<div class="" style="width: 500px; margin: 0 auto;">
+						<ul>
+								<li>
+									<div class="circlebanner circlebanner_select" style="cursor: pointer;" onclick="chosePoint( this )"></div>
+								</li>
+								<li>
+									<div class="circlebanner" style="cursor: pointer;" onclick="chosePoint( this )"></div>
+								</li>
+								<li>
+									<div class="circlebanner" style="cursor: pointer;" onclick="chosePoint( this )"></div>
+								</li>
+								<li>
+									<div class="circlebanner" style="cursor: pointer;" onclick="chosePoint( this )"></div>
+								</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix"></div>
+
+			<div class="home_promo">
+				<div class="home_promo_box">
+						<a href="/zh-cn/promotion/lv_promo.php">
+							<div class="home1iconmid"></div>
+							<div class="imgpromo">
+								<div><label>步步高升的会员特权</label></div>
+							</div>
+						</a>
+				</div>
+				<div class="home_promo_box">
+						<a href="/zh-cn/promotion/rebate_index.php" target="_blank">
+							<div class="home2iconmid"></div>
+							<div class="imgpromo">
+								<div><label>天天返水无需申请</label></div>
+							</div>
+						</a>
+				</div>
+				<div class="home_promo_box">
+					<a href="/zh-cn/casino.php" target="_blank" class="btnentergame5">
+						<div class="home3iconmid"></div>
+						<div class="imgpromo">
+							<div><label>精心雕琢的娱乐产品</label></div>
+						</div>
+					</a>
+				</div>
+                <div class="home_promo_box">
+                	<a onclick="retrieveLivesportsURL();" target="_blank" class="btnentergame5">
+						<div class="home4iconmid"></div>
+						<div class="imgpromo">
+							<div><label>真正的体育视频直播</label></div>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			
+			<div class="scoreboard">
+
+				<div class="scoreboardwrap">
+					<!-- start slide -->
+					<div class="scoregame2">
+						<div class="scoregame">
+							<div class="scoregamewrap">
+								<div class="seasondetails">
+									<label> <span>
+									</span> <br /> 
+									</label>
+									<div class="redtext">
+									</div>
+										<div class="nowplay" style="cursor:pointer;" onclick="javascript:window.location.href='/zh-cn/sportsbook.php'">
+										</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<input type="hidden" value="zh-cn" name="localeCode" id="hiddenLocaleCode" />
+							<img src="http://media.jxf88.com/zh/images/home/home_508x193_sportsboard.png" alt="" class="imgslide" />
+						</div>
+					</div>
+					<!-- end slide -->
+					<script type="text/javascript">
+						$( function(){
+							var arr = eval( [{ "gameDate" : "11/08/2017" , "gameTime" : "14:45" , "homeTeamName" : "阿森纳" , "homeTeamOdds" : "0.86" , "homeTeamValue" : "-1.25" ,  "awayTeamName" : "莱切斯特" , "awayTeamOdds" : "1.04" , "awayTeamValue" : "1.25" }, { "gameDate" : "12/08/2017" , "gameTime" : "10:00" , "homeTeamName" : "切尔西" , "homeTeamOdds" : "0.81" , "homeTeamValue" : "-1.75" ,  "awayTeamName" : "般尼" , "awayTeamOdds" : "1.09" , "awayTeamValue" : "1.75" }, { "gameDate" : "20/08/2017" , "gameTime" : "11:00" , "homeTeamName" : "拉科鲁尼亚" , "homeTeamOdds" : "0.84" , "homeTeamValue" : "1.75" ,  "awayTeamName" : "皇家马德里" , "awayTeamOdds" : "1.06" , "awayTeamValue" : "-1.75" }, { "gameDate" : "20/08/2017" , "gameTime" : "11:00" , "homeTeamName" : "巴塞罗那" , "homeTeamOdds" : "0.84" , "homeTeamValue" : "-2.5" ,  "awayTeamName" : "皇家贝迪斯" , "awayTeamOdds" : "1.06" , "awayTeamValue" : "2.5" }, { "gameDate" : "19/08/2017" , "gameTime" : "12:00" , "homeTeamName" : "祖云达斯" , "homeTeamOdds" : "1.16" , "homeTeamValue" : "-2.25" ,  "awayTeamName" : "卡利亚里" , "awayTeamOdds" : "0.76" , "awayTeamValue" : "2.25" }] );
+							var localeCode = $("#hiddenLocaleCode").val();
+							
+							if (localeCode != 'zh-cn') {
+								arr = eval( [{ "gameDate" : "11/08/2017" , "gameTime" : "14:45" , "homeTeamName" : "Arsenal" , "homeTeamOdds" : "0.86" , "homeTeamValue" : "-1.25" ,  "awayTeamName" : "Leicester City" , "awayTeamOdds" : "1.04" , "awayTeamValue" : "1.25" }, { "gameDate" : "12/08/2017" , "gameTime" : "10:00" , "homeTeamName" : "Chelsea" , "homeTeamOdds" : "0.81" , "homeTeamValue" : "-1.75" ,  "awayTeamName" : "Burnley" , "awayTeamOdds" : "1.09" , "awayTeamValue" : "1.75" }, { "gameDate" : "20/08/2017" , "gameTime" : "11:00" , "homeTeamName" : "Deportivo La Coruna" , "homeTeamOdds" : "0.84" , "homeTeamValue" : "1.75" ,  "awayTeamName" : "Real Madrid" , "awayTeamOdds" : "1.06" , "awayTeamValue" : "-1.75" }, { "gameDate" : "20/08/2017" , "gameTime" : "11:00" , "homeTeamName" : "Barcelona" , "homeTeamOdds" : "0.84" , "homeTeamValue" : "-2.5" ,  "awayTeamName" : "Real Betis" , "awayTeamOdds" : "1.06" , "awayTeamValue" : "2.5" }, { "gameDate" : "19/08/2017" , "gameTime" : "12:00" , "homeTeamName" : "Juventus" , "homeTeamOdds" : "1.16" , "homeTeamValue" : "-2.25" ,  "awayTeamName" : "Cagliari" , "awayTeamOdds" : "0.76" , "awayTeamValue" : "2.25" }] );
+							}
+							
+							var count = 0;
+							setInterval( function(){
+								count ++;
+								if ( count > arr.length ) {
+									count = 0;
+								}
+								if(arr[count]){
+									$( "#homename" ).html( arr[count].homeTeamName );
+									$( "#awayname" ).html( arr[count].awayTeamName );
+									$( "#homeodds" ).html( arr[count].homeTeamOdds );
+									$( "#awayodds" ).html( arr[count].awayTeamOdds );
+									$( "#homevalue" ).html( arr[count].homeTeamValue );
+									$( "#awayvalue" ).html( arr[count].awayTeamValue );
+									$( "#gamedate" ).html( arr[count].gameDate );
+									$( "#gametime" ).html( arr[count].gameTime );
+								}
+								
+							} , 2000 )
+						} );
+					</script>
+					<div class="scoredetails">
+						<div class="wrap">
+							<div class="vs">
+								<div id="homename"></div>
+							</div>
+							<div class="game">
+								<img src="/zh/images/home/ball.png" /><br /> 
+								<div id="gamedate"></div>
+							</div>
+							<div class="vs" id="awayname"></div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="wrap2">
+							<div class="vs">
+								<div class="scorebox" id="homeodds"></div>
+								<div class="scoreboxsm" id="homevalue"></div>
+							</div>
+							<div class="game">
+								
+								<div class="time" id="gametime"></div>
+								<div class="nowplay"><a href="/zh-cn/sportsbook.php" onclick="ga('send', 'event', { eventCategory: 'Betnow_Homepage', eventAction: 'click', eventLabel: 'Betnow_Homepage', eventValue: 102});">马上投注</a></div>
+							</div>
+							<div class="vs">
+								<div class="scorebox" id="awayodds"></div>
+								<div class="scoreboxsm" id="awayvalue"></div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<script>
+	                	
+	                   var _bonusDataList = new Array();
+	                   
+	                    var obj = {
+	                    		"bonusName":"【保险投注第204期】07月28日19:35 中超第19轮 河南建业 - 北京国安",
+	                    		"timerange":"07月28日早上09:35至07月28日晚上19:35<br />中超第19轮  河南建业 VS 北京国安",
+	                    		"statteBonus":"现在玩",
+	                    		"backgroundImage":"scoreboardl4.png"
+	                    }
+	                    _bonusDataList.push(obj);
+						
+	                   
+	                     var _bonusList = $(".scoreboardwrap").find(".scoregame");
+	                     _bonusList.eq(0).show();
+	                     var _bonusNumber = 0;
+	                   
+	                     if ( _bonusDataList.length != 0) {
+	                    	 setInterval(function() {
+		                    	 _bonusNumber++;
+		                    	 var currentData = _bonusDataList[_bonusNumber%_bonusDataList.length];
+		                    	 
+		                    		 $(".scoregame2").find("label").find("span").html(currentData.bonusName);
+		                    		 $(".scoregame2").find(".redtext").html(currentData.timerange);
+		                    		 $(".scoregame2").find(".nowplay").html(currentData.statteBonus);
+		                    		 $(".scoregame2").find(".imgslide2").attr("src","/zh/images/home/"+currentData.backgroundImage);
+		                    	 
+		         			}, 2000);
+	                     } else {
+	                    	 $(".scoregame2").addClass("displayNone");
+	                    	 //alert($(".scoregame2").parent().parent().html());
+	                    	 $(".scoredetails").addClass("marginLeft25P");
+	                     }
+
+	                   </script>
+				</div>
+			</div>
+			<div class="gameboard">
+				<div class="gameboard_news">
+					<div class="gamelucky">吉祥历程 | <a href="http://timeline.jxf88.com//home.php?lang=zh-cn" target="_blank" onclick="ga('send', 'event', { eventCategory: 'Timeline_homepage', eventAction: 'click', eventLabel: 'Timeline_homepage', eventValue: 101});"><span style="color: red">更多新闻和事件中»</span></a></div>
+							<div class="promoadswrap">
+								<div class="promoads_date">
+									<div><label>05</label></div>
+									<div class="mindate">06月</div>
+								</div>
+								<div class="promoads_details">
+									<div class="title"><a href="http://timeline.jxf88.com//home.php?lang=zh-cn" target="_blank">2017最强赛事---欧冠决战</a></div>
+									<div class="details">
+										保险投注 吉祥买单
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="promoadswrap">
+								<div class="promoads_date">
+									<div><label>03</label></div>
+									<div class="mindate">02月</div>
+								</div>
+								<div class="promoads_details">
+									<div class="title"><a href="http://timeline.jxf88.com//home.php?lang=zh-cn" target="_blank">鸡祥如意，红包福临</a></div>
+									<div class="details">
+										元宵红包不消停
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="promoadswrap">
+								<div class="promoads_date">
+									<div><label>20</label></div>
+									<div class="mindate">01月</div>
+								</div>
+								<div class="promoads_details">
+									<div class="title"><a href="http://timeline.jxf88.com//home.php?lang=zh-cn" target="_blank">大鸡大利，逢7必发</a></div>
+									<div class="details">
+										旗舰厅¥88,888百家乐年终奖
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="promoadswrap">
+								<div class="promoads_date">
+									<div><label>03</label></div>
+									<div class="mindate">01月</div>
+								</div>
+								<div class="promoads_details">
+									<div class="title"><a href="http://timeline.jxf88.com//home.php?lang=zh-cn" target="_blank">鸡年纳福，属吉祥之鸿运</a></div>
+									<div class="details">
+										全新真人娱乐场馆华丽丽正式上线啦！
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+				</div>
+				<div class="gameboard_list">
+					<div class="gamelucky">热门游戏 | <span><a href="/zh-cn/games.php" class="red_font">更多热门游戏»</a></span>
+					</div>
+					<div class="gamelist">
+								<div class="game">
+										<a href="javascript:void(0)" onclick="startGamePT( 'fnfrj' )">
+											<img onerror="this.src='http://media.jxf88.com/public/images/v2/game_pt/default.jpg'" style="width:104px;height:85px;" src="http://media.jxf88.com/public/images/v2/game_pt/fnfrj.jpg" />
+										</a>
+	
+									<div class="gamestar">
+										<div class="rate_wrap2">
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+										</div>
+									</div>
+								</div>
+								<div class="game">
+										<a href="javascript:void(0)" onclick="startGamePT( 'hk' )">
+											<img onerror="this.src='http://media.jxf88.com/public/images/v2/game_pt/default.jpg'" style="width:104px;height:85px;" src="http://media.jxf88.com/public/images/v2/game_pt/hk.jpg" />
+										</a>
+	
+									<div class="gamestar">
+										<div class="rate_wrap2">
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+										</div>
+									</div>
+								</div>
+								<div class="game">
+										<a href="javascript:void(0)" onclick="startGamePT( 'bib' )">
+											<img onerror="this.src='http://media.jxf88.com/public/images/v2/game_pt/default.jpg'" style="width:104px;height:85px;" src="http://media.jxf88.com/public/images/v2/game_pt/bib.jpg" />
+										</a>
+	
+									<div class="gamestar">
+										<div class="rate_wrap2">
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+												<div class="game_redhot"></div>
+										</div>
+									</div>
+								</div>
+						<div class="clearfix"></div>
+					</div>
+					<div style="width:auto;heigt:auto;" onmouseover="betMouseOver();" onmouseleave="betMouseLeave();">
+					<div class="gamelucky">人来人往
+						<div class="gameControls floatRight" style="margin-right: 30px; margin-top: 20px;">
+						<div class="floatLeft upscrollicon cursorPointer" onclick="moveBetUp();"></div>
+						<div class="floatLeft downscrollicon cursorPointer" onclick="moveBetDown();" style="position: absolute; margin-top: 298px;"></div>
+					</div>
+					</div>
+					<div class="games" id="games">
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">hxb1***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注20,000元.赢得￥20,000 ¥
+									</div>
+									<div class="time">2017-07-26 13:02:33.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">7617***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥100 ¥
+									</div>
+									<div class="time">2017-07-26 13:02:31.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">7617***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥100 ¥
+									</div>
+									<div class="time">2017-07-26 13:01:29.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">hxb1***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注10,000元.赢得￥10,000 ¥
+									</div>
+									<div class="time">2017-07-26 13:01:03.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">zx78***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥95 ¥
+									</div>
+									<div class="time">2017-07-26 12:59:57.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">7617***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注300元.赢得￥300 ¥
+									</div>
+									<div class="time">2017-07-26 12:59:52.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">7617***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注800元.赢得￥800 ¥
+									</div>
+									<div class="time">2017-07-26 12:58:58.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">zx78***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥100 ¥
+									</div>
+									<div class="time">2017-07-26 12:58:47.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">hxb1***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5,000元.赢得￥5,000 ¥
+									</div>
+									<div class="time">2017-07-26 12:58:34.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">zx78***在锦绣厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥95 ¥
+									</div>
+									<div class="time">2017-07-26 12:56:52.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wang***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注75元.赢得￥75 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:38.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wang***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注400元.赢得￥400 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:38.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">1237***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,300元.赢得￥1,300 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:38.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">nian***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注600元.赢得￥400 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:29.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">Pati***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5,000元.赢得￥5,000 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:29.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">qium***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥200 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:29.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wy18***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥1,000 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:04.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wang***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注20元.赢得￥20 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:03.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">1318***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注10元.赢得￥10 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:03.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wang***在如意厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:29:03.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">shen***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注121元.赢得￥86 ¥
+									</div>
+									<div class="time">2017-07-28 06:16:53.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">zsc1***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注91元.赢得￥65 ¥
+									</div>
+									<div class="time">2017-07-28 06:16:53.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">kun8***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注400元.赢得￥284 ¥
+									</div>
+									<div class="time">2017-07-28 06:16:34.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">li_t***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥71 ¥
+									</div>
+									<div class="time">2017-07-28 06:16:33.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">yini***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注500元.赢得￥355 ¥
+									</div>
+									<div class="time">2017-07-28 06:16:23.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">guok***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注800元.赢得￥528 ¥
+									</div>
+									<div class="time">2017-07-28 06:15:54.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">ljg1***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥33 ¥
+									</div>
+									<div class="time">2017-07-28 06:15:54.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">lzhj***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注10元.赢得￥7 ¥
+									</div>
+									<div class="time">2017-07-28 06:15:51.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">djao***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注926元.赢得￥611 ¥
+									</div>
+									<div class="time">2017-07-28 06:15:38.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">Lina***在吉祥体育
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注807元.赢得￥460 ¥
+									</div>
+									<div class="time">2017-07-28 06:15:37.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥348 ¥
+									</div>
+									<div class="time">2017-07-28 06:29:28.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf4***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注260元.赢得￥252 ¥
+									</div>
+									<div class="time">2017-07-28 06:29:15.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf4***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注115元.赢得￥112 ¥
+									</div>
+									<div class="time">2017-07-28 06:29:15.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥194 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:57.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注94元.赢得￥91 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:57.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥294 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:57.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注500元.赢得￥485 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:38.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注6元.赢得￥52 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:37.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注64元.赢得￥557 ¥
+									</div>
+									<div class="time">2017-07-28 06:28:31.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在旗舰厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注20元.赢得￥19 ¥
+									</div>
+									<div class="time">2017-07-28 06:26:53.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥48 ¥
+									</div>
+									<div class="time">2017-07-27 23:15:31.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-27 01:51:17.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-27 01:50:16.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-27 01:48:56.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-27 01:47:40.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-27 01:44:01.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥30 ¥
+									</div>
+									<div class="time">2017-07-27 01:40:16.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥30 ¥
+									</div>
+									<div class="time">2017-07-27 01:39:14.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥30 ¥
+									</div>
+									<div class="time">2017-07-27 01:38:10.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥30 ¥
+									</div>
+									<div class="time">2017-07-27 01:36:27.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf4***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5元.赢得￥14 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注128元.赢得￥122 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注128元.赢得￥122 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注128元.赢得￥122 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注17元.赢得￥16 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥52 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注45元.赢得￥58 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥190 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥48 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf2***在快乐彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注15元.赢得￥14 ¥
+									</div>
+									<div class="time">2017-07-28 00:00:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf3***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注60元.赢得￥58 ¥
+									</div>
+									<div class="time">2017-07-28 18:33:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥192 ¥
+									</div>
+									<div class="time">2017-07-28 18:33:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注76元.赢得￥73 ¥
+									</div>
+									<div class="time">2017-07-28 18:33:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注10元.赢得￥10 ¥
+									</div>
+									<div class="time">2017-07-28 18:33:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40,000元.赢得￥38,400 ¥
+									</div>
+									<div class="time">2017-07-28 18:31:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf4***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注20元.赢得￥19 ¥
+									</div>
+									<div class="time">2017-07-28 18:31:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注564元.赢得￥541 ¥
+									</div>
+									<div class="time">2017-07-28 18:31:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf1***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注17元.赢得￥16 ¥
+									</div>
+									<div class="time">2017-07-28 18:30:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf7***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5元.赢得￥5 ¥
+									</div>
+									<div class="time">2017-07-28 18:30:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf7***在富贵彩
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注140元.赢得￥134 ¥
+									</div>
+									<div class="time">2017-07-28 18:30:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥200 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:19.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥100 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:08.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注400元.赢得￥400 ¥
+									</div>
+									<div class="time">2017-07-28 18:13:35.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注200元.赢得￥200 ¥
+									</div>
+									<div class="time">2017-07-28 18:13:26.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5元.赢得￥5 ¥
+									</div>
+									<div class="time">2017-07-28 18:12:24.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-28 18:11:57.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注10元.赢得￥10 ¥
+									</div>
+									<div class="time">2017-07-28 18:11:46.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注15元.赢得￥15 ¥
+									</div>
+									<div class="time">2017-07-28 18:11:14.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:11:01.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">WBZH***在游戏大厅(PT)
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注5元.赢得￥8 ¥
+									</div>
+									<div class="time">2017-07-28 18:10:31.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">LH50***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥232 ¥
+									</div>
+									<div class="time">2017-07-28 06:35:35.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">bsd8***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注2,850元.赢得￥2,850 ¥
+									</div>
+									<div class="time">2017-07-28 06:35:26.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">sheh***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注38元.赢得￥38 ¥
+									</div>
+									<div class="time">2017-07-28 06:35:13.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">moju***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注80元.赢得￥80 ¥
+									</div>
+									<div class="time">2017-07-28 06:35:04.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">yulu***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注38元.赢得￥38 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:59.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">hold***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注400元.赢得￥400 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:46.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">1550***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注3,000元.赢得￥3,000 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:45.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">bsd8***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥1,000 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:43.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wang***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注600元.赢得￥600 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:43.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wudi***在福临厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注19元.赢得￥19 ¥
+									</div>
+									<div class="time">2017-07-28 06:34:35.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,204元.赢得￥638 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:26.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥950 ¥
+									</div>
+									<div class="time">2017-07-28 18:12:58.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,720元.赢得￥912 ¥
+									</div>
+									<div class="time">2017-07-28 18:12:20.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥1,000 ¥
+									</div>
+									<div class="time">2017-07-28 18:11:55.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥950 ¥
+									</div>
+									<div class="time">2017-07-28 18:10:45.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥950 ¥
+									</div>
+									<div class="time">2017-07-28 18:09:45.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注300元.赢得￥159 ¥
+									</div>
+									<div class="time">2017-07-28 18:09:13.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥530 ¥
+									</div>
+									<div class="time">2017-07-28 18:08:21.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥1,000 ¥
+									</div>
+									<div class="time">2017-07-28 18:07:42.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在吉祥厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注1,000元.赢得￥530 ¥
+									</div>
+									<div class="time">2017-07-28 18:06:24.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">q139***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥10 ¥
+									</div>
+									<div class="time">2017-07-28 18:15:23.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">aa13***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注300元.赢得￥300 ¥
+									</div>
+									<div class="time">2017-07-28 18:15:17.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">1829***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注30元.赢得￥30 ¥
+									</div>
+									<div class="time">2017-07-28 18:15:17.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wyly***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注2,000元.赢得￥2,000 ¥
+									</div>
+									<div class="time">2017-07-28 18:15:14.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">taoj***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注500元.赢得￥500 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:51.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">taoj***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注300元.赢得￥300 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:36.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">5279***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注600元.赢得￥600 ¥
+									</div>
+									<div class="time">2017-07-28 18:14:27.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">taoj***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注500元.赢得￥500 ¥
+									</div>
+									<div class="time">2017-07-28 18:13:51.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wyly***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注900元.赢得￥855 ¥
+									</div>
+									<div class="time">2017-07-28 18:13:33.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">wyly***在和顺厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥95 ¥
+									</div>
+									<div class="time">2017-07-28 18:13:07.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥25 ¥
+									</div>
+									<div class="time">2017-07-28 18:39:43.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:39:13.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:38:44.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注25元.赢得￥25 ¥
+									</div>
+									<div class="time">2017-07-28 18:38:15.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥25 ¥
+									</div>
+									<div class="time">2017-07-28 18:37:40.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注150元.赢得￥150 ¥
+									</div>
+									<div class="time">2017-07-28 18:37:18.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:36:10.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注50元.赢得￥50 ¥
+									</div>
+									<div class="time">2017-07-28 18:35:42.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注100元.赢得￥100 ¥
+									</div>
+									<div class="time">2017-07-28 18:34:45.0</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="gamedetails">
+									<div class="game_icon">
+										<img src="/zh/images/home/game_i_1.png" />
+									</div>
+									<div class="game_cont">jxf5***在Op厅
+										<div class="betlistSpacer">
+											<br />
+										</div>.投注40元.赢得￥40 ¥
+									</div>
+									<div class="time">2017-07-28 18:31:00.0</div>
+									<div class="clearfix"></div>
+								</div>
+					</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- home end -->
+<!-- 					&lt;ui:include src="/zh/announcement/popup_home.xhtml" /&gt; -->
+<!-- 		&lt;script&gt; -->
+<!-- // 			var announcementPopUpStatus = getCookies("announcementPopUp"); -->
+			
+<!-- // 			function getCookies( c_name ) { -->
+<!-- // 				if ( document.cookie.length &gt; 0) { -->
+<!-- // 					c_start = document.cookie.indexOf( c_name + "=" ) -->
+<!-- // 					if ( c_start != -1 ) { -->
+<!-- // 						c_start = c_start + c_name.length + 1 -->
+<!-- // 						c_end = document.cookie.indexOf(";", c_start) -->
+<!-- // 						if (c_end == -1) -->
+<!-- // 							c_end = document.cookie.length -->
+<!-- // 						return unescape(document.cookie.substring(c_start, c_end)) -->
+<!-- // 					} -->
+<!-- // 				} -->
+<!-- // 				return "" -->
+<!-- // 			} -->
+			
+<!-- // 			//alert(announcementPopUpStatus); -->
+<!-- // 			if (announcementPopUpStatus=="read") { -->
+				
+<!-- // 			} else { -->
+<!-- // 				RichFaces.$("announcementPopUp").show(); -->
+<!-- // 			} -->
+			
+<!-- 		&lt;/script&gt; -->
+		</div>
+			</div>
+			<div id="footer">
+	<div class="footer">
+		<div class="footer_wrap">
+			<div class="textfooter2">
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_aboutus.html" onClick="ga('send', 'event', { eventCategory: 'about_us', eventAction: 'click', eventLabel: 'about_us', eventValue: 104});" target="_blank">关于我们</a>| 
+					<a href="/zh-cn/affiliate/index.php" onClick="ga('send', 'event', { eventCategory: 'join_to_Affiliate', eventAction: 'click', eventLabel: 'join-to_Affiliate', eventValue: 105});">代理加盟</a>| 
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_faq_myaccount.html" onClick="ga('send', 'event', { eventCategory: 'FAQ', eventAction: 'click', eventLabel: 'FAQ', eventValue: 106});" target="_blank">常见问题</a> | 
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_aboutus.html" onClick="ga('send', 'event', { eventCategory: 'contact_us', eventAction: 'click', eventLabel: 'contact_us', eventValue: 107});" target="_blank">联系我们</a> | 
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_tc_termsofservice.html" onClick="ga('send', 'event', { eventCategory: 'about_our_service', eventAction: 'click', eventLabel: 'about_our_service', eventValue: 108});" target="_blank">服务条款</a> | 
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_tc_privacy.html" onClick="ga('send', 'event', { eventCategory: 'Policy', eventAction: 'click', eventLabel: 'Policy', eventValue: 109});" target="_blank">隐私政策责任</a> | 
+				<a href="http://media.jxf88.com/zh/helpcenter/helpcenter_tc_disclaimer.html" onClick="ga('send', 'event', { eventCategory: 'general_disclaimer', eventAction: 'click', eventLabel: 'general_disclaime', eventValue: 110});" target="_blank">免责声明</a>
+			</div>
+			<!-- seriea -->
+			<div class="sa_icons">
+				<div class="sa_olpay_icon">
+					<div class="mb20">支付方式</div>
+					<div class="sa_olpay_wrap">
+						<div class="sa_ic_box">
+							<div class="sa_olpay"></div>在线支付
+						</div>
+						<div class="sa_ic_box">
+							<div class="sa_bt"></div>在线支付
+						</div>
+						<div class="sa_ic_box">
+							<div class="sa_mp"></div>在线支付
+						</div>
+					</div>
+				</div>
+
+				<div class="sa_rg">
+					<div class="mb20">博彩责任</div>
+					<div class="sa_rg_wrap">
+						<div class="sa_rgg"></div>
+						<div class="sa_rg18"></div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<!-- seriea -->
+			
+		</div>
+		<div class="footer_iconsfootimgs"></div>
+		<div class="footer_wrap2">
+			<div class="footer_wrap">
+				<div class="footer_links">
+					<div class="mt6">Copyright © 2015 JXF2012.COM</div>
+				</div>
+				<div class="footer_box">
+					<div class="pull-left mt6 recommendedBrowsersStyle">推荐浏览器：</div>
+					<ul>
+
+						<li><a href="" class="footbrowser1"></a></li>
+						<li><a href="" class="footbrowser2"></a></li>
+						<li><a href="" class="footbrowser3"></a></li>
+						<li><a href="" class="footbrowser4"></a></li>
+						<span style="font-size:0px;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256463756'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256463756' type='text/javascript'%3E%3C/script%3E"));</script></span>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+			</div>
+			<div id="misc"><span id="ucLoading"><span style="display:none" class="rf-st-start">
+			<!-- display: none; -->
+			<div id="loading" class="lightBackground">
+				<div class="darkBackground">
+					<div class="loading_icon_text">
+						<div class="icon_loading">
+							<img src="/zh/images/layout/load_icon_1.gif" />
+						</div>
+
+						<div class="clearfix"></div>
+						<div class="popup_text">小吉正在拼命为您加载...</div>
+					</div>
+				</div>
+			</div></span><span class="rf-st-stop"></span><script type="text/javascript">new RichFaces.ui.Status("ucLoading",{"statusName":"ucLoading"} )</script></span><div id="alertMessagePopUp" style="visibility: hidden;"><div class="rf-pp-shade" id="alertMessagePopUp_shade" style="z-index:100;"><button class="rf-pp-btn" id="alertMessagePopUpFirstHref" name="alertMessagePopUpfirstHref"></button></div><div class="rf-pp-cntr " id="alertMessagePopUp_container" style="position: fixed; z-index:100; "><div class="rf-pp-shdw" id="alertMessagePopUp_shadow"></div><div class="rf-pp-cnt-scrlr" id="alertMessagePopUp_content_scroller"><div class="rf-pp-cnt" id="alertMessagePopUp_content"><span id="alertMessagePopUpOutputPanel" class="positionFixed left39Point5Percent updateAfterTransferOut updateAfterTransferIn">
+			<div class="popup_box  popup_alter">
+				<div class="popup_title">
+					<a onclick="RichFaces.component('alertMessagePopUp').hide(); return false;" class="closebigicon"></a>
+					<h3 class="text">吉祥提示</h3>
+					<div class="clearfix"></div>
+				</div>
+				<div class="message_window" id="messageWindow">
+					<div id="popUpIcon"></div>
+					<div class="icon_right_1"></div>
+					<p id="popupText" class="popup_text p10">
+					</p>
+					<div class="but" id="messageButtons">
+						<a id="messageWindowButton" onclick="RichFaces.component('alertMessagePopUp').hide(); return false;" class="popup_button">确 定</a>
+					</div>
+				</div>
+			</div>
+			<script>
+				//alert("alertMessagePopUpOutputPanel");
+			</script></span></div></div></div><script type="text/javascript">new RichFaces.ui.PopupPanel("alertMessagePopUp",{"autosized":true} );</script></div><div id="mailPopUp" style="visibility: hidden;"><div class="rf-pp-shade" id="mailPopUp_shade" style="z-index:100;"><button class="rf-pp-btn" id="mailPopUpFirstHref" name="mailPopUpfirstHref"></button></div><div class="rf-pp-cntr " id="mailPopUp_container" style="position: fixed; z-index:100; "><div class="rf-pp-shdw" id="mailPopUp_shadow"></div><div class="rf-pp-cnt-scrlr" id="mailPopUp_content_scroller"><div class="rf-pp-cnt" id="mailPopUp_content"><span id="mailPopUpOutputPanel" class="positionFixed left33Percent">
+<form id="mailForm" name="mailForm" method="post" action="/;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="mailForm" value="mailForm" />
+
+				<!-- mail start -->
+				<div class="mailwarp">
+					<div class="mail_header">站内信列表 <a onclick="RichFaces.component('mailPopUp').hide(); return false;" class="closebigicon"></a>
+					</div>
+					<div class="backGroundColorFFFFFF height415">
+						<div class="mail_body">
+							<div class="mail_tab">
+								<div class="marginLeft21 floatLeft marginTop20" id="selectAllMailDiv">
+									<input type="checkbox" class="checkbox" id="selectAll" /><!-- &gt;span class="marginLeft30"&gt;Select All&lt;/span -->
+								</div>
+								<div class="mail_tablink mail_tablink_sel marginLeft10" id="inboxTabDiv">
+									<span class="mail_inbox"></span>收件箱
+								</div>
+								<div class="displayNoneImportant">
+									<div class="mail_tablink">
+										<span class="mail_sent"></span>发件箱
+									</div>
+									<div class="mail_tablink">
+										<span class="mail_new"></span>写信息
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+							<div class="mail_tabcont" id="inbox">
+								<div class="mail_table">
+<!-- 									&lt;div class="displayNone"&gt; -->
+<!-- 										&lt;div class="notif"&gt; -->
+<!-- 											&lt;div class="notif_icon"&gt; -->
+<!-- 												&lt;span class="mail_notif"&gt;&lt;/span&gt; -->
+<!-- 											&lt;/div&gt; -->
+<!-- 											&lt;div class="notif_cont"&gt;Sed ut perspiciatis Lorem ipsum -->
+<!-- 												dolor sit amet,&lt;/div&gt; -->
+<!-- 											&lt;div class="notif_date"&gt;May 18, 2015&lt;/div&gt; -->
+<!-- 											&lt;div class="clearfix"&gt;&lt;/div&gt; -->
+<!-- 										&lt;/div&gt; -->
+<!-- 									&lt;/div&gt; --><span id="mailForm:messageListOutputPanel"></span>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="mail_footer"><a href="#" id="mailForm:deleteMessagesButton" name="mailForm:deleteMessagesButton" onclick="jsf.util.chain(this,event,&quot;populateMessageIdsList();&quot;,&quot;RichFaces.ajax(\&quot;mailForm:deleteMessagesButton\&quot;,event,{\&quot;status\&quot;:\&quot;ucLoading\&quot;,\&quot;incId\&quot;:\&quot;1\&quot;} )&quot;);return false;" class="pull-left">
+							<div class="mail_del_btn" style="width:100px;height:18px;">
+								<span class="mail_del"></span>删除
+							</div></a>
+						<div id="backButton" class="mail_del_btn padding14x10 displayNone">上一步</div>
+						<div class="mail_page">
+							<div class="floatLeft"><span id="currentMessageListPage"></span> of 0 </div>
+							<div class="floatLeft"><span id="mailForm:recordsScroller"><span class="rf-ds " id="mailForm:dataScroller1"><span class="rf-ds-btn rf-ds-btn-first rf-ds-dis" id="mailForm:dataScroller1_ds_f">««««</span><span class="rf-ds-btn rf-ds-btn-fastrwd rf-ds-dis" id="mailForm:dataScroller1_ds_fr">««</span><span class="rf-ds-btn rf-ds-btn-prev rf-ds-dis" id="mailForm:dataScroller1_ds_prev">«</span><span class="rf-ds-btn rf-ds-btn-next rf-ds-dis" id="mailForm:dataScroller1_ds_next">»</span><span class="rf-ds-btn rf-ds-btn-fastfwd rf-ds-dis" id="mailForm:dataScroller1_ds_ff">»»</span><span class="rf-ds-btn rf-ds-btn-last rf-ds-dis" id="mailForm:dataScroller1_ds_l">»»»»</span><script type="text/javascript">new RichFaces.ui.DataScroller("mailForm:dataScroller1",function(event,element,data){RichFaces.ajax("mailForm:dataScroller1",event,{"parameters":{"mailForm:dataScroller1:page":data.page} ,"incId":"1"} )},{"digitals":{} ,"buttons":{} ,"currentPage":1} )</script></span></span>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div><input id="mailForm:idsOfMessages" type="hidden" name="mailForm:idsOfMessages" /><a href="#" id="mailForm:markMessageAsReadButton" name="mailForm:markMessageAsReadButton" onclick="RichFaces.ajax(&quot;mailForm:markMessageAsReadButton&quot;,event,{&quot;status&quot;:&quot;ucLoading&quot;,&quot;incId&quot;:&quot;1&quot;} );return false;" class="displayNoneImportant"></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="5790660961775230059:-6603773730060442337" autocomplete="off" />
+</form>
+			<!-- mail end -->
+			<script>
+				$("#mailForm\\:dataScroller1_ds_prev").html("");
+				
+				//$("#mailForm\\:dataScroller1_ds_prev").removeClass("rf-ds-btn");
+				//$("#mailForm\\:dataScroller1_ds_prev").removeClass("rf-ds-btn-prev");
+				//$("#mailForm\\:dataScroller1_ds_prev").removeClass("rf-ds-dis");
+				
+				$("#mailForm\\:dataScroller1_ds_prev").addClass("mail_pleft");
+				
+				$("#mailForm\\:dataScroller1_ds_next").html("");
+				
+				//$("#mailForm\\:dataScroller1_ds_next").removeClass("rf-ds-btn");
+				//$("#mailForm\\:dataScroller1_ds_next").removeClass("rf-ds-btn-next");
+				//$("#mailForm\\:dataScroller1_ds_next").removeClass("rf-ds-dis");
+				
+				$("#mailForm\\:dataScroller1_ds_next").addClass("mail_pright");
+				
+				if($(".rf-ds-act").html()!=null) {
+					$("#currentMessageListPage").html($(".rf-ds-act").html());
+				} else {
+					$("#currentMessageListPage").html(1);
+				}
+								
+				function populateMessageIdsList() {
+					//alert("populateMessageIdsList");
+					var messageIdsList = [];
+					$('.checkbox:checked').each(function() {
+						if ($(this).val()=="on") {
+							//alert($(this).val());
+						} else {
+							messageIdsList.push($(this).val());
+						}
+					});
+					//alert(messageIdsList);
+					$("#mailForm\\:idsOfMessages").val(messageIdsList);
+				}
+				
+				var messageDivClicked = false;
+				$(".messageClickArea").click(function(){
+					if (messageDivClicked) {
+						displayMessagesList();
+						messageDivClicked = false;
+					} else {
+						readMessage($(this).parent());
+						messageDivClicked = true;
+					}
+				});
+				
+				$("#backButton").click(function(){
+					displayMessagesList();
+					messageDivClicked = false;
+				});
+				
+				$("#inboxTabDiv").click(function(){
+					displayMessagesList();
+				});
+				
+				function readMessage(callerObject) {
+					$(".messageDiv").not(callerObject).hide();
+					$(callerObject).find(".read_check").hide();
+					$(callerObject).find(".read_icon").hide();
+					$(callerObject).find(".spacerDiv").show();
+					$("#selectAllMailDiv").hide();
+					
+					$(callerObject).find(".messageTitleMasked").hide();
+					$(callerObject).find(".messageTitle").show();
+					
+					//$(".mail_footer").hide();
+					$("#mailForm\\:deleteMessagesButton").hide();
+					$(".mail_page").hide();
+					$("#backButton").show();
+					
+					$(callerObject).next(".body_message").show();
+					//alert($(callerObject).find(".checkbox").val());
+					
+					//alert($(callerObject).html());
+					//alert($(callerObject).hasClass("read"));
+					//alert($(callerObject).hasClass("unread"));
+					if ($(callerObject).hasClass("unread")) {
+						$("#mailForm\\:idsOfMessages").val($(callerObject).find(".checkbox").val());
+					}
+					
+				}
+				
+				function displayMessagesList(){
+					$(".read_check").show();
+					$(".read_icon").show();
+					$(".messageDiv").show();
+					$(".spacerDiv").hide();
+					$("#selectAllMailDiv").show();
+					
+					$(".messageTitleMasked").show();
+					$(".messageTitle").hide();
+					
+					//$(".mail_footer").show();
+					$("#mailForm\\:deleteMessagesButton").show();
+					$(".mail_page").show();
+					$("#backButton").hide();
+					
+					$(".body_message").hide();
+					
+					var idsOfMessages = $("#mailForm\\:idsOfMessages").val();
+					if (idsOfMessages !="") {
+						//alert("not empty");
+						$("#mailForm\\:markMessageAsReadButton").click();	
+					}
+				}
+				
+				$("#selectAll").change(function() {
+					var checkboxes = $(".checkbox");
+				    if($(this).is(':checked')) {
+				    	checkboxes.prop('checked', true);
+					} else {
+						checkboxes.prop('checked', false);
+					}
+				});
+			</script></span></div></div></div><script type="text/javascript">new RichFaces.ui.PopupPanel("mailPopUp",{"autosized":true} );</script></div><div id="noticePopUp" style="visibility: hidden;"><div class="rf-pp-shade" id="noticePopUp_shade" style="z-index:100;"><button class="rf-pp-btn" id="noticePopUpFirstHref" name="noticePopUpfirstHref"></button></div><div class="rf-pp-cntr " id="noticePopUp_container" style="position: fixed; z-index:100; "><div class="rf-pp-shdw" id="noticePopUp_shadow"></div><div class="rf-pp-cnt-scrlr" id="noticePopUp_content_scroller"><div class="rf-pp-cnt" id="noticePopUp_content"><span id="announcementPopUpOutputPanel">
+			<div class="popup_box" id="pophack">
+				<div class="popup_title">
+					<a class="closebigicon" onclick="enableBodyScroll(); RichFaces.component('noticePopUp').hide(); return false;"></a>
+					<h3 class="text">点击查看</h3>
+					<div class="clearfix"></div>
+				</div>
+				<div class="popup_announcement">
+					<div class="box_announcement">
+						<div class="clearfix"></div>
+						<ul class="marginTop20">
+									<li class="noticeElement" id="notice1">
+										<div class="radiobtnbigicon_white noticeNumberIcon">1
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>WELLBET吉祥坊如意厅维护通知
+												</h3>
+												<span class="day">2017-07-27</span>
+											</div>
+											<div class="text">尊敬的客户：如意厅将于7月28日03:00am至08:00am 期间分别轮流进行例行维护，期间无法进行投注，为您带来的不便，敬请谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice2">
+										<div class="radiobtnbigicon_white noticeNumberIcon">2
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>PT游戏大厅维护通知
+												</h3>
+												<span class="day">2017-07-27</span>
+											</div>
+											<div class="text">尊敬的客户：PT游戏大厅于7月27日13:30-16:00进行预期维护，维护期间将无法转账或游戏，给您带来的不便，敬请见谅。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice3">
+										<div class="radiobtnbigicon_white noticeNumberIcon">3
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>7月26日锦绣厅临时维护公告
+												</h3>
+												<span class="day">2017-07-26</span>
+											</div>
+											<div class="text">尊敬的客户：锦绣厅场馆目前正在临时维护中，将无法继续拧游戏和转账，还请您稍晚进行尝试，为您带来的不便，敬请谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice4">
+										<div class="radiobtnbigicon_white noticeNumberIcon">4
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>防范假冒网站跳转通知
+												</h3>
+												<span class="day">2017-07-17</span>
+											</div>
+											<div class="text">尊敬的客户：近期有假冒网站恶意劫持本公司域名，若您打开WELLBET吉祥坊域名跳转到其他网站，请联系在线客服，<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="92773c30740e1f7b103c753c23f1e1d2e5f0faf7fee2e1bcf1fdff">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>，客服热线 00852-8125-4860。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice5">
+										<div class="radiobtnbigicon_white noticeNumberIcon">5
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>福临厅场馆例行维护通知
+												</h3>
+												<span class="day">2017-03-31</span>
+											</div>
+											<div class="text">尊敬的客户：福临厅场馆将于每周一的11:30-13:00进行旗舰厅和VIP厅的例行维护；每周二的10:00-11:00进行国际厅和竟咪厅的例行维护，维护期间，将无法进行该厅的游戏，为您带来的不便，敬请谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice6">
+										<div class="radiobtnbigicon_white noticeNumberIcon">6
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>WELLBET吉祥坊邮箱更换通知
+												</h3>
+												<span class="day">2017-03-02</span>
+											</div>
+											<div class="text">尊敬的客户：WELLBET吉祥坊目前更新邮箱地址为：<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e28191a295808a878e9291cc818d8f">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>，请您留意该新邮箱地址，<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="866e2931630d3963000b6309176f06076f0428623d306e0135e5f5c6ecfee0b4b6b7b4a8e5e9eb">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>，避免客服未能及时回复。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice7">
+										<div class="radiobtnbigicon_white noticeNumberIcon">7
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>关于ATM存款通知
+												</h3>
+												<span class="day">2016-11-29</span>
+											</div>
+											<div class="text">尊敬的客户：由于中国人民银行规定从12月1日起在ATM机转账需24小时后到账，为了保障您的存款及时到账，建议您使用其他存款方式，给您带来的不便，请您谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice8">
+										<div class="radiobtnbigicon_white noticeNumberIcon">8
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>移动WELLBET吉祥坊全面开放
+												</h3>
+												<span class="day">2016-11-09</span>
+											</div>
+											<div class="text">WELLBET吉祥坊现已全面开放IOS客户端/安卓客户端/Wap，支持所有手机设备进行游戏，手机也能随时玩，请您留意移动吉祥坊。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice9">
+										<div class="radiobtnbigicon_white noticeNumberIcon">9
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>0.5%离线存款红利通知
+												</h3>
+												<span class="day">2016-03-16</span>
+											</div>
+											<div class="text">自2016年3月17日中午12时起，凡使用离线方式（包含ATM, 柜员机和手机银行转账）存款，存款红利的发放将仅限单笔存款大于5000元或以上(不含5000元)，单笔最高上限100元，当日最高上限1000元。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice10">
+										<div class="radiobtnbigicon_white noticeNumberIcon">10
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>第三方离线存款通知
+												</h3>
+												<span class="day">2016-03-02</span>
+											</div>
+											<div class="text">尊敬的客户:为了您的资金安全，吉祥坊暂不支持第三方账户进行离线存款，请您使用个人的银行账户进行离线存款。给您带来的不便，请您谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice11">
+										<div class="radiobtnbigicon_white noticeNumberIcon">11
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>旗舰厅游戏场馆维护通知
+												</h3>
+												<span class="day">2014-12-24</span>
+											</div>
+											<div class="text">尊敬的客户，旗舰厅游戏场馆将于每周星期三，上午09:00--12：00进行系统维护，期间将无法登录及转帐，给您带来不便，敬请谅解！
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+									<li class="noticeElement" id="notice12">
+										<div class="radiobtnbigicon_white noticeNumberIcon">12
+										</div>
+										<div class="tips">
+											<span class="point">◆</span> <span class="point_1">◆</span>
+											<div class="title_announcement">
+												<h3>优惠申请通知
+												</h3>
+												<span class="day">2013-08-05</span>
+											</div>
+											<div class="text">由于近期出现大量以红利为目的的玩家，如果一经发现，吉祥坊将会严格按照红利的规则与条款进行处理。届时会影响到部分申请红利玩家的提款时间，给您带来不便，敬请谅解。
+											</div>
+										</div>
+										<div class="clearfix"></div>
+									</li>
+						</ul>
+					</div>				
+				</div>
+			</div>
+			<script>
+			$(".noticeElement").click(function(){
+				//alert($(this).attr("id"));
+				selectNotice($(this).attr("id"));
+			});			
+		</script></span></div></div></div><script type="text/javascript">new RichFaces.ui.PopupPanel("noticePopUp",{"autosized":true} );</script></div><div id="ptHtml5GamesNotificationPopup" style="visibility: hidden;"><div class="rf-pp-shade" id="ptHtml5GamesNotificationPopup_shade" style="z-index:100;"><button class="rf-pp-btn" id="ptHtml5GamesNotificationPopupFirstHref" name="ptHtml5GamesNotificationPopupfirstHref"></button></div><div class="rf-pp-cntr " id="ptHtml5GamesNotificationPopup_container" style="position: fixed; z-index:100; "><div class="rf-pp-shdw" id="ptHtml5GamesNotificationPopup_shadow"></div><div class="rf-pp-cnt-scrlr" id="ptHtml5GamesNotificationPopup_content_scroller"><div class="rf-pp-cnt" id="ptHtml5GamesNotificationPopup_content"><span id="ptHtml5GamesNotificationOutputPanel" class="positionFixed left40Point5Percent left0PIE7Important">
+			<div class="karaokerstar_popupIcon">
+				<div class="pt_notif_mnky"></div>
+			</div>
+			<div class="popup_box karaokestar_popup zIndex1000" style="margin-top: -15%;">
+				<div class="popup_title">
+					<a href="javascript:void(0);" onclick="redirectToGame();" class="closebigicon"></a>
+					<div class="clearfix"></div>
+				</div>
+				<div>
+					<div class="popup_text p10">
+						Wellbet与PlayTech <br />
+						合作成功推出K歌之王后，接下来会独家首发近百款HTML5新游戏！K歌之王即日起停止服务，<br />
+						请您期待更流畅，更高中奖率的老虎机吧！
+					</div>
+				</div>
+				<div class="but" id="messageButtonsPTHTML5">
+						<a onclick="redirectToGame();" class="popup_button">确 定</a>
+				</div>
+			</div></span></div></div></div><script type="text/javascript">new RichFaces.ui.PopupPanel("ptHtml5GamesNotificationPopup",{"autosized":true} );</script></div>
+	
+	<script>
+		var button;
+		function showHtml5GamesNotif(type) {
+			RichFaces.$("ptHtml5GamesNotificationPopup").show();
+			button = type;
+		}
+		function redirectToGame() {
+			RichFaces.$('ptHtml5GamesNotificationPopup').hide();
+// 			if (button == '1') {
+// 				$('#ucLoading').children().eq(0).show();
+// 				startGamePT('');
+// 			} else if (button == '2') {
+// 				window.open('http://gamescdn2.galaxyinnovation.com/platform/?game=karaokeStar&real=0&username=&temptoken=BRl9Xe0NOanVtptKvwzw4KDw8MAgUKBY&activeModule=mobile&backUrl=gamescdn2.galaxyinnovation.com&language=ZH-CN', '_blank');
+// 			}
+		}
+	</script><div id="registerPopUp" style="visibility: hidden;"><div class="rf-pp-shade" id="registerPopUp_shade" style="z-index:100;"><button class="rf-pp-btn" id="registerPopUpFirstHref" name="registerPopUpfirstHref"></button></div><div class="rf-pp-cntr " id="registerPopUp_container" style="position: fixed; z-index:100; "><div class="rf-pp-shdw" id="registerPopUp_shadow"></div><div class="rf-pp-cnt-scrlr" id="registerPopUp_content_scroller"><div class="rf-pp-cnt" id="registerPopUp_content"><span id="registerPopUpOutputPanel">
+
+	<div class="popup_box popup_prmt_box registerPopupBox">
+			
+		<!-- &lt;div class="mail_header"&gt; -->
+		<div class="popup_title" style="width: 725px;">
+			<h3 class="text">新朋友您好 
+				<a onclick="RichFaces.component('registerPopUp').hide(); return false;" class="closebigicon"></a>
+					<div class="chatPosition" onclick="openChat('zh-cn')">
+						<div class="chaticon pull-left mt14"></div>
+						<div class="titlechat2 pull-left">在线客服</div>
+					</div>
+			</h3>
+			<div class="clearfix"></div>
+		</div>
+<!-- 		&lt;script src="http://www.wellbettoday.com/public/js/jquery.js"&gt;&lt;/script&gt; -->
+<!-- 		&lt;script src="http://www.wellbettoday.com/public/js/openpage.js"&gt;&lt;/script&gt; -->
+		<script src="http://www.wellbettoday.com/public/js/register.js"></script>
+		<script>
+		$( document ).ready(function() {
+			var textArray = ["请输入长度【6-14】(字母开头+数字)", "请同意条款"];
+			initRegisterLanguageLocale(textArray);
+		});
+		
+		$(window).load(function() {
+			var textArray = ["请输入长度【6-14】(字母开头+数字)", "请同意条款"];
+			initRegisterLanguageLocale(textArray);
+		});
+		</script>
+	
+		<!--opacity -->
+		<div class="alphaheadopacregister" style="display: none;" id="goingRegister">
+			<div class="alphaheadopacboxregister">
+				<div class="loadinghead"></div>
+				<div class="loadingtext">正在登录中</div>
+			</div>
+		</div>
+		<!--opacity end-->
+		<div style="height: 100%;">
+			<div class="box_reg">
+<form id="j_idt1311" name="j_idt1311" method="post" action="/;jsessionid=FA2AF5EF4CFC289E6395CE6EDFB191D4" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt1311" value="j_idt1311" />
+
+					<div class="box_reg_main">
+						<p class="text">如您已有帐户，立刻在此&nbsp;<a onclick="RichFaces.component('registerPopUp').hide(); return false;" style="color: red;" id="register_login">登录</a>
+						</p>
+						<div class="req1">
+							<div class="name">用户名&nbsp;:</div><input id="j_idt1311:_userName" type="text" name="j_idt1311:_userName" class="use_input" /> <img src="/zh/images/loading/loading_icon.gif" style="display:none;" class="ml10" />
+	
+							<div class="green"></div>
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">请输入长度【6-14】(字母开头+数字)</div>
+							</div>
+							<div class="tips" style="display: none;">
+								<div class="text">请输入长度【6-14】(字母开头+数字)</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">密 码&nbsp;:</div><input id="j_idt1311:_fristPassword" type="password" name="j_idt1311:_fristPassword" value="" class="use_input" />
+							<div class="green"></div>
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">请输入长度【6-30】(支持数字/字母/符号)</div>
+							</div>
+							<div class="tips" style="display: none;">
+								<div class="text">
+									<h5>密码强度:</h5>
+									<div class="gress_load">
+										<div class="red_load"></div>
+									</div>请至少使用 6 个字符。请勿使用您用于登录其他网站的密码或容易被猜到的密码。
+								</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">确认密码&nbsp;:</div>
+							<input type="password" id="_secondPassword" class="use_input" />
+							<div class="green"></div>
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">两次输入密码不一样</div>
+							</div>
+							<div class="tips" style="display: none;">
+								<div class="text">请再次输入密码。</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+	
+						<div class="title_min">
+							<fieldset>
+								<legend>个人信息</legend>
+							</fieldset>
+						</div>
+	
+						<div class="req1">
+							<p class="name">姓 名&nbsp;:</p><input id="j_idt1311:_realName" type="text" name="j_idt1311:_realName" class="use_input" />
+							<div class="green"></div>
+	
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">请输入您的真实姓名</div>
+							</div>
+	
+							<div class="tips" style="display: none;">
+								<div class="text">注册姓名必须与提款银行帐户姓名一致</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">性 别&nbsp;:</div>
+							<div class="gender_min"><table style="width:150px">
+	<tr>
+<td>
+<input type="radio" checked="checked" name="j_idt1311:j_idt1441" id="j_idt1311:j_idt1441:0" value="1" /><label for="j_idt1311:j_idt1441:0"> 男士</label></td>
+<td>
+<input type="radio" name="j_idt1311:j_idt1441" id="j_idt1311:j_idt1441:1" value="2" /><label for="j_idt1311:j_idt1441:1"> 女士</label></td>
+	</tr>
+</table>
+	
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">出生日期&nbsp;:</div>
+							<select id="_year" name="byear" style="width: 100px;" class="select">
+							</select> <select id="_month" name="bmonth" class="select">
+								<option value="01">01</option>
+								<option value="02">02</option>
+								<option value="03">03</option>
+								<option value="04">04</option>
+								<option value="05">05</option>
+								<option value="06">06</option>
+								<option value="07">07</option>
+								<option value="08">08</option>
+								<option value="09">09</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+							</select> <select id="_day" name="bday" class="select">
+								<option>01</option>
+								<option>02</option>
+								<option>03</option>
+								<option>04</option>
+								<option>05</option>
+								<option>06</option>
+								<option>07</option>
+								<option>08</option>
+								<option>09</option>
+								<option>10</option>
+								<option>11</option>
+								<option>12</option>
+								<option>13</option>
+								<option>14</option>
+								<option>15</option>
+								<option>16</option>
+								<option>17</option>
+								<option>18</option>
+								<option>19</option>
+								<option>20</option>
+								<option>21</option>
+								<option>22</option>
+								<option>23</option>
+								<option>24</option>
+								<option>25</option>
+								<option>26</option>
+								<option>27</option>
+								<option>28</option>
+								<option>29</option>
+								<option>30</option>
+								<option>31</option>
+							</select>
+	
+							<div class="tips" style="display: none;">
+								<div class="text">输入的字符数应在 6 到 30 之间。</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="title_min">
+							<fieldset>
+								<legend>联系信息</legend>
+							</fieldset>
+						</div>
+	
+						<div class="req1">
+							<div class="name">邮箱地址&nbsp;:</div><input id="j_idt1311:_email" type="text" name="j_idt1311:_email" class="use_input" maxlength="50" /> <img src="/zh/images/loading/loading_icon.gif" style="display:none;" class="ml10" />
+							<div class="green"></div>
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">邮箱格式不对</div>
+							</div>
+							<div class="tips" style="display: none;">
+								<div class="text">请输入您的邮箱</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">联系手机&nbsp;:</div>
+							<input type="hidden" value="zh-cn" name="localeCode" id="hiddenLocaleCode" /><select id="j_idt1311:countryCodeSelect" name="j_idt1311:countryCodeSelect" class="select countryCodeSelect" size="1" disabled="disabled">	<option value="1">+93</option>
+	<option value="2">+355</option>
+	<option value="3">+213</option>
+	<option value="4">+1684</option>
+	<option value="5">+376</option>
+	<option value="6">+244</option>
+	<option value="7">+1264</option>
+	<option value="8">+672</option>
+	<option value="9">+1268</option>
+	<option value="10">+54</option>
+	<option value="11">+374</option>
+	<option value="12">+297</option>
+	<option value="13">+61</option>
+	<option value="14">+43</option>
+	<option value="15">+994</option>
+	<option value="17">+973</option>
+	<option value="16">+1242</option>
+	<option value="19">+1246</option>
+	<option value="18">+880</option>
+	<option value="21">+32</option>
+	<option value="20">+375</option>
+	<option value="23">+229</option>
+	<option value="22">+501</option>
+	<option value="25">+975</option>
+	<option value="24">1441</option>
+	<option value="27">+387</option>
+	<option value="26">+591</option>
+	<option value="29">+55</option>
+	<option value="28">+267</option>
+	<option value="31">+1284</option>
+	<option value="30">+246</option>
+	<option value="34">+226</option>
+	<option value="35">+257</option>
+	<option value="32">+673</option>
+	<option value="33">+359</option>
+	<option value="38">+1</option>
+	<option value="39">+238</option>
+	<option value="36">+855</option>
+	<option value="37">+237</option>
+	<option value="42">+235</option>
+	<option value="43">+56</option>
+	<option value="40">+1345</option>
+	<option value="41">+236</option>
+	<option value="46">+57</option>
+	<option value="47">+269</option>
+	<option value="44">+61</option>
+	<option value="45">+61</option>
+	<option value="51">+51</option>
+	<option value="50">+385</option>
+	<option value="49">+506</option>
+	<option value="48">+682</option>
+	<option value="55">+243</option>
+	<option value="54">+420</option>
+	<option value="53">+357</option>
+	<option value="52">+599</option>
+	<option value="59">+1809</option>
+	<option value="58">+1767</option>
+	<option value="57">+253</option>
+	<option value="56">+45</option>
+	<option value="63">+593</option>
+	<option value="62">+670</option>
+	<option value="61">+1849</option>
+	<option value="60">+1829</option>
+	<option value="68">+372</option>
+	<option value="69">+251</option>
+	<option value="70">+500</option>
+	<option value="71">+298</option>
+	<option value="64">+20</option>
+	<option value="65">+503</option>
+	<option value="66">+240</option>
+	<option value="67">+291</option>
+	<option value="76">+995</option>
+	<option value="77">+49</option>
+	<option value="78">+233</option>
+	<option value="79">+350</option>
+	<option value="72">+679</option>
+	<option value="73">+689</option>
+	<option value="74">+241</option>
+	<option value="75">+220</option>
+	<option value="85">+441481</option>
+	<option value="84">+502</option>
+	<option value="87">+245</option>
+	<option value="86">+224</option>
+	<option value="81">+299</option>
+	<option value="80">+30</option>
+	<option value="83">+1671</option>
+	<option value="82">+1473</option>
+	<option value="93">+354</option>
+	<option value="92">+36</option>
+	<option value="95">+62</option>
+	<option value="94">+91</option>
+	<option value="89">+509</option>
+	<option value="88">+592</option>
+	<option value="91">+852</option>
+	<option value="90">+504</option>
+	<option value="102">+225</option>
+	<option value="103">+1876</option>
+	<option value="100">+972</option>
+	<option value="101">+39</option>
+	<option value="98">+353</option>
+	<option value="99">+441624</option>
+	<option value="96">+98</option>
+	<option value="97">+964</option>
+	<option value="110">+383</option>
+	<option value="111">+965</option>
+	<option value="108">+254</option>
+	<option value="109">+686</option>
+	<option value="106">+962</option>
+	<option value="107">+7</option>
+	<option value="104">+81</option>
+	<option value="105">+441534</option>
+	<option value="119">+423</option>
+	<option value="118">+218</option>
+	<option value="117">+231</option>
+	<option value="116">+266</option>
+	<option value="115">+961</option>
+	<option value="114">+371</option>
+	<option value="113">+856</option>
+	<option value="112">+996</option>
+	<option value="127">+960</option>
+	<option value="126">+60</option>
+	<option value="125">+265</option>
+	<option value="124">+261</option>
+	<option value="123">+389</option>
+	<option value="122">+853</option>
+	<option value="121">+352</option>
+	<option value="120">+370</option>
+	<option value="137">+377</option>
+	<option value="136">+373</option>
+	<option value="139">+382</option>
+	<option value="138">+976</option>
+	<option value="141">+212</option>
+	<option value="140">+1664</option>
+	<option value="143">+95</option>
+	<option value="142">+258</option>
+	<option value="129">+356</option>
+	<option value="128">+223</option>
+	<option value="131">+222</option>
+	<option value="130">+692</option>
+	<option value="133">+262</option>
+	<option value="132">+230</option>
+	<option value="135">+691</option>
+	<option value="134">+52</option>
+	<option value="152">+227</option>
+	<option value="153">+234</option>
+	<option value="154">+683</option>
+	<option value="155">+850</option>
+	<option value="156" selected="selected">+86</option>
+	<option value="157">+47</option>
+	<option value="158">+968</option>
+	<option value="159">+92</option>
+	<option value="144">+264</option>
+	<option value="145">+674</option>
+	<option value="146">+977</option>
+	<option value="147">+31</option>
+	<option value="148">+599</option>
+	<option value="149">+687</option>
+	<option value="150">+64</option>
+	<option value="151">+505</option>
+	<option value="171">+1939</option>
+	<option value="170">+1787</option>
+	<option value="169">+351</option>
+	<option value="168">+48</option>
+	<option value="175">+40</option>
+	<option value="174">+262</option>
+	<option value="173">+242</option>
+	<option value="172">+974</option>
+	<option value="163">+675</option>
+	<option value="162">+507</option>
+	<option value="161">+970</option>
+	<option value="160">+680</option>
+	<option value="167">+64</option>
+	<option value="166">+63</option>
+	<option value="165">+51</option>
+	<option value="164">+595</option>
+	<option value="186">+378</option>
+	<option value="187">+239</option>
+	<option value="184">+1784</option>
+	<option value="185">+685</option>
+	<option value="190">+381</option>
+	<option value="191">+248</option>
+	<option value="188">+966</option>
+	<option value="189">+221</option>
+	<option value="178">+590</option>
+	<option value="179">+290</option>
+	<option value="176">+7</option>
+	<option value="177">+250</option>
+	<option value="182">+590</option>
+	<option value="183">+508</option>
+	<option value="180">+1869</option>
+	<option value="181">+1758</option>
+	<option value="205">+47</option>
+	<option value="204">+597</option>
+	<option value="207">+46</option>
+	<option value="206">+268</option>
+	<option value="201">+211</option>
+	<option value="200">+82</option>
+	<option value="203">+249</option>
+	<option value="202">+94</option>
+	<option value="197">+677</option>
+	<option value="196">+386</option>
+	<option value="199">+27</option>
+	<option value="198">+252</option>
+	<option value="193">+65</option>
+	<option value="192">+232</option>
+	<option value="195">+421</option>
+	<option value="194">+1721</option>
+	<option value="220">+993</option>
+	<option value="221">+1649</option>
+	<option value="222">+688</option>
+	<option value="223">+1340</option>
+	<option value="216">+676</option>
+	<option value="217">+1868</option>
+	<option value="218">+216</option>
+	<option value="219">+90</option>
+	<option value="212">+255</option>
+	<option value="213">+66</option>
+	<option value="214">+228</option>
+	<option value="215">+690</option>
+	<option value="208">+41</option>
+	<option value="209">+963</option>
+	<option value="210">+886</option>
+	<option value="211">+992</option>
+	<option value="239">+1670</option>
+	<option value="238">+263</option>
+	<option value="237">+260</option>
+	<option value="236">+967</option>
+	<option value="235">+212</option>
+	<option value="234">+681</option>
+	<option value="233">+58</option>
+	<option value="232">+379</option>
+	<option value="231">+678</option>
+	<option value="704">+84</option>
+	<option value="230">+998</option>
+	<option value="229">+598</option>
+	<option value="227">+44</option>
+	<option value="226">+971</option>
+	<option value="225">+380</option>
+	<option value="224">+256</option>
+</select><input id="j_idt1311:_mobile" type="text" name="j_idt1311:_mobile" class="use_input use_input2" />
+							<div class="green green2"></div>
+							<div class="status_det" style="display: none;">
+								<div class="wrong_icon"></div>
+								<div class="msg">手机格式不对</div>
+							</div>
+							<div class="tips" style="display: none;">
+								<div class="text">请输入您的手机号。</div>
+								<span class="point">◆</span> <span class="point_1">◆</span>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">偏好方式&nbsp;:</div>
+							<div class="mail-call-sms">
+								<input name="preferWay" checked="checked" type="checkbox" /> <a href="#" class="call callhover">电话</a> <input name="preferWay" type="checkbox" /> <a href="#">邮件</a> <input name="preferWay" type="checkbox" /> <a href="#" class="sms">短信</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name">货币:</div>
+							<div>
+								<select id="currencySelect" name="currency" class="select" disabled="disabled">
+<!-- 								&lt;ui:repeat value="[]" var="currency"&gt; -->
+<!-- 									&lt;option&gt;&lt;h:outputText value="" escape="false" /&gt;&lt;/option&gt; -->
+<!-- 								&lt;/ui:repeat&gt; -->
+									<option>CNY</option>
+								</select>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="req1">
+							<div class="name"></div>
+							<div class="icon_receive">
+								<input id="_agreement" type="checkbox" />本人同意并接受所有 <a href="http://media.jxf88.com/zh/helpcenter/helpcenter_tc_termsofservice.html" target="_blank">规则与条款</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+	
+						<div class="but but_now_reg"><a href="#" id="j_idt1311:j_idt1545" name="j_idt1311:j_idt1545" onclick="jsf.util.chain(this,event,&quot;return registerRunning(this);&quot;,&quot;RichFaces.ajax(\&quot;j_idt1311:j_idt1545\&quot;,event,{\&quot;incId\&quot;:\&quot;1\&quot;} )&quot;);return false;" class="popup_button">立即注册</a>
+								
+					<script>
+					var mobile = $(".mobile").val();
+					if (mobile !== undefined) {
+						if (mobile.length > 0) {
+							$(".mobile").next(".green").css("display", "none");
+						}
+					}
+	                  function registerRunning(obj){
+	                	  $(obj).attr('disabled',"true");
+	                	  var submitFlag = submitForm();
+	                	  
+	                	  if( submitFlag == true ){
+	                		  $("#goingRegister").show();
+	                		  $(obj).text("正在注册中...");
+	                	  }else{
+	                		  $("#goingRegister").hide();
+	                	  }
+	                	  return submitFlag;
+	                  }
+	                
+	                
+	                  function alertMsg(msg,obj){
+	                	  var userLocaleCode = $("#registerUserLocaleCode").text();
+	                	  //alert(userLocaleCode);
+	                	  if(msg=="成功！"){
+	                		  window.parent.location.href='/'+userLocaleCode+'/uc/user/user_info.php';
+	                	  }else{
+	                		  $(obj).text("立即注册");
+	                		  alert(msg);
+	                		  $("#goingRegister").hide();
+	                		  $(obj).removeAttr("disabled");
+	                	  }
+	                  }
+	                  
+	                  $("#register_login").click(function(){
+	                	  $(window.parent.document).find('.header_dropgreyboxLogin').show();
+	                	  $(window.parent.document).find(".mask").remove();
+	              		 $(window.parent.document).find("#_opendiv").remove();
+	                  })
+	                  
+	                  function verifyLoginName(msg){
+	                	  var userNameObj = $("[id$='_userName']");
+	                	  userNameObj.siblings(".ml10").hide();
+	                	  if(msg){
+	                		  userNameObj.siblings(".status_det").find(".msg").text(msg);
+	                		  displayMsg( true , userNameObj );
+	                	  }else{
+	                		  displayMsg( false , userNameObj );
+	                	  }
+	                	  return false;
+	                  }
+	                  function verifyEmail(msg){
+	                	  var emailObj = $("[id$='_email']");
+	                	  emailObj.siblings(".ml10").hide();
+	                	  if(msg){
+	                		  emailObj.siblings(".status_det").find(".msg").text(msg);
+	                		  displayMsg( true , emailObj );
+	                	  }else{
+	                		  displayMsg( false , emailObj );
+	                	  }
+	                	  return false;
+	                  }
+	                </script>
+						</div>
+					</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="5790660961775230059:-6603773730060442337" autocomplete="off" />
+</form><span id="registerUserLocaleCode" class="displayNone"></span><span id="j_idt1574" style="display: none;"><script type="text/javascript">verifyLoginNameJsFunction=function(loginName){RichFaces.ajax("j_idt1574",null,{"parameters":{"loginName":loginName} ,"incId":"1"} )};</script></span><span id="j_idt1582" style="display: none;"><script type="text/javascript">verifyEmailJsFunction=function(Email){RichFaces.ajax("j_idt1582",null,{"parameters":{"Email":Email} ,"incId":"1"} )};</script></span>
+				
+			</div>
+		</div>
+	</div></span></div></div></div><script type="text/javascript">new RichFaces.ui.PopupPanel("registerPopUp",{"autosized":true} );</script></div>
+			</div>
+		</div></body>
+
+</html>

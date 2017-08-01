@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="zh-cn">
+<head>
+<title>拉斯维加斯---老品牌值得信赖！</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="在线赌场，娱乐城，体育博彩,百家乐，游戏，时时彩，下注， BBIN，HG, AG 体育, 直播现场娱乐城" />
+<meta name="description" content="网上赌博娱乐场有合法的在线游戏网络牌照，哥斯达黎加，与国际知名品牌BBIN,AG百家乐平台，HG百家乐平台，开发出多种中国玩家最喜欢的游戏。" />
+<link href="/skin/css/xpj.css?v=1.8" type="text/css" rel="stylesheet" />
+<link href="/skin/css/standard.css" rel="stylesheet" type="text/css">
+<link href="/skin/css/jquery-ui.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript"src="/skin/script/jquery-1.7.2.min.js"></script>
+<script type="text/javascript"src="/skin/script/tab.js?v=1.2"></script>
+<script type="text/javascript"src="/skin/script/float.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript"src="/skin/script/DD_belatedPNG.js"></script>
+<script language="javascript" type="text/javascript">
+setTimeout("DD_belatedPNG.fix('div,ul,img,li,input,a,span,dl,dd,h1,h2,h3,em')",100);
+</script>
+<![endif]-->
+<script type="text/javascript" src="/skin/script/intr_pageto.js"></script>
+</head>
+<body class="zh-cn">
+<div id="body-wrap" class="clearfix">
+<script>
+var now_version="pc";
+if(window.location.href.toLowerCase().indexOf("/mobile/")!=-1)
+{
+  now_version="mobile";
+}
+var pc_url="http://"+window.location.host+"/index.aspx";
+var mobile_url="http://"+window.location.host+"/mobile/index.aspx";//手机版地址
+
+//取cookies函数   
+    function getCookieM(name) {
+        var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+        if (arr != null) return unescape(arr[2]); return null;
+    }
+	//存cookie
+function setCookieM(name, value)
+{
+	expires = new Date();
+	expires.setTime(expires.getTime() + (1000 * 86400 * 365));
+	document.cookie = name + "=" + value + "; expires=" + expires.toGMTString() + "; path=/";
+}
+//取Url参数
+function GetQueryStringM(name)
+{    
+	var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)","i");
+	var r=window.location.search.substr(1).match(reg);
+	if(r!=null)
+	{
+		return unescape(r[2])
+	}
+	return null;     
+}
+
+var browser={
+    versions:function(){
+        var u = navigator.userAgent, app = navigator.appVersion;
+        return {
+            trident: u.indexOf('Trident') > -1, //IE内核
+            presto: u.indexOf('Presto') > -1, //opera内核
+            webKit: u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核
+            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//火狐内核
+            mobile: !!u.match(/AppleWebKit.*Mobile.*/), //是否为移动终端
+            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端
+            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器
+            iPhone: u.indexOf('iPhone') > -1 , //是否为iPhone或者QQHD浏览器
+            iPad: u.indexOf('iPad') > -1, //是否iPad
+            webApp: u.indexOf('Safari') == -1, //是否web应该程序，没有头部与底部
+            weixin: u.indexOf('MicroMessenger') > -1, //是否微信
+            qq: u.match(/\sQQ/i) == " qq" //是否QQ
+        };
+    }(),
+    language:(navigator.browserLanguage || navigator.language).toLowerCase()
+}
+var intr=GetQueryStringM("intr");
+if (intr == null||intr=="") 
+{
+    intr=getCookieM("intr");
+}
+var ignore=GetQueryStringM("ignore");//是否忽略判断是否手机 1忽略 其它不忽略
+if (ignore == null||ignore=="") 
+{
+    ignore=getCookieM("ignore");
+}
+if (ignore=="1") 
+{
+    setCookieM("ignore","1");
+}
+
+
+if(ignore!="1")
+{
+	if(browser.versions.mobile||browser.versions.android||browser.versions.ios)
+	{
+		if(now_version=="pc")
+		{
+			if (intr == null||intr=="") {
+				location.href=mobile_url;
+			}
+			else
+			{
+				location.href=mobile_url+"?intr="+intr;
+			}
+		}
+	}
+	else
+	{
+		if(now_version=="mobile")
+		{
+			if (intr == null||intr=="") {
+				location.href=pc_url;
+			}
+			else
+			{
+				location.href=pc_url+"?intr="+intr;
+			}
+		}
+	}
+}
+</script>
+   <script type="text/javascript" src="/skin/script/language_cn.js"></script>
+<script type="text/javascript" src="/skin/script/login_bbin.js?v=6.6"></script>
+<div id="header-wrap">
+    <div class="header-pos clearfix">
+      <div class="header-top clearfix">
+        <div class="header-time floatL"> 美东时间：<span id="EST_reciprocal"></span><!--(UTC -5:00)--> </div>
+        <div class="header-top-nav floatR clearfix"> <a href="###" class="flag-sign"><img src="/skin/images/flag-zh-tw.gif" alt="繁体中文" /></a> <a href="###" class="flag-sign"><img src="/skin/images/flag-zh-cn.gif" alt="简体中文" /></a> <a href="###" onclick="setFirst('http://'+ window.location.hostname)">设为首页</a> | <a href="###" onclick="bookMarksite('http://'+ window.location.hostname,document.title);;">添加收藏</a> | <a href="line.aspx" target="_blank">备用网址</a> </div>
+      </div>
+      <div class="header-mid clearfix">
+        <div class="header-logo floatL" style="background-position:10px;"> <span id="logoID"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="240" height="107">
+		<param name="movie" value="/skin/images/logo.swf?v=1.1">
+		<param name="quality" value="high">
+		<param name="wmode" value="transparent">
+		<param name="menu" value="false">
+		<embed src="/skin/images/logo.swf?v=1.1" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="240" height="107" wmode="transparent"></embed>
+		</object></span> </div>
+           <!--登录前-->
+        <div id="loginDiv" class="login" style="display:none;">
+          <form name="LoginForm" method="post" class="floatR mar">
+            <ul class="input-box clearfix">
+              <li class="wid">
+                <input name="username" id="mname" type="text" tabindex="1" value="帐号" onfocus="if(this.value=='帐号')this.value=''" onblur="if(this.value =='') this.value ='帐号'" class="input-txt input-txt-w"/>
+              </li>
+              <li class="wid">
+                <input name="passwd" id="mpass" type="password" tabindex="2" value="xx@x@x.x" onfocus="if(this.value=='xx@x@x.x')this.value=''" onblur="if(this.value =='') this.value ='xx@x@x.x'" autocomplete="off" class="input-txt input-txt-w"/>
+              </li>
+              <li class="wid yzm-wid">
+                <input name="vlcodes" id="mcode" class="input-txt-yzm input-txt" onfocus="this.value='';getCode();" autocomplete="off" type="text" size="4" maxlength="4" tabindex="3" value="验证码"  onblur="if(this.value =='') this.value ='验证码'"/>
+              </li>
+              <li> <img class="img" src="/skin/images/yzm.gif" width="45" height="20" onclick="getCode();" alt="点击更换" id="codeImg" name="checkNum-img"/> </li>
+              <li>
+                <input class="btn-login" type="button" value="" onclick="checkLogin()"/>
+              </li>
+            </ul>
+            <ul class="input-box input-txt-box clearfix">
+              <li> <a href="reg.aspx" class="txt-sty-001"><img src="/skin/images/txt-reg.gif" /></a> </li>
+              <li> <a href="##" onclick="alert('请联系在线客服！')">忘记密码?</a> </li>
+              <li> <!--<a href="###"><img src="/skin/images/txt-freeReg.gif" /></a> --><a href="mobile.aspx" target="_blank" style="color:#fbd628">手机下注</a></li>
+            </ul>
+          </form>
+        </div>
+           <!--登录前-->
+           <!--登陆后--> 
+        <ul id="loginAfterDiv" class="userImfo floatR"  style="display:none;">
+               <li>帐号：<b class="col-yellow" id="myname"></b> | <a title="更多钱包" href="javascript: f_com.MGetPager2('memberProfile.aspx');" style="color:red;">更多钱包</a> | <a href="javascript: f_com.MGetPager2('memberDeposit1.aspx');"><!--线上-->存款</a> | <a href="javascript: f_com.MGetPager2('memberWithdraw.aspx');"><!--线上-->取款</a> | <a href="javascript: f_com.MGetPager2('memberFundtransfer.aspx');">额度转换</a> | <a href="javascript: f_com.MGetPager2('memberAccount.aspx');">往来记录</a> | <a href="javascript: f_com.MGetPager2('memberInboxList.aspx');"><!--未读-->讯息(<font id="mymsg">0</font>)</a> | <a href="javascript:logout('/');">登出</a></li>
+				<li>
+					主帐户：<font class="col-yellow" id="mymoney">0.00</font> | BBIN：<font class="col-yellow" id="mybbinlive">0.00</font> | AG：<font class="col-yellow" id="myag">0.00</font> | HG：<font class="col-yellow" id="myhglive">0.00</font>| GD：<font class="col-yellow" id="mygd">0.00</font>| 沙龙：<font class="col-yellow" id="mysl">0.00</font>   
+				</li>
+	    </ul>
+        <!--登陆后--> 
+        <div class="header-nav floatR clearfix">
+          <ul id="LS-Menulist">
+            <li class="LS-first"><a href="/" id="indexmenu" class="over"><span>&nbsp;</span></a></li>
+            <li class="LS-sports"><a href="sport.aspx"  id="tymenu" ><span>&nbsp;</span></a></li>
+            <li class="LS-LiveMain"> <a href="live.aspx"  onclick="location.href='live.aspx'" id="L_live"><span>&nbsp;</span></a> </li>
+            <li class="LS-Lottery"><a href="lottery.aspx" id="cpmenu"><span>&nbsp;</span></a></li>
+            <li class="LS-Game"><a href="game.aspx" id="dzmenu"><span>&nbsp;</span></a></li>
+            <li class="LS-BBIN"><a href="###" onclick="openBBIN()"><span>&nbsp;</span></a></li>
+            <li class="LS-AG"><a href="/aglive/index.aspx?act=reg" target="_blank"><span>&nbsp;</span></a></li>
+            <li class="LS-OG"><a href="/live/index.aspx?action=registration" target="_blank"><span>&nbsp;</span></a></li>
+            <li class="LS-pre"><a  href="offer.aspx" id="yhmenu"><span>&nbsp;</span></a></li>
+          </ul>
+          <div id="live-nav" class="LS-LiveMain" style="display: none;"> <span class="live-nav-l"></span><a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙真人娱乐">沙龙视讯</a> <a href="###" onclick="openBBIN()" title="BBIN真人娱乐">BBIN视讯</a> <a href="/gdlive/index.aspx?act=reg" target="_blank" title="GD真人娱乐">GD视讯</a> <a href="/aglive/index.aspx?act=reg" target="_blank" title="AG真人娱乐">AG视讯</a> <a href="/hylive/index.aspx?act=reg" target="_blank" title="好盈真人娱乐">好盈视讯</a> <a href="/ebetlive/index.aspx?act=reg" target="_blank" title="ebet真人娱乐">ebet视讯</a> <a href="/belive/index.aspx?act=reg" target="_blank" title="必易真人娱乐">必易视讯</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG真人娱乐">HG视讯</a> <a href="/oblive/index.aspx?act=reg" target="_blank" title="欧博真人娱乐">欧博视讯</a> <a href="/gpilive/index.aspx?act=reg" target="_blank" title="GPI真人娱乐">GPI视讯</a>  <span class="live-nav-r"></span> </div>
+          <div id="live-nav" class="LS-sports" style="display: none;"> <span class="live-nav-l"></span><a href="/sport.aspx" title="皇冠体育">皇冠体育</a> <a href="/ts_sport.aspx"  title="体育投注">体育投注</a>  <span class="live-nav-r"></span> </div>
+          <div id="live-nav" class="LS-Game" style="display: none;"> <span class="live-nav-l"></span><a href="/elggame/index.aspx?type=buyu" target="_blank" title="皇家捕鱼">皇家捕鱼</a><a href="/elggame/index.aspx" target="_blank" title="ELG电子游戏">ELG电子</a> <a href="/aglive/index.aspx?type=buyu" target="_blank" title="捕鱼王">捕鱼王</a> <a href="/sllive/index.aspx?act=reg" target="_blank" title="沙龙电子游艺">沙龙电子</a> <a href="/live/index.aspx?action=registration" target="_blank" title="HG电子游艺">HG电子</a> <a href="/aglive/index.aspx" target="_blank" title="AG电子游艺">AG电子</a> <a href="###" onclick="openBBIN2()" title="BBIN电子游艺">BBIN电子</a>  <span class="live-nav-r"></span> </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div id="content-wrap" class="clearfix">
+    <div class="content-pos content-wrap-index clearfix">
+      <div class="content-top">
+        <div class="content-index-left clearfix" style="left:0px;">
+          <div class="content-server"> <a href="###" onClick="xpjkefu()"><img src="/skin/images/pic-content-server.gif" /></a> </div>
+          <div class="content-msg">
+            <!--[if IE 7]>
+            <div style="height:55px;"></div>
+            <![endif]-->
+            <marquee scrollAmount="1" id="msgNews" onClick="HotNewsHistory()" class="msg-row" scrolldelay="10" direction="up" nowarp onMouseOver="this.stop();" onMouseOut="this.start();"></marquee>
+            <script type="text/javascript">
+                //最新消息
+                $.ajax({
+                    type: 'POST',
+                    url: 'getmsg.aspx?_r=' + Math.random(),
+                    cache: false,
+                    success: function (data) {
+                        $('#msgNews').html(data);
+                    }
+                });
+                </script>
+          </div>
+        </div>
+        <div class="content-banner">
+          <div id="kinMaxShow">
+             <!--div><a href="offer.aspx"><img src="/skin/images/banner1.jpg"></a></div>
+             <div><a href="offer.aspx"><img src="/skin/images/banner2.jpg"></a></div-->
+             <div><a href="game.aspx"><img src="/skin/images/banner1.jpg?v=1.1"></a></div>
+             <div><a href="offer.aspx"><img src="/skin/images/banner2.jpg?v=1.1"></a></div>
+             <div><a href="live.aspx"><img src="/skin/images/banner3.jpg?v=1.1"></a></div>
+             <div><a href="offer.aspx"><img src="/skin/images/banner4.jpg?v=1.1"></a></div>
+             <div><a href="offer.aspx"><img src="/skin/images/banner5.jpg?v=1.1"></a></div>
+             <div><a href="vip.aspx"><img src="/skin/images/banner6.jpg?v=1.1"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="content-bottom clearfix">
+        <ul class="floatL">
+          <li> <a class="content-subgame-link subgame-sports " href="sport.aspx"  ><span class="img-pos"></span></a>
+            <p>为您提供最全面赛前及滚球投注服务，最热门的体育投注类型，为您营造最好的赔率，创造最大价值。</p>
+            <a class="content-subgame-link" href="sport.aspx"  ><img src="/skin/images/btn-startGame.gif" /></a> </li>
+          <li> <a class="content-subgame-link subgame-live " href="live.aspx" ><span class="img-pos"></span></a>
+            <p>提供真人百家乐、骰宝、龙虎斗、轮盘、欧美真人百家乐…等多种精彩真人视讯游戏面向全球玩家。</p>
+            <a class="content-subgame-link" href="live.aspx"  ><img src="/skin/images/btn-startGame.gif" /></a> </li>
+          <li> <a class="content-subgame-link subgame-ele " href="game.aspx"  ><span class="img-pos"></span></a>
+            <p>上百款老虎机、电动扑克、大型电玩、桌上游戏等，以丰富的视觉、声光效果为您提供一级的娱乐。</p>
+            <a class="content-subgame-link" href="game.aspx"  ><img src="/skin/images/btn-startGame.gif" /></a> </li>
+          <li> <a class="content-subgame-link subgame-lot " href="lottery.aspx"  ><span class="img-pos"></span></a>
+            <p>多款彩票游戏，提供最高赔率，所有赛果依据官方开奖结果。给您一夜致富的机会及空前的游戏体验！</p>
+            <a class="content-subgame-link" href="lottery.aspx"  ><img src="/skin/images/btn-startGame.gif" /></a> </li>
+        </ul>
+        <div class="floatR"> <a class="pre-001" href="reg.aspx" ><img src="/skin/images/content-pic-reg2.gif?v=1.2" class="img-pos"/></a> <a class="mar pre-002" href="agent.aspx"  ><img class="img-pos" src="/skin/images/content-pic-agent.gif?v=1.2" /></a> <a class="mar pre-003" href="offer.aspx" ><img class="img-pos" src="/skin/images/content-pic-pre.gif?v=1.2" /></a> </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="/skin/script/jquery.kinMaxShow-1.1.min.js"></script> 
+  <script type="text/javascript">
+      $(function () {
+          $("#kinMaxShow").kinMaxShow({
+              //设置焦点图高度(单位:像素) 必须设置 否则使用默认值 500
+              height: 325,
+              //设置鼠标经过是否悬停
+              hoverPause: false,
+              button: {
+                  //设置按钮上面不显示数字索引(默认也是不显示索引)
+                  showIndex: false,
+                  //按钮常规下 样式设置 ，css写法，类似jQuery的 $('xxx').css()中css写法。            
+                  //【友情提示：可以设置透明度哦 不用区分浏览器 统一为 opacity，CSS3属性也支持哦 如：设置按钮圆角、投影等，只不过IE8及以下不支持】            
+                  normal: { background: 'url(/skin/images/dot_default.png) no-repeat 0 top', marginRight: '8px', border: '0', right: '44%', bottom: '20px' },
+                  //当前焦点图按钮样式 设置，写法同上
+                  focus: { background: 'url(/skin/images/dot_default.png) no-repeat 0 -15px', border: '0' }
+              }
+          });
+      });
+</script>
+<div id="footer-wrap">
+    <div class="footer-pos clearfix">
+      <div class="footer-logo clearfix"><img src="/skin/images/bbin.png" height="40"/><img src="/skin/images/hg.png" height="40"/><img src="/skin/images/ag.png" height="40"/><img src="/skin/images/gd.png" height="40"/><img src="/skin/images/sl.png"/><img src="/skin/images/footer-logo.png" /> </div>
+      <div class="footer-nav-urlTxt clearfix">
+        <div class="footer-nav floatL"> <a href="about.aspx">关于我们</a>|<a href="withdraw.aspx">取款帮助</a>|<a href="deposit.aspx">存款帮助</a>|<a href="agent.aspx" >合作伙伴</a>|<a href="contact.aspx" >联系我们</a>|<a href="faq.aspx" >常见问题</a> </div>
+        <div class="footer-urlTxt floatR"> <span>易记域名：www.58400.com</span> </div>
+      </div>
+      <div class="footer-menuBox clearfix">
+        <dl>
+          <dt><img src="/skin/images/footer-menu-t-yxpt.png"/></dt>
+          <dd> <a href="sport.aspx"  >在线体育投注</a> <a href="live.aspx" >真人娱乐场</a> <a href="game.aspx"  >电子游艺</a> <a href="lottery.aspx"   >彩票游戏</a> </dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/footer-menu-t-kstd.png"/></dt>
+          <dd> <a href="reg.aspx" class="link-light-yellow">免费开户</a> <a href="/trylive/index.aspx" target="_blank" >免费试玩</a> <a href="agent.aspx"  >合作伙伴</a> <a href="offer.aspx"  >优惠活动</a> </dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/footer-menu-t-fwbz.png"/></dt>
+          <dd> <a href="###" onclick="LeboCSlink()" >在线客服</a> <a href="faq.aspx"  >常见问题</a> <a href="deposit.aspx"  >如何存取款</a> <a href="line.aspx" target="_blank">备用网址</a> </dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/footer-menu-t-vipjlb.png"/></dt>
+          <dd> <a href="vip.aspx"  >如何成为VIP</a> <a href="vip.aspx"  >晋升计划</a> <a href="vip.aspx"  >专属特权</a> <a href="vip.aspx"  >专属活动</a> </dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/footer-menu-t-zxyh.png"/></dt>
+          <dd> <a href="offer.aspx"  >首存30%二存20%</a>  <a href="offer.aspx"  >天天返水2.0%</a>  <a href="offer.aspx"  >公司入款1.6%</a>  <a href="offer.aspx"  >呼朋唤友组团娱乐</a></dd>
+        </dl>
+        <dl class="last">
+          <dt><img src="/skin/images/footer-menu-t-lxwm.png"/></dt>
+          <dd>
+            <p> <span class="col-light-yellow">Q&nbsp;&nbsp;Q：</span>765475888<br/>
+              <span class="col-light-yellow">客服：</span>765476888<br/>
+              <span class="col-light-yellow">代理：</span>765476888@qq.com<br/>
+          </dd>
+        </dl>
+      </div>
+      <div class="footer-copyRight clearfix"> CopyRight &copy; 拉斯维加斯 Reserved </div>
+    </div>
+  </div>
+ <script type="text/javascript" src="/skin/script/all.js?v=66"></script> 
+
+
+<div id="floatService1">
+	<a href="#">
+		<span class="img_png kf-top img-png-r"></span>
+	</a>
+	<a onclick="xpjkefu()" href="javascript:void(0);">
+		<span class="img_png kf-server img-png-r">
+			<i class="kf-ser-gif"></i>
+		</span>
+	</a>
+	<a href="/reg.aspx" sign="open">
+		<span class="img_png kf-reg img-png-r"></span>
+	</a>
+	<a href="/trylive/index.aspx" target="_blank" sign="open">
+		<span class="img_png kf-freeReg img-png-r"></span>
+	</a>
+	<a href="/offer.aspx" sign="open">
+		<span class="img_png kf-pre img-png-r"></span>
+	</a>
+	<a href="tencent://message/?uin=765475888&amp;Site=web&amp;Menu=yes" sign="open">
+		<span class="img_png kf-qq img-png-r"></span>
+	</a>
+	<a href="javascript:f_com.getPager('-','MAdvertis','');" sign="close">
+		<span class="img_png kf-reg img-png-r2" style="display: none;"></span>
+	</a>
+	<a id="closefloatDownLoad1">
+		<span class="img_png kf-close img-png-r2"></span>
+	</a>
+</div>
+
+
+<!--左边-->
+<div id="floatService2">
+    <div style="height:auto;">
+      <div><a href="###"> <img src="/skin/images/lefts1_1.png" align="center"/> </a></div>
+      <div><a href="###" onclick="xpjkefu()" > <img src="/skin/images/lefts1_2.png?v=1122" align="center" /> </a></div>
+    </div>
+    <div id="closefloatDownLoad2" align="center"><img src="/skin/images/lefts1_3.png" border="0" style="cursor: pointer;"/></div>
+</di>
+<!-- BEGIN ProvideSupport.com Visitor Monitoring Code -->
+<div id="ci6hJI" style="z-index:100;position:absolute"></div><div id="sd6hJI" style="display:none"></div><script type="text/javascript">var se6hJI=document.createElement("script");se6hJI.type="text/javascript";var se6hJIs=(location.protocol.indexOf("https")==0?"https":"http")+"://image.providesupport.com/js/0birtmifseek60kpdbydfwxa5y/safe-monitor.js?ps_h=6hJI&ps_t="+new Date().getTime();setTimeout("se6hJI.src=se6hJIs;document.getElementById('sd6hJI').appendChild(se6hJI)",1)</script><noscript><div style="display:inline"><a href="http://www.providesupport.com?monitor=0birtmifseek60kpdbydfwxa5y"><img src="http://image.providesupport.com/image/0birtmifseek60kpdbydfwxa5y.gif" style="border:0px" alt=""/></a></div></noscript>
+<!-- END ProvideSupport.com Visitor Monitoring Code -->
+<script language="JavaScript">
+    //浮動在線客服
+    $("#floatService1").show().Float({ floatRight: 1 });
+    $("#closefloatDownLoad1").click(function () { $("#floatService1").hide(); });
+	
+	$("#floatService2").show().Float({ floatRight: 0 });
+    $("#closefloatDownLoad2").click(function () { $("#floatService2").hide(); });
+</script>
+</div>
+</div>
+</body>
+</html>

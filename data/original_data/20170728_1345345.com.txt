@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>大赢家</title>
+<link rel="stylesheet" type="text/css" href="/dyj/css/style.css"  />
+<link rel="stylesheet" type="text/css" href="/dyj/css/sweetalert.css"  />
+<link rel="stylesheet" type="text/css" href="/js/jquery-ui/styles/jquery-ui.css">
+<script type="text/javascript" src="/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui/jquery-ui.js"></script>
+<script type="text/javascript" src="/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="/js/dialog.js"></script>
+<script type="text/javascript" src="/js/libs.js"></script>
+<script type="text/javascript" src="/dyj/js/login1.js"></script>
+<script type="text/javascript" src="/nobind/js/cash/common.js"></script>
+<script type="text/javascript" src="/dyj/js/sweetalert.min.js"></script>
+<script type="text/javascript" src="/dyj/js/home_main.min.js"></script>
+<script type="text/javascript" src="/dyj/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/dyj/js/js.js"></script>
+<script type="text/javascript" src="/dyj/js/jquery.SuperSlide.js"></script>
+<script type="text/javascript" src="/dyj/js/layer.js"></script>
+    <script type="text/javascript" src="/dyj/js/index.js"></script>
+  </head>
+<body>
+<div class="pro_box">请注册会员后进行投注！</div>
+<div class="gg-bg">
+  <div class="w">
+    <div class="tit">最新消息：</div>
+    <div class="gonggao">
+							<ul><li><a>尊敬的会员：当前公司工商入款银行帐号【徐洋】【徐洋】【吴莎】【吴莎】已经停用，为了避免不必要的麻烦，请所有会员存款前先登录</a></li></ul>
+							<ul><li><a>网站获取最新的存款帐号再进行存款，如存入我们公司已停用的帐号将无法为您查询款项，请广大会员互相通知一下，带来不便敬请谅解！</a></li></ul>
+							<ul><li><a>！</a></li></ul>
+							<ul><li><a>尊敬的用户：为给大家带来一个更好的游戏平台，请所有新老会员加一下本平台新QQ交流群：【999393】谨防被骗在线客服QQ请</a></li></ul>
+							<ul><li><a>联系：【1837888555】【2531888555】，由于最近腾讯严查博彩QQ交流群，请各位新老会员进群交流，少发截图尽</a></li></ul>
+							<ul><li><a>量使用文字交流，带来不便敬请谅解！谢谢</a></li></ul>
+							<ul><li><a>尊敬的会员：每成功推荐一位会员并存款次数达到3次以上、单次存款金额300元，即获得108元彩金红利回馈，介绍的朋友越多，您</a></li></ul>
+							<ul><li><a>获得的奖金也就越多！！请注意（同IP，姓名只可申请一次彩金，重复无效，代理旗下无效）申请步骤：
+步骤一： 请联系客服（18</a></li></ul>
+							<ul><li><a>34888555）提交您推荐的用户账号；
+步骤二： 被推荐人需达到要求存款总额/次数；（被推荐人必须是没存款的新会员）
+步</a></li></ul>
+							<ul><li><a>骤三： 推荐人联系客(1834888555)108元彩金红利，即可提款。
+大赢家彩票有权在任何时间取消或变更活动！</a></li></ul>
+					<ul><li><a>大赢家彩票网  彩界巨星  谁与争锋</a></li></ul>
+	</div>
+  </div>
+</div>
+<script>jQuery(".gg-bg").slide({ mainCell:".gonggao", effect:"topLoop",vis:1, autoPlay:true});</script>
+<div class="top">
+	<div class="w">
+		<div class="logo"><a href="/main"><img src="/dyj/images/logo.png"></a></div>
+		<div class="nav">
+			<ul>
+				<li><a href="/main">网站首页</a></li>
+				<li><a href="/register">开户注册</a></li>
+				<li><a href="/help/deposit">存款取款</a></li>
+				<li><a href="/promo">优惠活动</a></li>
+				<li><a href="/help/faq">常见问题</a></li>
+				<li><a href="http://login.53kf.com/webCompany.php?arg=10157815&style=1" target="_blank">在线客服</a></li>
+				<li><a href="/affdeal">代理加盟</a></li>
+			</ul>
+		</div>
+	</div>
+</div><div   class="loginbg">
+  <div class="login">
+      <div class="box">
+        <div class="t"><span><a target="_blank" href="http://login.53kf.com/webCompany.php?arg=10157815&style=1"><img src="/dyj/images/online.png"></a></span>用户登录</div>
+        <div>
+          <div class="label">
+            <em class="ico-user"></em><input type="text" class="txt" id="username" placeholder="用户名">
+          </div>
+          <div class="label2">
+            <em class="ico-pwd"></em><input type="password" class="txt1" id="password" placeholder="密 码"><a href="/forgotpwd"><div class="txt2">忘记？</div></a>
+          </div>
+          <div class="submit"><input type="submit" value="" id="btnlogin"></div>
+        <div class="reg"><a href="/register"></a></div>
+      <div class="btn" id="guestLogin"><a href="#"></a></div>
+        </div>
+      </div>
+    </div>
+</div> 
+
+<!--banner-->
+<!-- 代码begin -->
+<div class="banner">
+  <div class="flexslider">
+    <ul class="slides">
+      <li><a href="" style="background:url(/dyj/images/banner1.jpg) 50% 0 no-repeat; display:block;height:430px;"></a></li>
+      <li><a href="" style="background:url(/dyj/images/banner2.jpg) 50% 0 no-repeat; display:block;height:430px;"></a></li>
+      <li><a href="" style="background:url(/dyj/images/banner3.jpg) 50% 0 no-repeat; display:block;height:430px;"></a></li>
+    </ul>
+  </div>
+
+<div class="kf_t">
+	<div><img src="/dyj/images/k_vx.png"></div>
+	<div><a href="http://app.w345678.com/" target="_blank"><img src="/dyj/images/k_b5.png"></a></div>
+	<div><a href="http://app.w345678.com/" target="_blank"><img src="/dyj/images/k_b1.png"></a></div>
+	<div><a href="http://app.w345678.com/" target="_blank"><img src="/dyj/images/k_b2.png"></a></div>
+	<div><a href="http://aa888.com/main" target="_blank"><img src="/dyj/images/k_b4.png"></a></div>
+	<div><a href="javascript:void(0)" onClick="$('.kf_t').hide()"><img class="push-10" src="/dyj/images/close2.png"></a></div>
+</div>
+</div>
+<script>
+$(function(){
+  $('.banner .flexslider').flexslider({
+    directionNav: true,
+    pauseOnAction: false
+  });
+});
+</script>
+
+<div class="w">
+  <div class="cai clearfix">
+    <ul>
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic4.png">
+        </div>
+        <p>北京赛车PK10</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic2.png">
+        </div>
+        <p>重庆时时彩</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic6.png">
+        </div>
+        <p>极速赛车</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic5.png">
+        </div>
+        <p>PC蛋蛋28</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic1.png">
+        </div>
+        <p>福彩3D</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+      
+      <li>
+        <div class="img">
+            <img src="/dyj/images/pic3.png">
+        </div>
+        <p>香港六合彩</p>
+        <a  href="javascript:void(0)" onClick="tc()">立即投注</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="ad-w">
+  <div class="w">
+      <div class="fl">
+       <div class="specdetail">
+           <div><img src="/dyj/images/fwys.png"></div>
+                    <div class="specleft">
+                        <div class="cci_title">存款火速到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count1">25</div>
+                        <div class="number1txt">秒</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar1" style="right: 100px;"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft">
+                        <div class="cci_title">取款到账</div>
+                        <p>平均时间</p>
+                    </div>
+                    <div class="specright">
+                        <div class="number1" id="count2">2‘00</div>
+                        <div class="number1txt">分</div>
+                    </div>
+                </div>
+                <div class="specgraph">
+                    <div class="stats1">
+                        <div class="stats2" id="bar2" style="right: 70px;"></div>
+                    </div>
+                </div>
+                <div class="specdetail">
+                    <div class="specleft2">
+                        <div class="cci_title">便捷的银行服务 <p class="card_count">目前我们支付机构有：</p></div>
+                       
+                    </div>
+                    <div class="specright">
+                        <div class="number1 bank_number" id="count3">34</div>
+                        <div class="number1txt bank_numbertxt">家</div>
+                    </div><div class="clearfix"></div>
+            <p><img src="/dyj/images/bank.png"  alt=""></p>
+                </div>
+      </div>
+      <div class="cpys">
+      <img src="/dyj/images/cpys.png">
+      <h2>手机客户端</h2>
+      <p>独家提供苹果/安卓客户端，您可以通过手机客户<br>
+        端畅玩所有彩票游戏。<br>
+      </p>
+      <h2>手机触屏版</h2>
+      <p>专注彩票，独家提供手机触屏网页版，无需下载，<br>
+        打开网页即可下注畅玩，兼容完美。</p>
+      <h2>极速赛车平台</h2>
+      <p>“极速赛车”是引进欧洲博彩公司开奖设备，由菲律宾博彩执照公司审核监控，联合开发的彩票游戏，保证公平公正；由于该彩种并不属于某单一地区彩种，所以暂时还未对外开放官方网站，但是这类彩种在欧洲当地是非常火爆的，每75秒开一次奖。</p>
+      </div>
+      <div class="cpys fr">
+      <img src="/dyj/images/ad.png"><br><br><br>
+      <div><img src="/dyj/images/paizhao.png"></div>
+      <p>大赢家是由菲律宾政府卡格扬河经济特区所授权
+和监管，拥有菲律宾政府自2005年颁发、最具历
+史的牌照。</p>
+      </div>
+  
+  </div>
+</div>
+  
+  
+
+<!--底部-->
+<div class="w">
+	<div class="foot">
+		<div class="copyright">为了保证您最佳体验环境，推荐使用IE浏览器，谷歌浏览器或火狐浏览器<p>Copyright © 大赢家 All Rights Reserved.</p></div>
+	</div>
+</div>
+<div class="line"></div>
+<script type="text/javascript">
+$(".top .nav ul").children("li").eq(0).addClass("on");
+</script>
+</body>
+</html>

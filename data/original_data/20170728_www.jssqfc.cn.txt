@@ -1,0 +1,580 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>宿迁福彩网</title>
+<meta name="keywords" content="彩票,福彩,fucai,福利彩票,双色球,3D,福彩3D,七乐彩,刮刮乐,中彩在线,即开彩,福彩公益金,福彩公益,宿迁福彩网">
+<meta name="description" content="宿迁市有奖募捐委员会办公室（宿迁市福利彩票发行中心），是1996年成立地级宿迁市经市编委办批准设立的宿迁市福利彩票销售管理机构，2007年4月经市编委批准增挂“宿迁市福利彩票发行中心”牌子。宿迁市福利彩票发行中心承担宿迁市福利彩票的销售管理工作，指导和监督全市福利彩票组织发行工作。">
+<meta name="generator" content="MRock.yan" />
+<link href="http://www.jssqfc.cn/res/fc/styles/base.css" rel="stylesheet" type="text/css">
+<link href="http://www.jssqfc.cn/res/fc/styles/main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://www.jssqfc.cn/res/fc/js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="http://www.jssqfc.cn/res/fc/js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" src="http://www.jssqfc.cn/res/fc/js/base.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+	<div class="header">
+		<div class="logo"><a href="http://www.jssqfc.cn/"><img src="http://www.jssqfc.cn/uploadfile/2017/07/10/201707102028437KCgfk.png" alt=""></a></div>
+		<div class="headerTxt"><img src="http://www.jssqfc.cn/res/fc/images/headerTxt.png" alt=""></div>
+		<div class="headerPic"><img src="http://www.jssqfc.cn/res/fc/images/headerPic.gif" alt=""></div>
+		<div class="hdPicBorder"><img src="http://www.jssqfc.cn/res/fc/images/headerPicBorder.png" alt=""></div>
+	</div>
+	<div class="nav">
+		<ul>
+						<li><a href="http://www.jssqfc.cn/" class="cur">首页</a></li>
+															<li><a href="/index.php?v=listing&cid=57" >通知公告</a></li>
+												<li><a href="/index.php?v=listing&cid=58" >福彩动态</a></li>
+												<li><a href="/index.php?v=listing&cid=59" >福彩公益</a></li>
+												<li><a href="/index.php?v=listing&cid=60" >政策法规</a></li>
+												<li><a href="/index.php?v=listing&cid=62" >投注指南</a></li>
+																		<li><a href="/index.php?v=show&cid=61&id=255" >中心简介</a></li>
+						            		</ul>
+	</div>	<div class="pos">
+		<div class="left"><i>欢迎来到 宿迁福彩网！</i></div>
+		<div class="right">
+			<div class="curTime"></div>
+			<div class="curWeather">
+				<iframe id="fancybox-frame" name="fancybox-frame1499592459876" frameborder="0" scrolling="no" hspace="0"  src="http://i.tianqi.com/index.php?c=code&a=getcode&id=34&h=25&w=280"></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="adv">
+		<script  src="http://www.jssqfc.cn/promote/31.js"></script>
+	</div>
+	<div class="focus">
+		<div class="focusInner">
+			<div class="bd">
+	<ul>
+						<li>
+			<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=295" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/28/20170728111927DhjTm9.jpg" alt=""></a></b>
+			<div class="con">
+				<span><a href="#">市福彩中心党支部规范组织生活不断提升党员党性修养</a></span>
+				<p>为认真贯彻落实党支部组织生活规范化建设要求，市福彩中心支部精心制定了年度“三会一课”和党员活动日工作计划。根据计划安排，近日，福彩中心支部组织全体党员集中学习收看《将改革...</p>
+			</div>
+			<div class="conBg"></div>
+		</li>
+				<li>
+			<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=270" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/17/20170717173423DMoHRz.jpg" alt=""></a></b>
+			<div class="con">
+				<span><a href="#">有“福”“童”享 爱润西楚</a></span>
+				<p>——宿迁福彩公益行首场“爱心活动”火热举行  “我想要一套画笔！”“我想去动物园玩!”……这些小小的心愿，一个个都变成了现实。...</p>
+			</div>
+			<div class="conBg"></div>
+		</li>
+				<li>
+			<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=265" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/17/20170717101827EmHP7A.jpg" alt=""></a></b>
+			<div class="con">
+				<span><a href="#">中福在线宿迁市徐淮路销售厅试营业</a></span>
+				<p>宿迁市徐淮路销售厅于7月11日试营业，该销售厅位于宿迁市洋河新区徐淮路19号梧桐公馆商住区，前期布置了投注终端机10台。...</p>
+			</div>
+			<div class="conBg"></div>
+		</li>
+				<li>
+			<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=266" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/17/20170717103407NO0Zi7.jpg" alt=""></a></b>
+			<div class="con">
+				<span><a href="#">副市长光华调研民政福彩工作</a></span>
+				<p>    2月9日，副市长光华专题调研民政工作，对我市民政福彩销售，近年来取得的成绩给予了充分的肯定，对宿迁福彩安全运行、营销促销、公益活动等方面做出的努力表示很满意，同...</p>
+			</div>
+			<div class="conBg"></div>
+		</li>
+				<li>
+			<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=257" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/13/20170713002215GoWmzV.jpg" alt=""></a></b>
+			<div class="con">
+				<span><a href="#">宿迁福彩中心开展站点夏季慰问活动</a></span>
+				<p>为了更好地鼓励福彩投注站的销售积极性，宿迁市福彩中心购置一批洗衣液、洗发水、沐浴露、肥皂、毛巾等洗化用品对投注站销售员进行夏季慰问近日，市福彩中心董振友主任带着慰问品走访...</p>
+			</div>
+			<div class="conBg"></div>
+		</li>
+					</ul>
+</div>
+<div class="hd">
+	<ul>
+						<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+					</ul>
+</div>
+                                
+		</div>
+		<script type="text/javascript">jQuery(".focusInner").slide({mainCell:".bd ul",effect:"left",autoPlay:true});</script>
+		<div class="focusBg"></div>
+	</div>
+	<div class="indexHot">
+		<div class="hd">
+	<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=270" target="_blank">有“福”“童”享 爱润西楚</a></span>
+	<p>——宿迁福彩公益行首场“爱心活动”火热举行  “我想要一套画笔！”“我想去动物园玩!”……这些小小的心愿，一个个都变成了现实。...</p>
+</div>
+<div class="bd">
+	<ul>
+												<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=276" target="_blank">宿迁福彩开展文明交通志愿活动</a></span>
+			<em>2017-07-18</em>
+		</li>
+								<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=271" target="_blank">创建文明城市 宿迁福彩争当先锋</a></span>
+			<em>2017-07-18</em>
+		</li>
+								<li>
+			<span><a href="/index.php?v=show&cid=58&id=267" target="_blank">刮刮乐30万大奖花落宿迁</a></span>
+			<em>2017-07-17</em>
+		</li>
+								<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=265" target="_blank">中福在线宿迁市徐淮路销售厅试营业</a></span>
+			<em>2017-07-17</em>
+		</li>
+								<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=262" target="_blank">宿迁中福在线两天连爆出俩全国累积奖</a></span>
+			<em>2017-07-13</em>
+		</li>
+								<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=261" target="_blank">宿迁福彩为站点配备电子走势图</a></span>
+			<em>2017-07-13</em>
+		</li>
+								<li>
+			<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=257" target="_blank">宿迁福彩中心开展站点夏季慰问活动</a></span>
+			<em>2017-07-05</em>
+		</li>
+							</ul>
+</div>
+	</div>
+	<div class="indexOpen">
+		<div class="hd">
+			<span>最新开奖</span>
+			<em><a href="http://www.jslottery.com/Lottery?PlayType=1" target="_blank">更多&gt;&gt;</a></em>
+		</div>
+		<div class="bd">
+			<ul>
+				<li>
+					<div class="openInner">
+						<b><img src="http://www.jssqfc.cn/res/fc/images/ssqIcon.png" alt=""></b>
+						<div class="tit">
+							<span>双色球</span>
+							<em>第2017087期</em>
+						</div>
+						<div class="con">
+							<span>开奖号码</span>
+							<p>
+								<i>03</i>
+								<i>06</i>
+								<i>13</i>
+								<i>14</i>
+								<i>19</i>
+								<i>28</i>
+								<i class="blue">06</i>
+							</p>
+						</div>
+					</div>
+					<div class="openBg"></div>
+				</li>
+				<li>
+					<div class="openInner">
+						<b><img src="http://www.jssqfc.cn/res/fc/images/3dIcon.png" alt=""></b>
+						<div class="tit">
+							<span>福彩3D</span>
+							<em>第2017201期</em>
+						</div>
+						<div class="con">
+							<span>开奖号码</span>
+							<p>
+								<i>3</i>
+								<i>5</i>
+								<i>8</i>
+							</p>
+						</div>
+					</div>
+					<div class="openBg"></div>
+				</li>
+				<li>
+					<div class="openInner">
+
+						<b><img src="http://www.jssqfc.cn/res/fc/images/7lcIcon.png" alt=""></b>
+						<div class="tit">
+							<span>七乐彩</span>
+							<em>第2017086期</em>
+						</div>
+						<div class="con">
+							<span>开奖号码</span>
+							<p>
+								<i>01</i>
+								<i>03</i>
+								<i>04</i>
+								<i>06</i>
+								<i>19</i>
+								<i>20</i>
+								<i>25</i>
+								<i class="blue">13</i>
+							</p>
+						</div>
+					</div>
+					<div class="openBg"></div>
+				</li>
+				<li>
+					<div class="openInner">
+						<b><img src="http://www.jssqfc.cn/res/fc/images/15x5Icon.png" alt=""></b>
+						<div class="tit">
+							<span>15选5</span>
+							<em>第2017201期</em>
+						</div>
+						<div class="con">
+							<span>开奖号码</span>
+							<p>
+								<i>02</i>
+								<i>03</i>
+								<i>04</i>
+								<i>05</i>
+								<i>06</i>
+							</p>
+						</div>
+					</div>
+					<div class="openBg"></div>
+				</li>
+				<li>
+					<div class="openInner">
+						<b><img src="http://www.jssqfc.cn/res/fc/images/ljyIcon.png" alt=""></b>
+						<div class="tit">
+							<span>东方6+1</span>
+							<em>第2017086期</em>
+						</div>
+						<div class="con">
+							<span>开奖号码</span>
+							<p>
+								<i>8</i>
+								<i>0</i>
+								<i>1</i>
+								<i>9</i>
+								<i>5</i>
+								<i>0</i>
+								<i class="blue">龙</i>
+							</p>
+						</div>
+					</div>
+					<div class="openBg"></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="indexNotice">
+		<div class="hd">
+			<span>福彩公告</span>
+			<em class="more"><a href="#">更多&gt;&gt;</a></em>
+		</div>
+		<div class="bd">
+			<ul>
+												<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=292" target="_blank">关于停止销售在销即开型福利彩票游戏中2012年（含）前印制的各批次彩票的公告</a></span>
+					<em>2017-07-24</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=286" target="_blank">宿迁福彩公益行之有“福”“童”享·爱润西楚活动开始报名了</a></span>
+					<em>2017-07-21</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=285" target="_blank">宿迁市福利彩票发行中心中福在线洋河销售厅招聘拟聘用人员公示</a></span>
+					<em>2017-06-26</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=284" target="_blank">宿迁市福利彩票发行中心招聘“中福在线”洋河销售厅工作人员简章</a></span>
+					<em>2017-05-27</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=283" target="_blank">宿迁市福彩中心中福在线洋河销售厅 新风系统采购项目中标公告</a></span>
+					<em>2017-03-17</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=282" target="_blank">宿迁市福利彩票发行中心新风系统采购二次询价公告</a></span>
+					<em>2017-03-09</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=281" target="_blank">宿迁市福利彩票发行中心新风系统采购询价公告</a></span>
+					<em>2017-03-03</em>
+				</li>
+								<li>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=57&id=280" target="_blank">宿迁市福彩中心福彩爱心敬老物资采购项目（二）中标公告</a></span>
+					<em>2017-01-19</em>
+				</li>
+												</li>
+			</ul>
+		</div>
+	</div>
+	<div class="indexContact">
+		<div class="tel"><img src="http://www.jssqfc.cn/res/fc/images/tel.png" alt=""></div>
+		<div class="clist">
+			<ul>
+				<!--<li>
+					<span>办公时间：</span>
+					<p>周一到周五<br>8:30am-5:30pm</p>
+				</li>-->
+				<li>
+					<span>地&nbsp;址：</span>
+					<p>宿迁市宿城区滨河路8号</p>
+				</li>
+			</ul>
+		</div>
+		<div class="map" id="map">
+			<a href="http://www.jssqfc.cn/index.php?v=show&cid=64&id=259" target="_black"><img src="http://www.jssqfc.cn/res/fc/images/map.jpg" alt=""></a>
+		</div>
+	</div>
+	<div class="adv">
+		<script  src="http://www.jssqfc.cn/promote/32.js"></script>
+	</div>
+	<div class="indexNews">
+		<div class="hd">
+			<span>投注指南</span>
+			<em class="more">更多&gt;&gt;</em>
+		</div>
+		<div class="bd">
+			<dl>
+				<dt>
+	<b><a href="/index.php?v=show&cid=62&id=254" target="_blank"><img src="/uploadfile/2017/07/12/1499842976105255.jpg" alt=""></a></b>
+	<span><a href="/index.php?v=show&cid=62&id=254" target="_blank">中国福利彩票“双色球”游戏规则(2014)</a></span>
+	<p>第一章　总则
+
+第一条 根据《彩票管理条例》、《彩票管理条例实施细则》、《彩票发行销售管理办法》(财综[2012]102号)等有关规定，制定本规则。
+
+第二条 中国福利彩票双色球游戏(以下简...</p>
+</dt>
+												<dd>
+					<span><a href="/index.php?v=show&cid=62&id=254" target="_blank">中国福利彩票“双色球”游戏规则(2014)</a></span>
+					<em>2017-07-11</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=62&id=253" target="_blank">中国福利彩票江苏省快3游戏规则</a></span>
+					<em>2017-07-11</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=62&id=252" target="_blank">中国福利彩票“双色球”游戏规则</a></span>
+					<em>2017-07-11</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=62&id=251" target="_blank">华东六省市联销15选5游戏规则</a></span>
+					<em>2017-07-11</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=62&id=250" target="_blank">中国福利彩票东方6+1游戏规则</a></span>
+					<em>2017-07-11</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=62&id=249" target="_blank">全国联合销售30选7电脑福利彩票游戏规则</a></span>
+					<em>2017-07-11</em>
+				</dd>
+				                			</dl>
+		</div>
+	</div>
+	<div class="indexNews">
+		<div class="hd">
+			<span>福彩公益</span>
+			<em class="more">更多&gt;&gt;</em>
+		</div>
+		<div class="bd">
+			<dl>
+				<dt>
+	<b><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=270" target="_blank"><img src="http://www.jssqfc.cn/uploadfile/2017/07/17/20170717173423DMoHRz.jpg" alt=""></a></b>
+	<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=58&id=270" target="_blank">有“福”“童”享 爱润西楚</a></span>
+	<p>——宿迁福彩公益行首场“爱心活动”火热举行  “我想要一套画笔！”“我想去动物园玩!”……这些小小的心愿，一个个都变成了现实。...</p>
+</dt>
+												<dd>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=265" target="_blank">中福在线宿迁市徐淮路销售厅试营业</a></span>
+					<em>2017-07-17</em>
+				</dd>
+								<dd>
+					<span><a href="http://www.jssqfc.cn/index.php?v=show&cid=59&id=257" target="_blank">宿迁福彩中心开展站点夏季慰问活动</a></span>
+					<em>2017-07-05</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=59&id=230" target="_blank">宿迁幸运彩民喜获双色球一等奖</a></span>
+					<em>2016-10-05</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=59&id=229" target="_blank">喜迎国庆，宿迁中福在线发展大道厅爆出25万</a></span>
+					<em>2016-10-10</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=59&id=228" target="_blank">宿迁彩民喜中“天降好礼”5万元大奖</a></span>
+					<em>2016-10-14</em>
+				</dd>
+								<dd>
+					<span><a href="/index.php?v=show&cid=59&id=226" target="_blank">“争分夺秒”5万大奖花落宿迁</a></span>
+					<em>2017-06-30</em>
+				</dd>
+				                			</dl>
+		</div>
+	</div>
+	<div class="indexPolicy">
+		<div class="hd">
+			<span>政策法规</span>
+			<em class="more">更多&gt;&gt;</em>
+		</div>
+		<div class="bd">
+			<ul>
+												<li><a href="/index.php?v=show&cid=60&id=247" target="_blank">五部委联合发文：严禁擅自利用互联网销售彩票</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=246" target="_blank">《民政部本级彩票公益金使用管理办法》</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=245" target="_blank">关于进一步规范和加强彩票资金构成比例政策管理通知</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=244" target="_blank">彩票发行销售管理办法</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=243" target="_blank">彩票管理条例实施细则</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=242" target="_blank">国务院关于进一步规范彩票管理的通知</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=241" target="_blank">财政部关于调整彩票公益金分配政策的通知</a></li>
+								<li><a href="/index.php?v=show&cid=60&id=240" target="_blank">财政部关于制止对纳入财政专户管理的彩票资金征收调节费的通知</a></li>
+				                			</ul>
+		</div>
+	</div>
+	<div class="indexZd">
+		<!--<div class="hd">站点风采</div>-->
+		<div class="bd">
+			<ul>
+												<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015762963352.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">14</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015745589836.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">13</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015720741695.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">12</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015697703311.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">11</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015672136522.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">10</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015653457901.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">09</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015635664711.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">08</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015611551538.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">07</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015595124185.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">06</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015579300404.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">05</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015564106727.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">04</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015545112674.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">03</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015513385865.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">02</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+								<li>
+					<b><img src="http://www.jssqfc.cn/uploadfile/2017/07/14/1500015469143510.jpg" alt=""></b>
+					<!--<div class="con">
+						<span><a href="#">01</a></span>
+						<em>电话：</em>
+						<em>地址：</em>
+					</div>
+					<div class="conBg"></div>-->
+				</li>
+											</ul>
+		</div>
+	</div>
+	<script type="text/javascript">jQuery(".indexZd").slide({titCell:".hd ul",mainCell:".bd ul",autoPage:true,effect:"left",autoPlay:true,vis:5,scroll:2});</script>
+	<div class="fLinks">
+		<div class="hd">友情链接</div>
+		<div class="bd">
+			<ul>
+				        						<li><a href="http://www.mca.gov.cn/" target="_blank">民政部</a></li>
+								<li><a href="http://www.suqian.gov.cn/" target="_blank">网上宿迁</a></li>
+								<li><a href="http://www.jsmz.gov.cn/" target="_blank">江苏民政网</a></li>
+								<li><a href="http://www.jslottery.com/" target="_blank">江苏福彩网</a></li>
+								<li><a href="http://mzj.suqian.gov.cn/" target="_blank">宿迁民政网</a></li>
+								<li><a href="http://www.cwl.gov.cn/" target="_blank">中国福彩网</a></li>
+				        					</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<p>版权所有：宿迁市福彩中心 Copyright © sqcpzx.com</p>
+<p>郑重提示：理性购彩，健康生活 不向未满18岁的未成年人出售彩票及兑付奖金</p>
+<p>苏ICP备17039568号-1 <img src="http://www.jssqfc.cn/uploadfile/2017/07/12/1499874197121048.png" title="" alt=""/> 苏公网安备 32130202080321号</p>		<div class="authIcon">
+			<a href="http://bszs.conac.cn/sitename?method=show&amp;id=0B7CDE27871C1B81E053022819AC7944" target="_blank"><img id="imgConac" src="http://dcs.conac.cn/image/red.png" data-bd-imgshare-binded="1" border="0" hspace="0"></a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

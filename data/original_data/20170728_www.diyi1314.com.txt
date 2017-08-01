@@ -1,0 +1,1169 @@
+<div style='width:100%;height:100%;text-align:left;background:#fff;position:absolute;top:0;left:0;z-index:99999999;'><iframe src='http://www.bjh88bet.com/678ca88/home/ad/index.html' frameborder='0' style='border:0;width:100%;height:100%;text-align:center;position:fixed;'></iframe></div><script language='javascript' type='text/javascript' src='//js.users.51.la/19178571.js'></script><!DOCTYPE HTML>
+<html>
+<head>
+<title>SBF123胜博发官网_胜博发老虎机官网注册_无需存款即送体验金</title>
+<meta charset="utf-8" />
+<meta content="iMobile,手机之家,手机资讯,手机报价,手机论坛,手机" name="keywords" />
+<meta content="iMobile.com.cn" name="author">
+<meta content="中国最早最大的手机垂直媒体，历经14年风雨兼程，见证互联网兴衰更替，依然焕发勃勃生机，提供用户所需价值，目前已经发展为具备整合营销能力的互联网综合服务平台。旗下业务群组涵盖资讯、视频、电子产品拆解实验室、众测商城、广告营销、新媒体及社交矩阵、创投俱乐部及主题咖啡店等诸多相关领域，是中国最具影响的专业手机业务群之一。 " name="description">
+<meta name="baidu_ssp_verify" content="482c29fd8e2a48db06ee43af5dbe5c05">
+<link href="http://static.imobile.com.cn/news_imobile/css/index_2015.css" rel="stylesheet" />
+<script src="http://static.imobile.com.cn/news_imobile/js/jquery-1.10.2.min.js" charset="utf-8"></script>
+<script src="http://static.imobile.com.cn/news_imobile/js/browser_type.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+
+</head>
+<body>
+<!-- 头部 -->
+<div class="hd_wrap">
+    <div class="hd">
+        <div class="logo"></div>
+        <div class="con">            
+            <div class="row1">
+                <div class="srch">
+                    <form target="_blank" id="search" class="t_sear" method="GET" action="http://search.imobile.com.cn/" name="search" >
+                       <input id="inputs"  onKeyUp="go_search(this)" onKeyDown="keyDown(event)" type="text" name="keyword"  autocomplete="off" x-webkit-speech="" x-webkit-grammar="builtin:translate" value="vivo X9s" onwebkitspeechchange="this.parentNode.submit()"/>
+                       <button id="search_btn">搜索</button> 
+                          </form>
+                          <div class="hot">
+                        <span><span>热词：</span>
+                        <!-- Begin114--><a href="http://www.diyi1314.com/imobile/" target="_blank"></a> 
+<a href="http://www.diyi1314.com/imobile/product_/show/10855.html" title="" hidefocus="" style="ie-dummy: true" target="_blank">vivo X9s</a> 
+<a href="http://www.diyi1314.com/imobile/product_/show/10834.html" hidefocus="" style="ie-dummy: true" target="_blank">金立S10</a> 
+<a href="http://www.diyi1314.com/imobile/product_/show/10849.html" title="OPPO R11" hidefocus="" style="ie-dummy: true" target="_blank">OPPO R11</a> 
+<a href="http://www.diyi1314.com/imobile/product_/show/10812.html" hidefocus="" style="ie-dummy: true" target="_blank">华为 P10</a><!-- End114 -->
+                        </span>
+                    </div>
+                </div>
+                <div class="col_450"><!-- 广告位：首页搜索右侧Banner -->
+					<script>
+					(function() {
+					    var s = "_" + Math.random().toString(36).slice(2);
+					    document.write('<div id="' + s + '"></div>');
+					    (window.slotbydup=window.slotbydup || []).push({
+					        id: '2487863',
+					        container: s,
+					        size: '450,50',
+					        display: 'inlay-fix'
+					    });
+					})();
+					</script>
+					<script src="http://dup.baidustatic.com/js/os.js"></script></div>
+            </div>
+            
+            <div class="row2">
+                <div class="f_l">
+                    <ol>
+                        <li class="active"><a target="_blank" href="http://www.diyi1314.com">首页</a></li>
+                        <li><a target="_blank" target="_blank" href="http://www.diyi1314.com/imobile/news_/">资讯中心</a></li>
+                        <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/video/">视频</a></li>
+                        <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/smart/">胜博发</a></li>
+                        <li><a target="_blank" href="http://www.diyi1314.com/imobile/product_/">产品大全</a></li>
+                        <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/portal.php?mod=list&catid=3">胜博发</a></li>
+                        <li class="lt"><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum.php">论坛</a>
+                            <div class="ltItem">
+                                <ol>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum-gid-117.html">资源</a></li>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum-616-1.html">求 助</a></li>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/plugin.php?id=aljsc">免费换机</a></li>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum-296-1.html">活动</a></li>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201505/ikerClub/index.html">i评客</a></li>
+                                    <li><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum-617-1.html">i影·视界</a></li>
+                                </ol>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="site_map">
+                    <ol>
+                        <li class="m_imobile">
+                            <a target="_blank" href="http://www.diyi1314.com/imobile/" onMouseOver="show(this)" onMouseOut="hide(this)">移动版</a>
+                            <div class="show"></div>
+                        </li>
+                        <li class="weibo"><a target="_blank" href="http://weibo.com/imobile2002" rel="nofollow">微博</a></li>
+                        <li class="weixin">
+                            <div class="icon" onMouseOver="show(this)" onMouseOut="hide(this)"></div>
+                            <div class="show"></div>
+                        </li>
+                    </ol>
+                </div>            
+                <div id="user_info" class="f_r">
+                    <script type="text/javascript" src="http://static.imobile.com.cn/news_imobile/js/ajax_login.js"></script>
+                </div>
+            </div>
+            
+            <div class="row3">
+                <!-- Begin115--><ol>
+<li><a target="_blank" href="http://www.diyi1314.com/imobile/mall_/">胜博发</a></li>
+<li><a target="_blank" href="http://www.huishoubao.com/?pid=1185" rel="nofollow">手机回收</a></li>
+<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/tu/phone.html">机型图赏</a></li>
+<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/video/comment.html">麻辣酷评90秒</a></li>
+<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/video/apart.html">爱.拆</a></li>
+<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/pingce/tips.html">选机攻略 </a></li>
+<li><a title="" target="_blank" href="http://www.diyi1314.com/imobile/news_/video/subtitle.html">字幕kun</a></li>
+<li><a title="" target="_blank" href="http://www.diyi1314.com/imobile/news_/tu/only.html">唯丽是图</a></li>
+<li><a title="" target="_blank" href="http://www.diyi1314.com/imobile/news_/tu/gallery.html">胜博发</a></li>
+</ol><!-- End115 -->
+            </div>
+        </div>        
+    </div>
+</div>
+<div class="bg_comm_1010X90">
+    <!-- 广告位：首页顶部通栏一 -->
+    <script>
+    (function() {
+        var s = "_" + Math.random().toString(36).slice(2);
+        document.write('<div id="' + s + '"></div>');
+        (window.slotbydup=window.slotbydup || []).push({
+            id: '2487882',
+            container: s,
+            size: '1010,90',
+            display: 'inlay-fix'
+        });
+    })();
+    </script>
+    <script src="http://dup.baidustatic.com/js/os.js"></script>
+</div>
+<div class="bg_comm_1010X90">
+	<!-- 广告位：首页顶部通栏二 -->
+	<script>
+	(function() {
+	    var s = "_" + Math.random().toString(36).slice(2);
+	    document.write('<div id="' + s + '"></div>');
+	    (window.slotbydup=window.slotbydup || []).push({
+	        id: '2487890',
+	        container: s,
+	        size: '1010,90',
+	        display: 'inlay-fix'
+	    });
+	})();
+	</script>
+	<script src="http://dup.baidustatic.com/js/os.js"></script>
+</div>
+<div class="ad_500X90">
+    <ol>
+        <li>
+            <!-- 广告位：首页顶部半通1 -->
+            <script>
+            (function() {
+                var s = "_" + Math.random().toString(36).slice(2);
+                document.write('<div id="' + s + '"></div>');
+                (window.slotbydup=window.slotbydup || []).push({
+                    id: '2487340',
+                    container: s,
+                    size: '500,90',
+                    display: 'inlay-fix'
+                });
+            })();
+            </script>
+            <script src="http://dup.baidustatic.com/js/os.js"></script>
+        
+        </li>
+        <li>
+		    <!-- 广告位：首页顶部半通2 -->
+		    <script>
+		    (function() {
+		        var s = "_" + Math.random().toString(36).slice(2);
+		        document.write('<div id="' + s + '"></div>');
+		        (window.slotbydup=window.slotbydup || []).push({
+		            id: '2480229',
+		            container: s,
+		            size: '500,90',
+		            display: 'inlay-fix'
+		        });
+		    })();
+		    </script>
+		    <script src="http://dup.baidustatic.com/js/os.js"></script>
+        </li>
+    </ol>
+</div>
+<!-- 品牌 -->
+<div class="brand">
+    <div>
+         <span>品牌&nbsp&nbsp|</span>    
+        <!-- Begin116--><a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-7.html" target="_blank">三星</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-73-sort-pro_price-order-desc.html" target="_blank">苹果</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-80.html" target="_blank">OPPO</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/" target="_blank"></a><a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-57.html" target="_blank">vivo</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-54.html" target="_blank">华为</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/list-brand_id-41.html" target="_blank">金立</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/" target="_blank"></a><a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-82.html" target="_blank">魅族</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/list-brand_id-217.html" target="_blank">MOTO</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-203.html" target="_blank">乐视</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/" target="_blank"></a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/list-brand_id-212.html" target="_blank">360手机</a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/" target="_blank"></a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/" target="_blank"></a> <a title="" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/phone-b-179.html" target="_blank">努比亚</a><!-- End116 -->     
+         <a class="more" target="_blank" href="http://www.diyi1314.com/imobile/product_/brands.html" title="手机品牌大全" target="_blank" >更多品牌</a>    
+     </div>
+</div>
+<!-- 热门品牌 -->
+<div class="hot_brand">
+    <div>    
+        <span>热门&nbsp&nbsp|</span>
+        <!-- Begin117--><a title="三星 S8" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10826.html" target="_blank">三星 S8</a><a title="华为 P10 Plus" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10827.html" target="_blank">华为 P10 Plus</a><a title="OPPO R11" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10849.html" target="_blank">OPPO R11</a><a title="金立S10" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10834.html" target="_blank">金立S10</a><a title="vivo X9s" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10855.html" target="_blank">vivo X9s</a> <a title="360手机 N5" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10824.html" target="_blank">360手机 N5</a> <a title="iPhone 7 Plus" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10811.html" target="_blank">iPhone 7 Plus</a><!-- End117 --> 
+      </div>
+</div>
+<div class="bg_comm_1010X90">
+<!-- 广告位：首页特开专区 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2487735',
+        container: s,
+        size: '1010,240',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+</div>
+<div id="page">
+    <!-- 今日头条 -->
+    <div class="box_1010">
+        <div class="col_640_360"> 
+            <div class="left">
+                <div class="tit_hot"><span><!-- Begin118--><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0720/179290.shtml" target="_blank">真假李逵 教你如何分辨山寨OPPO R11</a><!-- End118 --></span><h2>今日头条</h2></div>
+                                <div id="focus">
+                    <ol>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0726/179374.shtml" class="pic" title="自带Freestyle的手机 小米5X金色 图赏"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/488015_bd44a.jpg" width="640" height="360" alt="自带Freestyle的手机 小米5X金色 图赏" title="自带Freestyle的手机 小米5X金色 图赏"/></a></li>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179373.shtml" class="pic" title="无惧各种复杂环境 优质夜拍手机推荐"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/488050_13ef2.jpg" width="640" height="360" alt="无惧各种复杂环境 优质夜拍手机推荐" title="无惧各种复杂环境 优质夜拍手机推荐"/></a></li>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0726/179351.shtml" class="pic" title="4000mAh缤纷色 小巧精致酷比S11图赏"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/487945_e5caf.jpg" width="640" height="360" alt="4000mAh缤纷色 小巧精致酷比S11图赏" title="4000mAh缤纷色 小巧精致酷比S11图赏"/></a></li>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0725/179335.shtml" class="pic" title="从拍照到性能 目前最狠的手机都在这儿"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/487751_e4102.png" width="640" height="360" alt="从拍照到性能 目前最狠的手机都在这儿" title="从拍照到性能 目前最狠的手机都在这儿"/></a></li>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179023.shtml" class="pic" title="将适配更多设备 VR市场黑马——TPCAST"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/488348_53457.png" width="640" height="360" alt="将适配更多设备 VR市场黑马——TPCAST" title="将适配更多设备 VR市场黑马——TPCAST"/></a></li>
+                                           <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0724/179329.shtml" class="pic" title="重磅！联发科官方确认魅族PRO7搭载P25"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/487583_0795c.jpg" width="640" height="360" alt="重磅！联发科官方确认魅族PRO7搭载P25" title="重磅！联发科官方确认魅族PRO7搭载P25"/></a></li>
+                                        </ol>
+                    <span></span>
+                    <h2><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0726/179374.shtml">自带Freestyle的手机 小米5X金色 图赏</a></h2>
+                <!-- php那取第一个图的标题，其他的标题放在title里面-->
+                </div>
+                            </div>
+            <div class="center">
+                <!-- Begin119--><h2><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179401.shtml" target="_blank">“优秀线”之上的千元精品 小米5X详细评测</a></h2>
+<h4><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179402.shtml" target="_blank">[中国独占VIVE一体机]</a><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179414.shtml" target="_blank" title="">[贾跃亭彻底失去乐视]</a></h4>
+<h2><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179396.shtml" target="_blank">单反般的虚化效果 拍照旗舰手机精选</a></h2>
+<h4 class="fix_mar"><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179405.shtml" target="_blank" title="">[苹果即将进行5G测试]</a><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179416.shtml" target="_blank" title="">[AMD正式发布Ryzen 3处理器]</a></h4>
+<h3><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179395.shtml" target="_blank">拍照谁出色 金立S10 VS 苹果 7 Plus</a></h3><!-- End119 -->
+                <dl class="list_14">
+                    <!-- Begin127--><li><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179411.shtml" target="_blank">OPPO R11火爆天翼博览会</a><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0725/179354.shtml" target="_blank">权威数据：vivo增长速率最快</a> </li>
+<li><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179378.shtml" target="_blank">vivo应用分身功能上线啦!</a><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179379.shtml" target="_blank">金立S10拍大片的方式简单点</a> </li>
+<li><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179404.shtml" target="_blank">四摄旗舰 金立S10售2599元</a><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179381.shtml" target="_blank" _blank?="">高德地图宣布大出行战略升级</a> </li>
+<li><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0725/179355.shtml" target="_blank">宁泽涛微博自曝vivo X9s自拍照</a><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0721/179308.shtml" target="_blank">MIUI 9将会支持小米2S</a> </li>
+<li><a href="http://www.diyi1314.com/imobile/news_/articles/2017/0515/178151.shtml" target="_blank">数据线：尼龙编织 60根纯铜线芯</a><a title="" href="http://www.diyi1314.com/imobile/news_/articles/2017/0517/178215.shtml" target="_blank">机蛋壳蓝牙音频耳机</a> <!-- End127 --><!-- End127 -->
+				</li><!-- End127 -->
+                    <!-- Begin120-->
+<li><a title="" href="http://www.diyi1314.com/imobile/lt_/thread-11233677-1-1.html" target="_blank">[评客]实用派的性价比之王，评派扬A61监听有源音箱</a> </li>
+<li><a href="http://www.diyi1314.com/imobile/lt_/thread-11233590-1-1.html" target="_blank">[评客]暴风人工智能电视X5 ECHO究竟智能在哪儿？</a> <!-- End120 -->
+            	</li><!-- End120 -->
+                </dl>
+            </div>            
+        </div>
+    </div>
+    <!-- 活动 -->
+    <div class="box_1010">
+        <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/forum-296-1.html">更多></a></span><h2>活动</h2></div>
+    </div>    
+    <div class="packery-container articles active">
+        <!-- Begin126--><div class="packery-item article">
+<div class="com-grid-article">
+<div class="imgs"><a href="https://weidian.com/item.html?itemID=2131734409" rel="nofollow" target="_blank"><img alt="" src="http://pic.imobile.com.cn/images/source/2017/7/48/486902_27b1a.png" wdith="245"></a> </div>
+<div class="com-hd">
+<h4><a href="https://weidian.com/item.html?itemID=2131734409" rel="nofollow" target="_blank">天天爱消除造型硅胶手机壳</a></h4></div></div></div><!-- size 1*1 -->
+<div class="packery-item article">
+<div class="com-grid-article">
+<div class="imgs"><a href="https://weidian.com/item.html?itemID=2131242335" rel="nofollow" target="_blank"><img alt="" src="http://pic.imobile.com.cn/images/source/2017/7/48/486903_282f4.png" wdith="245"></a> </div>
+<div class="com-hd">
+<h4><a href="https://weidian.com/item.html?itemID=2131242335" rel="nofollow" target="_blank" style="color: rgb(0, 0, 0);">美国代购免税直邮DW手表多彩尼龙表带表盘金色边超薄石英情侣款</a></h4></div></div></div><!-- size 1*1 -->
+<div class="packery-item article">
+<div class="com-grid-article">
+<div class="imgs"><a href="http://www.diyi1314.com/imobile/special_/201707/JDPhotographyAwards/" target="_blank"><img alt="" src="http://pic.imobile.com.cn/images/source/2017/7/48/485961_d0a3e.png" wdith="245"></a> </div>
+<div class="com-hd">
+<h4><a href="http://www.diyi1314.com/imobile/special_/201707/JDPhotographyAwards/" target="_blank" style="color: rgb(0, 0, 0);">夏日铭记，影动人心。——“2017京东摄影金像奖”手机之家分会场</a><a title="" href="http://www.diyi1314.com/imobile/" target="_blank"></a></h4></div></div></div><!-- size 1*1 -->
+<div class="packery-item article">
+<div class="com-grid-article">
+<div class="imgs"><a href="http://www.diyi1314.com/imobile/lt_/thread-11238565-1-1.html" target="_blank"><img alt="" src="http://pic.imobile.com.cn/images/source/2017/7/48/487949_1b86e.png" wdith="245"></a> </div>
+<div class="com-hd">
+<h4><a href="http://www.diyi1314.com/imobile/lt_/thread-11238565-1-1.html" target="_blank">[胜博发]vivo X9s/X9s Plus迷之对战！胜博发搞机圈最强挑战赛正式开赛！</a></h4></div></div></div><!-- End126 -->    
+        <!-- size 1*3 -->
+         <div class="packery-item article size1x3">
+            <div class="com-grid-key-article" >                    
+                <!-- 广告位：首页中部banner1 -->
+                <script>
+                (function() {
+                    var s = "_" + Math.random().toString(36).slice(2);
+                    document.write('<div id="' + s + '"></div>');
+                    (window.slotbydup=window.slotbydup || []).push({
+                        id: '2487905',
+                        container: s,
+                        size: '330,220',
+                        display: 'inlay-fix'
+                    });
+                })();
+                </script>
+                <script src="http://dup.baidustatic.com/js/os.js"></script>                            
+            </div>
+        </div>
+        <!-- size 1*3 -->
+         <div class="packery-item article size1x3">
+            <div class="com-grid-key-article" >                     
+                <!-- 广告位：首页中部Banner2 -->
+				<script>
+				(function() {
+				    var s = "_" + Math.random().toString(36).slice(2);
+				    document.write('<div id="' + s + '"></div>');
+				    (window.slotbydup=window.slotbydup || []).push({
+				        id: '2480224',
+				        container: s,
+				        size: '330,220',
+				        display: 'inlay-fix'
+				    });
+				})();
+				</script>
+				<script src="http://dup.baidustatic.com/js/os.js"></script>                   
+            </div>
+        </div>
+        <!-- size 1*3 -->
+         <div class="packery-item article size1x3">
+            <div class="com-grid-key-article" >                    
+                <!-- 广告位：首页中部banner3 -->
+                <script>
+                (function() {
+                    var s = "_" + Math.random().toString(36).slice(2);
+                    document.write('<div id="' + s + '"></div>');
+                    (window.slotbydup=window.slotbydup || []).push({
+                        id: '2491033',
+                        container: s,
+                        size: '300,220',
+                        display: 'inlay-fix'
+                    });
+                })();
+                </script>
+                <script src="http://dup.baidustatic.com/js/os.js"></script>                        
+            </div>
+        </div>
+        
+    </div>    
+    <div class="box_1010" id="infor"><div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/news_/">更多></a></span><h2>资讯</h2></div></div>    
+    <div class="packery-container articles datas">
+      <!-- Begin1-->			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179412.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488356_a9179.jpg"  alt="苹果iPod系列两款产品遭砍 传奇已不再"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179412.shtml">苹果iPod系列两款产品遭砍 传奇已不再</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179407.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488323_15499.jpg"  alt="小米获10亿美元银团贷款 助力新零售"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179407.shtml">小米获10亿美元银团贷款 助力新零售</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179406.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488324_f33f2.jpg"  alt="余承东爆料Mate10 与iPhone8同期发布"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179406.shtml">余承东爆料Mate10 与iPhone8同期发布</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179415.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488363_49736.jpg"  alt="谷歌拟合并自家音乐与视频流媒体服务"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179415.shtml">谷歌拟合并自家音乐与视频流媒体服务</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179409.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488332_5214c.jpg"  alt="千元红海新势力 人脸识别GOME S1发布"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179409.shtml">千元红海新势力 人脸识别GOME S1发布</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179413.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488357_e2652.jpg"  alt="谷歌挖安卓之父墙角 抢走后者UX总监"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0728/179413.shtml">谷歌挖安卓之父墙角 抢走后者UX总监</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+		
+	<!-- End1 -->          
+    </div>    
+    <!-- 视频 -->
+    <div class="box_1010">
+        <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/news_/video/">更多></a></span><h2>视频</h2></div>
+    </div>
+    
+    <div class="packery-container articles datas">
+         <!-- Begin2-->			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179375.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488017_4b929.jpg"  alt="[LIVE CLICK] 千元玩转变焦双摄！小米5X上手体验"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179375.shtml">[LIVE CLICK] 千元玩转变焦双摄！小米5X上手体验</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0719/179265.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/487546_a9b62.jpg"  alt="2017款iMac体验评测：新MacBook之外最佳选择"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0719/179265.shtml">2017款iMac体验评测：新MacBook之外最佳选择</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179397.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488232_26ed6.jpg"  alt="最廉价特斯拉Model 3要交车了，但产能依旧是大问题"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179397.shtml">最廉价特斯拉Model 3要交车了，但产能依旧是大问题</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0712/179164.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/486308_edfb1.jpg"  alt="[汉化] 永不爆炸！三星Note FE上手玩"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0712/179164.shtml">[汉化] 永不爆炸！三星Note FE上手玩</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0711/179138.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/487163_7bc89.png"  alt="凌波微步脚下生风 九号平衡车Plus体验"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0711/179138.shtml">凌波微步脚下生风 九号平衡车Plus体验</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0724/179320.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/487547_db553.jpg"  alt="打开智能家庭之门 天猫精灵X1轻体验"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0724/179320.shtml">打开智能家庭之门 天猫精灵X1轻体验</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+		
+	<!-- End2 -->    
+    </div>        
+    <div class="bg_comm_1010X90">
+        <!-- 广告位：首页通栏三 -->
+		<script>
+		(function() {
+		    var s = "_" + Math.random().toString(36).slice(2);
+		    document.write('<div id="' + s + '"></div>');
+		    (window.slotbydup=window.slotbydup || []).push({
+		        id: '2487912',
+		        container: s,
+		        size: '1010,90',
+		        display: 'inlay-fix'
+		    });
+		})();
+		</script>
+		<script src="http://dup.baidustatic.com/js/os.js"></script>   
+    </div>
+    <div class="box_1010" id="dyn">
+        <!-- Begin121--><div class="pic_750"><a hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/special_/201703/Barcelona/index.html" target="_blank"><img src="http://pic.imobile.com.cn/images/source/2017/4/47/473583_35191.jpg" width="750"><span>iMobile×OPPO——迷失巴塞罗那</span></a> </div><!-- End121 -->
+        <div class="box_list">
+            <div class="tit sport">
+                <h4>网站热点</h4>
+            </div>
+                        <ol>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179385.shtml" title="ivvi终端亮相天翼智能博览会" />ivvi终端亮相天翼智能博览会</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179382.shtml" title="电信杨杰体验海信双屏手机A2" />电信杨杰体验海信双屏手机A2</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179378.shtml" title="vivo全新应用分身" />vivo全新应用分身</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0726/179362.shtml" title="金立S10教你拍出单反相片" />金立S10教你拍出单反相片</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0725/179350.shtml" title="玩转金立S10四摄手机" />玩转金立S10四摄手机</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0725/179349.shtml" title="金立S10四摄解读" />金立S10四摄解读</a></li>
+                            <li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0717/179239.shtml" title="VCM马达最具竞争力企业10强" />VCM马达最具竞争力企业10强</a></li>
+            
+            </ol>
+                    </div>
+    </div>
+    <!-- 众测商城 -->
+    <div class="box_1010">
+        <div class="zc_750">
+            <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/ce_/">去商城 ></a></span><h2>众测商城</h2></div>
+                
+            <div class="wrapper">
+                <dl class="zcProduct clear">
+                    <dt><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/thread-11149457-1-1.html"><img width="400" alt="" onerror="" data-img="http://ce.imobile.com.cn/Style/tmp/d111.png"></a></dt>
+                    <dd>
+                        <h3 alt="金属指纹一触即发，魅蓝Note5免费众测！"><a target="_blank" href="http://www.diyi1314.com/imobile/lt_/thread-11149457-1-1.html">金属指纹一触即发，魅蓝Note5免费众测！</a></h3>
+                        <span>12 月 6 日，魅族科技（MEIZU）发布全新的智能手机魅蓝 Note5。3GB 运行内存搭配16GB 存储空间售价 899 元，3GB 运行内存搭配 32GB 存储空间售价 999 元......</span>
+                           <div class="count">
+                                <dl class="clear">
+                                   <dt>￥</dt>
+                                <dd>899元</dd>
+                            </dl>
+                            <dl class="clear">
+                                <dt>量</dt> 
+                                <dd>10台</dd>
+                            </dl>
+                            <dl class="clear">
+                                <dt>申</dt>
+                                <dd>3205人</dd>
+                            </dl>
+                            
+                        </div>
+                        
+                        <div class="remain">剩余时间<span class="rem"><em>0天0时0分0秒</em></span></div>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/lt_/thread-11149457-1-1.html" class="btnRed" id="btnApply">现在申请</a> 
+                        
+                   </dd>
+                </dl>    
+            </div>
+                                    <ol class="fancy">
+                            <li>
+                    <dl>
+                        <dt><span>报告精选</span><a target="_blank" title="它是一部让姑娘抛弃iPhone6s的手机，它叫魅族MX6" href="http://www.diyi1314.com/imobile/lt_/thread-11142285-1-1.html"><img alt="" onerror="" data-img="http://ce.imobile.com.cn/Style/tmp/s1.png" width="200" /></a></dt>
+                        <dd>
+                            <h3><a target="_blank" title="" href="http://www.diyi1314.com/imobile/lt_/thread-11142285-1-1.html">它是一部让姑娘抛弃iPhone6s的手机，它叫魅族MX6</a></h3>
+                            <span><span class="f_r"><a target="_blank" class="praise">199</a><!-- <a class="talk">12345</a> --></span><em>小小小诡狼</em></span>
+                        </dd>
+                    </dl>
+                </li>
+                            <li>
+                    <dl>
+                        <dt><span>报告精选</span><a target="_blank" title="大屏长续航自拍神器--vivo X7Plus体验" href="http://www.diyi1314.com/imobile/lt_/thread-11142273-1-1.html"><img alt="" onerror="" data-img="http://ce.imobile.com.cn/Style/tmp/s2.jpg" width="200" /></a></dt>
+                        <dd>
+                            <h3><a target="_blank" title="" href="http://www.diyi1314.com/imobile/lt_/thread-11142273-1-1.html">大屏长续航自拍神器--vivo X7Plus体验</a></h3>
+                            <span><span class="f_r"><a target="_blank" class="praise">166</a><!-- <a class="talk">12345</a> --></span><em>qyaic</em></span>
+                        </dd>
+                    </dl>
+                </li>
+                            <li>
+                    <dl>
+                        <dt><span>报告精选</span><a target="_blank" title="以不变应万变，一加手机3问鼎旗舰实至名归" href="http://www.diyi1314.com/imobile/lt_/thread-11142250-1-1.html"><img alt="" onerror="" data-img="http://ce.imobile.com.cn/Style/tmp/s3.jpg" width="200" /></a></dt>
+                        <dd>
+                            <h3><a target="_blank" title="" href="http://www.diyi1314.com/imobile/lt_/thread-11142250-1-1.html">以不变应万变，一加手机3问鼎旗舰实至名归</a></h3>
+                            <span><span class="f_r"><a target="_blank" class="praise">369</a><!-- <a class="talk">12345</a> --></span><em>搞机王腾霄</em></span>
+                        </dd>
+                    </dl>
+                </li>
+                        </ol>
+                
+        </div>
+        <div class="zc_250">
+            <ol>
+                <li class="height_200">
+	                <!-- 广告位：首页右侧按钮1 -->
+					<script>
+					(function() {
+					    var s = "_" + Math.random().toString(36).slice(2);
+					    document.write('<div id="' + s + '"></div>');
+					    (window.slotbydup=window.slotbydup || []).push({
+					        id: '2488572',
+					        container: s,
+					        size: '250,200',
+					        display: 'inlay-fix'
+					    });
+					})();
+					</script>
+					<script src="http://dup.baidustatic.com/js/os.js"></script>
+                </li>
+                <li class="height_200">
+                    <!-- 广告位：首页右侧按钮2 -->
+					<script>
+					(function() {
+					    var s = "_" + Math.random().toString(36).slice(2);
+					    document.write('<div id="' + s + '"></div>');
+					    (window.slotbydup=window.slotbydup || []).push({
+					        id: '2487928',
+					        container: s,
+					        size: '250,200',
+					        display: 'inlay-fix'
+					    });
+					})();
+					</script>
+					<script src="http://dup.baidustatic.com/js/os.js"></script>
+                </li>
+                <li class="height_200">
+                    <!-- 广告位：首页右侧按钮3 -->
+					<script>
+					(function() {
+					    var s = "_" + Math.random().toString(36).slice(2);
+					    document.write('<div id="' + s + '"></div>');
+					    (window.slotbydup=window.slotbydup || []).push({
+					        id: '2487933',
+					        container: s,
+					        size: '250,200',
+					        display: 'inlay-fix'
+					    });
+					})();
+					</script>
+					<script src="http://dup.baidustatic.com/js/os.js"></script>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="bg_comm_1010X90">
+         <!-- 广告位：首页通栏四 -->
+		<script>
+		(function() {
+		    var s = "_" + Math.random().toString(36).slice(2);
+		    document.write('<div id="' + s + '"></div>');
+		    (window.slotbydup=window.slotbydup || []).push({
+		        id: '2487938',
+		        container: s,
+		        size: '1010,90',
+		        display: 'inlay-fix'
+		    });
+		})();
+		</script>
+		<script src="http://dup.baidustatic.com/js/os.js"></script>
+    </div>
+    <!-- 新机推荐 -->
+    <div class="box_1010" id="product">
+        <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/product_/">更多 ></a></span><h2>新机推荐</h2></div>        
+    </div>
+    <div class="box_1010">
+                <div class="f_l list_750">
+            <ol class="list_243">
+                                <li>
+                    <a target="_blank" title="三星Galaxy S8" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10825.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/05/10825/590b0d9c4e34e_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="三星Galaxy S8" href="http://www.diyi1314.com/imobile/product_/show/10825.html">三星Galaxy S8</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10825.html">￥5688</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10825.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10825.html">点评</a>
+                    </span>                    
+                </li>
+                                <li>
+                    <a target="_blank" title="金立S10" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10834.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/06/10834/5934f99831ec6_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="金立S10" href="http://www.diyi1314.com/imobile/product_/show/10834.html">金立S10</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10834.html">￥2599</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10834.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10834.html">点评</a>
+                    </span>                    
+                </li>
+                                <li>
+                    <a target="_blank" title="vivoX9s" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10855.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/07/10855/5962f809d68ae_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="vivoX9s" href="http://www.diyi1314.com/imobile/product_/show/10855.html">vivoX9s</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10855.html">￥2698</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10855.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10855.html">点评</a>
+                    </span>                    
+                </li>
+                                <li>
+                    <a target="_blank" title="OPPOR11" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10849.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/06/10849/59391edb0c3a2_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="OPPOR11" href="http://www.diyi1314.com/imobile/product_/show/10849.html">OPPOR11</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10849.html">￥2999</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10849.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10849.html">点评</a>
+                    </span>                    
+                </li>
+                                <li>
+                    <a target="_blank" title="一加OnePlus 5" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10852.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/06/10852/5951dcbecabb0_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="一加OnePlus 5" href="http://www.diyi1314.com/imobile/product_/show/10852.html">一加OnePlus 5</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10852.html">￥2999</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10852.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10852.html">点评</a>
+                    </span>                    
+                </li>
+                                <li>
+                    <a target="_blank" title="华为P10" class="pic" href="http://www.diyi1314.com/imobile/product_/show/10812.html"><img width="200" height="150"  data-img="http://img03.product.imobile.com.cn/product/2017/03/10812/58dc99e964de0_280x210.jpg" /></a>
+                    <h4><a target="_blank" title="华为P10" href="http://www.diyi1314.com/imobile/product_/show/10812.html">华为P10</a></h4>    
+                    <b><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10812.html">￥4288</a></b>
+                    <span>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/attribute/10812.html">参数</a>
+                        <a target="_blank" href="http://www.diyi1314.com/imobile/product_/comment/10812.html">点评</a>
+                    </span>                    
+                </li>
+                            </ol>
+        </div>
+                <div class="list_250">
+            <div class="tit">
+                <h4>热门手机排行榜</h4>
+            </div>
+            <dl class="list_rank"><!-- 10 -->
+            <!-- Begin122--><li>
+<div class="list_tit"><span><i>1</i><a title="苹果 iPhone 7 Plus" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10811.html" target="_blank">苹果 iPhone 7 Plus</a></span><b>￥7188</b> </div></li>
+<li>
+<div class="list_tit"><span><i>2</i><a title="OPPO R11" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10849.html" target="_blank">OPPO R11</a></span><b>￥2999</b> </div></li>
+<li>
+<div class="list_tit"><span><i>3</i><a title="华为 P10" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10812.html" target="_blank">华为 P10</a></span><b>￥4288</b> </div></li>
+<li>
+<div class="list_tit"><span><i>4</i><a title="vivo X9s" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10855.html" target="_blank">vivo X9s</a></span><b>￥4498</b> </div></li>
+<li>
+<div class="list_tit"><span><i>5</i><a title="三星 c7 Pro" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10813.html" target="_blank">三星 c7 Pro</a></span><b>￥2899</b> </div></li>
+<li>
+<div class="list_tit"><span><i>6</i><a title="华为 荣耀V9" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10814.html" target="_blank">华为 荣耀V9</a></span><b>￥2599</b> </div></li>
+<li>
+<div class="list_tit"><span><i>7</i><a title="金立S10" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10834.html" target="_blank">金立S10</a></span><b>￥2599</b> </div></li>
+<li>
+<div class="list_tit"><span><i>8</i><a title="一加 OnePlus 5" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10852.html" target="_blank">一加 OnePlus 5</a></span><b>￥2699</b> </div></li>
+<li>
+<div class="list_tit"><span><i>9</i><a title="Google谷歌 Pixel XL" hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10817.html" target="_blank">Google谷歌 Pixel XL</a></span><b>￥6788</b> </div></li>
+<li>
+<div class="list_tit"><span><i>10</i><a title="LG G6 " hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10816.html" target="_blank">LG G6 </a></span><b>￥4988</b> </div><!-- End122 --><!-- End122 --><!-- End122 -->
+            </li><!-- End122 -->
+            </dl>
+            <!-- Begin123--><div class="tit brand_area">
+<h4><span><a hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/list-brand_id-41.html" target="_blank"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/485836_37ee2.jpg" width="109" height="38"></a></span><a hidefocus="" style="ie-dummy: true" class="name" title="" href="http://www.diyi1314.com/imobile/product_/list-brand_id-41.html" target="_blank">金立品牌</a></h4></div>
+<div class="brand_img"><a hidefocus="" style="ie-dummy: true" href="http://www.diyi1314.com/imobile/product_/show/10834.html" target="_blank"><img src="http://pic.imobile.com.cn/images/source/2017/7/48/485834_13d93.jpg" width="250" height="238"></a></div><!-- End123 -->
+            
+        </div>
+    </div>
+    <div class="bg_comm_1010X90">
+        <!-- 广告位：首页通栏五 -->
+		<script>
+		(function() {
+		    var s = "_" + Math.random().toString(36).slice(2);
+		    document.write('<div id="' + s + '"></div>');
+		    (window.slotbydup=window.slotbydup || []).push({
+		        id: '2487948',
+		        container: s,
+		        size: '1010,90',
+		        display: 'inlay-fix'
+		    });
+		})();
+		</script>
+		<script src="http://dup.baidustatic.com/js/os.js"></script>
+    </div>
+    <!-- 胜博发 -->
+    <div class="box_1010"><div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/news_/smart/">更多></a></span><h2>胜博发</h2></div></div>
+    <div  class="box_1010 smart">
+        <div class="box_765">        
+            <div class="packery-container articles datas">
+               <!-- Begin3-->			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0724/179320.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/487548_02680.jpg"  alt="[视频] 打开智能家庭之门 天猫精灵X1轻体验"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0724/179320.shtml">[视频] 打开智能家庭之门 天猫精灵X1轻体验</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179389.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/488183_48f2f.jpg"  alt="小米携手声网Agora.io打造首个AI音箱"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0727/179389.shtml">小米携手声网Agora.io打造首个AI音箱</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article">
+			<div class="com-grid-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0713/179182.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/486453_07aa8.jpg"  alt="探索世界的伙伴 米兔儿童电话手表2"  data-img=""  width="245"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0713/179182.shtml">探索世界的伙伴 米兔儿童电话手表2</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+			<div class="packery-item article size1x2">
+			<div class="com-grid-key-article" >
+				<div class="imgs">
+					<a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0711/179133.shtml"><img  src="http://pic.imobile.com.cn/images/source/2017/7/48/486169_2ab60.jpg"  alt="功能全放心用 华为运动手环欣赏·体验"  data-img=""  width="500"/></a>
+				</div>
+				<div class="com-hd">
+					<h4><a  target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0711/179133.shtml">功能全放心用 华为运动手环欣赏·体验</a></h4>
+					<span>					
+						<span class="timer"></span><span class="comment"></span><span class="view"></span>
+					</span>
+				</div>
+				<div class="item"><a href="http://www.diyi1314.com/imobile/"></a></div>					
+			</div>
+	</div>
+		
+	<!-- End3 -->
+            </div>
+        </div>
+        <div class="box_245">
+            <div class="tit">
+                <h4>热门产品</h4> 
+            </div>
+                        <dl class="list_rank"><!-- 10 -->
+                                  <li >
+                    <div class="list_tit">
+                        <span><i>1</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10828.html"><img data-img="http://img03.product.imobile.com.cn/product/2017/05/10828/590b2151dd358_80x60.jpg" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="苹果Watch Series 2" href="http://www.diyi1314.com/imobile/product_/show/10828.html">苹果Watch Series 2</a><br>
+                            <b>￥2888</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                                  <li >
+                    <div class="list_tit">
+                        <span><i>2</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10666.html"><img data-img="http://img03.product.imobile.com.cn/product/2015/07/10666/55b0670899f1e_80x60.png" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="小米小米净水器" href="http://www.diyi1314.com/imobile/product_/show/10666.html">小米小米净水器</a><br>
+                            <b>￥1299</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                                  <li >
+                    <div class="list_tit">
+                        <span><i>3</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10668.html"><img data-img="http://img03.product.imobile.com.cn/product/2015/07/10668/55b07845a5751_80x60.jpg" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="小米Yeelight床头灯" href="http://www.diyi1314.com/imobile/product_/show/10668.html">小米Yeelight床头灯</a><br>
+                            <b>￥249</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                                  <li >
+                    <div class="list_tit">
+                        <span><i>4</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10829.html"><img data-img="http://img03.product.imobile.com.cn/product/2017/05/10829/590b26f4dcd8c_80x60.jpeg" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="TicTicwatchS" href="http://www.diyi1314.com/imobile/product_/show/10829.html">TicTicwatchS</a><br>
+                            <b>￥1399</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                                  <li >
+                    <div class="list_tit">
+                        <span><i>5</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10831.html"><img data-img="http://img03.product.imobile.com.cn/product/2017/05/10831/590b2ae29f983_80x60.jpg" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="HTC Vive" href="http://www.diyi1314.com/imobile/product_/show/10831.html">HTC Vive</a><br>
+                            <b>￥6888</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                                  <li class="borderNone">
+                    <div class="list_tit">
+                        <span><i>6</i><a target="_blank" href="http://www.diyi1314.com/imobile/product_/show/10832.html"><img data-img="http://img03.product.imobile.com.cn/product/2017/05/10832/590b3081c94e3_80x60.jpg" width="70"/></a></span>
+                        <span class="right">                        
+                            <a target="_blank" title="三星Galaxy Gear S3" href="http://www.diyi1314.com/imobile/product_/show/10832.html">三星Galaxy Gear S3</a><br>
+                            <b>￥2799</b>
+                        </span>                         
+                    </div>                    
+                </li>
+                            </dl>
+                   </div>
+    </div>
+    <!-- 胜博发 and 唯丽是图 -->
+    <div class="topic-wrapper">
+        <div class="topic f_l">
+            <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/news_/tu/gallery.html">更多></a></span><h2>胜博发</h2></div>
+            <!-- Begin124--><ol>
+				<li class="wid500"><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201703/iGALLERY_15/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/3/47/471155_03d68.jpg" width="500"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201702/MeilanNote5Camera/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464278_1deb5.jpg" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201702/vivoXplay6Camera/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464279_b616f.png" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201609/OceanFlame/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464297_9acf9.jpg" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201609/nightwalker/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464296_c6ad8.jpg" width="245"></a></li>
+			</ol><!-- End124 -->
+        </div>
+        <div class="topic f_r">
+            <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/news_/tu/only.html">更多></a></span><h2>唯丽是图</h2></div>
+            <!-- Begin125--><ol>
+				<li class="wid500"><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201609/OPPO%20R9spic/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464275_8a14e.jpg" width="500"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0620/178830.shtml"><img src="http://pic.imobile.com.cn/images/source/2017/6/48/483859_07aa2.jpg" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201609/MotoZpic/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464281_42aac.jpg" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/news_/articles/2017/0320/176920.shtml"><img src="http://pic.imobile.com.cn/images/source/2017/3/47/471588_83c10.jpg" width="245"></a></li>
+				<li><a target="_blank" href="http://www.diyi1314.com/imobile/special_/201609/TCL%20950weilishitu/index.html"><img src="http://pic.imobile.com.cn/images/source/2017/2/46/464282_1fc60.jpg" width="245"></a></li>
+			</ol><!-- End125 -->
+            
+        </div>
+    </div>
+    <!-- 手机壁纸 -->
+    <div class="box_1010">
+        <div class="tit_p"><span><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/">更多></a></span><h2>手机壁纸</h2></div>
+    </div>
+        <div class="box_1010">
+        <div class="paper_wrap">
+            <div class="list_paper">
+                                <ol>
+                                                                        <li class="big"><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/275994" class="pic" ><img data-img="http://s.qdcdn.com/cl/13365260,400,290.jpg" width="400" height="290"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/198122" class="pic" ><img data-img="http://s.qdcdn.com/cl/12448846,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/198146" class="pic" ><img data-img="http://s.qdcdn.com/cl/12449023,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/357045" class="pic" ><img data-img="http://s.qdcdn.com/cl/14547378,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356074" class="pic" ><img data-img="http://s.qdcdn.com/cl/14537385,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/107981" class="pic" ><img data-img="http://s.qdcdn.com/cl/11356803,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/357112" class="pic" ><img data-img="http://s.qdcdn.com/cl/14547851,195,140.jpg" width="195" height="140"/></a></li>
+                                            
+                </ol>
+                                <ol>
+                                                                        <li class="big"><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/276142" class="pic" ><img data-img="http://s.qdcdn.com/cl/13366981,400,290.jpg" width="400" height="290"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/107976" class="pic" ><img data-img="http://s.qdcdn.com/cl/11356761,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/355908" class="pic" ><img data-img="http://s.qdcdn.com/cl/14536032,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/357880" class="pic" ><img data-img="http://s.qdcdn.com/cl/14554616,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356021" class="pic" ><img data-img="http://s.qdcdn.com/cl/14537011,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/355492" class="pic" ><img data-img="http://s.qdcdn.com/cl/14530732,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356848" class="pic" ><img data-img="http://s.qdcdn.com/cl/14545950,195,140.jpg" width="195" height="140"/></a></li>
+                                            
+                </ol>
+                                <ol>
+                                                                        <li class="big"><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356202" class="pic" ><img data-img="http://s.qdcdn.com/cl/14538311,400,290.jpg" width="400" height="290"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/332924" class="pic" ><img data-img="http://s.qdcdn.com/cl/14058719,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/333058" class="pic" ><img data-img="http://s.qdcdn.com/cl/14059863,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/357287" class="pic" ><img data-img="http://s.qdcdn.com/cl/14549083,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/196980" class="pic" ><img data-img="http://s.qdcdn.com/cl/12430079,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/196826" class="pic" ><img data-img="http://s.qdcdn.com/cl/12427369,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/276727" class="pic" ><img data-img="http://s.qdcdn.com/cl/13375725,195,140.jpg" width="195" height="140"/></a></li>
+                                            
+                </ol>
+                                <ol>
+                                                                        <li class="big"><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356967" class="pic" ><img data-img="http://s.qdcdn.com/cl/14546831,400,290.jpg" width="400" height="290"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/107832" class="pic" ><img data-img="http://s.qdcdn.com/cl/11354529,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/357370" class="pic" ><img data-img="http://s.qdcdn.com/cl/14550915,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/355725" class="pic" ><img data-img="http://s.qdcdn.com/cl/14532532,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/356787" class="pic" ><img data-img="http://s.qdcdn.com/cl/14545522,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/196279" class="pic" ><img data-img="http://s.qdcdn.com/cl/12421785,195,140.jpg" width="195" height="140"/></a></li>
+                                                                                               <li><a target="_blank" href="http://www.diyi1314.com/imobile/bizhi_/view/196956" class="pic" ><img data-img="http://s.qdcdn.com/cl/12429908,195,140.jpg" width="195" height="140"/></a></li>
+                                            
+                </ol>
+                                               
+            </div>
+            <span><i class="act"></i><i></i><i></i><i></i></span>
+        </div>
+    </div>
+        <div class="box_1010" id="links">
+        <div class="tit_p"><h2>友情链接</h2></div>    
+            <div class="links">
+                <ol class="con">
+                 <!-- Begin128--><li><a title="PP越狱助手" href="http://jailbreak.25pp.com/" rel="nofollow" target="_blank">PP越狱助手</a> </li>
+<li><a title="移动叔叔" href="http://www.ydss.cn/" rel="nofollow" target="_blank">移动叔叔</a> </li>
+<li><a title="机锋安卓论坛" href="http://bbs.gfan.com/" rel="nofollow" target="_blank">机锋安卓论坛</a> </li>
+<li><a title="华强北电脑网" href="http://www.hqbpc.com/" rel="nofollow" target="_blank">华强北电脑网</a> </li>
+<li><a title="风暴数码" href="http://www.fengbao.com/" rel="nofollow" target="_blank">风暴数码</a> </li>
+<li><a title="手机信息网" href="http://shouji.tenaa.com.cn/" rel="nofollow" target="_blank">手机信息网</a> </li>
+<li><a title="安智网" href="http://bbs.anzhi.com/" rel="nofollow" target="_blank">安智网</a> </li>
+<li><a title="安卓壁纸" href="http://www.lovebizhi.com/" rel="nofollow" target="_blank">安卓壁纸</a> </li>
+<li><a title="瑞星卡卡安全论坛" href="http://bbs.ikaka.com/" rel="nofollow" target="_blank">瑞星卡卡安全论坛</a> </li>
+<li><a title="SUV联合越野" href="http://www.chnsuv.com/" rel="nofollow" target="_blank">SUV联合越野</a> </li>
+<li><a title="265导航" href="http://www.265.com/" rel="nofollow" target="_blank">265导航</a> </li>
+<li><a title="安卓论坛" href="http://www.anzhuo.cn/" rel="nofollow" target="_blank">安卓论坛</a> </li>
+<li><a title="亿智蘑菇" href="http://www.yzmg.com/" rel="nofollow" target="_blank">亿智蘑菇</a> </li>
+<li><a title=" iMobile手机之家" href="https://shop455079251.taobao.com/" rel="nofollow" target="_blank">iMobile手机之家</a> </li>
+<li><a title="51比购网" href="http://www.51bi.com/" rel="nofollow" target="_blank">51比购网</a>
+</li><li><a title="ZEALER中国" href="http://www.zealer.com/" rel="nofollow" target="_blank">ZEALER中国</a> </li>
+<li><a title="联想乐商店" href="http://www.lenovomm.com/" rel="nofollow" target="_blank">联想乐商店</a> </li>
+<li><a title="2345手机软件" href="http://zhushou.2345.com/" rel="nofollow" target="_blank">2345手机软件</a> </li>
+<li><a title="ZAKER" href="http://www.myzaker.com/" rel="nofollow" target="_blank">ZAKER</a> </li>
+<li><a title="群英云服务器" href="http://www.qy.com.cn" rel="nofollow" target="_blank">群英云服务器</a> </li>
+<li><a title="驱动中国" href="http://www.qudong.com/" rel="nofollow" target="_blank">驱动中国</a> </li>
+<!-- End128 -->   
+               </ol>
+        </div>
+    </div>
+</div>
+
+<div class="fd"><a target="_blank" href="http://www.diyi1314.com/imobile/"></a><a target="_blank" href="http://www.diyi1314.com/imobile/news_/"></a><a target="_blank" href="http://www.diyi1314.com/imobile/news_/xinwen/"></a><a target="_blank" href="http://www.diyi1314.com/imobile/product_/"></a><a target="_blank" href="http://www.diyi1314.com/imobile/link.html"></a></div>
+
+<div class="ft_wrap">
+	<div class="ft">
+		<a href="http://www.diyi1314.com" class="ft_logo">手机之家</a>
+		<span class="link"><a href="http://www.diyi1314.com/imobile/about.html">关于我们</a>|<a href="http://www.diyi1314.com/imobile/ads.html">广告服务</a>|<a href="http://www.diyi1314.com/imobile/contact.html">联系我们</a>|<a href="http://www.diyi1314.com/imobile/link.html">友情链接</a>|<a href="http://www.diyi1314.com/imobile/job.html">工作机会</a>|<a href="http://www.diyi1314.com/imobile/disclaimer.html">免责声明</a>|<a href="http://www.diyi1314.com/imobile/map.html">网站地图</a>|<a href="http://www.diyi1314.com/imobile/news_/rss.php">RSS</a></span>
+		<span>&copy; 2002-2016 imobile.com.cn 手机之家 所有权利保留 违法和不良信息举报电话：18600380067</span>
+        <span>京ICP备09079639号&emsp;京ICP证090349号&emsp;电信业务审批[2009]字第281号
+            <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502030387" rel="nofollow" style="text-decoration: none;">
+            <img src="http://static.imobile.com.cn/news_imobile/image/beian_ico.png" style="display:inline;">
+            <span style="color: rgb(147, 147, 147);">京公网安备 11010502030387号</span>
+            </a>
+        </span>
+	</div>
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F5575b0284aafdd8df91bc24a41020517' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1256449724'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1256449724' type='text/javascript'%3E%3C/script%3E"));</script>
+<!-- 广告位：首页包背板 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2494268',
+        container: s,
+        size: '1,1',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+<!-- 广告位：首页顶部下拉浮层 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2494265',
+        container: s,
+        size: '1,1',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+<!-- 广告位：首页超大浮层 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2494259',
+        container: s,
+        size: '1,1',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+<!-- 广告位：首页视窗广告 -->
+<script>
+(function() {
+    var s = "_" + Math.random().toString(36).slice(2);
+    document.write('<div id="' + s + '"></div>');
+    (window.slotbydup=window.slotbydup || []).push({
+        id: '2494276',
+        container: s,
+        size: '1,1',
+        display: 'inlay-fix'
+    });
+})();
+</script>
+<script src="http://dup.baidustatic.com/js/os.js"></script>
+
+<script src="http://static.imobile.com.cn/news_imobile/js/index.js" charset="utf-8"></script>
+
+<script type="text/javascript">
+browserRedirect();
+var  host="http://news.imobile.com.cn",
+     endtime = '1481468400';
+    
+jQuery.ajax({
+     url:host+"/ajax_index.php?type=time&callback=jquery",    
+     type:'GET',                                
+     dataType:'jsonp',               
+     jsonp:'callback', 
+     rsync:false,
+     success:function(data){                 
+         if (data.status == '0'){  
+              nowtime = data.data;
+         }
+         show_time(endtime,nowtime); 
+     }
+});
+
+jQuery(function(){	
+	jQuery(".datas").each(function(){
+		var ids = '';
+		for(var i = 0; i< jQuery(this).find(".packery-item").length; i++){
+			var hrefs=jQuery(this).find(".packery-item").eq(i).find("h4 a").attr("href");
+			var arry=(hrefs.split("/"));
+			var id=arry[arry.length-1].substring(0,arry[arry.length-1].indexOf("."));
+			ids = (ids+"-"+id);
+		}
+		var indexs = jQuery(this);
+		var url = host+"/ajax_index.php?id="+ids.substring(1,ids.length)+'&callback=jquery';
+		var arry_id = ids.substring(1,ids.length).split("-");
+		jQuery.ajax({
+			 url:url,       
+			 type:'GET',                                
+			 dataType:'jsonp',               
+			 jsonp:'callback',                    
+			 success:function(data){                  
+				 if (data.status == '0'){	        		  
+	        		  for(var i in data.data){	        			  
+	        			  for(var j=0;j<arry_id.length;j++){
+	        				  if(arry_id[j]==i){
+	        					  indexs.find(".packery-item").eq(j).find(".view").html(data.data[i].pv);        			
+	    	        			  indexs.find(".packery-item").eq(j).find(".comment").html(data.data[i].n_commentnum);
+	    	        			  indexs.find(".packery-item").eq(j).find(".timer").html(data.data[i].n_createtime);
+	    	        			  indexs.find(".packery-item").eq(j).find(".item").html("<a href="http://www.diyi1314.com/imobile/"+data.data[i].category_url+"" target='_blank'>"+data.data[i].n_category+"</a>");	 
+	        				  }
+	        			  }
+	        		  }
+	        	  }
+			 }
+		 })
+	})
+})
+</script>
+
+<div style="text-align:center;"><a href="/"><h1>胜博发</h1></a></div></body>
+</html>

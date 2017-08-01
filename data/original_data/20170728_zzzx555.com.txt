@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--IE9 W3C支持-->
+<meta http-equiv="X-UA-Compatible" content="IE=9,IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="IE=EmulateIE8" http-equiv="X-UA-Compatible" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name=”renderer” content=”webkit” />
+<title>会员登录 - 至尊在线</title>
+<meta name="msapplication-TileColor" content="#a40000">
+<meta name="msapplication-TileImage" content="/skin/images/apple-touch-icon-144.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/skin/images/apple-touch-icon-57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/skin/images/apple-touch-icon-72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/skin/images/apple-touch-icon-114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/skin/images/apple-touch-icon-144.png">
+<link href="/skin/css/wjstyle.css" rel="stylesheet" type="text/css">
+<link href="/skin/css/share.css" rel="stylesheet">
+<script type="text/javascript" src="/skin/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="/skin/js/Array.ext.js"></script>
+<script type="text/javascript" src="/skin/js/function.js"></script>
+<script type="text/javascript" src="/skin/js/onload.js"></script>
+<script type="text/javascript">window.onerror=function(){return true;}</script><link href="/skin/css/login.css" rel="stylesheet">
+<script language="javascript" type="text/javascript">
+var type='3';
+function cue(){
+    if(type == 1){
+        art.dialog("由于您长时间未操作，系统已经自动退出，请重新登录！", function(){/*alert(\'yes\');*/});
+    }else if(type == 2){
+        art.dialog("您的账号在其他地方登录，您被迫下线，如果这不是您自己的操作，请赶快修改密码！", function(){/*alert(\'yes\');*/});
+    }
+}
+</script>
+</head>
+<body class="body_loaded">
+<!--[if lt IE 9]>
+<script type="text/javascript">
+window.location.href='/low_version.htm';
+</script>
+<![endif]-->
+<div id="base_loading" style="display: none;">
+<span>至尊在线<br>资源加载中...</span>
+</div>
+<div id="login_wrap">
+<div class="locked" id="mobile_login_tutorial">
+    <div class="mlt_images"><img src="/index.php/qr/t/mobile" alt="手机端二维码"/></div>
+    <div class="mlt_tips">
+      <p>使用手机扫描上面的二维码打开手机版!</p>
+      <p>您也可以在手机浏览器输入<span style="color:#c00; text-decoration:underline;">http://zzzx555.com</span>直接进入手机投注系统！</p>
+    </div>
+</div>
+<!--login_cont start-->
+<div class="login_cont" style="margin-left: 2.5px; margin-top: 139px;">
+    <div class="login_cont_body">
+        <div class="lcb_item">
+            <div id="l_header_ad"></div>
+            <div class="lcb_header">
+                <div id="main_logo" title="至尊在线"><a href="http://zzzx555.com/">至尊在线</a></div>
+                <div id="light_filter"></div>
+                <div id="l_header_bar"></div>
+            </div>
+            <div class="lcb_body">
+                <form action="/index.php/user/logined" method="post" onajax="userBeforeLogin" enter="true" call="userLogin" target="ajax">
+                    <div class="form_item">
+                        <div class="l_form_text">
+                            <label for="username" id="ftl_a">用户名</label>
+                            <input type="text" id="username" name="username">
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="l_form_text">
+                            <label for="password" id="ftl_b">密码</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </div>
+                    <div class="form_item">
+                        <div class="l_form_text" style="width:90px;">
+                            <label for="vercode" id="ftl_c">验证码</label>
+                            <input type="text" name="vcode" id="vcode">
+                        </div>
+
+                        <div id="vercode_image"><img width="89" height="32" border="0" style="cursor:pointer;" align="absmiddle" src="/index.php/user/vcode/1501240622" title="看不清楚，换一张图片" onclick="this.src='/index.php/user/vcode/'+(new Date()).getTime()"/></div>
+                    </div>
+                    <div class="form_option">
+                        <div class="form_button">
+                            <input onclick="$(this).closest('form').submit()" type="button" id="login_submit" value="登  录">
+                                                        <a href="http://zzzx555.com/index.php/user/r/55" class="kf_btn">免费注册</a>
+                            <a href="http://tb.53kf.com/code/client/10154934/1" target="_blank" class="kf_btn" style="margin-left:22px">联系客服</a>
+                                                    </div>
+                    </div>
+                </form>
+            </div>
+            <div class="lcb_footer"><span class="paper_shadow" id="paper_a"></span><span class="paper_shadow" id="paper_b"></span></div>
+        </div>
+    </div>
+    <!--<div id="forget_pass"><a href="/down" target="_blank"><span>客户端下载</span></a></div>  -->
+</div>
+<!--login_cont end-->
+<div id="fix_menu_wrap">
+  <div id="fix_menu" style="width:220px">
+    <ul>      
+      <li><span id="show_mobile_login_type">手机版</span></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<!--lfooter start-->
+<div id="lfooter">
+    <p>至尊在线</p>
+    <p>版权所有 © 2010-2017</p>            
+</div>
+<!--lfooter end--> 
+</div>
+<script>
+function userBeforeLogin(){
+	var u=this.username.value;
+	var p=this.password.value;
+	var v=this.vcode.value;
+	if(!u){
+        alert("请输入用户名");
+    } else if(!p){
+        alert("请输入密码");
+    } else if(!v){
+        alert("请输入验证码");
+    } else{
+        return true;
+    }
+	return false;
+}
+
+function userLogin(err, data){
+	if(err){
+		alert(err);
+		$('input[name=vcode]').val('').closest('div').find('.yzmNum img').click();
+		$("#vcode").trigger("click");
+	}else{
+		location='/';
+	}
+}
+function onSilverlightError(sender, args) {
+    var appSource = "";
+    if (sender != null && sender != 0) {
+      appSource = sender.getHost().Source;
+    }
+
+    var errorType = args.ErrorType;
+    var iErrorCode = args.ErrorCode;
+
+    if (errorType == "ImageError" || errorType == "MediaError") {
+      return;
+    }
+
+    var errMsg = "Silverlight 应用程序中未处理的错误 " +  appSource + "\\n" ;
+
+    errMsg += "代码: "+ iErrorCode + "    \\n";
+    errMsg += "类别: " + errorType + "       \\n";
+    errMsg += "消息: " + args.ErrorMessage + "     \\n";
+
+    if (errorType == "ParserError") {
+        errMsg += "文件: " + args.xamlFile + "     \\n";
+        errMsg += "行: " + args.lineNumber + "     \\n";
+        errMsg += "位置: " + args.charPosition + "     \\n";
+    }
+    else if (errorType == "RuntimeError") {           
+        if (args.lineNumber != 0) {
+            errMsg += "行: " + args.lineNumber + "     \\n";
+            errMsg += "位置: " +  args.charPosition + "     \\n";
+        }
+        errMsg += "方法名称: " + args.methodName + "     \\n";
+    }
+    ShowDownLoadZiTi();
+    throw new Error(errMsg);
+}
+
+function ShowDownLoadZiTi() {
+    document.getElementById('ShowDownLoadZitiDiv').style.display = "";
+}
+
+function HideDownLoadZiTi() {
+    document.getElementById('ShowDownLoadZitiDiv').style.display = "none";
+}
+(function(n) {
+    n.tpwbFixController = {
+        options: {
+            autoShow: 1,
+            flip: "display",
+            speed: 300,
+            axis: "y",
+            easing: "linear",
+            offset: 20,
+            classSet: {
+                fixcontroller: "",
+                controller: "",
+                closeBtn: ""
+            },
+            callBack: {
+                beforeInit: function() {},
+                afterInit: function() {},
+                beforeShow: function() {},
+                afterShow: function() {},
+                beforeHide: function() {},
+                afterHide: function() {}
+            }
+        },
+        _init: function(t, i) {
+            var u = this,
+            r = {};
+            return i.callBack.beforeInit(),
+            r.options = i,
+            r.cItem = t,
+            r.isShow = !1,
+            r.itemCss = {},
+            r.itemCss.width = r.cItem.outerWidth(),
+            r.itemCss.height = r.cItem.outerHeight(),
+            r.itemCss.left = r.cItem.css("margin-left"),
+            r.itemCss.top = r.cItem.css("margin-top"),
+            r.fixcontroller = n("#fixcontroller")[0] ? n("#fixcontroller") : n("<div>").addClass("full_width fixed cp_controller" + i.classSet.fixcontroller).attr("id", "fixcontroller").css({
+                display: "none"
+            }).appendTo("body"),
+            r.controller = n(".controller_item")[0] ? n('.controller_item') : n("<div>").addClass("controller_item " + i.classSet.controller).css({
+                width: r.itemCss.width + "px",
+                height: r.itemCss.height + "px",
+                left: (n(window).width()-r.itemCss.width)/2,
+                top: r.itemCss.top,
+                display: "none"
+            }).appendTo(r.fixcontroller),
+            r.cItem.css({
+                margin: "0px"
+            }).appendTo(r.controller),
+            r.closeBtn = n('<div><a href="javascript:void(0);">关闭</a></div>').addClass("close " + i.classSet.closeBtn).appendTo(r.controller),
+            r.controller.bind({
+                show: function() {
+                    u._show(r)
+                },
+                hide: function() {
+                    u._hide(r)
+                },
+                toggle: function() {
+                    r.isShow ? u._hide(r) : u._show(r)
+                }
+            }),
+            r.closeBtn.bind({
+                click: function() {
+                    u._hide(r)
+                }
+            }),
+            i.autoShow && r.controller.trigger("show"),
+            i.callBack.afterInit(r)
+        },
+        _show: function(n) {
+            var i = this,
+            t = n.options;
+            if (!n.isShow) {
+                n.isShow = !0;
+                switch (t.flip) {
+                case "slide":
+                    i._slide(n, !0);
+                    break;
+                case "fade":
+                    t.callBack.beforeShow(n),
+                    n.fixcontroller.show(),
+                    n.controller.fadeIn(t.speed,
+                    function() {
+                        t.callBack.afterShow(n)
+                    });
+                    break;
+                case "display":
+                default:
+                    t.callBack.beforeShow(n),
+                    n.fixcontroller.show(),
+                    n.controller.show(),
+                    t.callBack.afterShow(n)
+                }
+            }
+        },
+        _hide: function(n) {
+            var i = this,
+            t = n.options;
+            if (n.isShow) {
+                n.isShow = !1;
+                switch (t.flip) {
+                case "slide":
+                    i._slide(n, !1);
+                    break;
+                case "fade":
+                    t.callBack.beforeHide(n),
+                    n.fixcontroller.hide(),
+                    n.controller.fadeOut(t.speed,
+                    function() {
+                        t.callBack.afterHide(n)
+                    });
+                    break;
+                case "display":
+                default:
+                    t.callBack.beforeHide(n),
+                    n.fixcontroller.hide(),
+                    n.controller.hide(),
+                    t.callBack.afterHide(n)
+                }
+            }
+        },
+        _slide: function(n, t) {
+            var r = {},
+            i = n.options;
+            if (r.fcSize = {
+                w: n.fixcontroller.width(),
+                h: n.fixcontroller.height()
+            },
+            r.cSize = {
+                w: n.controller.outerWidth(),
+                h: n.controller.outerHeight()
+            },
+            t) {
+                n.fixcontroller.show();
+                switch (i.axis) {
+                case "x":
+                    i.callBack.beforeShow(n),
+                    n.controller.css({
+                        left: "-" + parseInt(r.cSize.w + i.offset) + "px"
+                    }).stop(!0, !1).fadeIn().dequeue().animate({
+                        left: n.itemCss.left
+                    },
+                    i.speed, i.easing,
+                    function() {
+                        i.callBack.afterShow(n)
+                    });
+                    break;
+                case "y":
+                default:
+                    i.callBack.beforeShow(n),
+                    n.controller.css({
+                        top: "-" + parseInt(r.cSize.h + i.offset) + "px"
+                    }).stop(!0, !1).fadeIn().dequeue().animate({
+                        top: n.itemCss.top
+                    },
+                    i.speed, i.easing,
+                    function() {
+                        i.callBack.afterShow(n)
+                    })
+                }
+            } else switch (i.axis) {
+            case "x":
+                i.callBack.beforeHide(n),
+                n.controller.stop(!0, !1).fadeOut().dequeue().animate({
+                    left: parseInt(r.fcSize.w + i.offset) + "px"
+                },
+                i.speed, i.easing,
+                function() {
+                    n.fixcontroller.hide(),
+                    i.callBack.afterHide(n)
+                });
+                break;
+            case "y":
+            default:
+                i.callBack.beforeHide(n),
+                n.controller.stop(!0, !1).fadeOut().dequeue().animate({
+                    top: parseInt(r.fcSize.h + i.offset) + "px"
+                },
+                i.speed, i.easing,
+                function() {
+                    n.fixcontroller.hide(),
+                    i.callBack.afterHide(n)
+                })
+            }
+        }
+    },
+    n.fn.tpwbFixController = function(t) {
+        return this.each(function() {
+            var u = n(this),
+            r = n.extend(!0, {},  n.tpwbFixController.options, t),
+            i = n.tpwbFixController._init(u, r)
+        })
+    }
+})(jQuery);
+$(function(){
+	$(".wjalert").live("click",function(){
+		alert("对不起，请先登录");
+		return false;
+	})
+    $('.hover_fade > a, .hover_fade > span').hover(
+        function(){
+            $(this).stop().animate({'opacity': 0}, 350);
+        }, function(){
+            $(this).stop().animate({'opacity': 1}, 350);
+        }
+    );
+    $('#show_mobile_login_type').click(function() {
+        $("#mobile_login_tutorial").tpwbFixController();        
+    });
+});
+    </script>
+</body>
+</html>
